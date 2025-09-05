@@ -1,0 +1,363 @@
+{
+    "Changes": [
+		//==============================================================================================
+		//==== CROPS ===================================================================================
+		//==============================================================================================
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModID}}_bloodstainedroseseeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [1, 2, 3, 4, 2],
+                    "RegrowDays": 3,
+					"IsRaised": true,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 5,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.2,
+                    "ExtraHarvestChance": 0.2,
+                    "HarvestItemId": "{{ModID}}_bloodstainedrose",
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_crops",
+                    "SpriteIndex": 0
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModID}}_freshdillseeds": {
+                    "Seasons": [ "spring" ],
+                    "DaysInPhase": [1, 2, 2, 2],
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 4,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.2,
+                    "ExtraHarvestChance": 0.25,
+					"HarvestMethod": "Scythe",
+                    "HarvestItemId": "{{ModID}}_freshdill",
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_crops",
+                    "SpriteIndex": 1
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModID}}_fisheyebeansseeds": {
+                    "Seasons": [ "spring","summer","fall","winter" ],
+                    "DaysInPhase": [1, 2, 2, 2, 1],
+                    "RegrowDays": 3,
+					"IsRaised": true,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 2,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.2,
+                    "ExtraHarvestChance": 0.02,
+                    "HarvestItemId": "{{ModID}}_fisheyebeans",
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_crops",
+                    "SpriteIndex": 2
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModID}}_halcyonflowerseeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [1, 2, 2, 2],
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 3,
+                    "HarvestMaxIncreasePerFarmingLevel":0.2,
+                    "ExtraHarvestChance": 0.05,
+                    "HarvestItemId": "{{ModID}}_halcyonflower",
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_crops",
+                    "SpriteIndex": 3
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModID}}_spicymustardseeds": {
+                    "Seasons": [ "spring","summer","fall","winter" ],
+                    "DaysInPhase": [1, 2, 3, 3, 1],
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 3,
+                    "HarvestMaxIncreasePerFarmingLevel":0.2,
+                    "ExtraHarvestChance": 0.05,
+                    "HarvestItemId": "{{ModID}}_spicymustard",
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_crops",
+                    "SpriteIndex": 4
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModID}}_oceanflaxseeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [1, 1, 1, 1],
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 3,
+                    "HarvestMaxIncreasePerFarmingLevel":0.2,
+                    "ExtraHarvestChance": 0.25,
+					"HarvestMethod": "Scythe",
+                    "HarvestItemId": "{{ModID}}_oceanflax",
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_crops",
+                    "SpriteIndex": 5
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModID}}_petrichorseeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [1, 2, 2, 2],
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 3,
+                    "HarvestMaxIncreasePerFarmingLevel":0.2,
+                    "ExtraHarvestChance": 0.25,
+                    "HarvestItemId": "{{ModID}}_petrichor",
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_crops",
+                    "SpriteIndex": 6
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModID}}_saltemmerseeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [1, 1, 1, 1],
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 3,
+                    "HarvestMaxIncreasePerFarmingLevel":0.2,
+                    "ExtraHarvestChance": 0.25,
+					"HarvestMethod": "Scythe",
+                    "HarvestItemId": "{{ModID}}_saltemmer",
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_crops",
+                    "SpriteIndex": 7
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModID}}_scallureseeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [1, 2, 2, 2],
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 3,
+                    "HarvestMaxIncreasePerFarmingLevel":0.2,
+                    "ExtraHarvestChance": 0.05,
+                    "HarvestItemId": "{{ModID}}_scallure",
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_crops",
+                    "SpriteIndex": 8
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModID}}_sunsetroseseeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [1, 2, 3, 4, 2],
+                    "RegrowDays": 3,
+					"IsRaised": true,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 3,
+                    "HarvestMaxIncreasePerFarmingLevel":0.2,
+                    "ExtraHarvestChance": 0.25,
+                    "HarvestItemId": "{{ModID}}_sunsetrose",
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_crops",
+                    "SpriteIndex": 9
+				}
+			}
+		},
+		//==============================================================================================
+		//==== GIANT CROPS =============================================================================
+		//==============================================================================================
+		{
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Entries": {
+				"{{ModID}}_giantbloodstainedrose": {
+					"FromItemId":"{{ModID}}_bloodstainedrose",
+					"Seasons": [ "fall" ],
+					"Chance":0.01,
+					"HarvestItems":[
+						{
+							"ItemId":"{{ModID}}_bloodstainedrose",
+							"MinStack":"5",
+							"MaxStack":"10"
+						}
+					],
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_giantcrops",
+					"TexturePosition": {
+						"X": 0,
+						"Y": 17
+					},
+					"TileSize":{
+						"X": 3,
+						"Y": 3
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Entries": {
+				"{{ModID}}_giantfisheyebeans": {
+					"FromItemId":"{{ModID}}_fisheyebeans",
+					"Seasons": [ "spring","summer","fall","winter" ],
+					"Chance":0.01,
+					"HarvestItems":[
+						{
+							"ItemId":"{{ModID}}_fisheyebeans",
+							"MinStack":"6",
+							"MaxStack":"12"
+						}
+					],
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_giantcrops",
+					"TexturePosition": {
+						"X": 49,
+						"Y": 0
+					},
+					"TileSize":{
+						"X": 3,
+						"Y": 4
+					}	
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Entries": {
+				"{{ModID}}_gianthalcyonflower": {
+					"FromItemId":"{{ModID}}_halcyonflower",
+					"Seasons": [ "fall" ],
+					"Chance":0.01,
+					"HarvestItems":[
+						{
+							"ItemId":"{{ModID}}_halcyonflower",
+							"MinStack":"3",
+							"MaxStack":"9"
+						}
+					],
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_giantcrops",
+					"TexturePosition": {
+						"X": 96,
+						"Y": 0
+					},
+					"TileSize":{
+						"X": 3,
+						"Y": 4
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Entries": {
+				"{{ModID}}_giantoceanflax": {
+					"FromItemId":"{{ModID}}_oceanflax",
+					"Seasons": [ "fall" ],
+					"Chance":0.01,
+					"HarvestItems":[
+						{
+							"ItemId":"{{ModID}}_oceanflax",
+							"MinStack":"9",
+							"MaxStack":"21"
+						}
+					],
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_giantcrops",
+					"TexturePosition": {
+						"X": 145,
+						"Y": 0
+					},
+					"TileSize":{
+						"X": 3,
+						"Y": 4
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Entries": {
+				"{{ModID}}_giantscallure": {
+					"FromItemId":"{{ModID}}_scallure",
+					"Seasons": [ "summer" ],
+					"Chance":0.01,
+					"HarvestItems":[
+						{
+							"ItemId":"{{ModID}}_scallure",
+							"MinStack":"4",
+							"MaxStack":"8"
+						}
+					],
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_giantcrops",
+					"TexturePosition": {
+						"X": 193,
+						"Y": 0
+					},
+					"TileSize":{
+						"X": 3,
+						"Y": 4
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Entries": {
+				"{{ModID}}_giantsunsetrose": {
+					"FromItemId":"{{ModID}}_sunsetrose",
+					"Seasons": [ "summer" ],
+					"Chance":0.01,
+					"HarvestItems":[
+						{
+							"ItemId":"{{ModID}}_sunsetrose",
+							"MinStack":"9",
+							"MaxStack":"21"
+						}
+					],
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_giantcrops",
+					"TexturePosition": {
+						"X": 0,
+						"Y": 81
+					},
+					"TileSize":{
+						"X": 3,
+						"Y": 4
+					}
+				}
+			}
+		},
+		
+        
+	]
+}

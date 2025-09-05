@@ -1,0 +1,108 @@
+{
+	"Format": "2.6.0",
+	"Changes": [
+		//==============================================================================================
+		// ==== LOADING MAPS - SINGLE LOAD =============================================================
+		//==============================================================================================
+		{
+			"LogName": "Load custom maps",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_Fishmonger_GI_Inside, Maps/{{ModID}}_Fishmonger_GI_Inside_LowerDeck, Maps/{{ModID}}_LostIsland, Maps/{{ModID}}_LostIsland_MermaidHome, Maps/{{ModID}}_LostIsland_CoolGalHome, Maps/{{ModID}}_LostIsland_PirateLadHome, Maps/{{ModID}}_LostIsland_SeaDudeHome, Maps/{{ModID}}_LostIsland_Library, Maps/{{ModID}}_LostIsland_SeaDudeHome_Cave, Maps/{{ModID}}_LostIsland_Orchard, Maps/{{ModID}}_LostIsland_EnchantedForest, Maps/{{ModID}}_LostIsland_ForsakenCove, Maps/{{ModID}}_LostIsland_NorthernCliffs, Maps/{{ModID}}_LostIsland_NorthEastQuarry, Maps/{{ModID}}_LostIsland_PointMelodia, Maps/{{ModID}}_TEMP_FishShop, Maps/{{ModID}}_TEMP_Pirate6Hearts, Maps/{{ModID}}_LostIsland_HiddenSpot,  Maps/{{ModID}}_TEMP_Wedding, Maps/{{ModID}}_TEMP_CoolGal8Hearts, Maps/{{ModID}}_TEMP_Saloon",
+			"FromFile": "assets/Maps/{{TargetWithoutPath}}.tmx"
+		},
+
+		//==============================================================================================
+		//==== LOADING ALL KINDS OF BLANKS IDK MAN =====================================================
+		//==============================================================================================
+		{
+			"LogName": "Fishmonger blank loads",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModID}}_Fishmonger_GI_Inside, Data/Events/{{ModID}}_LostIsland, Data/Events/{{ModID}}_LostIsland_PirateLadHome,  Data/Events/{{ModID}}_LostIsland_PointMelodia, Data/Events/{{ModID}}_LostIsland_CoolGalHome, Data/Events/{{ModID}}_LostIsland_EnchantedForest, Data/Events/{{ModID}}_LostIsland_Orchard, Data/Events/{{ModID}}_LostIsland_SeaDudeHome,  Characters/schedules/{{ModID}}_MermaidCalliope, Characters/schedules/{{ModID}}_TheFishmonger, Characters/schedules/{{ModID}}_CoolGalBernadette, Characters/schedules/{{ModID}}_PirateLadCaitrionaOFlannagain, Characters/schedules/{{ModID}}_SeaDudeBarnabas, Characters/Dialogue/{{ModID}}_TheFishmonger, Characters/Dialogue/{{ModID}}_MermaidCalliope, Characters/Dialogue/{{ModID}}_CoolGalBernadette, Characters/Dialogue/{{ModID}}_PirateLadCaitrionaOFlannagain, Characters/Dialogue/{{ModID}}_SeaDudeBarnabas, Strings/schedules/{{ModID}}_TheFishmonger, Strings/schedules/{{ModID}}_MermaidCalliope, Strings/schedules/{{ModID}}_CoolGalBernadette, Strings/schedules/{{ModID}}_PirateLadCaitrionaOFlannagain, Strings/schedules/{{ModID}}_SeaDudeBarnabas",
+			"FromFile": "Data/blank.json",
+		},
+
+		// Low priority blank loads - use this when loading a blank json for a vanilla location that doesn't have events in it in vanilla
+		// This is to ensure that your blank load doesn't happen if another mod also happens to load to that same location
+		// You can combine this patch with the one above it by adding the "Priority": "Low" field to the one above if you want to. I just separated them to explain the concept more clearly.
+		{
+			"LogName": "Low priority blank loads",
+			"Action": "Load",
+			"Target": "Data/Events/IslandSouthEast",
+			"FromFile": "Data/blank.json",
+			"Priority": "Low"
+		},
+		//==============================================================================================
+		//==== INCLUDES ================================================================================
+		//==============================================================================================
+		{
+			"LogName": "Includes",
+			"Action": "Include",
+			"FromFile": "Data/Dialogue/ConstanceDialogue.json, Data/Schedule/ConstanceSchedule.json, Data/Dialogue/CalliopeDialogue.json, Data/Schedule/CalliopeSchedule.json, Data/Dialogue/BernadetteDialogue.json, Data/Schedule/BernadetteSchedule.json, Data/Dialogue/CaitrionaOFlannagainDialogue.json, Data/Schedule/CaitrionaOFlannagainSchedule.json, Data/Dialogue/BarnabasDialogue.json, Data/Schedule/BarnabasSchedule.json, Data/ItemData/crops.json, Data/ItemData/objects.json, Data/ItemData/CookingRecipes.json, Data/ItemData/Fish.json, Data/ItemData/FishPond.json, Data/ItemData/CraftingRecipes.json, Data/ItemData/BigCraftables.json, Data/ItemData/NPCGiftTastes.json, Data/ItemData/loom.json, Data/ItemData/hats.json, Data/ItemData/FruitTrees.json, Data/ItemData/WildTrees.json, Data/ShopData/Shops.json, Data/Locations.json, Data/NPCData/NPCDispositions.json, Data/NPCData//Mail.json, Data/NPCData/TriggerActions.json, Data/NPCData/Festivals.json, Data/NPCData/ConversationTopics.json, Data/NPCData/EventsData.json, Data/NPCData/ConcessionTastes.json, Data/NPCData/MoviesReactions.json, Data/ItemData/crops.json, Data/ItemData/objects.json, Data/ItemData/CookingRecipes.json, Data/ItemData/Fish.json, Data/ItemData/FishPond.json, Data/ItemData/CraftingRecipes.json, Data/ItemData/BigCraftables.json, Data/ItemData/NPCGiftTastes.json, Data/MapWarps.json, Data/ItemData/CustomOre.json, Data/StringsFromMaps.json, Data/InterModCompat/CJBCheats.json, Data/InterModCompat/Spacecore.json, Data/ChairTiles.json, Data/InterModCompat/MMAP.json, Data/ItemData/furniture.json, Data/LocationContexts.json, Data/InterModCompat/MEEP.json, Data/WorldMap.json"
+		},
+		//==============================================================================================
+		//==== LOADING SPRITES AND TILESHEETS ==========================================================
+		//==============================================================================================
+		{
+			"LogName": "VoidWitchCult's Custom Tilesheets",
+			"Action": "Load",
+			"Target": "Maps/VWCF_GingerIsland_Tilesheet, Maps/VWCF_LostIsland_GroundTiles, Maps/VWCF_LostIsland_Inside, Maps/VWCF_LostIsland_Outside, Maps/VWCF_LostIsland_Outside_PetrifiedTree, Maps/VWCF_LostIsland_Waterfalls, Maps/VWCF_LostIsland_PirateEvent, Maps/VWCF_LostIsland_ColGalEvent, Maps/water_forsaken_cove",
+			"FromFile": "assets/Maps/Tilesheets/{{TargetWithoutPath}}.png",
+		},
+		{
+			"LogName": "Temp Fishing Sprite for Events",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_TheFishmonger_temp",
+			"FromFile": "assets/Images/Constance/TheFishmonger_temp.png"
+		},
+		{
+			"LogName": "Load item images",
+			"Action": "Load",
+			"Target": "Mods/{{ModID}}/vww_fishmonger_crops, Mods/{{ModID}}/vww_fishmonger_giantcrops, Mods/{{ModID}}/vww_fishmonger_objects, Mods/{{ModID}}/vww_fishmonger_objects, Mods/{{ModID}}/vww_fishmonger_furniture, Mods/{{ModID}}/vww_fishmonger_furnitureFront, Mods/{{ModID}}/vww_fishmonger_bufficons",
+			"FromFile": "assets/Items/{{TargetWithoutPath}}.png"
+		},
+		{
+			"LogName": "Load Images images",
+			"Action": "Load",
+			"Target": "Mods/{{ModID}}/UI, Mods/{{ModID}}/ConstanceWillyFishingTrip",
+			"FromFile": "assets/Images/{{TargetWithoutPath}}.png"
+		},
+		{
+            "LogName": "Load resource images",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/vww_fishmonger_resources",
+            "FromFile": "assets/vww_fishmonger_resources.png"
+		},
+		//==============================================================================================
+        //==== VANILLA MAP PATCH =======================================================================
+		//==============================================================================================
+		{
+			"LogName": "Fishmonger's Boat Map Patch",
+			"Action": "EditMap",
+			"Target": "Maps/Island_S",
+			"FromFile": "assets/Maps/{{ModID}}_Fishmonger_GI_Boat.tmx",
+			"ToArea": {
+				"X": 22,
+				"Y": 36,
+				"Width": 18,
+				"Height": 9
+			},
+			"PatchMode": "Overlay",
+			"MapProperties": {
+				"Light": "28 41 4"
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 23,
+						"Y": 43
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Passable": "T"
+					}
+				},
+			],
+		},
+		
+	]
+}

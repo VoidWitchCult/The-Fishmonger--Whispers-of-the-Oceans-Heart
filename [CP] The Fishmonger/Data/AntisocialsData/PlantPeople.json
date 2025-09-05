@@ -1,0 +1,74 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Changes": [
+    // Sprite
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_PlantPeople_{{L@Name}}",
+      "FromFile": "assets/Antisocials/PlantPeople/{{L@Name}}_spritesheet.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_PlantPeople_{{L@Name}}",
+      "FromFile": "assets/Antisocials/PlantPeople/{{L@Name}}_portrait.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/{{ModId}}_PlantPeople_{{L@Name}}, Characters/Dialogue/{{ModId}}_PlantPeople_{{L@Name}}",
+      "FromFile": "data/blank.json"
+    },
+    // Base Data
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_PlantPeople_{{L@Name}}": {
+          "DisplayName": "{{i18n:Plant.{{L@Name}}.DisplayName}}",
+          "HomeRegion": "Other",
+          "Calendar": "HiddenAlways",
+          "SocialTab": "HiddenAlways",
+          "CanSocialize": "FALSE",
+          "CanReceiveGifts": true,
+          "CanVisitIsland": "FALSE",
+          "IntroductionsQuest": false,
+          "ItemDeliveryQuests": "FALSE",
+          "PerfectionScore": false,
+          "EndSlideShow": "Hidden",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "{{ModId}}_LostIsland_Orchard",
+              "Tile": {
+                "X": "{{L@HomeX}}",
+                "Y": "{{L@HomeY}}"
+              },
+              "Direction": "down"
+            }
+          ],
+        }
+      }
+    },
+    // Schedule
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_PlantPeople_{{L@Name}}",
+      "Entries": {
+        "spring": "610 {{ModId}}_LostIsland_Orchard {{L@SquareSched}}/1500 {{ModId}}_LostIsland_Orchard {{L@SquareSched}}/2400 {{ModId}}_LostIsland_Orchard {{L@HomeX}} {{L@HomeY}}"
+      }
+    },
+    // Dialogue
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{ModId}}_PlantPeople_{{L@Name}}",
+      "Entries": {
+        "Mon": "%{{i18n:Plant.{{L@Name}}.Dialog.0}}",
+        "Tue": "%{{i18n:Plant.{{L@Name}}.Dialog.1}}",
+        "Wed": "%{{i18n:Plant.{{L@Name}}.Dialog.2}}",
+        "Thu": "%{{i18n:Plant.{{L@Name}}.Dialog.1}}",
+        "Fri": "%{{i18n:Plant.{{L@Name}}.Dialog.0}}",
+        "Sat": "%{{i18n:Plant.{{L@Name}}.Dialog.1}}",
+        "Sun": "%{{i18n:Plant.{{L@Name}}.Dialog.2}}",
+      }
+    },
+  ]
+}

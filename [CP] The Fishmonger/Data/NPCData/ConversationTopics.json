@@ -1,0 +1,204 @@
+{
+    "Changes": 
+	[ 
+		//==============================================================================================
+		//==== CONSTANCE ===============================================================================
+		//==============================================================================================
+		{
+			"LogName": "Conversation Topics - TheFishmonger",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModID}}_TheFishmonger",
+			"Entries": 
+			{
+				"{{ModID}}_VWCGIFirstArrival":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Fishmonger}}",
+				"{{ModID}}_VWCConstance2HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Fishmonger}}",
+				"{{ModID}}_VWCConstance4HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Fishmonger}}",
+				"{{ModID}}_VWCConstance6HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Fishmonger}}",
+				"{{ModID}}_VWCConstance8HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Fishmonger}}",
+				"{{ModID}}_VWCConstance10HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Fishmonger}}",
+				"AllFishCaught":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Fishmonger}}",
+				"BirdieQuestFinished":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Fishmonger}}",
+			}
+		},
+		//==============================================================================================
+		//==== CALLIOPE ================================================================================
+		//==============================================================================================
+		{
+			"LogName": "Conversation Topics - Calliope",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModID}}_MermaidCalliope",
+			"Entries": 
+			{
+				"{{ModID}}_VWCConstance6HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.MermaidCalliope}}",
+				"{{ModID}}_VWCConstance8HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.MermaidCalliope}}",
+				"{{ModID}}_VWCConstance10HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.MermaidCalliope}}",
+				"AllFishCaught":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.MermaidCalliope}}",
+			}
+		},
+		//==============================================================================================
+		//==== CAROLINE ================================================================================
+		//==============================================================================================
+		{
+			"LogName": "Conversation Topics - Caroline",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": {
+				"{{ModID}}_VWCGIFirstArrival":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Caroline}}",
+				"{{ModID}}_VWCConstance2HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Caroline}}",
+				"{{ModID}}_VWCConstance4HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Caroline}}",
+				"{{ModID}}_VWCConstance6HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Caroline}}",
+				"{{ModID}}_VWCConstance8HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Caroline}}",
+				"{{ModID}}_VWCConstance10HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Caroline}}",
+				"AllFishCaught":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Caroline}}",
+				"BirdieQuestFinished":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Caroline}}",
+			}
+		},
+		//==============================================================================================
+		//==== ELLIOT ==================================================================================
+		//==============================================================================================
+		{
+			"LogName": "Conversation Topics - Elliott",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+				"{{ModID}}_VWCGIFirstArrival":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Elliott}}",
+				"{{ModID}}_VWCConstance2HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Elliott}}",
+				"{{ModID}}_VWCConstance4HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Elliott}}",
+				"{{ModID}}_VWCConstance6HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Elliott}}",
+				"{{ModID}}_VWCConstance8HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Elliott}}",
+				"{{ModID}}_VWCConstance10HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Elliott}}",
+				"AllFishCaught":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Elliott}}",
+				"BirdieQuestFinished":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Elliott}}",
+			}
+		},
+		//==============================================================================================
+		//==== HARVEY ==================================================================================
+		//==============================================================================================
+		{
+			"LogName": "Conversation Topics - Harvey",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+				"{{ModID}}_VWCGIFirstArrival":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Harvey}}",
+				"{{ModID}}_VWCConstance2HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Harvey}}",
+				"{{ModID}}_VWCConstance4HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Harvey}}",
+				"{{ModID}}_VWCConstance6HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Harvey}}",
+				"{{ModID}}_VWCConstance8HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Harvey}}",
+				"{{ModID}}_VWCConstance10HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Harvey}}",
+				"AllFishCaught":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Harvey}}",
+				"BirdieQuestFinished":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Harvey}}",
+			}
+		},
+		//==============================================================================================
+		//==== JAS =====================================================================================
+		//==============================================================================================
+		{
+			"LogName": "Conversation Topics - Jas",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": {
+				"{{ModID}}_VWCGIFirstArrival":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Jas}}",
+				"{{ModID}}_VWCConstance2HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Jas}}",
+				"{{ModID}}_VWCConstance4HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Jas}}",
+				"AllFishCaught":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Jas}}",
+				"BirdieQuestFinished":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Jas}}",
+			}
+		},
+		//==============================================================================================
+		//==== LEO =====================================================================================
+		//==============================================================================================
+		{
+			"LogName": "Conversation Topics - Leo",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leo",
+			"Entries": {
+				"{{ModID}}_VWCGIFirstArrival":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Leo}}",
+				"{{ModID}}_VWCConstance2HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Leo}}",
+				"{{ModID}}_VWCConstance4HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Leo}}",
+				"AllFishCaught":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Leo}}",
+				"BirdieQuestFinished":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Leo}}",
+			}
+		},
+		{
+			"LogName": "Conversation Topics - LeoMainland",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/LeoMainland",
+			"Entries": {
+				"{{ModID}}_VWCGIFirstArrival":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Leo}}",
+				"{{ModID}}_VWCConstance2HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Leo}}",
+				"{{ModID}}_VWCConstance4HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Leo}}",
+				"AllFishCaught":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Leo}}",
+				"BirdieQuestFinished":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Leo}}",
+			}
+		},
+		//==============================================================================================
+		//==== LEWIS ===================================================================================
+		//==============================================================================================
+		{
+			"LogName": "Conversation Topics - Lewis",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+			"Entries": {
+				"{{ModID}}_VWCGIFirstArrival":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Lewis}}",
+				"{{ModID}}_VWCConstance2HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Lewis}}",
+				"{{ModID}}_VWCConstance4HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Lewis}}",
+				"{{ModID}}_VWCConstance6HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Lewis}}",
+				"{{ModID}}_VWCConstance8HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Lewis}}",
+				"{{ModID}}_VWCConstance10HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Lewis}}",
+				"AllFishCaught":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Lewis}}",
+				"BirdieQuestFinished":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Lewis}}",
+			}
+		},
+		//==============================================================================================
+		//==== LINUS ===================================================================================
+		//==============================================================================================
+		{
+			"LogName": "Conversation Topics - Linus",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": {
+				"{{ModID}}_VWCGIFirstArrival":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Linus}}",
+				"{{ModID}}_VWCConstance2HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Linus}}",
+				"{{ModID}}_VWCConstance4HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Linus}}",
+				"{{ModID}}_VWCConstance6HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Linus}}",
+				"{{ModID}}_VWCConstance8HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Linus}}",
+				"{{ModID}}_VWCConstance10HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Linus}}",
+				"AllFishCaught":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Linus}}",
+				"BirdieQuestFinished":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Linus}}",
+			}
+		},
+		//==============================================================================================
+		//==== VINCENT =================================================================================
+		//==============================================================================================
+		{
+			"LogName": "Conversation Topics - Vincent",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": {
+				"{{ModID}}_VWCGIFirstArrival":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Vincent}}",
+				"{{ModID}}_VWCConstance2HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Vincent}}",
+				"{{ModID}}_VWCConstance4HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Vincent}}",
+				"AllFishCaught":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Vincent}}",
+				"BirdieQuestFinished":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Vincent}}",
+			}
+		},
+		//==============================================================================================
+		//==== WILLY ===================================================================================
+		//==============================================================================================
+		{
+			"LogName": "Conversation Topics - Willy",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+			"Entries": {
+				"{{ModID}}_VWCGIFirstArrival":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Willy}}",
+				"{{ModID}}_VWCConstance2HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Willy}}",
+				"{{ModID}}_VWCConstance4HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Willy}}",
+				"{{ModID}}_VWCConstance6HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Willy}}",
+				"{{ModID}}_VWCConstance8HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Willy}}",
+				"{{ModID}}_VWCConstance10HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Willy}}",
+				"AllFishCaught":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Willy}}",
+				"BirdieQuestFinished":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Willy}}",
+			}
+		},
+	]
+}

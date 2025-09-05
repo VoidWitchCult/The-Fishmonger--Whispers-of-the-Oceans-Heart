@@ -1,0 +1,64 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}_WelcomeToFishHell": {
+                    "Id": "{{ModID}}_WelcomeToFishHell",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_Introduction",
+                    "Action": "AddMail Current {{ModID}}_WelcomeToFishHell"
+				},
+				"{{ModID}}_MermaidsAreCoolOK": {
+                    "Id": "{{ModID}}_MermaidsAreCoolOK",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_2Hearts",
+                    "Action": "AddMail Current {{ModID}}_MermaidsAreCoolOK"
+				},
+				"{{ModID}}_TroubledMind": {
+                    "Id": "{{ModID}}_TroubledMind",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_4Hearts",
+                    "Action": "AddMail Current {{ModID}}_TroubledMind"
+				},
+				"{{ModID}}_BirdieIsHappy": {
+                    "Id": "{{ModID}}_BirdieIsHappy",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_CRAFTING_RECIPE current Fairy Dust",
+                    "Action": "AddMail Current {{ModID}}_BirdieIsHappy"
+				},
+				"{{ModID}}_CongratsBud": {
+                    "Id": "{{ModID}}_CongratsBud",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_MAIL Any CF_Fish",
+                    "Action": "AddMail Current {{ModID}}_CongratsBud"
+				},
+				"{{ModID}}_RecipesAndSeeds": {
+                    "Id": "{{ModID}}_RecipesAndSeeds",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                    "Action": "AddMail Current {{ModID}}_RecipesAndSeeds"
+				},
+				"{{ModID}}_FishmongerScarecrow": {
+                    "Id": "{{ModID}}_FishmongerScarecrow",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_FARMING_LEVEL Current 4 ,PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                    "Action": "AddMail Current {{ModID}}_FishmongerScarecrow"
+				},
+				"{{ModID}}_CoolerFishmongerScarecrow": {
+                    "Id": "{{ModID}}_CoolerFishmongerScarecrow",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_FARMING_LEVEL Current 6 ,PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                    "Action": "AddMail Current {{ModID}}_CoolerFishmongerScarecrow"
+				},
+				"{{ModID}}_WarpTotem": {
+                    "Id": "{{ModID}}_WarpTotem",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_SeaDudeBarnabasIntro",
+                    "Action": "AddMail Current {{ModID}}_WarpTotem"
+				},
+			}
+		}
+	]
+}

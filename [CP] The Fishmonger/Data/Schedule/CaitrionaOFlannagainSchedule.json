@@ -1,0 +1,90 @@
+{
+    "Changes": 
+	[
+		{
+            "LogName": "Caitríona schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{ModID}}_PirateLadCaitrionaOFlannagain",
+            "Entries": {
+			//Hangs out at home, the goes to the shadow shop, walks to Point Melodia to hang out there for a while, then goes to the forest for a bit, returns home
+			"spring": "
+			610 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_snooze \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.000\/
+			630 {{ModID}}_LostIsland_PirateLadHome 6 4 0/
+			800 {{ModID}}_LostIsland_PirateLadHome 10 5 1 \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.001\/
+			1030 {{ModID}}_LostIsland_PirateLadHome 13 12 0/
+			1100 {{ModID}}_LostIsland_PirateLadHome 9 16 0/
+			1200 {{ModID}}_LostIsland 83 31 0  \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.002\/
+			1300 {{ModID}}_LostIsland_PointMelodia 35 44 2 {{ModID}}_PirateLadCaitrionaOFlannagain_depressed/
+			1600 {{ModID}}_LostIsland_PointMelodia 32 29 2 {{ModID}}_PirateLadCaitrionaOFlannagain_sitting2/
+			1730 {{ModID}}_LostIsland_PointMelodia 22 4 2/
+			1830 {{ModID}}_LostIsland_EnchantedForest 39 52 2/
+			2200 {{ModID}}_LostIsland_PirateLadHome 12 12 0/
+			2400 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_sleep/
+			",
+			"Mon":"GOTO spring",
+			//Hangs out at home, goes to Point Melodia to ponder, ponders more at the Forest, then goes back home
+			"Tue": "
+			610 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_snooze \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.000\/
+			630 {{ModID}}_LostIsland_PirateLadHome 6 4 0/
+			800 {{ModID}}_LostIsland_PirateLadHome 10 5 1 \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.001\/
+			1030 {{ModID}}_LostIsland_PirateLadHome 13 12 0/
+			1100 {{ModID}}_LostIsland_PirateLadHome 9 16 0/
+			1130 {{ModID}}_LostIsland_PointMelodia 35 44 2 {{ModID}}_PirateLadCaitrionaOFlannagain_depressed/
+			1400 {{ModID}}_LostIsland_PointMelodia 32 29 2/
+			1530 {{ModID}}_LostIsland_PointMelodia 22 4 2 {{ModID}}_PirateLadCaitrionaOFlannagain_sitting2/
+			1700 {{ModID}}_LostIsland_EnchantedForest 109 86 1/
+			2200 {{ModID}}_LostIsland_PirateLadHome 12 12 0/
+			2400 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_sleep/
+			",
+			//Hangs out at home, walks to Northern Cliffs to hang out there for a bit and then ponders at the Orchard, walks home
+			"Wed": "
+			610 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_snooze \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.000\/
+			630 {{ModID}}_LostIsland_PirateLadHome 6 4 0/
+			800 {{ModID}}_LostIsland_PirateLadHome 10 5 1 \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.001\/
+			1030 {{ModID}}_LostIsland_PirateLadHome 13 12 0/
+			1100 {{ModID}}_LostIsland_PirateLadHome 9 16 0/
+			1230 {{ModID}}_LostIsland_NorthernCliffs 43 10 0/
+			1530 {{ModID}}_LostIsland_NorthernCliffs 10 16 2 {{ModID}}_PirateLadCaitrionaOFlannagain_sitting2/
+			1700 {{ModID}}_LostIsland_Orchard 12 32 2 {{ModID}}_PirateLadCaitrionaOFlannagain_depressed/
+			2200 {{ModID}}_LostIsland_PirateLadHome 12 12 0/
+			2400 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_sleep/
+			",
+			"Thu":"GOTO spring",
+			//Hangs out at home, walks around outside, then goes back home
+			"Fri": "
+			610 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_snooze \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.000\/
+			630 {{ModID}}_LostIsland_PirateLadHome 6 4 0/
+			800 {{ModID}}_LostIsland_PirateLadHome 10 5 1 \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.001\/
+			1030 {{ModID}}_LostIsland_PirateLadHome 13 12 0/
+			1100 {{ModID}}_LostIsland_PirateLadHome 9 16 0/
+			1200 {{ModID}}_LostIsland 83 31 0  \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.002\/
+			1400 {{ModID}}_LostIsland 44 33 2/
+			1630 {{ModID}}_LostIsland 43 4 0/
+			1900 {{ModID}}_LostIsland_PirateLadHome 2 12 0  \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.003\/
+			2200 {{ModID}}_LostIsland_PirateLadHome 12 12 0/
+			2400 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_sleep/
+			",
+			"Sat":"GOTO spring",
+			// HANGOUT DAY
+			"Sun":"
+			610 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_snooze \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.000/
+			700 {{ModID}}_LostIsland_PirateLadHome 6 4 0/
+			900 {{ModID}}_LostIsland_NorthernCliffs 49 20 3 \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.004/
+			2200 {{ModID}}_LostIsland_PirateLadHome 12 12 0/
+			2400 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_sleep/
+			",
+			//Sleeps in and stays at home all day
+			"rain": "
+			610 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_snooze \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.000/
+			1000 {{ModID}}_LostIsland_PirateLadHome 6 4 0/
+			1200 {{ModID}}_LostIsland_PirateLadHome 10 5 1 \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.001\/
+			1430 {{ModID}}_LostIsland_PirateLadHome 13 12 0/
+			1600 {{ModID}}_LostIsland_PirateLadHome 9 16 0/
+			1800 {{ModID}}_LostIsland_PirateLadHome	7 11 2 {{ModID}}_PirateLadCaitrionaOFlannagain_drinking/
+			2200 {{ModID}}_LostIsland_PirateLadHome 12 12 0/
+			2400 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_sleep/
+			",
+			}
+		}
+	]
+}

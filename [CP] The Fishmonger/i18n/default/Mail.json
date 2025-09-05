@@ -1,0 +1,27 @@
+{
+	//==============================================================================================
+	//==== M A I L =================================================================================
+	//==============================================================================================
+	
+	// FISHMONGER
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.WelcomeToFishHell": "Ahoy @,^I just wanted to write you a little letter after our first meeting.^I really meant it when I said that you can drop by any time you want. Some people may have reservations about letting others in after a certain time but I do not.^My ferrets are trained to attack, did you know? It's a little trick I taught them. So I don't really see a reason to be wary of anyone.^Anyway, you're free to pet them any time, once they know they can trust you they'll be your best friend!^Come by any time for a cup of tea if you want.^- Constance",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.WelcomeToFishHell.Title": "Welcome to Fish Hell",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.MermaidsAreCoolOK": "Ahoy @,^I've been thinking a bit more about our conversation from some time ago.^There are a few things I found out lately so I might tell you about it once I figure out more.^I'll take this moment to thank you though, at least for hearing me out, I guess. You might have figured out by now that I am not really good at talking to others.^As a thank you I've attached a little something for you to this letter.^- Constance",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.MermaidsAreCoolOK.Title": "Mermaids are cool OK",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.TroubledMind": "Ahoy @,^thank you again for the nice little chat we had the other day.^It's kinda hard opening up to people but we've known each other for a while now.^I feel comfortable enough to refer to you as one of my friends now, I hope you feel the same way.^If there's ever a time you need my help or someone to talk to please don't hesitate to come to me.^- Constance",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.TroubledMind.Title": "Troubled Mind",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.BirdieIsHappy": "Ahoy @,^I've heard from Birdie that you helped her out with getting some closure. That was very kind of you.^There are moments in a persons life that can be hard to endure and overcome so I am glad that you belong to the type of people who help others out in times of need.^Birdie is a close friend of mine, so I am grateful as well for you helping her. Take this item as a token of my gratitude towards you.^- Constance",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.BirdieIsHappy.Title": "Birdie is Happy",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.CongratsBud": "Ahoy @,^I can't believe you've done it! I've heard all about the fishes you've caught, I am really impressed!^It's been a good while since I've seen someone so passionately catch such a big variety of fish.^You're a great fisherman, be proud.^I was contemplating what to gift you on such occassion, so I hope you'll find some use for this.^- Constance",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.CongratsBud.Title": "Congrats Bud",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.RecipesAndSeeds": "Ahoy, @!^I see you've been going strong with your farming lately. Though I'd let you know that I got a little handful of recipes waiting for you at my shop.^They're nothing big but I'm sure you'll enjoy them!^- Constance",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.RecipesAndSeeds.Title": "Recipes and Seeds",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.FishmongerScarecrow": "Ahoy, @!^How's it going? This morning I stood at the pier trying to fish as I do but I've been seing an increase in trash floating around.^It's frustrating to see the ocean keeps getting polluted...so I decided to teach you a little upcycling recipe that I've been thinking about.^It's just a little something but I hope that you will like it!^- Constance",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.FishmongerScarecrow.Title": "Scarecrow",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow": "Ahoy, @!^I know, I know...this might not really be worth sending you a letter for but I just found a totally funny idea and just wanted to let you know about it.^Maybe I'm just easily amused by these kind of things but...well, anyway...^Let me know what you think of it.^- Constance",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow.Title": "Cooler Scarecrow",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow": "Hey there! It's me, @!^So I was thinking...you know! Since you seem to like our island it would make sense to give you an easy way to get here!^I attached a recipe for a warp totem to this letter and hope to see you again!^There is a lot this island has to offer afterall. Can't wait to see you again!^- Barnabas :D",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow.Title": "Warp Totem!",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.PassedOutBarnabas.Title": "Hope you're ok!",
+	"VoidWitchCult.CP.TheFishmongerNPC.Mail.PassedOutBarnabas": "Hey there, @!^I found you passed out on the island so I figured that I should bring you home!^I can sleep anywhere personally but as a farmer I think it's best you wake up at your farm so you can take care of your crops and animals and everything!^Make sure to get enough rest and not overwork yourself, ok?^- Barnabas :D",	
+}

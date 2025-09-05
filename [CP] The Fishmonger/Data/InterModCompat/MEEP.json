@@ -1,0 +1,177 @@
+{
+	"$schema": "https://smapi.io/schemas/content-patcher.json",
+	"Changes": [
+		// Plant People 
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/PlantPeople.json",
+			"LocalTokens": {
+				"L@Name": "Algealica",
+				"L@HomeX": 65,
+				"L@HomeY": 21,
+				"L@SquareSched": "65 23 square_8_4"
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/PlantPeople.json",
+			"LocalTokens":
+			{
+				"L@Name": "Sunny",
+				"L@HomeX": 54,
+				"L@HomeY": 18,
+				"L@SquareSched": "54 19 square_8_4"
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/PlantPeople.json",
+			"LocalTokens":
+			{
+				"L@Name": "Fern",
+				"L@HomeX": 58,
+				"L@HomeY": 27,
+				"L@SquareSched": "58 27 square_8_4"
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/PlantPeople.json",
+			"LocalTokens":
+			{
+				"L@Name": "Violetta",
+				"L@HomeX": 68,
+				"L@HomeY": 29,
+				"L@SquareSched": "68 29 square_8_4"
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/PlantPeople.json",
+			"LocalTokens":
+			{
+				"L@Name": "Teana",
+				"L@HomeX": 72,
+				"L@HomeY": 21,
+				"L@SquareSched": "72 21 square_8_4"
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/PlantPeople.json",
+			"LocalTokens":
+			{
+				"L@Name": "Roseanne",
+				"L@HomeX": 74,
+				"L@HomeY": 27,
+				"L@SquareSched": "74 27 square_8_4"
+			},
+		},
+		// Ferrets
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/FerretMEEP.json",
+			"LocalTokens": {
+				"L@Name": "Adamant",
+				"L@HomeLoc": "{{ModID}}_Fishmonger_GI_Inside",
+				"L@HomeX": 4,
+				"L@HomeY": 6,
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/FerretMEEP.json",
+			"LocalTokens":
+			{
+				"L@Name": "Scurvy",
+				"L@HomeLoc": "{{ModID}}_Fishmonger_GI_Inside",
+				"L@HomeX": 2,
+				"L@HomeY": 9,
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/FerretMEEP.json",
+			"LocalTokens":
+			{
+				"L@Name": "Bork",
+				"L@HomeLoc": "{{ModID}}_Fishmonger_GI_Inside",
+				"L@HomeX": 9,
+				"L@HomeY": 6,
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/FerretMEEP.json",
+			"LocalTokens":
+			{
+				"L@Name": "Bee",
+				"L@HomeLoc": "{{ModID}}_Fishmonger_GI_Inside",
+				"L@HomeX": 11,
+				"L@HomeY": 7,
+			},
+		},
+			{
+				"Action": "Include",
+				"FromFile": "Data/AntisocialsData/FerretMEEP.json",
+				"LocalTokens":
+				{
+					"L@Name": "Schwarz",
+					"L@HomeLoc": "{{ModID}}_LostIsland_NorthernCliffs",
+					"L@HomeX": 13,
+					"L@HomeY": 46,
+				},
+			},
+			{
+				"Action": "Include",
+				"FromFile": "Data/AntisocialsData/FerretMEEP.json",
+				"LocalTokens":
+				{
+					"L@Name": "Goldie",
+					"L@HomeLoc": "{{ModID}}_LostIsland_NorthernCliffs",
+					"L@HomeX": 23,
+					"L@HomeY": 45,
+				},
+			},
+			{
+				"Action": "Include",
+				"FromFile": "Data/AntisocialsData/FerretMEEP.json",
+				"LocalTokens":
+				{
+					"L@Name": "Geist",
+					"L@HomeLoc": "{{ModID}}_LostIsland_NorthernCliffs",
+					"L@HomeX": 39,
+					"L@HomeY": 43,
+				},
+			},
+			{
+				"Action": "Include",
+				"FromFile": "Data/AntisocialsData/FerretMEEP.json",
+				"LocalTokens":
+				{
+					"L@Name": "Bloo",
+					"L@HomeLoc": "{{ModID}}_LostIsland_NorthernCliffs",
+					"L@HomeX": 46,
+					"L@HomeY": 53,
+				},
+			},
+			{
+            //--- Apply the tile property ----------------------------------------------------------------------//
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_Fishmonger_GI_Inside_LowerDeck",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 4
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image Mods/VoidWitchCult.CP.TheFishmongerNPC/ConstanceWillyFishingTrip 0 0 160 160",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.InteractiveTile.0}}"
+                    }
+                }
+            ]
+        }
+		]
+	}			

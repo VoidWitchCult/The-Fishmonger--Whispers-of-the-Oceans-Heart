@@ -1,0 +1,130 @@
+{
+    "Changes": 
+	[
+		{
+            "LogName": "Barnabas Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_SeaDudeBarnabas",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.birthdayNeutralB}}",
+				"MovieInvite_Invited_SeaDudeBarnabas": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.MovieInvite_Invited_SeaDudeBarnabas}}",
+				"DumpsterDiveComment": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.HitBySlingshot}}",
+				"RejectMovieTicket": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_MermaidsDelight": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MermaidsDelight}}",
+				"AcceptGift_(O){{ModID}}_StarlightFruit": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.StarlightFruit}}",
+				"AcceptGift_(O){{ModID}}_petrichor": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.petrichor}}",
+				"AcceptGift_(O){{ModID}}_PowderGreenPearl": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.PowderGreenPearl}}",
+				
+				// 1ST OF SEASON DIALOGUE
+				"spring_1": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.spring_1}}",
+				"summer_1": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.summer_1}}",
+				"fall_1": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.fall_1}}",
+				"winter_1": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.winter_1}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Mon}}",
+				"Tue": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Tue}}",
+				"Wed": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Wed}}",
+				"Thu": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Thu}}",
+				"Fri": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Fri}}",
+				"Sat": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Sat}}",
+				"Sun": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Sun}}",
+				
+				// 2 HEARTS DIALOGUE
+				
+				"Mon2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Mon2}}",
+				"Tue2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Tue2}}",
+				"Wed2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Wed2}}",
+				"Thu2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Thu2}}",
+				"Fri2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Fri2}}",
+				"Sat2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Sat2}}",
+				"Sun2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Sun2}}",
+				
+				// 4 HEARTS DIALOGUE
+				
+				"Mon4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Mon4}}",
+				"Tue4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Tue4}}",
+				"Wed4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Wed4}}",
+				"Thu4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Thu4}}",
+				"Fri4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Fri4}}",
+				"Sat4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Sat4}}",
+				"Sun4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Sun4}}",
+				
+				// 6 HEARTS DIALOGUE
+				
+				"Mon6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Mon6}}",
+				"Tue6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Tue6}}",
+				"Wed6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Wed6}}",
+				"Thu6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Thu6}}",
+				"Fri6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Fri6}}",
+				"Sat6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Sat6}}",
+				"Sun6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Sun6}}",
+				
+				// 8 HEARTS DIALOGUE
+				
+				"Mon8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Mon8}}",
+				"Tue8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Tue8}}",
+				"Wed8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Wed8}}",
+				"Thu8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Thu8}}",
+				"Fri8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Fri8}}",
+				"Sat8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Sat8}}",
+				"Sun8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Sun8}}",
+				
+				// 10 HEARTS DIALOGUE
+				
+				"Mon10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Mon10}}",
+				"Tue10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Tue10}}",
+				"Wed10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Wed10}}",
+				"Thu10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Thu10}}",
+				"Fri10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Fri10}}",
+				"Sat10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Sat10}}",
+				"Sun10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Sun10}}",
+				
+				// SPECIFIC DAY DIALOGUE
+				//Note : Will work only on first year due to the way the game checks for the dayOfMonth line. Use format season_dayOfMonth_2 for dialogue in year 2 and later. Ex "summer_10_2". You can only check for 1 (first year) or 2 (all years after). If you want a dialogue to appears on a specific year, consider using CP conditions in addition of the "_2" suffix
+				"spring_12_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.spring_12_2}}", // Day before the Egg Festival
+				"spring_23_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.spring_23_2}}", // Day before the Flower Dance
+				"summer_10_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.summer_10_2}}", // Day before the Luau
+				"summer_27_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.summer_27_2}}", // Day before the Midnight Jellies
+				"fall_15_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.fall_15_2}}", // Day before the Stardew Fair
+				"fall_26_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.fall_26_2}}", // Day before Spirit's Eve
+				"winter_7_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.winter_7_2}}", // Day before the Ice Festival
+				"winter_24_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.winter_24_2}}", // Day before Winter Star
+				
+				//resort Dialogue
+				"Resort_Entering": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.fall_Sat2}}",
+				"Resort_Leaving": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.spring_Fri6}}",
+				"Resort_Shore": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.spring_Mon8}}",
+				"Resort_Chair": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.winter_Mon}}",
+				"Resort_Bar": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.summer_Thu10}}",
+				"Resort": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.spring_Sat}}",
+
+				// Schedule dialogue
+				"{{ModID}}_barnabas.lostisland.000": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_barnabas.lostisland.001": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_barnabas.lostisland.002": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Schedule.Dialogue.lostisland.002}}",
+				"{{ModID}}_barnabas.lostisland.003": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Schedule.Dialogue.lostisland.003}}",
+				"{{ModID}}_barnabas.lostisland.004": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Schedule.Dialogue.lostisland.004}}",
+				"{{ModID}}_barnabas.lostisland.005": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Schedule.Dialogue.lostisland.005}}",
+				"{{ModID}}_barnabas.lostisland.006": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Schedule.Dialogue.lostisland.006}}",
+				"{{ModID}}_barnabas.lostisland.007": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Schedule.Dialogue.lostisland.007}}",
+			}
+		}
+	]
+}

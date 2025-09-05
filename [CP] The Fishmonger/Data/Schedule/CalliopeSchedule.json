@@ -1,0 +1,85 @@
+{
+    "Changes": 
+	[
+		{
+            "LogName": "Calliope schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{ModID}}_MermaidCalliope",
+            "Entries": {
+			//Walks around her house, then walks outside and stands at a few points around the map to then return home.  
+			"spring": "
+			610 {{ModID}}_LostIsland_MermaidHome 14 5 2/
+			630 {{ModID}}_LostIsland_MermaidHome 16 5 0/
+			700 {{ModID}}_LostIsland_MermaidHome 14 16 0/
+			830 {{ModID}}_LostIsland 45 4 0 \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.lostisland.000\"/
+			1000 {{ModID}}_LostIsland 45 20 2 {{ModID}}_MermaidCalliope_sitting \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.lostisland.001\"/
+			1200 {{ModID}}_LostIsland 44 33 2 \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.lostisland.002\"/
+			1500 {{ModID}}_LostIsland 38 53 2 {{ModID}}_MermaidCalliope_sitting2 \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.lostisland.003\"/
+			1800 {{ModID}}_LostIsland 77 40 0 \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.lostisland.004\"/
+			2000 {{ModID}}_LostIsland_MermaidHome 4 5 0/
+			2200 {{ModID}}_LostIsland_MermaidHome 15 5 0/
+			",
+			"Mon": "GOTO spring",
+			//Walks around the house, then goes outside to lay at the beach, then stands at the parrot shop, later returning home.
+			"Tue": "
+			610 {{ModID}}_LostIsland_MermaidHome 14 5 2/
+			630 {{ModID}}_LostIsland_MermaidHome 16 5 0/
+			700 {{ModID}}_LostIsland_MermaidHome 14 16 0/
+			1000 {{ModID}}_LostIsland 57 45 2 {{ModID}}_MermaidCalliope_laying/
+			1500 {{ModID}}_LostIsland 77 40 0 \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.lostisland.004\"/
+			2000 {{ModID}}_LostIsland_MermaidHome 4 5 0/
+			2200 {{ModID}}_LostIsland_MermaidHome 15 5 0/	
+			",
+			//spends most of  her day in the forest, then checks the crops at the orchard
+			"Wed": "
+			610 {{ModID}}_LostIsland_MermaidHome 14 5 2/
+			630 {{ModID}}_LostIsland_EnchantedForest 27 14 0 \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.enchantedforest.000\"/
+			740 {{ModID}}_LostIsland_EnchantedForest 37 37 3 \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.enchantedforest.001\"/
+			1000 {{ModID}}_LostIsland_EnchantedForest 106 85 2/
+			1400 {{ModID}}_LostIsland_Orchard 76 41 2/
+			1500 {{ModID}}_LostIsland 38 53 2 {{ModID}}_MermaidCalliope_sitting2 \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.lostisland.003\"/
+			2000 {{ModID}}_LostIsland_MermaidHome 4 5 0/
+			2200 {{ModID}}_LostIsland_MermaidHome 15 5 0/
+			",
+			//Hangs around the Orchard, then goes to her brothers house to hang out, later  goes home
+			"Thu": "
+			610 {{ModID}}_LostIsland_MermaidHome 14 5 2/
+			700 {{ModID}}_LostIsland_Orchard 31 29 0 \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.orchard.000\"/
+			1000 {{ModID}}_LostIsland_Orchard 24 36 2 {{ModID}}_MermaidCalliope_sitting/
+			1130 {{ModID}}_LostIsland_Orchard 10 23 2/
+			1500 {{ModID}}_LostIsland_SeaDudeHome 9 13 2 {{ModID}}_MermaidCalliope_sitting/
+			1800 {{ModID}}_LostIsland_MermaidHome 4 5 0/
+			2200 {{ModID}}_LostIsland_MermaidHome 15 5 0/
+			",
+			"Fri": "
+			610 {{ModID}}_LostIsland_MermaidHome 18 5 2/
+			800 {{ModID}}_LostIsland_Orchard 24 36 2 {{ModID}}_MermaidCalliope_sitting/
+			900 {{ModID}}_LostIsland_Library 33 36 0 \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.library.000\"/
+			1200 {{ModID}}_LostIsland_Library 50 32 0/
+			1400 {{ModID}}_LostIsland_Library 37 27 0/
+			1600 {{ModID}}_LostIsland_Library 4 30 0/
+			1800 {{ModID}}_LostIsland_Library 11 40 2 {{ModID}}_MermaidCalliope_sitting/
+			2000 {{ModID}}_LostIsland_MermaidHome 18 20 2 {{ModID}}_MermaidCalliope_sitting/
+			2200 {{ModID}}_LostIsland_MermaidHome 15 5 0/
+			",
+			"Sat": "GOTO spring",
+			// HANGOUT DAY
+			"Sun": "
+			610 {{ModID}}_LostIsland_MermaidHome 18 5 2/
+			900 {{ModID}}_LostIsland_NorthernCliffs 50 23 1 \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.lostisland.005\"/
+			2000 {{ModID}}_LostIsland_MermaidHome 15 5 0/
+			",
+			//Spends her day at home in a few different spots.
+			"rain": "
+			610 {{ModID}}_LostIsland_MermaidHome 18 5 2/
+			700 {{ModID}}_LostIsland_MermaidHome 13 5 0/
+			900 {{ModID}}_LostIsland_MermaidHome 6 20 2 {{ModID}}_MermaidCalliope_sitting/
+			1200 {{ModID}}_LostIsland_MermaidHome 4 5 0/
+			1300 {{ModID}}_LostIsland_MermaidHome 6 5 0/
+			1500 {{ModID}}_LostIsland_MermaidHome 18 20 2 {{ModID}}_MermaidCalliope_sitting/
+			2000 {{ModID}}_LostIsland_MermaidHome 15 5 0/
+			",
+			}
+		}
+	]
+}

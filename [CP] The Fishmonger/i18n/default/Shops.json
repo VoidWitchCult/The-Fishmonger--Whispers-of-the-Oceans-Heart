@@ -1,0 +1,29 @@
+{
+	//==============================================================================================
+	//==== S H O P   D I A L O G U E ===============================================================
+	//==============================================================================================
+	
+	// FISHMONGER 
+	"VoidWitchCult.CP.TheFishmongerNPC.TheFishmonger.ShopDialogue.1": "What can I help you with today?",
+	"VoidWitchCult.CP.TheFishmongerNPC.TheFishmonger.ShopDialogue.2": "I've got some ex-squid-it stock available today. Do you wanna take a look?",
+	"VoidWitchCult.CP.TheFishmongerNPC.TheFishmonger.ShopDialogue.3": "Let minnow if you need anything.",
+	"VoidWitchCult.CP.TheFishmongerNPC.TheFishmonger.ShopDialogue.4": "Care for some seeds?",
+	
+	// MRFEESH 
+	"VoidWitchCult.CP.MrFeesh.ShopDialogue.1": "May I be of thou service, my good friend?",
+	"VoidWitchCult.CP.MrFeesh.ShopDialogue.2": "Hark! What eudaemonia to find thou in good health! Please browse my wares, friend!",
+	"VoidWitchCult.CP.MrFeesh.ShopDialogue.3": "What serendipitous coincidence to find you here once more, my friend!",
+	"VoidWitchCult.CP.MrFeesh.ShopDialogue.4": "A good gentleman always knows what to do in any situation. Alas! Only the best shall know wherewithal though.",
+	
+	//CAWYN
+	"VoidWitchCult.CP.Cawyn.ShopDialogue.1": "Caw! CAWW!! Cawyn happy to see you!",
+	"VoidWitchCult.CP.Cawyn.ShopDialogue.2": "Cawyn has good stuff. Look at Cawayn's stuff!",
+	"VoidWitchCult.CP.Cawyn.ShopDialogue.3": "Farmer friend! Farmer friend wants some stuff?",
+	"VoidWitchCult.CP.Cawyn.ShopDialogue.4": "Cawyn likes to watch waves. Makes Cawyn think of egg times.",
+	
+	// THE WITCHES SHADOW
+	"VoidWitchCult.CP.TheWitchesShadow.ShopDialogue.1": "I detached...myself...from Master... Who...am I...if not... part of...Master?",
+	"VoidWitchCult.CP.TheWitchesShadow.ShopDialogue.2": "From nothingness...everything sprung... to nothingness...it shall return....one day...",
+	"VoidWitchCult.CP.TheWitchesShadow.ShopDialogue.3": "....trapped...forgotten. ...longing...yet unmoving. ...wretched...yet pure. ...Faust...I am alone.",
+	"VoidWitchCult.CP.TheWitchesShadow.ShopDialogue.4": "...one is...not like...the other...",	
+}

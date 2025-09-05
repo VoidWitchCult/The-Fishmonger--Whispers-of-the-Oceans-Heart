@@ -1,0 +1,280 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load World Map",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/LostIslandMap",
+            "FromFile": "Assets/Maps/Tilesheets/map_lost_island.png"
+		},
+        {
+            "LogName": "Add World Map",
+            "Action": "EditData",
+            "Target": "Data/WorldMap",
+            "Entries": {
+                "{{ModId}}_LostIslandMap": {
+				// The main map background to draw
+                    "BaseTexture": [
+                        {
+                            "Id": "Default",
+                            "Texture": "Mods\\{{ModId}}\\LostIslandMap"
+						}
+					],
+					// The map areas that can provide tooltips, scroll text, texture overlays, and world positions
+					"MapAreas": [ 
+                        {
+                            "Id": "{{ModId}}_LostIsland",
+                            "PixelArea": {
+                                "X": 45,
+                                "Y": 97,
+                                "Width": 80,
+                                "Height": 60
+							},
+                            "ScrollText": "{{i18n:WorldMap.LostIslandBeach}}",
+							// Match location names & tile positions to this map area
+                            "WorldPositions" : [
+                                {
+                                    "Id": "{{ModId}}_LostIsland",
+                                    "LocationName": "{{ModId}}_LostIsland"
+                                },
+								{
+                                    "Id": "{{ModId}}_LostIsland_MermaidHome",
+                                    "LocationName": "{{ModId}}_LostIsland_MermaidHome",
+                                    "MapPixelArea": { "X": 64, "Y": 104, "Width": 6, "Height": 7 },
+                                    "ScrollText": "{{i18n:WorldMap.MermaidHome}}"
+								},
+								{
+                                    "Id": "{{ModId}}_LostIsland_CoolGalHome",
+                                    "LocationName": "{{ModId}}_LostIsland_CoolGalHome",
+                                    "MapPixelArea": { "X": 102, "Y": 152, "Width": 6, "Height": 4 },
+                                    "ScrollText": "{{i18n:WorldMap.CoolGalHome}}"
+								},
+								{
+                                    "Id": "{{ModId}}_LostIsland_PirateLadHome",
+                                    "LocationName": "{{ModId}}_LostIsland_PirateLadHome",
+                                    "MapPixelArea": { "X": 114, "Y": 150, "Width": 4, "Height": 9 },
+                                    "ScrollText": "{{i18n:WorldMap.PirateLadHome}}"
+								},
+								{
+                                    "Id": "{{ModId}}_LostIsland_Cawyn",
+                                    "LocationName": "{{ModId}}_LostIsland_Cawyn",
+                                    "MapPixelArea": { "X": 104, "Y": 1374, "Width": 4, "Height": 5 },
+                                    "ScrollText": "{{i18n:WorldMap.Cawyn}}"
+								},
+								{
+                                    "Id": "{{ModId}}_LostIsland_WitchesShadow",
+                                    "LocationName": "{{ModId}}_LostIsland_WitchesShadow",
+                                    "MapPixelArea": { "X": 110, "Y": 129, "Width": 4, "Height": 4 },
+                                    "ScrollText": "{{i18n:WorldMap.WitchesShadow}}"
+								},
+								{
+                                    "Id": "{{ModId}}_LostIsland_MrFeesh",
+                                    "LocationName": "{{ModId}}_LostIsland_MrFeesh",
+                                    "MapPixelArea": { "X": 110, "Y": 129, "Width": 4, "Height": 4 },
+                                    "ScrollText": "{{i18n:WorldMap.MrFeesh}}"
+								},
+                                
+							],
+                            "Tooltips": [
+                                {
+                                    "Id": "{{ModId}}_LostIsland_MermaidHome",
+                                    "PixelArea": { "X": 64, "Y": 104, "Width": 6, "Height": 7 },
+                                    "Text": "{{i18n:WorldMap.MermaidHome}}"
+								},  
+								{
+                                    "Id": "{{ModId}}_LostIsland_CoolGalHome",
+                                    "PixelArea": { "X": 102, "Y": 152, "Width": 6, "Height": 4 },
+                                    "Text": "{{i18n:WorldMap.CoolGalHome}}"
+								},
+								{
+                                    "Id": "{{ModId}}_LostIsland_PirateLadHome",
+                                    "PixelArea": { "X": 114, "Y": 150, "Width": 4, "Height": 9 },
+                                    "Text": "{{i18n:WorldMap.PirateLadHome}}"
+								},
+								{
+                                    "Id": "{{ModId}}_LostIsland_Cawyn",
+                                    "PixelArea": { "X": 104, "Y": 137, "Width": 4, "Height": 5 },
+                                    "Text": "{{i18n:WorldMap.Cawyn}}"
+								},
+								{
+                                    "Id": "{{ModId}}_LostIsland_WitchesShadow",
+                                    "PixelArea": { "X": 110, "Y": 129, "Width": 4, "Height": 4 },
+                                    "Text": "{{i18n:WorldMap.WitchesShadow}}"
+								},
+								{
+                                    "Id": "{{ModId}}_LostIsland_MrFeesh",
+                                    "PixelArea": { "X": 81, "Y": 118, "Width": 4, "Height": 5 },
+                                    "Text": "{{i18n:WorldMap.MrFeesh}}"
+								},
+							],
+						},
+						{
+                            "Id": "{{ModId}}_LostIsland_Orchard",
+                            "PixelArea": {
+                                "X": 49,
+                                "Y": 37,
+                                "Width": 68,
+                                "Height": 61
+							},
+                            "ScrollText": "{{i18n:WorldMap.Orchard}}",
+							// Match location names & tile positions to this map area
+                            "WorldPositions" : [
+                                {
+                                    "Id": "{{ModId}}_LostIsland_Orchard",
+                                    "LocationName": "{{ModId}}_LostIsland_Orchard"
+                                },
+								{
+                                    "Id": "{{ModId}}_LostIsland_SeaDudeHome",
+                                    "LocationName": "{{ModId}}_LostIsland_SeaDudeHome",
+                                    "MapPixelArea": { "X": 56, "Y": 63, "Width": 4, "Height": 5 },
+                                    "ScrollText": "{{i18n:WorldMap.SeaDudeHome}}"
+								},   
+							],
+                            "Tooltips": [
+                                {
+                                    "Id": "{{ModId}}_LostIsland_SeaDudeHome",
+                                    "PixelArea": { "X": 56, "Y": 63, "Width": 4, "Height": 5 },
+                                    "Text": "{{i18n:WorldMap.SeaDudeHome}}"
+								}, 
+							],
+						},
+						{
+                            "Id": "{{ModId}}_LostIsland_NorthernCliffs",
+                            "PixelArea": {
+                                "X": 117,
+                                "Y": 37,
+                                "Width": 63,
+                                "Height": 45
+							},
+                            "ScrollText": "{{i18n:WorldMap.NorthernCliffs}}",
+							// Match location names & tile positions to this map area
+                            "WorldPositions" : [
+                                {
+                                    "Id": "{{ModId}}_LostIsland_NorthernCliffs",
+                                    "LocationName": "{{ModId}}_LostIsland_NorthernCliffs"
+                                },
+								{
+                                    "Id": "{{ModId}}_LostIsland_Library",
+                                    "LocationName": "{{ModId}}_LostIsland_Library",
+                                    "MapPixelArea": { "X": 131, "Y": 38, "Width": 6, "Height": 8 },
+                                    "ScrollText": "{{i18n:WorldMap.Library}}"
+								},   
+							],
+                            "Tooltips": [
+                                {
+                                    "Id": "{{ModId}}_LostIsland_Library",
+                                    "PixelArea": { "X": 131, "Y": 38, "Width": 6, "Height": 8 },
+                                    "Text": "{{i18n:WorldMap.Library}}"
+								}, 
+							],
+						},
+						{
+                            "Id": "{{ModId}}_LostIsland_NorthEastQuarry",
+                            "PixelArea": {
+                                "X": 182,
+                                "Y": 29,
+                                "Width": 71,
+                                "Height": 74
+							},
+                            "ScrollText": "{{i18n:WorldMap.NorthEastQuarry}}",
+							// Match location names & tile positions to this map area
+                            "WorldPositions" : [
+                                {
+                                    "Id": "{{ModId}}_LostIsland_NorthEastQuarry",
+                                    "LocationName": "{{ModId}}_LostIsland_NorthEastQuarry"
+                                },
+								{
+                                    "Id": "{{ModId}}_LostIsland_PetrifiedTree",
+                                    "LocationName": "{{ModId}}_LostIsland_PetrifiedTree",
+                                    "MapPixelArea": { "X": 207, "Y": 30, "Width": 34, "Height": 21 },
+                                    "ScrollText": "{{i18n:WorldMap.PetrifiedTree}}"
+								},   
+							],
+                            "Tooltips": [
+                                {
+                                    "Id": "{{ModId}}_LostIsland_PetrifiedTree",
+                                    "PixelArea": { "X": 207, "Y": 30, "Width": 34, "Height": 21 },
+                                    "Text": "{{i18n:WorldMap.PetrifiedTree}}"
+								}, 
+							],
+						},
+						{
+                            "Id": "{{ModId}}_LostIsland_EnchantedForest",
+                            "PixelArea": {
+                                "X": 135,
+                                "Y": 111,
+                                "Width": 78,
+                                "Height": 78
+							},
+                            "ScrollText": "{{i18n:WorldMap.EnchantedForest}}",
+							// Match location names & tile positions to this map area
+                            "WorldPositions" : [
+                                {
+                                    "Id": "{{ModId}}_LostIsland_EnchantedForest",
+                                    "LocationName": "{{ModId}}_LostIsland_EnchantedForest"
+                                },
+								{
+                                    "Id": "{{ModId}}_LostIsland_OldHouse",
+                                    "LocationName": "{{ModId}}_LostIsland_OldHouse",
+                                    "MapPixelArea": { "X": 162, "Y": 125, "Width": 5, "Height": 6 },
+                                    "ScrollText": "{{i18n:WorldMap.OldHouse}}"
+								},
+								{
+                                    "Id": "{{ModId}}_LostIsland_LlyrsStatue",
+                                    "LocationName": "{{ModId}}_LostIsland_LlyrsStatue",
+                                    "MapPixelArea": { "X": 165, "Y": 148, "Width": 4, "Height": 4 },
+                                    "ScrollText": "{{i18n:WorldMap.LlyrsStatue}}"
+								}, 
+							],
+                            "Tooltips": [
+                                {
+                                    "Id": "{{ModId}}_LostIsland_OldHouse",
+                                    "PixelArea": { "X": 162, "Y": 125, "Width": 5, "Height": 6 },
+                                    "Text": "{{i18n:WorldMap.OldHouse}}"
+								}, 
+								{
+                                    "Id": "{{ModId}}_LostIsland_LlyrsStatue",
+                                    "PixelArea": { "X": 165, "Y": 148, "Width": 4, "Height": 4 },
+                                    "Text": "{{i18n:WorldMap.LlyrsStatue}}"
+								},
+							],
+						},
+						{
+                            "Id": "{{ModId}}_LostIsland_PointMelodia",
+                            "PixelArea": {
+                                "X": 212,
+                                "Y": 121,
+                                "Width": 48,
+                                "Height": 50
+							},
+                            "ScrollText": "{{i18n:WorldMap.PointMelodia}}",
+							// Match location names & tile positions to this map area
+                            "WorldPositions" : [
+                                {
+                                    "Id": "{{ModId}}_LostIsland_PointMelodia",
+                                    "LocationName": "{{ModId}}_LostIsland_PointMelodia"
+                                },
+							],
+						},
+						{
+                            "Id": "{{ModId}}_LostIsland_ForsakenCove",
+                            "PixelArea": {
+                                "X": 131,
+                                "Y": 85,
+                                "Width": 55,
+                                "Height": 22
+							},
+                            "ScrollText": "{{i18n:WorldMap.ForsakenCove}}",
+							// Match location names & tile positions to this map area
+                            "WorldPositions" : [
+                                {
+                                    "Id": "{{ModId}}_LostIsland_ForsakenCove",
+                                    "LocationName": "{{ModId}}_LostIsland_ForsakenCove"
+                                },
+							],
+						},
+					]
+				}
+			}
+		}
+	]
+}

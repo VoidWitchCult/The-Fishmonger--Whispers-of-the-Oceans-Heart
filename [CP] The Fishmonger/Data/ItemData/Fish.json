@@ -1,0 +1,691 @@
+{
+	"Changes": [
+		//==============================================================================================
+		//==== LOAD FISH ===============================================================================
+		//==============================================================================================
+		{
+            "LogName": "Load Fish",
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/vww_fishmonger_AquariumFish",
+            "FromFile": "Assets/Items/{{TargetWithoutPath}}.png"
+		},
+		//==============================================================================================
+		//==== ADD FISH AS OBJECT ======================================================================
+		//==============================================================================================
+        {
+            "LogName": "Add Fish",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}_wornouthat": {
+                    "Name": "WornOutHat",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.worn.out.hat.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.worn.out.hat.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Trash",
+                    "Category": -20,
+                    "Price": 0,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 52,
+                    "ContextTags": [
+                        "color_red",
+                        "item_wornouthat",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_bicolorpiranha": {
+                    "Name": "BicolorPiranha",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bicolor.Piranha.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bicolor.Piranha.Fish.Description}}",
+                    "Edibility": "20",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 31,
+                    "ContextTags": [
+                        "color_red",
+						"color_blue",
+                        "item_bicolorpiranha",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_bigfinsquid": {
+                    "Name": "BigFinSquid",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bigfin.Squid.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bigfin.Squid.Fish.Description}}",
+                    "Edibility": "65",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 32,
+                    "ContextTags": [
+                        "color_grey",
+                        "item_bigfinsquid",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_charcoalbetta": {
+                    "Name": "CharcoalBetta",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Charcoal.Betta.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Charcoal.Betta.Fish.Description}}",
+                    "Edibility": "10",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 40,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 33,
+                    "ContextTags": [
+                        "color_black",
+                        "item_charcoalbetta",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_fairyflossbetta": {
+                    "Name": "FairyFlossBetta",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Fairyfloss.Betta.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Fairyfloss.Betta.Fish.Description}}",
+                    "Edibility": "10",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 40,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 34,
+                    "ContextTags": [
+                        "color_pink",
+                        "item_fairyflossbetta",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_firemouth": {
+                    "Name": "Firemouth",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Firemouth.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Firemouth.Fish.Description}}",
+                    "Edibility": "40",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 35,
+                    "ContextTags": [
+                        "color_red",
+                        "item_firemouth",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_garfish": {
+                    "Name": "Garfish",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Garfish.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Garfish.Fish.Description}}",
+                    "Edibility": "30",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 80,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 36,
+                    "ContextTags": [
+                        "color_blue",
+                        "item_garfish",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_glasseyesnapper": {
+                    "Name": "GlasseyeSnapper",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Glasseye.Snapper.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Glasseye.Snapper.Fish.Description}}",
+                    "Edibility": "30",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 37,
+                    "ContextTags": [
+                        "color_red",
+                        "item_glasseyesnapper",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_golddustblackmolly": {
+                    "Name": "GolddustBlackMolly",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Golddust.Black.Molly.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Golddust.Black.Molly.Fish.Description}}",
+                    "Edibility": "50",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 38,
+                    "ContextTags": [
+                        "color_black",
+                        "item_golddustblackmolly",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_kissingfish": {
+                    "Name": "KissingFish",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Kissing.Fish.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Kissing.Fish.Fish.Description}}",
+                    "Edibility": "30",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 39,
+                    "ContextTags": [
+                        "color_yellow",
+                        "item_kissingfish",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_matjes": {
+                    "Name": "Matjes",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Matjes.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Matjes.Fish.Description}}",
+                    "Edibility": "20",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 80,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 40,
+                    "ContextTags": [
+                        "color_blue",
+                        "item_matjes",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_moray": {
+                    "Name": "Moray",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Moray.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Moray.Fish.Description}}",
+                    "Edibility": "60",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 41,
+                    "ContextTags": [
+                        "color_purple",
+                        "item_moray",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_neontetra": {
+                    "Name": "NeonTetra",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Neon.Tetra.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Neon.Tetra.Fish.Description}}",
+                    "Edibility": "20",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 80,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 42,
+                    "ContextTags": [
+                        "color_blue",
+						"color_red",
+                        "item_neontetra",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_queentriggerfish": {
+                    "Name": "QueenTriggerFish",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Queen.Triggerfish.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Queen.Triggerfish.Fish.Description}}",
+                    "Edibility": "65",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 43,
+                    "ContextTags": [
+                        "color_green",
+                        "item_queentriggerfish",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_redfinhap": {
+                    "Name": "RedfinHap",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Redfin.Hap.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Redfin.Hap.Fish.Description}}",
+                    "Edibility": "50",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 180,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 44,
+                    "ContextTags": [
+                        "color_red",
+                        "item_redfinhap",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_sheephead": {
+                    "Name": "Sheephead",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Sheephead.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Sheephead.Fish.Description}}",
+                    "Edibility": "65",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 46,
+                    "ContextTags": [
+                        "color_red",
+						"color_black",
+                        "item_sheephead",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_scarletvampiresquid": {
+                    "Name": "Mothfish",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Vampire.Squid.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Vampire.Squid.Fish.Description}}",
+                    "Edibility": "80",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 45,
+                    "ContextTags": [
+                        "color_red",
+                        "item_scarletvampiresquid",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_stoplightparrotfish": {
+                    "Name": "StoplightParrotFish",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Stoplight.Parrotfish.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Stoplight.Parrotfish.Fish.Description}}",
+                    "Edibility": "40",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 47,
+                    "ContextTags": [
+                        "color_pink",
+                        "item_stoplightparrotfish",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_stripedtoby": {
+                    "Name": "StripedToby",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Striped.Toby.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Striped.Toby.Fish.Description}}",
+                    "Edibility": "10",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 40,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 48,
+                    "ContextTags": [
+                        "color_green",
+                        "item_stripedtoby",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_sunrisebetta": {
+                    "Name": "SunriseBetta",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Sunrise.Betta.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Sunrise.Betta.Fish.Description}}",
+                    "Edibility": "10",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 40,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 49,
+                    "ContextTags": [
+                        "color_yellow",
+                        "item_sunrisebetta",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_sunsetbetta": {
+                    "Name": "SunsetBetta",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Sunset.Betta.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Sunset.Betta.Fish.Description}}",
+                    "Edibility": "10",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 40,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 50,
+                    "ContextTags": [
+                        "color_pink",
+                        "item_sunsetbetta",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_viperfish": {
+                    "Name": "Viperfish",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Viperfish.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Viperfish.Fish.Description}}",
+                    "Edibility": "50",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 51,
+                    "ContextTags": [
+                        "color_black",
+                        "item_viperfish",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_rasboras": {
+                    "Name": "Rasboras",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Rasboras.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Rasboras.Fish.Description}}",
+                    "Edibility": "30",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 102,
+                    "ContextTags": [
+                        "color_red",
+                        "item_Rasboras",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_rainbowkribs": {
+                    "Name": "Rainbow Kribs",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RainbowKribs.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RainbowKribs.Fish.Description}}",
+                    "Edibility": "50",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 103,
+                    "ContextTags": [
+                        "color_green",
+                        "item_rainbowkribs",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_creolewasse": {
+                    "Name": "Creole Wrasse",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CreoleWrasse.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CreoleWrasse.Fish.Description}}",
+                    "Edibility": "60",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 104,
+                    "ContextTags": [
+                        "color_pink",
+                        "item_creolewrasse",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_fairybasslet": {
+                    "Name": "Fairy Basslet",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FairyBasslet.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FairyBasslet.Fish.Description}}",
+                    "Edibility": "70",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 105,
+                    "ContextTags": [
+                        "color_purple",
+                        "item_fairybasslet",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_trumpetfish": {
+                    "Name": "Trumpetfish",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Trumpetfish.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Trumpetfish.Fish.Description}}",
+                    "Edibility": "80",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 400,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 106,
+                    "ContextTags": [
+                        "color_orange",
+                        "item_Trumpetfish",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_longnosehawkfish": {
+                    "Name": "Long Nose Hawkfish",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LongNoseHawkfish.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LongNoseHawkfish.Fish.Description}}",
+                    "Edibility": "20",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 107,
+                    "ContextTags": [
+                        "color_orange",
+                        "item_longnosehawkfish",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_threadfinbutterflyfish": {
+                    "Name": "Threadfin Butterflyfish",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.ThreadfinButterflyfish.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.ThreadfinButterflyfish.Fish.Description}}",
+                    "Edibility": "50",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 108,
+                    "ContextTags": [
+                        "color_yellow",
+                        "item_threadfinbutterflyfish",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_bluegrenadier": {
+                    "Name": "Blue Grenadier",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BlueGrenadier.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BlueGrenadier.Fish.Description}}",
+                    "Edibility": "40",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 109,
+                    "ContextTags": [
+                        "color_blue",
+                        "item_bluegrenadier",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_redgurnard": {
+                    "Name": "Red Gurnard",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RedGurnard.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RedGurnard.Fish.Description}}",
+                    "Edibility": "80",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 110,
+                    "ContextTags": [
+                        "color_red",
+                        "item_redgurnard",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_mosquitofish": {
+                    "Name": "Mosquitofish",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mosquitofish.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mosquitofish.Fish.Description}}",
+                    "Edibility": "20",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 111,
+                    "ContextTags": [
+                        "color_grey",
+                        "item_mosquitofish",
+						"fish_has_roe",
+						"{{ModId}}_fish"
+					]
+				},
+				"{{ModID}}_mermaidjelly": {
+                    "Name": "Mermaid Jelly",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.mermaidjelly.Fish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.mermaidjelly.Fish.Description}}",
+                    "Edibility": "30",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 180,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 112,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Duration": 600,
+							"CustomAttributes": {
+								"FarmingLevel": 0,
+								"FishingLevel": 2,
+								"MiningLevel": 0,
+								"LuckLevel": 1,
+								"Foragingevel": 0,
+								"MaxStamina": 0,
+								"MagnetiscRadius": 0,
+								"Speed": 4,
+								"Defense": 0,
+								"Attack": 0,
+							}
+						}
+					],
+                    "ContextTags": [
+                        "color_purple",
+                        "item_mermaidjelly",
+						"{{ModId}}_fish",
+						"jelly_item",
+						"fish_pond_ignore",
+						"fish_nonfish",
+						"counts_as_fish_catch",
+					]
+				},
+			}
+		},
+		//==============================================================================================
+		//==== ADD FISH TO DATA FISH TABLE =============================================================
+		//==============================================================================================
+		{ // ABA: Should these fish names be in i18n?
+			"Action": "EditData",
+			"LogName": "Fish Table",
+			"Target": "Data/fish",
+			"Entries": {
+				"{{ModID}}_wornouthat": "Worn-out Hat/5/smooth/1/1/600 2600/spring summer fall winter/both/-1/0/.4/0/0/false",
+				"{{ModID}}_bicolorpiranha": "Bicolor Piranha/60/mixed/12/16/600 1800/spring summer fall winter/both/-1/2/.2/.5/2/false",
+				"{{ModID}}_bigfinsquid": "Bigfin Squid/30/sinker/20/40/1800 2600/spring summer fall winter/both/-1/5/.03/.03/6/false",
+				"{{ModID}}_charcoalbetta": "Charcoal Betta/15/smooth/2/4/2000 2600/spring summer fall winter/both/-1/0/.5/0/0/false",
+				"{{ModID}}_fairyflossbetta": "Fairyfloss Betta/15/smooth/2/4/2000 2600/spring summer fall winter/both/-1/0/.5/0/0/false",
+				"{{ModID}}_firemouth": "Firemouth/85/dart/4/5/600 2600/spring summer fall winter/sunny/-1/3/.03/.03/4/false",
+				"{{ModID}}_garfish": "Garfish/35/mixed/20/30/600 2600/spring summer fall winter/sunny/-1/3/.2/.2/0/false",
+				"{{ModID}}_glasseyesnapper": "Glasseye Snapper/30/mixed/15/20/1000 2600/spring summer fall winter/both/-1/2/.3/0/0/false",
+				"{{ModID}}_golddustblackmolly": "Golddust Black Molly/75/sinker/3/6/2000 2600/spring summer fall winter/rainy/-1/5/.03/.03/3/false",
+				"{{ModID}}_kissingfish": "Kissing Fish/15/smooth/10/12/600 1800/spring summer fall winter/both/-1/1/.03/0/0/false",
+				"{{ModID}}_matjes": "Matjes/15/smooth/8/15/600 2600/spring summer fall winter/both/-1/0/.03/0/0/false",
+				"{{ModID}}_moray": "Moray/90/mixed/3/5/2400 2600/spring summer fall winter/both/-1/5/.03/0/3/false",
+				"{{ModID}}_neontetra": "Neon Tetra/15/smooth/3/4/600 1000/spring summer fall winter/both/-1/0/.03/0/0/false",
+				"{{ModID}}_queentriggerfish": "Queen Triggerfish/60/sinker/10/23/600 2600/spring summer fall winter/rainy/-1/3/.03/0/2/false",
+				"{{ModID}}_redfinhap": "Redfin Hap/65/mixed/5/7/1400 1800/spring summer fall winter/sunny/-1/4/.03/0/2/false",
+				"{{ModID}}_sheephead": "Sheephead/90/dart/25/30/600 1200/spring summer fall winter/sunny/-1/0/.03/0/5/false",
+				"{{ModID}}_stoplightparrotfish": "Stoplight Parrotfish/15/smooth/18/22/1000 2600/spring summer fall winter/sunny/-1/2/.03/0/0/false",
+				"{{ModID}}_stripedtoby": "Striped Toby/15/smooth/3/6/600 1600/spring summer fall winter/rainy/-1/0/.03/0/0/false",
+				"{{ModID}}_sunrisebetta": "Sunrise Betta/15/smooth/2/4/600 1000/spring summer fall winter/both/-1/0/.5/0/0/false",
+				"{{ModID}}_sunsetbetta": "Sunset Betta/15/smooth/2/4/1800 2200/spring summer fall winter/both/-1/0/.5/0/0/false",
+				"{{ModID}}_scarletvampiresquid": "Scarlet Vampire Squid/100/mixed/6/12/2400 2600/spring summer fall winter/both/-1/5/.03/.03/8/false",
+				"{{ModID}}_viperfish": "Viperfish/95/dart/18/20/2200 2600/spring summer fall winter/both/-1/5/.03/.03/4/false",
+				"{{ModID}}_rasboras": "Rasboras/40/mixed/1/4/600 1000/spring summer fall winter/both/-1/5/.03/.03/0/false",
+				"{{ModID}}_rainbowkribs": "Rainbow Kribs/30/mixed/2/5/1800 2200/spring summer fall winter/both/-1/3/.03/.03/0/false",
+				"{{ModID}}_creolewasse": "Creole Wrasse/60/smooth/4/7/800 1400/spring summer fall winter/both/-1/5/.03/.03/0/false",
+				"{{ModID}}_fairybasslet": "Fairy Basslet/20/floater/3/5/1400 1600/spring summer fall winter/sunny/-1/3/0/.5/0/false",
+				"{{ModID}}_trumpetfish": "Trumpetfish/80/dart/25/36/1600 2000/spring summer fall winter/both/-1/8/.03/.03/0/false",
+				"{{ModID}}_longnosehawkfish": "Long Nose Hawkfish/30/sinker/1/5/2200 2600/spring summer fall winter/both/-1/5/.03/.03/0/false",
+				"{{ModID}}_threadfinbutterflyfish": "Threadfin Butterflyfish/50/mixed/2/8/600 2600/spring summer fall winter/both/-1/4/.03/.03/0/false",
+				"{{ModID}}_bluegrenadier": "Blue Grenadier/20/mixed/24/47/1800 2600/spring summer fall winter/both/-1/5/.03/.03/0/false",
+				"{{ModID}}_redgurnard": "Red Gurnard/15/smooth/16/28/2200 2600/spring summer fall winter/both/-1/5/.03/.03/0/false",
+				"{{ModID}}_mosquitofish": "Mosquitofish/15/floater/1/3/600 1200/spring summer fall winter/rainy/-1/2/0/.5/0/false",
+				"{{ModID}}_mermaidjelly": "Mermaid Jelly/65/dart/1/1/600 2600/spring summer fall winter/both/-1/0/.4/0/0/false",
+			},
+		},
+		//==============================================================================================
+		//==== ADD FISH TO AQUARIUM DATA ===============================================================
+		//==============================================================================================
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"Entries": {
+				"{{ModID}}_bicolorpiranha": "0/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_bigfinsquid": "1/float/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_charcoalbetta": "20/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_fairyflossbetta": "21/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_firemouth": "2/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_garfish": "3/eel/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_glasseyesnapper": "4/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_golddustblackmolly": "5/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_kissingfish": "6/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_matjes": "7/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_moray": "8/eel/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_neontetra": "9/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_queentriggerfish": "10/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_redfinhap": "11/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_sheephead": "12/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_stoplightparrotfish": "13/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_stripedtoby": "14/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_sunrisebetta": "22/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_sunsetbetta": "23/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_scarletvampiresquid": "15/cephalopod/715 716/716 716 717 717/717 718//Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_viperfish": "24/crawl/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_rasboras": "25/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_rainbowkribs": "26/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_creolewasse": "27/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_fairybasslet": "28/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_trumpetfish": "29/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_longnosehawkfish": "30/eel/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_threadfinbutterflyfish": "31/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_bluegrenadier": "32/eel/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_redgurnard": "33/crawl/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_mosquitofish": "34/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_mermaidjelly": "35/float/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+			}
+		},
+	]
+}

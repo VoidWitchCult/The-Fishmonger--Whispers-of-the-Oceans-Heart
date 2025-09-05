@@ -1,0 +1,41 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/LocationContexts",
+			"Entries": {
+				"{{ModId}}_LostIslandPassOut": {
+					"Name": "{{ModId}}_LostIslandPassOut",
+					"DefaultValidPlantableLocations": [],
+					"AllowRainTotem": true,
+					"MaxPassOutCost": 0,
+					"CopyWeatherFromLocation": "Island",
+					"PassOutLocations": [
+						{
+							"Id": "{{ModId}}_PassOutIsland",
+						}
+					],
+					"ReviveLocations": [
+						{
+							"Location": "{{ModId}}_LostIsland_SeaDudeHome",
+							"Position": {
+								"X": 10,
+								"Y": 5
+							}
+						}
+					],
+					"PassOutMail": [
+						{
+							"Mail": "PassedOutBarnabas",
+							"SkipRandomSelection": true
+						}
+					],
+					"CustomFields": {
+						"mushymato.MMAP_WaterColor": "#653fe680",
+						"mushymato.MMAP_WaterDraw": "T"
+					}
+				},
+			}
+		}
+	]
+}

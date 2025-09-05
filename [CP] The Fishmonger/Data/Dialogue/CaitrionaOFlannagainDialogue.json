@@ -1,0 +1,128 @@
+{
+    "Changes": 
+	[
+		{
+            "LogName": "Caitriona Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_PirateLadCaitrionaOFlannagain",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayNeutralB}}",
+				"MovieInvite_Invited_PirateLadCaitrionaOFlannagain": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.MovieInvite_Invited_PirateLadCaitrionaOFlannagain}}",
+				"DumpsterDiveComment": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.HitBySlingshot}}",
+				"RejectMovieTicket": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_bloodstainedrose": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.bloodstainedrose}}",
+				"AcceptGift_(O){{ModID}}_PowderOrangePearl": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.PowderOrangePearl}}",
+				"AcceptGift_(O){{ModID}}_MossyMermaidScale": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.MossyMermaidScale}}",
+				"AcceptGift_(O){{ModID}}_BloodstainedRoseTea": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.BloodstainedRoseTea}}",
+				
+				// 1ST OF SEASON DIALOGUE
+				"spring_1": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.spring_1}}",
+				"summer_1": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.summer_1}}",
+				"fall_1": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.fall_1}}",
+				"winter_1": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.winter_1}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Mon}}",
+				"Tue": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Tue}}",
+				"Wed": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Wed}}",
+				"Thu": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Thu}}",
+				"Fri": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Fri}}",
+				"Sat": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sat}}",
+				"Sun": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sun}}",
+				
+				// 2 HEARTS DIALOGUE
+				
+				"Mon2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Mon2}}",
+				"Tue2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Tue2}}",
+				"Wed2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Wed2}}",
+				"Thu2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Thu2}}",
+				"Fri2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Fri2}}",
+				"Sat2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sat2}}",
+				"Sun2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sun2}}",
+				
+				// 4 HEARTS DIALOGUE
+				
+				"Mon4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Mon4}}",
+				"Tue4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Tue4}}",
+				"Wed4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Wed4}}",
+				"Thu4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Thu4}}",
+				"Fri4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Fri4}}",
+				"Sat4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sat4}}",
+				"Sun4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sun4}}",
+				
+				// 6 HEARTS DIALOGUE
+				
+				"Mon6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Mon6}}",
+				"Tue6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Tue6}}",
+				"Wed6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Wed6}}",
+				"Thu6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Thu6}}",
+				"Fri6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Fri6}}",
+				"Sat6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sat6}}",
+				"Sun6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sun6}}",
+				
+				// 8 HEARTS DIALOGUE
+				
+				"Mon8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Mon8}}",
+				"Tue8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Tue8}}",
+				"Wed8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Wed8}}",
+				"Thu8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Thu8}}",
+				"Fri8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Fri8}}",
+				"Sat8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sat8}}",
+				"Sun8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sun8}}",
+				
+				// 10 HEARTS DIALOGUE
+				
+				"Mon10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Mon10}}",
+				"Tue10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Tue10}}",
+				"Wed10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Wed10}}",
+				"Thu10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Thu10}}",
+				"Fri10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Fri10}}",
+				"Sat10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sat10}}",
+				"Sun10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sun10}}",
+				
+				// SPECIFIC DAY DIALOGUE
+				//Note : Will work only on first year due to the way the game checks for the dayOfMonth line. Use format season_dayOfMonth_2 for dialogue in year 2 and later. Ex "summer_10_2". You can only check for 1 (first year) or 2 (all years after). If you want a dialogue to appears on a specific year, consider using CP conditions in addition of the "_2" suffix
+				"spring_12_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.spring_12_2}}", // Day before the Egg Festival
+				"spring_23_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.spring_23_2}}", // Day before the Flower Dance
+				"summer_10_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.summer_10_2}}", // Day before the Luau
+				"summer_27_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.summer_27_2}}", // Day before the Midnight Jellies
+				"fall_15_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.fall_15_2}}", // Day before the Stardew Fair
+				"fall_26_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.fall_26_2}}", // Day before Spirit's Eve
+				"winter_7_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.winter_7_2}}", // Day before the Ice Festival
+				"winter_24_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.winter_24_2}}", // Day before Winter Star
+				
+				//resort Dialogue
+				"Resort_Entering": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.fall_Sat2}}",
+				"Resort_Leaving": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.spring_Fri6}}",
+				"Resort_Shore": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.spring_Mon8}}",
+				"Resort_Chair": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.winter_Mon}}",
+				"Resort_Bar": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.summer_Thu10}}",
+				"Resort": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.spring_Sat}}",
+
+				// Schedule dialogue
+				"{{ModID}}_caitriona.lostisland.000": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_caitriona.lostisland.001": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_caitriona.lostisland.002": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Schedule.Dialogue.lostisland.002}}",
+				"{{ModID}}_caitriona.lostisland.003": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Schedule.Dialogue.lostisland.003}}",
+				"{{ModID}}_caitriona.lostisland.004": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Schedule.Dialogue.lostisland.004}}",
+				"{{ModID}}_caitriona.lostisland.005": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Schedule.Dialogue.lostisland.005}}",
+			}
+		}
+	]
+}

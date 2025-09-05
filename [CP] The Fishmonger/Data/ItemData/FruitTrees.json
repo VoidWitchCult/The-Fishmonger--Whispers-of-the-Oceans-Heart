@@ -1,0 +1,99 @@
+{
+    "Changes": [
+        //==============================================================================================
+		//==== ADDS FRUIT TREES TO DATA ================================================================
+		//==============================================================================================
+		{
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "{{ModId}}_IridescentScaleSapling": {
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.IridescentScale.name}}",
+                    "Seasons": [ "spring", "summer" ],
+                    "Fruit": [
+                        {
+                            "Id": "{{ModID}}_MermaidsDelight",
+                            "ItemId": "{{ModID}}_MermaidsDelight"
+						}
+					],
+                    "Texture": "Mods/{{ModId}}/FruitTrees",
+                    "TextureSpriteRow": 0,
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.IridescentScale}}"
+					}
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "{{ModID}}_TreeOfGinnungagapSapling": {
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TreeOfGinnungagap.name}}",
+                    "Seasons": [ "fall", "winter" ],
+                    "Fruit": [
+                        {
+                            "Id": "{{ModID}}_FruitOfGinnungagap",
+                            "ItemId": "{{ModID}}_FruitOfGinnungagap"
+						}
+					],
+                    "Texture": "Mods/{{ModId}}/FruitTrees",
+                    "TextureSpriteRow": 1,
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TreeOfGinnungagap}}"
+					}
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "{{ModID}}_LoversStarSapling": {
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LoversStar.name}}",
+                    "Seasons": [ "fall" ],
+                    "Fruit": [
+                        {
+                            "Id": "{{ModID}}_LoversStar",
+                            "ItemId": "{{ModID}}_LoversStar"
+						}
+					],
+                    "Texture": "Mods/{{ModId}}/FruitTrees",
+                    "TextureSpriteRow": 2,
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LoversStar}}"
+					}
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "{{ModID}}_PuffballSapling": {
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Puffball.name}}",
+                    "Seasons": [ "spring", "summer", "fall" ],
+                    "Fruit": [
+                        {
+                            "Id": "{{ModID}}_StarlightFruit",
+                            "ItemId": "{{ModID}}_StarlightFruit"
+						}
+					],
+                    "Texture": "Mods/{{ModId}}/FruitTrees",
+                    "TextureSpriteRow": 3,
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Puffball}}"
+					}
+				}
+			}
+		},
+		//==============================================================================================
+		//==== ADDS TILESHEET ==========================================================================
+		//==============================================================================================
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/FruitTrees",
+            "FromFile": "assets/Items/vww_fishmonger_fruitTrees.png"
+		},
+	]
+}

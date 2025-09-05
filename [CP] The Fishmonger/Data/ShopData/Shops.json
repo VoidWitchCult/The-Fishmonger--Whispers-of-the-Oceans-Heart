@@ -1,0 +1,1025 @@
+{
+    "Changes": [
+        //==============================================================================================
+		//==== FISHMONGER GENERAL SHOP =================================================================
+		//==============================================================================================
+        {
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"{{ModID}}_TheFishmonger": {
+					"Owners": [
+						{
+							"Condition": "TIME 0900 1800",
+							"Portrait": "{{ModID}}_TheFishmonger",
+							"Dialogues": [
+								{
+									"Id": "{{ModID}}_TheFishmonger-OpenOwnerDialogue",
+									"Dialogue": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TheFishmonger.ShopDialogue.{{Random: 1, 2, 3}}}}"
+								},
+							],
+							"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_TheFishmonger-OpenOwner",
+							"Name": "{{ModID}}_TheFishmonger"
+						},
+						{
+							"ClosedMessage": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Strings.FishmongerShopClosed}}",
+							"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_TheFishmonger-ClosedOwner",
+							"Name": "None"
+						},
+					],
+					"SalableItemTags": [
+						"category_bait",
+						"category_fish",
+						"category_sell_at_fish_shop",
+						"category_tackle"
+					],
+					"Items": [
+						{
+							"Id": "{{ModID}}_BlueDiscus",
+							"ItemId": "(O)838",
+                            "Condition": "RANDOM 0.7",
+                            "Price": 180,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_Stingray",
+							"ItemId": "(O)836",
+                            "Condition": "RANDOM 0.5",
+                            "Price": 270,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_Bait",
+                            "ItemId": "(O)685",
+                            "Price": 5,
+							"AvailableStock": 100,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_WildBait",
+                            "ItemId": "(O)774",
+                            "Condition": "RANDOM 0.5",
+                            "Price": 15,
+							"AvailableStock": 30,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_GoldenCoconut",
+                            "ItemId": "(O)791",
+                            "Condition": "RANDOM 0.5",
+                            "Price": 1000,
+							"AvailableStock": 10,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_Pearl",
+                            "ItemId": "(O)797",
+                            "Condition": "RANDOM 0.5",
+                            "Price": 2000,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_DriedStarfish",
+                            "ItemId": "(O)116",
+                            "Condition": "RANDOM 0.5",
+                            "Price": 100,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_NautilusShell",
+                            "ItemId": "(O)392",
+                            "Condition": "RANDOM 0.5",
+                            "Price": 150,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_RainbowShell",
+                            "ItemId": "(O)394",
+                            "Condition": "RANDOM 0.5",
+                            "Price": 150,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_SeaUrchin",
+                            "ItemId": "(O)397",
+                            "Price": 180,
+							"AvailableStock": 10,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_RainTotem",
+                            "ItemId": "(O)681",
+                            "Condition": "RANDOM 0.5",
+                            "Price": 1000,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_DriftWood",
+                            "ItemId": "(O)169",
+                            "Condition": "RANDOM 0.9",
+                            "Price": 1,
+							"AvailableStock": 100,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_Ginger",
+                            "ItemId": "(O)829",
+                            "Condition": "RANDOM 0.7",
+                            "Price": 80,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_TaroRoots",
+                            "ItemId": "(O)830",
+                            "Condition": "RANDOM 0.7",
+                            "Price": 150,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_Mango",
+                            "ItemId": "(O)834",
+                            "Condition": "RANDOM 0.7",
+                            "Price": 150,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_Pineapple",
+                            "ItemId": "(O)832",
+                            "Condition": "RANDOM 0.7",
+                            "Price": 350,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_CrabCakes",
+                            "ItemId": "(O)732",
+                            "Condition": "RANDOM 0.4",
+                            "Price": 450,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_ShrimpCocktail",
+                            "ItemId": "(O)733",
+                            "Condition": "RANDOM 0.4",
+                            "Price": 250,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_FriedCalamari",
+                            "ItemId": "(O)202",
+                            "Condition": "RANDOM 0.4",
+                            "Price": 200,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_CarpSurprise",
+                            "ItemId": "(O)209",
+                            "Condition": "RANDOM 0.4",
+                            "Price": 200,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_DishOTheSea",
+                            "ItemId": "(O)242",
+                            "Condition": "RANDOM 0.4",
+                            "Price": 350,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+						{
+                            "Id": "{{ModID}}_FriedEel",
+                            "ItemId": "(O)225",
+                            "Condition": "RANDOM 0.4",
+                            "Price": 200,
+							"AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+						},
+					]
+				}
+			}
+		},
+		//==============================================================================================
+		//==== FISHMONGER SEED SHOP ====================================================================
+		//==============================================================================================
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ModID}}_TheFishmongerSeeds": {
+                    "Owners": [ 
+                        {
+                            "Condition": "TIME 0900 1800, PLAYER_HAS_MAIL current {{ModID}}_RecipesAndSeeds",
+                            "Portrait": "{{ModID}}_TheFishmonger",
+                            "Dialogues": [
+                                {
+                                    "Id": "VoidWitchCult.CP.TheFishmongerNPCShop_TheFishmongerSeeds-OpenOwnerDialogue",
+                                    "Dialogue": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TheFishmonger.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
+								}
+							],
+                            "Id": "VoidWitchCult.CP.TheFishmongerNPCShop_TheFishmongerSeeds-OpenOwner",
+                            "Name": "{{ModID}}_TheFishmonger"
+						},
+						{
+							"ClosedMessage": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Strings.FishmongerShopClosed}}",
+							"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_TheFishmonger-ClosedOwner",
+							"Name": "None"
+						},
+					],
+                    "Items": [
+						//==== SEEDS ===================================================================
+						{
+                            "Id": "{{ModID}}_freshdillseeds",
+                            "ItemId": "{{ModID}}_freshdillseeds",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 2",
+                            "Price": 250,
+						},
+						{
+                            "Id": "{{ModID}}_spicymustardseeds",
+                            "ItemId": "{{ModID}}_spicymustardseeds",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 2",
+                            "Price": 50,
+						},
+						{
+                            "Id": "{{ModID}}_fisheyebeansseeds",
+                            "ItemId": "{{ModID}}_fisheyebeansseeds",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 200,
+						},
+						{
+                            "Id": "{{ModID}}_halcyonflowerseeds",
+                            "ItemId": "{{ModID}}_halcyonflowerseeds",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 6",
+                            "Price": 250,
+						},
+						{
+                            "Id": "{{ModID}}_petrichorseeds",
+                            "ItemId": "{{ModID}}_petrichorseeds",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 250,
+						},
+						{
+                            "Id": "{{ModID}}_oceanflaxseeds",
+                            "ItemId": "{{ModID}}_oceanflaxseeds",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 6",
+                            "Price": 20,
+						},
+						{
+                            "Id": "{{ModID}}_saltemmerseeds",
+                            "ItemId": "{{ModID}}_saltemmerseeds",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 50,
+							
+						},
+						{
+                            "Id": "{{ModID}}_bloodstainedroseseeds",
+                            "ItemId": "{{ModID}}_bloodstainedroseseeds",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 8",
+                            "Price": 500,
+						},
+						{
+                            "Id": "{{ModID}}_sunsetroseseeds",
+                            "ItemId": "{{ModID}}_sunsetroseseeds",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 8",
+                            "Price": 500,
+						},
+						{
+                            "Id": "{{ModID}}_scallureseeds",
+                            "ItemId": "{{ModID}}_scallureseeds",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 6",
+                            "Price": 400,
+						},
+						//==== RECIPES =================================================================
+						{
+                            "Id": "{{ModID}}_bakedredsnappercurry",
+                            "ItemId": "{{ModID}}_bakedredsnappercurry",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 200,
+							"IsRecipe": true,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+						},
+						{
+                            "Id": "{{ModID}}_crispyfishandchips",
+                            "ItemId": "{{ModID}}_crispyfishandchips",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 250,
+							"IsRecipe": true,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+						},
+						{
+                            "Id": "{{ModID}}_mouthwateringfishburger",
+                            "ItemId": "{{ModID}}_mouthwateringfishburger",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 200,
+							"IsRecipe": true,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+						},
+						{
+                            "Id": "{{ModID}}_fishcroquettesaioli",
+                            "ItemId": "{{ModID}}_fishcroquettesaioli",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 200,
+							"IsRecipe": true,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+						},
+						{
+                            "Id": "{{ModID}}_fishdillsauce",
+                            "ItemId": "{{ModID}}_fishdillsauce",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 200,
+							"IsRecipe": true,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+						},
+						{
+                            "Id": "{{ModID}}_savoryfishballs",
+                            "ItemId": "{{ModID}}_savoryfishballs",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 150,
+							"IsRecipe": true,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+						},
+						{
+                            "Id": "{{ModID}}_freshdillsauce",
+                            "ItemId": "{{ModID}}_freshdillsauce",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 150,
+							"IsRecipe": true,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+						},
+						{
+                            "Id": "{{ModID}}_Plokkfiskur",
+                            "ItemId": "{{ModID}}_Plokkfiskur",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 250,
+							"IsRecipe": true,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+						},
+						{
+                            "Id": "{{ModID}}_potatoesdillsauce",
+                            "ItemId": "{{ModID}}_potatoesdillsauce",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 200,
+							"IsRecipe": true,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+						},
+						{
+                            "Id": "{{ModID}}_crispysalmonschnitzel",
+                            "ItemId": "{{ModID}}_crispysalmonschnitzel",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 200,
+							"IsRecipe": true,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+						},
+						{
+                            "Id": "{{ModID}}_spicymustardsauce",
+                            "ItemId": "{{ModID}}_spicymustardsauce",
+                            "Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                            "Price": 60,
+							"IsRecipe": true,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+						},
+					]
+				}
+			}
+		},
+		//==============================================================================================
+		//==== LOST ISLAND MR FEESH SHOP ===============================================================
+		//==============================================================================================
+		{
+            "Action": "Load",
+            "Target": "Portraits/{{ModID}}_LostIslandMrFeesh_Portrait",
+            "FromFile": "Assets/Images/MrFeesh.png"
+		},
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ModID}}_LostIslandMrFeesh": {
+                    "Owners": [ 
+                        {
+                            "Condition": "TIME 0900 1800",
+                            "Portrait": "Portraits/{{ModID}}_LostIslandMrFeesh_Portrait",
+                            "Dialogues": [
+                                {
+                                    "Id": "VoidWitchCult.LostIsland_LostIslandMrFeesh-OpenOwnerDialogue",
+                                    "Dialogue": "{{i18n:VoidWitchCult.CP.MrFeesh.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
+								}
+							],
+                            "Id": "VoidWitchCult.LostIsland_LostIslandMrFeesh-OpenOwner",
+                            "Name": "AnyOrNone"
+						},
+						{
+							"ClosedMessage": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Strings.MrFeeshShopClosed}}",
+							"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_MrFeesh-ClosedOwner",
+							"Name": "None"
+						},
+					],
+					"VisualTheme": [
+						{
+							"WindowBorderTexture": "Mods\\{{ModID}}\\UI",
+							"WindowBorderSourceRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 18,
+								"Height": 18
+							},
+							"ItemRowBackgroundTexture": "Mods\\{{ModID}}\\UI",
+							"ItemRowBackgroundSourceRect": {
+								"X": 18,
+								"Y": 0,
+								"Width": 15,
+								"Height": 15
+							},
+							"ItemIconBackgroundTexture": "Mods\\{{ModID}}\\UI",
+							"ItemIconBackgroundSourceRect": {
+								"X": 33,
+								"Y": 0,
+								"Width": 18,
+								"Height": 18
+							},
+							"PortraitBackgroundTexture": "Mods\\{{ModID}}\\UI",
+							"PortraitBackgroundSourceRect": {
+								"X": 162,
+								"Y": 0,
+								"Width": 74,
+								"Height": 74
+							},
+						}
+					],
+                    "Items": [
+						{
+                            "Id": "(F){{ModID}}_MermaidBed",
+                            "ItemId": "(F){{ModID}}_MermaidBed",
+							"Condition": "PLAYER_HEARTS Current {{ModID}}_MermaidCalliope 2",
+                            "Price": 5000,
+						},
+						{
+                            "Id": "(F){{ModID}}_MermaidChair",
+                            "ItemId": "(F){{ModID}}_MermaidChair",
+                            "Price": 2000,
+						},
+						{
+                            "Id": "(F){{ModID}}_MermaidTeaTable",
+                            "ItemId": "(F){{ModID}}_MermaidTeaTable",
+							"Condition": "PLAYER_HEARTS Current {{ModID}}_SeaDudeBarnabas 2",
+                            "Price": 4000,
+						},
+						{
+                            "Id": "(F){{ModID}}_MermaidTeaTable2",
+                            "ItemId": "(F){{ModID}}_MermaidTeaTable2",
+							"Condition": "PLAYER_HEARTS Current {{ModID}}_SeaDudeBarnabas 2",
+                            "Price": 4000,
+						},
+						{
+                            "Id": "(F){{ModID}}_PileOfMermaidWood",
+                            "ItemId": "(F){{ModID}}_PileOfMermaidWood",
+                            "Price": 1000,
+						},
+						{
+                            "Id": "(F){{ModID}}_PileOfMermaidWood2",
+                            "ItemId": "(F){{ModID}}_PileOfMermaidWood2",
+                            "Price": 1000,
+						},
+						{
+                            "Id": "(F){{ModID}}_MermaidEndTable",
+                            "ItemId": "(F){{ModID}}_MermaidEndTable",
+							"Condition": "PLAYER_HEARTS Current {{ModID}}_SeaDudeBarnabas 2",
+                            "Price": 2000,
+						},
+						{
+                            "Id": "(F){{ModID}}_MermaidEndTable2",
+                            "ItemId": "(F){{ModID}}_MermaidEndTable2",
+							"Condition": "PLAYER_HEARTS Current {{ModID}}_SeaDudeBarnabas 2",
+                            "Price": 2000,
+						},
+						{
+                            "Id": "(F){{ModID}}_PiratePlushie",
+                            "ItemId": "(F){{ModID}}_PiratePlushie",
+							"Condition": "PLAYER_HEARTS Current {{ModID}}_PirateLadCaitrionaOFlannagain 4",
+                            "Price": 1000,
+						},
+						{
+                            "Id": "(F){{ModID}}_SeaDudePlushie",
+                            "ItemId": "(F){{ModID}}_SeaDudePlushie",
+							"Condition": "PLAYER_HEARTS Current {{ModID}}_SeaDudeBarnabas 4",
+                            "Price": 1000,
+						},
+						{
+                            "Id": "(F){{ModID}}_PottedMermaidBush",
+                            "ItemId": "(F){{ModID}}_PottedMermaidBush",
+                            "Price": 3000,
+						},
+						{
+                            "Id": "(F){{ModID}}_FishLamp",
+                            "ItemId": "(F){{ModID}}_FishLamp",
+                            "Price": 2000,
+						},
+						{
+                            "Id": "(F){{ModID}}_MermaidCoffeeTable",
+                            "ItemId": "(F){{ModID}}_MermaidCoffeeTable",
+                            "Price": 3000,
+						},
+						{
+                            "Id": "(F){{ModID}}_MermaidCoffeeTable2",
+                            "ItemId": "(F){{ModID}}_MermaidCoffeeTable2",
+                            "Price": 3000,
+						},
+						{
+                            "Id": "(F){{ModID}}_MermaidFireplace",
+                            "ItemId": "(F){{ModID}}_MermaidFireplace",
+							"Condition": "PLAYER_HEARTS Current {{ModID}}_MermaidCalliope 4",
+                            "Price": 10000,
+						},
+						{
+                            "Id": "(F){{ModID}}_SharkFireplace",
+                            "ItemId": "(F){{ModID}}_SharkFireplace",
+							"Condition": "PLAYER_HEARTS Current {{ModID}}_SeaDudeBarnabas 6",
+                            "Price": 8000,
+						},
+						{
+                            "Id": "(F){{ModID}}_DepictionOfHer",
+                            "ItemId": "(F){{ModID}}_DepictionOfHer",
+							"Condition": "PLAYER_HEARTS Current {{ModID}}_PirateLadCaitrionaOFlannagain 6",
+                            "Price": 4000,
+						},
+						{
+                            "Id": "(F){{ModID}}_JellyfishRug",
+                            "ItemId": "(F){{ModID}}_JellyfishRug",
+							"Condition": "PLAYER_HEARTS Current {{ModID}}_SeaDudeBarnabas 4",
+                            "Price": 4000,
+						},
+						/*{
+						"Id": "(F){{ModID}}_MyHeartProfound",
+						"ItemId": "(F){{ModID}}_MyHeartProfound",
+						"Condition": "HAS_SEEN_EVENT <ID>",
+						"Price": 10000,
+					},*/
+					{
+						"Id": "(F){{ModID}}_JellyfishBanner",
+						"ItemId": "(F){{ModID}}_JellyfishBanner",
+						"Price": 1000,
+					},
+					{
+						"Id": "(F){{ModID}}_PirateBanner",
+						"ItemId": "(F){{ModID}}_PirateBanner",
+						"Condition": "PLAYER_HEARTS Current {{ModID}}_PirateLadCaitrionaOFlannagain 1",
+						"Price": 1000,
+					},
+					{
+						"Id": "(F){{ModID}}_MermaidDoor",
+						"ItemId": "(F){{ModID}}_MermaidDoor",
+						"Price": 4000,
+					},
+					{
+						"Id": "(F){{ModID}}_FloralCart",
+						"ItemId": "(F){{ModID}}_FloralCart",
+						"Condition": "PLAYER_HEARTS Current {{ModID}}_SeaDudeBarnabas 4",
+						"Price": 6000,
+					},
+					{
+						"Id": "(F){{ModID}}_PirateGalSpousePortrait",
+						"ItemId": "(F){{ModID}}_PirateGalSpousePortrait",
+						"Condition": "PLAYER_HEARTS Current {{ModID}}_PirateLadCaitrionaOFlannagain 10",
+						"Price": 4000,
+					},
+					{
+						"Id": "(F){{ModID}}_SeaDudeSpousePortrait",
+						"ItemId": "(F){{ModID}}_SeaDudeSpousePortrait",
+						"Condition": "PLAYER_HEARTS Current {{ModID}}_SeaDudeBarnabas 10",
+						"Price": 4000,
+					},
+					{
+						"Id": "(F){{ModID}}_FloralRug",
+						"ItemId": "(F){{ModID}}_FloralRug",
+						"Price": 3000,
+					},
+					{
+						"Id": "(F){{ModID}}_LibraryRug",
+						"ItemId": "(F){{ModID}}_LibraryRug",
+						"Price": 6000,
+					},
+				]
+			}
+		}
+	},
+	//==============================================================================================
+	//==== LOST ISLAND CAWYN PARROT SHOP ===========================================================
+	//==============================================================================================
+	{
+		"Action": "Load",
+		"Target": "Portraits/{{ModID}}_LostIslandCawyn_Portrait",
+		"FromFile": "Assets/Images/Cawyn.png"
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"Entries": {
+			"{{ModID}}_LostIslandCawyn": {
+				"Owners": [ 
+					{
+						"Condition": "TIME 0900 1800",
+						"Portrait": "Portraits/{{ModID}}_LostIslandCawyn_Portrait",
+						"Dialogues": [
+							{
+								"Id": "VoidWitchCult.LostIsland_LostIslandCawyn-OpenOwnerDialogue",
+								"Dialogue": "{{i18n:VoidWitchCult.CP.Cawyn.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
+							}
+						],
+						"Id": "VoidWitchCult.LostIsland_LostIslandCawyn-OpenOwner",
+						"Name": "AnyOrNone"
+					},
+					{
+						"ClosedMessage": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Strings.CawynShopClosed}}",
+						"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_TheFishmonger-CawynOwner",
+						"Name": "None"
+					},
+				],
+				"VisualTheme": [
+						{
+							"WindowBorderTexture": "Mods\\{{ModID}}\\UI",
+							"WindowBorderSourceRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 18,
+								"Height": 18
+							},
+							"ItemRowBackgroundTexture": "Mods\\{{ModID}}\\UI",
+							"ItemRowBackgroundSourceRect": {
+								"X": 18,
+								"Y": 0,
+								"Width": 15,
+								"Height": 15
+							},
+							"ItemIconBackgroundTexture": "Mods\\{{ModID}}\\UI",
+							"ItemIconBackgroundSourceRect": {
+								"X": 33,
+								"Y": 0,
+								"Width": 18,
+								"Height": 18
+							},
+							"PortraitBackgroundTexture": "Mods\\{{ModID}}\\UI",
+							"PortraitBackgroundSourceRect": {
+								"X": 162,
+								"Y": 0,
+								"Width": 74,
+								"Height": 74
+							},
+						}
+					],
+				"Items": [
+					// ---- RECIPES ----------------------------------------------------------------
+					{
+						"Id": "{{ModID}}_MermaidCookingRecipes",
+						"RandomItemId": [ "(O){{ModID}}_MermaidsTail", "(O){{ModID}}_SandDollarCookie", "(O){{ModID}}_ClamBisquit", "(O){{ModID}}_MermaidDonut", "(O){{ModID}}_TropicalPunch", "(O){{ModID}}_MermaidFreakshake", "(O){{ModID}}_OceanJello", "(O){{ModID}}_OrangeFruitCrab", "(O){{ModID}}_OceanSmoothieBowl", "(O){{ModID}}_MapRiceCrispy", "(O){{ModID}}_StuffedFishPocket", "(O){{ModID}}_SunsetRoseTea", "(O){{ModID}}_BloodstainedRoseTea", "(O){{ModID}}_SkeweredFish", "(O){{ModID}}_RoseCandy", "(O){{ModID}}_IridescentCake", "(O){{ModID}}_PastelCottonCandy" ],
+						"IsRecipe": true,
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 200,
+						"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModID}}_MermaidCraftingRecipes",
+						"RandomItemId": [ "(BC){{ModID}}_TubOTropicalFlowers", "(BC){{ModID}}_FlowerCrate", "(BC){{ModID}}_IridescentCakeStand", "(BC){{ModID}}_CrateOfPetrichor", "(BC){{ModID}}_FloralArrangement", "(BC){{ModID}}_TropicalTikkiTorch", "(BC){{ModID}}_TropicalBearPlanter", "(BC){{ModID}}_HandcraftedFishCrate" ],
+						"IsRecipe": true,
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 400,
+						"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+					//---- ITEMS -------------------------------------------------------------------
+					{
+						"Id": "{{ModID}}_MermaidsTail",
+						"ItemId": "{{ModID}}_MermaidsTail",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_SandDollarCookie",
+						"ItemId": "{{ModID}}_SandDollarCookie",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_ClamBisquit",
+						"ItemId": "{{ModID}}_ClamBisquit",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_MermaidDonut",
+						"ItemId": "{{ModID}}_MermaidDonut",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_TropicalPunch",
+						"ItemId": "{{ModID}}_TropicalPunch",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_MermaidFreakshake",
+						"ItemId": "{{ModID}}_MermaidFreakshake",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_OceanJello",
+						"ItemId": "{{ModID}}_OceanJello",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_OrangeFruitCrab",
+						"ItemId": "{{ModID}}_OrangeFruitCrab",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_OceanSmoothieBowl",
+						"ItemId": "{{ModID}}_OceanSmoothieBowl",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_MapRiceCrispy",
+						"ItemId": "{{ModID}}_MapRiceCrispy",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_StuffedFishPocket",
+						"ItemId": "{{ModID}}_StuffedFishPocket",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_SunsetRoseTea",
+						"ItemId": "{{ModID}}_SunsetRoseTea",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_BloodstainedRoseTea",
+						"ItemId": "{{ModID}}_BloodstainedRoseTea",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_SkeweredFish",
+						"ItemId": "{{ModID}}_SkeweredFish",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_RoseCandy",
+						"ItemId": "{{ModID}}_RoseCandy",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					{
+						"Id": "{{ModID}}_IridescentCake",
+						"ItemId": "{{ModID}}_IridescentCake",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 50,
+					},
+					{
+						"Id": "{{ModID}}_PastelCottonCandy",
+						"ItemId": "{{ModID}}_PastelCottonCandy",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 20,
+					},
+					//---- BIG CRAFTABLES ----------------------------------------------------------
+					{
+						"Id": "{{ModID}}_TubOTropicalFlowers",
+						"ItemId": "{{ModID}}_TubOTropicalFlowers",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 100,
+					},
+					{
+						"Id": "{{ModID}}_FlowerCrate",
+						"ItemId": "{{ModID}}_FlowerCrate",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 100,
+					},
+					{
+						"Id": "{{ModID}}_IridescentCakeStand",
+						"ItemId": "{{ModID}}_IridescentCakeStand",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 100,
+					},
+					{
+						"Id": "{{ModID}}_CrateOfPetrichor",
+						"ItemId": "{{ModID}}_CrateOfPetrichor",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 100,
+					},
+					{
+						"Id": "{{ModID}}_FloralArrangement",
+						"ItemId": "{{ModID}}_FloralArrangement",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 100,
+					},
+					{
+						"Id": "{{ModID}}_TropicalTikkiTorch",
+						"ItemId": "{{ModID}}_TropicalTikkiTorch",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 100,
+					},
+					{
+						"Id": "{{ModID}}_TropicalBearPlanter",
+						"ItemId": "{{ModID}}_TropicalBearPlanter",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 100,
+					},
+					{
+						"Id": "{{ModID}}_HandcraftedFishCrate",
+						"ItemId": "{{ModID}}_HandcraftedFishCrate",
+						"TradeItemId": "(O){{ModID}}_FerretFurball",
+						"TradeItemAmount": 100,
+					},
+				]
+			}
+		}
+	},
+	//==============================================================================================
+	//==== LOST ISLAND THE WITCHES SHADOW SHOP =====================================================
+	//==============================================================================================
+	{
+		"Action": "Load",
+		"Target": "Portraits/{{ModID}}_LostIslandTheWitchesShadow_Portrait",
+		"FromFile": "Assets/Images/TheWitchesShadow.png"
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"Entries": {
+			"{{ModID}}_LostIslandTheWitchesShadow": {
+				"Owners": [ 
+					{
+						"Condition": "TIME 0900 1800",
+						"Portrait": "Portraits/{{ModID}}_LostIslandTheWitchesShadow_Portrait",
+						"Dialogues": [
+							{
+								"Id": "VoidWitchCult.LostIsland_LostIslandTheWitchesShadow-OpenOwnerDialogue",
+								"Dialogue": "{{i18n:VoidWitchCult.CP.TheWitchesShadow.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
+							}
+						],
+						"Id": "VoidWitchCult.LostIsland_LostIslandTheWitchesShadow-OpenOwner",
+						"Name": "AnyOrNone"
+					},
+					{
+						"ClosedMessage": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Strings.WitchesShadowShopClosed}}",
+						"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_WitchesShadow-ClosedOwner",
+						"Name": "None"
+					},
+				],
+				"VisualTheme": [
+						{
+							"WindowBorderTexture": "Mods\\{{ModID}}\\UI",
+							"WindowBorderSourceRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 18,
+								"Height": 18
+							},
+							"ItemRowBackgroundTexture": "Mods\\{{ModID}}\\UI",
+							"ItemRowBackgroundSourceRect": {
+								"X": 18,
+								"Y": 0,
+								"Width": 15,
+								"Height": 15
+							},
+							"ItemIconBackgroundTexture": "Mods\\{{ModID}}\\UI",
+							"ItemIconBackgroundSourceRect": {
+								"X": 33,
+								"Y": 0,
+								"Width": 18,
+								"Height": 18
+							},
+							"PortraitBackgroundTexture": "Mods\\{{ModID}}\\UI",
+							"PortraitBackgroundSourceRect": {
+								"X": 162,
+								"Y": 0,
+								"Width": 74,
+								"Height": 74
+							},
+						}
+					],
+				"Items": [
+					{
+						"Id": "{{ModID}}_OldRune",
+						"ItemId": "{{ModID}}_OldRune",
+						"Price": 30000,
+					},
+					{
+						"Id": "{{ModID}}_NaturesCoin",
+						"ItemId": "{{ModID}}_NaturesCoin",
+						"Price": 30000,
+					},
+					{
+						"Id": "{{ModID}}_GrassCube",
+						"ItemId": "{{ModID}}_GrassCube",
+						"Price": 30000,
+					},
+					{
+						"Id": "{{ModID}}_WeirdShroom",
+						"ItemId": "{{ModID}}_WeirdShroom",
+						"Price": 30000,
+					},
+					{
+						"Id": "{{ModID}}_UndeliveredMail",
+						"ItemId": "{{ModID}}_UndeliveredMail",
+						"Price": 30000,
+					},
+					{
+						"Id": "{{ModID}}_BellsOfTheOldeOnes",
+						"ItemId": "{{ModID}}_BellsOfTheOldeOnes",
+						"Price": 30000,
+					},
+					{
+						"Id": "{{ModID}}_HomogenousSoulTether",
+						"ItemId": "{{ModID}}_HomogenousSoulTether",
+						"Price": 30000,
+					},
+					{
+						"Id": "{{ModID}}_RoseTintedEncyclopedia",
+						"ItemId": "{{ModID}}_RoseTintedEncyclopedia",
+						"Price": 30000,
+					},
+				]
+			}
+		}
+	},
+	//==============================================================================================
+	//==== ADDING HATS TO HATMOUSE SHOP ============================================================
+	//==============================================================================================
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"TargetField": [ "HatMouse", "Items" ],
+		"Entries": {
+			"{{ModId}}_FishmongersHat": {
+				"Id": "{{ModId}}_FishmongersHat",
+				"ItemId": "{{ModId}}_FishmongersHat",
+				"Price": 2000,
+				"Condition": "PLAYER_HAS_SEEN_EVENT {{ModID}}_Introduction",
+			},
+			"{{ModId}}_MermaidCirclet": {
+				"Id": "{{ModId}}_MermaidCirclet",
+				"ItemId": "{{ModId}}_MermaidCirclet",
+				"Price": 2000,
+				"Condition": "PLAYER_HAS_SEEN_EVENT {{ModID}}_MermaidCalliopeIntro",
+			},
+			"{{ModId}}_TrafficCone": {
+				"Id": "{{ModId}}_TrafficCone",
+				"ItemId": "{{ModId}}_TrafficCone",
+				"Price": 2000,
+				//	"Condition": "PLAYER_HAS_SEEN_EVENT {{ModID}}_SeaDudeBarnabasHatHearts",
+			},
+			"{{ModId}}_PearlCirclet": {
+				"Id": "{{ModId}}_PearlCirclet",
+				"ItemId": "{{ModId}}_PearlCirclet",
+				"Price": 2000,
+				"Condition": "PLAYER_HAS_SEEN_EVENT {{ModID}}_MermaidCalliope2Hearts",
+			},
+			"{{ModId}}_FishmongersFishHat": {
+				"Id": "{{ModId}}_FishmongersFishHat",
+				"ItemId": "{{ModId}}_FishmongersFishHat",
+				"Price": 2000,
+				"Condition": "PLAYER_HAS_SEEN_EVENT {{ModID}}_Constance6Hearts",
+			},
+			"{{ModId}}_FishmongersFlowerCrown": {
+				"Id": "{{ModId}}_FishmongersFlowerCrown",
+				"ItemId": "{{ModId}}_FishmongersFlowerCrown",
+				"Price": 2000,
+				//	"Condition": "PLAYER_HAS_SEEN_EVENT {{ModID}}_Constance6Hearts",
+			}
+		},
+	}
+]
+}

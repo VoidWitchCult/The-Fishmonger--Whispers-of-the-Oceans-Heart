@@ -1,0 +1,97 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "{{ModID}}_TheFishmonger": {
+                    "Name": "{{ModID}}_TheFishmonger",
+                    "LovedTags": [
+                        "Jasmine Tea",
+                        "Salmon Burger",
+                        "Stardrop Sorbet",
+						"Hummus Snack Pack",
+						"Kale Smoothie"
+					],
+                    "LikedTags": [
+                        "Cappuccino Mousse Cake",
+                        "Apple Slices",
+						"Sour Slimes",
+						"Chocolate Popcorn",
+						"Fries"
+					],
+                    "DislikedTags": [
+                        "JojaCorn",
+                        "Joja Cola",
+                        "Cotton Candy",
+						"Black Licorice"
+					]
+				},
+				"{{ModID}}_MermaidCalliope": {
+                    "Name": "{{ModID}}_MermaidCalliope",
+                    "LovedTags": [
+                        "Jasmine Tea",
+                        "Stardrop Sorbet",
+						"Cotton Candy",
+						"Cappuccino Mousse Cake",
+					],
+                    "LikedTags": [
+                        "Apple Slices",
+						"Sour Slimes",
+						"Chocolate Popcorn",
+						"Fries"
+					],
+                    "DislikedTags": [
+                        "JojaCorn",
+                        "Joja Cola",
+					]
+				},
+				"{{ModID}}_CoolGalBernadette": {
+                    "Name": "{{ModID}}_CoolGalBernadette",
+                    "LovedTags": [
+                        "Sour Slimes",
+						"Sweet",
+						"Candy"
+					],
+                    "LikedTags": [
+                        "Hot",
+						"Black Licorice"
+					],
+                    "DislikedTags": [
+                        "JojaCorn",
+                        "Joja Cola",
+					]
+				},
+				"{{ModID}}_PirateLadCaitrionaOFlannagain": {
+                    "Name": "{{ModID}}_PirateLadCaitrionaOFlannagain",
+                    "LovedTags": [
+                        "Gourmet",
+						"Salty"
+					],
+                    "LikedTags": [
+                        "Healthy"
+					],
+                    "DislikedTags": [
+                        "JojaCorn",
+                        "Joja Cola",
+					]
+				},
+				"{{ModID}}_SeaDudeBarnabas": {
+                    "Name": "{{ModID}}_SeaDudeBarnabas",
+                    "LovedTags": [
+                        "Sour Slimes",
+						"Salmon Burger",
+					],
+                    "LikedTags": [
+                        "Sweet"
+					],
+                    "DislikedTags": [
+                        "JojaCorn",
+                        "Joja Cola",
+						"Black Licorice"
+					]
+				}
+			}
+		},
+	]
+}

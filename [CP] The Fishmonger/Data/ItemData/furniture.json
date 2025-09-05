@@ -1,0 +1,38 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				"VoidWitchCult.CP.TheFishmongerNPC_MermaidBed": "VoidWitchCult.CP.TheFishmongerNPC_MermaidBed/bed double/3 4/3 3/1/5000/2/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.MermaidBed}}/0/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_MermaidChair": "VoidWitchCult.CP.TheFishmongerNPC_MermaidChair/chair/-1/-1/4/2000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.MermaidChair}}/6/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_MermaidTeaTable": "VoidWitchCult.CP.TheFishmongerNPC_MermaidTeaTable/table/2 2/2 2/1/4000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.MermaidTeaTable}}/9/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_MermaidTeaTable2": "VoidWitchCult.CP.TheFishmongerNPC_MermaidTeaTable2/table/2 2/2 2/1/4000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.MermaidTeaTable2}}/11/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_PileOfMermaidWood": "VoidWitchCult.CP.TheFishmongerNPC_PileOfMermaidWood/decor/1 2/1 1/1/1000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.PileOfMermaidWood}}/32/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_PileOfMermaidWood2": "VoidWitchCult.CP.TheFishmongerNPC_PileOfMermaidWood2/decor/1 2/1 1/1/1000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.PileOfMermaidWood2}}/33/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_MermaidEndTable": "VoidWitchCult.CP.TheFishmongerNPC_MermaidEndTable/table/1 2/1 1/2/2000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.MermaidEndTable}}/34/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_MermaidEndTable2": "VoidWitchCult.CP.TheFishmongerNPC_MermaidEndTable2/table/1 2/1 1/2/2000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.MermaidEndTable2}}/36/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_PiratePlushie": "VoidWitchCult.CP.TheFishmongerNPC_PiratePlushie/decor/1 1/1 1/1/1000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.PiratePlushie}}/38/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_SeaDudePlushie": "VoidWitchCult.CP.TheFishmongerNPC_SeaDudePlushie/decor/1 1/1 1/1/1000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.SeaDudePlushie}}/51/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_PottedMermaidBush": "VoidWitchCult.CP.TheFishmongerNPC_PottedMermaidBush/decor/2 3/2 2/1/3000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.PottedMermaidBush}}/52/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_FishLamp": "VoidWitchCult.CP.TheFishmongerNPC_FishLamp/lamp/1 2/-1/1/2000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.FishLamp}}/67/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_MermaidCoffeeTable": "VoidWitchCult.CP.TheFishmongerNPC_MermaidCoffeeTable/table/2 2/2 1/2/3000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.MermaidCoffeeTable}}/56/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_MermaidCoffeeTable2": "VoidWitchCult.CP.TheFishmongerNPC_MermaidCoffeeTable2/table/2 2/2 1/2/3000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.MermaidCoffeeTable}}/59/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_MermaidFireplace": "VoidWitchCult.CP.TheFishmongerNPC_MermaidFireplace/fireplace/-1/-1/1/10000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.MermaidFireplace}}/91/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_SharkFireplace": "VoidWitchCult.CP.TheFishmongerNPC_SharkFireplace/fireplace/2 4/-1/1/8000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.SharkFireplace}}/106/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_DepictionOfHer": "VoidWitchCult.CP.TheFishmongerNPC_DepictionOfHer/painting/3 2/3 2/1/4000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.DepictionOfHer}}/95/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_JellyfishRug": "VoidWitchCult.CP.TheFishmongerNPC_JellyfishRug/rug/3 2/3 2/2/4000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.JellyfishRug}}/99/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_MyHeartProfound": "VoidWitchCult.CP.TheFishmongerNPC_MyHeartProfound/painting/3 3/3 3/1/10000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.MyHeartProfound}}/121/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_JellyfishBanner": "VoidWitchCult.CP.TheFishmongerNPC_JellyfishBanner/painting/1 3/1 3/1/1000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.JellyfishBanner}}/137/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_PirateBanner": "VoidWitchCult.CP.TheFishmongerNPC_PirateBanner/painting/1 3/1 3/1/1000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.PirateBanner}}/138/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_MermaidDoor": "VoidWitchCult.CP.TheFishmongerNPC_MermaidDoor/painting/2 3/2 3/1/4000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.MermaidDoor}}/139/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_FloralCart": "VoidWitchCult.CP.TheFishmongerNPC_FloralCart/decor/3 4/3 2/1/6000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.FloralCart}}/156/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_PirateGalSpousePortrait": "VoidWitchCult.CP.TheFishmongerNPC_PirateGalSpousePortrait/painting/2 2/2 2/1/4000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.PirateGalSpousePortrait}}/159/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_SeaDudeSpousePortrait": "VoidWitchCult.CP.TheFishmongerNPC_SeaDudeSpousePortrait/painting/2 2/2 2/1/4000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.SeaDudeSpousePortrait}}/161/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_FloralRug": "VoidWitchCult.CP.TheFishmongerNPC_FloralRug/rug/3 2/3 2/1/3000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.FloralRug}}/185/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+				"VoidWitchCult.CP.TheFishmongerNPC_LibraryRug": "VoidWitchCult.CP.TheFishmongerNPC_LibraryRug/rug/5 3/5 3/1/6000/-1/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.LibraryRug}}/177/Mods\\{{ModID}}\\vww_fishmonger_furniture/true/",
+			}
+		}
+		
+	]
+}

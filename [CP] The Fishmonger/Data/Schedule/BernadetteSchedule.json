@@ -1,0 +1,63 @@
+{
+    "Changes": 
+	[
+		{
+            "LogName": "Bernadette schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{ModID}}_CoolGalBernadette",
+            "Entries": {
+			"spring": "
+			610 {{ModID}}_LostIsland_CoolGalHome 9 5 1 {{ModID}}_CoolGalBernadette_snooze \"Characters\\Dialogue\\{{ModID}}_CoolGalBernadette:{{ModID}}_bernadette.lostisland.000\"/
+			630 {{ModID}}_LostIsland_CoolGalHome 2 6 0/
+			800 {{ModID}}_LostIsland_CoolGalHome 22 6 1/
+			1000 {{ModID}}_LostIsland 88 53 2 {{ModID}}_CoolGalBernadette_drinking \"Characters\\Dialogue\\{{ModID}}_CoolGalBernadette:{{ModID}}_bernadette.lostisland.001\"/
+			1200 {{ModID}}_LostIsland 85 34 2 {{ModID}}_CoolGalBernadette_sitting/
+			1430 {{ModID}}_LostIsland 83 31 0/
+			1600 {{ModID}}_LostIsland 27 27 3/
+			2000 {{ModID}}_LostIsland_CoolGalHome 9 5 1 {{ModID}}_CoolGalBernadette_sleep/
+			",
+			"Mon":"GOTO spring",
+			"Tue": "
+			610 {{ModID}}_LostIsland_CoolGalHome 9 5 1 {{ModID}}_CoolGalBernadette_snooze \"Characters\\Dialogue\\{{ModID}}_CoolGalBernadette:{{ModID}}_bernadette.lostisland.000\"/
+			800 {{ModID}}_LostIsland_Orchard 39 38 2 {{ModID}}_CoolGalBernadette_drinking/
+			1030 {{ModID}}_LostIsland_Orchard 65 29 0/
+			1400 {{ModID}}_LostIsland 44 12 2 {{ModID}}_CoolGalBernadette_sitting \"Characters\\Dialogue\\{{ModID}}_CoolGalBernadette:{{ModID}}_bernadette.lostisland.002\"/
+			1630 {{ModID}}_LostIsland 88 53 2 {{ModID}}_CoolGalBernadette_drinking/
+			2000 {{ModID}}_LostIsland_CoolGalHome 9 5 1 {{ModID}}_CoolGalBernadette_sleep/
+			",
+			"Wed": "
+			610 {{ModID}}_LostIsland_CoolGalHome 9 5 1 {{ModID}}_CoolGalBernadette_snooze \"Characters\\Dialogue\\{{ModID}}_CoolGalBernadette:{{ModID}}_bernadette.lostisland.000\"/
+			1000 {{ModID}}_LostIsland_EnchantedForest 57 31 {{ModID}}_CoolGalBernadette_sitting \"Characters\\Dialogue\\{{ModID}}_CoolGalBernadette:{{ModID}}_bernadette.lostisland.003\"/
+			1430 {{ModID}}_LostIsland_EnchantedForest 26 99 2/
+			1630 {{ModID}}_LostIsland_EnchantedForest 39 52 2 {{ModID}}_CoolGalBernadette_drinking \"Characters\\Dialogue\\{{ModID}}_CoolGalBernadette:{{ModID}}_bernadette.lostisland.004\"/
+			2000 {{ModID}}_LostIsland_CoolGalHome 9 5 1 {{ModID}}_CoolGalBernadette_sleep/
+			",
+			"Fri": "
+			610 {{ModID}}_LostIsland_CoolGalHome 9 5 1 {{ModID}}_CoolGalBernadette_snooze \"Characters\\Dialogue\\{{ModID}}_CoolGalBernadette:{{ModID}}_bernadette.lostisland.000\"/
+			800 {{ModID}}_LostIsland_Library 28 27 0/
+			1230 {{ModID}}_LostIsland_Library 7 42 0 {{ModID}}_CoolGalBernadette_sitting/
+			1830 {{ModID}}_LostIsland_Library 16 44 0/
+			2000 {{ModID}}_LostIsland_CoolGalHome 9 5 1 {{ModID}}_CoolGalBernadette_sleep/
+			",
+			"Sat":"GOTO spring",
+			// HANGOUT DAY
+			"Sun":"
+			610 {{ModID}}_LostIsland_CoolGalHome 9 5 1 {{ModID}}_CoolGalBernadette_snooze \"Characters\\Dialogue\\{{ModID}}_CoolGalBernadette:{{ModID}}_bernadette.lostisland.000\"/
+			900 {{ModID}}_LostIsland_NorthernCliffs 42 24 {{ModID}}_CoolGalBernadette_drinking \"Characters\\Dialogue\\{{ModID}}_CoolGalBernadette:{{ModID}}_bernadette.lostisland.006\"/
+			2200 {{ModID}}_LostIsland_CoolGalHome 3 6 0/
+			2400 {{ModID}}_LostIsland_CoolGalHome 9 5 1 {{ModID}}_CoolGalBernadette_sleep/
+			",
+			"rain": "
+			610 {{ModID}}_LostIsland_CoolGalHome 9 5 1 {{ModID}}_CoolGalBernadette_snooze \"Characters\\Dialogue\\{{ModID}}_CoolGalBernadette:{{ModID}}_bernadette.lostisland.000\"/
+			1200 {{ModID}}_LostIsland_CoolGalHome 2 6 0/
+			1430 {{ModID}}_LostIsland_CoolGalHome 12 6 1 \"Characters\\Dialogue\\{{ModID}}_CoolGalBernadette:{{ModID}}_bernadette.lostisland.005\"/
+			1600 {{ModID}}_LostIsland_CoolGalHome 21 5 0/
+			1800 {{ModID}}_LostIsland_CoolGalHome 22 6 1/
+			2000 {{ModID}}_LostIsland_CoolGalHome 4 6 0/
+			2200 {{ModID}}_LostIsland_CoolGalHome 3 6 0/
+			2400 {{ModID}}_LostIsland_CoolGalHome 9 5 1 {{ModID}}_CoolGalBernadette_sleep/
+			",
+			}
+		}
+	]
+}

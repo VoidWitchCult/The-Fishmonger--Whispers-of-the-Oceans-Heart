@@ -1,0 +1,29 @@
+{
+  "Changes": [
+	{
+      "Action": "EditMap",
+      "Target": "Maps/VoidWitchCult.CP.TheFishmongerNPC_LostIsland_Orchard",
+      "MapProperties": {
+        "mushymato.MMAP_ProtectTree": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SeaDude.DontCutDownMyOrchard.2}}",
+        "mushymato.MMAP_ProtectFruitTree": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SeaDude.DontCutDownMyOrchard.1}}"
+      }
+},
+    {
+      "Action": "EditMap",
+      "Target": "Maps/VoidWitchCult.CP.TheFishmongerNPC_LostIsland_ForsakenCove",
+      "MapProperties": {
+        "mushymato.MMAP_WoodsLighting": "T",
+        "mushymato.MMAP_LightRays": "T"
+      }
+},
+{
+      "Action": "EditMap",
+      "Target": "Maps/VoidWitchCult.CP.TheFishmongerNPC_TEMP_Wedding",
+      "MapProperties": {
+        "mushymato.MMAP_WoodsLighting": "T",
+        "mushymato.MMAP_LightRays": "T"
+      }
+},
+ 
+  ]
+}

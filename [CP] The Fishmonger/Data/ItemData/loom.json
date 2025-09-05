@@ -1,0 +1,70 @@
+{
+	"Changes": [
+		//==============================================================================================
+		//==== ADDS NEW OBJECT TO CLOTH RULE ===========================================================
+		//==============================================================================================
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules"
+			],
+			"Entries": {
+				"{{ModID}}_OceanFlaxCloth": {
+					"Id": "{{ModID}}_OceanFlaxCloth",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O){{ModID}}_oceanflax",
+							"RequiredCount": 5
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "{{ModID}}_OceanFlaxCloth",
+							"CopyQuality": true,
+							"StackModifiers": [
+								{
+									"Id": "DoubleQuality",
+									"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.5\" \"ITEM_QUALITY Input 4 4, RANDOM 1\"",
+									"Modification": "Multiply",
+									"Amount": 2.0,
+									"RandomAmount": null
+								}
+							],
+						}
+					],
+					"MinutesUntilReady": 240
+				},
+				//==============================================================================================
+				//==== ADDS NEW TRASH TO CLOTH RULE ============================================================
+				//==============================================================================================
+				"{{ModID}}_Cloth": {
+					"Id": "{{ModID}}_Cloth",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O){{ModID}}_wornouthat",
+							"RequiredCount": 5
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)428",
+							"CopyQuality": true,
+							"StackModifiers": [
+								{
+									"Id": "DoubleQuality",
+									"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.5\" \"ITEM_QUALITY Input 4 4, RANDOM 1\"",
+									"Modification": "Multiply",
+									"Amount": 2.0,
+									"RandomAmount": null
+								}
+							],
+						}
+					],
+					"MinutesUntilReady": 240
+				}
+			}
+		}
+	]
+}

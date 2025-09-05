@@ -1,0 +1,28 @@
+{
+	
+	"Name": "[CP] The Fishmonger - Whispers of the Ocean's Heart",
+	"Author": "VoidWitchCult",
+	"Description": "Upon visiting a new tropical place you see another boat docked to the pier....what is this about?",
+	"Version": "0.0.1", 
+	"UniqueID": "VoidWitchCult.CP.TheFishmongerNPC",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"DH.MEEP": "2.4.0",
+	"DH.MEEP.CloseupInteractions": "",
+	"DH.MEEP.FakeNPCs": "",
+	"DH.MEEP.FarmAnimalSpawns": "",
+	"UpdateKeys": [ "nexus: " ],
+	"Dependencies": [
+		{
+			"UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties", "IsRequired": true
+		},
+		{
+			"UniqueID": "Pathoschild.ContentPatcher", "IsRequired": true
+		},
+		{
+			"UniqueID": "Annosz.UiInfoSuite2", "IsRequired": false
+		},
+		
+	]
+}

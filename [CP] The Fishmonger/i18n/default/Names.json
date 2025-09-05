@@ -1,0 +1,77 @@
+{
+	//==============================================================================================
+	//==== D I S P L A Y N A M E S =================================================================
+	//==============================================================================================
+	
+	"VoidWitchCult.CP.TheFishmongerNPC.Name.Constance": "Constance",
+	"VoidWitchCult.CP.TheFishmongerNPC.Name.Mermaid": "Calliope",
+	"VoidWitchCult.CP.TheFishmongerNPC.Name.CoolGal": "Bernadette",
+	"VoidWitchCult.CP.TheFishmongerNPC.Name.PirateLad": "Caitríona",
+	"VoidWitchCult.CP.TheFishmongerNPC.Name.SeaDude": "Barnabas",
+	"Ferret.Adamant.DisplayName": "Adamant",
+	"Ferret.Scurvy.DisplayName": "Scurvy",
+	"Ferret.Bee.DisplayName": "Bee",
+	"Ferret.Bork.DisplayName": "Bork",
+	"Ferret.Goldie.DisplayName": "Goldie",
+	"Ferret.Schwarz.DisplayName": "Schwarz",
+	"Ferret.Geist.DisplayName": "Geist",
+	"Ferret.Bloo.DisplayName": "Bloo",
+	"Plant.Algealica.DisplayName": "Algealica",
+	"Plant.Fern.DisplayName": "Fern",
+	"Plant.Roseanne.DisplayName": "Roseanne",
+	"Plant.Teana.DisplayName": "Teana",
+	"Plant.Violetta.DisplayName": "Violetta",
+	"Plant.Sunny.DisplayName": "Sunny",
+	
+	//==============================================================================================
+	//==== R E L A T I O N S H I P  S T A T U S ====================================================
+	//==============================================================================================
+	
+	"VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.ConstanceWilly": "big bro",
+	"VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.ConstanceCaroline": "pen pal",
+	"VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.CalliopeBarnabas": "big brother",
+	"VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.BarnabasCalliope": "lil sis",
+	
+	//==============================================================================================
+	//==== L O C A T I O N   N A M E S =============================================================
+	//==============================================================================================
+	
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.FishmongerBoat": "Fishmonger's Boat",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.FishmongerBoat.LowerDeck": "Fishmonger's Boat - Lower Deck",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.LostIsland": "Lost Island",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.MermaidHome": "Calliope's Home",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.CoolGalHome": "Bernadette's Home",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.PirateLadHome": "Caitríona's Home",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.Orchard": "Forgotten Orchard",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.SeaDudeHome": "Barnabas' Home",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.SeaDudeHomeCave": "Hidden Cave",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.EnchantedForest": "Enchanted Forest",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.ForsakenCove": "Forsaken Cove",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.NorthernCliffs": "Northern Cliffs",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.Library": "Cliffside Library",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.NorthEastQuarry": "North-East Quarry",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.PointMelodia": "Point Melodia",
+	"VoidWitchCult.CP.TheFishmongerNPC.Locations.HiddenSpot": "???",
+	
+	//==============================================================================================
+	//==== W O R L D M A P  N A M E S ==============================================================
+	//==============================================================================================
+	"WorldMap.LostIslandBeach": "Lost Island Beach",
+	"WorldMap.MermaidHome": "Calliopes House",
+	"WorldMap.CoolGalHome": "Bernadettes House",
+	"WorldMap.PirateLadHome": "Caitríonas House",
+	"WorldMap.WitchesShadow": "Charms Shop",
+	"WorldMap.Cawyn": "Recipe Shop",
+	"WorldMap.MrFeesh": "Furniture Store",
+	"WorldMap.Orchard": "Forgotten Orchard",
+	"WorldMap.SeaDudeHome": "Barnabas' House",
+	"WorldMap.NorthernCliffs": "Northern Cliffs",
+	"WorldMap.Library": "Cliffside Library",
+	"WorldMap.NorthEastQuarry": "North-East Quarry",
+	"WorldMap.PetrifiedTree": "Petrified Tree",
+	"WorldMap.OldHouse": "???",
+	"WorldMap.LlyrsStatue": "King Llyrs Statue",
+	"WorldMap.PointMelodia": "Point Melodia",
+	"WorldMap.EnchantedForest": "Enchanted Forest",
+	"WorldMap.ForsakenCove": "Forsaken Cove",
+}

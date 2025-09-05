@@ -1,0 +1,819 @@
+{
+	"Changes" : [ 
+		//==============================================================================================
+		//==== ADD FISH TO FISH POND DATA ==============================================================
+		//==============================================================================================
+		{
+			"LogName" : "Add Fish Pond Data",
+			"Action" : "EditData",
+			"Target" : "Data/FishPondData",
+			"Entries" : {
+				"{{ModID}}_bicolorpiranha" : {
+					"Id" : "{{ModID}}_bicolorpiranha",
+					"RequiredTags" : ["item_bicolorpiranha"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.02,  // chance of this item being produced : this is a 2% chance
+							"ItemID" : "(O)787",   // the item you want them to produce
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)555",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"4" : ["(O)226 5"], "7" : ["(O)787 3"]} // These measure what is required for your fish population to increase past that number.
+				},
+				"{{ModID}}_bigfinsquid" : {
+					"Id" : "{{ModID}}_bigfinsquid",
+					"RequiredTags" : ["item_bigfinsquid"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.02,
+							"ItemID" : "(O)74",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"5" : ["(O)152 5"], "8" : ["(O)539 3"]}
+				},
+				"{{ModID}}_charcoalbetta" : {
+					"Id" : "{{ModID}}_charcoalbetta",
+					"RequiredTags" : ["item_charcoalbetta"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)749",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"4" : ["(O)382 5"], "7" : ["(O)570 3"]}
+				},
+				"{{ModID}}_fairyflossbetta" : {
+					"Id" : "{{ModID}}_fairyflossbetta",
+					"RequiredTags" : ["item_fairyflossbetta"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.02,
+							"ItemID" : "(O)577",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)595",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"4" : ["(O)577 5"], "7" : ["(O)550 3"]}
+				},
+				"{{ModID}}_firemouth" : {
+					"Id" : "{{ModID}}_firemouth",
+					"RequiredTags" : ["item_firemouth"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.02,
+							"ItemID" : "(O)565",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)82",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)82 5"], "6" : ["(O)565 3"]}
+				},
+				"{{ModID}}_garfish" : {
+					"Id" : "{{ModID}}_garfish",
+					"RequiredTags" : ["item_garfish"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.02,
+							"ItemID" : "(O)166",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)335",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					
+					"PopulationGates" : {"4" : ["(O)718 5"], "7" : ["(O)380 3"]},
+				},
+				"{{ModID}}_glasseyesnapper" : {
+					"Id" : "{{ModID}}_glasseyesnapper",
+					"RequiredTags" : ["item_glasseyesnapper"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.01,
+							"ItemID" : "(O)550",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)118 5"], "6" : ["(O)613 3"]}
+				},
+				"{{ModID}}_golddustblackmolly" : {
+					"Id" : "{{ModID}}_golddustblackmolly",
+					"RequiredTags" : ["item_golddustblackmolly"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.02,
+							"ItemID" : "(O)166",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)336",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)384 5"], "6" : ["(O)559 3"]}
+				},
+				"{{ModID}}_kissingfish" : {
+					"Id" : "{{ModID}}_kissingfish",
+					"RequiredTags" : ["item_kissingfish"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.02,
+							"ItemID" : "(O)425",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"5" : ["(O)344 5"], "8" : ["(O)591 3"]}
+				},
+				"{{ModID}}_matjes" : {
+					"Id" : "{{ModID}}_matjes",
+					"RequiredTags" : ["item_matjes"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.02,
+							"ItemID" : "(O)577",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)745",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"5" : ["(O)400 5"], "8" : ["(O)595 3"]}
+				},
+				"{{ModID}}_moray" : {
+					"Id" : "{{ModID}}_moray",
+					"RequiredTags" : ["item_moray"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.02,
+							"ItemID" : "(O)279",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)558",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)110 5"], "6" : ["(O)378 3"]}
+				},
+				"{{ModID}}_neontetra" : {
+					"Id" : "{{ModID}}_neontetra",
+					"RequiredTags" : ["item_neontetra"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)749",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"4" : ["(O)62 5"], "7" : ["(O)749 3"]}
+				},
+				"{{ModID}}_queentriggerfish" : {
+					"Id" : "{{ModID}}_queentriggerfish",
+					"RequiredTags" : ["item_queentriggerfish"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.02,
+							"ItemID" : "(O)772",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)60 5"], "6" : ["(O)815 3"]}
+				},
+				"{{ModID}}_redfinhap" : {
+					"Id" : "{{ModID}}_redfinhap",
+					"RequiredTags" : ["item_redfinhap"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.02,
+							"ItemID" : "(O)288",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)64",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"5" : ["(O)64 5"], "8" : ["(O)563 3"]}
+				},
+				"{{ModID}}_sheephead" : {
+					"Id" : "{{ModID}}_sheephead",
+					"RequiredTags" : ["item_sheephead"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.02,
+							"ItemID" : "(O)72",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)421 5"], "6" : ["(O)428 3"]}
+				},
+				"{{ModID}}_stoplightparrotfish" : {
+					"Id" : "{{ModID}}_stoplightparrotfish",
+					"RequiredTags" : ["item_stoplightparrotfish"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)797",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"4" : ["(O)555 5"], "7" : ["(O)396 3"]}
+				},
+				"{{ModID}}_stripedtoby" : {
+					"Id" : "{{ModID}}_stripedtoby",
+					"RequiredTags" : ["item_stripedtoby"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)286",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"4" : ["(O)190 5"], "7" : ["(O)830 3"]}
+				},
+				"{{ModID}}_sunrisebetta" : {
+					"Id" : "{{ModID}}_sunrisebetta",
+					"RequiredTags" : ["item_sunrisebetta"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)768",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"4" : ["(O)394 5"], "7" : ["(O)749 3"]}
+				},
+				"{{ModID}}_sunsetbetta" : {
+					"Id" : "{{ModID}}_sunsetbetta",
+					"RequiredTags" : ["item_sunsetbetta"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)769",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"4" : ["(O)338 5"], "7" : ["(O)268 3"]}
+				},
+				"{{ModID}}_scarletvampiresquid" : {
+					"Id" : "{{ModID}}_scarletvampiresquid",
+					"RequiredTags" : ["item_scarletvampiresquid"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.01,
+							"ItemID" : "(O)386",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)772",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)166 5"], "6" : ["(O)373 3"]}
+				},
+				"{{ModID}}_viperfish": {
+					"Id" : "{{ModID}}_viperfish",
+					"RequiredTags" : ["item_viperfish"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)561",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)122 5"], "6" : ["(O)305 3"]}
+				},
+				"{{ModID}}_rasboras": {
+					"Id" : "{{ModID}}_rasboras",
+					"RequiredTags" : ["item_rasboras"],
+					"Precedence" : 0,
+					"SpawnTime" : 2,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)551",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)635 5"], "6" : ["(O)459 3"]}
+				},
+				"{{ModID}}_rainbowkribs": {
+					"Id" : "{{ModID}}_rainbowkribs",
+					"RequiredTags" : ["item_rainbowkribs"],
+					"Precedence" : 0,
+					"SpawnTime" : 4,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.01,
+							"ItemID" : "(O)74",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 3
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)349",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)384 5"], "6" : ["(O)68 3"]}
+				},
+				"{{ModID}}_creolewasse": {
+					"Id" : "{{ModID}}_creolewasse",
+					"RequiredTags" : ["item_creolewasse"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.03,
+							"ItemID" : "(O)394",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)66 5"], "6" : ["(O)749 3"]}
+				},
+				"{{ModID}}_fairybasslet": {
+					"Id" : "{{ModID}}_fairybasslet",
+					"RequiredTags" : ["item_fairybasslet"],
+					"Precedence" : 0,
+					"SpawnTime" : 5,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.01,
+							"ItemID" : "(O)872",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)578",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)595 5"], "6" : ["(O)577 3"]}
+				},
+				"{{ModID}}_trumpetfish": {
+					"Id" : "{{ModID}}_trumpetfish",
+					"RequiredTags" : ["item_trumpetfish"],
+					"Precedence" : 0,
+					"SpawnTime" : 5,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.01,
+							"ItemID" : "(O)275",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)166",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)110 5"], "6" : ["(O)768 3"]}
+				},
+				"{{ModID}}_longnosehawkfish": {
+					"Id" : "{{ModID}}_longnosehawkfish",
+					"RequiredTags" : ["item_longnosehawkfish"],
+					"Precedence" : 0,
+					"SpawnTime" : 3,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)341",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)719 5"], "6" : ["(O)852 3"]}
+				},
+				"{{ModID}}_threadfinbutterflyfish": {
+					"Id" : "{{ModID}}_threadfinbutterflyfish",
+					"RequiredTags" : ["item_threadfinbutterflyfish"],
+					"Precedence" : 0,
+					"SpawnTime" : 4,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.01,
+							"ItemID" : "(O)886",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)428 5"], "6" : ["(O)725 3"]}
+				},
+				"{{ModID}}_bluegrenadier": {
+					"Id" : "{{ModID}}_bluegrenadier",
+					"RequiredTags" : ["item_bluegrenadier"],
+					"Precedence" : 0,
+					"SpawnTime" : 2,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)351",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)413 5"], "6" : ["(O)575 3"]}
+				},
+				"{{ModID}}_redgurnard": {
+					"Id" : "{{ModID}}_redgurnard",
+					"RequiredTags" : ["item_redgurnard"],
+					"Precedence" : 0,
+					"SpawnTime" : 2,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)459",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)537 5"], "6" : ["(O)565 3"]}
+				},
+				"{{ModID}}_mosquitofish": {
+					"Id" : "{{ModID}}_mosquitofish",
+					"RequiredTags" : ["item_mosquitofish"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.01,
+							"ItemID" : "(O)681",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)874",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)684 5"], "6" : ["(O)774 3"]}
+				},
+			}
+		}	 
+	]
+}

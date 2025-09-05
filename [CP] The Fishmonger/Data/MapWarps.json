@@ -1,0 +1,308 @@
+{
+	"Changes": [
+		//==============================================================================================
+		//==== FISHMONGER INDOORS ======================================================================
+		//==============================================================================================
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Island_S",
+			"AddWarps": [
+				"26 42 {{ModID}}_Fishmonger_GI_Inside 4 10"
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_Fishmonger_GI_Inside",
+			"AddWarps": [
+				"4 11 IslandSouth 26 43",
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_Fishmonger_GI_Inside",
+			"AddWarps": [
+				"4 11 IslandSouth 26 43",
+				"6 4 {{ModID}}_Fishmonger_GI_Inside_LowerDeck 7 4"
+			],
+			"When": {
+				"HasSeenEvent |contains={{ModID}}_Constance6Hearts": true 
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_Fishmonger_GI_Inside_LowerDeck",
+			"AddWarps": [
+				"7 3 {{ModID}}_Fishmonger_GI_Inside 5 4"
+			]
+		},
+		//==============================================================================================
+		//==== MERMAID INDOORS =========================================================================
+		//==============================================================================================
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 32,
+						"Y": 6
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 2 23 {{ModID}}_LostIsland_MermaidHome 830 2200"
+					}
+				},
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_MermaidHome",
+			"AddWarps": [
+				"2 24 {{ModID}}_LostIsland 32 7"
+			]
+		},
+		//==============================================================================================
+		//==== COOLGAL INDOORS =========================================================================
+		//==============================================================================================
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 84,
+						"Y": 51
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 21 9 {{ModID}}_LostIsland_CoolGalHome 830 2200"
+					}
+				},
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_CoolGalHome",
+			"AddWarps": [
+				"21 10 {{ModID}}_LostIsland 86 51"
+			]
+		},
+		//==============================================================================================
+		//==== LIBRARY =================================================================================
+		//==============================================================================================
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_NorthernCliffs",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 15,
+						"Y": 9
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 32 37 {{ModID}}_LostIsland_Library 830 2200"
+					}
+				},
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_Library",
+			"AddWarps": [
+				"32 40 {{ModID}}_LostIsland_NorthernCliffs 15 10",
+				"33 40 {{ModID}}_LostIsland_NorthernCliffs 15 10",
+				"53 23 {{ModID}}_LostIsland_HiddenSpot 13 18",
+			]
+		},
+		//==============================================================================================
+		//==== HIDDENSPOT ==============================================================================
+		//==============================================================================================
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_HiddenSpot",
+			"AddWarps": [
+				"13 19 {{ModID}}_LostIsland_Library 53 24",
+			]
+		},
+		//==============================================================================================
+		//==== PIRATELAD INDOORS =======================================================================
+		//==============================================================================================
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 93,
+						"Y": 52
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 2 13 {{ModID}}_LostIsland_PirateLadHome 830 2200"
+					}
+				},
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_PirateLadHome",
+			"AddWarps": [
+				"1 13 {{ModID}}_LostIsland 91 52"
+			]
+		},
+		//==============================================================================================
+		//==== LOST ISLAND OUTDOOR WARPS ===============================================================
+		//==============================================================================================
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland",
+			"AddWarps": [
+				"40 1 {{ModID}}_LostIsland_Orchard 32 52",
+				"41 1 {{ModID}}_LostIsland_Orchard 32 52",
+				"80 17 {{ModID}}_LostIsland_EnchantedForest 1 10"
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_NorthernCliffs",
+			"AddWarps": [
+				"0 51 {{ModID}}_LostIsland_Orchard 83 38",
+				"0 52 {{ModID}}_LostIsland_Orchard 83 38",
+				"0 53 {{ModID}}_LostIsland_Orchard 83 38",
+				"69 25 {{ModID}}_LostIsland_NorthEastQuarry 1 31",
+				"69 26 {{ModID}}_LostIsland_NorthEastQuarry 1 31",
+				"69 27 {{ModID}}_LostIsland_NorthEastQuarry 1 31"
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_NorthEastQuarry",
+			"AddWarps": [
+				"0 30 {{ModID}}_LostIsland_NorthernCliffs 68 26",
+				"0 31 {{ModID}}_LostIsland_NorthernCliffs 68 26",
+				"0 32 {{ModID}}_LostIsland_NorthernCliffs 68 26",
+				"0 33 {{ModID}}_LostIsland_NorthernCliffs 68 26",
+				"35 89 {{ModID}}_LostIsland_PointMelodia 19 2",
+				"36 89 {{ModID}}_LostIsland_PointMelodia 19 2",
+				"37 89 {{ModID}}_LostIsland_PointMelodia 19 2",
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_Orchard",
+			"AddWarps": [
+				"29 53 {{ModID}}_LostIsland 40 2",
+				"30 53 {{ModID}}_LostIsland 40 2",
+				"31 53 {{ModID}}_LostIsland 40 2",
+				"32 53 {{ModID}}_LostIsland 40 2",
+				"33 53 {{ModID}}_LostIsland 40 2",
+				"84 37 {{ModID}}_LostIsland_NorthernCliffs 1 52",
+				"84 38 {{ModID}}_LostIsland_NorthernCliffs 1 52",
+				"84 39 {{ModID}}_LostIsland_NorthernCliffs 1 52"
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_EnchantedForest",
+			"AddWarps": [
+				"0 8 {{ModID}}_LostIsland 79 17",
+				"0 9 {{ModID}}_LostIsland 79 17",
+				"0 10 {{ModID}}_LostIsland 79 17",
+				"0 11 {{ModID}}_LostIsland 79 17",
+				"119 28 {{ModID}}_LostIsland_PointMelodia 1 4",
+				"119 29 {{ModID}}_LostIsland_PointMelodia 1 4",
+				"119 30 {{ModID}}_LostIsland_PointMelodia 1 4",
+				"119 31 {{ModID}}_LostIsland_PointMelodia 1 4",
+				"119 32 {{ModID}}_LostIsland_PointMelodia 1 4",
+				"119 33 {{ModID}}_LostIsland_PointMelodia 1 4",
+				"119 34 {{ModID}}_LostIsland_PointMelodia 1 4",
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_EnchantedForest",
+			"AddWarps": [
+				"46 7 {{ModID}}_LostIsland_ForsakenCove 37 29",
+			],
+			"When": {
+				"HasSeenEvent |contains={{ModID}}_SeaDudeBarnabas2Hearts": true 
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_ForsakenCove",
+			"AddWarps": [
+				"37 30 {{ModID}}_LostIsland_EnchantedForest 46 9",
+				"38 30 {{ModID}}_LostIsland_EnchantedForest 46 9"
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_PointMelodia",
+			"AddWarps": [
+				"0 4 {{ModID}}_LostIsland_EnchantedForest 118 30",
+				"0 5 {{ModID}}_LostIsland_EnchantedForest 118 30",
+				"0 6 {{ModID}}_LostIsland_EnchantedForest 118 30",
+				"18 0 {{ModID}}_LostIsland_NorthEastQuarry 36 85",
+				"19 0 {{ModID}}_LostIsland_NorthEastQuarry 36 85",
+			]
+		},
+		//==============================================================================================
+		//==== SEADUDE INDOORS =========================================================================
+		//==============================================================================================
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_Orchard",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 11,
+						"Y": 22
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 6 18 {{ModID}}_LostIsland_SeaDudeHome 830 2200"
+					}
+				},
+			],
+
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_SeaDudeHome",
+			"AddWarps": [
+				"6 19 {{ModID}}_LostIsland_Orchard 11 23"
+			]
+		},
+		//==============================================================================================
+		//==== SEADUDE CAVE ============================================================================
+		//==============================================================================================
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_SeaDudeHome",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 7,
+						"Y": 4
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 10 5 {{ModID}}_LostIsland_SeaDudeHome_Cave 600 2600"
+					}
+				},
+			],
+			"When": {
+				"HasSeenEvent |contains=EVENTID": true // TODO: Replace this with a real event ID!
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_SeaDudeHome_Cave",
+			"AddWarps": [
+				"10 4 {{ModID}}_LostIsland_SeaDudeHome 7 5"
+			]
+		},
+	]
+}

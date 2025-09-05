@@ -1,0 +1,415 @@
+{
+    "Changes": [
+        {
+			//==============================================================================================
+			//==== NODES ===================================================================================
+			//==============================================================================================
+            "LogName": "Add Node",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Painite_Node": {
+					"Name": "{{ModId}}_Painite_Node",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.PainiteNode.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.PainiteNode.description}}",
+                    "SpriteIndex": 0,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "Health": 18, 
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack", 
+                    "ItemDropped": "{{ModId}}_Painite", 
+                    "Tool": "Pickaxe", 
+                    "MinToolLevel": 4, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems": [ //optional: extra items to drop
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 0.8 
+						},
+					],
+                    "Debris": "stone red",
+				},
+				"{{ModId}}_LushForestine_Node": {
+					"Name": "{{ModId}}_LushForestine_Node",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.LushForestineNode.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.LushForestineNode.description}}",
+                    "SpriteIndex": 1,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "Health": 16, 
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack", 
+                    "ItemDropped": "{{ModId}}_LushForestine", 
+                    "Tool": "Pickaxe", 
+                    "MinToolLevel": 4, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems": [ //optional: extra items to drop
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 0.8 
+						},
+					],
+                    "Debris": "stone green",
+				},
+				"{{ModId}}_Chalcanthite_Node": {
+					"Name": "{{ModId}}_Chalcanthite_Node",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.ChalcanthiteNode.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.ChalcanthiteNode.description}}",
+                    "SpriteIndex": 2,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "Health": 16, 
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack", 
+                    "ItemDropped": "{{ModId}}_Chalcanthite", 
+                    "Tool": "Pickaxe", 
+                    "MinToolLevel": 4, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems": [ //optional: extra items to drop
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 0.8 
+						},
+					],
+                    "Debris": "stone blue",
+				},
+				"{{ModId}}_DichromaticTaaffeite_Node": {
+					"Name": "{{ModId}}_DichromaticTaaffeite_Node",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.DichromaticTaaffeiteNode.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.DichromaticTaaffeiteNode.description}}",
+                    "SpriteIndex": 3,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "Health": 12, 
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack", 
+                    "ItemDropped": "{{ModId}}_DichromaticTaaffeite", 
+                    "Tool": "Pickaxe", 
+                    "MinToolLevel": 4, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems": [ //optional: extra items to drop
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 0.8 
+						},
+					],
+                    "Debris": "stone pink",
+				},
+				"{{ModId}}_OpalizedAmmonite_Node": {
+					"Name": "{{ModId}}_OpalizedAmmonite_Node",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.OpalizedAmmoniteNode.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.OpalizedAmmoniteNode.description}}",
+                    "SpriteIndex": 4,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "Health": 8, 
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack", 
+                    "ItemDropped": "{{ModId}}_OpalizedAmmonite", 
+                    "Tool": "Pickaxe", 
+                    "MinToolLevel": 4, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems": [ //optional: extra items to drop
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 0.8 
+						},
+					],
+                    "Debris": "stone grey",
+				},
+				"{{ModId}}_TaintedSeaShards_Node": {
+					"Name": "{{ModId}}_TaintedSeaShards_Node",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.TaintedSeaShardsNode.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.TaintedSeaShardsNode.description}}",
+                    "SpriteIndex": 5,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "Health": 6, 
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack", 
+                    "ItemDropped": "{{ModId}}_TaintedSeaShards", 
+                    "Tool": "Pickaxe", 
+                    "MinToolLevel": 4, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems": [ //optional: extra items to drop
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 0.8 
+						},
+					],
+                    "Debris": "stone pink",
+				},
+				"{{ModId}}_DeepseaDiamond_Node": {
+					"Name": "{{ModId}}_DeepseaDiamond_Node",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.DeepseaDiamondNode.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.DeepseaDiamondNode.description}}",
+                    "SpriteIndex": 6,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "Health": 20, 
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack", 
+                    "ItemDropped": "{{ModId}}_DeepseaDiamond", 
+                    "Tool": "Pickaxe", 
+                    "MinToolLevel": 4, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems": [ //optional: extra items to drop
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 0.8 
+						},
+					],
+                    "Debris": "stone purple",
+				},
+				"{{ModId}}_CrystallizedIchorGeode_Node": {
+					"Name": "{{ModId}}_CrystallizedIchorGeode_Node",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.CrystallizedIchorGeodeNode.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.CrystallizedIchorGeodeNode.description}}",
+                    "SpriteIndex": 7,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "Health": 12, 
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack", 
+                    "ItemDropped": "{{ModId}}_CrystallizedIchorGeode", 
+                    "Tool": "Pickaxe", 
+                    "MinToolLevel": 4, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems": [ //optional: extra items to drop
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 0.8 
+						},
+					],
+                    "Debris": "stone orange",
+				},
+				"{{ModId}}_Realgar_Node": {
+					"Name": "{{ModId}}_Realgar_Node",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.RealgarNode.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.RealgarNode.description}}",
+                    "SpriteIndex": 8,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "Health": 14, 
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack", 
+                    "ItemDropped": "{{ModId}}_Realgar", 
+                    "Tool": "Pickaxe", 
+                    "MinToolLevel": 4, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems": [ //optional: extra items to drop
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 0.8 
+						},
+					],
+                    "Debris": "stone red",
+				},
+				"{{ModId}}_Grandidierite_Node": {
+					"Name": "{{ModId}}_Grandidierite_Node",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.GrandidieriteNode.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.GrandidieriteNode.description}}",
+                    "SpriteIndex": 9,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "Health": 16, 
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack", 
+                    "ItemDropped": "{{ModId}}_Grandidierite", 
+                    "Tool": "Pickaxe", 
+                    "MinToolLevel": 4, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems": [ //optional: extra items to drop
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 0.8 
+						},
+					],
+                    "Debris": "stone light blue",
+				},
+			}
+		},
+		//==============================================================================================
+		//==== OBJECTS =================================================================================
+		//==============================================================================================
+        {
+            "LogName": "Add Node's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_Painite": { 
+                    "Name": "{{ModId}}_Painite",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.Painite.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.Painite.description}}",
+                    "Price": 650,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals", 
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "SpriteIndex": 10,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "ContextTags": [
+                        "color_red",
+					]
+				},
+				"{{ModId}}_LushForestine": { 
+                    "Name": "{{ModId}}_LushForestine",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.LushForestine.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.LushForestine.description}}",
+                    "Price": 450,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals", 
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "SpriteIndex": 11,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "ContextTags": [
+                        "color_green",
+					]
+				},
+				"{{ModId}}_Chalcanthite": { 
+                    "Name": "{{ModId}}_Chalcanthite",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.Chalcanthite.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.Chalcanthite.description}}",
+                    "Price": 550,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals", 
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "SpriteIndex": 12,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "ContextTags": [
+                        "color_blue",
+					]
+				},
+				"{{ModId}}_DichromaticTaaffeite": { 
+                    "Name": "{{ModId}}_DichromaticTaaffeite",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.DichromaticTaaffeite.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.DichromaticTaaffeite.description}}",
+                    "Price": 850,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals", 
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "SpriteIndex": 13,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "ContextTags": [
+                        "color_blue",
+						"color_pink",
+					]
+				},
+				"{{ModId}}_OpalizedAmmonite": { 
+                    "Name": "{{ModId}}_OpalizedAmmonite",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.OpalizedAmmonite.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.OpalizedAmmonite.description}}",
+                    "Price": 450,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals", 
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "SpriteIndex": 14,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "ContextTags": [
+                        "color_prismatic",
+					]
+				},
+				"{{ModId}}_TaintedSeaShards": { 
+                    "Name": "{{ModId}}_TaintedSeaShards",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.TaintedSeaShards.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.TaintedSeaShards.description}}",
+                    "Price": 350,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals", 
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "SpriteIndex": 15,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "ContextTags": [
+                        "color_pink",
+					]
+				},
+				"{{ModId}}_DeepseaDiamond": { 
+                    "Name": "{{ModId}}_DeepseaDiamond",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.DeepseaDiamond.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.DeepseaDiamond.description}}",
+                    "Price": 1500,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals", 
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "SpriteIndex": 16,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "ContextTags": [
+                        "color_purple",
+					]
+				},
+				"{{ModId}}_CrystallizedIchorGeode": { 
+                    "Name": "{{ModId}}_CrystallizedIchorGeode",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.CrystallizedIchorGeode.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.CrystallizedIchorGeode.description}}",
+                    "Price": 750,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals", 
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "SpriteIndex": 17,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "ContextTags": [
+                        "color_orange",
+					]
+				},
+				"{{ModId}}_Realgar": { 
+                    "Name": "{{ModId}}_Realgar",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.Realgar.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.Realgar.description}}",
+                    "Price": 450,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals", 
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "SpriteIndex": 18,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "ContextTags": [
+                        "color_red",
+					]
+				},
+				"{{ModId}}_Grandidierite": { 
+                    "Name": "{{ModId}}_Grandidierite",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.Grandidierite.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerCustomNodes.Grandidierite.description}}",
+                    "Price": 550,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals", 
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "SpriteIndex": 19,
+                    "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
+                    "ContextTags": [
+                        "color_purple",
+					]
+				}
+			},
+		}
+	]
+}

@@ -1,0 +1,495 @@
+{
+	"$schema": "https://smapi.io/schemas/content-patcher.json",
+	"Changes": [
+		
+		//==============================================================================================
+		//==== SPACECORE ANIMATIONS ====================================================================
+		//==============================================================================================
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/ScheduleAnimationExtensionData",
+			"Entries":
+			{
+				"{{ModID}}_TheFishmonger_fish": { 
+					"SourceRectSize": "16, 64",
+					"DrawOffset": "0, 96",
+					"AppearanceOverride": null,
+					"OnStart": { "Emote": null, "PlaySound": "slosh" },
+					"OnEnd": { "Emote": null, "PlaySound": null },
+				}
+			}
+		},	
+		
+		//==============================================================================================
+		//==== SPACECORE WARP TOTEM ====================================================================
+		//==============================================================================================
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
+			"Entries": {
+				"{{ModId}}_LostIslandTotem": { // The object ID
+					"TotemWarp": {
+						"Location": "{{ModId}}_LostIsland",
+						"Position": "30, 16",
+						//"Color": { "R": 0, "G": 0, "B": 255, "A": 255 }
+					}
+				}
+			},
+			"When": {
+				"HasMod": "spacechase0.SpaceCore",
+			}
+		},
+		//==============================================================================================
+		//==== FORAGEABLES =============================================================================
+		//==============================================================================================
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_SpawnFerretFurForage": {
+					"Id": "{{ModId}}_SpawnFerretFurForage",
+					"Trigger": "DayStarted",
+					"MarkActionApplied": false,
+					"Actions": [
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_FerretFurballSpawn {{ModId}}_Fishmonger_GI_Inside_LowerDeck 6,12,3,6/9,12,4,3/11,10,4,4"
+					]
+				},
+				"{{ModId}}_SpawnCustomNodes": {
+					"Id": "{{ModId}}_SpawnCustomNodes",
+					"Trigger": "DayStarted",
+					"MarkActionApplied": false,
+					"Actions": [
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_PainiteGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_LushForestineGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_ChalcanthiteGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_DichromaticTaaffeiteGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_OpalizedAmmoniteGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_TaintedSeaShardsGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_DeepseaDiamondGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_CrystallizedIchorGeodeGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_RealgarGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_GrandidieriteGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/SpawnableDefinitions",
+			"Entries": {
+				"{{ModId}}_FerretFurball": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1,
+							"Value": {
+								"ItemId": "{{ModID}}_FerretFurball"
+							}
+						}
+					]
+				},
+				"{{ModId}}_PainiteGroupSpawn": {
+					"Type": "Minable",
+					"MinableExperienceGranted": 100,
+					"MinableHealth": 18,
+					"MinableObjectId": "{{ModID}}_Painite_Node",
+					"MinableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "{{ModID}}_Painite",
+								}
+							}
+						]
+					],
+				},
+				"{{ModId}}_LushForestineGroupSpawn": {
+					"Type": "Minable",
+					"MinableHealth": 16,
+					"MinableObjectId": "{{ModID}}_LushForestine_Node",
+					"MinableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "{{ModID}}_LushForestine",
+								}
+							}
+						]
+					],
+				},
+				"{{ModId}}_ChalcanthiteGroupSpawn": {
+					"Type": "Minable",
+					"MinableHealth": 16,
+					"MinableObjectId": "{{ModID}}_Chalcanthite_Node",
+					"MinableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "{{ModID}}_Chalcanthite",
+								}
+							}
+						]
+					],
+				},
+				"{{ModId}}_DichromaticTaaffeiteGroupSpawn": {
+					"Type": "Minable",
+					"MinableHealth": 12,
+					"MinableObjectId": "{{ModID}}_DichromaticTaaffeite_Node",
+					"MinableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "{{ModID}}_DichromaticTaaffeite",
+								}
+							}
+						]
+					],
+				},
+				"{{ModId}}_OpalizedAmmoniteGroupSpawn": {
+					"Type": "Minable",
+					"MinableHealth": 8,
+					"MinableObjectId": "{{ModID}}_OpalizedAmmonite_Node",
+					"MinableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "{{ModID}}_OpalizedAmmonite",
+								}
+							}
+						]
+					],
+				},
+				"{{ModId}}_TaintedSeaShardsGroupSpawn": {
+					"Type": "Minable",
+					"MinableHealth": 6,
+					"MinableObjectId": "{{ModID}}_TaintedSeaShards_Node",
+					"MinableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "{{ModID}}_TaintedSeaShards",
+								}
+							}
+						]
+					],
+				},
+				"{{ModId}}_DeepseaDiamondGroupSpawn": {
+					"Type": "Minable",
+					"MinableHealth": 25,
+					"MinableObjectId": "{{ModID}}_DeepseaDiamond_Node",
+					"MinableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "{{ModID}}_DeepseaDiamond",
+								}
+							}
+						]
+					],
+				},
+				"{{ModId}}_CrystallizedIchorGeodeGroupSpawn": {
+					"Type": "Minable",
+					"MinableHealth": 12,
+					"MinableObjectId": "{{ModID}}_CrystallizedIchorGeode_Node",
+					"MinableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "{{ModID}}_CrystallizedIchorGeode",
+								}
+							}
+						]
+					],
+				},
+				"{{ModId}}_RealgarGroupSpawn": {
+					"Type": "Minable",
+					"MinableHealth": 14,
+					"MinableObjectId": "{{ModID}}_Realgar_Node",
+					"MinableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "{{ModID}}_Realgar",
+								}
+							}
+						]
+					],
+				},
+				"{{ModId}}_GrandidieriteGroupSpawn": {
+					"Type": "Minable",
+					"MinableHealth": 16,
+					"MinableObjectId": "{{ModID}}_Grandidierite_Node",
+					"MinableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "{{ModID}}_Grandidierite",
+								}
+							}
+						]
+					],
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/SpawningGroups",
+			"Entries": {
+				"{{ModId}}_FerretFurballSpawn": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_FerretFurball"
+								}
+							],
+							"Minimum": 0,
+							"Maximum": 1
+						}
+					]
+				},
+				"{{ModId}}_PainiteGroup": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_PainiteGroupSpawn"
+								}
+							],
+							"Minimum": 0,
+							"Maximum": 1
+						}
+					]
+				},
+				"{{ModId}}_LushForestineGroup": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_LushForestineGroupSpawn"
+								}
+							],
+							"Minimum": 0,
+							"Maximum": 1
+						}
+					]
+				},
+				"{{ModId}}_ChalcanthiteGroup": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_ChalcanthiteGroupSpawn"
+								}
+							],
+							"Minimum": 0,
+							"Maximum": 1
+						}
+					]
+				},
+				"{{ModId}}_DichromaticTaaffeiteGroup": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_DichromaticTaaffeiteGroupSpawn"
+								}
+							],
+							"Minimum": 0,
+							"Maximum": 1
+						}
+					]
+				},
+				"{{ModId}}_OpalizedAmmoniteGroup": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_OpalizedAmmoniteGroupSpawn"
+								}
+							],
+							"Minimum": 0,
+							"Maximum": 1
+						}
+					]
+				},
+				"{{ModId}}_TaintedSeaShardsGroup": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_TaintedSeaShardsGroupSpawn"
+								}
+							],
+							"Minimum": 0,
+							"Maximum": 1
+						}
+					]
+				},
+				"{{ModId}}_DeepseaDiamondGroup": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_DeepseaDiamondGroupSpawn"
+								}
+							],
+							"Minimum": 0,
+							"Maximum": 1
+						}
+					]
+				},
+				"{{ModId}}_CrystallizedIchorGeodeGroup": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_CrystallizedIchorGeodeGroupSpawn"
+								}
+							],
+							"Minimum": 0,
+							"Maximum": 1
+						}
+					]
+				},
+				"{{ModId}}_RealgarGroup": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_RealgarGroupSpawn"
+								}
+							],
+							"Minimum": 0,
+							"Maximum": 1
+						}
+					]
+				},
+				"{{ModId}}_GrandidieriteGroup": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_GrandidieriteGroupSpawn"
+								}
+							],
+							"Minimum": 0,
+							"Maximum": 1
+						}
+					]
+				},
+			}
+		},
+		//==============================================================================================
+		//==== FURNITURE DESCRIPTIONS ==================================================================
+		//==============================================================================================
+		{
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/FurnitureExtensionData",
+    "Entries": {
+        "{{ModId}}_MermaidBed": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidBed}}"
+        },
+        "{{ModId}}_MermaidChair": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidChair}}"
+        },
+        "{{ModId}}_MermaidTeaTable": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidTeaTable}}"
+        },
+        "{{ModId}}_MermaidTeaTable2": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidTeaTable2}}"
+        },
+        "{{ModId}}_PileOfMermaidWood": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.PileOfMermaidWood}}"
+        },
+        "{{ModId}}_PileOfMermaidWood2": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.PileOfMermaidWood2}}"
+        },
+		"{{ModId}}_MermaidEndTable": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidEndTable}}"
+        },
+        "{{ModId}}_MermaidEndTable2": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidEndTable2}}"
+        },
+		"{{ModId}}_PiratePlushie": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.PiratePlushie}}]"
+        },
+        "{{ModId}}_SeaDudePlushie": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.SeaDudePlushie}}"
+        },
+		"{{ModId}}_PottedMermaidBush": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.PottedMermaidBush}}"
+        },
+        "{{ModId}}_FishLamp": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.FishLamp}}"
+        },
+		"{{ModId}}_MermaidCoffeeTable": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidCoffeeTable}}"
+        },
+        "{{ModId}}_MermaidCoffeeTable2": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidCoffeeTable2}}"
+        },
+		"{{ModId}}_MermaidFireplace": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidFireplace}}"
+        },
+        "{{ModId}}_SharkFireplace": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.SharkFireplace}}"
+        },
+		"{{ModId}}_DepictionOfHer": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.DepictionOfHer}}"
+        },
+        "{{ModId}}_JellyfishRug": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.JellyfishRug}}"
+        },
+		"{{ModId}}_MyHeartProfound": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MyHeartProfound}}"
+        },
+        "{{ModId}}_JellyfishBanner": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.JellyfishBanner}}"
+        },
+		"{{ModId}}_PirateBanner": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.PirateBanner}}"
+        },
+        "{{ModId}}_MermaidDoor": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidDoor}}"
+        },
+		"{{ModId}}_FloralCart": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.FloralCart}}"
+        },
+		"{{ModId}}_PirateGalSpousePortrait": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.PirateGalSpousePortrait}}"
+        },
+		"{{ModId}}_SeaDudeSpousePortrait": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.SeaDudeSpousePortrait}}"
+        },
+		"{{ModId}}_FloralRug": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.FloralRug}}"
+        },
+		"{{ModId}}_LibraryRug": {
+            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.LibraryRug}}"
+        }
+    }
+},
+	]
+}

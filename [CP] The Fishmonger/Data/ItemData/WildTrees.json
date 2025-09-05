@@ -1,0 +1,166 @@
+{
+	"Changes": [
+		//==============================================================================================
+		//==== ADDS TREES TO DATA ======================================================================
+		//==============================================================================================
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"Entries": {
+				"{{ModId}}_mermaidtree": {
+					"Textures": [
+						{
+							"Season": "spring",
+							"Texture": "Mods\\{{ModID}}\\mermaidtree"
+						},
+						{
+							"Season": "summer",
+							"Texture": "Mods\\{{ModID}}\\mermaidtree"
+						},
+						{
+							"Season": "fall",
+							"Texture": "Mods\\{{ModID}}\\mermaidtree"
+						},
+						{
+							"Season": "winter",
+							"Texture": "Mods\\{{ModID}}\\mermaidtree"
+						},
+					],
+					"SeedItemID": "{{ModId}}_MermaidTreeSeeds",
+					"SeedPlantable": true,
+					"GrowthChance": 0.2,
+					"FertilizedGrowthChance": 0.6,
+					"SeedSpreadChance": 0.15,
+					"SeedOnShakeChance": 0.05,
+					"SeedOnChopChance": 0.5625,
+					"DropWoodOnChop": false,
+					"DropHardwoodOnLumberChop": false,
+					"IsLeafy": true,
+					"IsLeafyInWinter": true,
+					"GrowsInWinter": true,
+					"IsStumpDuringWinter": false,
+					"AllowWoodpeckers": true,
+					"DebrisColor": "SlateBlue",
+					"UseAlternateSpriteWhenSeedReady": false,
+					"UseAlternateSpriteWhenNotShaken": false,
+					"ChopItems": [
+						{
+							"MinSize": "Tree",
+							"ForStump": false,
+							"Chance": 1,
+							"Id": "{{ModId}}_MermaidWood",
+							"ItemId": "{{ModId}}_MermaidWood",
+							"MinStack": 7,
+							"MaxStack": 18,
+						},
+						{
+							"MinSize": "Tree",
+							"ForStump": false,
+							"Chance": 0.3,
+							"Id": "{{ModId}}_MermaidTreeSap",
+							"ItemId": "{{ModId}}_MermaidTreeSap",
+							"MinStack": 4,
+						},
+					],
+					"TapItems": [
+						{
+							"Chance": 1.0,
+							"DaysUntilReady": 8,
+							"Id": "{{ModId}}_MermaidTears",
+							"ItemId": "{{ModId}}_MermaidTears",
+							"MinStack": 5,
+							"MaxStack": 10,
+						}
+					],
+					"GrowsMoss": true,
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidTree}}"
+					}
+				},
+				"{{ModId}}_mermaidtree2": {
+					"Textures": [
+						{
+							"Season": "spring",
+							"Texture": "Mods\\{{ModID}}\\mermaidtree2"
+						},
+						{
+							"Season": "summer",
+							"Texture": "Mods\\{{ModID}}\\mermaidtree2"
+						},
+						{
+							"Season": "fall",
+							"Texture": "Mods\\{{ModID}}\\mermaidtree2"
+						},
+						{
+							"Season": "winter",
+							"Texture": "Mods\\{{ModID}}\\mermaidtree2"
+						},
+					],
+					"SeedItemID": "{{ModId}}_MermaidTree2Seeds",
+					"SeedPlantable": true,
+					"GrowthChance": 0.2,
+					"FertilizedGrowthChance": 0.6,
+					"SeedSpreadChance": 0.15,
+					"SeedOnShakeChance": 0.05,
+					"SeedOnChopChance": 0.5625,
+					"DropWoodOnChop": false,
+					"DropHardwoodOnLumberChop": false,
+					"IsLeafy": true,
+					"IsLeafyInWinter": true,
+					"GrowsInWinter": true,
+					"IsStumpDuringWinter": false,
+					"AllowWoodpeckers": true,
+					"DebrisColor": "SlateBlue",
+					"UseAlternateSpriteWhenSeedReady": false,
+					"UseAlternateSpriteWhenNotShaken": false,
+					"ChopItems": [
+						{
+							"MinSize": "Tree",
+							"ForStump": false,
+							"Chance": 1,
+							"Id": "{{ModId}}_MermaidHardwood",
+							"ItemId": "{{ModId}}_MermaidHardwood",
+							"MinStack": 7,
+							"MaxStack": 18,
+						},
+						{
+							"MinSize": "Tree",
+							"ForStump": false,
+							"Chance": 0.3,
+							"Id": "{{ModId}}_MermaidTreeSap",
+							"ItemId": "{{ModId}}_MermaidTreeSap",
+							"MinStack": 4,
+						},
+					],
+					"TapItems": [
+						{
+							"Chance": 1.0,
+							"DaysUntilReady": 8,
+							"Id": "{{ModId}}_MermaidTears",
+							"ItemId": "{{ModId}}_MermaidTears",
+							"MinStack": 5,
+							"MaxStack": 10,
+						}
+					],
+					"GrowsMoss": true,
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidTree2}}"
+					}
+				},
+			},  
+		},
+		//==============================================================================================
+		//==== ADDS TILESHEETS =========================================================================
+		//==============================================================================================
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModID}}/mermaidtree",
+			"FromFile": "assets/items/vww_fishmonger_mermaidtree_1.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModID}}/mermaidtree2",
+			"FromFile": "assets/items/vww_fishmonger_mermaidtree_2.png"
+		}
+	]
+}

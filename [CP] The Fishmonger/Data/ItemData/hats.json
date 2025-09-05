@@ -1,0 +1,27 @@
+{
+    "Changes": [
+        //==============================================================================================
+		//==== ADDS HATS TO DATA =======================================================================
+		//==============================================================================================
+		{
+            "Action": "EditData",
+            "Target": "Data/hats",
+            "Entries": {
+                "{{ModId}}_FishmongersHat": "{{ModId}}_FishmongersHat/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fishmongerhat.description}}/false/true//{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fishmongerhat.name}}/0/Mods\\{{ModID}}\\vww_fishmonger_hats",
+				"{{ModId}}_MermaidCirclet": "{{ModId}}_MermaidCirclet/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.mermaidcirclet.description}}/false/true//{{i18n:VoidWitchCult.CP.TheFishmongerNPC.mermaidcirclet.name}}/1/Mods\\{{ModID}}\\vww_fishmonger_hats",
+				"{{ModId}}_TrafficCone": "{{ModId}}_TrafficCone/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.trafficcone.description}}/false/true//{{i18n:VoidWitchCult.CP.TheFishmongerNPC.trafficcone.name}}/2/Mods\\{{ModID}}\\vww_fishmonger_hats",
+				"{{ModId}}_PearlCirclet": "{{ModId}}_PearlCirclet/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.pearlcirclet.description}}/false/true//{{i18n:VoidWitchCult.CP.TheFishmongerNPC.pearlcirclet.name}}/3/Mods\\{{ModID}}\\vww_fishmonger_hats",
+				"{{ModId}}_FishmongersFishHat": "{{ModId}}_FishmongersFishHat/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fishmongersfishhat.description}}/false/true//{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fishmongersfishhat.name}}/4/Mods\\{{ModID}}\\vww_fishmonger_hats",
+				"{{ModId}}_FishmongersFlowerCrown": "{{ModId}}_FishmongersFlowerCrown/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fishmongersflowercrown.description}}/false/true//{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fishmongersflowercrown.name}}/5/Mods\\{{ModID}}\\vww_fishmonger_hats",
+			}
+		},
+		//==============================================================================================
+		//==== ADDS TILESHEET ==========================================================================
+		//==============================================================================================
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/vww_fishmonger_hats",
+            "FromFile": "assets/Items/vww_fishmonger_hats.png"
+		},
+	]
+}

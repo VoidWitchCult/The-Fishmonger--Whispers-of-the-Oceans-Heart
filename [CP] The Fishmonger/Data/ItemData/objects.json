@@ -1,0 +1,2055 @@
+{
+    "Changes": [
+        {
+			"LogName": "Object data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+				//==============================================================================================
+				//==== SEEDS ===================================================================================
+				//==============================================================================================
+                "{{ModID}}_bloodstainedroseseeds": {
+                    "Name": "{{ModID}}_bloodstainedroseseeds",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.bloodstainedrose.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.bloodstainedrose.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 500,
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 0,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				},
+                "{{ModID}}_freshdillseeds": {
+                    "Name": "{{ModID}}_freshdillseeds",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.freshdill.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.freshdill.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 250,
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 1,
+					"ContextTags": [
+                        "season_spring",
+                        "vegetable_item",
+                        "color_green"
+					]
+				},
+                "{{ModID}}_fisheyebeansseeds": {
+                    "Name": "{{ModID}}_fisheyebeansseeds",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fisheyebeans.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fisheyebeans.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 200,
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 2,
+					"ContextTags": [
+                        "season_spring",
+						"season_summer",
+						"season_fall",
+						"season_winter",
+                        "vegetable_item",
+                        "color_pink"
+					]
+				},
+                "{{ModID}}_halcyonflowerseeds": {
+                    "Name": "{{ModID}}_halcyonflowerseeds",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.halcyonflower.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.halcyonflower.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 250,
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 3,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_pink"
+					]
+				},
+                "{{ModID}}_spicymustardseeds": {
+                    "Name": "{{ModID}}_spicymustardseeds",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.spicymustard.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.spicymustard.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 50,
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 4,
+					"ContextTags": [
+                        "season_spring",
+						"season_summer",
+						"season_fall",
+						"season_winter",
+                        "spice_item",
+						"vegetable_item",
+                        "color_yellow"
+					]
+				},
+                "{{ModID}}_oceanflaxseeds": {
+                    "Name": "{{ModID}}_oceanflaxseeds",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.oceanflax.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.oceanflax.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 20,
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 5,
+					"ContextTags": [
+                        "season_fall",
+                        "vegetable_item",
+                        "color_blue"
+					]
+				},
+                "{{ModID}}_petrichorseeds": {
+                    "Name": "{{ModID}}_petrichorseeds",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.petrichor.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.petrichor.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 250,
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 6,
+					"ContextTags": [
+                        "season_summer",
+                        "flower_item",
+                        "color_blue"
+					]
+				},
+                "{{ModID}}_saltemmerseeds": {
+                    "Name": "{{ModID}}_saltemmerseeds",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.saltemmer.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.saltemmer.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 50,
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 7,
+					"ContextTags": [
+                        "season_summer",
+                        "vegetable_item",
+                        "color_aquamarine"
+					]
+				},
+                "{{ModID}}_scallureseeds": {
+                    "Name": "{{ModID}}_scallureseeds",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.scallure.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.scallure.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 400,
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 8,
+					"ContextTags": [
+                        "season_summer",
+                        "flower_item",
+                        "color_pink"
+					]
+				},
+                "{{ModID}}_sunsetroseseeds": {
+                    "Name": "{{ModID}}_sunsetroseseeds",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.sunsetrose.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.sunsetrose.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 500,
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 9,
+					"ContextTags": [
+                        "season_summer",
+                        "flower_item",
+                        "color_red",
+						"color_yellow"
+					]
+				},
+				//==============================================================================================
+				//==== FRUITS ==================================================================================
+				//==============================================================================================
+				"{{ModID}}_MermaidsDelight": {
+                    "Name": "{{ModID}}_MermaidsDelight",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidsDelight.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidsDelight.description}}",
+                    "Type": "Fruit",
+                    "Category": -79,
+					"Edibility": "80",
+                    "Price": 500,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 87,
+					"ContextTags": [
+						"color_blue"
+					]
+				},
+				"{{ModID}}_FruitOfGinnungagap": {
+                    "Name": "{{ModID}}_FruitOfGinnungagap",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FruitOfGinnungagap.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FruitOfGinnungagap.description}}",
+                    "Type": "Fruit",
+                    "Category": -79,
+					"Edibility": "100",
+                    "Price": 2000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 88,
+					"ContextTags": [
+						"color_poppyseed"
+					]
+				},
+				"{{ModID}}_LoversStar": {
+                    "Name": "{{ModID}}_LoversStar",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LoversStarFruit.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LoversStarFruit.description}}",
+                    "Type": "Fruit",
+                    "Category": -79,
+					"Edibility": "60",
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 89,
+					"ContextTags": [
+						"color_sand"
+					]
+				},
+				"{{ModID}}_StarlightFruit": {
+                    "Name": "{{ModID}}_StarlightFruit",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.StarlightFruit.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.StarlightFruit.description}}",
+                    "Type": "Fruit",
+                    "Category": -79,
+					"Edibility": "50",
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 90,
+					"ContextTags": [
+						"color_iridium"
+					]
+				},
+				//==============================================================================================
+				//==== SAPLINGS ================================================================================
+				//==============================================================================================
+				"{{ModID}}_IridescentScaleSapling": {
+                    "Name": "{{ModID}}_IridescentScaleSapling",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.IridescentScale.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.IridescentScale.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 5000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 91,
+					"ContextTags": [
+						"color_light_cyan",
+						"tree_seed_item"
+					]
+				},
+				"{{ModID}}_TreeOfGinnungagapSapling": {
+                    "Name": "{{ModID}}_TreeOfGinnungagapSapling",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TreeOfGinnungagap.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TreeOfGinnungagap.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 10000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 92,
+					"ContextTags": [
+						"color_darkblue",
+						"tree_seed_item"
+					]
+				},
+				"{{ModID}}_LoversStarSapling": {
+                    "Name": "{{ModID}}_LoversStarSapling",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LoversStar.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LoversStar.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 5000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 93,
+					"ContextTags": [
+						"color_salmon",
+						"tree_seed_item"
+					]
+				},
+				"{{ModID}}_PuffballSapling": {
+                    "Name": "{{ModID}}_PuffballSapling",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Puffball.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Puffball.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 5000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 94,
+					"ContextTags": [
+						"color_white",
+						"tree_seed_item"
+					]
+				},
+				"{{ModID}}_MermaidTreeSeeds": {
+                    "Name": "{{ModID}}_MermaidTreeSeeds",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidTree.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidTree.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 500,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 113,
+					"ContextTags": [
+						"color_blue",
+						"tree_seed_item"
+					]
+				},
+				"{{ModID}}_MermaidTree2Seeds": {
+                    "Name": "{{ModID}}_MermaidTree2Seeds",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidTree2.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidTree2.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 500,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 116,
+					"ContextTags": [
+						"color_blue",
+						"tree_seed_item"
+					]
+				},
+				
+				//////////////
+				// PRODUCE //
+				////////////
+				
+                "{{ModID}}_bloodstainedrose": {
+                    "Name": "{{ModID}}_bloodstainedrose",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.bloodstainedrose.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.bloodstainedrose.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 10,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				},
+                "{{ModID}}_freshdill": {
+                    "Name": "{{ModID}}_freshdill",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.freshdill.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.freshdill.description}}",
+                    "Type": "Vegetable",
+                    "Category": -75,
+                    "Price": 20,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 11,
+					"ContextTags": [
+                        "season_spring",
+                        "vegetable_item",
+                        "color_green"
+					]
+				},
+                "{{ModID}}_fisheyebeans": {
+                    "Name": "{{ModID}}_fisheyebeans",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fisheyebeans.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fisheyebeans.description}}",
+                    "Type": "Vegetable",
+                    "Category": -75,
+                    "Price": 300,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 12,
+					"ContextTags": [
+                        "season_spring",
+						"season_summer",
+						"season_fall",
+						"season_winter",
+                        "vegetable_item",
+                        "color_pink"
+					]
+				},
+                "{{ModID}}_halcyonflower": {
+                    "Name": "{{ModID}}_halcyonflower",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.halcyonflower.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.halcyonflower.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 250,
+					"Edibility": "80",
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 13,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_pink"
+					]
+				},
+                "{{ModID}}_spicymustard": {
+                    "Name": "{{ModID}}_spicymustard",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.spicymustard.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.spicymustard.description}}",
+                    "Type": "Vegetable",
+                    "Category": -75,
+                    "Price": 30,
+					"Edibility": "0",
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 14,
+					"ContextTags": [
+                        "season_spring",
+						"season_summer",
+						"season_fall",
+						"season_winter",
+                        "spice_item",
+						"vegetable_item",
+                        "color_yellow"
+					]
+				},
+                "{{ModID}}_oceanflax": {
+                    "Name": "{{ModID}}_oceanflax",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.oceanflax.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.oceanflax.description}}",
+                    "Type": "Vegetable",
+                    "Category": -75,
+                    "Price": 500,
+					"Edibility": "0",
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 15,
+					"ContextTags": [
+                        "season_fall",
+                        "vegetable_item",
+                        "color_blue"
+					]
+				},
+                "{{ModID}}_petrichor": {
+                    "Name": "{{ModID}}_petrichor",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.petrichor.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.petrichor.description}}",
+                    "Type": "Vegetable",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 16,
+					"ContextTags": [
+                        "season_summer",
+                        "flower_item",
+                        "color_blue"
+					]
+				},
+                "{{ModID}}_saltemmer": {
+                    "Name": "{{ModID}}_saltemmer",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.saltemmer.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.saltemmer.description}}",
+                    "Type": "Vegetable",
+                    "Category": -75,
+                    "Price": 90,
+					"Edibility": "0",
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 17,
+					"ContextTags": [
+                        "season_summer",
+                        "vegetable_item",
+                        "color_aquamarine"
+					]
+				},
+                "{{ModID}}_scallure": {
+                    "Name": "{{ModID}}_scallure",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.scallure.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.scallure.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 500,
+					"Edibility": "100",
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 18,
+					"ContextTags": [
+                        "season_summer",
+                        "flower_item",
+                        "color_pink"
+					]
+				},
+                "{{ModID}}_sunsetrose": {
+                    "Name": "{{ModID}}_sunsetrose",
+                    "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.sunsetrose.name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.sunsetrose.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "40",
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 19,
+					"ContextTags": [
+                        "season_summer",
+                        "flower_item",
+                        "color_red",
+						"color_yellow"
+					]
+				},
+				//==============================================================================================
+				//==== FOOD ====================================================================================
+				//==============================================================================================
+                "{{ModID}}_bakedredsnappercurry": {
+                    "Name": "{{ModID}}_bakedredsnappercurry",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.bakedredsnappercurry.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.bakedredsnappercurry.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 20,
+                    "Buffs": [{
+                        "Duration": 200,
+                        "CustomAttributes": {
+							"FishingLevel": 3,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_brown",
+						"food_seafood"
+					],
+				},
+				"{{ModID}}_crispyfishandchips": {
+                    "Name": "{{ModID}}_crispyfishandchips",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.crispyfishandchips.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.crispyfishandchips.Description}}",
+                    "Edibility": "40",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 21,
+                    "Buffs": [{
+                        "Duration": 200,
+                        "CustomAttributes": {
+							"FishingLevel": 2,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_brown",
+						"food_seafood"
+					],
+				},
+				"{{ModID}}_mouthwateringfishburger": {
+                    "Name": "{{ModID}}_mouthwateringfishburger",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.mouthwateringfishburger.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.mouthwateringfishburger.Description}}",
+                    "Edibility": "70",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 22,
+                    "Buffs": [{
+                        "Duration": 200,
+                        "CustomAttributes": {
+							"FishingLevel": 2,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_orange",
+						"food_seafood"
+					],
+				},
+				"{{ModID}}_fishcroquettesaioli": {
+                    "Name": "{{ModID}}_fishcroquettesaioli",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fishcroquettesaioli.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fishcroquettesaioli.Description}}",
+                    "Edibility": "80",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 23,
+                    "Buffs": [{
+                        "Duration": 300,
+                        "CustomAttributes": {
+							"FishingLevel": 4,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_brown",
+						"food_seafood"
+					],
+				},
+				"{{ModID}}_fishdillsauce": {
+                    "Name": "{{ModID}}_fishdillsauce",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fishdillsauce.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fishdillsauce.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 24,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+							"FishingLevel": 1,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_blue",
+						"food_seafood"
+					],
+				},
+				"{{ModID}}_savoryfishballs": {
+                    "Name": "{{ModID}}_savoryfishballs",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.savouryfishballs.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.savouryfishballs.Description}}",
+                    "Edibility": "30",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 25,
+                    "Buffs": [{
+                        "Duration": 300,
+                        "CustomAttributes": {
+							"FishingLevel": 1,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_yellow",
+						"food_seafood"
+					],
+				},
+				"{{ModID}}_freshdillsauce": {
+                    "Name": "{{ModID}}_freshdillsauce",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.freshdillsauce.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.freshdillsauce.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 60,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 26,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_white",
+						"food_seafood"
+					],
+				},
+				"{{ModID}}_Plokkfiskur": {
+                    "Name": "{{ModID}}_Plokkfiskur",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Plokkfiskur.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Plokkfiskur.Description}}",
+                    "Edibility": "100",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 27,
+                    "Buffs": [{
+                        "Duration": 300,
+                        "CustomAttributes": {
+							"FishingLevel": 4,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_yellow",
+						"food_seafood"
+					],
+				},
+				"{{ModID}}_potatoesdillsauce": {
+                    "Name": "{{ModID}}_potatoesdillsauce",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.potatoesdillsauce.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.potatoesdillsauce.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 28,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+							"FishingLevel": 1,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_yellow",
+						"food_seafood"
+					],
+				},
+				"{{ModID}}_crispysalmonschnitzel": {
+                    "Name": "{{ModID}}_crispysalmonschnitzel",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.crispysalmonschnitzel.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.crispysalmonschnitzel.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 29,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+							"FishingLevel": 1,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_brown",
+						"food_seafood"
+					],
+				},
+				"{{ModID}}_spicymustardsauce": {
+                    "Name": "{{ModID}}_spicymustardsauce",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.spicymustardsauce.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.spicymustardsauce.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 30,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 30,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_yellow",
+						"food_seafood"
+					],
+				},
+				"{{ModID}}_MermaidsTail": {
+                    "Name": "{{ModID}}_MermaidsTail",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidsTail.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidsTail.Description}}",
+                    "Edibility": "30",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 54,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_pink",
+						"food_bakery"
+					],
+				},
+				"{{ModID}}_SandDollarCookie": {
+                    "Name": "{{ModID}}_SandDollarCookie",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SandDollarCookie.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SandDollarCookie.Description}}",
+                    "Edibility": "20",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 80,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 55,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_sand",
+						"food_bakery"
+					],
+				},
+				"{{ModID}}_ClamBisquit": {
+                    "Name": "{{ModID}}_ClamBisquit",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.ClamBisquit.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.ClamBisquit.Description}}",
+                    "Edibility": "40",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 56,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_pink",
+						"food_bakery"
+					],
+				},
+				"{{ModID}}_MermaidDonut": {
+                    "Name": "{{ModID}}_MermaidDonut",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidDonut.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidDonut.Description}}",
+                    "Edibility": "60",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 57,
+                    "Buffs": [{
+                        "Duration": 300,
+                        "CustomAttributes": {
+							"Speed": 1,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_pink",
+						"food_bakery"
+					],
+				},
+				"{{ModID}}_TropicalPunch": {
+                    "Name": "{{ModID}}_TropicalPunch",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TropicalPunch.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TropicalPunch.Description}}",
+                    "Edibility": "80",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 58,
+                    "Buffs": [{
+                        "Duration": 300,
+                        "CustomAttributes": {
+							"LuckLevel": 2,
+						}
+					}],
+                    "IsDrink": true,
+					"ContextTags": [
+						"color_yellow",
+						"drink_item",
+						"food_sweet"
+					],
+				},
+				"{{ModID}}_MermaidFreakshake": {
+                    "Name": "{{ModID}}_MermaidFreakshake",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidFreakshake.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidFreakshake.Description}}",
+                    "Edibility": "100",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 59,
+                    "Buffs": [{
+                        "Duration": 300,
+                        "CustomAttributes": {
+							"Defense": 2,
+						}
+					}],
+                    "IsDrink": true,
+					"ContextTags": [
+						"color_purple",
+						"drink_item",
+						"food_sweet"
+					],
+				},
+				"{{ModID}}_OceanJello": {
+                    "Name": "{{ModID}}_OceanJello",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.OceanJello.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.OceanJello.Description}}",
+                    "Edibility": "10",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 60,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 60,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_blue",
+						"food_sweet"
+					],
+				},
+				"{{ModID}}_OrangeFruitCrab": {
+                    "Name": "{{ModID}}_OrangeFruitCrab",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.OrangeFruitCrab.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.OrangeFruitCrab.Description}}",
+                    "Edibility": "20",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 80,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 61,
+                    "Buffs": [{
+                        "Duration": 300,
+                        "CustomAttributes": {
+							"Foragingevel": 1,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_orange",
+						"food_fruit"
+					],
+				},
+				"{{ModID}}_OceanSmoothieBowl": {
+                    "Name": "{{ModID}}_OceanSmoothieBowl",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.OceanSmoothieBowl.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.OceanSmoothieBowl.Description}}",
+                    "Edibility": "60",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 62,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_blue",
+						"food_breakfast"
+					],
+				},
+				"{{ModID}}_MapRiceCrispy": {
+                    "Name": "{{ModID}}_MapRiceCrispy",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MapRiceCrispy.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MapRiceCrispy.Description}}",
+                    "Edibility": "30",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 50,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 63,
+                    "Buffs": [{
+                        "Duration": 300,
+                        "CustomAttributes": {
+							"LuckLevel": 1,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_yellow",
+						"food_sweet"
+					],
+				},
+				"{{ModID}}_StuffedFishPocket": {
+                    "Name": "{{ModID}}_StuffedFishPocket",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.StuffedFishPocket.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.StuffedFishPocket.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 64,
+                    "Buffs": [{
+                        "Duration": 300,
+                        "CustomAttributes": {
+							"FishingLevel": 2,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_pink",
+						"food_seafood"
+					],
+				},
+				"{{ModID}}_SunsetRoseTea": {
+                    "Name": "{{ModID}}_SunsetRoseTea",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SunsetRoseTea.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SunsetRoseTea.Description}}",
+                    "Edibility": "5",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 65,
+                    "IsDrink": true,
+					"ContextTags": [
+						"color_yellow",
+						"drink_item",
+						"food_sweet"
+					],
+				},
+				"{{ModID}}_BloodstainedRoseTea": {
+                    "Name": "{{ModID}}_BloodstainedRoseTea",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BloodstainedRoseTea.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BloodstainedRoseTea.Description}}",
+                    "Edibility": "5",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 66,
+                    "IsDrink": true,
+					"ContextTags": [
+						"color_red",
+						"drink_item",
+						"food_sweet"
+					],
+				},
+				"{{ModID}}_SkeweredFish": {
+                    "Name": "{{ModID}}_SkeweredFish",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SkeweredFish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SkeweredFish.Description}}",
+                    "Edibility": "35",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 67,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_yellow",
+						"food_seafood"
+					],
+				},
+				"{{ModID}}_RoseCandy": {
+                    "Name": "{{ModID}}_RoseCandy",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RoseCandy.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RoseCandy.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 68,
+                    "Buffs": [{
+                        "Duration": 300,
+                        "CustomAttributes": {
+							"MaxStamina": 2,
+							"Defense": 2,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_yellow",
+						"color_red",
+						"food_sweet"
+					],
+				},
+				"{{ModID}}_IridescentCake": {
+                    "Name": "{{ModID}}_IridescentCake",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.IridescentCake.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.IridescentCake.Description}}",
+                    "Edibility": "80",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 69,
+                    "Buffs": [{
+                        "Duration": 300,
+                        "CustomAttributes": {
+							"MiningLevel": 2,
+							"LuckLevel": 2,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_purple",
+						"food_sweet"
+					],
+				},
+				"{{ModID}}_PastelCottonCandy": {
+                    "Name": "{{ModID}}_PastelCottonCandy",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PastelCottonCandy.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PastelCottonCandy.Description}}",
+                    "Edibility": "5",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 60,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 70,
+                    "Buffs": [{
+                        "Duration": 300,
+                        "CustomAttributes": {
+							"Speed": 4,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_pink",
+						"food_sweet"
+					],
+				},
+				//==============================================================================================
+				//==== FORAGE ==================================================================================
+				//==============================================================================================
+				"{{ModID}}_PinkMermaidScale": {
+                    "Name": "{{ModID}}_PinkMermaidScale",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PinkMermaidScale.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PinkMermaidScale.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Greens",
+                    "Category": -23,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 76,
+					"ContextTags": [
+						"color_pink",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_SunsetMermaidScale": {
+                    "Name": "{{ModID}}_SunsetMermaidScale",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SunsetMermaidScale.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SunsetMermaidScale.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Greens",
+                    "Category": -23,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 77,
+					"ContextTags": [
+						"color_red",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_MossyMermaidScale": {
+                    "Name": "{{ModID}}_MossyMermaidScale",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MossyMermaidScale.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MossyMermaidScale.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Greens",
+                    "Category": -23,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 78,
+					"ContextTags": [
+						"color_light_green",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_SummerMermaidScale": {
+                    "Name": "{{ModID}}_SummerMermaidScale",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SummerMermaidScale.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SummerMermaidScale.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Greens",
+                    "Category": -23,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 79,
+					"ContextTags": [
+						"color_orange",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_CharcoalMermaidScale": {
+                    "Name": "{{ModID}}_PinkMermaidScale",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CharcoalMermaidScale.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CharcoalMermaidScale.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Greens",
+                    "Category": -23,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 80,
+					"ContextTags": [
+						"color_black",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_FrostMermaidScale": {
+                    "Name": "{{ModID}}_FrostMermaidScale",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FrostMermaidScale.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FrostMermaidScale.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Greens",
+                    "Category": -23,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 81,
+					"ContextTags": [
+						"color_light_cyan",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_PowderPinkStarfish": {
+                    "Name": "{{ModID}}_PowderPinkStarfish",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PowderPinkStarfish.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PowderPinkStarfish.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Greens",
+                    "Category": -23,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 82,
+					"ContextTags": [
+						"color_pink",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_PowderGreenPearl": {
+                    "Name": "{{ModID}}_PastelGreenPearl",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PowderGreenPearl.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PowderGreenPearl.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Greens",
+                    "Category": -23,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 83,
+					"ContextTags": [
+						"color_light_green",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_PowderBluePearl": {
+                    "Name": "{{ModID}}_PastelBluePearl",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PowderBluePearl.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PowderBluePearl.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Greens",
+                    "Category": -23,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 84,
+					"ContextTags": [
+						"color_light_cyan",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_PowderOrangePearl": {
+                    "Name": "{{ModID}}_PowderOrangePearl",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PowderOrangePearl.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PowderOrangePearl.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Greens",
+                    "Category": -23,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 85,
+					"ContextTags": [
+						"color_orange",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_PowderPinkPearl": {
+                    "Name": "{{ModID}}_PowderPinkPearl",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PowderPinkPearl.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PowderPinkPearl.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Greens",
+                    "Category": -23,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 86,
+					"ContextTags": [
+						"color_pink",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_FerretFurball": {
+                    "Name": "{{ModID}}_FerretFurball",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FerretFurball.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FerretFurball.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 10,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 97,
+					"ContextTags": [
+						"color_grey",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_BulbousPlantCore": {
+                    "Name": "{{ModID}}_BulbousPlantCore",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BulbousPlantCore.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BulbousPlantCore.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 99,
+					"ContextTags": [
+						"color_red",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_MermaidWoodBark": {
+                    "Name": "{{ModID}}_IridescentBark",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidWoodBark.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidWoodBark.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 30,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 100,
+					"ContextTags": [
+						"color_iridium",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_WeirdVine": {
+                    "Name": "{{ModID}}_WeirdVine",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.WeirdVine.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.WeirdVine.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 101,
+					"ContextTags": [
+						"color_green",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_CrystallineBerries": {
+                    "Name": "{{ModID}}_CrystallineBerries",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CrystallineBerries.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CrystallineBerries.Description}}",
+                    "Edibility": "-30",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Price": 350,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 117,
+					"ContextTags": [
+						"color_blue",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_ObsidianPhoenixFeather": {
+                    "Name": "{{ModID}}_ObsidianPhoenixFeather",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.ObsidianPhoenixFeather.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.ObsidianPhoenixFeather.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 500,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 118,
+					"ContextTags": [
+						"color_black",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_SolidIchor": {
+                    "Name": "{{ModID}}_SolidIchor",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SolidIchor.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SolidIchor.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 600,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 119,
+					"ContextTags": [
+						"color_orange",
+						"forage_item"
+					],
+				},
+				//==============================================================================================
+				//==== ARTIFACTS ===============================================================================
+				//==============================================================================================
+				"{{ModID}}_OldLootedCoins": {
+                    "Name": "{{ModID}}_OldLootedCoins",
+                    "DisplayName": "{{i18n:OldLootedCoins.Name}}",
+                    "Description": "{{i18n:OldLootedCoins.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 129,
+					"ContextTags": [
+						"color_yellow",
+						"not_placeable",
+						"ancient_item",
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_EnchantedForest": 0.01,
+					},
+				},
+				"{{ModID}}_ClottedIchor": {
+                    "Name": "{{ModID}}_ClottedIchor",
+                    "DisplayName": "{{i18n:ClottedIchor.Name}}",
+                    "Description": "{{i18n:ClottedIchor.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 130,
+					"ContextTags": [
+						"color_yellow",
+						"not_placeable",
+						"marine_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_NorthernCliffs": 0.01,
+					},
+				},
+				"{{ModID}}_SharkToothNecklace": {
+                    "Name": "{{ModID}}_SharkToothNecklace",
+                    "DisplayName": "{{i18n:SharkToothNecklace.Name}}",
+                    "Description": "{{i18n:SharkToothNecklace.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 131,
+					"ContextTags": [
+						"color_white",
+						"not_placeable",
+						"ancient_item",
+						"marine_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_PortMelodia": 0.01,
+					},
+				},
+				"{{ModID}}_BrokenArrowhead": {
+                    "Name": "{{ModID}}_BrokenArrowhead",
+                    "DisplayName": "{{i18n:BrokenArrowhead.Name}}",
+                    "Description": "{{i18n:BrokenArrowhead.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 132,
+					"ContextTags": [
+						"color_grey",
+						"not_placeable",
+						"ancient_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_NorthEastQuarry": 0.01,
+					},
+				},
+				"{{ModID}}_PrismaticPearl": {
+                    "Name": "{{ModID}}_PrismaticPearl",
+                    "DisplayName": "{{i18n:PrismaticPearl.Name}}",
+                    "Description": "{{i18n:PrismaticPearl.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 133,
+					"ContextTags": [
+						"color_prismatic",
+						"not_placeable",
+						"marine_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_Orchard": 0.01,
+					},
+				},
+				"{{ModID}}_OceanStarFragment": {
+                    "Name": "{{ModID}}_OceanStarFragment",
+                    "DisplayName": "{{i18n:OceanStarFragment.Name}}",
+                    "Description": "{{i18n:OceanStarFragment.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 134,
+					"ContextTags": [
+						"color_pink",
+						"not_placeable",
+						"marine_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland": 0.01,
+					},
+				},
+				"{{ModID}}_ViscousMatter": {
+                    "Name": "{{ModID}}_ViscousMatter",
+                    "DisplayName": "{{i18n:ViscousMatter.Name}}",
+                    "Description": "{{i18n:ViscousMatter.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 135,
+					"ContextTags": [
+						"color_orange",
+						"not_placeable"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_EnchantedForest": 0.01,
+					},
+				},
+				"{{ModID}}_GrotesqueMask": {
+                    "Name": "{{ModID}}_GrotesqueMask",
+                    "DisplayName": "{{i18n:GrotesqueMask.Name}}",
+                    "Description": "{{i18n:GrotesqueMask.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 136,
+					"ContextTags": [
+						"color_white",
+						"not_placeable",
+						"ancient_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_Orchard": 0.01,
+					},
+				},
+				"{{ModID}}_OvergrownChalice": {
+                    "Name": "{{ModID}}_OvergrownChalice",
+                    "DisplayName": "{{i18n:OvergrownChalice.Name}}",
+                    "Description": "{{i18n:OvergrownChalice.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 137,
+					"ContextTags": [
+						"color_silver",
+						"not_placeable",
+						"ancient_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_NorthEastQuarry": 0.01,
+					},
+				},
+				"{{ModID}}_MysticBracelet": {
+                    "Name": "{{ModID}}_MysticBracelet",
+                    "DisplayName": "{{i18n:MysticBracelet.Name}}",
+                    "Description": "{{i18n:MysticBracelet.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 138,
+					"ContextTags": [
+						"color_pink",
+						"color_gold",
+						"not_placeable",
+						"ancient_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_NorthernCliffs": 0.01,
+					},
+				},
+				"{{ModID}}_RustyHook": {
+                    "Name": "{{ModID}}_RustyHook",
+                    "DisplayName": "{{i18n:RustyHook.Name}}",
+                    "Description": "{{i18n:RustyHook.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 139,
+					"ContextTags": [
+						"color_silver",
+						"not_placeable"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland": 0.01,
+					},
+				},
+				"{{ModID}}_PearlescentShield": {
+                    "Name": "{{ModID}}_PearlescentShield",
+                    "DisplayName": "{{i18n:PearlescentShield.Name}}",
+                    "Description": "{{i18n:PearlescentShield.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 140,
+					"ContextTags": [
+						"color_pink",
+						"not_placeable",
+						"ancient_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_PortMelodia": 0.01,
+					},
+				},
+				"{{ModID}}_FlowerSpecimen": {
+                    "Name": "{{ModID}}_FlowerSpecimen",
+                    "DisplayName": "{{i18n:FlowerSpecimen.Name}}",
+                    "Description": "{{i18n:FlowerSpecimen.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 141,
+					"ContextTags": [
+						"color_pink",
+						"not_placeable"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland": 0.01,
+					},
+				},
+				"{{ModID}}_ChewedScrapmetal": {
+                    "Name": "{{ModID}}_ChewedScrapmetal",
+                    "DisplayName": "{{i18n:ChewedScrapmetal.Name}}",
+                    "Description": "{{i18n:ChewedScrapmetal.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 142,
+					"ContextTags": [
+						"color_silver",
+						"not_placeable"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_Orchard": 0.01,
+					},
+				},
+				"{{ModID}}_FrostApple": {
+                    "Name": "{{ModID}}_FrostApple",
+                    "DisplayName": "{{i18n:FrostApple.Name}}",
+                    "Description": "{{i18n:FrostApple.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 143,
+					"ContextTags": [
+						"color_pink",
+						"not_placeable"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_ForsakenCove": 0.01,
+					},
+				},
+				"{{ModID}}_ChippedBroadsword": {
+                    "Name": "{{ModID}}_ChippedBroadsword",
+                    "DisplayName": "{{i18n:ChippedBroadsword.Name}}",
+                    "Description": "{{i18n:ChippedBroadsword.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 144,
+					"ContextTags": [
+						"color_pink",
+						"not_placeable",
+						"ancient_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_PortMelodia": 0.01,
+					},
+				},
+				"{{ModID}}_GildedBranch": {
+                    "Name": "{{ModID}}_GildedBranch",
+                    "DisplayName": "{{i18n:GildedBranch.Name}}",
+                    "Description": "{{i18n:GildedBranch.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 2000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 145,
+					"ContextTags": [
+						"color_gold",
+						"not_placeable"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_ForsakenCove": 0.01,
+					},
+				},
+				"{{ModID}}_TintedLens": {
+                    "Name": "{{ModID}}_TintedLens",
+                    "DisplayName": "{{i18n:TintedLens.Name}}",
+                    "Description": "{{i18n:TintedLens.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 146,
+					"ContextTags": [
+						"color_pink",
+						"not_placeable",
+						"ancient_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_Orchard": 0.01,
+					},
+				},
+				"{{ModID}}_Phlegm": {
+                    "Name": "{{ModID}}_Phlegm",
+                    "DisplayName": "{{i18n:Phlegm.Name}}",
+                    "Description": "{{i18n:Phlegm.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 147,
+					"ContextTags": [
+						"color_purple",
+						"not_placeable"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_ForsakenCove": 0.01,
+					},
+				},
+				"{{ModID}}_AncientFrostWand": {
+                    "Name": "{{ModID}}_AncientFrostWand",
+                    "DisplayName": "{{i18n:AncientFrostWand.Name}}",
+                    "Description": "{{i18n:AncientFrostWand.Description}}",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 148,
+					"ContextTags": [
+						"color_cyan",
+						"not_placeable",
+						"ancient_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland_NorthEastQuarry": 0.01,
+					},
+				},
+				//==============================================================================================
+				//==== MISC ====================================================================================
+				//==============================================================================================
+				"{{ModID}}_LostIslandTotem": {
+                    "Name": "{{ModID}}_LostIslandTotem",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LostIslandTotem.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LostIslandTotem.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 72,
+					"ContextTags": [
+						"color_pink",
+						"not_placeable",
+						"totem_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_LostIsland": 0.25,
+					},
+				},
+				"{{ModID}}_SpecialFlowerBouquet": {
+                    "Name": "{{ModID}}_SpecialFlowerBouquet",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SpecialFlowerBouquet.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SpecialFlowerBouquet.Description}}",
+                    "Type": "Crafting",
+                    "Category": -26,
+                    "Price": 1000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 71,
+					"ContextTags": [
+						"color_red",
+						"color_yellow",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_MermaidHardwood": {
+                    "Name": "{{ModID}}_MermaidHardwood",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidHardwood.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidHardwood.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 60,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 73,
+					"ContextTags": [
+						"color_iridium",
+						"wood_item"
+					],
+				},
+				"{{ModID}}_MermaidWood": {
+                    "Name": "{{ModID}}_MermaidWood",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidWood.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidWood.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 40,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 74,
+					"ContextTags": [
+						"color_iridium",
+						"wood_item"
+					],
+				},
+				"{{ModID}}_OceanFlaxCloth": {
+                    "Name": "{{ModID}}_OceanFlaxCloth",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.OceanFlaxCloth.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.OceanFlaxCloth.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 75,
+					"ContextTags": [
+						"color_blue"
+					],
+				},
+				"{{ModID}}_MermaidTreeSap": {
+                    "Name": "{{ModID}}_MermaidTreeSap",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidTreeSap.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidTreeSap.Description}}",
+                    "Edibility": "13",
+                    "Type": "Basic",
+                    "Category": -81,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 114,
+					"ContextTags": [
+						"color_yellow"
+					],
+				},
+				"{{ModID}}_MermaidTears": {
+                    "Name": "{{ModID}}_MermaidTears",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidTears.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidTears.Description}}",
+                    "Edibility": "13",
+                    "Type": "Basic",
+                    "Category": -27,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 115,
+					"ContextTags": [
+						"color_purple",
+						"syrup_item"
+					],
+				},
+				"{{ModID}}_MermaidMemento": {
+                    "Name": "{{ModID}}_MermaidMemento",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidMemento.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidMemento.Description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+					"ExcludeFromRandomSale": true,
+					"ExcludeFromShippingCollection": true,
+					"CanBeGivenAsGift": false,
+                    "Price": 100000000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 120,
+					"ContextTags": [
+						"color_poppyseed"
+					],
+				},
+				//==============================================================================================
+				//==== CHARMS ==================================================================================
+				//==============================================================================================
+				"{{ModID}}_OldRune": {
+                    "Name": "{{ModID}}_OldRune",
+                    "DisplayName": "{{i18n:OldRune.Name}}",
+                    "Description": "{{i18n:OldRune.Description}}",
+                    "Edibility": "0",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 30000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 121,
+                    "Buffs": [
+						{
+							"Duration": 860,
+							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
+							"IconSpriteIndex": 0,
+							"CustomAttributes": {
+								"MiningLevel":  7,
+								"LuckLevel":  7,
+								"Immunity": 7,
+							}
+						}
+					],
+                    "IsDrink": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"color_grey"
+					],
+				},
+				"{{ModID}}_NaturesCoin": {
+                    "Name": "{{ModID}}_NaturesCoin",
+                    "DisplayName": "{{i18n:NaturesCoin.Name}}",
+                    "Description": "{{i18n:NaturesCoin.Description}}",
+                    "Edibility": "0",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 30000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 122,
+                    "Buffs": [
+						{
+							"Duration": 860,
+							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
+							"IconSpriteIndex": 1,
+							"CustomAttributes": {
+								"FarmingLevel": 6,
+								"ForagingLevel": 6,
+								"Speed": 6,
+							}
+						}
+					],
+                    "IsDrink": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"color_purple"
+					],
+				},
+				"{{ModID}}_GrassCube": {
+                    "Name": "{{ModID}}_GrassCube",
+                    "DisplayName": "{{i18n:GrassCube.Name}}",
+                    "Description": "{{i18n:GrassCube.Description}}",
+                    "Edibility": "0",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 30000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 123,
+                    "Buffs": [
+						{
+							"Duration": 860,
+							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
+							"IconSpriteIndex": 2,
+							"CustomAttributes": {
+								"FarmingLevel": 5,
+								"MagneticRadius": 5,
+								"MaxStamina": 5,
+							}
+						}
+					],
+                    "IsDrink": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"color_green"
+					],
+				},
+				"{{ModID}}_WeirdShroom": {
+                    "Name": "{{ModID}}_WeirdShroom",
+                    "DisplayName": "{{i18n:WeirdShroom.Name}}",
+                    "Description": "{{i18n:WeirdShroom.Description}}",
+                    "Edibility": "0",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 30000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 124,
+                    "Buffs": [
+						{
+							"Duration": 860,
+							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
+							"IconSpriteIndex": 3,
+							"CustomAttributes": {
+								"LuckLevel":  4,
+								"AttackMultiplier": 0.5,
+								"Immunity": 4,
+								"Speed": 4,
+							}
+						}
+					],
+                    "IsDrink": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"color_black"
+					],
+				},
+				"{{ModID}}_UndeliveredMail": {
+                    "Name": "{{ModID}}_UndeliveredMail",
+                    "DisplayName": "{{i18n:UndeliveredMail.Name}}",
+                    "Description": "{{i18n:UndeliveredMail.Description}}",
+                    "Edibility": "0",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 30000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 125,
+                    "Buffs": [
+						{
+							"Duration": 860,
+							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
+							"IconSpriteIndex": 4,
+							"CustomAttributes": {
+								"Speed": 3,
+								"WeaponPrecisionMultiplier": 0.6,
+								"WeaponSpeedMultiplier": 0.6,
+							}
+						}
+					],
+                    "IsDrink": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"color_whitee"
+					],
+				},
+				"{{ModID}}_BellsOfTheOldeOnes": {
+                    "Name": "{{ModID}}_BellsOfTheOldeOnes",
+                    "DisplayName": "{{i18n:BellsOfTheOldeOnes.Name}}",
+                    "Description": "{{i18n:BellsOfTheOldeOnes.Description}}",
+                    "Edibility": "0",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 30000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 126,
+                    "Buffs": [
+						{
+							"Duration": 860,
+							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
+							"IconSpriteIndex": 5,
+							"CustomAttributes": {
+								"CriticalChanceMultiplier": 0.4,
+								"CriticalPowerMultiplier": 0.5,
+								"WeaponSpeedMultiplier": 0.6,
+							}
+						}
+					],
+                    "IsDrink": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"color_yellow"
+					],
+				},
+				"{{ModID}}_HomogenousSoulTether": {
+                    "Name": "{{ModID}}_HomogenousSoulTether",
+                    "DisplayName": "{{i18n:HomogenousSoulTether.Name}}",
+                    "Description": "{{i18n:HomogenousSoulTether.Description}}",
+                    "Edibility": "0",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 30000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 127,
+                    "Buffs": [
+						{
+							"Duration": 860,
+							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
+							"IconSpriteIndex": 6,
+							"CustomAttributes": {
+								"AttackMultiplier": 0.2,
+								"KnockbackMultiplier": 0.2,
+								"MagneticRadius": 4,
+								"WeaponPrecisionMultiplier": 0.2,
+							}
+						}
+					],
+                    "IsDrink": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"color_pink"
+					],
+				},
+				"{{ModID}}_RoseTintedEncyclopedia": {
+                    "Name": "{{ModID}}_RoseTintedEncyclopedia",
+                    "DisplayName": "{{i18n:RoseTintedEncyclopedia.Name}}",
+                    "Description": "{{i18n:RoseTintedEncyclopedia.Description}}",
+                    "Edibility": "0",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 1000000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 128,
+                    "Buffs": [
+						{
+							"Duration": 860,
+							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
+							"IconSpriteIndex": 7,
+							"CustomAttributes": {
+								"MiningLevel":  10,
+								"LuckLevel":  10,
+								"CombatLevel": 10,
+								"FarmingLevel": 10,
+								"FishingLevel": 10,
+								"ForagingLevel": 10,
+							}
+						}
+					],
+                    "IsDrink": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"color_pink"
+					],
+				},
+			},
+		},
+	]
+}

@@ -1,0 +1,100 @@
+{
+	//==============================================================================================
+	//==== C O N V E R S A T I O N   T O P I C S ===================================================
+	//==============================================================================================
+	
+	// GINGER ISLAND FIRST ARRIVAL
+	"VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Fishmonger": "Hm? That softy actually brought someone here?#$b#Eh...be careful though, especially when it comes to the vulcano.",
+	"VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Caroline": "I've heard from Willy that you went out to Ginger Island!#$b#If his boat works again I might be able to finally pay a visit to my pen pal.$2",
+	"VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Elliott": "Ah, a little birdie told me you've helped repair Willy's old boat, marvelous.#$b#Maybe I'll get some inspiration for a new book when visiting th island.$1",
+	"VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Harvey": "A more tropical island means to make sure you're prepared when it comes to your health as well.#$b#Oh...it's just that I've heard from the others that Willy took you to Ginger Island. As your doctor I just wanted to make sure you're going to be fine.$1#$b#That said...maybe she will finally come and get a check-in as well...$2",
+	"VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Jas": "I wanna go to the island too and play! It's unfair if it's just you who goes.",
+	"VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Leo": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Lewis": "Hm, since Willy took you to Ginger Island....maybe you're finally the one to get that hermit to open up again.$2",
+	"VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Linus": "Ginger Island is a great place to explore! Make sure to greet Constance from me when yo go again.",
+	"VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Vincent": "Is it true that you can see mermaids on the island?",
+	"VoidWitchCult.CP.TheFishmongerNPC.GIFirstArrival.Willy": "Hm....ahoy, @. I hope things go smooth on yer journey on Ginger Island.#$b#Don't let, uh...nevermind. Make your own first impressions and see.$2",
+	
+	// 2 HEARTS EVENT FISHMONGER
+	"VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Fishmonger": "Well, glad we had that interesting topic a while ago. Makes me wonder what else kinda beliefs you got going in that noggin of yours.",
+	"VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Caroline": "Hey @. been to the island lately? I was thinking of putting together a nice tea blend once I get to go myself. I am sure my pen pal will enjoy it.",
+	"VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Elliott": "The island is a wondrous place. I've gotten some interesting ideas and tips on where to find nice spots from a lady who's staying there.",
+	"VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Harvey": "Hello @. Everything going well with your island trips, I hope.#$b#You didn't happen to hear from a certain someone they'd maybe think about finally getting a health check again?#$b#Ah, no? Hm....well then...$2",
+	"VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Jas": "Did you bring something from the island back? I wanna hear the funny lady talk about mermaids!#$b#Well, Willy said there's someone there who really likes them!",
+	"VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Leo": "..fish lady got you something too? She likes to talk about funny stuff, right?",
+	"VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Lewis": "Ah, @. Do you mind sharing your thoughts with me about how the island is?#$b#...#$b#...I see. Thank you, maybe I will take a look myself in the near future then.#$b#Might work giving her a little talk, hm...",
+	"VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Linus": "Good to see you again, @. How is Constance treating you?#$b#Don't mind her rough edges, sometimes she's a bit hard to talk to but believe me she's a good kid.$1",
+	"VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Vincent": "Mermaids! hey, are there many funny clams and stuff on the island?",
+	"VoidWitchCult.CP.TheFishmongerNPC.2HeartsEvent.Willy": "Ahoy, @. Things are going well, I assume? Good, good...#$b#Maybe one of these days I'll get off the boat as well and, uh, explore a little.",
+	
+	// 4 HEARTS EVENT FISMONGER
+	"VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Fishmonger": "Ah, I feel like something heavy has lifted from my shoulders.",
+	"VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Caroline": "How's Constance doing? I've heard that you two have become pretty good friends!",
+	"VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Elliott": "Greetings @. The island air is doing wonders for my imagination.$1#$b#I've had the cahnce to talk a little bit with the locals there and they got quite the stories to tell!",
+	"VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Harvey": "One of these days I am sure I can get Constance to get a check-up...$2#$b#Oh, hey @. I've heard you're pretty good friends with her now, maybe you can convince her to come to the mainland for once?",
+	"VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Jas": "Vincent and I collected sea shells at the shore today. We want to make a big, big castle out of them for the mermaids!",
+	"VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Leo": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Lewis": "So, how's Constance doing? You've been on the island pretty often, I'm sure you've met her a lot by now, right?",
+	"VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Linus": "Ah, @! I see you've become good friends with Constance. She can be a bit rough around the dges, but means well.#$b#I hope Willy and her can clear out their differences one day...",
+	"VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Vincent": "I found so many shells! Lets see how big of a castle we can make.",
+	"VoidWitchCult.CP.TheFishmongerNPC.4HeartsEvent.Willy": "@, ahoy.#$b#Oh, ye...actually had a long conversation the other day?#$b#...$2#$b#...I see. Yeah, don't ye worry. That actually made my heart pitter patter a little, haha.$3",
+	
+	// 6 HEARTS EVENT FISHMONGER
+	"VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Fishmonger": "...you know, I actually really appreciate that you keep hanging around.#$b#It somehow made it much easier to talk to big bro again. Thank you.",
+	"VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.MermaidCalliope": "Believe it or not but...I've seen something out of this world...heh.$3",
+	"VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Caroline": "I've heard Willy has been in such a great mood since he returned from Ginger Island.#$b#I wonder what this is about!",
+	"VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Elliott": "Can you believe it? Willy stopped by last night really happy, talking about his sister.#$b#It's always nice to see family growing closer again. I hope I get to meet her at some point.",
+	"VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Harvey": "With Willy and Constance making up I sure hope she finally comes in to get some check-ups again.#$b#...she always used to say that as long as she can get up in the morning and fish it's fine.",
+	"VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Lewis": "Another old soul returning to Pelican town. Sure hope Constance has mellowed out a bit since her youth though...#$b#...I don't want more trouble-makers in the town.",
+	"VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Linus": "I've heard that Constance has finally overcome her awkwardness and hesitation to finally talk to her brother again.#$b#That was your doing, right?$1",
+	"VoidWitchCult.CP.TheFishmongerNPC.6HeartsEvent.Willy": "I'm as happy as a fish in the water!$1#$b#I cannot wait to show Conny all I've been up to.$1",
+	
+	// 8 HEARTS EVENT FISHMONGER
+	"VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Fishmonger": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Caroline": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Elliott": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Harvey": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Jas": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Leo": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Lewis": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Linus": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Vincent": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.8HeartsEvent.Willy": "...",
+	
+	// 10 HEARTS EVENT FISHMONGER
+	"VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Fishmonger": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Caroline": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Elliott": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Harvey": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Jas": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Leo": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Lewis": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Linus": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Vincent": "...",
+	"VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Willy": "...",
+	
+	// ALL FISH CAUGHT
+	"VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Fishmonger": "Man, I'm still rather impressed about all the fish you've caught.#$b# I think it's a great oppor-tuna-ty for the lines of fishers, heh.",
+	"VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.MermaidCalliope": "I've heard you actually managed to catch all the fishes that exist out there.#$b#Impressive!$1",
+	"VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Caroline": "Have you tried seasalt tea?#$b#It's a new thing that I am trying out thanks to my penpal. it's really good!",
+	"VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Elliott": "Another wonderful Ginger Island trip.#$b#Oh, hello @, I've just been collecting my notes from my visit to the island, heh.",
+	"VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Harvey": "Ah, that smell...certainly fishy but in a different context. ",
+	"VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Jas": "Fish are yucky uncooked...but some look so shiny and pretty!#$b#I hope I'll get to see a mermaid on the island with pretty scales!",
+	"VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Leo": "Fish are nice. Not as nice as Parrot but good. Maybe I can make fish friend soon?",
+	"VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Lewis": "So many fishes...ah, @. Didn't see you there.#$b#Hm? Oh, I was just thinking about a possible good outcome and all the fishes that come with it...",
+	"VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Linus": "It's always nice to see young talents in fishing. With Willy and Constance left I feared there'd be no new generation.#$b#You've prooven yourself to be a great fishing master however. I am glad.",
+	"VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Vincent": "So many fish in the world! I heard you caught a lot already! Will you live at the beach now too like Willy?",
+	"VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Willy": "Aye, what a sight to see. I've heard you even went to get the ones a certain someone was so adamant to research about, heh. Congrats!",
+	
+	// BIRDIE QUEST FINISHED
+	"VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Fishmonger": "I've heard from Birdie that you actually helped her out finding something important to her...#$b#That was actually very kind of you. It has been such a long time seeing her happy like this.$1",
+	"VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Caroline": "I got a variety of beautiful shells sent to me by my penpal.#$b#I'm thinking of making some decorations for  my flower pots using them.",
+	"VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Elliott": "My new book about an island trip is coming along nicely.#$b#For now it's just a lot of scribbles and ideas but...I am feeling it!",
+	"VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Harvey": "Ah, @. Nice seeing you today. Any news from the island?",
+	"VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Jas": "I saw Vincents dad cry today. I think it was happy crying.",
+	"VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Leo": "Birdie looking happy, that makes me happy too.",
+	"VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Lewis": "You've done quite a lot of achievements on the island, I see.#$b#I wonder what else you managed to pull off there...",
+	"VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Linus": "It's good to know that there are still people out there helping others in need.",
+	"VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Vincent": "Do you think I can find a Mr Snail on the island too?",
+	"VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Willy": "Oh, ye helped out Birdie?#$b#Heh, I know a certain someone who surely be happy to know about that.$1",	
+}

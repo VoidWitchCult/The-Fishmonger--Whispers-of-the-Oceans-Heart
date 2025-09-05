@@ -1,0 +1,3 @@
+Delete the tilesheets with a period in front of them that are inside this folder (Maps) before you publish. That will leave just the tilesheets in the Tilesheets folder which get loaded into the game for use.
+
+Make sure that when you edit a tilesheet, you replace both the copy in here and the copy in Tilesheets with the edited one or you will see different things in Tiled vs in game.

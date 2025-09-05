@@ -1,0 +1,22 @@
+{
+	"Changes": [
+		{
+			"LogName": "Add Crafting Recipes",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"{{ModID}}_FishmongerScarecrow": "771 5 388 50 392 1 {{ModID}}_wornouthat 1/Home/{{ModID}}_FishmongerScarecrow/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fishmongerscarecrow.Name}}",
+				"{{ModID}}_CoolerFishmongerScarecrow": "771 5 388 50 392 1 {{ModID}}_wornouthat 1/Home/{{ModID}}_CoolerFishmongerScarecrow/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.coolerfishmongerscarecrow.Name}}",
+				"{{ModID}}_TubOTropicalFlowers": "{{ModID}}_MermaidWood 10 771 10 {{ModID}}_sunsetrose 2 {{ModID}}_scallure 2/Home/{{ModID}}_TubOTropicalFlowers/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TubOTropicalFlowers.Name}}",
+				"{{ModID}}_FlowerCrate": "{{ModID}}_MermaidWood 10 771 10 {{ModID}}_sunsetrose 2/Home/{{ModID}}_FlowerCrate/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FlowerCrate.Name}}",
+				"{{ModID}}_IridescentCakeStand": "388 20 {{ModId}}_IridescentCake 1 {{ModId}}_OceanFlaxCloth 3/Home/{{ModID}}_IridescentCakeStand/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.IridescentCakeStand.Name}}",
+				"{{ModID}}_CrateOfPetrichor": "{{ModID}}_MermaidWood 10 {{ModId}}_petrichor 1/Home/{{ModID}}_CrateOfPetrichor/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CrateOfPetrichor.Name}}",
+				"{{ModID}}_FloralArrangement": "388 20 771 10 {{ModID}}_sunsetrose 2 {{ModID}}_scallure 2/Home/{{ModID}}_FloralArrangement/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FloralArrangement.Name}}",
+				"{{ModID}}_TropicalTikkiTorch": "388 20 771 10 {{ModId}}_OceanFlaxCloth 1 382 5/Home/{{ModID}}_TropicalTikkiTorch/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TropicalTikkiTorch.Name}}",
+				"{{ModID}}_TropicalBearPlanter": "388 20 771 10 {{ModId}}_petrichor 1 {{ModId}}_sunsetrose 2/Home/{{ModID}}_TropicalBearPlanter/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TropicalBearPlanter.Name}}",
+				"{{ModID}}_HandcraftedFishCrate": "{{ModID}}_MermaidWood 10 {{ModId}}_OceanFlaxCloth 2/Home/{{ModID}}_HandcraftedFishCrate/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.HandcraftedFishCrate.Name}}",
+				"{{ModID}}_LostIslandTotem": "{{ModID}}_MermaidHardwood 50 {{ModID}}_scallure 5 {{ModID}}_OceanFlaxCloth 5/Home/{{ModID}}_LostIslandTotem/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LostIslandTotem.Name}}",
+			}
+		}
+	]
+}

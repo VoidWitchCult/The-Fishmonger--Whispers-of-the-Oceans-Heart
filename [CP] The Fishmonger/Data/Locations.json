@@ -1,0 +1,1587 @@
+{
+	"Changes": [
+		{
+			
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				//==============================================================================================
+				//==== FISHMONGERS HOME ========================================================================
+				//==============================================================================================
+				"{{ModId}}_Fishmonger_GI_Inside": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.FishmongerBoat}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_Fishmonger_GI_Inside",
+					},
+					"DefaultArrivalTile": {
+                        "X": 4,
+                        "Y": 10
+					},
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+					"Music": [
+						{
+                            "Id": "{{ModId}}_FishmongerMusic",
+                            "Track": "ocean",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+					"FormerLocationNames": [ "VoidWitchCult.TheFishmonger_Fishmonger_GI_Inside" ] // Ensures save data from previous mod versions gets loaded into the new ID for the location instead of being deleted
+				},
+				"{{ModId}}_Fishmonger_GI_Inside_LowerDeck": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.FishmongerBoat.LowerDeck}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_Fishmonger_GI_Inside_LowerDeck",
+					},
+					"DefaultArrivalTile": {
+                        "X": 7,
+                        "Y": 4
+					},
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+					"Music": [
+						{
+                            "Id": "{{ModId}}_FishmongerMusic",
+                            "Track": "ocean",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== LOST ISLAND =============================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.LostIsland}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland",
+					},
+					"DefaultArrivalTile": { 
+						"X": 30,
+						"Y": 16
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [
+                        {
+                            "Chance": 0.10,
+                            "ApplyGenerousEnchantment": false,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": -10,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModID}}_LostIslandTotem",
+                            "ItemId": "{{ModID}}_LostIslandTotem",
+                            "MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+						},
+						{
+							"Chance": 0.25,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": false,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Condition": "PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current DROP_QI_BEANS",
+							"Id": "(O)890",
+							"ItemId": "(O)890",
+							"MinStack": 2,
+							"MaxStack": 5,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.15,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)770", //Mixed Seeds
+							"ItemId": "(O)770",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.10,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)425", //Fairy Seeds
+							"ItemId": "(O)425",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.05,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)524", //Ring of Yoba
+							"ItemId": "(O)524",
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						},
+					],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+                            "CrabPotFishTypes": [
+                                "ocean"
+							],
+                            "CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_bicolorpiranha",
+                            "ItemId": "{{ModID}}_bicolorpiranha",
+						},
+						{
+							"Id": "{{ModID}}_bigfinsquid",
+                            "ItemId": "{{ModID}}_bigfinsquid",
+						},
+						{
+							"Id": "{{ModID}}_charcoalbetta",
+                            "ItemId": "{{ModID}}_charcoalbetta",
+						},
+						{
+							"Id": "{{ModID}}_fairyflossbetta",
+                            "ItemId": "{{ModID}}_fairyflossbetta",
+						},
+						{
+							"Id": "{{ModID}}_firemouth",
+                            "ItemId": "{{ModID}}_firemouth",
+						},
+						{
+							"Id": "{{ModID}}_garfish",
+                            "ItemId": "{{ModID}}_garfish",
+						},
+						{
+							"Id": "{{ModID}}_glasseyesnapper",
+                            "ItemId": "{{ModID}}_glasseyesnapper",
+						},
+						{
+							"Id": "{{ModID}}_golddustblackmolly",
+                            "ItemId": "{{ModID}}_golddustblackmolly",
+						},
+						{
+							"Id": "{{ModID}}_kissingfish",
+                            "ItemId": "{{ModID}}_kissingfish",
+						},
+						{
+							"Id": "{{ModID}}_matjes",
+                            "ItemId": "{{ModID}}_matjes",
+						},
+						{
+							"Id": "{{ModID}}_moray",
+                            "ItemId": "{{ModID}}_moray",
+						},
+						{
+							"Id": "{{ModID}}_neontetra",
+                            "ItemId": "{{ModID}}_neontetra",
+						},
+						{
+							"Id": "{{ModID}}_queentriggerfish",
+                            "ItemId": "{{ModID}}_queentriggerfish",
+						},
+						{
+							"Id": "{{ModID}}_sunrisebetta",
+                            "ItemId": "{{ModID}}_sunrisebetta",
+						},
+						{
+							"Id": "{{ModID}}_sunsetbetta",
+                            "ItemId": "{{ModID}}_sunsetbetta",
+						},
+						{
+							"Id": "{{ModID}}_scarletvampiresquid",
+                            "ItemId": "{{ModID}}_scarletvampiresquid",
+						},
+						{
+							"Id": "{{ModID}}_viperfish",
+                            "ItemId": "{{ModID}}_viperfish",
+						},
+					],
+					"Forage": [
+						{
+                            "Id": "{{ModId}}_PinkMermaidScale",
+                            "ItemId": "{{ModId}}_PinkMermaidScale",
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "{{ModId}}_SunsetMermaidScale",
+                            "ItemId": "{{ModId}}_SunsetMermaidScale",
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "{{ModId}}_MossyMermaidScale",
+                            "ItemId": "{{ModId}}_MossyMermaidScale",
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "{{ModId}}_SummerMermaidScale",
+                            "ItemId": "{{ModId}}_SummerMermaidScale",
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "{{ModId}}_CharcoalMermaidScale",
+                            "ItemId": "{{ModId}}_CharcoalMermaidScale",
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "{{ModId}}_PinkMermaidScale",
+                            "ItemId": "{{ModId}}_PinkMermaidScale",
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "{{ModId}}_FrostMermaidScale",
+                            "ItemId": "{{ModId}}_FrostMermaidScale",
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "{{ModId}}_PowderPinkStarfish",
+                            "ItemId": "{{ModId}}_PowderPinkStarfish",
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "{{ModId}}_PowderGreenPearl",
+                            "ItemId": "{{ModId}}_PowderGreenPearl",
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "{{ModId}}_PowderBluePearl",
+                            "ItemId": "{{ModId}}_PowderBluePearl",
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "{{ModId}}_PowderOrangePearl",
+                            "ItemId": "{{ModId}}_PowderOrangePearl",
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "{{ModId}}_PowderPinkPearl",
+                            "ItemId": "{{ModId}}_PowderPinkPearl",
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "(O)397",
+                            "ItemId": "(O)397", //Sea  Urchin
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "(O)397",
+                            "ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
+                            "Chance": 0.25
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 2,
+					"MaxDailyForageSpawn": 20,
+					"MaxSpawnedForageAtOnce": 10,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+                            "Id": "{{ModId}}_LostIslandMusic",
+                            "Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== MERMAID HOME ============================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_MermaidHome": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.MermaidHome}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_MermaidHome",
+					},
+					"DefaultArrivalTile": {
+						"X": 2,
+						"Y": 23
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"ArtifactSpots": [],
+					"FishAreas": {},
+					"Fish": [],
+					"Forage": [],
+					"Music": [
+						{
+                            "Id": "{{ModId}}_LostIslandMusic",
+                            "Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== COOLGAL HOME ============================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_CoolGalHome": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.CoolGalHome}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_CoolGalHome",
+					},
+					"DefaultArrivalTile": {
+						"X": 21,
+						"Y": 9
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"ArtifactSpots": [],
+					"FishAreas": {},
+					"Fish": [],
+					"Forage": [],
+					"Music": [
+						{
+                            "Id": "{{ModId}}_LostIslandMusic",
+                            "Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== PIRATELAD HOME ==========================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_PirateLadHome": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.PirateLadHome}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_PirateLadHome",
+					},
+					"DefaultArrivalTile": {
+						"X": 2,
+						"Y": 14
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"ArtifactSpots": [],
+					"FishAreas": {},
+					"Fish": [],
+					"Forage": [],
+					"Music": [
+						{
+                            "Id": "{{ModId}}_LostIslandMusic",
+                            "Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== LIBRARY =================================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_Library": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.Library}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_Library",
+					},
+					"DefaultArrivalTile": {
+						"X": 32,
+						"Y": 38
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"ArtifactSpots": [],
+					"FishAreas": {},
+					"Fish": [],
+					"Forage": [],
+					"Music": [
+						{
+                            "Id": "{{ModId}}_LostIslandMusic",
+                            "Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== ORCHARD =================================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_Orchard": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.Orchard}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_Orchard",
+					},
+					"DefaultArrivalTile": { 
+						"X": 32,
+						"Y": 52
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [
+						{
+							"Chance": 0.10,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Id": "{{ModID}}_LostIslandTotem",
+							"ItemId": "{{ModID}}_LostIslandTotem",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.2,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"ContinueOnDrop": true,
+							"Id": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"MinStack": 1,
+							"MaxStack": 1
+						},
+						{
+							"Chance": 0.25,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": false,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Condition": "PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current DROP_QI_BEANS",
+							"Id": "(O)890",
+							"ItemId": "(O)890",
+							"MinStack": 2,
+							"MaxStack": 5,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.15,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)770", //Mixed Seeds
+							"ItemId": "(O)770",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.10,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)425", //Fairy Seeds
+							"ItemId": "(O)425",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.05,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)524", //Ring of Yoba
+							"ItemId": "(O)524",
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						},
+					],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_rasboras",
+							"ItemId": "{{ModID}}_rasboras",
+						},
+						{
+							"Id": "{{ModID}}_rainbowkribs",
+							"ItemId": "{{ModID}}_rainbowkribs",
+						},
+						{
+							"Id": "{{ModID}}_creolewasse",
+							"ItemId": "{{ModID}}_creolewasse",
+						},
+						{
+							"Id": "{{ModID}}_fairybasslet",
+							"ItemId": "{{ModID}}_fairybasslet",
+						},
+						{
+							"Id": "{{ModID}}_trumpetfish",
+							"ItemId": "{{ModID}}_trumpetfish",
+						},
+						{
+							"Id": "{{ModID}}_longnosehawkfish",
+							"ItemId": "{{ModID}}_longnosehawkfish",
+						},
+						{
+							"Id": "{{ModID}}_threadfinbutterflyfish",
+							"ItemId": "{{ModID}}_threadfinbutterflyfish",
+						},
+						{
+							"Id": "{{ModID}}_bluegrenadier",
+							"ItemId": "{{ModID}}_bluegrenadier",
+						},
+						{
+							"Id": "{{ModID}}_redgurnard",
+							"ItemId": "{{ModID}}_redgurnard",
+						},
+						{
+							"Id": "{{ModID}}_mosquitofish",
+							"ItemId": "{{ModID}}_mosquitofish",
+						},
+					],
+					"Forage": [
+						{
+							"Id": "{{ModId}}_BulbousPlantCore",
+							"ItemId": "{{ModId}}_BulbousPlantCore",
+							"Chance": 0.1
+						},
+						{
+							"Id": "{{ModId}}_MermaidWoodBark",
+							"ItemId": "{{ModId}}_MermaidWoodBark",
+							"Chance": 0.2
+						},
+						{
+							"Id": "{{ModId}}_WeirdVine",
+							"ItemId": "{{ModId}}_WeirdVine",
+							"Chance": 0.2
+						},
+						{
+							"Id": "(O)417",
+							"ItemId": "(O)417", //Sweet Gem  Berry
+							"Chance": 0.05
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 2,
+					"MaxDailyForageSpawn": 15,
+					"MaxSpawnedForageAtOnce": 15,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIslandMusic",
+							"Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== ENCHANTED FOREST ========================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_EnchantedForest": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.EnchantedForest}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_EnchantedForest",
+					},
+					"DefaultArrivalTile": { 
+						"X": 1,
+						"Y": 9
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [
+						{
+							"Chance": 0.10,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Id": "{{ModID}}_LostIslandTotem",
+							"ItemId": "{{ModID}}_LostIslandTotem",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.2,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"ContinueOnDrop": true,
+							"Id": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"MinStack": 1,
+							"MaxStack": 1
+						},
+						{
+							"Chance": 0.25,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": false,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Condition": "PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current DROP_QI_BEANS",
+							"Id": "(O)890",
+							"ItemId": "(O)890",
+							"MinStack": 2,
+							"MaxStack": 5,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.15,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)770", //Mixed Seeds
+							"ItemId": "(O)770",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.10,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)425", //Fairy Seeds
+							"ItemId": "(O)425",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.05,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)524", //Ring of Yoba
+							"ItemId": "(O)524",
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						},
+					],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_rasboras",
+							"ItemId": "{{ModID}}_rasboras",
+						},
+						{
+							"Id": "{{ModID}}_redfinhap",
+                            "ItemId": "{{ModID}}_redfinhap",
+						},
+						{
+							"Id": "{{ModID}}_sheephead",
+                            "ItemId": "{{ModID}}_sheephead",
+						},
+						{
+							"Id": "{{ModID}}_stoplightparrotfish",
+                            "ItemId": "{{ModID}}_stoplightparrotfish",
+						},
+						{
+							"Id": "{{ModID}}_stripedtoby",
+                            "ItemId": "{{ModID}}_stripedtoby",
+						},
+						{
+							"Id": "{{ModID}}_creolewasse",
+							"ItemId": "{{ModID}}_creolewasse",
+						},
+						{
+							"Id": "{{ModID}}_fairybasslet",
+							"ItemId": "{{ModID}}_fairybasslet",
+						},
+						{
+							"Id": "{{ModID}}_trumpetfish",
+							"ItemId": "{{ModID}}_trumpetfish",
+						},
+					],
+					"Forage": [
+						{
+							"Id": "{{ModId}}_FiddleHeadFern",
+							"ItemId": "(O)259",
+							"Chance": 0.1
+						},
+						{
+							"Id": "{{ModId}}_Sunflower",
+							"ItemId": "(O)421",
+							"Chance": 0.1
+						},
+						{
+							"Id": "{{ModId}}_FairyRose",
+							"ItemId": "(O)595",
+							"Chance": 0.1
+						},
+						{
+							"Id": "{{ModId}}_RedMushroom",
+							"ItemId": "(O)420",
+							"Chance": 0.1
+						},
+						{
+							"Id": "{{ModId}}_PurpleMushroom",
+							"ItemId": "(O)422",
+							"Chance": 0.1
+						},
+						{
+							"Id": "{{ModId}}_Pearl",
+							"ItemId": "(O)797",
+							"Chance": 0.01
+						},
+						
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 30,
+					"MaxDailyForageSpawn": 40,
+					"MaxSpawnedForageAtOnce": 30,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIslandMusic",
+							"Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== FORSAKEN COVE ===========================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_ForsakenCove": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.ForsakenCove}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_ForsakenCove",
+					},
+					"DefaultArrivalTile": { 
+						"X": 36,
+						"Y": 28
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [
+						{
+							"Chance": 0.10,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Id": "{{ModID}}_LostIslandTotem",
+							"ItemId": "{{ModID}}_LostIslandTotem",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.2,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"ContinueOnDrop": true,
+							"Id": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"MinStack": 1,
+							"MaxStack": 1
+						},
+						{
+							"Chance": 0.25,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": false,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Condition": "PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current DROP_QI_BEANS",
+							"Id": "(O)890",
+							"ItemId": "(O)890",
+							"MinStack": 2,
+							"MaxStack": 5,
+							"Quality": -1,
+						},
+					],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_mermaidjelly",
+							"ItemId": "{{ModID}}_mermaidjelly",
+						},
+					],
+					"Forage": [
+						{
+							"Id": "(O)259",
+							"ItemId": "(O)259", //Fiddlehead Fern
+							"Chance": 0.1
+						},	
+						{
+							"Id": "(O)852",
+							"ItemId": "(O)852", //Dragon Tooth
+							"Chance": 0.1
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 5,
+					"MaxDailyForageSpawn": 10,
+					"MaxSpawnedForageAtOnce": 10,
+					"ChanceForClay": 0.01,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIsland2Music",
+							"Track": "moonlightJellies",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+					"CustomFields": {
+						"mushymato.MMAP_WaterColor": "White",
+						"mushymato.MMAP_WaterDraw": "Maps/water_forsaken_cove 4 0 0"
+					}
+				},
+				//==============================================================================================
+				//==== NORTHERN CLIFFS =========================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_NorthernCliffs": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.NorthernCliffs}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_NorthernCliffs",
+					},
+					"DefaultArrivalTile": { 
+						"X": 1,
+						"Y": 52
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [
+						{
+							"Chance": 0.10,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Id": "{{ModID}}_LostIslandTotem",
+							"ItemId": "{{ModID}}_LostIslandTotem",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.2,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"ContinueOnDrop": true,
+							"Id": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"MinStack": 1,
+							"MaxStack": 1
+						},
+						{
+							"Chance": 0.25,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": false,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Condition": "PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current DROP_QI_BEANS",
+							"Id": "(O)890",
+							"ItemId": "(O)890",
+							"MinStack": 2,
+							"MaxStack": 5,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.15,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)770", //Mixed Seeds
+							"ItemId": "(O)770",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.10,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)425", //Fairy Seeds
+							"ItemId": "(O)425",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.05,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)524", //Ring of Yoba
+							"ItemId": "(O)524",
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						},
+					],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_charcoalbetta",
+                            "ItemId": "{{ModID}}_charcoalbetta",
+						},
+						{
+							"Id": "{{ModID}}_fairyflossbetta",
+                            "ItemId": "{{ModID}}_fairyflossbetta",
+						},
+						{
+							"Id": "{{ModID}}_golddustblackmolly",
+                            "ItemId": "{{ModID}}_golddustblackmolly",
+						},
+						{
+							"Id": "{{ModID}}_sunrisebetta",
+                            "ItemId": "{{ModID}}_sunrisebetta",
+						},
+						{
+							"Id": "{{ModID}}_sunsetbetta",
+                            "ItemId": "{{ModID}}_sunsetbetta",
+						},
+					],
+					"Forage": [
+						{
+							"Id": "{{ModId}}_CrystallineBerries",
+							"ItemId": "{{ModId}}_CrystallineBerries",
+							"Chance": 0.1
+						},
+						{
+							"Id": "{{ModId}}_ObsidianPhoenixFeather",
+							"ItemId": "{{ModId}}_ObsidianPhoenixFeather",
+							"Chance": 0.1
+						},
+						{
+							"Id": "{{ModId}}_SolidIchor",
+							"ItemId": "{{ModId}}_SolidIchor",
+							"Chance": 0.1
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 1,
+					"MaxDailyForageSpawn": 5,
+					"MaxSpawnedForageAtOnce": 5,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIsland2Music",
+							"Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== SEADUDE HOME ============================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_SeaDudeHome": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.SeaDudeHome}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_SeaDudeHome",
+					},
+					"DefaultArrivalTile": {
+						"X": 6,
+						"Y": 18
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"ArtifactSpots": [],
+					"FishAreas": {},
+					"Fish": [],
+					"Forage": []
+				},
+				"{{ModId}}_LostIsland_SeaDudeHome_Cave": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.SeaDudeHomeCave}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_SeaDudeHome_Cave",
+					},
+					"DefaultArrivalTile": {
+						"X": 10,
+						"Y": 5
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"ArtifactSpots": [],
+					"FishAreas": {},
+					"Fish": [],
+					"Forage": [],
+					"Music": [
+						{
+                            "Id": "{{ModId}}_LostIslandMusic",
+                            "Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== NORTH EAST QUARRY =======================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_NorthEastQuarry": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.NorthEastQuarry}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_NorthEastQuarry",
+					},
+					"DefaultArrivalTile": { 
+						"X": 7,
+						"Y": 31
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [
+						{
+							"Chance": 0.10,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Id": "{{ModID}}_LostIslandTotem",
+							"ItemId": "{{ModID}}_LostIslandTotem",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.2,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"ContinueOnDrop": true,
+							"Id": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"MinStack": 1,
+							"MaxStack": 1
+						},
+						{
+							"Chance": 0.25,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": false,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Condition": "PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current DROP_QI_BEANS",
+							"Id": "(O)890",
+							"ItemId": "(O)890",
+							"MinStack": 2,
+							"MaxStack": 5,
+							"Quality": -1,
+						},
+					],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_neontetra",
+                            "ItemId": "{{ModID}}_neontetra",
+						},
+						{
+							"Id": "{{ModID}}_queentriggerfish",
+                            "ItemId": "{{ModID}}_queentriggerfish",
+						},
+						{
+							"Id": "{{ModID}}_rasboras",
+							"ItemId": "{{ModID}}_rasboras",
+						},
+						{
+							"Id": "{{ModID}}_rainbowkribs",
+							"ItemId": "{{ModID}}_rainbowkribs",
+						},
+						{
+							"Id": "{{ModID}}_bluegrenadier",
+							"ItemId": "{{ModID}}_bluegrenadier",
+						},
+						{
+							"Id": "{{ModID}}_redgurnard",
+							"ItemId": "{{ModID}}_redgurnard",
+						},
+					],
+					"Forage": [
+						{
+							"Id": "(O)851",
+							"ItemId": "(O)851", //Magma Cap
+							"Chance": 0.25
+						},
+						{
+							"Id": "(O)848",
+							"ItemId": "(O)848", //Cinder Shard
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)852",
+							"ItemId": "(O)852", //Dragon Tooth
+							"Chance": 0.05
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 1,
+					"MaxDailyForageSpawn": 10,
+					"MaxSpawnedForageAtOnce": 6,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIslandMusic",
+							"Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== POINT MELODIA ===========================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_PointMelodia": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.PointMelodia}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_PointMelodia",
+					},
+					"DefaultArrivalTile": { 
+						"X": 1,
+						"Y": 4
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [
+						{
+							"Chance": 0.10,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Id": "{{ModID}}_LostIslandTotem",
+							"ItemId": "{{ModID}}_LostIslandTotem",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.2,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"ContinueOnDrop": true,
+							"Id": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"MinStack": 1,
+							"MaxStack": 1
+						},
+						{
+							"Chance": 0.25,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": false,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Condition": "PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current DROP_QI_BEANS",
+							"Id": "(O)890",
+							"ItemId": "(O)890",
+							"MinStack": 2,
+							"MaxStack": 5,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.15,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)770", //Mixed Seeds
+							"ItemId": "(O)770",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.10,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)425", //Fairy Seeds
+							"ItemId": "(O)425",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.05,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)524", //Ring of Yoba
+							"ItemId": "(O)524",
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						},
+					],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_trumpetfish",
+							"ItemId": "{{ModID}}_trumpetfish",
+						},
+						{
+							"Id": "{{ModID}}_longnosehawkfish",
+							"ItemId": "{{ModID}}_longnosehawkfish",
+						},
+						{
+							"Id": "{{ModID}}_scarletvampiresquid",
+                            "ItemId": "{{ModID}}_scarletvampiresquid",
+						},
+						{
+							"Id": "{{ModID}}_viperfish",
+                            "ItemId": "{{ModID}}_viperfish",
+						},
+						{
+							"Id": "{{ModID}}_moray",
+                            "ItemId": "{{ModID}}_moray",
+						},
+						{
+							"Id": "{{ModID}}_bigfinsquid",
+                            "ItemId": "{{ModID}}_bigfinsquid",
+						},
+					],
+					"Forage": [
+						{
+                            "Id": "(O)397",
+                            "ItemId": "(O)397", //Sea  Urchin
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "(O)397",
+                            "ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
+                            "Chance": 0.25
+						},
+						{
+                            "Id": "(O)397",
+                            "ItemId": "RANDOM_ITEMS (O) 922 924", //Randomized Supply Crates
+                            "Chance": 0.25
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 5,
+					"MaxDailyForageSpawn": 10,
+					"MaxSpawnedForageAtOnce": 6,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIslandMusic",
+							"Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== HIDDEN SPOT =============================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_HiddenSpot": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.HiddenSpot}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_HiddenSpot",
+					},
+					"DefaultArrivalTile": {
+						"X": 13,
+						"Y": 18
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"ArtifactSpots": [],
+					"FishAreas": {},
+					"Fish": [],
+					"Forage": [],
+					"Music": [
+						{
+                            "Id": "{{ModId}}_LostIslandMusic",
+                            "Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+			},
+		},
+		//==============================================================================================
+		//==== FISH ON VANILLA MAPS=====================================================================
+		//==============================================================================================
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Sewer",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModID}}_wornouthat": {
+					"Id": "{{ModID}}_wornouthat",
+					"ItemId": "{{ModID}}_wornouthat",
+					"Precedence": 1000
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"BugLand",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModID}}_wornouthat": {
+					"Id": "{{ModID}}_wornouthat",
+					"ItemId": "{{ModID}}_wornouthat",
+					"Precedence": 1000
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"WitchSwamp",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModID}}_wornouthat": {
+					"Id": "{{ModID}}_wornouthat",
+					"ItemId": "{{ModID}}_wornouthat",
+					"Precedence": 1000
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Beach",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModID}}_wornouthat": {
+					"Id": "{{ModID}}_wornouthat",
+					"ItemId": "{{ModID}}_wornouthat",
+					"Precedence": 1000
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandNorth",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModID}}_wornouthat": {
+					"Id": "{{ModID}}_wornouthat",
+					"ItemId": "{{ModID}}_wornouthat",
+					"Precedence": 1000
+				},
+				"{{ModID}}_bicolorpiranha": {
+					"Id": "{{ModID}}_bicolorpiranha",
+					"ItemId": "{{ModID}}_bicolorpiranha"
+				},
+				"{{ModID}}_redfinhap": {
+					"Id": "{{ModID}}_redfinhap",
+					"ItemId": "{{ModID}}_redfinhap"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandSouth",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModID}}_wornouthat": {
+					"Id": "{{ModID}}_wornouthat",
+					"ItemId": "{{ModID}}_wornouthat",
+					"Precedence": 1000
+				},
+				"{{ModID}}_bigfinsquid": {
+					"Id": "{{ModID}}_bigfinsquid",
+					"ItemId": "{{ModID}}_bigfinsquid"
+				},
+				"{{ModID}}_firemouth": {
+					"Id": "{{ModID}}_firemouth",
+					"ItemId": "{{ModID}}_firemouth"
+				},
+				"{{ModID}}_garfish": {
+					"Id": "{{ModID}}_garfish",
+					"ItemId": "{{ModID}}_garfish"
+				},
+				"{{ModID}}_matjes": {
+					"Id": "{{ModID}}_matjes",
+					"ItemId": "{{ModID}}_matjes"
+				},
+				"{{ModID}}_moray": {
+					"Id": "{{ModID}}_moray",
+					"ItemId": "{{ModID}}_moray"
+				},
+				"{{ModID}}_stripedtoby": {
+					"Id": "{{ModID}}_stripedtoby",
+					"ItemId": "{{ModID}}_stripedtoby"
+				},
+				"{{ModID}}_scarletvampiresquid": {
+					"Id": "{{ModID}}_scarletvampiresquid",
+					"ItemId": "{{ModID}}_scarletvampiresquid"
+				},
+				"{{ModID}}_viperfish": {
+					"Id": "{{ModID}}_viperfish",
+					"ItemId": "{{ModID}}_viperfish"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandSouthEast",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModID}}_wornouthat": {
+					"Id": "{{ModID}}_wornouthat",
+					"ItemId": "{{ModID}}_wornouthat",
+					"Precedence": 1000
+				},
+				"{{ModID}}_charcoalbetta": {
+					"Id": "{{ModID}}_charcoalbetta",
+					"ItemId": "{{ModID}}_charcoalbetta"
+				},
+				"{{ModID}}_fairyflossbetta": {
+					"Id": "{{ModID}}_fairyflossbetta",
+					"ItemId": "{{ModID}}_fairyflossbetta",
+				},
+				"{{ModID}}_golddustblackmolly": {
+					"Id": "{{ModID}}_golddustblackmolly",
+					"ItemId": "{{ModID}}_golddustblackmolly",
+				},
+				"{{ModID}}_neontetra": {
+					"Id": "{{ModID}}_neontetra",
+					"ItemId": "{{ModID}}_neontetra"
+				},
+				"{{ModID}}_sheephead": {
+					"Id": "{{ModID}}_sheephead",
+					"ItemId": "{{ModID}}_sheephead"
+				},
+				"{{ModID}}_sunrisebetta": {
+					"Id": "{{ModID}}_sunrisebetta",
+					"ItemId": "{{ModID}}_sunrisebetta"
+				},
+				"{{ModID}}_sunsetbetta": {
+					"Id": "{{ModID}}_sunsetbetta",
+					"ItemId": "{{ModID}}_sunsetbetta"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandSouthEastCave",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModID}}_wornouthat": {
+					"Id": "{{ModID}}_wornouthat",
+					"ItemId": "{{ModID}}_wornouthat",
+					"Precedence": 1000
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandSouthEastCave",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModID}}_wornouthat": {
+					"Id": "{{ModID}}_wornouthat",
+					"ItemId": "{{ModID}}_wornouthat",
+					"Precedence": 1000
+				},
+				"{{ModID}}_glasseyesnapper": {
+					"Id": "{{ModID}}_glasseyesnapper",
+					"ItemId": "{{ModID}}_glasseyesnapper"
+				},
+				"{{ModID}}_kissingfish": {
+					"Id": "{{ModID}}_kissingfish",
+					"ItemId": "{{ModID}}_kissingfish"
+				},
+				"{{ModID}}_queentriggerfish": {
+					"Id": "{{ModID}}_queentriggerfish",
+					"ItemId": "{{ModID}}_queentriggerfish"
+				},
+				"{{ModID}}_stoplightparrotfish": {
+					"Id": "{{ModID}}_stoplightparrotfish",
+					"ItemId": "{{ModID}}_stoplightparrotfish"
+				}
+			}
+		}
+	]
+}

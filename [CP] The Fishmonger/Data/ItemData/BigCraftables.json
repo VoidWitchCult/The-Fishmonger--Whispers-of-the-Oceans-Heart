@@ -1,0 +1,181 @@
+{
+    "Changes": [
+		//==============================================================================================
+		//==== LOAD BIG CRAFTABLES =====================================================================
+		//==============================================================================================
+        {
+            "LogName": "Load BigCraftables textures",
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/BigCraftables",
+            "FromFile": "Assets/Items/vww_fishmonger_bigcraftables.png"
+		},
+		//==============================================================================================
+		//==== ADD BIG CRAFTABLE TO DATA ===============================================================
+		//==============================================================================================
+        {
+            "LogName": "Add BigCraftables",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModID}}_FishmongerScarecrow": {
+                    "Name": "{{ModID}}_FishmongerScarecrow",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fishmongerscarecrow.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.fishmongerscarecrow.Description}}",
+                    "Price": 50,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+				    "CanBePlacedIndoors": true,
+                    "IsLamp": true,
+                    "Texture": "Mods\\{{ModID}}\\BigCraftables",
+                    "SpriteIndex": 0,
+					"ContextTags": [
+                        "color_red",
+						"color_blue",
+						"light_source"
+					]
+				},
+				"{{ModID}}_CoolerFishmongerScarecrow": {
+                    "Name": "{{ModID}}_CoolerFishmongerScarecrow",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.coolerfishmongerscarecrow.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.coolerfishmongerscarecrow.Description}}",
+                    "Price": 50,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+				    "CanBePlacedIndoors": true,
+                    "IsLamp": true,
+                    "Texture": "Mods\\{{ModID}}\\BigCraftables",
+                    "SpriteIndex": 1,
+					"ContextTags": [
+                        "color_red",
+						"color_blue",
+						"light_source"
+					]
+				},
+				"{{ModID}}_TubOTropicalFlowers": {
+                    "Name": "{{ModID}}_TubOTropicalFlowers",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TubOTropicalFlowers.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TubOTropicalFlowers.Description}}",
+                    "Price": 500,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+				    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModID}}\\BigCraftables",
+                    "SpriteIndex": 2,
+					"ContextTags": [
+                        "color_purple"
+					]
+				},
+				"{{ModID}}_FlowerCrate": {
+                    "Name": "{{ModID}}_FlowerCrate",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FlowerCrate.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FlowerCrate.Description}}",
+                    "Price": 250,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+				    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModID}}\\BigCraftables",
+                    "SpriteIndex": 3,
+					"ContextTags": [
+                        "color_purple"
+					]
+				},
+				"{{ModID}}_IridescentCakeStand": {
+                    "Name": "{{ModID}}_IridescentCakeStand",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.IridescentCakeStand.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.IridescentCakeStand.Description}}",
+                    "Price": 500,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+				    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModID}}\\BigCraftables",
+                    "SpriteIndex": 4,
+					"ContextTags": [
+                        "color_pink",
+						"color_blue",
+						"color_purple"
+					]
+				},
+				"{{ModID}}_CrateOfPetrichor": {
+                    "Name": "{{ModID}}_CrateOfPetrichor",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CrateOfPetrichor.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CrateOfPetrichor.Description}}",
+                    "Price": 100,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+				    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModID}}\\BigCraftables",
+                    "SpriteIndex": 5,
+					"ContextTags": [
+                        "color_purple",
+						"color_blue"
+					]
+				},
+				"{{ModID}}_FloralArrangement": {
+                    "Name": "{{ModID}}_FloralArrangement",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FloralArrangement.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.FloralArrangement.Description}}",
+                    "Price": 100,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+				    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModID}}\\BigCraftables",
+                    "SpriteIndex": 6,
+					"ContextTags": [
+                        "color_green"
+					]
+				},
+				"{{ModID}}_TropicalTikkiTorch": {
+                    "Name": "{{ModID}}_TropicalTikkiTorch",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TropicalTikkiTorch.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TropicalTikkiTorch.Description}}",
+                    "Price": 50,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+				    "CanBePlacedIndoors": true,
+                    "IsLamp": true,
+                    "Texture": "Mods\\{{ModID}}\\BigCraftables",
+                    "SpriteIndex": 7,
+					"ContextTags": [
+                        "color_red",
+						"light_source"
+					]
+				},
+				"{{ModID}}_TropicalBearPlanter": {
+                    "Name": "{{ModID}}_W",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TropicalBearPlanter.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TropicalBearPlanter.Description}}",
+                    "Price": 500,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+				    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModID}}\\BigCraftables",
+                    "SpriteIndex": 8,
+					"ContextTags": [
+                        "color_brown"
+					]
+				},
+				"{{ModID}}_HandcraftedFishCrate": {
+                    "Name": "{{ModID}}_HandcraftedFishCrate",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.HandcraftedFishCrate.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.HandcraftedFishCrate.Description}}",
+                    "Price": 250,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+				    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModID}}\\BigCraftables",
+                    "SpriteIndex": 9,
+					"ContextTags": [
+                        "color_purple",
+					]
+				},
+			}
+		}, 
+	]
+}

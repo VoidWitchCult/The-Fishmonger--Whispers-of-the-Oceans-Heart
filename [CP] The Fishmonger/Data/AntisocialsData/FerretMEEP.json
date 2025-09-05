@@ -1,0 +1,51 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Changes": [
+    // Sprite
+    {
+      "Action": "Load",
+      "Target": "{{ModId}}_Ferret_{{L@Name}}_spritesheet",
+      "FromFile": "assets/Antisocials/Ferret/{{L@Name}}_spritesheet.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "{{ModId}}_Ferret_{{L@Name}}_portrait",
+      "FromFile": "assets/Antisocials/Ferret/{{L@Name}}_portrait.png"
+    },
+    // Base Data
+    {
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "Entries": {
+        "{{ModId}}_Ferret_{{L@Name}}": {
+          "DisplayName": "{{i18n:Ferret.{{L@Name}}.DisplayName}}",
+          "House": "Barn",
+          "PurchasePrice": -1,
+          "Texture": "{{ModId}}_Ferret_{{L@Name}}_spritesheet",
+          "BabyTexture": "{{ModId}}_Ferret_{{L@Name}}_spritesheet",
+          "SpriteWidth": 32,
+          "SpriteHeight": 32,
+        }
+      }
+    },
+    // MEEP Data
+    {
+      "Action": "EditData",
+      "Target": "MEEP/FarmAnimals/SpawnData",
+      "Entries": {
+        "{{ModId}}_Ferret_{{L@Name}}": {
+          "AnimalId": "{{ModId}}_Ferret_{{L@Name}}",
+          "LocationId": "{{L@HomeLoc}}",
+          "DisplayName": "{{i18n:Ferret.{{L@Name}}.DisplayName}}",
+          //"PortraitTexture": "{{ModId}}_Ferret_{{L@Name}}_portrait",
+          "PetMessage": [
+            "{{i18n:Ferret.Sound.Squeak1}}"
+          ],
+          "HomeTileX": "{{L@HomeX}}",
+          "HomeTileY": "{{L@HomeY}}",
+          "Condition": "TRUE"
+        },
+      }
+    }
+  ]
+}

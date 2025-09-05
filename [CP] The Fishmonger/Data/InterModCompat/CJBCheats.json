@@ -1,0 +1,139 @@
+{
+    "Changes": [
+		
+		{
+			"Action": "EditData",
+			"Target": "Mods/CJBok.CheatsMenu/WarpSections",
+			"When":{ "HasMod":"CJBok.CheatsMenu" },
+			"Entries": {
+				"{{ModId}}_FishmongerBoatWarp": {
+					"Id": "{{ModId}}_FishmongerBoatWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.FishmongerBoat}}"
+				},
+				"{{ModId}}_LostIslandWarp": {
+					"Id": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.LostIsland}}"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/CJBok.CheatsMenu/Warps",
+			"When":{ "HasMod":"CJBok.CheatsMenu" },
+			"Entries": {
+				"{{ModId}}_FishmongerBoat_Warp": {
+					"Id": "{{ModId}}_FishmongerBoat_Warp",
+					"SectionId": "{{ModId}}_FishmongerBoatWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.FishmongerBoat}}",
+					"Location": "{{ModId}}_Fishmonger_GI_Inside",
+					"Tile": "4, 10"
+				},
+				"{{ModId}}_FishmongerBoatLowerDeck_Warp": {
+					"Id": "{{ModId}}_FishmongerBoatLowerDeck_Warp",
+					"SectionId": "{{ModId}}_FishmongerBoatWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.FishmongerBoat.LowerDeck}}",
+					"Location": "{{ModId}}_Fishmonger_GI_Inside_LowerDeck",
+					"Tile": "7, 4"
+				},
+				"{{ModId}}_LostIsland_Warp": {
+					"Id": "{{ModId}}_LostIsland_Warp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.LostIsland}}",
+					"Location": "{{ModId}}_LostIsland",
+					"Tile": "30, 16"
+				},
+				"{{ModId}}_LostIsland_MermaidWarp": {
+					"Id": "{{ModId}}_LostIsland_MermaidWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.MermaidHome}}",
+					"Location": "{{ModId}}_LostIsland_MermaidHome",
+					"Tile": "2,21"
+				},
+				"{{ModId}}_LostIsland_CoolGalWarp": {
+					"Id": "{{ModId}}_LostIsland_CoolGalWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.CoolGalHome}}",
+					"Location": "{{ModId}}_LostIsland_CoolGalHome",
+					"Tile": "21,8"
+				},
+				"{{ModId}}_LostIsland_PirateLadWarp": {
+					"Id": "{{ModId}}_LostIsland_PirateLadWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.PirateLadHome}}",
+					"Location": "{{ModId}}_LostIsland_PirateLadHome",
+					"Tile": "3,13"
+				}, /* ABA: This one looks the same as the one above it. Edit or remove it.
+				"{{ModId}}_LostIsland_PirateLadWarp": {
+					"Id": "{{ModId}}_LostIsland_PirateLadWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.PirateLadHome}}",
+					"Location": "{{ModId}}_LostIsland_PirateLadHome",
+					"Tile": "3,13"
+				}, */
+				"{{ModId}}_LostIsland_OrchardWarp": {
+					"Id": "{{ModId}}_LostIsland_OrchardWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.Orchard}}",
+					"Location": "{{ModId}}_LostIsland_Orchard",
+					"Tile": "32,52"
+				},
+				"{{ModId}}_LostIsland_SeaDudeWarp": {
+					"Id": "{{ModId}}_LostIsland_SeaDudeWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.SeaDudeHome}}",
+					"Location": "{{ModId}}_LostIsland_SeaDudeHome",
+					"Tile": "6,18"
+				},
+				"{{ModId}}_LostIsland_EnchantedForest": {
+					"Id": "{{ModId}}_LostIsland_EnchantedForestWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.EnchantedForest}}",
+					"Location": "{{ModId}}_LostIsland_EnchantedForest",
+					"Tile": "1,9"
+				},
+				"{{ModId}}_LostIsland_ForsakenCoveWarp": {
+					"Id": "{{ModId}}_LostIsland_ForsakenCoveWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.ForsakenCove}}",
+					"Location": "{{ModId}}_LostIsland_ForsakenCove",
+					"Tile": "36,28"
+				},
+				"{{ModId}}_LostIsland_NorthernCliffsWarp": {
+					"Id": "{{ModId}}_LostIsland_NorthernCliffsWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.NorthernCliffs}}",
+					"Location": "{{ModId}}_LostIsland_NorthernCliffs",
+					"Tile": "1,52"
+				},
+				"{{ModId}}_LostIsland_LibraryWarp": {
+					"Id": "{{ModId}}_LostIsland_LibraryWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.Library}}",
+					"Location": "{{ModId}}_LostIsland_Library",
+					"Tile": "32,38"
+				},
+				"{{ModId}}_LostIsland_NorthEastQuarryWarp": {
+					"Id": "{{ModId}}_LostIsland_NorthEastQuarryWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.NorthEastQuarry}}",
+					"Location": "{{ModId}}_LostIsland_NorthEastQuarry",
+					"Tile": "7,31"
+				},
+				"{{ModId}}_LostIsland_PointMelodiaWarp": {
+					"Id": "{{ModId}}_LostIsland_PointMelodiaWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.PointMelodia}}",
+					"Location": "{{ModId}}_LostIsland_PointMelodia",
+					"Tile": "1,4"
+				},
+				"{{ModId}}_LostIsland_HiddenSpotWarp": {
+					"Id": "{{ModId}}_LostIsland_HiddenSpotWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.HiddenSpot}}",
+					"Location": "{{ModId}}_LostIsland_HiddenSpot",
+					"Tile": "13,18"
+				},
+			}
+		}
+	]
+}

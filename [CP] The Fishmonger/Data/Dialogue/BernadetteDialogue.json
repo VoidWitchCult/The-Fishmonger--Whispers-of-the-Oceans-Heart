@@ -1,0 +1,132 @@
+{
+    "Changes": 
+	[
+		{
+            "LogName": "Bernadette Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_CoolGalBernadette",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayNeutralB}}",
+				"MovieInvite_Invited_CoolGalBernadette": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.MovieInvite_Invited_CoolGalBernadette}}",
+				"DumpsterDiveComment": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.HitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.RejectBouquetNotDatable}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.RejectMermaidPendantNotDatable}}",
+				"RejectMovieTicket": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_OceanFlaxCloth": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.OceanFlaxCloth}}",
+				"AcceptGift_(O){{ModID}}_PowderPinkPearl": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.PowderPinkPearl}}",
+				"AcceptGift_(O){{ModID}}_PinkMermaidScale": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.PinkMermaidScale}}",
+				"AcceptGift_(O){{ModID}}_PastelCottonCandy": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.PastelCottonCandy}}",
+				"AcceptGift_(O){{ModID}}_RoseCandy": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.RoseCandy}}",
+				
+				// 1ST OF SEASON DIALOGUE
+				"spring_1": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.spring_1}}",
+				"summer_1": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.summer_1}}",
+				"fall_1": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.fall_1}}",
+				"winter_1": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.winter_1}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Mon}}",
+				"Tue": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Tue}}",
+				"Wed": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Wed}}",
+				"Thu": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Thu}}",
+				"Fri": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Fri}}",
+				"Sat": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sat}}",
+				"Sun": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sun}}",
+				
+				// 2 HEARTS DIALOGUE
+				
+				"Mon2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Mon2}}",
+				"Tue2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Tue2}}",
+				"Wed2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Wed2}}",
+				"Thu2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Thu2}}",
+				"Fri2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Fri2}}",
+				"Sat2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sat2}}",
+				"Sun2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sun2}}",
+				
+				// 4 HEARTS DIALOGUE
+				
+				"Mon4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Mon4}}",
+				"Tue4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Tue4}}",
+				"Wed4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Wed4}}",
+				"Thu4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Thu4}}",
+				"Fri4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Fri4}}",
+				"Sat4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sat4}}",
+				"Sun4": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sun4}}",
+				
+				// 6 HEARTS DIALOGUE
+				
+				"Mon6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Mon6}}",
+				"Tue6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Tue6}}",
+				"Wed6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Wed6}}",
+				"Thu6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Thu6}}",
+				"Fri6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Fri6}}",
+				"Sat6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sat6}}",
+				"Sun6": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sun6}}",
+				
+				// 8 HEARTS DIALOGUE
+				
+				"Mon8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Mon8}}",
+				"Tue8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Tue8}}",
+				"Wed8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Wed8}}",
+				"Thu8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Thu8}}",
+				"Fri8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Fri8}}",
+				"Sat8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sat8}}",
+				"Sun8": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sun8}}",
+				
+				// 10 HEARTS DIALOGUE
+				
+				"Mon10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Mon10}}",
+				"Tue10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Tue10}}",
+				"Wed10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Wed10}}",
+				"Thu10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Thu10}}",
+				"Fri10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Fri10}}",
+				"Sat10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sat10}}",
+				"Sun10": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sun10}}",
+				
+				// SPECIFIC DAY DIALOGUE
+				//Note : Will work only on first year due to the way the game checks for the dayOfMonth line. Use format season_dayOfMonth_2 for dialogue in year 2 and later. Ex "summer_10_2". You can only check for 1 (first year) or 2 (all years after). If you want a dialogue to appears on a specific year, consider using CP conditions in addition of the "_2" suffix
+				"spring_12_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.spring_12_2}}", // Day before the Egg Festival
+				"spring_23_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.spring_23_2}}", // Day before the Flower Dance
+				"summer_10_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.summer_10_2}}", // Day before the Luau
+				"summer_27_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.summer_27_2}}", // Day before the Midnight Jellies
+				"fall_15_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.fall_15_2}}", // Day before the Stardew Fair
+				"fall_26_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.fall_26_2}}", // Day before Spirit's Eve
+				"winter_7_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.winter_7_2}}", // Day before the Ice Festival
+				"winter_24_2": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.winter_24_2}}", // Day before Winter Star
+				
+				//resort Dialogue
+				"Resort_Entering": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.fall_Sat2}}",
+				"Resort_Leaving": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.spring_Fri6}}",
+				"Resort_Shore": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.spring_Mon8}}",
+				"Resort_Chair": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.winter_Mon}}",
+				"Resort_Bar": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.summer_Thu10}}",
+				"Resort": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.spring_Sat}}",
+				
+				// Schedule dialogue
+				"{{ModID}}_bernadette.lostisland.000": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_bernadette.lostisland.001": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_bernadette.lostisland.002": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Schedule.Dialogue.lostisland.002}}",
+				"{{ModID}}_bernadette.lostisland.003": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Schedule.Dialogue.lostisland.003}}",
+				"{{ModID}}_bernadette.lostisland.004": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Schedule.Dialogue.lostisland.004}}",
+				"{{ModID}}_bernadette.lostisland.005": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Schedule.Dialogue.lostisland.005}}",
+				"{{ModID}}_bernadette.lostisland.006": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Schedule.Dialogue.lostisland.006}}",
+			}
+		}
+	]
+}

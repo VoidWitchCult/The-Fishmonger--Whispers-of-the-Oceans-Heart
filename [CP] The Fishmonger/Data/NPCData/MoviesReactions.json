@@ -1,0 +1,1015 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                //==============================================================================================
+				//==== CONSTANCE ===============================================================================
+				//==============================================================================================
+				"{{ModID}}_TheFishmonger": {
+                    "NPCName": "{{ModID}}_TheFishmonger", // ABA: This should be internal name not display name like you had
+                    "Reactions": [
+                        {
+                            //Brave Little Sapling (ANIMATED) (FAMILY) (COMEDY)
+							"Tag": "spring_movie_0",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Spring0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Spring0.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Spring0.After}}"
+								}
+							},
+                            "ID": "reaction_0"
+							
+						},
+                        {
+                            //Natural Wonders: Exploring Our Vibrant World (TOUR) (EDUCATIONAL)
+							"Tag": "spring_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Spring1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Spring1.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Spring1.After}}"
+								}
+							},
+                            "ID": "reaction_1"
+						},
+                        {
+                            //Journey of the Praire King (VIDEOGAME)
+							"Tag": "summer_movie_0",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Summer0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Summer0.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Summer0.After}}"
+								} 
+							},
+                            "ID": "reaction_2"
+						},
+                        {
+                            //Wumbus (SCI-FI) (COMEDY)
+							"Tag": "summer_movie_1",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Summer1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Summer1.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Summer1.After}}" 
+								}
+								
+							},
+                            "ID": "reaction_3"
+						},
+                        {
+                            //Mysterium (MINDFUCK) (MYSTERY)
+							"Tag": "fall_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Fall0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Fall0.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Fall0.After}}"
+								}
+							},
+                            "ID": "reaction_4"
+						},
+                        {
+                            //Howls in the Rain (HORROR)
+							"Tag": "fall_movie_1",
+                            "Response": "like", 
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Fall1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "", 
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Fall1.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Fall1.After}}"
+								}
+							},
+                            "ID": "reaction_5"
+						},
+                        {
+                            //Miracle at Coldstar Ranch (WHOLESOME) (TEAR JERKER) (FAMILY)
+							"Tag": "winter_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Winter0.Before}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Winter0.During}}"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Winter0.After}}"
+								}
+							},
+							"ID": "reaction_6"
+						},
+						{
+							//Zuzu City Express (CLASSIC) (ROMANCE)
+							"Tag": "winter_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Winter1.Before}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Winter1.During}}",
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Winter1.After}}"
+								}
+							}
+						}
+					]
+				},
+				//==============================================================================================
+				//==== CALLIOPE ================================================================================
+				//==============================================================================================
+				"{{ModID}}_MermaidCalliope": {
+                    "NPCName": "{{ModID}}_MermaidCalliope",
+                    "Reactions": [
+                        {
+                            //Brave Little Sapling (ANIMATED) (FAMILY) (COMEDY)
+							"Tag": "spring_movie_0",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Spring0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Spring0.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Spring0.After}}"
+								}
+							},
+                            "ID": "reaction_0"
+							
+						},
+                        {
+                            //Natural Wonders: Exploring Our Vibrant World (TOUR) (EDUCATIONAL)
+							"Tag": "spring_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Spring1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Spring1.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Spring1.After}}"
+								}
+							},
+                            "ID": "reaction_1"
+						},
+                        {
+                            //Journey of the Praire King (VIDEOGAME)
+							"Tag": "summer_movie_0",
+                            "Response": "neutral",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Summer0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Summer0.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Summer0.After}}"
+								} 
+							},
+                            "ID": "reaction_2"
+						},
+                        {
+                            //Wumbus (SCI-FI) (COMEDY)
+							"Tag": "summer_movie_1",
+                            "Response": "neutral",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Summer1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Summer1.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Summer1.After}}" 
+								}
+								
+							},
+                            "ID": "reaction_3"
+						},
+                        {
+                            //Mysterium (MINDFUCK) (MYSTERY)
+							"Tag": "fall_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Fall0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Fall0.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Fall0.After}}"
+								}
+							},
+                            "ID": "reaction_4"
+						},
+                        {
+                            //Howls in the Rain (HORROR)
+							"Tag": "fall_movie_1",
+                            "Response": "like", 
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Fall1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "", 
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Fall1.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Fall1.After}}"
+								}
+							},
+                            "ID": "reaction_5"
+						},
+                        {
+                            //Miracle at Coldstar Ranch (WHOLESOME) (TEAR JERKER) (FAMILY)
+							"Tag": "winter_movie_0",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Winter0.Before}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Winter0.During}}"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Winter0.After}}"
+								}
+							},
+							"ID": "reaction_6"
+						},
+						{
+							//Zuzu City Express (CLASSIC) (ROMANCE)
+							"Tag": "winter_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Winter1.Before}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Winter1.During}}",
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Winter1.After}}"
+								}
+							}
+						}
+					]
+				},
+				//==============================================================================================
+				//==== BERNADETTE ==============================================================================
+				//==============================================================================================
+				"{{ModID}}_CoolGalBernadette": {
+                    "NPCName": "{{ModID}}_CoolGalBernadette",
+                    "Reactions": [
+                        {
+                            //Brave Little Sapling (ANIMATED) (FAMILY) (COMEDY)
+							"Tag": "spring_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Spring0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Spring0.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Spring0.After}}"
+								}
+							},
+                            "ID": "reaction_0"
+							
+						},
+                        {
+                            //Natural Wonders: Exploring Our Vibrant World (TOUR) (EDUCATIONAL)
+							"Tag": "spring_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Spring1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Spring1.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Spring1.After}}"
+								}
+							},
+                            "ID": "reaction_1"
+						},
+                        {
+                            //Journey of the Praire King (VIDEOGAME)
+							"Tag": "summer_movie_0",
+                            "Response": "neutral",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Summer0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Summer0.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Summer0.After}}"
+								} 
+							},
+                            "ID": "reaction_2"
+						},
+                        {
+                            //Wumbus (SCI-FI) (COMEDY)
+							"Tag": "summer_movie_1",
+                            "Response": "neutral",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Summer1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Summer1.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Summer1.After}}" 
+								}
+								
+							},
+                            "ID": "reaction_3"
+						},
+                        {
+                            //Mysterium (MINDFUCK) (MYSTERY)
+							"Tag": "fall_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Fall0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Fall0.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Fall0.After}}"
+								}
+							},
+                            "ID": "reaction_4"
+						},
+                        {
+                            //Howls in the Rain (HORROR)
+							"Tag": "fall_movie_1",
+                            "Response": "love", 
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Fall1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "", 
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Fall1.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Fall1.After}}"
+								}
+							},
+                            "ID": "reaction_5"
+						},
+                        {
+                            //Miracle at Coldstar Ranch (WHOLESOME) (TEAR JERKER) (FAMILY)
+							"Tag": "winter_movie_0",
+                            "Response": "neutral",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Winter0.Before}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Winter0.During}}"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Winter0.After}}"
+								}
+							},
+							"ID": "reaction_6"
+						},
+						{
+							//Zuzu City Express (CLASSIC) (ROMANCE)
+							"Tag": "winter_movie_1",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Winter1.Before}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Winter1.During}}",
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Winter1.After}}"
+								}
+							}
+						}
+					]
+				},
+				//==============================================================================================
+				//==== CATRíONA ================================================================================
+				//==============================================================================================
+				"{{ModID}}_PirateLadCaitrionaOFlannagain": {
+                    "NPCName": "{{ModID}}_PirateLadCaitrionaOFlannagain",
+                    "Reactions": [
+                        {
+                            //Brave Little Sapling (ANIMATED) (FAMILY) (COMEDY)
+							"Tag": "spring_movie_0",
+                            "Response": "neutral",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Spring0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Spring0.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Spring0.After}}"
+								}
+							},
+                            "ID": "reaction_0"
+							
+						},
+                        {
+                            //Natural Wonders: Exploring Our Vibrant World (TOUR) (EDUCATIONAL)
+							"Tag": "spring_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Spring1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Spring1.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Spring1.After}}"
+								}
+							},
+                            "ID": "reaction_1"
+						},
+                        {
+                            //Journey of the Praire King (VIDEOGAME)
+							"Tag": "summer_movie_0",
+                            "Response": "neutral",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Summer0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Summer0.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Summer0.After}}"
+								} 
+							},
+                            "ID": "reaction_2"
+						},
+                        {
+                            //Wumbus (SCI-FI) (COMEDY)
+							"Tag": "summer_movie_1",
+                            "Response": "neutral",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Summer1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Summer1.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Summer1.After}}" 
+								}
+								
+							},
+                            "ID": "reaction_3"
+						},
+                        {
+                            //Mysterium (MINDFUCK) (MYSTERY)
+							"Tag": "fall_movie_0",
+                            "Response": "neutral",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Fall0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Fall0.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Fall0.After}}"
+								}
+							},
+                            "ID": "reaction_4"
+						},
+                        {
+                            //Howls in the Rain (HORROR)
+							"Tag": "fall_movie_1",
+                            "Response": "dislike", 
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Fall1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "", 
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Fall1.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Fall1.After}}"
+								}
+							},
+                            "ID": "reaction_5"
+						},
+                        {
+                            //Miracle at Coldstar Ranch (WHOLESOME) (TEAR JERKER) (FAMILY)
+							"Tag": "winter_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Winter0.Before}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Winter0.During}}"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Winter0.After}}"
+								}
+							},
+							"ID": "reaction_6"
+						},
+						{
+							//Zuzu City Express (CLASSIC) (ROMANCE)
+							"Tag": "winter_movie_1",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Winter1.Before}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Winter1.During}}",
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Winter1.After}}"
+								}
+							}
+						}
+					]
+				},
+				//==============================================================================================
+				//==== BARNABAS ================================================================================
+				//==============================================================================================
+				"{{ModID}}_SeaDudeBarnabas": {
+                    "NPCName": "{{ModID}}_SeaDudeBarnabas",
+                    "Reactions": [
+                        {
+                            //Brave Little Sapling (ANIMATED) (FAMILY) (COMEDY)
+							"Tag": "spring_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Spring0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Spring0.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Spring0.After}}"
+								}
+							},
+                            "ID": "reaction_0"
+							
+						},
+                        {
+                            //Natural Wonders: Exploring Our Vibrant World (TOUR) (EDUCATIONAL)
+							"Tag": "spring_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Spring1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Spring1.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Spring1.After}}"
+								}
+							},
+                            "ID": "reaction_1"
+						},
+                        {
+                            //Journey of the Praire King (VIDEOGAME)
+							"Tag": "summer_movie_0",
+                            "Response": "neutral",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Summer0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Summer0.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Summer0.After}}"
+								} 
+							},
+                            "ID": "reaction_2"
+						},
+                        {
+                            //Wumbus (SCI-FI) (COMEDY)
+							"Tag": "summer_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Summer1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Summer1.During}}"
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Summer1.After}}" 
+								}
+								
+							},
+                            "ID": "reaction_3"
+						},
+                        {
+                            //Mysterium (MINDFUCK) (MYSTERY)
+							"Tag": "fall_movie_0",
+                            "Response": "neutral",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Fall0.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Fall0.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Fall0.After}}"
+								}
+							},
+                            "ID": "reaction_4"
+						},
+                        {
+                            //Howls in the Rain (HORROR)
+							"Tag": "fall_movie_1",
+                            "Response": "like", 
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Fall1.Before}}"
+								},
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "", 
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Fall1.During}}",
+								},
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Fall1.After}}"
+								}
+							},
+                            "ID": "reaction_5"
+						},
+                        {
+                            //Miracle at Coldstar Ranch (WHOLESOME) (TEAR JERKER) (FAMILY)
+							"Tag": "winter_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Winter0.Before}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Winter0.During}}"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Winter0.After}}"
+								}
+							},
+							"ID": "reaction_6"
+						},
+						{
+							//Zuzu City Express (CLASSIC) (ROMANCE)
+							"Tag": "winter_movie_1",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Winter1.Before}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Winter1.During}}",
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Winter1.After}}"
+								}
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}

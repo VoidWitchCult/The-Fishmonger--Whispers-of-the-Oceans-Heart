@@ -1,0 +1,454 @@
+{
+	"Changes": 
+    [
+		//==============================================================================================
+		//==== EGG FESTIVAL ============================================================================
+		//==============================================================================================
+		{	
+			"LogName": "Egg Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"HasSeenEvent": "{{ModID}}_Constance6Hearts"
+			},
+			"TextOperations":
+   			[
+   				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "{{ModID}}_TheFishmonger 43 72 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "{{ModID}}_TheFishmonger 43 72 down",
+					"Delimiter": "/"
+				},				
+   				//MainEvent - during the actual hunt
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters"],
+   				    "Value": "{{ModID}}_TheFishmonger 37 68 left",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+   				    "Value": "{{ModID}}_TheFishmonger 37 68 left",
+   				    "Delimiter": "/"
+				},
+			],
+		},
+		{
+			"LogName": "Egg Festival - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": 
+			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.Eggfestival.Constance}}",
+			},
+			
+		},
+		//==============================================================================================
+		//==== FLOWER DANCE ============================================================================
+		//==============================================================================================
+		{	
+			"LogName": "Flower Dance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"HasSeenEvent": "{{ModID}}_Constance6Hearts"
+			},
+			"TextOperations":
+   			[
+   				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "{{ModID}}_TheFishmonger 5 41 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "{{ModID}}_TheFishmonger 10 22 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate {{ModID}}_TheFishmonger false true 180 16 16 16 16 16 16 16 16 16 16 17 18 17 18 17",
+				},
+				//The actual dance - note this is pretty crowded, so you may want to just remove this, especially if they weren't near the dance to begin with/don't want to watch.
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters"],
+   				    "Value": "{{ModID}}_TheFishmonger 12 21 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+   				    "Value": "{{ModID}}_TheFishmonger 14 33 down",
+   				    "Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Flower Dance - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.FlowerDance.Constance}}",
+			},
+		},
+		//==============================================================================================
+		//==== LUAU ====================================================================================
+		//==============================================================================================
+		{	
+			"LogName": "Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"HasSeenEvent": "{{ModID}}_Constance6Hearts"
+			},
+			"TextOperations":
+   			[
+   				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "{{ModID}}_TheFishmonger 38 13 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "{{ModID}}_TheFishmonger 27 12 down",
+   				    "Delimiter": "/"
+				},
+				//MainEvent - during the actual tasting. Again, it's pretty crowded, so you may want to delete this part.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "{{ModID}}_TheFishmonger 38 10 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+					"Value": "{{ModID}}_TheFishmonger 28 9 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Luau - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": 
+			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.Luau.Constance}}",
+			},
+		},
+		//==============================================================================================
+		//==== PELICAN POTLUCK DIALOGUE ================================================================
+		//==============================================================================================
+		{	
+			"LogName": "Luau - dialogue - Potluck compat",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"When": { "HasMod: |contains=LenneDalben.PelicanTownPotluck": true},
+			"Entries": 
+			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.Luau.Constance}}",
+			},
+		},
+		//==============================================================================================
+		//==== MOONLIGHT JELLIES =======================================================================
+		//==============================================================================================
+		{	
+			"LogName": "Dance of the Moonlight Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"HasSeenEvent": "{{ModID}}_Constance6Hearts"
+			},
+			"TextOperations":
+			[
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "{{ModID}}_TheFishmonger 40 36 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "{{ModID}}_TheFishmonger 41 36 down",
+					"Delimiter": "/"
+				},
+				//MainEvent - during the boat launch. Most characters don't move, but not all of them will be visible.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "{{ModID}}_TheFishmonger 44 36 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+					"Value": "{{ModID}}_TheFishmonger 44 36 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Dance of the Moonlight Jellies - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": 
+			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.MoonlightJellies.Constance}}",
+			},
+		},
+		//==============================================================================================
+		//==== FAIR ====================================================================================
+		//==============================================================================================
+		{	
+			"LogName": "Stardew Valley Fair",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent": "{{ModID}}_Constance6Hearts"},
+			"Target": "Data/Festivals/fall16",
+			"TextOperations":
+			[
+				//SetUp (non-SVE) - I don't believe there is a "main event" one for this"
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "{{ModID}}_TheFishmonger 33 89 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "{{ModID}}_TheFishmonger 33 89 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		//SetUp (SVE) - SVE changes the fair a lot, so you may want different positions.
+		{	
+			"LogName": "Stardew Valley Fair - SVE compat",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent": "{{ModID}}_Constance6Hearts"},
+			"Target": "Data/Festivals/fall16",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "{{ModID}}_TheFishmonger 33 89 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "{{ModID}}_TheFishmonger 33 89 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Stardew Valley Fair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": 
+			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.Fair.Constance}}",
+			},
+		},
+		//==============================================================================================
+		//==== SPIRITS EVE =============================================================================
+		//==============================================================================================
+		{	
+			"LogName": "Spirit's Eve",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent": "{{ModID}}_Constance6Hearts"},
+			"Target": "Data/Festivals/fall27",
+			"TextOperations":
+			[
+				//SetUp - again, no main
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "{{ModID}}_TheFishmonger 12 52 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "{{ModID}}_TheFishmonger 12 53 down",
+					"Delimiter": "/"
+				},
+			],
+		},	
+		// SVE Compat Y1 & Y2
+		{	
+			"LogName": "Spirit's Eve - SVE compat",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent": "{{ModID}}_Constance6Hearts"},
+			"Target": "Data/Festivals/fall27",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "{{ModID}}_TheFishmonger 12 53 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "{{ModID}}_TheFishmonger 33 57 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Spirit's Eve - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.SpiritsEve.Constance}}",
+			},
+		},
+		//==============================================================================================
+		//==== Festival of Ice =========================================================================
+		//==============================================================================================
+		{	
+			"LogName": "Festival of Ice",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent": "{{ModID}}_Constance6Hearts"},
+			"TextOperations":
+			[
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "{{ModID}}_TheFishmonger 52 30 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "{{ModID}}_TheFishmonger 52 30 down",
+					"Delimiter": "/"
+				},
+				//MainEvent - during the actual contest
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Main-Event_additionalCharacters"],
+					"Value": "{{ModID}}_TheFishmonger 52 30 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Main-Event_additionalCharacters_y2"],
+					"Value": "{{ModID}}_TheFishmonger 52 30 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Festival of Ice - SVE compat",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent": "{{ModID}}_Constance6Hearts"},
+			"TextOperations":
+			[
+				//SetUp - SVE completely redoes this map too, so depending on where you are you may need compat for this.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "{{ModID}}_TheFishmonger 77 38 left",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "{{ModID}}_TheFishmonger 77 38 left",
+					"Delimiter": "/"
+				},
+				//MainEvent - during the actual contest
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Main-Event_additionalCharacters"],
+					"Value": "{{ModID}}_TheFishmonger 77 38 left",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Main-Event_additionalCharacters_y2"],
+					"Value": "{{ModID}}_TheFishmonger 77 38 left",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Festival of Ice - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": 
+			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.IceFishing.Constance}}", 
+			},
+		},
+		//==============================================================================================
+		//==== FEAST OF THE WINTER STAR ================================================================
+		//==============================================================================================
+		{	
+			"LogName": "Feast of the Winter Star",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"HasSeenEvent": "{{ModID}}_Constance6Hearts"
+			},
+			"TextOperations":
+			[
+				//SetUp - I think there is a MainEvent, but only during the actual gift-giving cutscene.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "{{ModID}}_TheFishmonger 34 57 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "{{ModID}}_TheFishmonger 34 57 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Feast of the Winter Star - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": 
+			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.WinterStar.Constance}}",
+			},
+		},
+		//Solstice Winter Star changes the Feast of the Winter Star to a less Christmas-y version with food instead of gifts, so you may want a dialogue variant.
+		{	
+			"LogName": "Feast of the Winter Star Solstice Compat",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": { "HasMod: |contains=Airyn.CPSolsticeWinterStar": true},
+			"Entries": 
+			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.WinterStar.Constance}}", 
+			},
+		},
+		
+		
+	]
+}
