@@ -32,7 +32,8 @@
 					],
 					"CustomFields": {
 						"mushymato.MMAP_WaterColor": "#653fe680",
-						"mushymato.MMAP_WaterDraw": "T"
+						"mushymato.MMAP_WaterDraw": "T",
+						"mushymato.GrassVariety_AllowedVarietyPrefix": "{{ModId}}_lostisland"
 					}
 				},
 			}

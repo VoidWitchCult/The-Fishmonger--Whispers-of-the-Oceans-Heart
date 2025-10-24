@@ -4,26 +4,45 @@
 	//==============================================================================================
 	
 	// FISHMONGER 
-	"VoidWitchCult.CP.TheFishmongerNPC.TheFishmonger.ShopDialogue.1": "What can I help you with today?",
-	"VoidWitchCult.CP.TheFishmongerNPC.TheFishmonger.ShopDialogue.2": "I've got some ex-squid-it stock available today. Do you wanna take a look?",
-	"VoidWitchCult.CP.TheFishmongerNPC.TheFishmonger.ShopDialogue.3": "Let minnow if you need anything.",
-	"VoidWitchCult.CP.TheFishmongerNPC.TheFishmonger.ShopDialogue.4": "Care for some seeds?",
+	"TheFishmonger.ShopDialogue.1": "What can I help you with today?",
+	"TheFishmonger.ShopDialogue.2": "I've got some ex-squid-it stock available today. Do you wanna take a look?",
+	"TheFishmonger.ShopDialogue.3": "Let minnow if you need anything.",
+	"TheFishmonger.ShopDialogue.4": "Care for some seeds?",
+	"TheFishmonger.ShopDialogue.ShopClosed": "Looks like Constance isn't around.",
 	
 	// MRFEESH 
-	"VoidWitchCult.CP.MrFeesh.ShopDialogue.1": "May I be of thou service, my good friend?",
-	"VoidWitchCult.CP.MrFeesh.ShopDialogue.2": "Hark! What eudaemonia to find thou in good health! Please browse my wares, friend!",
-	"VoidWitchCult.CP.MrFeesh.ShopDialogue.3": "What serendipitous coincidence to find you here once more, my friend!",
-	"VoidWitchCult.CP.MrFeesh.ShopDialogue.4": "A good gentleman always knows what to do in any situation. Alas! Only the best shall know wherewithal though.",
+	"MrFeesh.ShopDialogue.1": "May I be of thou service, my good friend?",
+	"MrFeesh.ShopDialogue.2": "Hark! What eudaemonia to find thou in good health! Please browse my wares, friend!",
+	"MrFeesh.ShopDialogue.3": "What serendipitous coincidence to find you here once more, my friend!",
+	"MrFeesh.ShopDialogue.4": "A good gentleman always knows what to do in any situation. Alas! Only the best shall know wherewithal though.",
+	"MrFeesh.ShopDialogue.ShopClosed": "Looks like MrFeesh is still setting up his shop for today...",
 	
-	//CAWYN
-	"VoidWitchCult.CP.Cawyn.ShopDialogue.1": "Caw! CAWW!! Cawyn happy to see you!",
-	"VoidWitchCult.CP.Cawyn.ShopDialogue.2": "Cawyn has good stuff. Look at Cawayn's stuff!",
-	"VoidWitchCult.CP.Cawyn.ShopDialogue.3": "Farmer friend! Farmer friend wants some stuff?",
-	"VoidWitchCult.CP.Cawyn.ShopDialogue.4": "Cawyn likes to watch waves. Makes Cawyn think of egg times.",
+	// CAWYN
+	"Cawyn.ShopDialogue.1": "Caw! CAWW!! Cawyn happy to see you!",
+	"Cawyn.ShopDialogue.2": "Cawyn has good stuff. Look at Cawyn's stuff!",
+	"Cawyn.ShopDialogue.3": "Farmer friend! Farmer friend wants some stuff?",
+	"Cawyn.ShopDialogue.4": "Cawyn likes to watch waves. Makes Cawyn think of egg times.",
+	"Cawyn.ShopDialogue.ShopClosed": "Cawyn is distracted catching some worms, better come back later.",
 	
 	// THE WITCHES SHADOW
-	"VoidWitchCult.CP.TheWitchesShadow.ShopDialogue.1": "I detached...myself...from Master... Who...am I...if not... part of...Master?",
-	"VoidWitchCult.CP.TheWitchesShadow.ShopDialogue.2": "From nothingness...everything sprung... to nothingness...it shall return....one day...",
-	"VoidWitchCult.CP.TheWitchesShadow.ShopDialogue.3": "....trapped...forgotten. ...longing...yet unmoving. ...wretched...yet pure. ...Faust...I am alone.",
-	"VoidWitchCult.CP.TheWitchesShadow.ShopDialogue.4": "...one is...not like...the other...",	
+	"TheWitchesShadow.ShopDialogue.1": "I detached...myself...from Master... Who...am I...if not... part of...Master?",
+	"TheWitchesShadow.ShopDialogue.2": "From nothingness...everything sprung... to nothingness...it shall return....one day...",
+	"TheWitchesShadow.ShopDialogue.3": "....trapped...forgotten. ...longing...yet unmoving. ...wretched...yet pure. ...Faust...I am alone.",
+	"TheWitchesShadow.ShopDialogue.4": "...one is...not like...the other...",
+	"TheWitchesShadow.ShopDialogue.ShopClosed": "The shadow just blankly stares at you, unresponsive...maybe when you come back another time they will sell you something?",
+	
+	// THE MERCHANT
+	"TheMerchant.ShopDialogue.1": "Greetings, fellow...human(?). Can I interest you in some wares?",
+	"TheMerchant.ShopDialogue.2": "Ah, pleasure making your aquiantance, mortal...fellow. Fancy existing, huh?",
+	"TheMerchant.ShopDialogue.3": "Great day to exist, don't you think? I do have some wares that increase...existing, yes.",
+	// Hex code translating to 'One day everything returns to the void. I can wait, child...'
+	"TheMerchant.ShopDialogue.4": "4F 6E 65 20 64 61 79 20 65 76 65 72 79 74 68 69 6E 67 20 72 65 74 75 72 6E 73 20 74 6F 20 74 68 65 20 76 6F 69 64 2E 20 49 20 63 61 6E 20 77 61 69 74 2C 20 63 68 69 6C 64 2E 2E 2E",
+	"TheMerchant.ShopDialogue.ShopClosed": "Good joke, good joke. I don't sleep, only those who exist need that. I do need to restock now and again though.",
+	
+	// THE UNKNOWN
+	"TheUnknown.ShopDialogue.1": "..............................",
+	"TheUnknown.ShopDialogue.2": ".....wares, yes.",
+	"TheUnknown.ShopDialogue.3": "If you have coin, I have the wares.",
+	"TheUnknown.ShopDialogue.4": "....come, buy.",
+	"TheUnknown.ShopDialogue.ShopClosed": "..."
 }

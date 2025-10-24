@@ -176,6 +176,41 @@
 						"color_yellow"
 					]
 				},
+				"{{ModID}}_moonlightberriesseeds": {
+                    "Name": "{{ModID}}_moonlightberriesseeds",
+                    "Displayname": "{{i18n:moonlightberries.name}}",
+                    "Description": "{{i18n:moonlightberries.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 500,
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 152,
+					"ContextTags": [
+                        "season_winter",
+                        "berry_item",
+						"color_pink"
+					]
+				},
+				"{{ModID}}_prismaticgemfruitseeds": {
+                    "Name": "{{ModID}}_prismaticgemfruitseeds",
+                    "Displayname": "{{i18n:prismaticgemfruit.name}}",
+                    "Description": "{{i18n:prismaticgemfruit.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 500,
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 153,
+					"ContextTags": [
+						"season_spring",
+						"season_summer",
+						"season_fall",
+                        "season_winter",
+                        "fruit_item",
+						"color_prismatic"
+					]
+				},
 				//==============================================================================================
 				//==== FRUITS ==================================================================================
 				//==============================================================================================
@@ -323,9 +358,9 @@
 					]
 				},
 				
-				//////////////
-				// PRODUCE //
-				////////////
+				//==============================================================================================
+				//==== PRODUCE =================================================================================
+				//==============================================================================================
 				
                 "{{ModID}}_bloodstainedrose": {
                     "Name": "{{ModID}}_bloodstainedrose",
@@ -493,6 +528,41 @@
                         "flower_item",
                         "color_red",
 						"color_yellow"
+					]
+				},
+				"{{ModID}}_moonlightberries": {
+                    "Name": "{{ModID}}_moonlightberries",
+                    "Displayname": "{{i18n:moonlightberries.name}}",
+                    "Description": "{{i18n:moonlightberries.description}}",
+                    "Type": "Fruit",
+                    "Category": -79,
+                    "Price": 800,
+					"Edibility": "100",
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 154,
+					"ContextTags": [
+                        "season_summer",
+                        "berry_item",
+                        "color_pink"
+					]
+				},
+				"{{ModID}}_prismaticgemfruit": {
+                    "Name": "{{ModID}}_prismaticgemfruit",
+                    "Displayname": "{{i18n:prismaticgemfruit.name}}",
+                    "Description": "{{i18n:prismaticgemfruit.description}}",
+                    "Type": "Fruit",
+                    "Category": -79,
+                    "Price": 1000,
+					"Edibility": "200",
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 155,
+					"ContextTags": [
+                        "season_spring",
+						"season_summer",
+						"season_fall",
+                        "season_winter",
+                        "fruit_item",
+                        "color_prismatic"
 					]
 				},
 				//==============================================================================================
@@ -1334,6 +1404,36 @@
 						"forage_item"
 					],
 				},
+				"{{ModID}}_ObsidianShard": {
+                    "Name": "{{ModID}}_ObsidianShard",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.ObsidianShard.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.ObsidianShard.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 150,
+					"ContextTags": [
+						"color_iridium",
+						"forage_item"
+					],
+				},
+				"{{ModID}}_GrassBlade": {
+                    "Name": "{{ModID}}_GrassBlade",
+                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.GrassBlade.Name}}",
+                    "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.GrassBlade.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 151,
+					"ContextTags": [
+						"color_green",
+						"forage_item"
+					],
+				},
 				//==============================================================================================
 				//==== ARTIFACTS ===============================================================================
 				//==============================================================================================
@@ -1344,6 +1444,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 129,
 					"ContextTags": [
@@ -1362,6 +1464,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 130,
 					"ContextTags": [
@@ -1380,6 +1484,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 131,
 					"ContextTags": [
@@ -1399,6 +1505,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 132,
 					"ContextTags": [
@@ -1417,6 +1525,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 133,
 					"ContextTags": [
@@ -1435,6 +1545,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 134,
 					"ContextTags": [
@@ -1453,6 +1565,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 135,
 					"ContextTags": [
@@ -1470,6 +1584,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 136,
 					"ContextTags": [
@@ -1488,6 +1604,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 137,
 					"ContextTags": [
@@ -1506,6 +1624,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 138,
 					"ContextTags": [
@@ -1525,6 +1645,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 139,
 					"ContextTags": [
@@ -1542,6 +1664,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 140,
 					"ContextTags": [
@@ -1560,6 +1684,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 141,
 					"ContextTags": [
@@ -1577,6 +1703,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 142,
 					"ContextTags": [
@@ -1594,6 +1722,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 143,
 					"ContextTags": [
@@ -1611,6 +1741,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 144,
 					"ContextTags": [
@@ -1629,6 +1761,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 2000,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 145,
 					"ContextTags": [
@@ -1646,6 +1780,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 146,
 					"ContextTags": [
@@ -1664,6 +1800,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 147,
 					"ContextTags": [
@@ -1681,6 +1819,8 @@
                     "Type": "Arch",
                     "Category": 0,
                     "Price": 200,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 148,
 					"ContextTags": [
@@ -1817,6 +1957,22 @@
 						"color_poppyseed"
 					],
 				},
+				"{{ModId}}_MermaidGrassStarter": {
+					"Name": "{{ModId}}_MermaidGrassStarter",
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidGrassStarter.Name}}",
+					"Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidGrassStarter.Description}}",
+					"Type": "Crafting",
+					"Category": 0,
+					"Price": 50,
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+					"SpriteIndex": 149,
+					"CustomFields": {
+						"mushymato.GrassVariety/GrassStarterKind": "blueGrass",
+						"mushymato.GrassVariety/GrassStarterVariety": "{{ModId}}_lostisland"
+					}
+				},
+				
+				
 				//==============================================================================================
 				//==== CHARMS ==================================================================================
 				//==============================================================================================

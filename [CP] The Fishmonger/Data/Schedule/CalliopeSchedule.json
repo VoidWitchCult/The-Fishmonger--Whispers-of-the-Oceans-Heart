@@ -80,6 +80,36 @@
 			2000 {{ModID}}_LostIsland_MermaidHome 15 5 0/
 			",
 			}
-		}
+		},
+		{
+            "LogName": "New Calliope Schedule",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/{{ModID}}_TheFishmonger",
+            "Entries": {
+				"Mon": "
+				610 {{ModID}}_LostIsland_MermaidHome 18 5 2/
+				700 {{ModID}}_LostIsland_MermaidHome 6 5 0/
+				720 {{ModID}}_LostIsland_MermaidHome 4 5 0/
+				740 {{ModID}}_LostIsland_MermaidHome 3 5 2/
+				1000 {{ModID}}_LostIsland 82 42 2 {{ModID}}_MermaidCalliope_laying/
+				1600 {{ModID}}_LostIsland_MermaidHome 18 20 2 {{ModID}}_MermaidCalliope_sitting/
+				",
+				"Wed": "
+				610 {{ModID}}_LostIsland_MermaidHome 18 5 2/
+				700 {{ModID}}_LostIsland_MermaidHome 6 5 0/
+				720 {{ModID}}_LostIsland_MermaidHome 4 5 0/
+				740 {{ModID}}_LostIsland_MermaidHome 3 5 2/
+				830 {{ModID}}_LostIsland_EnchantedForest 27 14 0 \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.enchantedforest.000\"/
+				940 {{ModID}}_LostIsland_EnchantedForest 37 37 3 \"Characters\\Dialogue\\{{ModID}}_MermaidCalliope:{{ModID}}_calliope.enchantedforest.001\"/
+				1000 {{ModID}}_LostIsland_EnchantedForest 106 85 2/
+				1400 {{ModID}}_LostIsland_Orchard 76 41 2/
+				2000 {{ModID}}_LostIsland_MermaidHome 4 5 0/
+				2200 {{ModID}}_LostIsland_MermaidHome 15 5 0/
+				"
+            },
+			"When": {
+                    "HasSeenEvent": "{{ModID}}_MermaidCalliope8Hearts2"
+                }
+        },
 	]
 }

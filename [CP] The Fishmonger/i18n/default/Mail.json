@@ -20,8 +20,12 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.Mail.FishmongerScarecrow.Title": "Scarecrow",
 	"VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow": "Ahoy, @!^I know, I know...this might not really be worth sending you a letter for but I just found a totally funny idea and just wanted to let you know about it.^Maybe I'm just easily amused by these kind of things but...well, anyway...^Let me know what you think of it.^- Constance",
 	"VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow.Title": "Cooler Scarecrow",
-	"VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow": "Hey there! It's me, @!^So I was thinking...you know! Since you seem to like our island it would make sense to give you an easy way to get here!^I attached a recipe for a warp totem to this letter and hope to see you again!^There is a lot this island has to offer afterall. Can't wait to see you again!^- Barnabas :D",
-	"VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow.Title": "Warp Totem!",
-	"VoidWitchCult.CP.TheFishmongerNPC.Mail.PassedOutBarnabas.Title": "Hope you're ok!",
-	"VoidWitchCult.CP.TheFishmongerNPC.Mail.PassedOutBarnabas": "Hey there, @!^I found you passed out on the island so I figured that I should bring you home!^I can sleep anywhere personally but as a farmer I think it's best you wake up at your farm so you can take care of your crops and animals and everything!^Make sure to get enough rest and not overwork yourself, ok?^- Barnabas :D",	
+	
+	//Barnabas
+	"Mail.WarpTotem": "Hey there! It's me, @!^So I was thinking...you know! Since you seem to like our island it would make sense to give you an easy way to get here!^I attached a recipe for a warp totem to this letter and hope to see you again!^There is a lot this island has to offer afterall. Can't wait to see you again!^- Barnabas :D",
+	"Mail.WarpTotem.Title": "Warp Totem!",
+	"Mail.PassedOutBarnabas.Title": "Hope you're ok!",
+	"Mail.PassedOutBarnabas": "Hey there, @!^I found you passed out on the island so I figured that I should bring you home!^I can sleep anywhere personally but as a farmer I think it's best you wake up at your farm so you can take care of your crops and animals and everything!^Make sure to get enough rest and not overwork yourself, ok?^- Barnabas :D",	
+	"Mail.PrismaticGemSeeds": "Helloooooo!!^I thought after you probably found quite some gems on the island and since you're a farmer it was about time I told you something neat!^So! I know of a recipe to make seeds for a really specific crop and since you're a farmer I thought it was a great idea to teach you!^I put the recipe in the envelope so be sure to try it out!^- Barnabas :3c",
+	"Mail.PrismaticGemSeeds.Title": "It's crops made from gems!!!",
 }

@@ -58,6 +58,12 @@
 					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_SeaDudeBarnabasIntro",
                     "Action": "AddMail Current {{ModID}}_WarpTotem"
 				},
+				"{{ModID}}_PrismaticGemSeeds": {
+                    "Id": "{{ModID}}_PrismaticGemSeeds",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_SeaDudeBarnabas6Hearts",
+                    "Action": "AddMail Current {{ModID}}_PrismaticGemSeeds"
+				},
 			}
 		}
 	]

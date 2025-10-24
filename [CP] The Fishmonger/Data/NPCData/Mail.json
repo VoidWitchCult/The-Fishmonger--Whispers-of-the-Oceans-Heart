@@ -32,10 +32,15 @@
 				// Heart Levels
 				"{{ModID}}_FishmongerScarecrow": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.FishmongerScarecrow}}[letterbg Mods\\{{ModID}}\\FMLetterBG 0]%item craftingRecipe {{ModID}}_FishmongerScarecrow %%[#]{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.FishmongerScarecrow.Title}}",
 				"{{ModID}}_CoolerFishmongerScarecrow": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow}}[letterbg Mods\\{{ModID}}\\FMLetterBG 0]%item craftingRecipe {{ModID}}_CoolerFishmongerScarecrow %%[#]{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow.Title}}",
-				"{{ModID}}_WarpTotem": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.WarpTotem}}[letterbg Mods\\{{ModID}}\\FMLetterBG 1]%item craftingRecipe {{ModID}}_LostIslandTotem %%[#]{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.WarpTotem.Title}}",
+				
+				// Warp Totem
+				"{{ModID}}_WarpTotem": "{{i18n:Mail.WarpTotem}}[letterbg Mods\\{{ModID}}\\FMLetterBG 1]%item craftingRecipe {{ModID}}_LostIslandTotem %%[#]{{i18n:Mail.WarpTotem.Title}}",
 				
 				// PassedOut Mail
-                "PassedOutBarnabas": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.PassedOutBarnabas}}[letterbg Mods\\{{ModID}}\\FMLetterBG 1][#]{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.PassedOutBarnabas.Title}}",
+                "PassedOutBarnabas": "{{i18n:Mail.PassedOutBarnabas}}[letterbg Mods\\{{ModID}}\\FMLetterBG 1][#]{{i18n:Mail.PassedOutBarnabas.Title}}",
+				
+				// Prismatic Gem Seeds
+				"{{ModID}}_PrismaticGemSeeds": "{{i18n:Mail.PrismaticGemSeeds}}[letterbg Mods\\{{ModID}}\\FMLetterBG 1]%item craftingRecipe {{ModID}}_prismaticgemfruitseeds %%[#]{{i18n:Mail.PrismaticGemSeeds.Title}}",
 			}
 		}
 	]

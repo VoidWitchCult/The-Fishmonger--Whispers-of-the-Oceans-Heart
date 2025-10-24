@@ -192,6 +192,46 @@
 				}
 			}
 		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModID}}_moonlightberriesseeds": {
+                    "Seasons": [ "winter" ],
+                    "DaysInPhase": [1, 2, 2, 2, 1],
+                    "RegrowDays": 4,
+					"IsRaised": false,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 3,
+                    "HarvestMaxIncreasePerFarmingLevel":0.2,
+                    "ExtraHarvestChance": 0.15,
+                    "HarvestItemId": "{{ModID}}_moonlightberries",
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_crops",
+                    "SpriteIndex": 10
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModID}}_prismaticgemfruitseeds": {
+                    "Seasons": [ "spring", "summer", "fall", "winter" ],
+                    "DaysInPhase": [2, 7, 7, 7, 5],
+                    "RegrowDays": 7,
+					"IsRaised": false,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "HarvestMaxIncreasePerFarmingLevel":0.1,
+                    "ExtraHarvestChance": 0.15,
+                    "HarvestItemId": "{{ModID}}_prismaticgemfruit",
+					
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_crops",
+                    "SpriteIndex": 11
+				}
+			}
+		},
 		//==============================================================================================
 		//==== GIANT CROPS =============================================================================
 		//==============================================================================================

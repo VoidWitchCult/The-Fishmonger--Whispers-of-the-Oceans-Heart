@@ -1,29 +1,58 @@
 {
-  "Changes": [
-	{
-      "Action": "EditMap",
-      "Target": "Maps/VoidWitchCult.CP.TheFishmongerNPC_LostIsland_Orchard",
-      "MapProperties": {
-        "mushymato.MMAP_ProtectTree": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SeaDude.DontCutDownMyOrchard.2}}",
-        "mushymato.MMAP_ProtectFruitTree": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SeaDude.DontCutDownMyOrchard.1}}"
+	"Changes": [
+		{
+			"Action": "EditMap",
+			"Target": "Maps/VoidWitchCult.CP.TheFishmongerNPC_LostIsland_Orchard",
+			"MapProperties": {
+				"mushymato.MMAP_ProtectTree": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SeaDude.DontCutDownMyOrchard.2}}",
+				"mushymato.MMAP_ProtectFruitTree": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.SeaDude.DontCutDownMyOrchard.1}}"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/VoidWitchCult.CP.TheFishmongerNPC_LostIsland_ForsakenCove",
+			"MapProperties": {
+				"mushymato.MMAP_WoodsLighting": "T",
+				"mushymato.MMAP_LightRays": "T"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/VoidWitchCult.CP.TheFishmongerNPC_TEMP_Wedding",
+			"MapProperties": {
+				"mushymato.MMAP_WoodsLighting": "T",
+				"mushymato.MMAP_LightRays": "T"
+			}
+		},
+		{
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_lostisland": {
+          "Id": "{{ModId}}_lostisland",
+          "Texture": "{{ModId}}/grass_lostisland",
+          "Condition": null,
+          "Weight": 1,
+          "ByLocationAllowanceOnly": true,
+          "ApplyTo": [
+            "blueGrass"
+          ],
+          "OnCutTileActions": [
+            "mushymato.MMAP_If RANDOM 0.5 ## mushymato.MMAP_Critter Butterfly T 1"
+          ],
+          "OnCutItemSpawns": [
+            {
+              "Id": "{{ModId}}_SpawnForage",
+              "Condition": "RANDOM 0.01",
+              "RandomItemId": [
+                "(O){{ModId}}_ObsidianShard",
+                "(O){{ModId}}_GrassBlade"
+              ]
+            }
+          ]
+        }
       }
-},
-    {
-      "Action": "EditMap",
-      "Target": "Maps/VoidWitchCult.CP.TheFishmongerNPC_LostIsland_ForsakenCove",
-      "MapProperties": {
-        "mushymato.MMAP_WoodsLighting": "T",
-        "mushymato.MMAP_LightRays": "T"
-      }
-},
-{
-      "Action": "EditMap",
-      "Target": "Maps/VoidWitchCult.CP.TheFishmongerNPC_TEMP_Wedding",
-      "MapProperties": {
-        "mushymato.MMAP_WoodsLighting": "T",
-        "mushymato.MMAP_LightRays": "T"
-      }
-},
- 
-  ]
+    }
+		
+	]
 }

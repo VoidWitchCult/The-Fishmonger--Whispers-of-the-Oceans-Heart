@@ -15,16 +15,16 @@
 							"Dialogues": [
 								{
 									"Id": "{{ModID}}_TheFishmonger-OpenOwnerDialogue",
-									"Dialogue": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TheFishmonger.ShopDialogue.{{Random: 1, 2, 3}}}}"
+									"Dialogue": "{{i18n:TheFishmonger.ShopDialogue.{{Random: 1, 2, 3}}}}"
 								},
 							],
 							"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_TheFishmonger-OpenOwner",
 							"Name": "{{ModID}}_TheFishmonger"
 						},
 						{
-							"ClosedMessage": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Strings.FishmongerShopClosed}}",
+							"ClosedMessage": "{{i18n:TheFishmonger.ShopDialogue.ShopClosed}}",
 							"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_TheFishmonger-ClosedOwner",
-							"Name": "None"
+							"Name": "AnyOrNone"
 						},
 					],
 					"SalableItemTags": [
@@ -227,16 +227,16 @@
                             "Dialogues": [
                                 {
                                     "Id": "VoidWitchCult.CP.TheFishmongerNPCShop_TheFishmongerSeeds-OpenOwnerDialogue",
-                                    "Dialogue": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TheFishmonger.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
+                                    "Dialogue": "{{i18n:TheFishmonger.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
 								}
 							],
                             "Id": "VoidWitchCult.CP.TheFishmongerNPCShop_TheFishmongerSeeds-OpenOwner",
                             "Name": "{{ModID}}_TheFishmonger"
 						},
 						{
-							"ClosedMessage": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Strings.FishmongerShopClosed}}",
+							"ClosedMessage": "{{i18n:TheFishmonger.ShopDialogue.FishmongerShopClosed}}",
 							"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_TheFishmonger-ClosedOwner",
-							"Name": "None"
+							"Name": "AnyOrNone"
 						},
 					],
                     "Items": [
@@ -426,16 +426,16 @@
                             "Dialogues": [
                                 {
                                     "Id": "VoidWitchCult.LostIsland_LostIslandMrFeesh-OpenOwnerDialogue",
-                                    "Dialogue": "{{i18n:VoidWitchCult.CP.MrFeesh.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
+                                    "Dialogue": "{{i18n:MrFeesh.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
 								}
 							],
                             "Id": "VoidWitchCult.LostIsland_LostIslandMrFeesh-OpenOwner",
                             "Name": "AnyOrNone"
 						},
 						{
-							"ClosedMessage": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Strings.MrFeeshShopClosed}}",
+							"ClosedMessage": "{{i18n:MrFeesh.ShopDialogue.ShopClosed}}",
 							"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_MrFeesh-ClosedOwner",
-							"Name": "None"
+							"Name": "AnyOrNone"
 						},
 					],
 					"VisualTheme": [
@@ -646,50 +646,50 @@
 						"Dialogues": [
 							{
 								"Id": "VoidWitchCult.LostIsland_LostIslandCawyn-OpenOwnerDialogue",
-								"Dialogue": "{{i18n:VoidWitchCult.CP.Cawyn.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
+								"Dialogue": "{{i18n:Cawyn.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
 							}
 						],
 						"Id": "VoidWitchCult.LostIsland_LostIslandCawyn-OpenOwner",
 						"Name": "AnyOrNone"
 					},
 					{
-						"ClosedMessage": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Strings.CawynShopClosed}}",
+						"ClosedMessage": "{{i18n:Cawyn.ShopDialogue.ShopClosed}}",
 						"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_TheFishmonger-CawynOwner",
-						"Name": "None"
+						"Name": "AnyOrNone"
 					},
 				],
 				"VisualTheme": [
-						{
-							"WindowBorderTexture": "Mods\\{{ModID}}\\UI",
-							"WindowBorderSourceRect": {
-								"X": 0,
-								"Y": 0,
-								"Width": 18,
-								"Height": 18
-							},
-							"ItemRowBackgroundTexture": "Mods\\{{ModID}}\\UI",
-							"ItemRowBackgroundSourceRect": {
-								"X": 18,
-								"Y": 0,
-								"Width": 15,
-								"Height": 15
-							},
-							"ItemIconBackgroundTexture": "Mods\\{{ModID}}\\UI",
-							"ItemIconBackgroundSourceRect": {
-								"X": 33,
-								"Y": 0,
-								"Width": 18,
-								"Height": 18
-							},
-							"PortraitBackgroundTexture": "Mods\\{{ModID}}\\UI",
-							"PortraitBackgroundSourceRect": {
-								"X": 162,
-								"Y": 0,
-								"Width": 74,
-								"Height": 74
-							},
-						}
-					],
+					{
+						"WindowBorderTexture": "Mods\\{{ModID}}\\UI",
+						"WindowBorderSourceRect": {
+							"X": 0,
+							"Y": 0,
+							"Width": 18,
+							"Height": 18
+						},
+						"ItemRowBackgroundTexture": "Mods\\{{ModID}}\\UI",
+						"ItemRowBackgroundSourceRect": {
+							"X": 18,
+							"Y": 0,
+							"Width": 15,
+							"Height": 15
+						},
+						"ItemIconBackgroundTexture": "Mods\\{{ModID}}\\UI",
+						"ItemIconBackgroundSourceRect": {
+							"X": 33,
+							"Y": 0,
+							"Width": 18,
+							"Height": 18
+						},
+						"PortraitBackgroundTexture": "Mods\\{{ModID}}\\UI",
+						"PortraitBackgroundSourceRect": {
+							"X": 162,
+							"Y": 0,
+							"Width": 74,
+							"Height": 74
+						},
+					}
+				],
 				"Items": [
 					// ---- RECIPES ----------------------------------------------------------------
 					{
@@ -886,50 +886,50 @@
 						"Dialogues": [
 							{
 								"Id": "VoidWitchCult.LostIsland_LostIslandTheWitchesShadow-OpenOwnerDialogue",
-								"Dialogue": "{{i18n:VoidWitchCult.CP.TheWitchesShadow.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
+								"Dialogue": "{{i18n:TheWitchesShadow.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
 							}
 						],
 						"Id": "VoidWitchCult.LostIsland_LostIslandTheWitchesShadow-OpenOwner",
 						"Name": "AnyOrNone"
 					},
 					{
-						"ClosedMessage": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Strings.WitchesShadowShopClosed}}",
+						"ClosedMessage": "{{i18n:TheWitchesShadow.ShopDialogue.ShopClosed}}",
 						"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_WitchesShadow-ClosedOwner",
-						"Name": "None"
+						"Name": "AnyOrNone"
 					},
 				],
 				"VisualTheme": [
-						{
-							"WindowBorderTexture": "Mods\\{{ModID}}\\UI",
-							"WindowBorderSourceRect": {
-								"X": 0,
-								"Y": 0,
-								"Width": 18,
-								"Height": 18
-							},
-							"ItemRowBackgroundTexture": "Mods\\{{ModID}}\\UI",
-							"ItemRowBackgroundSourceRect": {
-								"X": 18,
-								"Y": 0,
-								"Width": 15,
-								"Height": 15
-							},
-							"ItemIconBackgroundTexture": "Mods\\{{ModID}}\\UI",
-							"ItemIconBackgroundSourceRect": {
-								"X": 33,
-								"Y": 0,
-								"Width": 18,
-								"Height": 18
-							},
-							"PortraitBackgroundTexture": "Mods\\{{ModID}}\\UI",
-							"PortraitBackgroundSourceRect": {
-								"X": 162,
-								"Y": 0,
-								"Width": 74,
-								"Height": 74
-							},
-						}
-					],
+					{
+						"WindowBorderTexture": "Mods\\{{ModID}}\\UI",
+						"WindowBorderSourceRect": {
+							"X": 0,
+							"Y": 0,
+							"Width": 18,
+							"Height": 18
+						},
+						"ItemRowBackgroundTexture": "Mods\\{{ModID}}\\UI",
+						"ItemRowBackgroundSourceRect": {
+							"X": 18,
+							"Y": 0,
+							"Width": 15,
+							"Height": 15
+						},
+						"ItemIconBackgroundTexture": "Mods\\{{ModID}}\\UI",
+						"ItemIconBackgroundSourceRect": {
+							"X": 33,
+							"Y": 0,
+							"Width": 18,
+							"Height": 18
+						},
+						"PortraitBackgroundTexture": "Mods\\{{ModID}}\\UI",
+						"PortraitBackgroundSourceRect": {
+							"X": 162,
+							"Y": 0,
+							"Width": 74,
+							"Height": 74
+						},
+					}
+				],
 				"Items": [
 					{
 						"Id": "{{ModID}}_OldRune",
@@ -976,6 +976,268 @@
 		}
 	},
 	//==============================================================================================
+	//==== LOST ISLAND THE MERCHANT SHOP ===========================================================
+	//==============================================================================================
+	{
+		"Action": "Load",
+		"Target": "Portraits/{{ModID}}_LostIslandTheMerchant_Portrait",
+		"FromFile": "Assets/Images/TheMerchant.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/{{ModID}}_LostIslandTheMerchant_Portrait2",
+		"FromFile": "Assets/Images/TheMerchant2.png"
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"Entries": {
+			"{{ModID}}_LostIslandTheMerchant": {
+				"Owners": [ 
+					{
+						"Condition": "TIME 0800 2400, RANDOM 0.9",
+						"Portrait": "Portraits/{{ModID}}_LostIslandTheMerchant_Portrait",
+						"Dialogues": [
+							{
+								"Id": "VoidWitchCult.LostIsland_LostIslandTheMerchant-OpenOwnerDialogue",
+								"Dialogue": "{{i18n:TheMerchant.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
+							}
+						],
+						"Id": "VoidWitchCult.LostIsland_LostIslandTheMerchant-OpenOwner",
+						"Name": "AnyOrNone"
+					},
+					{
+						"Condition": "TIME 0800 2400",
+						"Portrait": "Portraits/{{ModID}}_LostIslandTheMerchant_Portrait2",
+						"Dialogues": [
+							{
+								"Id": "VoidWitchCult.LostIsland_LostIslandTheMerchant-OpenOwnerDialogue",
+								"Dialogue": "{{i18n:TheMerchant.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
+							}
+						],
+						"Id": "VoidWitchCult.LostIsland_LostIslandTheMerchant2-OpenOwner",
+						"Name": "AnyOrNone"
+					},
+					{
+						"ClosedMessage": "{{i18n:TheMerchant.ShopDialogue.ShopClosed}}",
+						"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_Merchant-ClosedOwner",
+						"Name": "AnyOrNone"
+					},
+				],
+				"VisualTheme": [
+					{
+						"WindowBorderTexture": "Mods\\{{ModID}}\\UI",
+						"WindowBorderSourceRect": {
+							"X": 0,
+							"Y": 0,
+							"Width": 18,
+							"Height": 18
+						},
+						"ItemRowBackgroundTexture": "Mods\\{{ModID}}\\UI",
+						"ItemRowBackgroundSourceRect": {
+							"X": 18,
+							"Y": 0,
+							"Width": 15,
+							"Height": 15
+						},
+						"ItemIconBackgroundTexture": "Mods\\{{ModID}}\\UI",
+						"ItemIconBackgroundSourceRect": {
+							"X": 33,
+							"Y": 0,
+							"Width": 18,
+							"Height": 18
+						},
+						"PortraitBackgroundTexture": "Mods\\{{ModID}}\\UI",
+						"PortraitBackgroundSourceRect": {
+							"X": 162,
+							"Y": 0,
+							"Width": 74,
+							"Height": 74
+						},
+					}
+				],
+				"Items": [
+					{
+						"Id": "{{ModID}}_MermaidGrassStarter",
+						"ItemId": "{{ModID}}_MermaidGrassStarter",
+						"Price": 2000,
+					},
+					{
+						"Id": "{{ModID}}_PainiteLance",
+						"ItemId": "{{ModID}}_PainiteLance",
+						"TradeItemId": "(O){{ModID}}_Painite",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_Painiteneedle",
+						"ItemId": "{{ModID}}_Painiteneedle",
+						"TradeItemId": "(O){{ModID}}_Painite",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_LushFlorestineBroadsword",
+						"ItemId": "{{ModID}}_LushFlorestineBroadsword",
+						"TradeItemId": "(O){{ModID}}_LushFlorestine",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_LushFlorestineAxe",
+						"ItemId": "{{ModID}}_LushFlorestineAxe",
+						"TradeItemId": "(O){{ModID}}_LushFlorestine",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_ChalcanthiteBroatsword",
+						"ItemId": "{{ModID}}_ChalcanthiteBroatsword",
+						"TradeItemId": "(O){{ModID}}_Chalcanthite",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_ChalcanthiteWand",
+						"ItemId": "{{ModID}}_ChalcanthiteWand",
+						"TradeItemId": "(O){{ModID}}_Chalcanthite",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_DichromaticTaaffeiteDualBlade",
+						"ItemId": "{{ModID}}_DichromaticTaaffeiteDualBlade",
+						"TradeItemId": "(O){{ModID}}_DichromaticTaaffeite",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_OpalizedAmmoniteDagger",
+						"ItemId": "{{ModID}}_OpalizedAmmoniteDagger",
+						"TradeItemId": "(O){{ModID}}_OpalizedAmmonite",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_TaintedSeaShardsSword",
+						"ItemId": "{{ModID}}_TaintedSeaShardsSword",
+						"TradeItemId": "(O){{ModID}}_TaintedSeaShards",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_TaintedSeaShardsDagger",
+						"ItemId": "{{ModID}}_TaintedSeaShardsDagger",
+						"TradeItemId": "(O){{ModID}}_TaintedSeaShards",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_DeepseaDiamondSword",
+						"ItemId": "{{ModID}}_DeepseaDiamondSword",
+						"TradeItemId": "(O){{ModID}}_DeepseaDiamond",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_DeepseaDiamondBroadsword",
+						"ItemId": "{{ModID}}_DeepseaDiamondBroadsword",
+						"TradeItemId": "(O){{ModID}}_DeepseaDiamond",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_CrystallizedIchorSword",
+						"ItemId": "{{ModID}}_CrystallizedIchorSword",
+						"TradeItemId": "(O){{ModID}}_CrystallizedIchorGeode",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_RealgarRapier",
+						"ItemId": "{{ModID}}_RealgarRapier",
+						"TradeItemId": "(O){{ModID}}_Realgar",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_RealgarStaff",
+						"ItemId": "{{ModID}}_RealgarStaff",
+						"TradeItemId": "(O){{ModID}}_Realgar",
+						"TradeItemAmount": 200,
+					},
+					{
+						"Id": "{{ModID}}_GrandidieriteBroadsword",
+						"ItemId": "{{ModID}}_GrandidieriteBroadsword",
+						"TradeItemId": "(O){{ModID}}_Grandidierite",
+						"TradeItemAmount": 200,
+					},
+				]
+			}
+		}
+	},
+	//==============================================================================================
+	//==== LOST ISLAND THE UNKNOWN SHOP ============================================================
+	//==============================================================================================
+	{
+		"Action": "Load",
+		"Target": "Portraits/{{ModID}}_LostIslandTheUnknown_Portrait",
+		"FromFile": "Assets/Images/TheUnknown.png"
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"Entries": {
+			"{{ModID}}_LostIslandTheUnknown": {
+				"Owners": [ 
+					{
+						"Condition": "TIME 0600 2600",
+						"Portrait": "Portraits/{{ModID}}_LostIslandTheUnknown_Portrait",
+						"Dialogues": [
+							{
+								"Id": "VoidWitchCult.LostIsland_LostIslandTheUnknown-OpenOwnerDialogue",
+								"Dialogue": "{{i18n:TheUnknown.ShopDialogue.{{Random: 1, 2, 3, 4}}}}"
+							}
+						],
+						"Id": "VoidWitchCult.LostIsland_LostIslandTheUnknown-OpenOwner",
+						"Name": "AnyOrNone"
+					},
+					{
+						"ClosedMessage": "{{i18n:TheUnknown.ShopDialogue.ShopClosed}}",
+						"Id": "VoidWitchCult.CP.TheFishmongerNPCShop_TheUnknown-ClosedOwner",
+						"Name": "AnyOrNone"
+					},
+				],
+				"VisualTheme": [
+					{
+						"WindowBorderTexture": "Mods\\{{ModID}}\\UI",
+						"WindowBorderSourceRect": {
+							"X": 0,
+							"Y": 0,
+							"Width": 18,
+							"Height": 18
+						},
+						"ItemRowBackgroundTexture": "Mods\\{{ModID}}\\UI",
+						"ItemRowBackgroundSourceRect": {
+							"X": 18,
+							"Y": 0,
+							"Width": 15,
+							"Height": 15
+						},
+						"ItemIconBackgroundTexture": "Mods\\{{ModID}}\\UI",
+						"ItemIconBackgroundSourceRect": {
+							"X": 33,
+							"Y": 0,
+							"Width": 18,
+							"Height": 18
+						},
+						"PortraitBackgroundTexture": "Mods\\{{ModID}}\\UI",
+						"PortraitBackgroundSourceRect": {
+							"X": 162,
+							"Y": 0,
+							"Width": 74,
+							"Height": 74
+						},
+					}
+				],
+				"Items": [
+					{
+						"Id": "{{ModID}}_moonlightberriesseeds",
+						"ItemId": "{{ModID}}_moonlightberriesseeds",
+						"Price": 500,
+					},
+				]
+			}
+		}
+	},
+	
+	//==============================================================================================
 	//==== ADDING HATS TO HATMOUSE SHOP ============================================================
 	//==============================================================================================
 	{
@@ -987,37 +1249,37 @@
 				"Id": "{{ModId}}_FishmongersHat",
 				"ItemId": "{{ModId}}_FishmongersHat",
 				"Price": 2000,
-				"Condition": "PLAYER_HAS_SEEN_EVENT {{ModID}}_Introduction",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Introduction",
 			},
 			"{{ModId}}_MermaidCirclet": {
 				"Id": "{{ModId}}_MermaidCirclet",
 				"ItemId": "{{ModId}}_MermaidCirclet",
 				"Price": 2000,
-				"Condition": "PLAYER_HAS_SEEN_EVENT {{ModID}}_MermaidCalliopeIntro",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_MermaidCalliopeIntro",
 			},
 			"{{ModId}}_TrafficCone": {
 				"Id": "{{ModId}}_TrafficCone",
 				"ItemId": "{{ModId}}_TrafficCone",
 				"Price": 2000,
-				//	"Condition": "PLAYER_HAS_SEEN_EVENT {{ModID}}_SeaDudeBarnabasHatHearts",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_SeaDudeBarnabasHatHearts",
 			},
 			"{{ModId}}_PearlCirclet": {
 				"Id": "{{ModId}}_PearlCirclet",
 				"ItemId": "{{ModId}}_PearlCirclet",
 				"Price": 2000,
-				"Condition": "PLAYER_HAS_SEEN_EVENT {{ModID}}_MermaidCalliope2Hearts",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_MermaidCalliope2Hearts",
 			},
 			"{{ModId}}_FishmongersFishHat": {
 				"Id": "{{ModId}}_FishmongersFishHat",
 				"ItemId": "{{ModId}}_FishmongersFishHat",
 				"Price": 2000,
-				"Condition": "PLAYER_HAS_SEEN_EVENT {{ModID}}_Constance6Hearts",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Constance6Hearts",
 			},
 			"{{ModId}}_FishmongersFlowerCrown": {
 				"Id": "{{ModId}}_FishmongersFlowerCrown",
 				"ItemId": "{{ModId}}_FishmongersFlowerCrown",
 				"Price": 2000,
-				//	"Condition": "PLAYER_HAS_SEEN_EVENT {{ModID}}_Constance6Hearts",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Constance6Hearts",
 			}
 		},
 	}

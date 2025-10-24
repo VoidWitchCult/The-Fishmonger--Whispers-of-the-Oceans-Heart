@@ -23,6 +23,10 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.sunsetrose.description": "Plant in summer. Takes 12 days to produce a flower, and keeps producing after the first harvest. Grows on a trellis.",
 	"VoidWitchCult.CP.TheFishmongerNPC.saltemmer.name": "Salt Emmer",
 	"VoidWitchCult.CP.TheFishmongerNPC.saltemmer.description": "Plant in summer. Takes 4 days to produce emmer of a blue hue, it has a lightly salty taste.",
+	"moonlightberries.name": "Moonlight Berries",
+	"moonlightberries.description": "Plant in winter. Takes 6 days to produce berries of a soft pinkish-blue hue.",
+	"prismaticgemfruit.name": "Prismatic Gem Fruit",
+	"prismaticgemfruit.description": "Plant in any season. Takes 28 days to produce a sturdy plant with prismatic gem fruit.",
 	
 	//==============================================================================================
 	//==== T R E E S ===============================================================================
@@ -163,6 +167,10 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.ObsidianPhoenixFeather.Description": "A dark colored feather with sharp edges. It's origins seem unknown to most yet there seems to be  one who  might have  some clues...",
 	"VoidWitchCult.CP.TheFishmongerNPC.SolidIchor.Name": "Solid Ichor",
 	"VoidWitchCult.CP.TheFishmongerNPC.SolidIchor.Description": "Ichor, the blood of gods...this odd occurance has appeared since long ago. After the late king Llyr succumbed to his fate his blood was spilled and scattered, solodifying into clumbs that can now be found  in a specific area.",
+	"VoidWitchCult.CP.TheFishmongerNPC.ObsidianShard.Name": "Obsidian Shard",
+	"VoidWitchCult.CP.TheFishmongerNPC.ObsidianShard.Description": "It's a piece of what looks like obsidian...oddly enough it is warm to the touch.",
+	"VoidWitchCult.CP.TheFishmongerNPC.GrassBlade.Name": "Grass Blade",
+	"VoidWitchCult.CP.TheFishmongerNPC.GrassBlade.Description": "A blade of grass...but much sturdier than regular grass.",
 	
 	//==============================================================================================
 	//==== MINABLES ================================================================================
@@ -229,6 +237,8 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.MermaidTears.Description": "Something that had oozed out of the three when tapped. It's viscosity and appearance oddly resemble something like tears...",
 	"VoidWitchCult.CP.TheFishmongerNPC.MermaidMemento.Name": "Mermaid Memento",
 	"VoidWitchCult.CP.TheFishmongerNPC.MermaidMemento.Description": "It's something given to Constance by Calliope in their youth....why do you have this?",
+	"VoidWitchCult.CP.TheFishmongerNPC.MermaidGrassStarter.Name": "Mermaid Grass Starter",
+	"VoidWitchCult.CP.TheFishmongerNPC.MermaidGrassStarter.Description": "Ever wanted the grass of the lost island at home? Now you can!",
 	
 	//==============================================================================================
 	//==== C H A R M S =============================================================================
@@ -463,5 +473,42 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.Furniture.FloralRug": "Floral rug",
 	"VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.FloralRug": "A small rug with a light floral pattern.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Furniture.LibraryRug": "Library rug",
-	"VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.LibraryRug": "A big rug with intricate patterns often found in libraries.",	
+	"VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.LibraryRug": "A big rug with intricate patterns often found in libraries.",
+	
+	//==============================================================================================
+	//==== W E A P O N S  ==========================================================================
+	//==============================================================================================
+	
+	"PainiteLance.name": "Painite Lance",
+	"PainiteLance.description": "A carefully crafted lance of an intense red hue.",
+	"Painiteneedle.name": "Painite Needle",
+	"Painiteneedle.description": "It's a knitting needle, but it's very sharp.",
+	"LushFlorestineBroadsword.name": "Lush Florestine Broadsword",
+	"LushFlorestineBroadsword.description": "A broadsword infused with the power of nature.",
+	"LushFlorestineAxe.name": "Lush Florestine Axe",
+	"LushFlorestineAxe.description": "A battle axe made from the finest lush florestine around!",
+	"ChalcanthiteBroatsword.name": "Chalcanthite Broatsword",
+	"ChalcanthiteBroatsword.description": "A single edged broadsword with the color of the sea.",
+	"ChalcanthiteWand.name": "Chalcanthite Wand",
+	"ChalcanthiteWand.description": "A dangerous wand you could knock your enemies lights out with....",
+	"DichromaticTaaffeiteDualBlade.name": "Dichromatic Taaffeite Dual Blade",
+	"DichromaticTaaffeiteDualBlade.description": "It's a handy dual blade. You'll look really cool wielding it!",
+	"OpalizedAmmoniteDagger.name": "Opalized Ammonite Dagger",
+	"OpalizedAmmoniteDagger.description": "A colorful dagger made from ammonite. It's sturdier than you might think.",
+	"TaintedSeaShardsSword.name": "Tainted Sea Shards Sword",
+	"TaintedSeaShardsSword.description": "It might be made from glass but but it's jsut as lethal as any other sword.",
+	"TaintedSeaShardsDagger.name": "Tainted Sea Shards Dagger",
+	"TaintedSeaShardsDagger.description": "Pretty...pretty deadly.",
+	"DeepseaDiamondSword.name": "Deepsea Diamond Sword",
+	"DeepseaDiamondSword.description": "Luxury was never this deadly.",
+	"DeepseaDiamondBroadsword.name": "Deepsea Diamond Broadsword",
+	"DeepseaDiamondBroadsword.description": "Kill and maim in style with this luxurious broadsword.",
+	"CrystallizedIchorSword.name": "Crystallized Ichor Sword",
+	"CrystallizedIchorSword.description": "Yes, it's ichor...isn't a blade from golden blood kinda rad?",
+	"RealgarRapier.name": "Realgar Rapier",
+	"RealgarRapier.description": "Want to be elegant but also deadly? Then this rapier is for you!",
+	"RealgarStaff.name": "Realgar Staff",
+	"RealgarStaff.description": "It's a staff. Deadly, fiery...what else can you want from it?",
+	"GrandidieriteBroadsword.name": "Grandidierite Broadsword",
+	"GrandidieriteBroadsword.description": "You got me there...it's a broadsword. Doesn't it look really cool tho?",
 }

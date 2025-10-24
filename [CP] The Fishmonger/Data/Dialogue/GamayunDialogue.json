@@ -1,0 +1,82 @@
+{
+    "Changes": 
+	[
+		{
+            "LogName": "Gamayun Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_LibrarianGamayun",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Gamayun.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:Gamayun.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:Gamayun.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:Gamayun.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:Gamayun.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:Gamayun.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:Gamayun.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:Gamayun.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:Gamayun.Dialogue.birthdayNeutralB}}",
+				"MovieInvite_Invited_CoolGalGamayun": "{{i18n:Gamayun.Dialogue.MovieInvite_Invited_CoolGalGamayun}}",
+				"DumpsterDiveComment": "{{i18n:Gamayun.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Gamayun.Dialogue.HitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:Gamayun.Dialogue.RejectBouquetNotDatable}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:Gamayun.Dialogue.RejectMermaidPendantNotDatable}}",
+				"RejectMovieTicket": "{{i18n:Gamayun.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:Gamayun.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Gamayun.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Gamayun.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:Gamayun.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_OceanFlaxCloth": "{{i18n:Gamayun.OceanFlaxCloth}}",
+				"AcceptGift_(O){{ModID}}_PowderPinkPearl": "{{i18n:Gamayun.PowderPinkPearl}}",
+				"AcceptGift_(O){{ModID}}_PinkMermaidScale": "{{i18n:Gamayun.PinkMermaidScale}}",
+				"AcceptGift_(O){{ModID}}_PastelCottonCandy": "{{i18n:Gamayun.PastelCottonCandy}}",
+				"AcceptGift_(O){{ModID}}_RoseCandy": "{{i18n:Gamayun.Dialogue.RoseCandy}}",
+				
+				// 1ST OF SEASON DIALOGUE
+				"spring_1": "{{i18n:Gamayun.Dialogue.spring_1}}",
+				"summer_1": "{{i18n:Gamayun.Dialogue.summer_1}}",
+				"fall_1": "{{i18n:Gamayun.Dialogue.fall_1}}",
+				"winter_1": "{{i18n:Gamayun.Dialogue.winter_1}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Gamayun.Dialogue.Mon.{{Random: 0, 5}}}}",
+				"Tue": "{{i18n:Gamayun.Dialogue.Tue.{{Random: 0, 5}}}}",
+				"Wed": "{{i18n:Gamayun.Dialogue.Wed.{{Random: 0, 5}}}}",
+				"Thu": "{{i18n:Gamayun.Dialogue.Thu.{{Random: 0, 5}}}}",
+				"Fri": "{{i18n:Gamayun.Dialogue.Fri.{{Random: 0, 5}}}}",
+				"Sat": "{{i18n:Gamayun.Dialogue.Sat.{{Random: 0, 5}}}}",
+				"Sun": "{{i18n:Gamayun.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
+				// SPECIFIC DAY DIALOGUE
+				//Note : Will work only on first year due to the way the game checks for the dayOfMonth line. Use format season_dayOfMonth_2 for dialogue in year 2 and later. Ex "summer_10_2". You can only check for 1 (first year) or 2 (all years after). If you want a dialogue to appears on a specific year, consider using CP conditions in addition of the "_2" suffix
+				"spring_12_2": "{{i18n:Gamayun.Dialogue.spring_12_2}}", // Day before the Egg Festival
+				"spring_23_2": "{{i18n:Gamayun.Dialogue.spring_23_2}}", // Day before the Flower Dance
+				"summer_10_2": "{{i18n:Gamayun.Dialogue.summer_10_2}}", // Day before the Luau
+				"summer_27_2": "{{i18n:Gamayun.Dialogue.summer_27_2}}", // Day before the Midnight Jellies
+				"fall_15_2": "{{i18n:Gamayun.Dialogue.fall_15_2}}", // Day before the Stardew Fair
+				"fall_26_2": "{{i18n:Gamayun.Dialogue.fall_26_2}}", // Day before Spirit's Eve
+				"winter_7_2": "{{i18n:Gamayun.Dialogue.winter_7_2}}", // Day before the Ice Festival
+				"winter_24_2": "{{i18n:Gamayun.Dialogue.winter_24_2}}", // Day before Winter Star
+				
+				//resort Dialogue
+				"Resort_Entering": "{{i18n:Gamayun.Dialogue.fall_Sat2}}",
+				"Resort_Leaving": "{{i18n:Gamayun.Dialogue.spring_Fri6}}",
+				"Resort_Shore": "{{i18n:Gamayun.Dialogue.spring_Mon8}}",
+				"Resort_Chair": "{{i18n:Gamayun.Dialogue.winter_Mon}}",
+				"Resort_Bar": "{{i18n:Gamayun.Dialogue.summer_Thu10}}",
+				"Resort": "{{i18n:Gamayun.Dialogue.spring_Sat}}",
+				
+				// Schedule dialogue
+				"{{ModID}}_Gamayun.lostisland.000": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Gamayun.lostisland.001": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Gamayun.lostisland.002": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.002}}",
+				"{{ModID}}_Gamayun.lostisland.003": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.003}}",
+				"{{ModID}}_Gamayun.lostisland.004": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.004}}",
+				"{{ModID}}_Gamayun.lostisland.005": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.005}}",
+				"{{ModID}}_Gamayun.lostisland.006": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.006}}",
+			}
+		},
+	]
+}

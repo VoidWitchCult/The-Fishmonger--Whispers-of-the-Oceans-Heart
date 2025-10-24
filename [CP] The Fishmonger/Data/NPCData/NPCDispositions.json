@@ -40,31 +40,31 @@
 					"HiddenProfileEmoteFrameDuration": 200.0,
 					"WinterStarGifts": [
 						
-							{
-								"Id": "{{ModID}}_sunsetrose",
-								"ItemId": "(O){{ModID}}_sunsetrose",
-								"MinStack": 1,
-								"MaxStack": -1,
-								"Quality": -1,
-								"Condition": null
-							},
-							{
-								"Id": "{{ModID}}_Plokkfiskur",
-								"ItemId": "(O){{ModID}}_Plokkfiskur",
-								"MinStack": 1,
-								"MaxStack": -1,
-								"Quality": -1,
-								"Condition": null
-								
-							},
-							{
-								"Id": "{{ModID}}_teaset",
-								"ItemId": "(O)341",
-								"MinStack": 1,
-								"MaxStack": -1,
-								"Quality": -1,
-								"Condition": null
-							},
+						{
+							"Id": "{{ModID}}_sunsetrose",
+							"ItemId": "(O){{ModID}}_sunsetrose",
+							"MinStack": 1,
+							"MaxStack": -1,
+							"Quality": -1,
+							"Condition": null
+						},
+						{
+							"Id": "{{ModID}}_Plokkfiskur",
+							"ItemId": "(O){{ModID}}_Plokkfiskur",
+							"MinStack": 1,
+							"MaxStack": -1,
+							"Quality": -1,
+							"Condition": null
+							
+						},
+						{
+							"Id": "{{ModID}}_teaset",
+							"ItemId": "(O)341",
+							"MinStack": 1,
+							"MaxStack": -1,
+							"Quality": -1,
+							"Condition": null
+						},
 						
 					],
 					"FriendsAndFamily": {
@@ -81,466 +81,578 @@
 								"Y": 6
 							},
 							"Direction": "down"
-				}
-			],
-			"Size": {
-				"X": 16,
-				"Y": 32
-			},
-			"Breather": true,
-			"Appearance": [
-				{
-					"ID": "Usual Outfit",
-					"Precedence": -10,
-					"Weight": 1,
-					"Portrait": "Portraits/{{ModID}}_TheFishmonger",
-					"Sprite": "Characters/{{ModID}}_TheFishmonger"
-				},
-				{
-					"ID": "Egg Festival Outfit",
-					"Condition": "EVENT_ID festival_spring13",
-					"Precedence": -20,
-					"Weight": 1,
-					"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
-					"Sprite": "Characters/{{ModID}}_TheFishmongerEggFestival"
-				},
-				{
-					"ID": "Flower Dance Outfit",
-					"Condition": "EVENT_ID festival_spring24",
-					"Precedence": -20,
-					"Weight": 1,
-					"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
-					"Sprite": "Characters/{{ModID}}_TheFishmongerFlowerDance"
-				},
-				{
-					"ID": "Fair Outfit",
-					"Condition": "EVENT_ID festival_fall16",
-					"Precedence": -20,
-					"Weight": 1,
-					"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
-					"Sprite": "Characters/{{ModID}}_TheFishmongerFair"
-				},
-				{
-					"ID": "Ice Fishing Outfit",
-					"Condition": "EVENT_ID festival_winter8",
-					"Precedence": -20,
-					"Weight": 1,
-					"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
-					"Sprite": "Characters/{{ModID}}_TheFishmongerIceFishing"
-				},
-				{
-					"ID": "Luau Outfit",
-					"Condition": "EVENT_ID festival_summer11",
-					"Precedence": -20,
-					"Weight": 1,
-					"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
-					"Sprite": "Characters/{{ModID}}_TheFishmongerLuau"
-				},
-				{
-					"ID": "Moonlight Jellies Outfit",
-					"Condition": "EVENT_ID festival_summer28",
-					"Precedence": -20,
-					"Weight": 1,
-					"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
-					"Sprite": "Characters/{{ModID}}_TheFishmongerMoonlightJellies"
-				},
-				{
-					"ID": "Spirits Eve Outfit",
-					"Condition": "EVENT_ID festival_fall27",
-					"Precedence": -20,
-					"Weight": 1,
-					"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
-					"Sprite": "Characters/{{ModID}}_TheFishmongerSpiritsEve"
-				},
-				{
-					"ID": "Winter Star Outfit",
-					"Condition": "EVENT_ID festival_winter25",
-					"Precedence": -20,
-					"Weight": 1,
-					"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
-					"Sprite": "Characters/{{ModID}}_TheFishmongerWinterStar"
-				},
-			]
-		},	
-		//==== Mermaid =========================================================================
-		"{{ModID}}_MermaidCalliope": {
-			"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.Mermaid}}",
-			"BirthSeason": "spring",
-			"BirthDay": 14,
-			"HomeRegion": "Other",
-			"Gender": "Female",
-			"Manner": "Neutral",
-			"SocialAnxiety": "Neutral",
-			"Optimism": "Neutral",
-			"CanBeRomanced": false,
-			"SocialTab": "HiddenUntilMet",
-			"WinterStarParticipant": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Constance6Hearts",
-			"FlowerDanceCanDance": false,
-			"IsDarkSkinned": false,
-			"Calendar": "HiddenUntilMet",
-			"CanGreetNearbyCharacters": true,
-			"DumpsterDiveFriendshipEffect": "0",
-			"IntroductionsQuest": false,
-			"ExcludeFromPerfectionScore": false,
-			"EndSlideShow": "MainGroup",
-			"FriendsAndFamily": {
-				"{{ModID}}_SeaDudeBarnabas": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.CalliopeBarnabas}}",
-			},
-			"SpawnIfMissing": true,
-			"Home": [
-				{
-					"Id": "Default",
-					"Location": "{{ModId}}_LostIsland_MermaidHome",
-					"Tile": {
-						"X": 18,
-						"Y": 5
+						}
+					],
+					"Size": {
+						"X": 16,
+						"Y": 32
 					},
-					"Direction": "down"
-				}
-			],
-			"Size": {
-				"X": 16,
-				"Y": 32
-			},
-			"Breather": true,
-			"Appearance": [
-				{
-					"ID": "Usual Outfit",
-					"Precedence": -10,
-					"Weight": 1,
-					"Portrait": "Portraits/{{ModID}}_MermaidCalliope",
-					"Sprite": "Characters/{{ModID}}_MermaidCalliope"
-				},
-			]
-		},
-		//==== CoolGal =========================================================================
-		"{{ModID}}_CoolGalBernadette": {
-			"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.CoolGal}}",
-			"BirthSeason": "winter",
-			"BirthDay": 6,
-			"HomeRegion": "Other",
-			"Gender": "Female",
-			"Manner": "Neutral",
-			"SocialAnxiety": "Outgoing",
-			"Optimism": "Positive",
-			"CanBeRomanced": false,
-			"SocialTab": "HiddenUntilMet",
-			"WinterStarParticipant": false,
-			"FlowerDanceCanDance": false,
-			"IsDarkSkinned": false,
-			"Calendar": "HiddenUntilMet",
-			"DumpsterDiveFriendshipEffect": "0",
-			"IntroductionsQuest": false,
-			"ExcludeFromPerfectionScore": false,
-			"SpawnIfMissing": true,
-			"Home": [
-				{
-					"Id": "Default",
-					"Location": "{{ModId}}_LostIsland_CoolGalHome",
-					"Tile": {
-						"X": 9,
-						"Y": 5
+					"Breather": true,
+					"Appearance": [
+						{
+							"ID": "Usual Outfit",
+							"Precedence": -10,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_TheFishmonger",
+							"Sprite": "Characters/{{ModID}}_TheFishmonger"
+						},
+						{
+							"ID": "Egg Festival Outfit",
+							"Condition": "EVENT_ID festival_spring13",
+							"Precedence": -20,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
+							"Sprite": "Characters/{{ModID}}_TheFishmongerEggFestival"
+						},
+						{
+							"ID": "Flower Dance Outfit",
+							"Condition": "EVENT_ID festival_spring24",
+							"Precedence": -20,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
+							"Sprite": "Characters/{{ModID}}_TheFishmongerFlowerDance"
+						},
+						{
+							"ID": "Fair Outfit",
+							"Condition": "EVENT_ID festival_fall16",
+							"Precedence": -20,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
+							"Sprite": "Characters/{{ModID}}_TheFishmongerFair"
+						},
+						{
+							"ID": "Ice Fishing Outfit",
+							"Condition": "EVENT_ID festival_winter8",
+							"Precedence": -20,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
+							"Sprite": "Characters/{{ModID}}_TheFishmongerIceFishing"
+						},
+						{
+							"ID": "Luau Outfit",
+							"Condition": "EVENT_ID festival_summer11",
+							"Precedence": -20,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
+							"Sprite": "Characters/{{ModID}}_TheFishmongerLuau"
+						},
+						{
+							"ID": "Moonlight Jellies Outfit",
+							"Condition": "EVENT_ID festival_summer28",
+							"Precedence": -20,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
+							"Sprite": "Characters/{{ModID}}_TheFishmongerMoonlightJellies"
+						},
+						{
+							"ID": "Spirits Eve Outfit",
+							"Condition": "EVENT_ID festival_fall27",
+							"Precedence": -20,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
+							"Sprite": "Characters/{{ModID}}_TheFishmongerSpiritsEve"
+						},
+						{
+							"ID": "Winter Star Outfit",
+							"Condition": "EVENT_ID festival_winter25",
+							"Precedence": -20,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_TheFishmongerFestivals",
+							"Sprite": "Characters/{{ModID}}_TheFishmongerWinterStar"
+						},
+						{
+							"ID": "Wedding Outfit",
+							"Condition": "EVENT_ID {{ModID}}_Constance10Hearts",
+							"Precedence": -20,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_FishmongerWeddingPortrait",
+							"Sprite": "Characters/{{ModID}}_FishmongerWeddingSprites"
+						},
+					]
+				},	
+				//==== Mermaid =========================================================================
+				"{{ModID}}_MermaidCalliope": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.Mermaid}}",
+					"BirthSeason": "spring",
+					"BirthDay": 14,
+					"HomeRegion": "Other",
+					"Gender": "Female",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"CanBeRomanced": false,
+					"SocialTab": "HiddenUntilMet",
+					"WinterStarParticipant": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Constance6Hearts",
+					"FlowerDanceCanDance": false,
+					"IsDarkSkinned": false,
+					"Calendar": "HiddenUntilMet",
+					"CanGreetNearbyCharacters": true,
+					"DumpsterDiveFriendshipEffect": "0",
+					"IntroductionsQuest": false,
+					"ExcludeFromPerfectionScore": false,
+					"EndSlideShow": "MainGroup",
+					"FriendsAndFamily": {
+						"{{ModID}}_SeaDudeBarnabas": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.CalliopeBarnabas}}",
 					},
-					"Direction": "down"
-				}
-			],
-			"Size": {
-				"X": 16,
-				"Y": 32
-			},
-			"Breather": true,
-			"Appearance": [
-				{
-					"ID": "Usual Outfit",
-					"Precedence": -10,
-					"Weight": 1,
-					"Portrait": "Portraits/{{ModID}}_CoolGalBernadette",
-					"Sprite": "Characters/{{ModID}}_CoolGalBernadette"
-				},
-			]
-		},
-		//==== PIRATELAD =======================================================================
-		"{{ModID}}_PirateLadCaitrionaOFlannagain": {
-			"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.PirateLad}}",
-			"BirthSeason": "fall",
-			"BirthDay": 30,
-			"HomeRegion": "Other",
-			"Gender": "Female",
-			"Manner": "Polite",
-			"SocialAnxiety": "Shy",
-			"Optimism": "Neutral",
-			"CanBeRomanced": false, //set to true later
-			"SocialTab": "HiddenUntilMet",
-			"WinterStarParticipant": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Constance6Hearts",
-			"FlowerDanceCanDance": false, //set to true later
-			"IsDarkSkinned": true,
-			"Calendar": "HiddenUntilMet",
-			"CanGreetNearbyCharacters": true,
-			"DumpsterDiveFriendshipEffect": "0",
-			"IntroductionsQuest": false,
-			"ExcludeFromPerfectionScore": false,
-			"EndSlideShow": "MainGroup",
-			"SpawnIfMissing": true,
-			"Home": [
-				{
-					"Id": "Default",
-					"Location": "{{ModId}}_LostIsland_PirateLadHome",
-					"Tile": {
-						"X": 2,
-						"Y": 5
+					"SpawnIfMissing": true,
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_LostIsland_MermaidHome",
+							"Tile": {
+								"X": 18,
+								"Y": 5
+							},
+							"Direction": "down"
+						}
+					],
+					"Size": {
+						"X": 16,
+						"Y": 32
 					},
-					"Direction": "down"
-				}
-			],
-			"Size": {
-				"X": 16,
-				"Y": 32
-			},
-			"Breather": true,
-			"KissSpriteIndex": 28,
-			"KissSpriteFacingRight": false,
-			"Appearance": [
-				{
-					"ID": "Usual Outfit",
-					"Precedence": -10,
-					"Weight": 1,
-					"Portrait": "Portraits/{{ModID}}_PirateLadCaitrionaOFlannagain",
-					"Sprite": "Characters/{{ModID}}_PirateLadCaitrionaOFlannagain"
+					"Breather": true,
+					"Appearance": [
+						{
+							"ID": "Usual Outfit",
+							"Precedence": -10,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_MermaidCalliope",
+							"Sprite": "Characters/{{ModID}}_MermaidCalliope"
+						},
+						{
+							"ID": "Wedding Outfit",
+							"Condition": "EVENT_ID {{ModID}}_Constance10Hearts",
+							"Precedence": -20,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_MermaidWeddingPortrait",
+							"Sprite": "Characters/{{ModID}}_MermaidWeddingSprites"
+						},
+					]
 				},
-			]
-		},
-		//==== SEADUDE =========================================================================
-		"{{ModID}}_SeaDudeBarnabas": {
-			"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.SeaDude}}",
-			"BirthSeason": "summer",
-			"BirthDay": 1,
-			"HomeRegion": "Other",
-			"Gender": "Male",
-			"Manner": "Polite",
-			"SocialAnxiety": "Outgoing",
-			"Optimism": "Positive",
-			"CanBeRomanced": false, //set to true later
-			"SocialTab": "HiddenUntilMet",
-			"WinterStarParticipant": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Constance6Hearts",
-			"FlowerDanceCanDance": false, //set to true later
-			"IsDarkSkinned": true,
-			"Calendar": "HiddenUntilMet",
-			"CanGreetNearbyCharacters": true,
-			"DumpsterDiveFriendshipEffect": "0",
-			"IntroductionsQuest": false,
-			"ExcludeFromPerfectionScore": false,
-			"EndSlideShow": "MainGroup",
-			"FriendsAndFamily": {
-				"{{ModID}}_MermaidCalliope": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.BarnabasCalliope}}",
-			},
-			"SpawnIfMissing": true,
-			"Home": [
-				{
-					"Id": "Default",
-					"Location": "{{ModId}}_LostIsland_SeaDudeHome",
-					"Tile": {
-						"X": 10,
-						"Y": 5
+				//==== CoolGal =========================================================================
+				"{{ModID}}_CoolGalBernadette": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.CoolGal}}",
+					"BirthSeason": "winter",
+					"BirthDay": 6,
+					"HomeRegion": "Other",
+					"Gender": "Female",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"CanBeRomanced": false,
+					"SocialTab": "HiddenUntilMet",
+					"WinterStarParticipant": false,
+					"FlowerDanceCanDance": false,
+					"IsDarkSkinned": false,
+					"Calendar": "HiddenUntilMet",
+					"DumpsterDiveFriendshipEffect": "0",
+					"IntroductionsQuest": false,
+					"ExcludeFromPerfectionScore": false,
+					"SpawnIfMissing": true,
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_LostIsland_CoolGalHome",
+							"Tile": {
+								"X": 9,
+								"Y": 5
+							},
+							"Direction": "down"
+						}
+					],
+					"Size": {
+						"X": 16,
+						"Y": 32
 					},
-					"Direction": "down"
-				}
-			],
-			"Size": {
-				"X": 16,
-				"Y": 32
-			},
-			"Breather": true,
-			"KissSpriteIndex": 28,
-			"KissSpriteFacingRight": true,
-			"Appearance": [
-				{
-					"ID": "Usual Outfit",
-					"Precedence": -10,
-					"Weight": 1,
-					"Portrait": "Portraits/{{ModID}}_SeaDudeBarnabas",
-					"Sprite": "Characters/{{ModID}}_SeaDudeBarnabas"
+					"Breather": true,
+					"Appearance": [
+						{
+							"ID": "Usual Outfit",
+							"Precedence": -10,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_CoolGalBernadette",
+							"Sprite": "Characters/{{ModID}}_CoolGalBernadette"
+						},
+					]
 				},
-			]
+				//==== PIRATELAD =======================================================================
+				"{{ModID}}_PirateLadCaitrionaOFlannagain": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.PirateLad}}",
+					"BirthSeason": "fall",
+					"BirthDay": 30,
+					"HomeRegion": "Other",
+					"Gender": "Female",
+					"Manner": "Polite",
+					"SocialAnxiety": "Shy",
+					"Optimism": "Neutral",
+					"CanBeRomanced": false, //set to true later
+					"SocialTab": "HiddenUntilMet",
+					"WinterStarParticipant": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Constance6Hearts",
+					"FlowerDanceCanDance": false, //set to true later
+					"IsDarkSkinned": true,
+					"Calendar": "HiddenUntilMet",
+					"CanGreetNearbyCharacters": true,
+					"DumpsterDiveFriendshipEffect": "0",
+					"IntroductionsQuest": false,
+					"ExcludeFromPerfectionScore": false,
+					"EndSlideShow": "MainGroup",
+					"SpawnIfMissing": true,
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_LostIsland_PirateLadHome",
+							"Tile": {
+								"X": 2,
+								"Y": 5
+							},
+							"Direction": "down"
+						}
+					],
+					"Size": {
+						"X": 16,
+						"Y": 32
+					},
+					"Breather": true,
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": false,
+					"Appearance": [
+						{
+							"ID": "Usual Outfit",
+							"Precedence": -10,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_PirateLadCaitrionaOFlannagain",
+							"Sprite": "Characters/{{ModID}}_PirateLadCaitrionaOFlannagain"
+						},
+					]
+				},
+				//==== SEADUDE =========================================================================
+				"{{ModID}}_SeaDudeBarnabas": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.SeaDude}}",
+					"BirthSeason": "summer",
+					"BirthDay": 1,
+					"HomeRegion": "Other",
+					"Gender": "Male",
+					"Manner": "Polite",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"CanBeRomanced": false, //set to true later
+					"SocialTab": "HiddenUntilMet",
+					"WinterStarParticipant": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Constance6Hearts",
+					"FlowerDanceCanDance": false, //set to true later
+					"IsDarkSkinned": true,
+					"Calendar": "HiddenUntilMet",
+					"CanGreetNearbyCharacters": true,
+					"DumpsterDiveFriendshipEffect": "0",
+					"IntroductionsQuest": false,
+					"ExcludeFromPerfectionScore": false,
+					"EndSlideShow": "MainGroup",
+					"FriendsAndFamily": {
+						"{{ModID}}_MermaidCalliope": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.BarnabasCalliope}}",
+					},
+					"SpawnIfMissing": true,
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_LostIsland_SeaDudeHome",
+							"Tile": {
+								"X": 10,
+								"Y": 5
+							},
+							"Direction": "down"
+						}
+					],
+					"Size": {
+						"X": 16,
+						"Y": 32
+					},
+					"Breather": true,
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"Appearance": [
+						{
+							"ID": "Usual Outfit",
+							"Precedence": -10,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_SeaDudeBarnabas",
+							"Sprite": "Characters/{{ModID}}_SeaDudeBarnabas"
+						},
+					]
+				},
+				//==== GAMAYUN =========================================================================
+				"{{ModID}}_LibrarianGamayun": {
+					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.Librarian}}",
+					"BirthSeason": "winter",
+					"BirthDay": 28,
+					"HomeRegion": "Other",
+					"Gender": "Female",
+					"Manner": "Polite",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Neutral",
+					"CanBeRomanced": false, 
+					"SocialTab": "HiddenUntilMet",
+					"WinterStarParticipant": false,
+					"FlowerDanceCanDance": false, 
+					"IsDarkSkinned": true,
+					"Calendar": "HiddenUntilMet",
+					"CanSocialize": "FALSE",
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanVisitIsland": "FALSE",
+					"DumpsterDiveFriendshipEffect": "0",
+					"ItemDeliveryQuests": "FALSE",
+					"IntroductionsQuest": false,
+					"ExcludeFromPerfectionScore": false,
+					"EndSlideShow": "MainGroup",
+					"FriendsAndFamily": {
+						"{{ModID}}_SeaDudeBarnabas": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.GamayunBarnabas}}",
+					},
+					"SpawnIfMissing": true,
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_LostIsland_Library",
+							"Tile": {
+								"X": 49,
+								"Y": 30
+							},
+							"Direction": "down"
+						}
+					],
+					"Size": {
+						"X": 16,
+						"Y": 32
+					},
+					"Breather": true,
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": false,
+					"Appearance": [
+						{
+							"ID": "Usual Outfit",
+							"Precedence": -10,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_LibrarianGamayun",
+							"Sprite": "Characters/{{ModID}}_LibrarianGamayun"
+						},
+					]
+				},
+			},
 		},
-	},
-},
-//==============================================================================================
-//==== N P C   G I F T   T A S T E S ===========================================================
-//==============================================================================================
-{
-	"LogName": "NPC Gift Tastes",
-	"Action": "EditData",
-	"Target": "Data/NPCGiftTastes",
-	"Entries": {
-		"{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Love}}/{{ModID}}_PinkMermaidScale {{ModID}}_SunsetMermaidScale {{ModID}}_MossyMermaidScale {{ModID}}_SummerMermaidScale {{ModID}}_CharcoalMermaidScale {{ModID}}_FrostMermaidScale {{ModID}}_SunsetRoseTea {{ModID}}_BloodstainedRoseTea {{ModID}}_sunsetrose {{ModID}}_LoversStar 155 162 204 397 565 202 614 815 -4 341/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Like}}/82 116 138 259 394 550 148/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Dislike}}/203 772 766/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Hate}}/-20 308 283 589/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Neutral}}/154 447 459 305 444",
-		"{{ModID}}_MermaidCalliope": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Love}}/636 {{ModID}}_StarlightFruit {{ModID}}_MermaidsDelight {{ModID}}_LoversStar {{ModID}}_oceanflax {{ModID}}_scallure {{ModID}}_sunsetrose {{ModID}}_PowderGreenPearl {{ModID}}_PowderBluePearl {{ModID}}_PowderOrangePearl {{ModID}}_PowderPinkPearl {{ModID}}_SpecialFlowerBouquet 797/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Like}}/{{ModID}}_FruitOfGinnungagap {{ModID}}_PowderPinkStarfish {{ModID}}_OceanFlaxCloth 119 447 454 -4/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Dislike}}/747 772 789 /{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Hate}}/589 446 441/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Neutral}}/-5 -6",
-		"{{ModID}}_CoolGalBernadette": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Love}}/{{ModID}}_OceanFlaxCloth {{ModID}}_PowderPinkPearl {{ModID}}_PinkMermaidScale {{ModID}}_PastelCottonCandy {{ModID}}_RoseCandy 254 337/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Like}}/{{ModID}}_SunsetMermaidScale {{ModID}}_PowderOrangePearl 350 397 595/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Dislike}}/248 257/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Hate}}/303 346/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Neutral}}/348",
-		"{{ModID}}_PirateLadCaitrionaOFlannagain": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Love}}/{{ModID}}_bloodstainedrose {{ModID}}_PowderOrangePearl {{ModID}}_MossyMermaidScale {{ModID}}_BloodstainedRoseTea 346 459 166 303/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Like}}/{{ModID}}_MapRiceCrispy/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Dislike}}/78 342/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Hate}}/807 307 306 308/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Neutral}}/350 446",
-		"{{ModID}}_SeaDudeBarnabas": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Love}}/{{ModID}}_MermaidsDelight {{ModID}}_StarlightFruit {{ModID}}_petrichor {{ModID}}_PowderGreenPearl/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Like}}/{{ModID}}_fisheyebeans {{ModID}}_MermaidWoodBark {{ModID}}_MermaidHardwood {{ModID}}_MermaidWood -16/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Dislike}}//{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Hate}}/item_alcohol/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Neutral}}/852",
-	}
-},
-//==============================================================================================
-//==== A N I M A T I O N S =====================================================================
-//==============================================================================================
-{
-	"LogName": "Animation Descriptions",
-	"Action": "EditData",
-	"Target": "Data/animationDescriptions",
-	"Entries": {
-		"{{ModID}}_TheFishmonger_drinking": "24 24 24 24 24/25 25 25 25 25 25 26 26 26 26 26 26 25 25 25 25 25/24",
-		"{{ModID}}_TheFishmonger_fish": "8/8 8 9 9 10 10 11 11/8",
-		"{{ModID}}_TheFishmonger_sitting": "28/28 28 28 29 29 28 28 28 28 28 28 28/28",
-		"{{ModID}}_MermaidCalliope_sitting": "16/17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17/17",
-		"{{ModID}}_MermaidCalliope_laying": "18/18 18 18 18 18 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 18 18 18 18 18 18 18 19 19/18",
-		"{{ModID}}_MermaidCalliope_sitting2": "20/20 20 21 21 22 22 21 21 20 20 20 20 20 21 21 22 22 21 21/20",
-		"{{ModID}}_coolGalBernadette_sleep": "20/20/20",
-		"{{ModID}}_CoolGalBernadette_snooze": "20/20/20",
-		"{{ModID}}_CoolGalBernadette_sitting": "16/16 16 16 16 16 17 17 17 18 18 18 17 17 16 16 16 16 16/16",
-		"{{ModID}}_CoolGalBernadette_sign": "21/ 21 21 21 21 21 21 21 21 21 21 21 22 22 22 22 22 21 21 21 21/21",
-		"{{ModID}}_CoolGalBernadette_drinking": "24 24 24 24 24/25 25 25 25 25 25 26 26 26 26 26 26 25 25 25 25 25/24",
-		"{{ModID}}_pirateladcaitrionaoflannagain_sleep": "51/51/51",
-		"{{ModID}}_PirateLadCaitrionaOFlannagain_snooze": "51/51/51",
-		"{{ModID}}_PirateLadCaitrionaOFlannagain_depressed": "16/16 16 16 16 16 16 16 17 17 17 17 18 18 18 18 19 19 19 19 19 19 20 20 20 20 19 19 19 18 18 18 17 17 17 16 16/16",
-		"{{ModID}}_PirateLadCaitrionaOFlannagain_waving": "22/22 22 22 23 23 23 22 22 23 23/23",
-		"{{ModID}}_PirateLadCaitrionaOFlannagain_drinking": "4 24 24 24 24/25 25 25 25 25 25 26 26 26 26 26 26 25 25 25 25 25/24",
-		"{{ModID}}_PirateLadCaitrionaOFlannagain_sitting2": "29/29 29 29 29 29 30 30 30 30 31 31 31 31 30 30 30 30 30/29",
-		"{{ModID}}_SeaDudeBarnabas_sitting": "16/16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 18 18 18 18 17 17 17 17 16 16 16 19 19 19 19/16",
-		"{{ModID}}_SeaDudeBarnabas_waving": "22/22 22 22 23 23 23 23/22",
-		"{{ModID}}_SeaDudeBarnabas_sleep": "51/51/51",
-		"{{ModID}}_SeaDudeBarnabas_snooze": "51/51/51",
-		"{{ModID}}_SeaDudeBarnabas_drinking": "24 24 24 24 24/25 25 25 25 25 25 26 26 26 26 26 26 25 25 25 25 25/24",
-		"{{ModID}}_SeaDudeBarnabas_sittingdown": "27/27/27",
-		"{{ModID}}_SeaDudeBarnabas_sitting2": "29/29/29",
-		"{{ModID}}_SeaDudeBarnabas_chiseling": "43/43 43 43 40 40 40 40 40 41 41 41 41 41 42 42 42 42 42 43 43 43/43",
-		"{{ModID}}_SeaDudeBarnabas_laughing": "30/30 30 30 31 31 31/31",
-		"{{ModID}}_SeaDudeBarnabas_raking": "32/32 32 32 33 33 33 33 34 34 34/34",
-		"{{ModID}}_SeaDudeBarnabas_writing": "36/36 36 36 36 36 37 37 37 37/37",
-		"{{ModID}}_SeaDudeBarnabas_working": "38/38 38 38 39 39 39/39",
-		"{{ModID}}_SeaDudeBarnabas_laying": "21/21/21",
-		
-	}
-},
-//==============================================================================================
-//==== I M A G E S =============================================================================
-//==============================================================================================
-//==== THE FISHMONGER ==========================================================================
-{
-	"LogName": "Constance Portraits",
-	"Action": "Load",
-	"Target": "Portraits/{{ModID}}_TheFishmonger",
-	"FromFile": "assets/Images/Constance/Fishmonger_portrait.png"
-},
-{
-	"LogName": "Constance Festival Portraits",
-	"Action": "Load",
-	"Target": "Portraits/{{ModID}}_TheFishmongerFestivals",
-	"FromFile": "assets/Images/Constance/Fishmonger_portrait2.png"
-},
-{
-	"LogName": "Constance Sprites",
-	"Action": "Load",
-	"Target": "Characters/{{ModID}}_TheFishmonger",
-	"FromFile": "assets/Images/Constance/Fishmonger_spritesheet.png"
-},
-{
-	"LogName": "Constance Egg Festival Sprites",
-	"Action": "Load",
-	"Target": "Characters/{{ModID}}_TheFishmongerEggFestival",
-	"FromFile": "assets/Images/Constance/Fishmonger_spritesheetEggFestival.png"
-},
-{
-	"LogName": "Constance Flower Dance Sprites",
-	"Action": "Load",
-	"Target": "Characters/{{ModID}}_TheFishmongerFlowerDance",
-	"FromFile": "assets/Images/Constance/Fishmonger_spritesheetFlowerDance.png"
-},
-{
-	"LogName": "Constance Fair Sprites",
-	"Action": "Load",
-	"Target": "Characters/{{ModID}}_TheFishmongerFair",
-	"FromFile": "assets/Images/Constance/Fishmonger_spritesheetFair.png"
-},
-{
-	"LogName": "Constance Ice Fishing Sprites",
-	"Action": "Load",
-	"Target": "Characters/{{ModID}}_TheFishmongerIceFishing",
-	"FromFile": "assets/Images/Constance/Fishmonger_spritesheetIceFishing.png"
-},
-{
-	"LogName": "Constance Luau Sprites",
-	"Action": "Load",
-	"Target": "Characters/{{ModID}}_TheFishmongerLuau",
-	"FromFile": "assets/Images/Constance/Fishmonger_spritesheetLuau.png"
-},
-{
-	"LogName": "Constance Moonlight Jellies Sprites",
-	"Action": "Load",
-	"Target": "Characters/{{ModID}}_TheFishmongerMoonlightJellies",
-	"FromFile": "assets/Images/Constance/Fishmonger_spritesheetMoonlightJellies.png"
-},
-{
-	"LogName": "Constance Spirits Eve Sprites",
-	"Action": "Load",
-	"Target": "Characters/{{ModID}}_TheFishmongerSpiritsEve",
-	"FromFile": "assets/Images/Constance/Fishmonger_spritesheetSpiritsEve.png"
-},
-{
-	"LogName": "Constance Winter Star Sprites",
-	"Action": "Load",
-	"Target": "Characters/{{ModID}}_TheFishmongerWinterStar",
-	"FromFile": "assets/Images/Constance/Fishmonger_spritesheetWinterStar.png"
-},
-//==== MERMAID =================================================================================
-{
-	"LogName": "Calliope Portraits",
-	"Action": "Load",
-	"Target": "Portraits/{{ModID}}_MermaidCalliope",
-	"FromFile": "assets/Images/Mermaid/Mermaid_portrait.png"
-},
-{
-	"LogName": "Calliope Sprites",
-	"Action": "Load",
-	"Target": "Characters/{{ModID}}_MermaidCalliope",
-	"FromFile": "assets/Images/Mermaid/Mermaid_spritesheet.png"
-},
-//==== COOLGAL =================================================================================
-{
-	"LogName": "Bernadette Portraits",
-	"Action": "Load",
-	"Target": "Portraits/{{ModID}}_CoolGalBernadette",
-	"FromFile": "assets/Images/CoolGal/CoolGal_portrait.png"
-},
-{
-	"LogName": "Bernadette Sprites",
-	"Action": "Load",
-	"Target": "Characters/{{ModID}}_CoolGalBernadette",
-	"FromFile": "assets/Images/CoolGal/CoolGal_spritesheet.png"
-},
-//==== PIRATELAD ===============================================================================
-{
-	"LogName": "Bernadette Portraits",
-	"Action": "Load",
-	"Target": "Portraits/{{ModID}}_PirateLadCaitrionaOFlannagain",
-	"FromFile": "assets/Images/PirateLad/PirateLad_portrait.png"
-},
-{
-	"LogName": "Bernadette Sprites",
-	"Action": "Load",
-	"Target": "Characters/{{ModID}}_PirateLadCaitrionaOFlannagain",
-	"FromFile": "assets/Images/PirateLad/PirateLad_spritesheet.png"
-},
-//==== SEADUDE =================================================================================
-{
-	"LogName": "SeaDude Portraits",
-	"Action": "Load",
-	"Target": "Portraits/{{ModID}}_SeaDudeBarnabas",
-	"FromFile": "assets/Images/SeaDude/SeaDude_portrait.png"
-},
-{
-	"LogName": "SeaDude Sprites",
-	"Action": "Load",
-	"Target": "Characters/{{ModID}}_SeaDudeBarnabas",
-	"FromFile": "assets/Images/SeaDude/SeaDude_spritesheet.png"
-},
-]
+		//==============================================================================================
+		//==== N P C   G I F T   T A S T E S ===========================================================
+		//==============================================================================================
+		{
+			"LogName": "NPC Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Love}}/{{ModID}}_PinkMermaidScale {{ModID}}_SunsetMermaidScale {{ModID}}_MossyMermaidScale {{ModID}}_SummerMermaidScale {{ModID}}_CharcoalMermaidScale {{ModID}}_FrostMermaidScale {{ModID}}_SunsetRoseTea {{ModID}}_BloodstainedRoseTea {{ModID}}_sunsetrose {{ModID}}_LoversStar 155 162 204 397 565 202 614 815 -4 341/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Like}}/82 116 138 259 394 550 148/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Dislike}}/203 772 766/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Hate}}/-20 308 283 589/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Neutral}}/154 447 459 305 444",
+				"{{ModID}}_MermaidCalliope": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Love}}/636 {{ModID}}_StarlightFruit {{ModID}}_MermaidsDelight {{ModID}}_LoversStar {{ModID}}_oceanflax {{ModID}}_scallure {{ModID}}_sunsetrose {{ModID}}_PowderGreenPearl {{ModID}}_PowderBluePearl {{ModID}}_PowderOrangePearl {{ModID}}_PowderPinkPearl {{ModID}}_SpecialFlowerBouquet 797/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Like}}/{{ModID}}_FruitOfGinnungagap {{ModID}}_PowderPinkStarfish {{ModID}}_OceanFlaxCloth 119 447 454 -4/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Dislike}}/747 772 789 /{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Hate}}/589 446 441/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Neutral}}/-5 -6",
+				"{{ModID}}_CoolGalBernadette": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Love}}/{{ModID}}_OceanFlaxCloth {{ModID}}_PowderPinkPearl {{ModID}}_PinkMermaidScale {{ModID}}_PastelCottonCandy {{ModID}}_RoseCandy 254 337/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Like}}/{{ModID}}_SunsetMermaidScale {{ModID}}_PowderOrangePearl 350 397 595/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Dislike}}/248 257/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Hate}}/303 346/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Neutral}}/348",
+				"{{ModID}}_PirateLadCaitrionaOFlannagain": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Love}}/{{ModID}}_bloodstainedrose {{ModID}}_PowderOrangePearl {{ModID}}_MossyMermaidScale {{ModID}}_BloodstainedRoseTea 346 459 166 303/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Like}}/{{ModID}}_MapRiceCrispy/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Dislike}}/78 342/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Hate}}/807 307 306 308/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Neutral}}/350 446",
+				"{{ModID}}_SeaDudeBarnabas": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Love}}/{{ModID}}_MermaidsDelight {{ModID}}_StarlightFruit {{ModID}}_petrichor {{ModID}}_PowderGreenPearl/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Like}}/{{ModID}}_fisheyebeans {{ModID}}_MermaidWoodBark {{ModID}}_MermaidHardwood {{ModID}}_MermaidWood -16/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Dislike}}//{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Hate}}/item_alcohol/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Neutral}}/852",
+			}
+		},
+		//==============================================================================================
+		//==== A N I M A T I O N S =====================================================================
+		//==============================================================================================
+		{
+			"LogName": "Animation Descriptions",
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"Entries": {
+				"{{ModID}}_TheFishmonger_drinking": "24 24 24 24 24/25 25 25 25 25 25 26 26 26 26 26 26 25 25 25 25 25/24",
+				"{{ModID}}_TheFishmonger_fish": "8/8 8 9 9 10 10 11 11/8",
+				"{{ModID}}_TheFishmonger_sitting": "28/28 28 28 29 29 28 28 28 28 28 28 28/28",
+				"{{ModID}}_MermaidCalliope_sitting": "16/17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17/17",
+				"{{ModID}}_MermaidCalliope_laying": "18/18 18 18 18 18 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 18 18 18 18 18 18 18 19 19/18",
+				"{{ModID}}_MermaidCalliope_sitting2": "20/20 20 21 21 22 22 21 21 20 20 20 20 20 21 21 22 22 21 21/20",
+				"{{ModID}}_coolGalBernadette_sleep": "20/20/20",
+				"{{ModID}}_CoolGalBernadette_snooze": "20/20/20",
+				"{{ModID}}_CoolGalBernadette_sitting": "16/16 16 16 16 16 17 17 17 18 18 18 17 17 16 16 16 16 16/16",
+				"{{ModID}}_CoolGalBernadette_sign": "21/ 21 21 21 21 21 21 21 21 21 21 21 22 22 22 22 22 21 21 21 21/21",
+				"{{ModID}}_CoolGalBernadette_drinking": "24 24 24 24 24/25 25 25 25 25 25 26 26 26 26 26 26 25 25 25 25 25/24",
+				"{{ModID}}_pirateladcaitrionaoflannagain_sleep": "51/51/51",
+				"{{ModID}}_PirateLadCaitrionaOFlannagain_snooze": "51/51/51",
+				"{{ModID}}_PirateLadCaitrionaOFlannagain_depressed": "16/16 16 16 16 16 16 16 17 17 17 17 18 18 18 18 19 19 19 19 19 19 20 20 20 20 19 19 19 18 18 18 17 17 17 16 16/16",
+				"{{ModID}}_PirateLadCaitrionaOFlannagain_waving": "22/22 22 22 23 23 23 22 22 23 23/23",
+				"{{ModID}}_PirateLadCaitrionaOFlannagain_drinking": "4 24 24 24 24/25 25 25 25 25 25 26 26 26 26 26 26 25 25 25 25 25/24",
+				"{{ModID}}_PirateLadCaitrionaOFlannagain_sitting2": "29/29 29 29 29 29 30 30 30 30 31 31 31 31 30 30 30 30 30/29",
+				"{{ModID}}_SeaDudeBarnabas_sitting": "16/16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 18 18 18 18 17 17 17 17 16 16 16 19 19 19 19/16",
+				"{{ModID}}_SeaDudeBarnabas_waving": "22/22 22 22 23 23 23 23/22",
+				"{{ModID}}_SeaDudeBarnabas_sleep": "51/51/51",
+				"{{ModID}}_SeaDudeBarnabas_snooze": "51/51/51",
+				"{{ModID}}_SeaDudeBarnabas_drinking": "24 24 24 24 24/25 25 25 25 25 25 26 26 26 26 26 26 25 25 25 25 25/24",
+				"{{ModID}}_SeaDudeBarnabas_sittingdown": "27/27/27",
+				"{{ModID}}_SeaDudeBarnabas_sitting2": "29/29/29",
+				"{{ModID}}_SeaDudeBarnabas_chiseling": "43/43 43 43 40 40 40 40 40 41 41 41 41 41 42 42 42 42 42 43 43 43/43",
+				"{{ModID}}_SeaDudeBarnabas_laughing": "30/30 30 30 31 31 31/31",
+				"{{ModID}}_SeaDudeBarnabas_raking": "32/32 32 32 33 33 33 33 34 34 34/34",
+				"{{ModID}}_SeaDudeBarnabas_writing": "36/36 36 36 36 36 37 37 37 37/37",
+				"{{ModID}}_SeaDudeBarnabas_working": "38/38 38 38 39 39 39/39",
+				"{{ModID}}_SeaDudeBarnabas_laying": "21/21/21",
+				"{{ModID}}_LibrarianGamayun_magic": "16/16 17 17 18 18 19 19/16",
+				"{{ModID}}_LibrarianGamayun_sorting": "20/20 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 30 30 31 31/31//offset 22 0",
+				
+			}
+		},
+		//==============================================================================================
+		//==== I M A G E S =============================================================================
+		//==============================================================================================
+		//==== THE FISHMONGER ==========================================================================
+		{
+			"LogName": "Constance Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModID}}_TheFishmonger",
+			"FromFile": "assets/Images/Constance/Fishmonger_portrait.png"
+		},
+		{
+			"LogName": "Constance Festival Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModID}}_TheFishmongerFestivals",
+			"FromFile": "assets/Images/Constance/Fishmonger_portrait2.png"
+		},
+		{
+			"LogName": "Constance Wedding Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModID}}_FishmongerWeddingPortrait",
+			"FromFile": "assets/Images/Constance/Fishmonger_Wedding.png"
+		},
+		{
+			"LogName": "Constance Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_TheFishmonger",
+			"FromFile": "assets/Images/Constance/Fishmonger_spritesheet.png"
+		},
+		{
+			"LogName": "Constance Egg Festival Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_TheFishmongerEggFestival",
+			"FromFile": "assets/Images/Constance/Fishmonger_spritesheetEggFestival.png"
+		},
+		{
+			"LogName": "Constance Flower Dance Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_TheFishmongerFlowerDance",
+			"FromFile": "assets/Images/Constance/Fishmonger_spritesheetFlowerDance.png"
+		},
+		{
+			"LogName": "Constance Fair Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_TheFishmongerFair",
+			"FromFile": "assets/Images/Constance/Fishmonger_spritesheetFair.png"
+		},
+		{
+			"LogName": "Constance Ice Fishing Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_TheFishmongerIceFishing",
+			"FromFile": "assets/Images/Constance/Fishmonger_spritesheetIceFishing.png"
+		},
+		{
+			"LogName": "Constance Luau Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_TheFishmongerLuau",
+			"FromFile": "assets/Images/Constance/Fishmonger_spritesheetLuau.png"
+		},
+		{
+			"LogName": "Constance Moonlight Jellies Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_TheFishmongerMoonlightJellies",
+			"FromFile": "assets/Images/Constance/Fishmonger_spritesheetMoonlightJellies.png"
+		},
+		{
+			"LogName": "Constance Spirits Eve Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_TheFishmongerSpiritsEve",
+			"FromFile": "assets/Images/Constance/Fishmonger_spritesheetSpiritsEve.png"
+		},
+		{
+			"LogName": "Constance Winter Star Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_TheFishmongerWinterStar",
+			"FromFile": "assets/Images/Constance/Fishmonger_spritesheetWinterStar.png"
+		},
+		{
+			"LogName": "Constance Wedding Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_FishmongerWeddingSprites",
+			"FromFile": "assets/Images/Constance/Fishmonger_spritesheetWedding.png"
+		},
+		//==== MERMAID =================================================================================
+		{
+			"LogName": "Calliope Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModID}}_MermaidCalliope",
+			"FromFile": "assets/Images/Mermaid/Mermaid_portrait.png"
+		},
+		{
+			"LogName": "Calliope Wedding Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModID}}_MermaidWeddingPortrait",
+			"FromFile": "assets/Images/Mermaid/Mermaid_Wedding.png"
+		},
+		{
+			"LogName": "Calliope Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_MermaidCalliope",
+			"FromFile": "assets/Images/Mermaid/Mermaid_spritesheet.png"
+		},
+		{
+			"LogName": "Calliope Wedding Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_MermaidWeddingSprites",
+			"FromFile": "assets/Images/Mermaid/Mermaid_spritesheetWedding.png"
+		},
+		//==== COOLGAL =================================================================================
+		{
+			"LogName": "Bernadette Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModID}}_CoolGalBernadette",
+			"FromFile": "assets/Images/CoolGal/CoolGal_portrait.png"
+		},
+		{
+			"LogName": "Bernadette Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_CoolGalBernadette",
+			"FromFile": "assets/Images/CoolGal/CoolGal_spritesheet.png"
+		},
+		//==== PIRATELAD ===============================================================================
+		{
+			"LogName": "Bernadette Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModID}}_PirateLadCaitrionaOFlannagain",
+			"FromFile": "assets/Images/PirateLad/PirateLad_portrait.png"
+		},
+		{
+			"LogName": "Bernadette Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_PirateLadCaitrionaOFlannagain",
+			"FromFile": "assets/Images/PirateLad/PirateLad_spritesheet.png"
+		},
+		//==== SEADUDE =================================================================================
+		{
+			"LogName": "SeaDude Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModID}}_SeaDudeBarnabas",
+			"FromFile": "assets/Images/SeaDude/SeaDude_portrait.png"
+		},
+		{
+			"LogName": "SeaDude Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_SeaDudeBarnabas",
+			"FromFile": "assets/Images/SeaDude/SeaDude_spritesheet.png"
+		},
+		//==== GAMAYUN =================================================================================
+		{
+			"LogName": "Librarian Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModID}}_LibrarianGamayun",
+			"FromFile": "assets/Images/Librarian/Librarian_portrait.png"
+		},
+		{
+			"LogName": "Librarian Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_LibrarianGamayun",
+			"FromFile": "assets/Images/Librarian/Librarian_wings_spritesheet.png"
+		},
+	]
 }

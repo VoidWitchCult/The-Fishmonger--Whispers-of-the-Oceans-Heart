@@ -298,9 +298,10 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.Schedule.Dialogue.birdie.002": "Watching the sun set has something magical. Sometimes I wish I had someone special to share this moment with. Oh well.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Schedule.Dialogue.birdie.003": "Ah...I've got nothing to say...#$b#Sometimes certain things will make you speechless, like a beautiful sunset in the heat of the island. Or pouring the perfect cup of green tea...",
 	"VoidWitchCult.CP.TheFishmongerNPC.Schedule.Dialogue.troutderby.000": "Oh! I am getting ready to take part in the Trout Derby. Just taking a moment here to enjoy the view, heh. $1",
-	"VoidWitchCult.CP.TheFishmongerNPC.Schedule.Dialogue.troutderby.001": "I'll be here all day. There's some Googans and Greenhorns here that chew me a good one off my ears but I'll jsut stuff em with bait and ignore em. $1",
+	"VoidWitchCult.CP.TheFishmongerNPC.Schedule.Dialogue.troutderby.001": "I'll be here all day. There's some Googans and Greenhorns here that chew me a good one off my ears but I'll just stuff em with bait and ignore em. $1",
 	"VoidWitchCult.CP.TheFishmongerNPC.Schedule.Dialogue.squidfest.000": "Mhm, Another good time to fish me some squid in home waters.#$b#",
 	"VoidWitchCult.CP.TheFishmongerNPC.Schedule.Dialogue.squidfest.001": "Ah, nothing beats fishing. And to top it off I get to enjoy some good ol squid with big bro later, heh! $1",
+	"Schedule.Dialogue.lostisland.001": "Hm, it's actually quite nice hanging out with a bunch of people.#$b#Plus, Barnabas really knows how to grill fish nicely.",
 	
 	//==============================================================================================
 	//==== M E R M A I D ===========================================================================
@@ -545,7 +546,7 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Mon64": "Hey, @! How's the farm life going? Came here to enjoy the island life for a while?#$b#One of these days I should really show you my favorite spots here.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Tue6": "When my dad was still around he'd always take me on little trips on his motorcycle. I really enjoyed these rides a lot.#$b#The close bond I had with him is something I treasure to this day.$1#$b#He's one of the main influences that shaped how I live my life today.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Wed6": "Believe it or not but I do enjoy the occassional tear-jerker movie. Even with a bad boy image I think it should be fine to show your vulnerable side now and again, don't you think?",
-	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Thu6": "Weekend is approaching, got any plans?#$b#I do like to take some trip to Point Memoria and check out what the merchant there has to offer.",
+	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Thu6": "Weekend is approaching, got any plans?#$b#I do like to take some trip to Point Memoria and check out what the merchant there has to offer. They come once a month since the travelling time for them is said to be really long....or so I've heard.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Fri6": "I've heard a few things about this island that makes staying here even more interesting. Have you ever heard the old tale of the late king of the merfolk, Llyr?",
 	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sat6": "Saturdays are for bad decisions. You're free of the week and got some fun freetime to spend.#$b#Whereas Sundays are for regrets and sobering up after your silly ideas, hehe.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Sun6": "Thought I'd do something silly? Nah, I stand by my words.#$b#If I pull a stupid stunt then I accept the consequences. Not that anything happened though, just for the record.",
@@ -891,6 +892,107 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Schedule.Dialogue.lostisland.005": "...$8#$b#.........$8#$b#...ah! Sorry, I was in thoughts. Hello there, @.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Schedule.Dialogue.lostisland.006": "Hm...these stories from long gone-by eras are fascinating...",
 	"VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Schedule.Dialogue.lostisland.007": "I enjoy when we come together and hang out on Sunday!#$b#It helps with catching up on things and having a moment to just relax and do silly stuff, heh!$1",
+	
+	//==============================================================================================
+	//=== LIBRARIAN ==================================================================================
+	//==============================================================================================
+	
+	// GENERAL
+	"Gamayun.Gifttastes.Love": "One is antisocial, you shouldn't be able to give one gifts.",
+	"Gamayun.Gifttastes.Like": "One is antisocial, you shouldn't be able to give one gifts.",
+	"Gamayun.Gifttastes.Dislike": "One is antisocial, you shouldn't be able to give one gifts.",
+	"Gamayun.Gifttastes.Hate": "One is antisocial, you shouldn't be able to give one gifts.",
+	"Gamayun.Gifttastes.Neutral": "One is antisocial, you shouldn't be able to give one gifts.",
+	"Gamayun.Dialogue.DumpsterDiveComment": "Hm...do make sure to properly disinfect yourself after dumpster diving. One does not want you to catch anything.",
+	"amayun.Dialogue.HitBySlingshot": "Most devious. One shall include you in ones next hex.$2",
+	"Gamayun.Dialogue.RejectMovieTicket": "One does not have time for moving pictures. The books are calling ones name instead.",
+	"Gamayun.Dialogue.GreenRain": "Most fascinating. It is always a pleasure to see natures curious ways.",
+	"Dialogue.GreenRainFinished": "Ah, regretful. One was going to collect some rainwater for a few spells...",
+	"Gamayun.Dialogue.GreenRain2": "One enjoys these downpours. Like a supermoon a rare occassion with special magic properties.",
+	
+	// DIALOGUE EXTRA
+	"Gamayun.Dialogue.Introduction": "Most pleasing to meet one such as yourself. One goes by many names but your humble self can use the name 'Gamayun'.",
+	"Gamayun.Dialogue.birthdayLoveA": "One is antisocial, you shouldn't be able to give one gifts.",
+	"Gamayun.Dialogue.birthdayLoveB": "One is antisocial, you shouldn't be able to give one gifts.",
+	"Gamayun.Dialogue.birthdayLikeA": "One is antisocial, you shouldn't be able to give one gifts.",
+	"Gamayun.Dialogue.birthdayLikeB": "One is antisocial, you shouldn't be able to give one gifts.",
+	"Gamayun.Dialogue.birthdayDislikeA": "One is antisocial, you shouldn't be able to give one gifts.",
+	"Gamayun.Dialogue.birthdayDislikeB": "One is antisocial, you shouldn't be able to give one gifts.",
+	"Gamayun.Dialogue.birthdayNeutralA": "One is antisocial, you shouldn't be able to give one gifts.",
+	"Gamayun.Dialogue.birthdayNeutralB": "One is antisocial, you shouldn't be able to give one gifts.",
+	"Gamayun.Dialogue.MovieInvite_Invited_LibrarianGamayun": "...",
+	
+	// DIALOGUE 1ST OF SEASON
+	"Gamayun.Dialogue.spring_1": "Ēostre greets you. The spring Equinox shall bring renewal and rebirth from the death of winter.",
+	"Gamayun.Dialogue.summer_1": "The suns zenith is approaching...a vibrant celebration of light, abundance, and the flourishing of nature.",
+	"Gamayun.Dialogue.fall_1": "While you celebrate your bounty o' plenty do not forget to mourn the lost and forgotten as well. One keeps that which gives life and those whose life has runs it's course both in mind when it is time to pay ones toll.",
+	"Gamayun.Dialogue.winter_1": "A time of quiet introspection and setting intentions...make sure to celebrate the return of the light in the end to welcome a new year.",
+	
+	//DIALOGUE 
+	
+	"Gamayun.Dialogue.Mon.0": "How do you like to categorize your books? One enjoys spending all day finding the most intricate system to file them by.#$b#One has been given the task by the olde king and one enjoys it quite much.",
+	"Gamayun.Dialogue.Mon.1": "Hm...when one looks too much into the void it does not simple stare back. It tends to ask how one is doing and if the weather is nice...",
+	"Gamayun.Dialogue.Mon.2": "One knows of another witch that lives in seclusion. They barely ever show themself to others...#$b#You can visit their shadow down at the beach though.#$b#They sell quite a few things, yes.",
+	"Gamayun.Dialogue.Mon.3": "In the past one used to visit the king quite a lot.#$b#With the new king that has yet to embrace that title...hm. He shows signs of leadership yet stays too humble to embrace it. Worrisome.",
+	"Gamayun.Dialogue.Mon.4": "Days pass. Weather changes. Friendships end.#$b#Natural occurances, yes. Yet one says it is completely fine to grief over these losses.",
+	"Gamayun.Dialogue.Mon.5": "Most exciting. One restored an old book with a spell when all one had were some pages and the spine.",
+	
+	"Gamayun.Dialogue.Tue.0": "Greetings, seeker.#$b#One has just dusted the bookshelves so feel free to enjoy the books.#$b#With a little bit of magic one can do so without the need to be close by.",
+	"Gamayun.Dialogue.Tue.1": "One is always in persuit of finding more books to add to the library.#$b#These are not all that one owns...quite a few are hidden away as they contain dangerous magical spells and such.",
+	"Gamayun.Dialogue.Tue.2": "Have you read any books lately?#$b#One does enjoy all kind of books. Just recently one finished a romance novel with a bittersweet ending.#$b#Very emotional.",
+	"Gamayun.Dialogue.Tue.3": "Have you met any other librarians lately?#$b#One has been told one can be quite the oddball. It is beyond ones understanding...since when do all librarians need to be the same?",
+	"Gamayun.Dialogue.Tue.4": "One has restored quite a few books today. Pleasing indeed.#$b#If you are ever in the need of book restauration you can ask for help.",
+	"Gamayun.Dialogue.Tue.5": "...ah. It is you.#$b#Greetings, young one. How has your day been so far?",
+	
+	"Gamayun.Dialogue.Wed.0": "One has many tales to tell about king Llyr.#$b#There are quite a few contained in the books in this library as well.#$b#Feel free to browse the shelves or seek one out any time.",
+	"Gamayun.Dialogue.Wed.1": "Yesterday one tested out a few olde spells from a recently discovered tome.#$b#One accidentally worried the young lord who was close-by.#$b#It was a mere explosion but one guesses the young lord just wanted to make sure one is safe.",
+	"Gamayun.Dialogue.Wed.2": "One enjoys watching the young lord paint and sculpt.#$b#He is a lot like his father even when he is unaware of that.",
+	"Gamayun.Dialogue.Wed.3": "Lately one has started to check all the books in the library.#$b#One still has a lot of work left to do but it is progressing well.",
+	"Gamayun.Dialogue.Wed.4": "A wise man gets going while he still can. If he stays too long, even the brave grow fearful.",
+	"Gamayun.Dialogue.Wed.5": "The stars have been telling one things...ah, well, not important to you. At least not right now.#$b#Even without understanding them the stars are nice to look at during the night, no?",
+	
+	"Gamayun.Dialogue.Thu.0": "Be sure to keep your daily luck in mind. One can see certain-...things in your future.#$b#One shall not go into detail though to not disturb the fates.",
+	"Gamayun.Dialogue.Thu.1": "Maybe one shall read a romance book today.#$b#Happy ending, sad ending...hm.",
+	"Gamayun.Dialogue.Thu.2": "One does enjoy doing something besides being librarian.#$b#There are days one goes to the olde tree at the quarry to play with some monsters.",
+	"Gamayun.Dialogue.Thu.3": "Most devious. One found some bugs eating a book today. Now one is in need to fix it AND get rid of those bugs.",
+	"Gamayun.Dialogue.Thu.4": "Travel far and wide and you should possess the secrets of man.",
+	"Gamayun.Dialogue.Thu.5": "One enjoys when the library is busy with people but it is as much of a joy to be on ones own.",
+	
+	"Gamayun.Dialogue.Fri.0": "At last...one has found a copy of the memoires of the last dragon sovereign.#$b#Hm? Oh...this shall NOT get filed under 'fiction', no.",
+	"Gamayun.Dialogue.Fri.1": "%Gamayun is distracted deciding where a certain book should go on the shelf...",
+	"Gamayun.Dialogue.Fri.2": "Fortune favors the bold.",
+	"Gamayun.Dialogue.Fri.3": "Greetings, seeker. What interesting deeds are you up to today?",
+	"Gamayun.Dialogue.Fri.4": "Sometimes the young lord comes to seek out help.#$b#Most times it is about things like how to make dyes brighter or the structural integrity of certain buildings he has built.#$b#One does enjoy these conversations as much as the talk about weather and such.",
+	"Gamayun.Dialogue.Fri.5": "Ones place of origin is bleak and desolate.#$b#One enjoys this island a lot and is quite elevating calling it home.",
+	
+	"Gamayun.Dialogue.Sat.0": "One does not need sleep.#$b#Thus one can go on with work for days without the need to rest.#$b#Yet one still gives in now and then, even if it is just to ease the worry of those around.",
+	"Gamayun.Dialogue.Sat.1": "Exciting news: One has gotten quite a few books from other islands in the gem sea.#$b#It'll help one to complete the missing bits of history around.",
+	"Gamayun.Dialogue.Sat.2": "%There are several books in Gamayuns hands. Looks like she cannot decide which to read first.",
+	"Gamayun.Dialogue.Sat.3": "Do you ever wonder if what you do even matters in the grand scheme of things?#$b#Forget about those thoughts. Trifling things like that are what does not matter.#$b#Enjoy your life without doubts.",
+	"Gamayun.Dialogue.Sat.4": "%Gamayun looks busy, better to not disturb her.",
+	"Gamayun.Dialogue.Sat.5": "Bernadette has come to one in search for musical answers.#$b#One has given her quite a few hints on where to look for answers.#$b#She is a bright child and one hopes she will find her place in the world.",
+	
+	"Gamayun.Dialogue.Sun.0": "Most pleasing day.#$b#One quite enjoys being around others, despite being in the library most of the time.#$b#Will you be joining the gathering as well?",
+	"Gamayun.Dialogue.Sun.1": "When a week is over it feels like a lot of time has passed.#$b#Time is relative, yet one works and works and works...then the week turns and it awaits one even more work.#$b#Be sure to take your well deserved rest.",
+	"Gamayun.Dialogue.Sun.2": "Our young lord does not condone looting on this island.#$b#One was surprised to find out there are pirates that do not loot every place they stop at.#$b#It has been long since then, but one is always happy to welcome those that mean no harm.",
+	"Gamayun.Dialogue.Sun.3": "Ah, bright seeker. Another day passes with you it it. A joyous moment indeed.",
+	"Gamayun.Dialogue.Sun.4": "%Gamayun is distracted by the drink she has in her hands muttering something about certain languages you have never heard of.",
+	"Gamayun.Dialogue.Sun.5": "The stars in the sky, the sparkling perals in the ocean...this island is full of brightness and light.#$b#Not jsut to see, but to feel and become part of as well.",
+	
+	//DIALOGUE SPECIFIC DAY
+	"Gamayun.Dialogue.spring_12_2": "Ah, is it time for the egg hunt again, right?#$b#Dhu gautar osta, ous il sin grosta...%3#$b#...make sure to have a lot of fun.",
+	"Gamayun.Dialogue.spring_23_2": "A joyous occassion. It reminds one of the midsommar celebrations long gone.#$b#Maybe one shall dedicate a dance to this exalting day.",
+	"Gamayun.Dialogue.summer_10_2": "What flavour of mischief will you cause this year?#$b#Or are you behaving this time around?",
+	"Gamayun.Dialogue.summer_27_2": "Watching the jellies migrate is a sight to behold. One enjoys it's bioluminescence properties quite a lot.",
+	"Gamayun.Dialogue.fall_15_2": "Make sure to thank your anchestors for your bountiful harvest. THose of the past walked so one can run in the present.",
+	"Gamayun.Dialogue.fall_26_2": "The veil of living and deceased is thinner than ever, seeker.#$b#Make sure to not step too far into the unknown if you're ill prepared.",
+	"Gamayun.Dialogue.winter_7_2": "One used to partake in something like ice fishing in the past.#$b#It was without a rod though and was you diving directly into the icey cold waters though.",
+	"Gamayun.Dialogue.winter_24_2": "As winter slowly comes to an end it is important to make sure you show your loved ones that you care.#$b#This is a time to celebrate the return of the light and thank those who have been part of your life.",
+	
+	// SCHEDULE DIALOGUE
+	"Gamayun.Schedule.Dialogue.lostisland.000": "There are a lot of books in this library so it is only natural that one has to sort through them all.#$b#One does not mind though.",
+	"Gamayun.Schedule.Dialogue.lostisland.001": "One always make sure to replace and relight the candles around.#$b#They are all powerd by magic so it is a rather simple task.",
+	"Gamayun.Schedule.Dialogue.lostisland.002": "One always makes sure to put the books back that were returned.#$b#One always makes sure to put the books back that were returned.#$b#There were times they got piled up and it took quite a while to sort them away.",
 	
 	//==============================================================================================
 	//==== A N T I S O C I A L S ===================================================================

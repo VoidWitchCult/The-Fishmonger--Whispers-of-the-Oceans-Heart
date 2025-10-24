@@ -17,14 +17,14 @@
 				viewport 4 10 true/
 				move farmer 1 0 0/
 				move farmer 0 -4 0/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Intro.Ahoy}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.Intro.Ahoy}}\"/
 				pause 500/
 				emote farmer 32/
 				pause 500/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Intro.Becareful}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Intro.Becareful}}\"/
 				jump farmer 4/
 				pause 500/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Intro.Dontworry}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Intro.Dontworry}}\"/
 				viewport -1000 -1000/
 				end
 				"
@@ -49,16 +49,16 @@
 				pause 1000/
 				emote farmer 8/
 				pause 1000/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.2Hearts.Ohhey}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.2Hearts.Ohhey}}\"/
 				pause 1000/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.2Hearts.Sorry}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.2Hearts.Sorry}}\"/
 				pause 700/
 				emote farmer 8/
 				pause 700/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.2Hearts.Mermaids}}\"/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.2Hearts.MermaidQ}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.2Hearts.Mermaids}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.2Hearts.MermaidQ}}\"/
 				pause 300/
-				quickQuestion #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.2Hearts.QQ1}}#{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.2Hearts.QQ2}}(break)speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.2Hearts.QReply}}\"(break)speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.2Hearts.Giddy}}\"/
+				quickQuestion #{{i18n:Event.2Hearts.QQ1}}#{{i18n:Event.2Hearts.QQ2}}(break)speak {{ModID}}_TheFishmonger \"{{i18n:Event.2Hearts.QReply}}\"(break)speak {{ModID}}_TheFishmonger \"{{i18n:Event.2Hearts.Giddy}}\"/
 				pause 500/
 				emote farmer 60/
 				pause 800/
@@ -81,34 +81,34 @@
 				move farmer 0 11 1/
 				emote farmer 16/
 				pause 800/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.Hello}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.4Hearts.Hello}}\"/
 				pause 500/
 				emote farmer 56/
 				faceDirection {{ModID}}_TheFishmonger 3/
 				pause 600/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.Birdie}}\" /
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.4Hearts.Birdie}}\" /
 				pause 500 /
-				quickQuestion {{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.HowAreYouQ}} #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.HowAreYouQQ1}} #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.HowAreYouQQ2}}(break)speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.GoodToKnow}}\"(break)speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.HowAreYouQQ1Reply}}\"/
+				quickQuestion {{i18n:Event.4Hearts.HowAreYouQ}} #{{i18n:Event.4Hearts.HowAreYouQQ1}} #{{i18n:Event.4Hearts.HowAreYouQQ2}}(break)speak {{ModID}}_TheFishmonger \"{{i18n:Event.4Hearts.GoodToKnow}}\"(break)speak {{ModID}}_TheFishmonger \"{{i18n:Event.4Hearts.HowAreYouQQ1Reply}}\"/
 				pause 500/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.ItsAlright}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.4Hearts.ItsAlright}}\"/
 				pause 500/
 				emote {{ModID}}_TheFishmonger 12/
 				pause 600/
 				emote farmer 8/
 				pause 600/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.Troubles}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.4Hearts.Troubles}}\"/
 				pause 500 /
 				emote farmer 60 /
 				pause 600 /
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.Pathetic}}\" /
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.4Hearts.Pathetic}}\" /
 				emote farmer 28 /
 				pause 500 /
-				quickQuestion #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.PatheticQQ1}} #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.PatheticQQ2}}(break)speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.PatheticQQ1Reply}}\"(break)speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.PatheticQQ2Reply}}\" /
+				quickQuestion #{{i18n:Event.4Hearts.PatheticQQ1}} #{{i18n:Event.4Hearts.PatheticQQ2}}(break)speak {{ModID}}_TheFishmonger \"{{i18n:Event.4Hearts.PatheticQQ1Reply}}\"(break)speak {{ModID}}_TheFishmonger \"{{i18n:Event.4Hearts.PatheticQQ2Reply}}\" /
 				pause 500 /
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.PatheticQQThankYou}}\" /
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.4Hearts.PatheticQQThankYou}}\" /
 				emote farmer 20 /
 				pause 500 /
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.4Hearts.PatheticToken}}\" /
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.4Hearts.PatheticToken}}\" /
 				jump farmer 4 /
 				emote farmer 16 /
 				pause 600 /
@@ -121,7 +121,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Beach",
 			"Entries": {
-				"{{ModID}}_Willy4Hearts/t 1800 1900/w sunny/f Willy 1000/e 9348571/e {{ModID}}_Introduction": "
+				"{{ModID}}_Willy4Hearts/t 1800 2100/w sunny/f Willy 1000/e 9348571/e {{ModID}}_Introduction": "
 				ocean/
 				-1000 -1000/
 				farmer 28 35 1 Willy 44 35 1/
@@ -141,12 +141,12 @@
 				pause 50/
 				faceDirection Willy 3/
 				pause 1000/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Willy4Hearts.NiceEvening}}\"/
+				speak Willy \"{{i18n:Event.Willy4Hearts.NiceEvening}}\"/
 				move Willy -1 0 3/
 				pause 1000/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Willy4Hearts.ConstanceMention}}\"/
+				speak Willy \"{{i18n:Event.Willy4Hearts.ConstanceMention}}\"/
 				pause 1000/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Willy4Hearts.SisterReveal}}\"/
+				speak Willy \"{{i18n:Event.Willy4Hearts.SisterReveal}}\"/
 				pause 1000/
 				jump farmer 4/
 				emote farmer 8/
@@ -158,10 +158,10 @@
 				pause 1000/
 				playSound seagulls/
 				pause 1000/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Willy4Hearts.WeWereYoung}}\"/
+				speak Willy \"{{i18n:Event.Willy4Hearts.WeWereYoung}}\"/
 				pause 1000/
 				emote farmer 16/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Willy4Hearts.RunningOff}}\"/
+				speak Willy \"{{i18n:Event.Willy4Hearts.RunningOff}}\"/
 				pause 500/
 				emote farmer 8/
 				emote Willy 28/
@@ -170,11 +170,11 @@
 				pause 500/
 				move farmer 0 1 2/
 				pause 1000/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Willy4Hearts.Found}}\"/
+				speak Willy \"{{i18n:Event.Willy4Hearts.Found}}\"/
 				pause 1000/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Willy4Hearts.MermaidSandwich}}\"/
+				speak Willy \"{{i18n:Event.Willy4Hearts.MermaidSandwich}}\"/
 				pause 1000/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Willy4Hearts.Sentimental}}\"/
+				speak Willy \"{{i18n:Event.Willy4Hearts.Sentimental}}\"/
 				emote farmer 20/
 				emote Willy 20/
 				animate Willy false true 250 28 29 30 31/--Willy smoking/
@@ -201,7 +201,7 @@
 				skippable/
 				animate {{ModID}}_TheFishmonger_temp false true 100 0 1 1 2 2 3 3 2 2 1 1/
 				viewport 25 45 clamp true/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.WillyStart}}\"/
+				speak Willy \"{{i18n:Event.Constance6Hearts.WillyStart}}\"/
 				pause 200/
 				emote farmer 32/
 				pause 200/
@@ -211,68 +211,68 @@
 				pause 200/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.Awkward}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Constance6Hearts.Awkward}}\"/
 				emote farmer 8/
 				pause 200/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.WillyLetsGo}}\"/
+				speak Willy \"{{i18n:Event.Constance6Hearts.WillyLetsGo}}\"/
 				pause 200/
-				quickQuestion #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.QQ1}}#{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.QQ2}}(break)speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.QReply}}\"(break)speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.QReply2}}\"/
+				quickQuestion #{{i18n:Event.Constance6Hearts.QQ1}}#{{i18n:Event.Constance6Hearts.QQ2}}(break)speak {{ModID}}_TheFishmonger \"{{i18n:Event.Constance6Hearts.QReply}}\"(break)speak {{ModID}}_TheFishmonger \"{{i18n:Event.Constance6Hearts.QReply2}}\"/
 				pause 200/
 				emote farmer 40/
 				pause 200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.EasierSaidThanDone}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Constance6Hearts.EasierSaidThanDone}}\"/
 				emote farmer 16/
 				pause 200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.Sigh}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Constance6Hearts.Sigh}}\"/
 				pause 200/
 				emote Willy 8/
 				pause 200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.FumblingAround}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Constance6Hearts.FumblingAround}}\"/
 				pause 200/
 				playSound slosh/
 				stopAnimation {{ModID}}_TheFishmonger_temp 1/
 				warp {{ModID}}_TheFishmonger 21 44/
 				warp {{ModID}}_TheFishmonger_temp -2000 -2000/
 				pause 200/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.WillyConfused}}\"/
+				speak Willy \"{{i18n:Event.Constance6Hearts.WillyConfused}}\"/
 				pause 200/
 				emote {{ModID}}_TheFishmonger 12/
 				shake {{ModID}}_TheFishmonger 5/
 				pause 200/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.Hrm}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.Constance6Hearts.Hrm}}\"/
 				pause 200/
 				playMusic 50s/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.OneOfUs}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Constance6Hearts.OneOfUs}}\"/
 				move Willy 0 0 2/
 				pause 200/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.ISee}}\"/
+				speak Willy \"{{i18n:Event.Constance6Hearts.ISee}}\"/
 				emote farmer 8/
 				pause 200/
 				move {{ModID}}_TheFishmonger 0 -2 0/
 				move {{ModID}}_TheFishmonger 1 0 0/
 				move {{ModID}}_TheFishmonger 0 -1 0/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.OhCod}}\"/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.IdkWhatYerMean}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Constance6Hearts.OhCod}}\"/
+				speak Willy \"{{i18n:Event.Constance6Hearts.IdkWhatYerMean}}\"/
 				emote Willy 20/
 				emote {{ModID}}_TheFishmonger 12/
 				pause 200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.ThenYeShouldKnow}}\"/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.YeKnow}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Constance6Hearts.ThenYeShouldKnow}}\"/
+				speak Willy \"{{i18n:Event.Constance6Hearts.YeKnow}}\"/
 				shake {{ModID}}_TheFishmonger 5/
 				pause 200/
 				faceDirection farmer 1/
 				faceDirection armer 0/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.MM}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Constance6Hearts.MM}}\"/
 				emote Willy 20/
 				pause 200/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.IllVisit}}\"/
+				speak Willy \"{{i18n:Event.Constance6Hearts.IllVisit}}\"/
 				jump farmer 2/
 				move farmer 0 0 1/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.GreatIdea}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Constance6Hearts.GreatIdea}}\"/
 				jump Willy 5/
 				emote Willy 16/
 				pause 200/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Constance6Hearts.CatchSomeFish}}\"/
+				speak Willy \"{{i18n:Event.Constance6Hearts.CatchSomeFish}}\"/
 				animate farmer false true 100 102 103/
 				pause 1000/
 				globalFade/viewport -1000 -1000/pause 600/stopAnimation farmer/end warpOut
@@ -301,14 +301,14 @@
 				pause 1000/
 				playSound seagulls/
 				playSound dwop/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart1.Greetings}}\"/
+				speak Willy \"{{i18n:Event.Fishmonger8HeartEventPart1.Greetings}}\"/
 				jump farmer 2/
 				pause 500/
 				emote farmer 16/
 				pause 800/
 				playSound seagulls/
 				pause 500/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart1.Ahoythere}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Fishmonger8HeartEventPart1.Ahoythere}}\"/
 				pause 500/
 				emote farmer 8/
 				pause 800/
@@ -319,13 +319,13 @@
 				pause 600/
 				emote farmer 16/
 				pause 600/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart1.Idea}}\"/
+				speak Willy \"{{i18n:Event.Fishmonger8HeartEventPart1.Idea}}\"/
 				pause 500/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart1.Agreed}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Fishmonger8HeartEventPart1.Agreed}}\"/
 				emote farmer 20/
 				playSound seagulls/
 				pause 800/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart1.Alrighty}}\"/
+				speak Willy \"{{i18n:Event.Fishmonger8HeartEventPart1.Alrighty}}\"/
 				emote farmer 32/
 				pause 800/
 				viewport move 1 0 5500/
@@ -361,7 +361,7 @@
 				move farmer 0 1 3/
 				pause 500/
 				move farmer -3 0 0/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.ComeUpstairs}}\"/
+				speak Willy \"{{i18n:Event.Fishmonger8HeartEventPart2.ComeUpstairs}}\"/
 				jump farmer 2/
 				pause 800/
 				emote farmer 16/
@@ -377,37 +377,37 @@
 				viewport 7 10 true/
 				globalFadeToClear/
 				pause 600/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.Welcome}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Fishmonger8HeartEventPart2.Welcome}}\"/
 				emote farmer 20/
 				pause 600/
 				playMusic jaunty/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.TalkingBoutGrandpa}}\"/
+				speak Willy \"{{i18n:Event.Fishmonger8HeartEventPart2.TalkingBoutGrandpa}}\"/
 				pause 500/
 				emote {{ModID}}_TheFishmonger 16/
 				jump {{ModID}}_TheFishmonger 3/
 				pause 600/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.YeahIRemember}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Fishmonger8HeartEventPart2.YeahIRemember}}\"/
 				pause 500/
 				emote farmer 32/
 				pause 600/
 				move farmer 3 0 0/
 				move farmer 0 -1 0/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.FunTimes}}\"/
+				speak Willy \"{{i18n:Event.Fishmonger8HeartEventPart2.FunTimes}}\"/
 				emote farmer 60/
 				pause 600/
 				faceDirection {{ModID}}_TheFishmonger 2/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.IWonder}}\"/
-				quickQuestion #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.QQ1}}#{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.QQ2}}#{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.QQ3}}(break)speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.QReply}}\"(break)speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.QReply2}}\"(break)speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.QReply3}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Fishmonger8HeartEventPart2.IWonder}}\"/
+				quickQuestion #{{i18n:Event.Fishmonger8HeartEventPart2.QQ1}}#{{i18n:Event.Fishmonger8HeartEventPart2.QQ2}}#{{i18n:Event.Fishmonger8HeartEventPart2.QQ3}}(break)speak {{ModID}}_TheFishmonger \"{{i18n:Event.Fishmonger8HeartEventPart2.QReply}}\"(break)speak {{ModID}}_TheFishmonger \"{{i18n:Event.Fishmonger8HeartEventPart2.QReply2}}\"(break)speak {{ModID}}_TheFishmonger \"{{i18n:Event.Fishmonger8HeartEventPart2.QReply3}}\"/
 				pause 200/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.DigIn}}\"/
+				speak Willy \"{{i18n:Event.Fishmonger8HeartEventPart2.DigIn}}\"/
 				pause 200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.Yum}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Fishmonger8HeartEventPart2.Yum}}\"/
 				pause 200/
 				emote farmer 20/
 				pause 500/
 				faceDirection {{ModID}}_TheFishmonger 3/
 				pause 300/
-				textAboveHead Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger8HeartEventPart2.Delicious}}\"/
+				textAboveHead Willy \"{{i18n:Event.Fishmonger8HeartEventPart2.Delicious}}\"/
 				pause 500/
 				emote {{ModID}}_TheFishmonger 20/
 				pause 600/
@@ -431,16 +431,62 @@
 				"{{ModID}}_Constance10Hearts/t 600 2600/f {{ModID}}_TheFishmonger 2500/e {{ModID}}_MermaidCalliope8Hearts2": "
 				starshoot/
 				-1000 -1000/
-				farmer -2000 -2000 0 Willy -2000 -2000 0 {{ModID}}_TheFishmonger -2000 -2000 0 {{ModID}}_MermaidCalliope -2000 -2000 0 {{ModID}}_SeaDudeBarnabas -2000 -2000 0 {{ModID}}_PirateLadCaitrionaOFlannagain -2000 -2000 0 {{ModID}}_CoolGalBernadette -2000 -2000 0/
+				farmer -2000 -2000 0 Willy -2000 -2000 0 {{ModID}}_TheFishmonger -2000 -2000 0 {{ModID}}_MermaidCalliope -2000 -2000 0 {{ModID}}_SeaDudeBarnabas -2000 -2000 0 {{ModID}}_PirateLadCaitrionaOFlannagain -2000 -2000 0 {{ModID}}_CoolGalBernadette -2000 -2000 0 {{ModID}}_LibrarianGamayun -2000 -2000 0/
 				skippable/
 				changeToTemporaryMap VoidWitchCult.CP.TheFishmongerNPC_TEMP_Wedding false/bgColor 0 0 0/ambientLight 0 0 0/viewport -1000 -1000/
-				warp farmer 10 12 true/ warp Willy 14 10 true/warp {{ModID}}_TheFishmonger 11 7 true/warp {{ModID}}_MermaidCalliope 13 7 true/warp {{ModID}}_SeaDudeBarnabas 10 10 true/warp {{ModID}}_PirateLadCaitrionaOFlannagain 15 12 true/warp {{ModID}}_CoolGalBernadette 9 14 true/
-				faceDirection farmer 0/faceDirection Willy 0/faceDirection {{ModID}}_TheFishmonger 2/faceDirection {{ModID}}_MermaidCalliope 2/faceDirection {{ModID}}_SeaDudeBarnabas 0/faceDirection {{ModID}}_PirateLadCaitrionaOFlannagain 0/faceDirection {{ModID}}_CoolGalBernadette 0/
+				warp farmer 10 12 true/ warp Willy 14 10 true/warp {{ModID}}_TheFishmonger 11 7 true/warp {{ModID}}_MermaidCalliope 13 7 true/warp {{ModID}}_SeaDudeBarnabas 10 10 true/warp {{ModID}}_PirateLadCaitrionaOFlannagain 15 12 true/warp {{ModID}}_CoolGalBernadette 9 14 true/warp {{ModID}}_LibrarianGamayun 12 6/
+				faceDirection farmer 0/faceDirection Willy 0/faceDirection {{ModID}}_TheFishmonger 2/faceDirection {{ModID}}_MermaidCalliope 2/faceDirection {{ModID}}_SeaDudeBarnabas 0/faceDirection {{ModID}}_PirateLadCaitrionaOFlannagain 0/faceDirection {{ModID}}_CoolGalBernadette 0/faceDirection {{ModID}}_LibrarianGamayun 2/
+				positionOffset {{ModID}}_MermaidCalliope -20 0/
+				positionOffset {{ModID}}_TheFishmonger 20 0/
 				viewport 10 9 clamp true/
+				pause 1000/
+				speak {{ModID}}_LibrarianGamayun \"{{i18n:Event.Fishmonger10HeartEvent.Gathering}}\"/
+				pause 1000/
+				emote {{ModID}}_TheFishmonger 20/
+				emote {{ModID}}_MermaidCalliope 60/
+				pause 1200/
+				speak {{ModID}}_LibrarianGamayun \"{{i18n:Event.Fishmonger10HeartEvent.Unite}}\"/
+				pause 800/
+				emote Willy 32/
+				pause 600/
+				emote farmer 56/
+				pause 600/
+				textAboveHead {{ModID}}_CoolGalBernadette \"{{i18n:Event.Fishmonger10HeartEvent.Exciting}}\"/
+				pause 1200/
+				speak {{ModID}}_LibrarianGamayun \"{{i18n:Event.Fishmonger10HeartEvent.Marry}}\"/
 				pause 400/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.Fishmonger10HeartEvent.TEST}}\"/
-				pause 5000/
-				
+				faceDirection {{ModID}}_TheFishmonger 1/
+				faceDirection {{ModID}}_MermaidCalliope 3/
+				emote {{ModID}}_MermaidCalliope 20/
+				pause 200/
+				emote {{ModID}}_TheFishmonger 20/
+				pause 600/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Fishmonger10HeartEvent.Giddy}}\"/
+				pause 800/
+				pause 600/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.Fishmonger10HeartEvent.Same}}\"/
+				pause 800/
+				emote {{ModID}}_MermaidCalliope 20/
+				pause 200/
+				emote {{ModID}}_TheFishmonger 20/
+				pause 600/
+				textAboveHead {{ModID}}_LibrarianGamayun \"{{i18n:Event.Fishmonger10HeartEvent.Kiss}}\"/
+				pause 800/
+				positionOffset {{ModID}}_MermaidCalliope -5 0/
+				positionOffset {{ModID}}_TheFishmonger 5 0/
+				pause 600/
+				positionOffset {{ModID}}_MermaidCalliope -5 0/
+				positionOffset {{ModID}}_TheFishmonger 5 0/
+				pause 600/
+				positionOffset {{ModID}}_MermaidCalliope -5 0/
+				positionOffset {{ModID}}_TheFishmonger 5 0/
+				showFrame {{ModID}}_MermaidCalliope 16/
+				showFrame {{ModID}}_TheFishmonger 16/
+				playSound dwop/
+				emote {{ModID}}_SeaDudeBarnabas 32/
+				pause 200/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.Fishmonger10HeartEvent.Grown}}\"/
+				textAboveHead {{ModID}}_CoolGalBernadette \"{{i18n:Event.Fishmonger10HeartEvent.Go}}\"/
 				pause 600/
 				globalFade/viewport -1000 -1000/pause 600/end
 				"
@@ -458,7 +504,7 @@
 				ocean/
 				-1000 -1000/
 				farmer 30 16 2/
-				addTemporaryActor {{ModID}}_MermaidCalliope 16 32 29 20 2 true {{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.Mermaid}}/
+				addTemporaryActor {{ModID}}_MermaidCalliope 16 32 29 20 2 true {{i18n:Name.Mermaid}}/
 				skippable/
 				animate {{ModID}}_MermaidCalliope false true 100 20 20 21 21 22 22 21 21 20 20 20 20 20 21 21 22 22 21 21/
 				viewport 35 20 clamp true/
@@ -471,21 +517,21 @@
 				pause 800/
 				move farmer 0 4 3/
 				pause 800/
-				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliopeIntro.Hello}}\"/
+				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliopeIntro.Hello}}\"/
 				pause 800/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliopeIntro.IAmMe}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliopeIntro.IAmMe}}\"/
 				emote farmer 20/
 				pause 800/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliopeIntro.SoYouKnew}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliopeIntro.SoYouKnew}}\"/
 				pause 800/
 				emote farmer 8/
 				pause 800/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliopeIntro.TheresMore}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliopeIntro.TheresMore}}\"/
 				pause 800/
 				emote farmer 20/
 				emote {{ModID}}_MermaidCalliope 20/
 				pause 800/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliopeIntro.HaveFun}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliopeIntro.HaveFun}}\"/
 				pause 1000/
 				globalFade/viewport -1000 -1000/pause 600/end
 				"
@@ -504,7 +550,7 @@
 				viewport 19 27 clamp true/
 				emote farmer 56/
 				pause 600/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope2Hearts.Troubles}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope2Hearts.Troubles}}\"/
 				pause 400/
 				emote {{ModID}}_MermaidCalliope 28/
 				pause 600/
@@ -512,30 +558,30 @@
 				pause 800/
 				emote {{ModID}}_MermaidCalliope 40/
 				pause 600/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope2Hearts.Fumbling}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope2Hearts.Fumbling}}\"/
 				pause 400/
 				shake {{ModID}}_MermaidCalliope 5/
 				pause 400/
 				emote farmer 8 true/ emote {{ModID}}_MermaidCalliope 12 true/
 				pause 600/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope2Hearts.Remembering}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope2Hearts.Remembering}}\"/
 				emote farmer 32/
 				pause 600/
 				jump {{ModID}}_MermaidCalliope 2/
 				pause 400/
-				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope2Hearts.Shy}}\"/
+				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope2Hearts.Shy}}\"/
 				move {{ModID}}_MermaidCalliope 0 5 2/
 				faceDirection farmer 2 true/
 				pause 200/
 				emote farmer 40/
 				pause 600/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope2Hearts.Explanation}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope2Hearts.Explanation}}\"/
 				pause 600/
-				quickQuestion #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope2Hearts.QQ1}}#{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope2Hearts.QQ2}}(break)speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope2Hearts.QReply}}\"(break)speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope2Hearts.QReply2}}\"/
+				quickQuestion #{{i18n:Event.MermaidCalliope2Hearts.QQ1}}#{{i18n:Event.MermaidCalliope2Hearts.QQ2}}(break)speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope2Hearts.QReply}}\"(break)speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope2Hearts.QReply2}}\"/
 				pause 800/
 				emote {{ModID}}_MermaidCalliope 40/
 				pause 600/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope2Hearts.Decision}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope2Hearts.Decision}}\"/
 				pause 600/
 				emote farmer 32/
 				pause 1000/
@@ -556,18 +602,18 @@
 				showFrame {{ModID}}_MermaidCalliope 23/
 				viewport 25 45 clamp true/
 				pause 400/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope4Hearts.WillyTalk}}\"/
+				speak Willy \"{{i18n:Event.MermaidCalliope4Hearts.WillyTalk}}\"/
 				pause 600/
 				warp {{ModID}}_MermaidCalliope 24 45/
 				animate {{ModID}}_MermaidCalliope false true 400 24 25/
 				pause 400/
 				stopAnimation {{ModID}}_MermaidCalliope 25/
 				pause 400/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope4Hearts.ConstanceReply}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope4Hearts.ConstanceReply}}\"/
 				pause 600/
 				emote Willy 32/
 				pause 600/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope4Hearts.GoodLuck}}\"/
+				speak Willy \"{{i18n:Event.MermaidCalliope4Hearts.GoodLuck}}\"/
 				shake {{ModID}}_MermaidCalliope 8/
 				pause 200/
 				playSound slosh/
@@ -577,15 +623,15 @@
 				emote Willy 8 true/emote {{ModID}}_TheFishmonger 16 true/
 				pause 600/
 				faceDirection {{ModID}}_TheFishmonger 1/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope4Hearts.Curious}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope4Hearts.Curious}}\"/
 				pause 400/
 				faceDirection {{ModID}}_TheFishmonger 3/
-				speak Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope4Hearts.DoWhatYouGottaDo}}\"/
+				speak Willy \"{{i18n:Event.MermaidCalliope4Hearts.DoWhatYouGottaDo}}\"/
 				pause 600/
 				emote {{ModID}}_TheFishmonger 16/
 				pause 600/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope4Hearts.TellMe}}\"/
-				textAboveHead Willy \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope4Hearts.Sure}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope4Hearts.TellMe}}\"/
+				textAboveHead Willy \"{{i18n:Event.MermaidCalliope4Hearts.Sure}}\"/
 				pause 600/
 				move Willy 0 -10 0/
 				pause 600/
@@ -601,7 +647,7 @@
 				warp {{ModID}}_MermaidCalliope -2000 -2000/
 				pause 400/
 				stopAnimation {{ModID}}_MermaidCalliope/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope4Hearts.Wait}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope4Hearts.Wait}}\"/
 				globalFade/viewport -1000 -1000/pause 200/end warpOut
 				"
 			},
@@ -623,7 +669,7 @@
 				pause 800/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 1200/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.Familiar}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.Familiar}}\"/
 				pause 1200/
 				faceDirection {{ModID}}_MermaidCalliope 3/
 				pause 100/
@@ -632,9 +678,9 @@
 				faceDirection {{ModID}}_MermaidCalliope 2/
 				emote {{ModID}}_MermaidCalliope 60/
 				pause 800/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.Silent}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.Silent}}\"/
 				pause 600/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.Nervous}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.Nervous}}\"/
 				pause 600/
 				move {{ModID}}_TheFishmonger 0 2 1/
 				move {{ModID}}_TheFishmonger 4 0 1/
@@ -644,19 +690,19 @@
 				pause 400/
 				emote {{ModID}}_MermaidCalliope 16/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.SoUh}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.SoUh}}\"/
 				pause 600/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.Hello}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.Hello}}\"/
 				pause 600/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 1200/
 				emote {{ModID}}_MermaidCalliope 40/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.DidWeMeet}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.DidWeMeet}}\"/
 				pause 600/
 				jump {{ModID}}_MermaidCalliope 1/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.Confirm}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.Confirm}}\"/
 				faceDirection {{ModID}}_MermaidCalliope 0/
 				pause 200/
 				faceDirection {{ModID}}_MermaidCalliope 1/
@@ -666,14 +712,14 @@
 				pause 1200/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.Wondering}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.Wondering}}\"/
 				pause 400/
 				emote {{ModID}}_MermaidCalliope 60/
 				pause 1200/
 				emote {{ModID}}_MermaidCalliope 40/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.WeMet}}\"/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.ISee}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.WeMet}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.ISee}}\"/
 				pause 600/
 				emote {{ModID}}_MermaidCalliope 40/
 				pause 1200/
@@ -686,7 +732,7 @@
 				pause 1200/
 				emote {{ModID}}_TheFishmonger 8/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.WAIT}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.WAIT}}\"/
 				shake {{ModID}}_TheFishmonger 20/
 				pause 400/
 				addObject 15 24 {{ModID}}_MermaidMemento/
@@ -694,13 +740,13 @@
 				pause 800/
 				emote {{ModID}}_MermaidCalliope 16/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.WaitThats}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.WaitThats}}\"/
 				pause 1200/
 				emote {{ModID}}_TheFishmonger 16/
 				pause 1200/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.KnewIt}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.KnewIt}}\"/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.WaitAMinute}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.WaitAMinute}}\"/
 				pause 600/
 				emote {{ModID}}_MermaidCalliope 40/
 				pause 1200/
@@ -712,9 +758,9 @@
 				pause 400/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.SoWeDiDMeet}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.SoWeDiDMeet}}\"/
 				pause 600/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.HehYeah}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.HehYeah}}\"/
 				pause 1200/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 1200/
@@ -722,7 +768,7 @@
 				pause 1200/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 800/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.Augh}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.Augh}}\"/
 				pause 1200/
 				jump {{ModID}}_MermaidCalliope 4/
 				pause 1200/
@@ -737,28 +783,28 @@
 				move {{ModID}}_TheFishmonger -1 0 3/
 				pause 400/
 				move {{ModID}}_MermaidCalliope 0 1 3/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.Umm}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.Umm}}\"/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.Ohno}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.Ohno}}\"/
 				pause 600/
 				faceDirection {{ModID}}_TheFishmonger 2/
 				pause 600/
 				emote {{ModID}}_MermaidCalliope 16/
 				pause 1200/
 				playMusic sweet/
-				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.NoWait}}\"/
+				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.NoWait}}\"/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.Correction}}\"/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.ThingsBecameAwkward}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.Correction}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.ThingsBecameAwkward}}\"/
 				jump {{ModID}}_MermaidCalliope 2/
 				pause 1200/
-				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.HowDidYou}}\"/
+				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.HowDidYou}}\"/
 				pause 1800/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.Heh}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.Heh}}\"/
 				pause 1200/
 				faceDirection {{ModID}}_TheFishmonger 1/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.IReallyMeanIt}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.IReallyMeanIt}}\"/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 1200/
 				emote {{ModID}}_TheFishmonger 16/
@@ -767,25 +813,25 @@
 				pause 1200/
 				shake {{ModID}}_TheFishmonger 200/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.WaitHuh}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.WaitHuh}}\"/
 				pause 600/
 				emote {{ModID}}_MermaidCalliope 20/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.YesIAm}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.YesIAm}}\"/
 				pause 600/
 				emote {{ModID}}_TheFishmonger 16/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.ItsNotTooLate}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.ItsNotTooLate}}\"/
 				pause 600/
 				emote {{ModID}}_MermaidCalliope 20/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.ThatSoundsLovely}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.ThatSoundsLovely}}\"/
 				pause 600/
 				emote {{ModID}}_TheFishmonger 16/
 				pause 1200/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.LetsGo}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope6Hearts.LetsGo}}\"/
 				pause 1200/
-				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope6Hearts.Yeah}}\"/
+				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope6Hearts.Yeah}}\"/
 				pause 1200/
 				move {{ModID}}_TheFishmonger 0 4 1 {{ModID}}_MermaidCalliope 0 3 1/move {{ModID}}_TheFishmonger 7 0 2 {{ModID}}_MermaidCalliope 7 0 2/move {{ModID}}_TheFishmonger 0 13 2 {{ModID}}_MermaidCalliope 0 13 2/
 				globalFade/viewport -1000 -1000/pause 200/end warpOut
@@ -805,19 +851,19 @@
 				viewport 79 40 clamp true/
 				emote {{ModID}}_MermaidCalliope 20/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.Cawyn}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts.Cawyn}}\"/
 				pause 400/
 				emote {{ModID}}_TheFishmonger 16/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.Vendors}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts.Vendors}}\"/
 				pause 600/
 				emote {{ModID}}_TheFishmonger 8/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.NoName}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts.NoName}}\"/
 				pause 400/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.AskingBro}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts.AskingBro}}\"/
 				pause 600/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.Right}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts.Right}}\"/
 				globalFade/
 				viewport -1000 -1000/
 				pause 700/
@@ -832,7 +878,7 @@
 				globalFadeToClear 0.007 true/
 				viewport 34 18/
 				pause 500/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.TheForest}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts.TheForest}}\"/
 				pause 400/
 				move {{ModID}}_TheFishmonger 16 0 2 {{ModID}}_MermaidCalliope 17 0 2/
 				pause 800/
@@ -842,12 +888,12 @@
 				pause 1200/
 				emote {{ModID}}_MermaidCalliope 8/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.WhatIsIt}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts.WhatIsIt}}\"/
 				pause 800/
 				pause 400/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.ItsJust}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts.ItsJust}}\"/
 				pause 800/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 1200/
@@ -857,16 +903,16 @@
 				pause 800/
 				faceDirection {{ModID}}_TheFishmonger 1/
 				pause 400/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.ItsNothing}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts.ItsNothing}}\"/
 				pause 600/
 				emote {{ModID}}_MermaidCalliope 8/
 				pause 1200/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.DontWorry}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts.DontWorry}}\"/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.HmAlright}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts.HmAlright}}\"/
 				move {{ModID}}_TheFishmonger 3 0 3/
 				pause 400/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.Comforting}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts.Comforting}}\"/
 				pause 600/
 				emote {{ModID}}_MermaidCalliope 20/
 				pause 1200/
@@ -876,11 +922,11 @@
 				emote {{ModID}}_MermaidCalliope 40/
 				pause 1200/
 				faceDirection {{ModID}}_MermaidCalliope 2/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.YouKnowWhat}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts.YouKnowWhat}}\"/
 				pause 800/
 				emote {{ModID}}_TheFishmonger 8/
 				pause 1200/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.HehAlrightLetsGo}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts.HehAlrightLetsGo}}\"/
 				pause 800/
 				globalFade/
 				viewport -1000 -1000/
@@ -901,11 +947,11 @@
 				pause 600/
 				emote {{ModID}}_MermaidCalliope 20/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.HelloBrother}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts.HelloBrother}}\"/
 				pause 600/
 				emote {{ModID}}_SeaDudeBarnabas 32/
 				pause 1200/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.Hellolilsis}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.MermaidCalliope8Hearts.Hellolilsis}}\"/
 				pause 600/
 				stopAnimation {{ModID}}_SeaDudeBarnabas/
 				pause 600/
@@ -917,7 +963,7 @@
 				pause 600/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.IntroConstance}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts.IntroConstance}}\"/
 				pause 400/
 				faceDirection {{ModID}}_MermaidCalliope 1/
 				pause 400/
@@ -925,32 +971,32 @@
 				pause 600/
 				emote {{ModID}}_SeaDudeBarnabas 8/
 				pause 800/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.IntroConstance2}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts.IntroConstance2}}\"/
 				faceDirection {{ModID}}_TheFishmonger 3/
 				pause 600/
 				emote {{ModID}}_TheFishmonger 60/
 				pause 1200/
 				faceDirection {{ModID}}_TheFishmonger 0/
 				pause 400/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.HelloThere}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts.HelloThere}}\"/
 				pause 600/
 				emote {{ModID}}_SeaDudeBarnabas 16/
 				pause 1200/
-				textAboveHead {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.Reunited}}\"/
+				textAboveHead {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.MermaidCalliope8Hearts.Reunited}}\"/
 				pause 1200/
 				emote {{ModID}}_MermaidCalliope 32/
 				pause 600/
 				emote {{ModID}}_TheFishmonger 60/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.YesActually}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts.YesActually}}\"/
 				pause 600/
 				emote {{ModID}}_SeaDudeBarnabas 40/
 				pause 1200/
-				textAboveHead {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.Yeah}}\"/
+				textAboveHead {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.MermaidCalliope8Hearts.Yeah}}\"/
 				pause 600/
 				emote {{ModID}}_SeaDudeBarnabas 28/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.Explanation}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts.Explanation}}\"/
 				pause 600/
 				faceDirection {{ModID}}_MermaidCalliope 2/faceDirection {{ModID}}_MermaidCalliope 1/faceDirection {{ModID}}_MermaidCalliope 0/
 				pause 600/
@@ -960,19 +1006,19 @@
 				pause 400/
 				emote {{ModID}}_TheFishmonger 60/
 				pause 1200/
-				textAboveHead {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.OhYes}}\"/
+				textAboveHead {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.MermaidCalliope8Hearts.OhYes}}\"/
 				pause 1200/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.ISeeHowThisIs}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.MermaidCalliope8Hearts.ISeeHowThisIs}}\"/
 				pause 600/
 				emote {{ModID}}_MermaidCalliope 40/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.WellAttention}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts.WellAttention}}\"/
 				pause 600/
 				emote {{ModID}}_MermaidCalliope 60/
 				pause 1200/
 				emote {{ModID}}_TheFishmonger 60/
 				pause 1200/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.Soooo}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.MermaidCalliope8Hearts.Soooo}}\"/
 				pause 600/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 1200/
@@ -981,16 +1027,16 @@
 				pause 600/
 				emote {{ModID}}_TheFishmonger 60/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.NoSir}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts.NoSir}}\"/
 				pause 600/
 				emote {{ModID}}_SeaDudeBarnabas 32/
 				pause 1200/
 				stopAnimation {{ModID}}_SeaDudeBarnabas/
 				pause 600/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.Yay}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.MermaidCalliope8Hearts.Yay}}\"/
 				pause 600/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.Aye}}\"/
-				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts.OK}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts.Aye}}\"/
+				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts.OK}}\"/
 				pause 1200/
 				globalFade/
 				viewport -1000 -1000/
@@ -1013,29 +1059,29 @@
 				viewport 120 90 clamp true/
 				pause 200/
 				emote {{ModID}}_MermaidCalliope 20/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts2.NiceDay}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts2.NiceDay}}\"/
 				pause 600/
 				emote {{ModID}}_TheFishmonger 60/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts2.Heh}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts2.Heh}}\"/
 				pause 800/
 				emote {{ModID}}_MermaidCalliope 20/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts2.Agreed}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts2.Agreed}}\"/
 				pause 600/
 				jump {{ModID}}_TheFishmonger 5/
 				pause 600/
 				shake {{ModID}}_TheFishmonger 200/
 				pause 400/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts2.Lethal}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts2.Lethal}}\"/
 				pause 600/
 				emote {{ModID}}_MermaidCalliope 8/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts2.Wrong}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts2.Wrong}}\"/
 				pause 400/
 				shake {{ModID}}_TheFishmonger 200/
 				pause 600/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts2.No}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts2.No}}\"/
 				pause 600/
 				showFrame {{ModID}}_MermaidCalliope 16/
 				showFrame {{ModID}}_MermaidCalliope 0/
@@ -1043,7 +1089,7 @@
 				pause 600/
 				faceDirection {{ModID}}_MermaidCalliope 3/
 				pause 400/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts2.Cute}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts2.Cute}}\"/
 				pause 600/
 				jump {{ModID}}_TheFishmonger 5/
 				pause 600/
@@ -1055,12 +1101,12 @@
 				faceDirection {{ModID}}_TheFishmonger 1/
 				pause 600/
 				playMusic EmilyDream/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts2.YouKnow}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts2.YouKnow}}\"/
 				pause 600/
 				emote {{ModID}}_MermaidCalliope 8/
 				pause 1200/
 				faceDirection {{ModID}}_MermaidCalliope 3/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts2.Official}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts2.Official}}\"/
 				pause 600/
 				showFrame {{ModID}}_TheFishmonger 32/
 				pause 400/
@@ -1068,13 +1114,13 @@
 				pause 800/
 				addObject 107 87 {{ModID}}_SpecialFlowerBouquet/
 				playSound leafrustle/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts2.Official2}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope8Hearts2.Official2}}\"/
 				pause 200/
 				shake {{ModID}}_TheFishmonger 200/
 				pause 400/
 				jump {{ModID}}_MermaidCalliope 3/
 				pause 400/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope8Hearts2.Yes}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope8Hearts2.Yes}}\"/
 				pause 400/
 				removeObject 107 87/
 				playSound leafrustle/
@@ -1111,52 +1157,52 @@
 				viewport 36 52 clamp true/
 				pause 200/
 				emote {{ModID}}_MermaidCalliope 20/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.Hm}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope10Hearts.Hm}}\"/
 				pause 1200/
-				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.Yeah}}\"/
+				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope10Hearts.Yeah}}\"/
 				move farmer 15 0 1/
 				pause 400/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.Alright}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope10Hearts.Alright}}\"/
 				emote farmer 8/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.HiFarmer}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope10Hearts.HiFarmer}}\"/
 				pause 600/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.OhHey}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope10Hearts.OhHey}}\"/
 				pause 600/
 				emote farmer 32/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.Hehe}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope10Hearts.Hehe}}\"/
 				pause 400/
 				emote farmer 56/
 				pause 1200/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.YouSee}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope10Hearts.YouSee}}\"/
 				stopAnimation {{ModID}}_TheFishmonger/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.Yeah2}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope10Hearts.Yeah2}}\"/
 				pause 400/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.But}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope10Hearts.But}}\"/
 				pause 200/
 				emote {{ModID}}_TheFishmonger 40/
 				pause 1200/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.Well}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope10Hearts.Well}}\"/
 				move {{ModID}}_TheFishmonger 0 -8 3/ move {{ModID}}_TheFishmonger -6 0 2/move {{ModID}}_TheFishmonger 0 2 1/
 				pause 600/
 				move farmer 2 0 1/
 				emote farmer 20/
 				pause 1200/
-				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.Maybe}}\"/
+				textAboveHead {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope10Hearts.Maybe}}\"/
 				pause 600/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.GoodIdea}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope10Hearts.GoodIdea}}\"/
 				pause 800/
-				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.LetsGo}}\"/
+				textAboveHead {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope10Hearts.LetsGo}}\"/
 				stopAnimation {{ModID}}_MermaidCalliope/
 				pause 1000/
 				emote {{ModID}}_TheFishmonger 20/
 				pause 200/
 				emote farmer 56/
 				pause 1000/
-				speak {{ModID}}_MermaidCalliope \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.AlwaysGoodIdeas}}\"/
+				speak {{ModID}}_MermaidCalliope \"{{i18n:Event.MermaidCalliope10Hearts.AlwaysGoodIdeas}}\"/
 				pause 600/
-				speak {{ModID}}_TheFishmonger \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.MermaidCalliope10Hearts.Aye}}\"/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.MermaidCalliope10Hearts.Aye}}\"/
 				pause 600/
 				animate {{ModID}}_MermaidCalliope false false 200 32 33 32/
 				pause 1200/
@@ -1201,7 +1247,7 @@
 				pause 1200/
 				emote {{ModID}}_PirateLadCaitrionaOFlannagain 40/
 				pause 1200/
-				textAboveHead {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagainIntro.What}}\"/
+				textAboveHead {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagainIntro.What}}\"/
 				pause 1200/
 				emote farmer 16/
 				pause 1200/
@@ -1213,7 +1259,7 @@
 				pause 600/
 				emote farmer 8/
 				pause 1200/
-				message \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagainIntro.Totem}}\"/
+				message \"{{i18n:Event.PirateLadCaitrionaOFlannagainIntro.Totem}}\"/
 				action AddItem VoidWitchCult.CP.TheFishmongerNPC_LostIslandTotem 1 0/
 				pause 1200/
 				globalFade/viewport -1000 -1000/pause 200/end warpOut
@@ -1244,19 +1290,19 @@
 				pause 600/
 				emote {{ModID}}_PirateLadCaitrionaOFlannagain 40/
 				pause 1200/
-				quickQuestion #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain2Hearts.QQ1}}(break)speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain2Hearts.QReply}}\"/
+				quickQuestion #{{i18n:Event.PirateLadCaitrionaOFlannagain2Hearts.QQ1}}(break)speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain2Hearts.QReply}}\"/
 				pause 600/
 				emote farmer 20/
 				pause 1200/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain2Hearts.Youknow}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain2Hearts.Youknow}}\"/
 				pause 600/
 				emote farmer 8/
 				pause 1200/
-				quickQuestion #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain2Hearts.QQ2}}(break)speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain2Hearts.QReply2}}\"/
+				quickQuestion #{{i18n:Event.PirateLadCaitrionaOFlannagain2Hearts.QQ2}}(break)speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain2Hearts.QReply2}}\"/
 				pause 600/
 				emote farmer 32/
 				pause 1200/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain2Hearts.YoureRight}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain2Hearts.YoureRight}}\"/
 				pause 600/
 				emote farmer 20/
 				pause 1200/
@@ -1290,13 +1336,13 @@
 				pause 400/
 				move farmer -4 0 0/
 				pause 600/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain4Hearts.HiThereFarmer}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain4Hearts.HiThereFarmer}}\"/
 				pause 600/
 				emote farmer 32/
 				pause 1200/
 				move {{ModID}}_PirateLadCaitrionaOFlannagain 1 0 2/
 				pause 400/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain4Hearts.SmokingFish}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain4Hearts.SmokingFish}}\"/
 				pause 400/
 				emote farmer 20/
 				pause 1200/
@@ -1308,7 +1354,7 @@
 				pause 1200/
 				emote {{ModID}}_PirateLadCaitrionaOFlannagain 40/
 				pause 1200/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain4Hearts.Backstory}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain4Hearts.Backstory}}\"/
 				pause 600/
 				emote farmer 16/
 				pause 1200/
@@ -1316,7 +1362,7 @@
 				pause 1200/
 				emote {{ModID}}_PirateLadCaitrionaOFlannagain 60/
 				pause 1200/
-				textAboveHead {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain4Hearts.Thanks}}\"/
+				textAboveHead {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain4Hearts.Thanks}}\"/
 				pause 1200/
 				emote farmer 20/				
 				pause 1200/
@@ -1342,9 +1388,9 @@
 				pause 1200/
 				emote farmer 8/
 				pause 1200/
-				textAboveHead {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain6Hearts.Hello}}\"/
+				textAboveHead {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain6Hearts.Hello}}\"/
 				pause 1200/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain6Hearts.IveBeenThinking}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain6Hearts.IveBeenThinking}}\"/
 				pause 800/
 				animate {{ModID}}_PirateLadCaitrionaOFlannagain false false 800 16 17 18 19/
 				stopAnimation {{ModID}}_PirateLadCaitrionaOFlannagain/
@@ -1358,7 +1404,7 @@
 				pause 600/
 				emote farmer 16/
 				pause 1200/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain6Hearts.LetMeTellYou}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain6Hearts.LetMeTellYou}}\"/
 				pause 400/
 				jump farmer 4/
 				playMusic bigDrums/
@@ -1373,7 +1419,7 @@
 				faceDirection {{ModID}}_PirateLadCaitrionaOFlannagain 0/
 				viewport 12 16/
 				pause 500/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain6Hearts.Backstory1}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain6Hearts.Backstory1}}\"/
 				pause 200/
 				globalFade/
 				viewport -1000 -1000/
@@ -1385,13 +1431,13 @@
 				viewport 88 57 clamp true/
 				emote farmer 28/
 				pause 800/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain6Hearts.Backstory2}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain6Hearts.Backstory2}}\"/
 				pause 800/
 				emote farmer 28/
 				pause 1200/
 				shake {{ModID}}_PirateLadCaitrionaOFlannagain 10/
 				pause 300/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain6Hearts.Backstory3}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain6Hearts.Backstory3}}\"/
 				pause 600/
 				emote farmer 20/
 				pause 600/
@@ -1420,38 +1466,38 @@
 				pause 1200/
 				jump farmer 3/
 				pause 600/
-				textAboveHead {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain8Hearts.Ahoythere}}\"/
+				textAboveHead {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain8Hearts.Ahoythere}}\"/
 				pause 1000/
 				emote farmer 32/
 				pause 1200/
 				move farmer -6 0 0/
 				pause 400/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain8Hearts.NiceDay}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain8Hearts.NiceDay}}\"/
 				pause 600/
 				emote farmer 20/
 				pause 1200/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain8Hearts.Walk}}\"/
-				quickQuestion #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain8Hearts.QQ1}}#{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain8Hearts.QQ2}}(break)speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain8Hearts.QReply}}\"(break)speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain8Hearts.QReply2}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain8Hearts.Walk}}\"/
+				quickQuestion #{{i18n:Event.PirateLadCaitrionaOFlannagain8Hearts.QQ1}}#{{i18n:Event.PirateLadCaitrionaOFlannagain8Hearts.QQ2}}(break)speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain8Hearts.QReply}}\"(break)speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain8Hearts.QReply2}}\"/
 				move farmer 0 -2 3/
 				pause 400/
 				emote {{ModID}}_PirateLadCaitrionaOFlannagain 32/
 				pause 2000/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain8Hearts.Ah}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain8Hearts.Ah}}\"/
 				pause 400/
 				emote farmer 8/
 				pause 1200/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain8Hearts.Well}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain8Hearts.Well}}\"/
 				pause 400/
 				jump farmer 6/
 				pause 300/
 				faceDirection {{ModID}}_PirateLadCaitrionaOFlannagain 1/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain8Hearts.Yup}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain8Hearts.Yup}}\"/
 				pause 400/
 				emote farmer 32/
 				pause 600/
 				emote {{ModID}}_PirateLadCaitrionaOFlannagain 20/
 				pause 1200/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.PirateLadCaitrionaOFlannagain8Hearts.Honesty}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.PirateLadCaitrionaOFlannagain8Hearts.Honesty}}\"/
 				pause 600/
 				emote {{ModID}}_PirateLadCaitrionaOFlannagain 20/
 				pause 600/
@@ -1484,13 +1530,13 @@
 				showFrame {{ModID}}_CoolGalBernadette 19/
 				emote {{ModID}}_CoolGalBernadette 32/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadetteIntro.BigShot}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadetteIntro.BigShot}}\"/
 				pause 400/
 				faceDirection farmer 1/
 				emote farmer 16/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadetteIntro.WhatsUp}}\"/
-				quickQuestion #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadetteIntro.QQ1}}(break)speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadetteIntro.QReply}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadetteIntro.WhatsUp}}\"/
+				quickQuestion #{{i18n:Event.CoolGalBernadetteIntro.QQ1}}(break)speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadetteIntro.QReply}}\"/
 				pause 400/
 				emote farmer 16/
 				pause 1000/
@@ -1519,24 +1565,24 @@
 				move {{ModID}}_CoolGalBernadette 2 0 0/
 				emote {{ModID}}_CoolGalBernadette 32/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette2Hearts.HeyThere}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette2Hearts.HeyThere}}\"/
 				emote farmer 56/
 				pause 1200/
 				move farmer 0 1 2/faceDirection farmer 3/faceDirection {{ModID}}_CoolGalBernadette 1/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette2Hearts.Interesting}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette2Hearts.Interesting}}\"/
 				pause 400/
 				emote farmer 36/
 				pause 600/
 				emote {{ModID}}_CoolGalBernadette 8/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette2Hearts.ISee}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette2Hearts.ISee}}\"/
 				jump farmer 5/
 				pause 400/
 				emote farmer 40/
 				pause 600/
 				emote {{ModID}}_CoolGalBernadette 56/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette2Hearts.IKid}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette2Hearts.IKid}}\"/
 				emote farmer 32/
 				pause 600/
 				move {{ModID}}_CoolGalBernadette 0 -17 0/
@@ -1562,30 +1608,30 @@
 				pause 600/
 				emote {{ModID}}_CoolGalBernadette 32/
 				pause 1000/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette4Hearts.JojaHello}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette4Hearts.JojaHello}}\"/
 				faceDirection {{ModID}}_CoolGalBernadette 1/
 				emote farmer 32/
 				pause 1000/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette4Hearts.ComeHere}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette4Hearts.ComeHere}}\"/
 				move farmer -1 0 3/
 				emote farmer 40/
 				pause 1000/
 				emote farmer 8/
 				pause 1000/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette4Hearts.StoryTime}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette4Hearts.StoryTime}}\"/
 				pause 400/
 				emote farmer 40/faceDirection {{ModID}}_CoolGalBernadette 2/
 				pause 1000/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette4Hearts.IKnow}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette4Hearts.IKnow}}\"/
 				emote farmer 4/
 				pause 600/
 				emote {{ModID}}_CoolGalBernadette 32/
 				pause 1000/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette4Hearts.ShowYou}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette4Hearts.ShowYou}}\"/
 				pause 600/
 				emote farmer 56/
 				pause 1000/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette4Hearts.Deal}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette4Hearts.Deal}}\"/
 				emote farmer 20/
 				pause 600/
 				globalFade/viewport -1000 -1000/pause 600/end
@@ -1608,22 +1654,22 @@
 				pause 1200/
 				move farmer 6 0 2/
 				move farmer 0 3 3/
-				textAboveHead {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette6Hearts.Hello}}\"/
+				textAboveHead {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette6Hearts.Hello}}\"/
 				pause 1200/
 				emote farmer 32/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette6Hearts.IsntItNice}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette6Hearts.IsntItNice}}\"/
 				move farmer -1 0 2/
 				emote farmer 56/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette6Hearts.Inspiration}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette6Hearts.Inspiration}}\"/
 				emote {{ModID}}_CoolGalBernadette 40/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette6Hearts.WellThen}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette6Hearts.WellThen}}\"/
 				faceDirection farmer 3/
 				emote farmer 16/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette6Hearts.Guitar}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette6Hearts.Guitar}}\"/
 				faceDirection {{ModID}}_CoolGalBernadette 1/
 				emote {{ModID}}_CoolGalBernadette 56/
 				pause 600/
@@ -1633,12 +1679,12 @@
 				faceDirection {{ModID}}_CoolGalBernadette 2/
 				emote {{ModID}}_CoolGalBernadette 32/
 				pause 2000/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette6Hearts.Yeah}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette6Hearts.Yeah}}\"/
 				showframe farmer 98/
 				faceDirection {{ModID}}_CoolGalBernadette 1/
 				emote farmer 20/
 				pause 1500/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette6Hearts.Harp}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette6Hearts.Harp}}\"/
 				emote {{ModID}}_CoolGalBernadette 32/
 				pause 600/
 				globalFade/viewport -1000 -1000/pause 600/end
@@ -1661,37 +1707,37 @@
 				pause 1200/
 				faceDirection {{ModID}}_CoolGalBernadette 1/
 				pause 400/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8Hearts.HiFarmer}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8Hearts.HiFarmer}}\"/
 				pause 600/
 				emote farmer 56/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8Hearts.NiceWeather}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8Hearts.NiceWeather}}\"/
 				pause 400/
 				emote farmer 8/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8Hearts.Remember}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8Hearts.Remember}}\"/
 				pause 400/
 				emote farmer 40/
 				pause 1200/
 				emote farmer 16/
 				pause 1200/
-				quickQuestion #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8Hearts.QQ1}}#{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8Hearts.QQ2}}#{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8Hearts.QQ3}}(break)speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8Hearts.QReply}}\"(break)speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8Hearts.QReply2}}\"(break)speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8Hearts.QReply3}}\"/
+				quickQuestion #{{i18n:Event.CoolGalBernadette8Hearts.QQ1}}#{{i18n:Event.CoolGalBernadette8Hearts.QQ2}}#{{i18n:Event.CoolGalBernadette8Hearts.QQ3}}(break)speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8Hearts.QReply}}\"(break)speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8Hearts.QReply2}}\"(break)speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8Hearts.QReply3}}\"/
 				pause 600/
 				emote farmer 20/
 				pause 1200/
 				shake {{ModID}}_CoolGalBernadette 400/
 				pause 400/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8Hearts.Excited}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8Hearts.Excited}}\"/
 				pause 600/
 				emote farmer 32/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8Hearts.Giving}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8Hearts.Giving}}\"/
 				pause 400/
 				jump farmer 5/
 				pause 400/
 				emote {{ModID}}_CoolGalBernadette 20/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8Hearts.SeeYa}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8Hearts.SeeYa}}\"/
 				pause 400/
 				move {{ModID}}_CoolGalBernadette 0 9 3/
 				move {{ModID}}_CoolGalBernadette -2 0 3/
@@ -1721,17 +1767,17 @@
 				jump farmer 3/
 				pause 400/
 				faceDirection {{ModID}}_CoolGalBernadette 2/
-				textAboveHead {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.HiThere}}\"/
+				textAboveHead {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.HiThere}}\"/
 				pause 600/
 				emote farmer 32/
 				pause 1200/
 				move farmer 0 -2 0/
 				faceDirection {{ModID}}_CoolGalBernadette 1/
-				textAboveHead {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.ComeHere}}\"/
+				textAboveHead {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.ComeHere}}\"/
 				pause 400/
 				emote farmer 8/
 				faceDirection farmer 1/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.ShowYou}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.ShowYou}}\"/
 				pause 1200/
 				move farmer 1 0 1/
 				globalFade/
@@ -1745,19 +1791,19 @@
 				playMusic movie_classic/
 				viewport 10 13/
 				pause 1500/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.Backstory1}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.Backstory1}}\"/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.Photo1}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.Photo1}}\"/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.Photo2}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.Photo2}}\"/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.Photo3}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.Photo3}}\"/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.Photo4}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.Photo4}}\"/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.Photo5}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.Photo5}}\"/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.SumUp}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.SumUp}}\"/
 				pause 1200/
 				globalFade/
 				viewport -1000 -1000/
@@ -1769,20 +1815,20 @@
 				playSound jaunty/
 				viewport 11 11/
 				emote farmer 32/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.PrettyNeat}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.PrettyNeat}}\"/
 				pause 800/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.Silence}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.Silence}}\"/
 				pause 600/
 				emote farmer 8/
 				pause 1200/
-				textAboveHead {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.ItsOK}}\"/
+				textAboveHead {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.ItsOK}}\"/
 				pause 1500/
 				faceDirection {{ModID}}_CoolGalBernadette 2/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.IllLetYouKnow}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.IllLetYouKnow}}\"/
 				pause 800/
 				emote farmer 20/
 				pause 1200/
-				textAboveHead {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette8HeartsPart2.SeeYa}}\"/
+				textAboveHead {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette8HeartsPart2.SeeYa}}\"/
 				move farmer -1 0 2/move farmer 0 2 2/
 				warp farmer -2000 -2000/
 				playSound doorClose/
@@ -1821,7 +1867,7 @@
 				playSound doorClose/
 				warp farmer 14 24/faceDirection farmer 0/
 				pause 400/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette10Hearts.LooksLike}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette10Hearts.LooksLike}}\"/
 				pause 600/
 				move farmer 0 -3 1/
 				pause 200/
@@ -1833,14 +1879,14 @@
 				pause 400/
 				stopAnimation {{ModID}}_CoolGalBernadette/
 				showFrame {{ModID}}_CoolGalBernadette 27/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette10Hearts.ThankYou}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette10Hearts.ThankYou}}\"/
 				pause 600/
 				emote Gus 20/
 				pause 1200/
 				stopAnimation Gus/
 				faceDirection Gus 1/
 				pause 400/
-				speak Gus \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette10Hearts.GusThanks}}\"/
+				speak Gus \"{{i18n:Event.CoolGalBernadette10Hearts.GusThanks}}\"/
 				pause 800/
 				emote farmer 20/
 				pause 200/
@@ -1849,29 +1895,29 @@
 				emote Sam 56/
 				pause 1200/
 				jump Sam 2/
-				speak Sam \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette10Hearts.SamRadical}}\"/
+				speak Sam \"{{i18n:Event.CoolGalBernadette10Hearts.SamRadical}}\"/
 				pause 500/
 				emote {{ModID}}_CoolGalBernadette 20/
 				pause 1200/
 				shake Emily 200/
-				speak Emily \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette10Hearts.EmilyAgree}}\"/
+				speak Emily \"{{i18n:Event.CoolGalBernadette10Hearts.EmilyAgree}}\"/
 				pause 400/
-				textAboveHead Abigail \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette10Hearts.AbbyAgree}}\"/
+				textAboveHead Abigail \"{{i18n:Event.CoolGalBernadette10Hearts.AbbyAgree}}\"/
 				pause 400/
-				textAboveHead Elliott \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette10Hearts.ElliottAgree}}\"/
+				textAboveHead Elliott \"{{i18n:Event.CoolGalBernadette10Hearts.ElliottAgree}}\"/
 				pause 1200/
 				emote {{ModID}}_CoolGalBernadette 60/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette10Hearts.Shy}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette10Hearts.Shy}}\"/
 				showFrame {{ModID}}_CoolGalBernadette 23/
 				pause 600/
 				emote farmer 32/
 				pause 1200/
-				textAboveHead Sam \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette10Hearts.LetsJam}}\"/
+				textAboveHead Sam \"{{i18n:Event.CoolGalBernadette10Hearts.LetsJam}}\"/
 				pause 600/
 				emote Abigail 20/
 				pause 1200/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.CoolGalBernadette10Hearts.NiceEnd}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette10Hearts.NiceEnd}}\"/
 				pause 600/
 				globalFade/viewport -1000 -1000/pause 600/end
 				"
@@ -1903,7 +1949,7 @@
 				emote {{ModID}}_SeaDudeBarnabas 40/
 				pause 1200/				
 				stopAnimation {{ModID}}_SeaDudeBarnabas/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabasIntro.HiThere}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabasIntro.HiThere}}\"/
 				pause 400/
 				jump farmer 6/
 				pause 400/
@@ -1912,7 +1958,7 @@
 				pause 400/
 				emote {{ModID}}_SeaDudeBarnabas 8/
 				pause 1200/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabasIntro.TheNameIsBarnabas}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabasIntro.TheNameIsBarnabas}}\"/
 				faceDirection {{ModID}}_SeaDudeBarnabas 1/
 				faceDirection {{ModID}}_SeaDudeBarnabas 3/
 				faceDirection {{ModID}}_SeaDudeBarnabas 2/
@@ -1921,7 +1967,7 @@
 				pause 1200/
 				emote farmer 16/
 				pause 1200/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabasIntro.Orchard}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabasIntro.Orchard}}\"/
 				pause 400/
 				faceDirection farmer 1/
 				faceDirection farmer 3/
@@ -1930,7 +1976,7 @@
 				pause 800/
 				faceDirection farmer 0/
 				pause 400/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabasIntro.JustAsk}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabasIntro.JustAsk}}\"/
 				pause 400/
 				shake farmer 100/
 				pause 200/
@@ -1967,7 +2013,7 @@
 				pause 1200/
 				move {{ModID}}_SeaDudeBarnabas 0 -3 3/
 				pause 600/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas2Hearts.Greetings}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas2Hearts.Greetings}}\"/
 				pause 400/
 				emote farmer 32/
 				pause 1000/
@@ -1979,12 +2025,12 @@
 				faceDirection {{ModID}}_SeaDudeBarnabas 1/
 				emote {{ModID}}_SeaDudeBarnabas 16/
 				pause 1000/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas2Hearts.FlowerCart}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas2Hearts.FlowerCart}}\"/
 				move {{ModID}}_SeaDudeBarnabas 8 0 0/
 				move farmer 0 1 1/move farmer 2 0 1/
 				faceDirection {{ModID}}_SeaDudeBarnabas 3/
 				action AddItem {{ModID}}_scallure 1 0/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas2Hearts.HaveThis}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas2Hearts.HaveThis}}\"/
 				pause 400/
 				faceDirection {{ModID}}_SeaDudeBarnabas 0/
 				pause 200/
@@ -1995,10 +2041,10 @@
 				faceDirection {{ModID}}_SeaDudeBarnabas 2/
 				faceDirection farmer 1/
 				pause 800/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas2Hearts.GoVisit}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas2Hearts.GoVisit}}\"/
 				emote farmer 8/
 				pause 1200/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas2Hearts.ImSerious}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas2Hearts.ImSerious}}\"/
 				pause 400/
 				emote farmer 8/
 				move {{ModID}}_SeaDudeBarnabas 0 2 1/move {{ModID}}_SeaDudeBarnabas 1 0 2/move {{ModID}}_SeaDudeBarnabas 0 12 2/
@@ -2022,12 +2068,12 @@
 				pause 600/
 				emote {{ModID}}_SeaDudeBarnabas 20/
 				pause 1200/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas4Hearts.BeeHouse}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas4Hearts.BeeHouse}}\"/
 				stopAnimation {{ModID}}_SeaDudeBarnabas/
 				move {{ModID}}_SeaDudeBarnabas 0 1 1/move {{ModID}}_SeaDudeBarnabas 3 0 2/move {{ModID}}_SeaDudeBarnabas 0 6 1/
 				animate {{ModID}}_SeaDudeBarnabas true true 500 40 41 42 43/
 				pause 800/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas4Hearts.LookingGoodFence}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas4Hearts.LookingGoodFence}}\"/
 				stopAnimation {{ModID}}_SeaDudeBarnabas/
 				emote {{ModID}}_SeaDudeBarnabas 32/
 				globalFade/
@@ -2046,11 +2092,11 @@
 				faceDirection {{ModID}}_SeaDudeBarnabas 1/
 				globalFadeToClear 0.007 true/
 				viewport 11 11/
-				speak {{ModID}}_CoolGalBernadette \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas4Hearts.ThankYou}}\"/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.SeaDudeBarnabas4Hearts.ThankYou}}\"/
 				pause 400/
 				emote {{ModID}}_SeaDudeBarnabas 32/
 				pause 1000/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas4Hearts.NoProblem}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas4Hearts.NoProblem}}\"/
 				pause 400/
 				emote {{ModID}}_CoolGalBernadette 20/
 				pause 400/
@@ -2072,17 +2118,17 @@
 				viewport 7 14/
 				emote {{ModID}}_SeaDudeBarnabas 40/
 				pause 1000/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas4Hearts.Smoker}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas4Hearts.Smoker}}\"/
 				pause 400/
 				shake {{ModID}}_PirateLadCaitrionaOFlannagain 200/
 				pause 400/
 				emote {{ModID}}_PirateLadCaitrionaOFlannagain 40/
 				pause 1000/
-				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas4Hearts.YeahNo}}\"/
+				speak {{ModID}}_PirateLadCaitrionaOFlannagain \"{{i18n:Event.SeaDudeBarnabas4Hearts.YeahNo}}\"/
 				pause 600/
 				emote {{ModID}}_SeaDudeBarnabas 32/
 				pause 1000/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas4Hearts.DontWorry}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas4Hearts.DontWorry}}\"/
 				globalFade/
 				viewport -1000 -1000/
 				pause 800/
@@ -2100,7 +2146,7 @@
 				viewport 42 28/
 				move {{ModID}}_SeaDudeBarnabas 15 0 1/
 				pause 400/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas4Hearts.WhatToDoNext}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas4Hearts.WhatToDoNext}}\"/
 				pause 400/
 				emote {{ModID}}_SeaDudeBarnabas 40/
 				pause 1000/
@@ -2115,11 +2161,11 @@
 				viewport move 1 1 2500/
 				move {{ModID}}_SeaDudeBarnabas 0 10 2/
 				pause 400/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas4Hearts.TakeABreak}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas4Hearts.TakeABreak}}\"/
 				move {{ModID}}_SeaDudeBarnabas 5 0 2/
 				showFrame {{ModID}}_SeaDudeBarnabas 21/
 				pause 600/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas4Hearts.Thinking}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas4Hearts.Thinking}}\"/
 				pause 400/
 				emote {{ModID}}_SeaDudeBarnabas 20/
 				pause 1000/
@@ -2156,7 +2202,7 @@
 				pause 200/
 				faceDirection {{ModID}}_SeaDudeBarnabas 0/
 				pause 400/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas6Hearts.AhHello}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas6Hearts.AhHello}}\"/
 				pause 600/
 				emote farmer 8/
 				pause 1000/
@@ -2170,7 +2216,7 @@
 				pause 200/
 				emote {{ModID}}_SeaDudeBarnabas 28/
 				pause 1000/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas6Hearts.Sigh}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas6Hearts.Sigh}}\"/
 				pause 400/
 				faceDirection {{ModID}}_SeaDudeBarnabas 1/
 				shake {{ModID}}_SeaDudeBarnabas 400/
@@ -2179,15 +2225,15 @@
 				pause 1000/
 				faceDirection {{ModID}}_SeaDudeBarnabas 0/
 				pause 400/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas6Hearts.Statue}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas6Hearts.Statue}}\"/
 				pause 400/
 				shake {{ModID}}_SeaDudeBarnabas 500/
 				pause 200/
 				emote farmer 28/
 				faceDirection farmer 1/
 				pause 1000/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas6Hearts.MyFather}}\"/
-				quickQuestion #{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas6Hearts.QQ1}}#{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas6Hearts.QQ2}}(break) speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas6Hearts.QReply}}\"\\emote farmer 32\\pause 1000\\speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas6Hearts.QReply1}}\"\\emote farmer 20\\pause 10(break) friendship {{ModID}}_SeaDudeBarnabas -2000\\speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabas6Hearts.QReply2}}\"\\emote {{ModID}}_SeaDudeBarnabas 12\\pause 1000\\positionOffset farmer -2 0\\pause 50\\positionOffset farmer -2 0\\pause 50\\positionOffset farmer -2 0\\pause 5\\positionOffset farmer -2 0\\pause 50\\positionOffset farmer -2 0\\pause 50\\positionOffset farmer -2 0\\pause 50/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas6Hearts.MyFather}}\"/
+				quickQuestion #{{i18n:Event.SeaDudeBarnabas6Hearts.QQ1}}#{{i18n:Event.SeaDudeBarnabas6Hearts.QQ2}}(break) speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas6Hearts.QReply}}\"\\emote farmer 32\\pause 1000\\speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas6Hearts.QReply1}}\"\\emote farmer 20\\pause 10(break) friendship {{ModID}}_SeaDudeBarnabas -2000\\speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas6Hearts.QReply2}}\"\\emote {{ModID}}_SeaDudeBarnabas 12\\pause 1000\\positionOffset farmer -2 0\\pause 50\\positionOffset farmer -2 0\\pause 50\\positionOffset farmer -2 0\\pause 5\\positionOffset farmer -2 0\\pause 50\\positionOffset farmer -2 0\\pause 50\\positionOffset farmer -2 0\\pause 50/
 				pause 1000/
 				globalFade/viewport -1000 -1000/pause 600/end
 				"
@@ -2196,18 +2242,152 @@
 		{
 			"LogName": "Fishmonger - Barnabas 8 Hearts event",
 			"Action": "EditData",
-			"Target": "Data/Events/{{ModId}}_LostIsland_EnchantedForest",
+			"Target": "Data/Events/{{ModId}}_LostIsland_Orchard",
 			"Entries": {
-				"{{ModID}}_SeaDudeBarnabas8Hearts/t 0700 1200/e {{ModID}}_Constance6Hearts/e {{ModID}}_SeaDudeBarnabas4Hearts": "
+				"{{ModID}}_SeaDudeBarnabas8Hearts/t 0700 1200/e {{ModID}}_Constance6Hearts/e {{ModID}}_SeaDudeBarnabas6Hearts": "
 				night_market/
 				-1000 -1000/
-				farmer 36 56 2 {{ModID}}_SeaDudeBarnabas 47 67 0/
+				farmer 46 31 1 {{ModID}}_SeaDudeBarnabas 62 29 0/
+				animate {{ModID}}_SeaDudeBarnabas false true 500 38 39/
+				positionOffset {{ModID}}_SeaDudeBarnabas 25 0/
 				skippable/
-				viewport 46 68 clamp true/
+				viewport 66 33 clamp true/
 				pause 600/
+				move farmer 14 0 1/emote farmer 8/
+				pause 1200/
+				move farmer 2 0 0/
+				pause 600/
+				emote {{ModID}}_SeaDudeBarnabas 32/
+				pause 1200/
+				textAboveHead {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.HiThere}}\"/
+				pause 1200/
+				emote farmer 20/
+				pause 1200/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.NicetoSeeYou}}\"/
+				pause 400/
+				jump farmer 4/
+				pause 400/
+				emote farmer 32/
+				pause 1200/
+				stopAnimation {{ModID}}_SeaDudeBarnabas/
+				positionOffset {{ModID}}_SeaDudeBarnabas -25 0/
+				faceDirection {{ModID}}_SeaDudeBarnabas 2/
+				move {{ModID}}_SeaDudeBarnabas 0 1 1/
+				faceDirection farmer 1/
+				pause 400/
+				move {{ModID}}_SeaDudeBarnabas 10 0 1 farmer 10 0 1/
+				move {{ModID}}_SeaDudeBarnabas 0 4 2 farmer 0 5 0/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.BTW}}\"/
+				emote farmer 20/
+				pause 400/
 				
+				globalFade/
+				viewport -1000 -1000/
+				pause 800/
+				changeLocation {{ModId}}_LostIsland_NorthernCliffs/
+				viewport -1000 -1000/
+				warp farmer 24 35 true/
+				warp {{ModID}}_SeaDudeBarnabas 25 35 true/
+				faceDirection farmer 01/
+				faceDirection {{ModID}}_SeaDudeBarnabas 0/
+				globalFadeToClear 0.007 true/
+				viewport 39 22/
+				move farmer 0 -10 0 {{ModID}}_SeaDudeBarnabas 0 -8 0/
+				faceDirection farmer 2/
+				pause 400/
+				emote farmer 8/
+				pause 1200/
+				textAboveHead {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.Hmmm}}\"/
+				pause 600/
+				move {{ModID}}_SeaDudeBarnabas 0 -1 3/
+				pause 600/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.Actually}}\"/
+				pause 800/
+				emote farmer 8/
+				pause 1200/
+				move {{ModID}}_SeaDudeBarnabas 2 0 3/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.Cmon}}\"/
+				pause 400/
+				move {{ModID}}_SeaDudeBarnabas 17 0 0 farmer 19 0 0/
+				emote farmer 8/
+				pause 800/
+				move {{ModID}}_SeaDudeBarnabas 0 -8 1/
+				move {{ModID}}_SeaDudeBarnabas 3 0 2/
+				faceDirection farmer 1/
+				move {{ModID}}_SeaDudeBarnabas 0 3 2 farmer 4 0 0/
+				move farmer 0 -2 0/
+				pause 400/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.MightAsk}}\"/
+				pause 600/
+				move {{ModID}}_SeaDudeBarnabas -1 0 0/
+				pause 200/
+				playSound dwop/
+				pause 600/
+				playSound slimeHit/
+				pause 800/
+				faceDirection {{ModID}}_SeaDudeBarnabas 2/
+				emote {{ModID}}_SeaDudeBarnabas 20/
+				pause 1200/
+				move {{ModID}}_SeaDudeBarnabas 1 0 2/
+				textAboveHead {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.Hewre}}\"/
+				showFrame farmer 57/addObject 47 21 {{ModID}}_OceanSmoothieBowl 1/playSound pickUpItem/pause 1500/removeTemporarySprites/
+				farmerEat {{ModID}}_OceanSmoothieBowl/
+				pause 600/
+				emote {{ModID}}_SeaDudeBarnabas 20/
+				pause 1200/
+				faceDirection farmer 0/
+				jump farmer 4/
+				pause 600/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.IsItGood}}\"/
+				pause 800/
+				quickQuestion #{{i18n:Event.SeaDudeBarnabas8Hearts.QQ1}}#{{i18n:Event.SeaDudeBarnabas8Hearts.QQ2}}(break)speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.QReply}}\"(break)speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.QReply2}}\"/
+				pause 800/
+				emote farmer 20/
+				pause 1200/
+				emote {{ModID}}_SeaDudeBarnabas 32/
+				pause 1200/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.ThatSaid}}\"/
+				showFrame farmer 57/addObject 47 21 {{ModID}}_TropicalPunch 1/playSound pickUpItem/pause 1500/removeTemporarySprites/
+				farmerEat {{ModID}}_TropicalPunch/
+				pause 800/
+				emote farmer 56/
+				faceDirection farmer 0/
+				pause 1200/
+				animate {{ModID}}_SeaDudeBarnabas false false 400 30 31 30 31 30 31/
+				pause 800/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.LoveIt}}\"/
+				pause 800/
+				jump farmer 4/
+				pause 600/
+				emote farmer 60/
+				pause 1200/
+				textAboveHead {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.Heh}}\"/
+				pause 400/
 				
-				pause 1000/
+				move {{ModID}}_SeaDudeBarnabas -1 0 0/
+				pause 200/
+				playSound dwop/
+				pause 600/
+				playSound slimeHit/
+				pause 600/
+				playSound slimeHit/
+				pause 800/
+				faceDirection {{ModID}}_SeaDudeBarnabas 2/
+				emote {{ModID}}_SeaDudeBarnabas 20/
+				pause 1200/
+				move {{ModID}}_SeaDudeBarnabas 1 0 2/
+				textAboveHead {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.Hewre}}\"/
+				showFrame farmer 57/addObject 47 21 {{ModID}}_IridescentCake 1/playSound pickUpItem/pause 1500/removeTemporarySprites/
+				farmerEat {{ModID}}_IridescentCake/
+				pause 600/
+				emote {{ModID}}_SeaDudeBarnabas 20/
+				pause 1200/
+				faceDirection farmer 0/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabas8Hearts.More}}\"/
+				pause 400/
+				emote farmer 20/
+				
+				pause 600/
 				globalFade/viewport -1000 -1000/pause 600/end
 				"
 			},
@@ -2250,7 +2430,7 @@
 				pause 1000/
 				playSound slosh/
 				pause 200/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabasHatHearts.Look}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabasHatHearts.Look}}\"/
 				pause 400/
 				faceDirection farmer 1/
 				pause 400/
@@ -2259,7 +2439,7 @@
 				stopAnimation {{ModID}}_SeaDudeBarnabas/
 				playSound pullItemFromWater/
 				showFrame {{ModID}}_SeaDudeBarnabas 35/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabasHatHearts.ItsAHat}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabasHatHearts.ItsAHat}}\"/
 				pause 400/
 				jump farmer 6/
 				pause 400/
@@ -2288,10 +2468,10 @@
 				showFrame 5/
 				message \" ...@?\"/
 				pause 1000/
-				message \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabasPlayerKilled.YouOk}}\"/
+				message \"{{i18n:Event.SeaDudeBarnabasPlayerKilled.YouOk}}\"/
 				viewport 20 12 true/
 				pause 1000/
-				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Event.SeaDudeBarnabasPlayerKilled.FoundYou}}\"/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.SeaDudeBarnabasPlayerKilled.FoundYou}}\"/
 				showFrame 0/
 				pause 1000/
 				emote farmer 28/
@@ -2325,4 +2505,6 @@ Emotes:
 52- video game
 56- music note
 60- blush
+
+quickQuestion #{{i18n:Event.EVENTNAME.QQ1}}#{{i18n:Event.EVENTNAME.QQ2}}(break)speak {{ModID}}_QUESTIONASKERNPCANSWERS \"{{i18n:Event.EVENTNAME.QReply}}\"(break)speak {{ModID}}_QUESTIONASKERNPCANSWERS \"{{i18n:Event.EVENTNAME.QReply2}}\"/
 */

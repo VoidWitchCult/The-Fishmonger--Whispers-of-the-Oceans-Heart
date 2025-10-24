@@ -280,6 +280,7 @@
 			"{{ModID}}_constance.troutderby.001": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Schedule.Dialogue.troutderby.001}}",
 			"{{ModID}}_constance.squidfest.000": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Schedule.Dialogue.squidfest.000}}",
 			"{{ModID}}_constance.squidfest.001": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Schedule.Dialogue.squidfest.001}}",
+			"{{ModID}}_constance.lostisland.001": "{{i18n:Schedule.Dialogue.lostisland.001}}",
 			}
 			}
 		]
