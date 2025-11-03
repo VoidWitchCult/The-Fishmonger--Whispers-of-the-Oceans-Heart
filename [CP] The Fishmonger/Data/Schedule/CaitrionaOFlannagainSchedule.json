@@ -85,6 +85,28 @@
 			2400 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_sleep/
 			",
 			}
-		}
+		},
+		{
+            "LogName": "Caitríona's Marriage Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{ModID}}_PirateLadCaitrionaOFlannagain",
+            "Entries": {
+                "marriage": "800 Beach 48 24 2 {{ModID}}_PirateLadCaitrionaOFlannagain_drinking/1100 Beach 40 36 2 {{ModID}}_PirateLadCaitrionaOFlannagain_sitting2/1400 Beach 11 27 3/1600 Town 43 90 3/1800 Town 30 56 2/1900 bed",
+				"marriage_Mon": "900 SeedShop 13 27 1/1100 SeedShop 2 20 3/1200 Blacksmith 4 15 0/1400 Town 79 87 2/1630 41 24 2/1900 bed",
+                "marriage_Tue": "GOTO marriage",
+				"marriage_Wed": "1000 Mountain 58 35 1/1300 Mountain 61 12 2 {{ModID}}_PirateLadCaitrionaOFlannagain_sitting2/1630 Town 26 29 0/1800 Town 29 26 3/1900 bed",
+                "marriage_Thu": "GOTO marriage",
+				"marriage_Fri": "900 Town 46 32 2/1100 Town 87 85 0/1400 Beach 49 19 2/1630 FishShop 6 6 0/1900 bed",
+				"marriage_Sat": "GOTO marriage",
+				"marriage_Sun": "GOTO marriage",
+				"marriage_GreenRain": "0 Saloon 6 17 0",
+				"marriage_DesertFestival_1": "1000 Desert 27 66 2/2000 bed",
+				"marriage_DesertFestival_2": "GOTO marriage_DesertFestival_1", 
+				"marriage_DesertFestival_3": "GOTO marriage_DesertFestival_1",
+				"marriage_NightMarket_1": "1600 Beach 47 19 2/1800 Beach 14 38 0/1900 Beach 27 7/2200 bed",
+				"marriage_NightMarket_2": "GOTO marriage_NightMarket_1",
+				"marriage_NightMarket_3": "GOTO marriage_NightMarket_1"
+            }
+        },
 	]
 }

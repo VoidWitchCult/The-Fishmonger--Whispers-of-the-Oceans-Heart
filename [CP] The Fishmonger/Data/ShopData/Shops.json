@@ -932,6 +932,11 @@
 				],
 				"Items": [
 					{
+						"Id": "{{ModID}}_LostIslandTotem",
+						"ItemId": "{{ModID}}_LostIslandTotem",
+						"Price": 5000,
+					},
+					{
 						"Id": "{{ModID}}_OldRune",
 						"ItemId": "{{ModID}}_OldRune",
 						"Price": 30000,
@@ -1075,15 +1080,15 @@
 						"TradeItemAmount": 200,
 					},
 					{
-						"Id": "{{ModID}}_LushFlorestineBroadsword",
-						"ItemId": "{{ModID}}_LushFlorestineBroadsword",
-						"TradeItemId": "(O){{ModID}}_LushFlorestine",
+						"Id": "{{ModID}}_LushForestineBroadsword",
+						"ItemId": "{{ModID}}_LushForestineBroadsword",
+						"TradeItemId": "(O){{ModID}}_LushForestine",
 						"TradeItemAmount": 200,
 					},
 					{
-						"Id": "{{ModID}}_LushFlorestineAxe",
-						"ItemId": "{{ModID}}_LushFlorestineAxe",
-						"TradeItemId": "(O){{ModID}}_LushFlorestine",
+						"Id": "{{ModID}}_LushForestineAxe",
+						"ItemId": "{{ModID}}_LushForestineAxe",
+						"TradeItemId": "(O){{ModID}}_LushForestine",
 						"TradeItemAmount": 200,
 					},
 					{

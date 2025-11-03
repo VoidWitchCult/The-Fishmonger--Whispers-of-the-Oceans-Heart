@@ -45,10 +45,10 @@
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 1,
 				},
-				"{{ModId}}_LushFlorestineBroadsword": {
-					"Name": "{{ModId}}_LushFlorestineBroadsword",
-					"DisplayName": "{{i18n:LushFlorestineBroadsword.name}}",
-					"Description": "{{i18n:LushFlorestineBroadsword.description}}",
+				"{{ModId}}_LushForestineBroadsword": {
+					"Name": "{{ModId}}_LushForestineBroadsword",
+					"DisplayName": "{{i18n:LushForestineBroadsword.name}}",
+					"Description": "{{i18n:LushForestineBroadsword.description}}",
 					"MinDamage": 25,
 					"MaxDamage": 75,
 					"Knockback": 2.0,
@@ -66,7 +66,7 @@
 					"SpriteIndex": 2,
 					"Projectiles": [
 						{
-							"Id": "Default_LushFlorestineBroadsword",
+							"Id": "Default_LushForestineBroadsword",
 							"Damage": 50,
 							"Bounces": 4,
 							"MaxDistance": 108,
@@ -75,7 +75,7 @@
 							"MaxAngleOffset": 15,
 							"FireSound": "bob",
 							"Item": {
-								"Id": "Default_LushFlorestineBroadsword_Any",
+								"Id": "Default_LushForestineBroadsword_Any",
 								"RandomItemId": [
 									"(O){{ModId}}_LushForestine"
 								]
@@ -83,10 +83,10 @@
 						}
 					],
 				},
-				"{{ModId}}_LushFlorestineAxe": {
-					"Name": "{{ModId}}_LushFlorestineAxe",
-					"DisplayName": "{{i18n:LushFlorestineAxe.name}}",
-					"Description": "{{i18n:LushFlorestineAxe.description}}",
+				"{{ModId}}_LushForestineAxe": {
+					"Name": "{{ModId}}_LushForestineAxe",
+					"DisplayName": "{{i18n:LushForestineAxe.name}}",
+					"Description": "{{i18n:LushForestineAxe.description}}",
 					"MinDamage": 20,
 					"MaxDamage": 25,
 					"Knockback": 3.0,

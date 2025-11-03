@@ -107,7 +107,7 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.spring_Sat": "The Halichoeres bivittatus is a species of wrasse native to tropical waters with their thin, elongated bodies they easily slip out of a person's hand.#$b#They're also referred to as 'Slippery Dick' because of that.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.spring_Sat2": "Hey @, have you heard the fisherman’s anthem? Osetra can you sea by the dolphin fish bite…",
 	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.spring_Sat4": "Apparently we only have discovered around 1% of the ocean so far. That leaves a lot of room for imagination on what mysteries still lie ahead of us...#$b# ...maybe there's a whole town of mermaids out there afterall?$4",
-	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.spring_Sat6": "Pops used to tell me that I shouldn't say anything when I've got nothing nice to say.#$b#... #$b#...well, guess you're a swell guy then.",
+	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.spring_Sat6": "Pops used to tell me that I shouldn't say anything when I've got nothing nice to say.#$b#... #$b#...well, guess you're a swell mate then.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.spring_Sat8": "You know how they say...Keep your friends close and your Anemones closer.#$b#The saying goes different? Oh, well...",
 	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.spring_Sat10": "In the past lobsters were referred to as the cockroaches of the sea. They were mainly fed to prisoners and such as they were considered bottom of the food chain.#$b#Time surely changes, huh.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.spring_Sun": "...not one of my best mornings. I ran out of my favorite tea and couldn't get the water kettle to work.$3",
@@ -136,7 +136,7 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.summer_Wed4": "Ahoy! Have you seen a particular man on the island before? He wears neat shades and seems rather blue...#$b#From him I know that there are all kind of odd and interesting things out there. It gets me curious.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.summer_Wed6": "I am fine out here alone. I admit, sometimes I wish I had someone to call my own but...nevermind. I'm probably too old for this.$3",
 	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.summer_Wed8": "Many species of fish start their lives as females and when a male is needed the lead female will become one.#$b#In other instances males can change into females as well.",
-	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.summer_Wed10": "Say, how is my big bro treating you? Good? Yeah, thought so. I always wondered why he never found anyone when he's such a swell guy...#$b#Then again he is saying the same thing about me every time we talk, hm.",
+	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.summer_Wed10": "Say, how is my big bro treating you? Good? Yeah, thought so. I always wondered why he never found anyone when he's such a swell mate...#$b#Then again he is saying the same thing about me every time we talk, hm.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.summer_Thu": "I've stayed on this island for years. No, I've my reasons....anyway. Don't you have some coconuts to find?",
 	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.summer_Thu2": "I've got a rotating stock, you can make a good deal now and then, you know? Always worth a shot to come by. Even if it's just for a cup of tea.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Dialogue.summer_Thu4": "Summer time always means great weather to fish. I do enjoy the all year around warm weather of Ginger island. Sometimes the heats getting to me though.#$b#A nice cool drink in the shade is a welcoming change then. Remember to not overdo things.$1",
@@ -498,15 +498,15 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.MoviesReactions.Winter1.After": "...I know it's a classic but there's so many other great movies out there, sorry. It's just not my thing. Thanks for the invite tho.",
 	
 	// DIALOGUE EXTRA
-	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.Introduction": "My! now, who's this radical dude?$5#$b#Hi there! the name's Bernadette.",
-	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayLoveA": "Hm? You actually got me a birthday present? Thank you!$1",
-	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayLoveB": "Thanks, buddy! This is such a great birthday gift.",
-	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayLikeA": "It's nice of you to remember my birthday, @.",
-	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayLikeB": "Rad, thank you for this birthday gift.",
-	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayDislikeA": "Hm...is this some kind of sick joke to you?$2",
-	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayDislikeB": "...yeah, no. @, you can actually shove it.$2",
-	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayNeutralA": "Well, you tried so there's that.",
-	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.birthdayNeutralB": "Uh, hm, well....$4",
+	"Bernadette.Dialogue.Introduction": "My! now, who's this radical dude?$5#$b#Hi there! the name's Bernadette.",
+	"Bernadette.Dialogue.birthdayLoveA": "Hm? You actually got me a birthday present? Thank you!$1",
+	"Bernadette.Dialogue.birthdayLoveB": "Thanks, buddy! This is such a great birthday gift.",
+	"Bernadette.Dialogue.birthdayLikeA": "It's nice of you to remember my birthday, @.",
+	"Bernadette.Dialogue.birthdayLikeB": "Rad, thank you for this birthday gift.",
+	"Bernadette.Dialogue.birthdayDislikeA": "Hm...is this some kind of sick joke to you?$2",
+	"Bernadette.Dialogue.birthdayDislikeB": "...yeah, no. @, you can actually shove it.$2",
+	"Bernadette.Dialogue.birthdayNeutralA": "Well, you tried so there's that.",
+	"Bernadette.Dialogue.birthdayNeutralB": "Uh, hm, well....$4",
 	"VoidWitchCult.CP.TheFishmongerNPC.Bernadette.Dialogue.MovieInvite_Invited_CoolGalBernadette": "Swell! Thanks for inviting me!$5",
 	
 	// DIALOGUE 1ST OF SEASON
@@ -666,15 +666,15 @@
 	
 	// DIALOGUE EXTRA
 	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Introduction": "...#$b#...$1#$b#...?#$b#...ah? You're actually talking to me? Hm...good day to you too, I guess. The name is Caitríona...",
-	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayLoveA": "Huh? You actually remembered my birthday? And you even got me something nice...#$b#Ah, sorry. It's jsut-...it's been a while.",
-	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayLoveB": "This is...for me? Ah...thank you, @.#$b#It's a really nice gift.",
-	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayLikeA": "Ah, I didn't think anyone would even remember it...thank you, @.",
-	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayLikeB": "A birthday gift? Oh...#$b#...thanks for thinking of me, @.",
-	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayDislikeA": "Hm.#$b#...$1#$b#...mhm...no.#$b# You come in here, on my birthday, giving me this-...you call that a 'gift'...I see.#$b#Well, I don't.$3",
-	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayDislikeB": "%Caitríona looks at you with disgust and a hint of disappointment.",
-	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayNeutralA": "Hm, well, alright. I appreciate you thinking of me at least...",
-	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.birthdayNeutralB": "You tried...that's all that matters...you tried.",
-	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.MovieInvite_Invited_PirateLadCaitrionaOFlannagain": "You actually want to watch a movie with me? Ah...sure, why not? That...actually sounds nice right now.",
+	"Caitriona.Dialogue.birthdayLoveA": "Huh? You actually remembered my birthday? And you even got me something nice...#$b#Ah, sorry. It's jsut-...it's been a while.",
+	"Caitriona.Dialogue.birthdayLoveB": "This is...for me? Ah...thank you, @.#$b#It's a really nice gift.",
+	"Caitriona.Dialogue.birthdayLikeA": "Ah, I didn't think anyone would even remember it...thank you, @.",
+	"Caitriona.Dialogue.birthdayLikeB": "A birthday gift? Oh...#$b#...thanks for thinking of me, @.",
+	"Caitriona.Dialogue.birthdayDislikeA": "Hm.#$b#...$1#$b#...mhm...no.#$b# You come in here, on my birthday, giving me this-...you call that a 'gift'...I see.#$b#Well, I don't.$3",
+	"Caitriona.Dialogue.birthdayDislikeB": "%Caitríona looks at you with disgust and a hint of disappointment.",
+	"Caitriona.Dialogue.birthdayNeutralA": "Hm, well, alright. I appreciate you thinking of me at least...",
+	"Caitriona.Dialogue.birthdayNeutralB": "You tried...that's all that matters...you tried.",
+	"Caitriona.Dialogue.MovieInvite_Invited_PirateLadCaitrionaOFlannagain": "You actually want to watch a movie with me? Ah...sure, why not? That...actually sounds nice right now.",
 	
 	// DIALOGUE 1ST OF SEASON
 	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.spring_1": "Spring is the time where life comes back from the cold clutches of winter...#$b#A fresh new start, eh?#$b#...$1#$b#...what are your plans for the new year, @?",
@@ -728,10 +728,10 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sun8": "Is it me or do the birds sing sweeter, the flowers smell  greater, the-...oh, am I coming down with some kinda flu?",
 	
 	//DIALOGUE 10 HEARTS
-	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Mon10": "%Caitríona looks away when your eyes meet.#$b#Hey there, @. Didn't think you'd come to me at this hour. Good to see you though.$6",
+	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Mon10": "%Caitríona looks away when your eyes meet.#$b#Hey there, @. Didn't think you'd come to me at this hour. Good to see you though.$4",
 	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Tue10": "I love watching your expressions.#$b#For example, when you're in deep thought you have this slight pout I really like. Makes me want to pinch your cheek.",
-	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Wed10": "Do you think I could steal you away for a little while?#$b#...nothing....important. I'd just like to have you for myself for a little while.$6",
-	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Thu10": "There's times when I feel down and wonder if what I do is right or if it actually matters.#$b#Then you come around and it feels like every worry just melts away.$6",
+	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Wed10": "Do you think I could steal you away for a little while?#$b#...nothing....important. I'd just like to have you for myself for a little while.$4",
+	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Thu10": "There's times when I feel down and wonder if what I do is right or if it actually matters.#$b#Then you come around and it feels like every worry just melts away.$4",
 	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Fri10": "You think you'll come to the hangout on sunday? I'm sure it'll be fun when you're around.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sat10": "On the possibility of me getting a ship again...I wonder what I should name it this time...maybe you can brainstorm with me when the time comes?",
 	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.Sun10": "Even I believe in sundays being a day one should use to relax and take a step back and reflect.#$b#...having company just sweetens it even more.",
@@ -745,6 +745,7 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.fall_26_2": "With Spirit's Eve approaching I've been wondering if maybe there will be some actual ghosts...that surely would spice things up.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.winter_7_2": "Have fun fishing in the cold tomorrow. Ain't no way you can get me into the snow.",
 	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Dialogue.winter_24_2": "Ah, it's that time of the year again, hm? Fancy telling me who you got this year?#$b#Don't worry, I won't do anything. I'm just curious what you'd get them.",
+	"Festivals.FlowerDance.Caitriona": "...well, I thought I'd go to the flower dance at least since...it reminds me of good times. You made me curious afterall.",
 	
 	// SCHEDULE DIALOGUE
 	"VoidWitchCult.CP.TheFishmongerNPC.Caitriona.Schedule.Dialogue.lostisland.000": "Huh. I'll turn around again and pretend you're not here.",
@@ -802,7 +803,7 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Winter1.After": "...wow! This was really good, @. Did you enjoy it as well?",
 	
 	// DIALOGUE EXTRA
-	"VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Introduction": "Hey there! The name's Barnabas and when it comes to anything related to Woodwork, Metallurgy, Gardening, Carpentry-...well! If you need ANYTHING at all jsut let me know! I really like helping people!$1",
+	"VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.Introduction": "Hey there! The name's Barnabas and when it comes to anything related to Woodwork, Metallurgy, Gardening, Carpentry-...well! If you need ANYTHING at all just let me know! I really like helping people!$1",
 	"VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.birthdayLoveA": "...! You-!$2#$b#You actually thought of my birthday! -AND you're giving me such a great gift!$1",
 	"VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.birthdayLoveB": "GASP! Thank you so much! I can't believe you're giving me such a great gift on my birthday!$1",
 	"VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.birthdayLikeA": "Aw, you thought of me! Thank you a lot, @!",
@@ -882,6 +883,7 @@
 	"VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.fall_26_2": "The times when the veil of living and dead becomes thin is a delicate time.#$b#I fear it....I'm not scared of ghosts but...$8",
 	"VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.winter_7_2": "Make sure to pack up and wear warm clothes when you go ice fishing! I don't wanna see you get sick...#$b#...but if you do, don't hesitate to ask me for help. I'll nurse you back to health!#$b#I've got a really good recipe that's packed with vitamins and stuff!",
 	"VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Dialogue.winter_24_2": "Gift giving...? Hm...#$b#...mermaids do have a time they come together to celebrate the death and rebirth of nature when they exchange homemade gifts too. Hope you're going to have some fun tomorrow!",
+	"Festivals.FlowerDance.Barnabas": "Hey!$1#$b#I love how dedicated they were with decorating it all with flowers.#$b#This is such a lovely festival!$1",
 	
 	// SCHEDULE DIALOGUE
 	"VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Schedule.Dialogue.lostisland.000": "Umm, hey there! How did you get here? Are you tired as well?",

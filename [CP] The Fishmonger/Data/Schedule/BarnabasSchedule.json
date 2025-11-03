@@ -91,6 +91,28 @@
 			2200 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 SeaDudeBarnabas_sleep/
 			",
 			}
-		}
+		},
+		{
+            "LogName": "Barnabas' Marriage Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{ModID}}_SeaDudeBarnabas",
+            "Entries": {
+                "marriage": "a900 Blacksmith 3 15 0/1030 Blacksmith 11 13 1 {{ModID}}_SeaDudeBarnabas_chiseling/1200 Blacksmith 9 12 0/1400 Town 96 81 0/1700 Blacksmith 7 17 2/1800 Town 39 57 2/1900 bed",
+				"marriage_Mon": "1000 Mountain 31 20 0/1200 Mine 12 9 2/1500 Blacksmith 3 15 0/1700 Blacksmith 1900 9 12 0/2000 bed",
+                "marriage_Tue": "GOTO marriage",
+				"marriage_Wed": "1100 ScienceHouse 7 20 0/1400 Mountain 30 20 2/1700 Town 41 22 2/1900 bed",
+                "marriage_Thu": "GOTO marriage",
+				"marriage_Fri": "1600 Saloon 2 18 0/1900 bed",
+				"marriage_Sat": "GOTO marriage",
+				"marriage_Sun": "GOTO marriage",
+				"marriage_GreenRain": "900 BusStop 21 15 0/ 1500 Town 29 67 2/1700 Beach 31 36 2/1900 bed",
+				"marriage_DesertFestival_1": "900 Desert 12 7 2/1900 bed",
+				"marriage_DesertFestival_2": "GOTO marriage_DesertFestival_1", 
+				"marriage_DesertFestival_3": "GOTO marriage_DesertFestival_1",
+				"marriage_NightMarket_1": "1400 Blacksmith 1900 9 12 0/1600 Beach 44 22 2/1900 bed",
+				"marriage_NightMarket_2": "GOTO marriage_NightMarket_1",
+				"marriage_NightMarket_3": "GOTO marriage_NightMarket_1"
+            }
+        },
 	]
 }

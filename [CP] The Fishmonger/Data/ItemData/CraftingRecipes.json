@@ -15,7 +15,7 @@
 				"{{ModID}}_TropicalTikkiTorch": "388 20 771 10 {{ModId}}_OceanFlaxCloth 1 382 5/Home/{{ModID}}_TropicalTikkiTorch/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TropicalTikkiTorch.Name}}",
 				"{{ModID}}_TropicalBearPlanter": "388 20 771 10 {{ModId}}_petrichor 1 {{ModId}}_sunsetrose 2/Home/{{ModID}}_TropicalBearPlanter/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TropicalBearPlanter.Name}}",
 				"{{ModID}}_HandcraftedFishCrate": "{{ModID}}_MermaidWood 10 {{ModId}}_OceanFlaxCloth 2/Home/{{ModID}}_HandcraftedFishCrate/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.HandcraftedFishCrate.Name}}",
-				"{{ModID}}_LostIslandTotem": "{{ModID}}_MermaidHardwood 50 {{ModID}}_scallure 5 {{ModID}}_OceanFlaxCloth 5/Home/{{ModID}}_LostIslandTotem/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LostIslandTotem.Name}}",
+				"{{ModID}}_LostIslandTotem": "{{ModID}}_MermaidHardwood 50 {{ModID}}_scallure 5 {{ModID}}_OceanFlaxCloth 5/Home/(O){{ModID}}_LostIslandTotem/true/none/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LostIslandTotem.Name}}",
 				"{{ModID}}_prismaticgemfruitseeds": "{{ModId}}_Painite 1 {{ModId}}_LushForestine 1 {{ModId}}_Chalcanthite 1 {{ModId}}_OpalizedAmmonite 1/Home/{{ModID}}_prismaticgemfruitseeds/true/none/{{i18n:prismaticgemfruitseeds.Name}}",
 			}
 		}

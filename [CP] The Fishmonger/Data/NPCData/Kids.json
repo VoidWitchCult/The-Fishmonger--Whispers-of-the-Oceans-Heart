@@ -1,0 +1,85 @@
+{
+"Changes": [
+	//==== PIRATELAD =======================================================================
+	//Boy
+	
+	
+		{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler",
+		"FromFile": "assets/Images/Kids/VVC_Piratelad_boy.png",
+		
+		"When": {
+			"Relationship:{{ModID}}_PirateLadCaitrionaOFlannagain": "Married",
+				}
+		},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_dark",
+		"FromFile": "assets/Images/Kids/VVC_Piratelad_boy.png",
+		"When": {
+		"Relationship:{{ModID}}_PirateLadCaitrionaOFlannagain": "Married",
+		}
+	},
+
+	//Girl
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl",
+		"FromFile": "assets/Images/Kids/VVC_Piratelad_girl.png",
+		"When": {
+		"Relationship:{{ModID}}_PirateLadCaitrionaOFlannagain": "Married",
+	}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl_dark",
+		"FromFile": "assets/Images/Kids/VVC_Piratelad_girl.png",
+		"When": {
+		"Relationship:{{ModID}}_PirateLadCaitrionaOFlannagain": "Married",
+	}
+  },	
+
+//==== SEADUDE =========================================================================
+//Boy
+	
+	
+		{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler",
+		"FromFile": "assets/Images/Kids/VVC_SeaDude_boy.png",
+		
+		"When": {
+			"Relationship:{{ModID}}_SeaDudeBarnabas": "Married",
+				}
+		},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_dark",
+		"FromFile": "assets/Images/Kids/VVC_SeaDude_boy.png",
+		"When": {
+		"Relationship:{{ModID}}_SeaDudeBarnabas": "Married",
+		}
+	},
+
+	//Girl
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl",
+		"FromFile": "assets/Images/Kids/VVC_SeaDude_girl.png",
+		"When": {
+		"Relationship:{{ModID}}_SeaDudeBarnabas": "Married",
+	}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl_dark",
+		"FromFile": "assets/Images/Kids/VVC_SeaDude_girl.png",
+		"When": {
+		"Relationship:{{ModID}}_SeaDudeBarnabas": "Married",
+	}
+  },
+
+]
+
+}

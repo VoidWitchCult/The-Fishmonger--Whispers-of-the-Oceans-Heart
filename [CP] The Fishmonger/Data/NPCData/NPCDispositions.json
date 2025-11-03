@@ -285,10 +285,10 @@
 					"Manner": "Polite",
 					"SocialAnxiety": "Shy",
 					"Optimism": "Neutral",
-					"CanBeRomanced": false, //set to true later
+					"CanBeRomanced": true, 
 					"SocialTab": "HiddenUntilMet",
 					"WinterStarParticipant": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Constance6Hearts",
-					"FlowerDanceCanDance": false, //set to true later
+					"FlowerDanceCanDance": null, 
 					"IsDarkSkinned": true,
 					"Calendar": "HiddenUntilMet",
 					"CanGreetNearbyCharacters": true,
@@ -312,6 +312,34 @@
 						"X": 16,
 						"Y": 32
 					},
+					"SpouseWantsChildren": true, 
+                    "SpouseGiftJealousy": null, 
+                    "SpouseGiftJealousyFriendshipChange": 0, 
+                    "SpouseRoom": { 
+                        "MapAsset": "{{ModId}}_spouseRooms",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 6, 
+                            "Height": 9 
+                        }
+                    },
+                    "SpousePatio": { 
+                        "MapAsset":  "{{ModId}}_spousePatios",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 4, 
+                            "Height": 4 
+                        },
+                        "SpriteAnimationFrames": [ //this is the animation that loops when your custom npc is standing on their spousepatio, [frame, miliseconds] REMEMBER! these loop!
+                            [ 24, 1500 ], [ 25, 500 ], [ 26, 500 ],
+                        ],
+                        "SpriteAnimationPixelOffset": {
+                            "X": 0,
+                            "Y": 0
+                        }
+                    },
 					"Breather": true,
 					"KissSpriteIndex": 28,
 					"KissSpriteFacingRight": false,
@@ -335,10 +363,10 @@
 					"Manner": "Polite",
 					"SocialAnxiety": "Outgoing",
 					"Optimism": "Positive",
-					"CanBeRomanced": false, //set to true later
+					"CanBeRomanced": true, 
 					"SocialTab": "HiddenUntilMet",
 					"WinterStarParticipant": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Constance6Hearts",
-					"FlowerDanceCanDance": false, //set to true later
+					"FlowerDanceCanDance": true, 
 					"IsDarkSkinned": true,
 					"Calendar": "HiddenUntilMet",
 					"CanGreetNearbyCharacters": true,
@@ -365,6 +393,34 @@
 						"X": 16,
 						"Y": 32
 					},
+					"SpouseWantsChildren": true, 
+                    "SpouseGiftJealousy": null, 
+                    "SpouseGiftJealousyFriendshipChange": 0, 
+                    "SpouseRoom": { 
+                        "MapAsset": "{{ModId}}_spouseRooms",
+                        "MapSourceRect": {
+                            "X": 6,
+                            "Y": 0,
+                            "Width": 6, 
+                            "Height": 9 
+                        }
+                    },
+                    "SpousePatio": { 
+                        "MapAsset":  "{{ModId}}_spousePatios",
+                        "MapSourceRect": {
+                            "X": 4,
+                            "Y": 0,
+                            "Width": 4, 
+                            "Height": 4 
+                        },
+                        "SpriteAnimationFrames": [ //this is the animation that loops when your custom npc is standing on their spousepatio, [frame, miliseconds] REMEMBER! these loop!
+                            [ 44, 1500 ], [ 41, 1500 ], [ 42, 500 ], [ 43, 500 ]
+                        ],
+                        "SpriteAnimationPixelOffset": {
+                            "X": 0,
+                            "Y": 0
+                        }
+                    },
 					"Breather": true,
 					"KissSpriteIndex": 28,
 					"KissSpriteFacingRight": true,
@@ -447,8 +503,8 @@
 			"Entries": {
 				"{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Love}}/{{ModID}}_PinkMermaidScale {{ModID}}_SunsetMermaidScale {{ModID}}_MossyMermaidScale {{ModID}}_SummerMermaidScale {{ModID}}_CharcoalMermaidScale {{ModID}}_FrostMermaidScale {{ModID}}_SunsetRoseTea {{ModID}}_BloodstainedRoseTea {{ModID}}_sunsetrose {{ModID}}_LoversStar 155 162 204 397 565 202 614 815 -4 341/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Like}}/82 116 138 259 394 550 148/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Dislike}}/203 772 766/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Hate}}/-20 308 283 589/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Gifttastes.Neutral}}/154 447 459 305 444",
 				"{{ModID}}_MermaidCalliope": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Love}}/636 {{ModID}}_StarlightFruit {{ModID}}_MermaidsDelight {{ModID}}_LoversStar {{ModID}}_oceanflax {{ModID}}_scallure {{ModID}}_sunsetrose {{ModID}}_PowderGreenPearl {{ModID}}_PowderBluePearl {{ModID}}_PowderOrangePearl {{ModID}}_PowderPinkPearl {{ModID}}_SpecialFlowerBouquet 797/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Like}}/{{ModID}}_FruitOfGinnungagap {{ModID}}_PowderPinkStarfish {{ModID}}_OceanFlaxCloth 119 447 454 -4/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Dislike}}/747 772 789 /{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Hate}}/589 446 441/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.Gifttastes.Neutral}}/-5 -6",
-				"{{ModID}}_CoolGalBernadette": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Love}}/{{ModID}}_OceanFlaxCloth {{ModID}}_PowderPinkPearl {{ModID}}_PinkMermaidScale {{ModID}}_PastelCottonCandy {{ModID}}_RoseCandy 254 337/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Like}}/{{ModID}}_SunsetMermaidScale {{ModID}}_PowderOrangePearl 350 397 595/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Dislike}}/248 257/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Hate}}/303 346/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.Gifttastes.Neutral}}/348",
-				"{{ModID}}_PirateLadCaitrionaOFlannagain": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Love}}/{{ModID}}_bloodstainedrose {{ModID}}_PowderOrangePearl {{ModID}}_MossyMermaidScale {{ModID}}_BloodstainedRoseTea 346 459 166 303/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Like}}/{{ModID}}_MapRiceCrispy/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Dislike}}/78 342/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Hate}}/807 307 306 308/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.Gifttastes.Neutral}}/350 446",
+				"{{ModID}}_CoolGalBernadette": "{{i18n:Bernadette.Gifttastes.Love}}/{{ModID}}_OceanFlaxCloth {{ModID}}_PowderPinkPearl {{ModID}}_PinkMermaidScale {{ModID}}_PastelCottonCandy {{ModID}}_RoseCandy 254 337/{{i18n:Bernadette.Gifttastes.Like}}/{{ModID}}_SunsetMermaidScale {{ModID}}_PowderOrangePearl 350 397 595/{{i18n:Bernadette.Gifttastes.Dislike}}/248 257/{{i18n:Bernadette.Gifttastes.Hate}}/303 346/{{i18n:Bernadette.Gifttastes.Neutral}}/348",
+				"{{ModID}}_PirateLadCaitrionaOFlannagain": "{{i18n:Caitriona.Gifttastes.Love}}/{{ModID}}_bloodstainedrose {{ModID}}_PowderOrangePearl {{ModID}}_MossyMermaidScale {{ModID}}_BloodstainedRoseTea 346 459 166 303/{{i18n:Caitriona.Gifttastes.Like}}/{{ModID}}_MapRiceCrispy/{{i18n:Caitriona.Gifttastes.Dislike}}/78 342/{{i18n:Caitriona.Gifttastes.Hate}}/807 307 306 308/{{i18n:Caitriona.Gifttastes.Neutral}}/350 446",
 				"{{ModID}}_SeaDudeBarnabas": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Love}}/{{ModID}}_MermaidsDelight {{ModID}}_StarlightFruit {{ModID}}_petrichor {{ModID}}_PowderGreenPearl/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Like}}/{{ModID}}_fisheyebeans {{ModID}}_MermaidWoodBark {{ModID}}_MermaidHardwood {{ModID}}_MermaidWood -16/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Dislike}}//{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Hate}}/item_alcohol/{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.Gifttastes.Neutral}}/852",
 			}
 		},

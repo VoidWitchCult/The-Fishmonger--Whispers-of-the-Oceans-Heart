@@ -1,0 +1,157 @@
+{
+    "Changes": [
+        //==== PIRATELAD =======================================================================
+		{
+            "Action": "EditData",
+            "Target": "Data/Weddings",
+            "TargetField": [ "EventScript" ],
+            "Entries": {
+                "{{ModID}}_PirateLadCaitrionaOFlannagain": "
+				sweet/
+				-1000 -1000/
+				farmer -100 -100 0 {{ModID}}_PirateLadCaitrionaOFlannagain -100 -100 0 {{ModID}}_LibrarianGamayun -100 -100 0 {{ModID}}_TheFishmonger -100 -100 0 {{ModID}}_MermaidCalliope -100 -100 0 {{ModID}}_CoolGalBernadette -100 -100 0 {{ModID}}_SeaDudeBarnabas -100 -100 0 Wizard -100 -100 0 Willy -100 -100 0/
+				changeToTemporaryMap {{ModID}}_TEMP_Wedding/
+				viewport -1000 -1000/
+				warp farmer 11 7/
+				warp {{ModID}}_PirateLadCaitrionaOFlannagain 13 7/
+				warp {{ModID}}_LibrarianGamayun 12 6/
+				warp {{ModID}}_TheFishmonger 10 10/
+				warp {{ModID}}_MermaidCalliope 9 10/
+				warp {{ModID}}_CoolGalBernadette 14 10/
+				warp {{ModID}}_SeaDudeBarnabas 9 12/
+				warp Wizard 16 14/
+				warp Willy 14 12/
+				faceDirection farmer 2/
+				faceDirection {{ModID}}_PirateLadCaitrionaOFlannagain 2/
+				faceDirection {{ModID}}_LibrarianGamayun 2/
+				faceDirection {{ModID}}_TheFishmonger 0/
+				faceDirection {{ModID}}_MermaidCalliope 0/
+				faceDirection {{ModID}}_CoolGalBernadette 0/
+				faceDirection {{ModID}}_SeaDudeBarnabas 0/
+				faceDirection Wizard 0/
+				faceDirection Willy 0/
+				positionOffset {{ModID}}_PirateLadCaitrionaOFlannagain -30 0/
+				positionOffset farmer 30 0/
+				viewport 14 12 true/
+				globalFadeToClear/
+				pause 3000/
+				speak {{ModID}}_LibrarianGamayun \"{{i18n:Gamayun.Wedding.1}}\"/
+				pause 2000/
+				speak {{ModID}}_LibrarianGamayun \"{{i18n:Gamayun.Wedding.2}}\"/
+				playMusic none/
+				pause 1000/
+				speak {{ModID}}_LibrarianGamayun \"{{i18n:Gamayun.Wedding.3}}\"/
+				pause 500/
+				positionOffset {{ModID}}_PirateLadCaitrionaOFlannagain -5 0/
+				positionOffset farmer 5 0/
+				positionOffset {{ModID}}_PirateLadCaitrionaOFlannagain -5 0/
+				positionOffset farmer 5 0/
+				showFrame farmer 101/
+				showFrame {{ModID}}_PirateLadCaitrionaOFlannagain 38/
+				specificTemporarySprite heart 12 6/
+				playSound dwop/
+				pause 2000/
+				specificTemporarySprite wed/
+				faceDirection farmer 2/
+				showFrame {{ModID}}_PirateLadCaitrionaOFlannagain 36/
+				pause 1000/
+				faceDirection farmer 1/
+				showFrame {{ModID}}_PirateLadCaitrionaOFlannagain 37/
+				globalFade/
+				viewport -1000 -1000/
+				pause 1000/
+				message \"{{i18n:Ending.Wedding.1}}\"/
+				pause 500/
+				message \"{{i18n:Ending.Wedding.2}}\"/
+				pause 4000/
+				end wedding
+				",
+				
+				//==== SEADUDE =========================================================================
+				"{{ModID}}_SeaDudeBarnabas": "
+				sweet/
+				-1000 -1000/
+				farmer -100 -100 0 {{ModID}}_SeaDudeBarnabas -100 -100 0 {{ModID}}_LibrarianGamayun -100 -100 0 {{ModID}}_TheFishmonger -100 -100 0 {{ModID}}_MermaidCalliope -100 -100 0 {{ModID}}_CoolGalBernadette -100 -100 0 {{ModID}}_PirateLadCaitrionaOFlannagain -100 -100 0 Wizard -100 -100 0 Willy -100 -100 0/
+				changeToTemporaryMap {{ModID}}_TEMP_Wedding/
+				viewport -1000 -1000/
+				warp farmer 11 7/
+				warp {{ModID}}_SeaDudeBarnabas 13 7/
+				warp {{ModID}}_LibrarianGamayun 12 6/
+				warp {{ModID}}_TheFishmonger 10 10/
+				warp {{ModID}}_MermaidCalliope 9 10/
+				warp {{ModID}}_CoolGalBernadette 14 10/
+				warp {{ModID}}_PirateLadCaitrionaOFlannagain 9 12/
+				warp Wizard 16 14/
+				warp Willy 14 12/
+				faceDirection farmer 2/
+				faceDirection {{ModID}}_SeaDudeBarnabas 2/
+				faceDirection {{ModID}}_LibrarianGamayun 2/
+				faceDirection {{ModID}}_TheFishmonger 0/
+				faceDirection {{ModID}}_MermaidCalliope 0/
+				faceDirection {{ModID}}_CoolGalBernadette 0/
+				faceDirection {{ModID}}_PirateLadCaitrionaOFlannagain 0/
+				faceDirection Wizard 0/
+				faceDirection Willy 0/
+				positionOffset {{ModID}}_SeaDudeBarnabas -30 0/
+				positionOffset farmer 30 0/
+				viewport 14 12 true/
+				globalFadeToClear/
+				pause 3000/
+				speak {{ModID}}_LibrarianGamayun \"{{i18n:Gamayun.Wedding.1}}\"/
+				pause 2000/
+				speak {{ModID}}_LibrarianGamayun \"{{i18n:Gamayun.Wedding.2}}\"/
+				playMusic none/
+				pause 1000/
+				speak {{ModID}}_LibrarianGamayun \"{{i18n:Gamayun.Wedding.3}}\"/
+				pause 500/
+				positionOffset {{ModID}}_SeaDudeBarnabas -5 0/
+				positionOffset farmer 5 0/
+				positionOffset {{ModID}}_SeaDudeBarnabas -5 0/
+				positionOffset farmer 5 0/
+				showFrame farmer 101/
+				showFrame {{ModID}}_SeaDudeBarnabas 50/
+				specificTemporarySprite heart 12 6/
+				playSound dwop/
+				pause 2000/
+				specificTemporarySprite wed/
+				faceDirection farmer 2/
+				showFrame {{ModID}}_SeaDudeBarnabas 48/
+				pause 1000/
+				faceDirection farmer 1/
+				showFrame {{ModID}}_SeaDudeBarnabas 49/
+				globalFade/
+				viewport -1000 -1000/
+				pause 1000/
+				message \"{{i18n:Ending.Wedding.1}}\"/
+				pause 500/
+				message \"{{i18n:Ending.Wedding.2}}\"/
+				pause 4000/
+				end wedding
+				"
+				
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"When": {
+				"Spouse": "{{ModID}}_PirateLadCaitrionaOFlannagain",
+			},
+			"Entries": {
+				"Game1.cs.2782": "{{i18n:Caitriona.PostMarriage}}"
+			},
+			"Priority": "Late"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"When": {
+				"Spouse": "{{ModID}}_SeaDudeBarnabas",
+			},
+			"Entries": {
+				"Game1.cs.2782": "{{i18n:Barnabas.PostMarriage}}"
+			},
+			"Priority": "Late"
+		},
+	]
+}

@@ -18,6 +18,7 @@
 				"{{ModID}}_VWCConstance10HeartsEvent":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.10HeartsEvent.Fishmonger}}",
 				"AllFishCaught":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.AllFishCaught.Fishmonger}}",
 				"BirdieQuestFinished":"{{i18n:VoidWitchCult.CP.TheFishmongerNPC.BirdieQuestFinished.Fishmonger}}",
+				"{{ModID}}_VWCConstance6HeartsEvent2": "{{i18n:6HeartsEvent2.Fishmonger}}",
 			}
 		},
 		//==============================================================================================

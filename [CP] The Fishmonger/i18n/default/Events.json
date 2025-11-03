@@ -98,7 +98,7 @@
 	"Event.Fishmonger10HeartEvent.Gathering": "What a beautiful day to come together for this occassion.#$b#I humbly greet everyone in attendance, today we come together for a special reason.",
 	"Event.Fishmonger10HeartEvent.Unite": "It is my great honor to unite Constance and Calliope in the bonds of marriage.",
 	"Event.Fishmonger10HeartEvent.Exciting": "Exciting!",
-	"Event.Fishmonger10HeartEvent.Marry": "Constance... Calliope... #$b# As the regional bearer of the matrimonial seal, I now pronounce you fishwife and merwife!$h",
+	"Event.Fishmonger10HeartEvent.Marry": "Constance... Calliope... #$b#Mayor and Seal or not, with the power given to me by the magical world, I now pronounce you fishwife and merwife!$h",
 	"Event.Fishmonger10HeartEvent.Giddy": "Heh...oh...$4#$b#...this is making me all giddy inside...$3",
 	"Event.Fishmonger10HeartEvent.Same": "Oh, haha! Same!$1#$b#...I can't believe it...we're finally...$4",
 	"Event.Fishmonger10HeartEvent.Kiss": "You may now kiss the bride.",
@@ -269,7 +269,7 @@
 	"Event.PirateLadCaitrionaOFlannagain8Hearts.Ah": "Ahhh...$1#$b#...#$b#...oh, this is awkward.",
 	"Event.PirateLadCaitrionaOFlannagain8Hearts.Well": "Well, you see...#$b#...I just wanted to thank you. Honestly.#$b#When I opened up to you the time we talked I somehow felt like a heavy burden was lifted off of me. It made, um...well, it made thinking about my past much easier.#$b#Since then...I've been thinking a lot. And...I actually made some decisions.$2#$b#...#$b#...you see, I actually went to Ginger Island a few times. To the cove...where the pirates sailing this sea meet.",
 	"Event.PirateLadCaitrionaOFlannagain8Hearts.Yup": "Indeed.$1#$b#I went inside and finally mingled with others outside of this island again.#$b#...$1#$b#Eager to know more?#$b#Heh.#$b#It...actually went pretty well. There were a few I connected with more than some others and, maybe...we'll talk again.#$b#I enjoyed it quite a lot.",
-	"Event.PirateLadCaitrionaOFlannagain8Hearts.Honesty": "Hm...$1#$b#...well, you see.$2#$b#I think I was finally able to open my heart again to others and it's all thanks to you.#$b#...$1#$b#That said...there's a place for you as well.$6",
+	"Event.PirateLadCaitrionaOFlannagain8Hearts.Honesty": "Hm...$1#$b#...well, you see.$2#$b#I think I was finally able to open my heart again to others and it's all thanks to you.#$b#...$1#$b#That said...there's a place for you as well.$4",
 	
 	// INTRO EVENT BERNADETTE
 	"Event.CoolGalBernadetteIntro.BigShot": "Hi there, big shot.",
@@ -280,7 +280,7 @@
 	// 2 HEARTS EVENT BERNADETTE
 	"Event.CoolGalBernadette2Hearts.HeyThere": "Hey there, @!#$b#What'cha doing there?",
 	"Event.CoolGalBernadette2Hearts.Interesting": "Oh?#$b#It's always nice seeing you around. If you want to hang out just let me know.#$b#Hah! I could even take you for a boat ride if you want.",
-	"Event.CoolGalBernadette2Hearts.ISee": "Ah, I see. Rather wanna roam around the island, eh?#$b#Make sure to talk more to Barnabas then, he knows quite a lot if you're interested in the history of this island.#$b#He won't tell me everything but...maybe a certain new guy will know how to handle his Golden Retriever personality, heh!",
+	"Event.CoolGalBernadette2Hearts.ISee": "Ah, I see. Rather wanna roam around the island, eh?#$b#Make sure to talk more to Barnabas then, he knows quite a lot if you're interested in the history of this island.#$b#He won't tell me everything but...maybe a certain new friend will know how to handle his Golden Retriever personality, heh!",
 	"Event.CoolGalBernadette2Hearts.IKid": "Haha! I kid, I kid!#$b#I am just teasing you a little.$1#$b#Though I was serious when I said to talk to Barnabas. As far as I'm told he's one of the oldest inhabitants here and he's surely much easier to talk to as a newcomer than a certain someone up at the cliffs, heh.#$b#Well! I don't wanna keep you from doing your thing, see ya around!",
 	
 	// 4 HEARTS EVENT BERNADETTE
@@ -309,7 +309,7 @@
 	"Event.CoolGalBernadette8Hearts.QQ3": "Something raw...like Neue Deutsche Härte, Trash or Industrial Metal.",
 	"Event.CoolGalBernadette8Hearts.QReply": "Sounds good! This'll make you headbang into the next dimension, heh.$1",
 	"Event.CoolGalBernadette8Hearts.QReply2": "Oh, great idea! We could even incorporate some harp play of yours, heh!",
-	"Event.CoolGalBernadette8Hearts.QReply3": "Interesting...I didn't take you for that kinda guy, heh. That'll get my guitar glowing from all the fingerwork.",
+	"Event.CoolGalBernadette8Hearts.QReply3": "Interesting...I didn't take you for that kinda person, heh. That'll get my guitar glowing from all the fingerwork.",
 	"Event.CoolGalBernadette8Hearts.Excited": "Ohh, I am so excited already!$5#$b#I'll list down some subgenres that interest me and see what speaks to me, hehe!#$b#Thank you for helping me out with all of this, @!$1",
 	"Event.CoolGalBernadette8Hearts.Giving": "Here, have this as a thank you!$1 [896]",
 	"Event.CoolGalBernadette8Hearts.SeeYa": "Enjoy the remainder of your day! I'll let ya know when I settle on things, hehe!$1",
@@ -384,9 +384,9 @@
 	"Event.SeaDudeBarnabas8Hearts.NicetoSeeYou": "It's nice to see you, @!$1#$b#I'm just about done fixing a few things around the orchard, wanna hang out?",
 	"Event.SeaDudeBarnabas8Hearts.Hmmm": "Hmm...",
 	"Event.SeaDudeBarnabas8Hearts.BTW": "Oh, by the way...Calliope talked to me some time ago about something.#$b#Hm, I think it's a good idea if we go to the Northern Cliffs.",
-	"Event.SeaDudeBarnabas8Hearts.Actually": "...actually, now that I think about certain things...#$b#...come, let's go over here, @.$5",
+	"Event.SeaDudeBarnabas8Hearts.Actually": "...actually, now that I think about certain things...#$b#...come, let's go over here, @.$14",
 	"Event.SeaDudeBarnabas8Hearts.Cmon": "Come on, I won't prank you or anything, haha!$1",
-	"Event.SeaDudeBarnabas8Hearts.MightAsk": "You might ask what this is about and I shall tell you right now!$5#$b#I actually was planning to come visit you and cook something for you but then you just came to me, haha!$1#$b#So I adapted and thought it'd be nice to come here where we have our hangouts.#$b#Here, let me whip something up for you.$1",
+	"Event.SeaDudeBarnabas8Hearts.MightAsk": "You might ask what this is about and I shall tell you right now!$14#$b#I actually was planning to come visit you and cook something for you but then you just came to me, haha!$1#$b#So I adapted and thought it'd be nice to come here where we have our hangouts.#$b#Here, let me whip something up for you.$1",
 	"Event.SeaDudeBarnabas8Hearts.Hewre": "Here!",
 	"Event.SeaDudeBarnabas8Hearts.IsItGood": "Do you like it, @? I tried starting with something light, but I have something more if you want.",
 	"Event.SeaDudeBarnabas8Hearts.QQ1": "Hm, it's alright. Though maybe too light for one meal...",

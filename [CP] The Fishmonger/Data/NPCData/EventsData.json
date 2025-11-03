@@ -261,7 +261,7 @@
 				shake {{ModID}}_TheFishmonger 5/
 				pause 200/
 				faceDirection farmer 1/
-				faceDirection armer 0/
+				faceDirection farmer 0/
 				speak {{ModID}}_TheFishmonger \"{{i18n:Event.Constance6Hearts.MM}}\"/
 				emote Willy 20/
 				pause 200/

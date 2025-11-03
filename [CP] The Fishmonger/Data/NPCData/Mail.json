@@ -34,7 +34,7 @@
 				"{{ModID}}_CoolerFishmongerScarecrow": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow}}[letterbg Mods\\{{ModID}}\\FMLetterBG 0]%item craftingRecipe {{ModID}}_CoolerFishmongerScarecrow %%[#]{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow.Title}}",
 				
 				// Warp Totem
-				"{{ModID}}_WarpTotem": "{{i18n:Mail.WarpTotem}}[letterbg Mods\\{{ModID}}\\FMLetterBG 1]%item craftingRecipe {{ModID}}_LostIslandTotem %%[#]{{i18n:Mail.WarpTotem.Title}}",
+				"{{ModID}}_WarpTotem": "{{i18n:Mail.WarpTotem}}[letterbg Mods\\{{ModID}}\\FMLetterBG 1]%item craftingRecipe {{ModID}}_LostIslandTotem%% %item id (O){{ModID}}_LostIslandTotem 3 %%[#]{{i18n:Mail.WarpTotem.Title}}",
 				
 				// PassedOut Mail
                 "PassedOutBarnabas": "{{i18n:Mail.PassedOutBarnabas}}[letterbg Mods\\{{ModID}}\\FMLetterBG 1][#]{{i18n:Mail.PassedOutBarnabas.Title}}",

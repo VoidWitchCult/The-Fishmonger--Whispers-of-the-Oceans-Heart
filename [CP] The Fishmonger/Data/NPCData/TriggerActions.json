@@ -64,6 +64,12 @@
 					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_SeaDudeBarnabas6Hearts",
                     "Action": "AddMail Current {{ModID}}_PrismaticGemSeeds"
 				},
+				"{{ModID}}_FerretFurballTalk": {
+                    "Id": "{{ModID}}_FerretFurballTalk",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 6",
+                    "Action": "AddConversationTopic Current {{ModID}}_VWCConstance6HeartsEvent2"
+				},
 			}
 		}
 	]
