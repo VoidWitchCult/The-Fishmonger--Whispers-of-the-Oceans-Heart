@@ -51,7 +51,7 @@
 					"Trigger": "DayStarted",
 					"MarkActionApplied": false,
 					"Actions": [
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_FerretFurballSpawn {{ModId}}_Fishmonger_GI_Inside_LowerDeck 6,12,3,6/9,12,4,3/11,10,4,4"
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_FerretFurballSpawn {{ModId}}_Fishmonger_GI_Inside_LowerDeck 6,7,3,6/9,10,4,3/11,7,4,4"
 					]
 				},
 				"{{ModId}}_SpawnCustomNodes": {

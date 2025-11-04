@@ -70,10 +70,12 @@
 				"winter_7_2": "{{i18n: Barnabas.Dialogue.Marriage.winter_7}}",
 				"winter_24_2": "{{i18n: Barnabas.Dialogue.Marriage.winter_24}}",
 				"winter_28_2": "{{i18n: Barnabas.Dialogue.Marriage.winter_28}}",
+				"funLeave_{{ModID}}_SeaDudeBarnabas": "{{Random:{{i18n:Barnabas.Dialogue.Marriage.Outdoor_{{Random:0,1,2,3,4}}}}++{{i18n:Barnabas.Dialogue.Marriage.Good_{{Random:0,1,2,3,4,5,6,7,8,9}}}}|inputSeparator=++}}",
+                "funReturn_{{ModID}}_SeaDudeBarnabas": "{{i18n:Barnabas.Dialogue.Marriage.funReturn}}",
 				
 				//GENERIC DIALOGUE
 				"Rainy_Day_0": "{{i18n: Barnabas.Dialogue.Marriage.Rainy_Day_0}}",
-				"Rainy_Day_1": "{{i18n: Barnabas.Dialogue.Marriage.Rainy_Day_1}",
+				"Rainy_Day_1": "{{i18n: Barnabas.Dialogue.Marriage.Rainy_Day_1}}",
 				"Rainy_Day_2": "{{i18n: Barnabas.Dialogue.Marriage.Rainy_Day_2}}",
 				"Rainy_Day_3": "{{i18n: Barnabas.Dialogue.Marriage.Rainy_Day_3}}",
 				"Rainy_Day_4": "{{i18n: Barnabas.Dialogue.Marriage.Rainy_Day_4}}",

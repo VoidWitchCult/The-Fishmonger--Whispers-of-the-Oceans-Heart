@@ -31,7 +31,9 @@
 					"ContextTags": [
                         "color_red",
 						"color_blue",
-						"light_source"
+						"light_source",
+						"crow_scare",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_CoolerFishmongerScarecrow": {
@@ -48,7 +50,9 @@
 					"ContextTags": [
                         "color_red",
 						"color_blue",
-						"light_source"
+						"light_source",
+						"crow_scare",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_TubOTropicalFlowers": {
@@ -63,7 +67,8 @@
                     "Texture": "Mods\\{{ModID}}\\BigCraftables",
                     "SpriteIndex": 2,
 					"ContextTags": [
-                        "color_purple"
+                        "color_purple",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_FlowerCrate": {
@@ -78,7 +83,8 @@
                     "Texture": "Mods\\{{ModID}}\\BigCraftables",
                     "SpriteIndex": 3,
 					"ContextTags": [
-                        "color_purple"
+                        "color_purple",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_IridescentCakeStand": {
@@ -95,7 +101,8 @@
 					"ContextTags": [
                         "color_pink",
 						"color_blue",
-						"color_purple"
+						"color_purple",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_CrateOfPetrichor": {
@@ -111,7 +118,8 @@
                     "SpriteIndex": 5,
 					"ContextTags": [
                         "color_purple",
-						"color_blue"
+						"color_blue",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_FloralArrangement": {
@@ -126,7 +134,8 @@
                     "Texture": "Mods\\{{ModID}}\\BigCraftables",
                     "SpriteIndex": 6,
 					"ContextTags": [
-                        "color_green"
+                        "color_green",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_TropicalTikkiTorch": {
@@ -142,11 +151,12 @@
                     "SpriteIndex": 7,
 					"ContextTags": [
                         "color_red",
-						"light_source"
+						"light_source",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_TropicalBearPlanter": {
-                    "Name": "{{ModID}}_W",
+                    "Name": "{{ModID}}_TropicalBearPlanter",
                     "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TropicalBearPlanter.Name}}",
                     "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TropicalBearPlanter.Description}}",
                     "Price": 500,
@@ -157,7 +167,8 @@
                     "Texture": "Mods\\{{ModID}}\\BigCraftables",
                     "SpriteIndex": 8,
 					"ContextTags": [
-                        "color_brown"
+                        "color_brown",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_HandcraftedFishCrate": {
@@ -173,6 +184,7 @@
                     "SpriteIndex": 9,
 					"ContextTags": [
                         "color_purple",
+						"VWC_fishonger_item"
 					]
 				},
 			}

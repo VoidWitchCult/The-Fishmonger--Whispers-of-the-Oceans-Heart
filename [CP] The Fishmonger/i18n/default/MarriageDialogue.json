@@ -57,6 +57,7 @@
 	"Caitriona.Dialogue.Marriage.winter_7": "Do you want to build a snowman?#$b#...or maybe ice sculpture would be more fitting, hm...",
 	"Caitriona.Dialogue.Marriage.winter_24": "Have you gotten your secret gift ready? don't forget to pick it up when you go to town tomorrow.#$b#Heh, all I personally want this year is simply being with you, @.",
 	"Caitriona.Dialogue.Marriage.winter_28": "Winter is almost over...have you readied yourself for a new year of farming yet?",
+	"Caitriona.Dialogue.Marriage.funReturn": "What a long day...but I am glad that I am back home with you.#$b#I kept thinking about you the whole time, heh.",
 	
 	//GENERIC DIALOGUE
 	"Caitriona.Dialogue.Marriage.Rainy_Day_0": "It's been rather bad out there today. Be sure to put on something to not get drenched.#$b#Here, this'll warm you up just in case. [395]",
@@ -197,6 +198,7 @@
 	"Barnabas.Dialogue.Marriage.winter_7": "I can't wait to see how many fish you will catch tomorrow!$1#$b#Don't worry, I will warm up the bed for you so go and have fun!$1",
 	"Barnabas.Dialogue.Marriage.winter_24": "This gift giving tradition is a nice idea! Do you think we should do that at home as well? I love making things for others!$1",
 	"Barnabas.Dialogue.Marriage.winter_28": "A new year approaches!$1#$b#Hey hey! I think I got a really great idea to tidy up the farm real fast, hehe!$1",
+	"Barnabas.Dialogue.Marriage.funReturn":  "Ahhhhh...! Lemme give you a big hug!$1#$b#I got so much done today, well, everything that I set myself out to do, that is! But I missed you the whole time...how was your day, @?",
 	
 	//GENERIC DIALOGUE
 	"Barnabas.Dialogue.Marriage.Rainy_Day_0": "I love when it rains! The pitter patter sound on this roof is especially nice to listen to.$1#$b#Maybe I will take %pet and run around, hehehe!$1",

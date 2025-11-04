@@ -253,6 +253,8 @@
                     "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
                     "ContextTags": [
                         "color_red",
+						"mineral_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModId}}_LushForestine": { 
@@ -270,6 +272,8 @@
                     "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
                     "ContextTags": [
                         "color_green",
+						"mineral_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModId}}_Chalcanthite": { 
@@ -287,6 +291,8 @@
                     "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
                     "ContextTags": [
                         "color_blue",
+						"mineral_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModId}}_DichromaticTaaffeite": { 
@@ -305,6 +311,8 @@
                     "ContextTags": [
                         "color_blue",
 						"color_pink",
+						"mineral_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModId}}_OpalizedAmmonite": { 
@@ -322,6 +330,8 @@
                     "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
                     "ContextTags": [
                         "color_prismatic",
+						"mineral_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModId}}_TaintedSeaShards": { 
@@ -339,6 +349,8 @@
                     "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
                     "ContextTags": [
                         "color_pink",
+						"mineral_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModId}}_DeepseaDiamond": { 
@@ -356,6 +368,8 @@
                     "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
                     "ContextTags": [
                         "color_purple",
+						"mineral_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModId}}_CrystallizedIchorGeode": { 
@@ -373,6 +387,8 @@
                     "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
                     "ContextTags": [
                         "color_orange",
+						"mineral_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModId}}_Realgar": { 
@@ -390,6 +406,8 @@
                     "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
                     "ContextTags": [
                         "color_red",
+						"mineral_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModId}}_Grandidierite": { 
@@ -407,6 +425,8 @@
                     "Texture": "Mods\\{{ModId}}\\vww_fishmonger_resources",
                     "ContextTags": [
                         "color_purple",
+						"mineral_item",
+						"VWC_fishonger_item"
 					]
 				}
 			},

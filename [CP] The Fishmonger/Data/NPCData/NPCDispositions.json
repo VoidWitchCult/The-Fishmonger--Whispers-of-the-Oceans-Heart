@@ -191,6 +191,13 @@
 					"IntroductionsQuest": false,
 					"ExcludeFromPerfectionScore": false,
 					"EndSlideShow": "MainGroup",
+					"ShakePortraits": [
+						6 
+					],
+					"HiddenProfileEmoteDuration": 4000,
+					"HiddenProfileEmoteStartFrame": 18,
+					"HiddenProfileEmoteFrameCount": 2,
+					"HiddenProfileEmoteFrameDuration": 200.0,
 					"FriendsAndFamily": {
 						"{{ModID}}_SeaDudeBarnabas": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.CalliopeBarnabas}}",
 					},
@@ -248,6 +255,13 @@
 					"DumpsterDiveFriendshipEffect": "0",
 					"IntroductionsQuest": false,
 					"ExcludeFromPerfectionScore": false,
+					"ShakePortraits": [
+						6 
+					],
+					"HiddenProfileEmoteDuration": 4000,
+					"HiddenProfileEmoteStartFrame": 27,
+					"HiddenProfileEmoteFrameCount": 3,
+					"HiddenProfileEmoteFrameDuration": 200.0,
 					"SpawnIfMissing": true,
 					"Home": [
 						{
@@ -296,6 +310,13 @@
 					"IntroductionsQuest": false,
 					"ExcludeFromPerfectionScore": false,
 					"EndSlideShow": "MainGroup",
+					"ShakePortraits": [
+						7 
+					],
+					"HiddenProfileEmoteDuration": 4000,
+					"HiddenProfileEmoteStartFrame": 22,
+					"HiddenProfileEmoteFrameCount": 2,
+					"HiddenProfileEmoteFrameDuration": 200.0,
 					"SpawnIfMissing": true,
 					"Home": [
 						{
@@ -373,6 +394,15 @@
 					"DumpsterDiveFriendshipEffect": "0",
 					"IntroductionsQuest": false,
 					"ExcludeFromPerfectionScore": false,
+					"ShakePortraits": [
+						2,
+						5,
+						9
+					],
+					"HiddenProfileEmoteDuration": 4000,
+					"HiddenProfileEmoteStartFrame": 32,
+					"HiddenProfileEmoteFrameCount": 3,
+					"HiddenProfileEmoteFrameDuration": 200.0,
 					"EndSlideShow": "MainGroup",
 					"FriendsAndFamily": {
 						"{{ModID}}_MermaidCalliope": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.BarnabasCalliope}}",
@@ -459,6 +489,13 @@
 					"IntroductionsQuest": false,
 					"ExcludeFromPerfectionScore": false,
 					"EndSlideShow": "MainGroup",
+					"ShakePortraits": [
+						3 
+					],
+					"HiddenProfileEmoteDuration": 4000,
+					"HiddenProfileEmoteStartFrame": 16,
+					"HiddenProfileEmoteFrameCount": 4,
+					"HiddenProfileEmoteFrameDuration": 200.0,
 					"FriendsAndFamily": {
 						"{{ModID}}_SeaDudeBarnabas": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.GamayunBarnabas}}",
 					},

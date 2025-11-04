@@ -3,7 +3,7 @@
 	"Name": "[CP] The Fishmonger - Whispers of the Ocean's Heart",
 	"Author": "VoidWitchCult",
 	"Description": "Upon visiting a new tropical place you see another boat docked to the pier....what is this about?",
-	"Version": "0.2.0", 
+	"Version": "0.2.1", 
 	"UniqueID": "VoidWitchCult.CP.TheFishmongerNPC",
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher"

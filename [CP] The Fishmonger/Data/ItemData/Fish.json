@@ -30,7 +30,8 @@
                     "ContextTags": [
                         "color_red",
                         "item_wornouthat",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_bicolorpiranha": {
@@ -48,7 +49,9 @@
 						"color_blue",
                         "item_bicolorpiranha",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"piranha_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_bigfinsquid": {
@@ -65,7 +68,9 @@
                         "color_grey",
                         "item_bigfinsquid",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"squid_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_charcoalbetta": {
@@ -82,7 +87,9 @@
                         "color_black",
                         "item_charcoalbetta",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"betta_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_fairyflossbetta": {
@@ -99,7 +106,9 @@
                         "color_pink",
                         "item_fairyflossbetta",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"betta_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_firemouth": {
@@ -116,7 +125,9 @@
                         "color_red",
                         "item_firemouth",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"cichlid_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_garfish": {
@@ -133,7 +144,9 @@
                         "color_blue",
                         "item_garfish",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"needlefish_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_glasseyesnapper": {
@@ -150,7 +163,9 @@
                         "color_red",
                         "item_glasseyesnapper",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"snapper_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_golddustblackmolly": {
@@ -167,7 +182,9 @@
                         "color_black",
                         "item_golddustblackmolly",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"molly_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_kissingfish": {
@@ -184,7 +201,9 @@
                         "color_yellow",
                         "item_kissingfish",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"gourami_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_matjes": {
@@ -201,7 +220,9 @@
                         "color_blue",
                         "item_matjes",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"herring_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_moray": {
@@ -218,7 +239,9 @@
                         "color_purple",
                         "item_moray",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"moray_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_neontetra": {
@@ -236,7 +259,9 @@
 						"color_red",
                         "item_neontetra",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"tetra_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_queentriggerfish": {
@@ -253,7 +278,9 @@
                         "color_green",
                         "item_queentriggerfish",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"triggerfish_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_redfinhap": {
@@ -270,7 +297,9 @@
                         "color_red",
                         "item_redfinhap",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"cichlid_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_sheephead": {
@@ -288,7 +317,9 @@
 						"color_black",
                         "item_sheephead",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"seabream_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_scarletvampiresquid": {
@@ -305,7 +336,9 @@
                         "color_red",
                         "item_scarletvampiresquid",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"squid_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_stoplightparrotfish": {
@@ -322,7 +355,9 @@
                         "color_pink",
                         "item_stoplightparrotfish",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"parrotfish_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_stripedtoby": {
@@ -339,7 +374,9 @@
                         "color_green",
                         "item_stripedtoby",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"pufferfish_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_sunrisebetta": {
@@ -356,7 +393,9 @@
                         "color_yellow",
                         "item_sunrisebetta",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"betta_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_sunsetbetta": {
@@ -373,7 +412,9 @@
                         "color_pink",
                         "item_sunsetbetta",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"betta_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_viperfish": {
@@ -390,7 +431,9 @@
                         "color_black",
                         "item_viperfish",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"chauliodus_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_rasboras": {
@@ -407,7 +450,9 @@
                         "color_red",
                         "item_Rasboras",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"rasboras_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_rainbowkribs": {
@@ -424,7 +469,9 @@
                         "color_green",
                         "item_rainbowkribs",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"cichlid_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_creolewasse": {
@@ -441,7 +488,9 @@
                         "color_pink",
                         "item_creolewrasse",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"wrasse_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_fairybasslet": {
@@ -458,7 +507,9 @@
                         "color_purple",
                         "item_fairybasslet",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"basslet_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_trumpetfish": {
@@ -475,7 +526,9 @@
                         "color_orange",
                         "item_Trumpetfish",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"needlefish_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_longnosehawkfish": {
@@ -492,7 +545,9 @@
                         "color_orange",
                         "item_longnosehawkfish",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"hawkfish_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_threadfinbutterflyfish": {
@@ -509,7 +564,9 @@
                         "color_yellow",
                         "item_threadfinbutterflyfish",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"butterflyfish_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_bluegrenadier": {
@@ -526,7 +583,9 @@
                         "color_blue",
                         "item_bluegrenadier",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"gadiformfish_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_redgurnard": {
@@ -543,7 +602,9 @@
                         "color_red",
                         "item_redgurnard",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"triglidae_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_mosquitofish": {
@@ -560,7 +621,9 @@
                         "color_grey",
                         "item_mosquitofish",
 						"fish_has_roe",
-						"{{ModId}}_fish"
+						"{{ModId}}_fish",
+						"gambezi_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_mermaidjelly": {
@@ -599,6 +662,7 @@
 						"fish_pond_ignore",
 						"fish_nonfish",
 						"counts_as_fish_catch",
+						"VWC_fishonger_item"
 					]
 				},
 			}

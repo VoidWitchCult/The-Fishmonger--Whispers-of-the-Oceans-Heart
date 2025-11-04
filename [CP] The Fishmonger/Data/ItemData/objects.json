@@ -21,7 +21,8 @@
 					"ContextTags": [
                         "season_fall",
                         "flower_item",
-                        "color_red"
+                        "color_red",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_freshdillseeds": {
@@ -37,7 +38,8 @@
 					"ContextTags": [
                         "season_spring",
                         "vegetable_item",
-                        "color_green"
+                        "color_green",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_fisheyebeansseeds": {
@@ -56,7 +58,8 @@
 						"season_fall",
 						"season_winter",
                         "vegetable_item",
-                        "color_pink"
+                        "color_pink",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_halcyonflowerseeds": {
@@ -72,7 +75,8 @@
 					"ContextTags": [
                         "season_fall",
                         "flower_item",
-                        "color_pink"
+                        "color_pink",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_spicymustardseeds": {
@@ -92,7 +96,8 @@
 						"season_winter",
                         "spice_item",
 						"vegetable_item",
-                        "color_yellow"
+                        "color_yellow",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_oceanflaxseeds": {
@@ -108,7 +113,8 @@
 					"ContextTags": [
                         "season_fall",
                         "vegetable_item",
-                        "color_blue"
+                        "color_blue",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_petrichorseeds": {
@@ -124,7 +130,8 @@
 					"ContextTags": [
                         "season_summer",
                         "flower_item",
-                        "color_blue"
+                        "color_blue",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_saltemmerseeds": {
@@ -140,7 +147,8 @@
 					"ContextTags": [
                         "season_summer",
                         "vegetable_item",
-                        "color_aquamarine"
+                        "color_aquamarine",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_scallureseeds": {
@@ -156,7 +164,8 @@
 					"ContextTags": [
                         "season_summer",
                         "flower_item",
-                        "color_pink"
+                        "color_pink",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_sunsetroseseeds": {
@@ -173,7 +182,8 @@
                         "season_summer",
                         "flower_item",
                         "color_red",
-						"color_yellow"
+						"color_yellow",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_moonlightberriesseeds": {
@@ -189,7 +199,8 @@
 					"ContextTags": [
                         "season_winter",
                         "berry_item",
-						"color_pink"
+						"color_pink",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_prismaticgemfruitseeds": {
@@ -208,7 +219,8 @@
 						"season_fall",
                         "season_winter",
                         "fruit_item",
-						"color_prismatic"
+						"color_prismatic",
+						"VWC_fishonger_item"
 					]
 				},
 				//==============================================================================================
@@ -225,7 +237,9 @@
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 87,
 					"ContextTags": [
-						"color_blue"
+						"color_blue",
+						"fruit_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_FruitOfGinnungagap": {
@@ -239,7 +253,9 @@
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 88,
 					"ContextTags": [
-						"color_poppyseed"
+						"color_poppyseed",
+						"fruit_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_LoversStar": {
@@ -253,7 +269,9 @@
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 89,
 					"ContextTags": [
-						"color_sand"
+						"color_sand",
+						"fruit_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_StarlightFruit": {
@@ -267,7 +285,9 @@
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 90,
 					"ContextTags": [
-						"color_iridium"
+						"color_iridium",
+						"fruit_item",
+						"VWC_fishonger_item"
 					]
 				},
 				//==============================================================================================
@@ -284,7 +304,8 @@
                     "SpriteIndex": 91,
 					"ContextTags": [
 						"color_light_cyan",
-						"tree_seed_item"
+						"tree_seed_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_TreeOfGinnungagapSapling": {
@@ -298,7 +319,8 @@
                     "SpriteIndex": 92,
 					"ContextTags": [
 						"color_darkblue",
-						"tree_seed_item"
+						"tree_seed_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_LoversStarSapling": {
@@ -312,7 +334,8 @@
                     "SpriteIndex": 93,
 					"ContextTags": [
 						"color_salmon",
-						"tree_seed_item"
+						"tree_seed_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_PuffballSapling": {
@@ -326,7 +349,8 @@
                     "SpriteIndex": 94,
 					"ContextTags": [
 						"color_white",
-						"tree_seed_item"
+						"tree_seed_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_MermaidTreeSeeds": {
@@ -340,7 +364,8 @@
                     "SpriteIndex": 113,
 					"ContextTags": [
 						"color_blue",
-						"tree_seed_item"
+						"tree_seed_item",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_MermaidTree2Seeds": {
@@ -354,7 +379,8 @@
                     "SpriteIndex": 116,
 					"ContextTags": [
 						"color_blue",
-						"tree_seed_item"
+						"tree_seed_item",
+						"VWC_fishonger_item"
 					]
 				},
 				
@@ -375,7 +401,8 @@
 					"ContextTags": [
                         "season_fall",
                         "flower_item",
-                        "color_red"
+                        "color_red",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_freshdill": {
@@ -391,7 +418,8 @@
 					"ContextTags": [
                         "season_spring",
                         "vegetable_item",
-                        "color_green"
+                        "color_green",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_fisheyebeans": {
@@ -410,7 +438,8 @@
 						"season_fall",
 						"season_winter",
                         "vegetable_item",
-                        "color_pink"
+                        "color_pink",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_halcyonflower": {
@@ -426,7 +455,8 @@
 					"ContextTags": [
                         "season_fall",
                         "flower_item",
-                        "color_pink"
+                        "color_pink",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_spicymustard": {
@@ -446,7 +476,8 @@
 						"season_winter",
                         "spice_item",
 						"vegetable_item",
-                        "color_yellow"
+                        "color_yellow",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_oceanflax": {
@@ -462,7 +493,8 @@
 					"ContextTags": [
                         "season_fall",
                         "vegetable_item",
-                        "color_blue"
+                        "color_blue",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_petrichor": {
@@ -478,7 +510,8 @@
 					"ContextTags": [
                         "season_summer",
                         "flower_item",
-                        "color_blue"
+                        "color_blue",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_saltemmer": {
@@ -494,7 +527,8 @@
 					"ContextTags": [
                         "season_summer",
                         "vegetable_item",
-                        "color_aquamarine"
+                        "color_aquamarine",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_scallure": {
@@ -510,7 +544,8 @@
 					"ContextTags": [
                         "season_summer",
                         "flower_item",
-                        "color_pink"
+                        "color_pink",
+						"VWC_fishonger_item"
 					]
 				},
                 "{{ModID}}_sunsetrose": {
@@ -527,7 +562,8 @@
                         "season_summer",
                         "flower_item",
                         "color_red",
-						"color_yellow"
+						"color_yellow",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_moonlightberries": {
@@ -543,7 +579,8 @@
 					"ContextTags": [
                         "season_summer",
                         "berry_item",
-                        "color_pink"
+                        "color_pink",
+						"VWC_fishonger_item"
 					]
 				},
 				"{{ModID}}_prismaticgemfruit": {
@@ -562,7 +599,8 @@
 						"season_fall",
                         "season_winter",
                         "fruit_item",
-                        "color_prismatic"
+                        "color_prismatic",
+						"VWC_fishonger_item"
 					]
 				},
 				//==============================================================================================
@@ -587,7 +625,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_brown",
-						"food_seafood"
+						"food_seafood",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_crispyfishandchips": {
@@ -609,7 +648,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_brown",
-						"food_seafood"
+						"food_seafood",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_mouthwateringfishburger": {
@@ -631,7 +671,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_orange",
-						"food_seafood"
+						"food_seafood",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_fishcroquettesaioli": {
@@ -653,7 +694,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_brown",
-						"food_seafood"
+						"food_seafood",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_fishdillsauce": {
@@ -675,7 +717,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_blue",
-						"food_seafood"
+						"food_seafood",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_savoryfishballs": {
@@ -697,7 +740,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_yellow",
-						"food_seafood"
+						"food_seafood",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_freshdillsauce": {
@@ -713,7 +757,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_white",
-						"food_seafood"
+						"food_seafood",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_Plokkfiskur": {
@@ -735,7 +780,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_yellow",
-						"food_seafood"
+						"food_seafood",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_potatoesdillsauce": {
@@ -757,7 +803,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_yellow",
-						"food_seafood"
+						"food_seafood",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_crispysalmonschnitzel": {
@@ -779,7 +826,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_brown",
-						"food_seafood"
+						"food_seafood",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_spicymustardsauce": {
@@ -795,7 +843,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_yellow",
-						"food_seafood"
+						"food_seafood",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_MermaidsTail": {
@@ -811,7 +860,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_pink",
-						"food_bakery"
+						"food_bakery",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_SandDollarCookie": {
@@ -827,7 +877,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_sand",
-						"food_bakery"
+						"food_bakery",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_ClamBisquit": {
@@ -843,7 +894,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_pink",
-						"food_bakery"
+						"food_bakery",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_MermaidDonut": {
@@ -865,7 +917,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_pink",
-						"food_bakery"
+						"food_bakery",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_TropicalPunch": {
@@ -888,7 +941,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"drink_item",
-						"food_sweet"
+						"food_sweet",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_MermaidFreakshake": {
@@ -911,7 +965,8 @@
 					"ContextTags": [
 						"color_purple",
 						"drink_item",
-						"food_sweet"
+						"food_sweet",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_OceanJello": {
@@ -927,7 +982,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_blue",
-						"food_sweet"
+						"food_sweet",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_OrangeFruitCrab": {
@@ -949,7 +1005,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_orange",
-						"food_fruit"
+						"food_fruit",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_OceanSmoothieBowl": {
@@ -965,7 +1022,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_blue",
-						"food_breakfast"
+						"food_breakfast",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_MapRiceCrispy": {
@@ -987,7 +1045,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_yellow",
-						"food_sweet"
+						"food_sweet",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_StuffedFishPocket": {
@@ -1009,7 +1068,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_pink",
-						"food_seafood"
+						"food_seafood",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_SunsetRoseTea": {
@@ -1026,7 +1086,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"drink_item",
-						"food_sweet"
+						"food_sweet",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_BloodstainedRoseTea": {
@@ -1043,7 +1104,8 @@
 					"ContextTags": [
 						"color_red",
 						"drink_item",
-						"food_sweet"
+						"food_sweet",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_SkeweredFish": {
@@ -1059,7 +1121,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_yellow",
-						"food_seafood"
+						"food_seafood",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_RoseCandy": {
@@ -1083,7 +1146,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"color_red",
-						"food_sweet"
+						"food_sweet",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_IridescentCake": {
@@ -1106,7 +1170,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_purple",
-						"food_sweet"
+						"food_sweet",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_PastelCottonCandy": {
@@ -1128,7 +1193,8 @@
                     "IsDrink": false,
 					"ContextTags": [
 						"color_pink",
-						"food_sweet"
+						"food_sweet",
+						"VWC_fishonger_item"
 					],
 				},
 				//==============================================================================================
@@ -1146,7 +1212,8 @@
                     "SpriteIndex": 76,
 					"ContextTags": [
 						"color_pink",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_SunsetMermaidScale": {
@@ -1161,7 +1228,8 @@
                     "SpriteIndex": 77,
 					"ContextTags": [
 						"color_red",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_MossyMermaidScale": {
@@ -1176,7 +1244,8 @@
                     "SpriteIndex": 78,
 					"ContextTags": [
 						"color_light_green",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_SummerMermaidScale": {
@@ -1191,7 +1260,8 @@
                     "SpriteIndex": 79,
 					"ContextTags": [
 						"color_orange",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_CharcoalMermaidScale": {
@@ -1206,7 +1276,8 @@
                     "SpriteIndex": 80,
 					"ContextTags": [
 						"color_black",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_FrostMermaidScale": {
@@ -1221,7 +1292,8 @@
                     "SpriteIndex": 81,
 					"ContextTags": [
 						"color_light_cyan",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_PowderPinkStarfish": {
@@ -1236,7 +1308,8 @@
                     "SpriteIndex": 82,
 					"ContextTags": [
 						"color_pink",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_PowderGreenPearl": {
@@ -1251,7 +1324,8 @@
                     "SpriteIndex": 83,
 					"ContextTags": [
 						"color_light_green",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_PowderBluePearl": {
@@ -1266,7 +1340,8 @@
                     "SpriteIndex": 84,
 					"ContextTags": [
 						"color_light_cyan",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_PowderOrangePearl": {
@@ -1281,7 +1356,8 @@
                     "SpriteIndex": 85,
 					"ContextTags": [
 						"color_orange",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_PowderPinkPearl": {
@@ -1296,7 +1372,8 @@
                     "SpriteIndex": 86,
 					"ContextTags": [
 						"color_pink",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_FerretFurball": {
@@ -1311,7 +1388,8 @@
                     "SpriteIndex": 97,
 					"ContextTags": [
 						"color_grey",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_BulbousPlantCore": {
@@ -1326,7 +1404,8 @@
                     "SpriteIndex": 99,
 					"ContextTags": [
 						"color_red",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_MermaidWoodBark": {
@@ -1341,7 +1420,8 @@
                     "SpriteIndex": 100,
 					"ContextTags": [
 						"color_iridium",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_WeirdVine": {
@@ -1356,7 +1436,8 @@
                     "SpriteIndex": 101,
 					"ContextTags": [
 						"color_green",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_CrystallineBerries": {
@@ -1371,7 +1452,8 @@
                     "SpriteIndex": 117,
 					"ContextTags": [
 						"color_blue",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_ObsidianPhoenixFeather": {
@@ -1386,7 +1468,8 @@
                     "SpriteIndex": 118,
 					"ContextTags": [
 						"color_black",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_SolidIchor": {
@@ -1401,7 +1484,8 @@
                     "SpriteIndex": 119,
 					"ContextTags": [
 						"color_orange",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_ObsidianShard": {
@@ -1416,7 +1500,8 @@
                     "SpriteIndex": 150,
 					"ContextTags": [
 						"color_iridium",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_GrassBlade": {
@@ -1431,7 +1516,8 @@
                     "SpriteIndex": 151,
 					"ContextTags": [
 						"color_green",
-						"forage_item"
+						"forage_item",
+						"VWC_fishonger_item"
 					],
 				},
 				//==============================================================================================
@@ -1452,6 +1538,7 @@
 						"color_yellow",
 						"not_placeable",
 						"ancient_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_EnchantedForest": 0.01,
@@ -1471,7 +1558,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"not_placeable",
-						"marine_item"
+						"marine_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthernCliffs": 0.01,
@@ -1492,7 +1580,8 @@
 						"color_white",
 						"not_placeable",
 						"ancient_item",
-						"marine_item"
+						"marine_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_PortMelodia": 0.01,
@@ -1512,7 +1601,8 @@
 					"ContextTags": [
 						"color_grey",
 						"not_placeable",
-						"ancient_item"
+						"ancient_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthEastQuarry": 0.01,
@@ -1532,7 +1622,8 @@
 					"ContextTags": [
 						"color_prismatic",
 						"not_placeable",
-						"marine_item"
+						"marine_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_Orchard": 0.01,
@@ -1552,7 +1643,8 @@
 					"ContextTags": [
 						"color_pink",
 						"not_placeable",
-						"marine_item"
+						"marine_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland": 0.01,
@@ -1571,7 +1663,8 @@
                     "SpriteIndex": 135,
 					"ContextTags": [
 						"color_orange",
-						"not_placeable"
+						"not_placeable",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_EnchantedForest": 0.01,
@@ -1591,7 +1684,8 @@
 					"ContextTags": [
 						"color_white",
 						"not_placeable",
-						"ancient_item"
+						"ancient_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_Orchard": 0.01,
@@ -1611,7 +1705,8 @@
 					"ContextTags": [
 						"color_silver",
 						"not_placeable",
-						"ancient_item"
+						"ancient_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthEastQuarry": 0.01,
@@ -1632,7 +1727,8 @@
 						"color_pink",
 						"color_gold",
 						"not_placeable",
-						"ancient_item"
+						"ancient_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthernCliffs": 0.01,
@@ -1651,7 +1747,8 @@
                     "SpriteIndex": 139,
 					"ContextTags": [
 						"color_silver",
-						"not_placeable"
+						"not_placeable",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland": 0.01,
@@ -1671,7 +1768,8 @@
 					"ContextTags": [
 						"color_pink",
 						"not_placeable",
-						"ancient_item"
+						"ancient_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_PortMelodia": 0.01,
@@ -1690,7 +1788,8 @@
                     "SpriteIndex": 141,
 					"ContextTags": [
 						"color_pink",
-						"not_placeable"
+						"not_placeable",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland": 0.01,
@@ -1709,7 +1808,8 @@
                     "SpriteIndex": 142,
 					"ContextTags": [
 						"color_silver",
-						"not_placeable"
+						"not_placeable",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_Orchard": 0.01,
@@ -1728,7 +1828,8 @@
                     "SpriteIndex": 143,
 					"ContextTags": [
 						"color_pink",
-						"not_placeable"
+						"not_placeable",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_ForsakenCove": 0.01,
@@ -1748,7 +1849,8 @@
 					"ContextTags": [
 						"color_pink",
 						"not_placeable",
-						"ancient_item"
+						"ancient_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_PortMelodia": 0.01,
@@ -1767,7 +1869,8 @@
                     "SpriteIndex": 145,
 					"ContextTags": [
 						"color_gold",
-						"not_placeable"
+						"not_placeable",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_ForsakenCove": 0.01,
@@ -1787,7 +1890,8 @@
 					"ContextTags": [
 						"color_pink",
 						"not_placeable",
-						"ancient_item"
+						"ancient_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_Orchard": 0.01,
@@ -1806,7 +1910,8 @@
                     "SpriteIndex": 147,
 					"ContextTags": [
 						"color_purple",
-						"not_placeable"
+						"not_placeable",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_ForsakenCove": 0.01,
@@ -1826,7 +1931,8 @@
 					"ContextTags": [
 						"color_cyan",
 						"not_placeable",
-						"ancient_item"
+						"ancient_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthEastQuarry": 0.01,
@@ -1847,7 +1953,8 @@
 					"ContextTags": [
 						"color_pink",
 						"not_placeable",
-						"totem_item"
+						"totem_item",
+						"VWC_fishonger_item"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland": 0.25,
@@ -1865,7 +1972,8 @@
 					"ContextTags": [
 						"color_red",
 						"color_yellow",
-						"forage_item"
+						"flower_bouquet_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_MermaidHardwood": {
@@ -1880,7 +1988,8 @@
                     "SpriteIndex": 73,
 					"ContextTags": [
 						"color_iridium",
-						"wood_item"
+						"wood_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_MermaidWood": {
@@ -1895,7 +2004,8 @@
                     "SpriteIndex": 74,
 					"ContextTags": [
 						"color_iridium",
-						"wood_item"
+						"wood_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_OceanFlaxCloth": {
@@ -1909,7 +2019,9 @@
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 75,
 					"ContextTags": [
-						"color_blue"
+						"color_blue",
+						"cloth_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_MermaidTreeSap": {
@@ -1923,7 +2035,9 @@
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 114,
 					"ContextTags": [
-						"color_yellow"
+						"color_yellow",
+						"sap_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_MermaidTears": {
@@ -1938,7 +2052,8 @@
                     "SpriteIndex": 115,
 					"ContextTags": [
 						"color_purple",
-						"syrup_item"
+						"syrup_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_MermaidMemento": {
@@ -1954,7 +2069,8 @@
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 120,
 					"ContextTags": [
-						"color_poppyseed"
+						"color_poppyseed",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModId}}_MermaidGrassStarter": {
@@ -1969,7 +2085,12 @@
 					"CustomFields": {
 						"mushymato.GrassVariety/GrassStarterKind": "blueGrass",
 						"mushymato.GrassVariety/GrassStarterVariety": "{{ModId}}_lostisland"
-					}
+					},
+					"ContextTags": [
+						"color_blue",
+						"grass_starter_item",
+						"VWC_fishonger_item"
+					],
 				},
 				
 				
@@ -1977,16 +2098,16 @@
 				//==== CHARMS ==================================================================================
 				//==============================================================================================
 				"{{ModID}}_OldRune": {
-                    "Name": "{{ModID}}_OldRune",
-                    "DisplayName": "{{i18n:OldRune.Name}}",
-                    "Description": "{{i18n:OldRune.Description}}",
-                    "Edibility": "0",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 30000,
-                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
-                    "SpriteIndex": 121,
-                    "Buffs": [
+					"Name": "{{ModID}}_OldRune",
+					"DisplayName": "{{i18n:OldRune.Name}}",
+					"Description": "{{i18n:OldRune.Description}}",
+					"Edibility": "0",
+					"Type": "Basic",
+					"Category": -16,
+					"Price": 30000,
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+					"SpriteIndex": 121,
+					"Buffs": [
 						{
 							"Duration": 860,
 							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
@@ -1998,23 +2119,25 @@
 							}
 						}
 					],
-                    "IsDrink": false,
+					"IsDrink": false,
 					"ExcludeFromShippingCollection": true,
 					"ContextTags": [
-						"color_grey"
+						"color_grey",
+						"charm_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_NaturesCoin": {
-                    "Name": "{{ModID}}_NaturesCoin",
-                    "DisplayName": "{{i18n:NaturesCoin.Name}}",
-                    "Description": "{{i18n:NaturesCoin.Description}}",
-                    "Edibility": "0",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 30000,
-                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
-                    "SpriteIndex": 122,
-                    "Buffs": [
+					"Name": "{{ModID}}_NaturesCoin",
+					"DisplayName": "{{i18n:NaturesCoin.Name}}",
+					"Description": "{{i18n:NaturesCoin.Description}}",
+					"Edibility": "0",
+					"Type": "Basic",
+					"Category": -16,
+					"Price": 30000,
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+					"SpriteIndex": 122,
+					"Buffs": [
 						{
 							"Duration": 860,
 							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
@@ -2026,23 +2149,25 @@
 							}
 						}
 					],
-                    "IsDrink": false,
+					"IsDrink": false,
 					"ExcludeFromShippingCollection": true,
 					"ContextTags": [
-						"color_purple"
+						"color_purple",
+						"charm_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_GrassCube": {
-                    "Name": "{{ModID}}_GrassCube",
-                    "DisplayName": "{{i18n:GrassCube.Name}}",
-                    "Description": "{{i18n:GrassCube.Description}}",
-                    "Edibility": "0",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 30000,
-                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
-                    "SpriteIndex": 123,
-                    "Buffs": [
+					"Name": "{{ModID}}_GrassCube",
+					"DisplayName": "{{i18n:GrassCube.Name}}",
+					"Description": "{{i18n:GrassCube.Description}}",
+					"Edibility": "0",
+					"Type": "Basic",
+					"Category": -16,
+					"Price": 30000,
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+					"SpriteIndex": 123,
+					"Buffs": [
 						{
 							"Duration": 860,
 							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
@@ -2054,23 +2179,25 @@
 							}
 						}
 					],
-                    "IsDrink": false,
+					"IsDrink": false,
 					"ExcludeFromShippingCollection": true,
 					"ContextTags": [
-						"color_green"
+						"color_green",
+						"charm_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_WeirdShroom": {
-                    "Name": "{{ModID}}_WeirdShroom",
-                    "DisplayName": "{{i18n:WeirdShroom.Name}}",
-                    "Description": "{{i18n:WeirdShroom.Description}}",
-                    "Edibility": "0",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 30000,
-                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
-                    "SpriteIndex": 124,
-                    "Buffs": [
+					"Name": "{{ModID}}_WeirdShroom",
+					"DisplayName": "{{i18n:WeirdShroom.Name}}",
+					"Description": "{{i18n:WeirdShroom.Description}}",
+					"Edibility": "0",
+					"Type": "Basic",
+					"Category": -16,
+					"Price": 30000,
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+					"SpriteIndex": 124,
+					"Buffs": [
 						{
 							"Duration": 860,
 							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
@@ -2083,23 +2210,25 @@
 							}
 						}
 					],
-                    "IsDrink": false,
+					"IsDrink": false,
 					"ExcludeFromShippingCollection": true,
 					"ContextTags": [
-						"color_black"
+						"color_black",
+						"charm_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_UndeliveredMail": {
-                    "Name": "{{ModID}}_UndeliveredMail",
-                    "DisplayName": "{{i18n:UndeliveredMail.Name}}",
-                    "Description": "{{i18n:UndeliveredMail.Description}}",
-                    "Edibility": "0",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 30000,
-                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
-                    "SpriteIndex": 125,
-                    "Buffs": [
+					"Name": "{{ModID}}_UndeliveredMail",
+					"DisplayName": "{{i18n:UndeliveredMail.Name}}",
+					"Description": "{{i18n:UndeliveredMail.Description}}",
+					"Edibility": "0",
+					"Type": "Basic",
+					"Category": -16,
+					"Price": 30000,
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+					"SpriteIndex": 125,
+					"Buffs": [
 						{
 							"Duration": 860,
 							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
@@ -2111,23 +2240,25 @@
 							}
 						}
 					],
-                    "IsDrink": false,
+					"IsDrink": false,
 					"ExcludeFromShippingCollection": true,
 					"ContextTags": [
-						"color_whitee"
+						"color_white",
+						"charm_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_BellsOfTheOldeOnes": {
-                    "Name": "{{ModID}}_BellsOfTheOldeOnes",
-                    "DisplayName": "{{i18n:BellsOfTheOldeOnes.Name}}",
-                    "Description": "{{i18n:BellsOfTheOldeOnes.Description}}",
-                    "Edibility": "0",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 30000,
-                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
-                    "SpriteIndex": 126,
-                    "Buffs": [
+					"Name": "{{ModID}}_BellsOfTheOldeOnes",
+					"DisplayName": "{{i18n:BellsOfTheOldeOnes.Name}}",
+					"Description": "{{i18n:BellsOfTheOldeOnes.Description}}",
+					"Edibility": "0",
+					"Type": "Basic",
+					"Category": -16,
+					"Price": 30000,
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+					"SpriteIndex": 126,
+					"Buffs": [
 						{
 							"Duration": 860,
 							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
@@ -2139,23 +2270,25 @@
 							}
 						}
 					],
-                    "IsDrink": false,
+					"IsDrink": false,
 					"ExcludeFromShippingCollection": true,
 					"ContextTags": [
-						"color_yellow"
+						"color_yellow",
+						"charm_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_HomogenousSoulTether": {
-                    "Name": "{{ModID}}_HomogenousSoulTether",
-                    "DisplayName": "{{i18n:HomogenousSoulTether.Name}}",
-                    "Description": "{{i18n:HomogenousSoulTether.Description}}",
-                    "Edibility": "0",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 30000,
-                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
-                    "SpriteIndex": 127,
-                    "Buffs": [
+					"Name": "{{ModID}}_HomogenousSoulTether",
+					"DisplayName": "{{i18n:HomogenousSoulTether.Name}}",
+					"Description": "{{i18n:HomogenousSoulTether.Description}}",
+					"Edibility": "0",
+					"Type": "Basic",
+					"Category": -16,
+					"Price": 30000,
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+					"SpriteIndex": 127,
+					"Buffs": [
 						{
 							"Duration": 860,
 							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
@@ -2168,23 +2301,25 @@
 							}
 						}
 					],
-                    "IsDrink": false,
+					"IsDrink": false,
 					"ExcludeFromShippingCollection": true,
 					"ContextTags": [
-						"color_pink"
+						"color_pink",
+						"charm_item",
+						"VWC_fishonger_item"
 					],
 				},
 				"{{ModID}}_RoseTintedEncyclopedia": {
-                    "Name": "{{ModID}}_RoseTintedEncyclopedia",
-                    "DisplayName": "{{i18n:RoseTintedEncyclopedia.Name}}",
-                    "Description": "{{i18n:RoseTintedEncyclopedia.Description}}",
-                    "Edibility": "0",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 1000000,
-                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
-                    "SpriteIndex": 128,
-                    "Buffs": [
+					"Name": "{{ModID}}_RoseTintedEncyclopedia",
+					"DisplayName": "{{i18n:RoseTintedEncyclopedia.Name}}",
+					"Description": "{{i18n:RoseTintedEncyclopedia.Description}}",
+					"Edibility": "0",
+					"Type": "Basic",
+					"Category": -16,
+					"Price": 1000000,
+					"Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+					"SpriteIndex": 128,
+					"Buffs": [
 						{
 							"Duration": 860,
 							"IconTexture": "Mods/{{ModID}}/vww_fishmonger_bufficons",
@@ -2199,13 +2334,16 @@
 							}
 						}
 					],
-                    "IsDrink": false,
+					"IsDrink": false,
 					"ExcludeFromShippingCollection": true,
 					"ContextTags": [
-						"color_pink"
+						"color_pink",
+						"charm_item",
+						"VWC_fishonger_item"
 					],
 				},
 			},
 		},
+		
 	]
 }
