@@ -1,0 +1,20 @@
+{
+    "Changes": 
+	[
+		{
+            "LogName": "Godwyn schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{ModID}}_RoyalMermanGodwyn",
+            "Entries": {
+			//???  
+			"spring": "
+			610 {{ModID}}_LostIsland 37 24 2/
+			",
+			// HANGOUT DAY
+			"Sun": "GOTO spring",
+			//???
+			"rain": "GOTO spring",
+			}
+		}
+	]
+}

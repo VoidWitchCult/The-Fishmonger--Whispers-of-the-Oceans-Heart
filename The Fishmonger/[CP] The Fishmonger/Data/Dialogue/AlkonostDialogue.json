@@ -1,0 +1,41 @@
+{
+    "Changes": 
+	[
+		{
+            "LogAlkonost": "Alkonost Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_Alkonost",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Alkonost.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"DumpsterDiveComment": "{{i18n:Alkonost.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Alkonost.Dialogue.HitBySlingshot}}",
+				"GreenRain": "{{i18n:Alkonost.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Alkonost.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Alkonost.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				
+				// 1ST OF SEASON DIALOGUE
+				"spring_1": "{{i18n:Alkonost.Dialogue.spring_1}}",
+				"summer_1": "{{i18n:Alkonost.Dialogue.summer_1}}",
+				"fall_1": "{{i18n:Alkonost.Dialogue.fall_1}}",
+				"winter_1": "{{i18n:Alkonost.Dialogue.winter_1}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Alkonost.Dialogue.{{Random: 0, 35}}}}",
+				"Tue": "{{i18n:Alkonost.Dialogue.{{Random: 0, 35}}}}",
+				"Wed": "{{i18n:Alkonost.Dialogue.{{Random: 0, 35}}}}",
+				"Thu": "{{i18n:Alkonost.Dialogue.{{Random: 0, 35}}}}",
+				"Fri": "{{i18n:Alkonost.Dialogue.{{Random: 0, 35}}}}",
+				"Sat": "{{i18n:Alkonost.Dialogue.{{Random: 0, 35}}}}",
+				"Sun": "{{i18n:Alkonost.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
+				// Schedule dialogue
+				"{{ModID}}_Alkonost.lostisland.000": "{{i18n:Alkonost.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Alkonost.lostisland.001": "{{i18n:Alkonost.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Alkonost.lostisland.002": "{{i18n:Alkonost.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

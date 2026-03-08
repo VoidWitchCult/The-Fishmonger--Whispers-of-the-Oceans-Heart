@@ -1,0 +1,260 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Changes": [
+    // load all the needed textures
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_{{C@Kid}}/baby, Characters/{{ModId}}_{{C@Kid}}/costume, Characters/{{ModId}}_{{C@Kid}}/toddler",
+      "FromFile": "assets/{{C@Kid}}/characters/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_{{C@Kid}}/costume, Portraits/{{ModId}}_{{C@Kid}}/toddler",
+      "FromFile": "assets/{{C@Kid}}/portraits/{{TargetWithoutPath}}.png"
+    },
+    // Child data for HMK has a similar format as Data/Characters
+    // The difference is that this targets "mushymato.HaveMoreKids/ChildData"
+    {
+      "Action": "EditData",
+      "Target": "mushymato.HaveMoreKids/ChildData",
+      "Entries": {
+        "{{ModId}}_{{C@Kid}}": {
+          "DisplayName": "{{i18n:{{C@Kid}}.DisplayName}}",
+          "Gender": "{{L@Gender}}",
+		  "IsDarkSkinned": true,
+          "Appearance": [
+            // BABY APPEARANCE
+            {
+              // Any Id that starts with "HMK_BABY" is used specifically for the baby stages.
+              // You may have several baby appearances, as long as the naming scheme is followed
+              "Id": "HMK_BABY_2",
+              "Sprite": "Characters/{{ModId}}_{{C@Kid}}/baby"
+            },
+            // TODDLER APPEARANCE
+            {
+              // this is the normal toddler/npc sprite
+              // for technical reasons, all HMK children need at least one unconditional Appearance entry like this
+              "Id": "Toddler",
+              "Portrait": "Portraits/{{ModId}}_{{C@Kid}}/toddler",
+              "Sprite": "Characters/{{ModId}}_{{C@Kid}}/toddler"
+            },
+            {
+              // this is the normal toddler/npc sprite with a GSQ
+              "Id": "Toddler_Costume",
+              "Portrait": "Portraits/{{ModId}}_{{C@Kid}}/costume",
+              "Sprite": "Characters/{{ModId}}_{{C@Kid}}/costume",
+              "Condition": "IS_FESTIVAL_DAY,IS_EVENT",
+              "Precedence": -1000,
+            },
+          ]
+        }
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "mushymato.HaveMoreKids/Kids",
+      "Entries": {
+        "{{ModId}}_{{C@Kid}}": {
+          "Parent": "VoidWitchCult.CP.TheFishmongerNPC_PirateLadCaitrionaOFlannagain",
+        }
+      },
+    },
+    // Finally, you can add various NPC style features to your kids
+    // L@Growup=talk -> Include data/kid-talk.json
+    //    This allows your child to talk to you, without becoming a full fledged NPC
+    //    It is active while the child is in the toddler phase
+    // L@Growup=npc  -> Include data/kid-npc.json
+    //    This turns your child into a full NPC with schedules
+    //    Both the "Child" verison and the "NPC" version coexist
+    {
+      "Action": "Include",
+      "FromFile": "data/kid-{{L@Growup}}-{{C@Kid}}.json"
+    },
+	// You also need the dialogue and gift taste data
+    // (the following 3 patches are same as data/kid-talk.json, reproduced here for clarity)
+    {
+      // load blank.json
+      "Action": "Load",
+      "Target": "Characters/Dialogue/{{ModId}}_{{C@Kid}}",
+      "FromFile": "data/blank.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{ModId}}_{{C@Kid}}",
+      "Entries": {
+        // these are a custom endearment terms, used when you have [HMK_Endearment] in this asset, or [HMK_Endearment mushymato.HMK.Example_girl1] anywhere else
+        // the no-suffix one has highest priority, followed by the gendered versions
+		// Void: there's stuff here but I don't really use it lol
+        "HMK_Endearment": "parent",
+        "HMK_Endearment_Male": "pops",
+        "HMK_Endearment_Female": "mom",
+        "HMK_Endearment_Undefined": "u",
+        "HMK_Endearment_NonParent": "pal",
+        "HMK_Endearment_NonParent_Male": "uncle",
+        "HMK_Endearment_NonParent_Female": "auntie",
+        "HMK_Endearment_NonParent_Undefined": "buddie",
+        // this is an ordinary vanilla dialogue asset, and accepts all the same keys
+        "Mon": "{{i18n:{{C@Kid}}.Toddler.Dialog.Mon}}",
+        "Tue": "{{i18n:{{C@Kid}}.Toddler.Dialog.Tue}}",
+        "Wed": "{{i18n:{{C@Kid}}.Toddler.Dialog.Wed}}",
+        "Thu": "{{i18n:{{C@Kid}}.Toddler.Dialog.Thu}}",
+        "Fri": "{{i18n:{{C@Kid}}.Toddler.Dialog.Fri}}",
+        "Sat": "{{i18n:{{C@Kid}}.Toddler.Dialog.Sat}}",
+        "Sun": "{{i18n:{{C@Kid}}.Toddler.Dialog.Sun}}",
+		"FarmHouse": "{{i18n:{{C@Kid}}.Toddler.Dialog.Farmhouse.{{Random: {{Range: 1,10}}}}}}"
+      }
+    },
+    // Kids can have festival dialogue like everyone else
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter8, Data/Festivals/winter25",
+      "Entries": {
+        "{{ModId}}_{{C@Kid}}_y2": "{{i18n:{{C@Kid}}.Festivals.{{TargetWithoutPath}}}}",
+      }
+    },
+	 // Movie
+    {
+      "Action": "EditData",
+      "Target": "Strings/Characters",
+      "Entries": {
+        "MovieInvite_Invited_{{ModId}}_{{C@Kid}}": "{{i18n:{{C@Kid}}.MovieInvite_Invited}}",
+      },
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_{{C@Kid}}": {
+          "Name": "{{mushymato.HaveMoreKids/KidNPCId:{{ModId}}_{{C@Kid}}}}",
+          "LovedTags": [
+            "Chocolate Popcorn",
+            "Cotton Candy",
+            "Apple Slices",
+          ],
+          "LikedTags": [
+            "Sweet",
+            "Healthy",
+          ],
+          "DislikedTags": [
+            "Jawbreaker",
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_{{C@Kid}}": {
+          "Name": "{{mushymato.HaveMoreKids/KidNPCId:{{ModId}}_{{C@Kid}}}}",
+          "Reactions": [
+            {
+              "Tag": "*",
+              "Response": "love", //This makes it so that they always love movies when their other parent is present at the theatre. Feel free to change this to "like" (if the kid isn't too enthused) or "dislike" (if you've got some family drama)
+              "Whitelist": [
+                "VoidWitchCult.CP.TheFishmongerNPC_PirateLadCaitrionaOFlannagain",
+              ],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "{{i18n:{{C@Kid}}.Movie.With_Parent_Before}}" //This is what they say before they watch the movie when the player's spouse or roommate is also in the theatre
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "/message \"{{i18n:{{C@Kid}}.Movie.With_Parent_Script}}\"", //This is what's displayed when the player's spouse or roommate is also in the theatre. The /message part makes it so that the part in the second set of quotes is shown as a message onscreen (not a dialogue line). You can remove everything in DuringMovie and replace it with null if you want
+                  "Text": null
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "{{i18n:{{C@Kid}}.Movie.With_Parent_After}}" //This is what they say after they watch the movie when the player's spouse or roommate is also in the theatre
+                }
+              },
+              "Id": "reaction_3"
+            },
+            //Sample loved/liked/disliked tags, feel free to change them
+            {
+              "Tag": "family",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "Id": "reaction_0"
+            },
+            {
+              "Tag": "horror",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "Id": "reaction_1"
+            },
+            {
+              "Tag": "*",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "Id": "reaction_2"
+            },
+            {
+              "Tag": "love",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "{{i18n:{{C@Kid}}.Movie.love_Before}}" //This is what they say before they watch a loved movie
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "{{i18n:{{C@Kid}}.Movie.love_After}}" //This is what they say after they watch a loved movie
+                }
+              },
+              "Id": "reaction_5"
+            },
+            {
+              "Tag": "like",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "{{i18n:{{C@Kid}}.Movie.like_Before}}" //This is what they say before they watch a liked movie
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "{{i18n:{{C@Kid}}.Movie.like_After}}" //This is what they say after they watch a liked movie
+                }
+              },
+              "Id": "reaction_6"
+            },
+            {
+              "Tag": "dislike",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "{{i18n:{{C@Kid}}.Movie.dislike_Before}}" //This is what they say before they watch a disliked movie
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": null,
+                  "Text": "{{i18n:{{C@Kid}}.Movie.dislike_After}}" //This is what they say after they watch a disliked movie
+                }
+              },
+              "Id": "reaction_7"
+            }
+          ]
+        }
+      }
+    },
+  ]
+}

@@ -1,0 +1,54 @@
+{
+    "Changes": 
+	[
+		{
+            "LogMorvenna": "Morvenna Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_SelkieMomMorvenna",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Morvenna.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:Morvenna.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:Morvenna.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:Morvenna.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:Morvenna.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:Morvenna.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:Morvenna.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:Morvenna.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:Morvenna.Dialogue.birthdayNeutralB}}",
+				"DumpsterDiveComment": "{{i18n:Morvenna.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Morvenna.Dialogue.HitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:Morvenna.Dialogue.RejectBouquetNotDatable}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:Morvenna.Dialogue.RejectMermaidPendantNotDatable}}",
+				"RejectItem_809": "{{i18n:Morvenna.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:Morvenna.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Morvenna.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Morvenna.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:Morvenna.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Morvenna.ITEM}}",
+				
+				// 1ST OF SEASON DIALOGUE
+				"spring_1": "{{i18n:Morvenna.Dialogue.spring_1}}",
+				"summer_1": "{{i18n:Morvenna.Dialogue.summer_1}}",
+				"fall_1": "{{i18n:Morvenna.Dialogue.fall_1}}",
+				"winter_1": "{{i18n:Morvenna.Dialogue.winter_1}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Morvenna.Dialogue.{{Random: 0, 35}}}}",
+				"Tue": "{{i18n:Morvenna.Dialogue.{{Random: 0, 35}}}}",
+				"Wed": "{{i18n:Morvenna.Dialogue.{{Random: 0, 35}}}}",
+				"Thu": "{{i18n:Morvenna.Dialogue.{{Random: 0, 35}}}}",
+				"Fri": "{{i18n:Morvenna.Dialogue.{{Random: 0, 35}}}}",
+				"Sat": "{{i18n:Morvenna.Dialogue.{{Random: 0, 35}}}}",
+				"Sun": "{{i18n:Morvenna.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
+				// Schedule dialogue
+				"{{ModID}}_Morvenna.lostisland.000": "{{i18n:Morvenna.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Morvenna.lostisland.001": "{{i18n:Morvenna.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Morvenna.lostisland.002": "{{i18n:Morvenna.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

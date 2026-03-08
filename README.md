@@ -9,6 +9,9 @@ An expansion focusing on the fishmonger Constance whose dream of meeting a merma
 - MEEP
 - Item Extensions
 
+### Soft Dependency
+- Have More Children
+
 ### Suggested mods
 Here a variety of mods that go well with my mod. They are not needed but serve a smooth transition for additional gameplay alongside it.
 - [???]

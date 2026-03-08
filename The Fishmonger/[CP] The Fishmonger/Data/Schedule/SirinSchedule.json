@@ -1,0 +1,20 @@
+{
+    "Changes": 
+	[
+		{
+            "LogName": "Sirin schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{ModID}}_Sirin",
+            "Entries": {
+			//???  
+			"spring": "
+			610 {{ModID}}_LostIsland 42 24 2/
+			",
+			// HANGOUT DAY
+			"Sun": "GOTO spring",
+			//???
+			"rain": "GOTO spring",
+			}
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+  "Format": "2.8.1",
+  "Changes": [
+    // B@Kid - Local tokens for ALL of Barb's Kids
+    // BARNABAS KIDS
+    // Girl
+    {
+      "Action": "Include",
+      "FromFile": "data/kid.json",
+      "LocalTokens": {
+        "B@Kid": "Muirenn",
+        "L@Gender": "Female",
+        "L@Growup": "npc",
+		"HomeTileX": 19,
+		"HomeTileY": 14,
+      }
+    },
+    // Boy,
+    {
+      "Action": "Include",
+      "FromFile": "data/kid.json",
+      "LocalTokens": {
+        "B@Kid": "Marinus",
+        "L@Gender": "Male",
+        "L@Growup": "npc",
+		"HomeTileX": 19,
+		"HomeTileY": 15,
+      }
+    },
+    // C@Kid - Local tokens for ALL of Cait's Kids
+    // CAITRIONAS KIDS
+    // Girl,
+    {
+      "Action": "Include",
+      "FromFile": "data/kid2.json",
+      "LocalTokens": {
+        "C@Kid": "Guinevere",
+        "L@Gender": "Female",
+        "L@Growup": "npc",
+		"HomeTileX": 20,
+		"HomeTileY": 14,
+      }
+    },
+    // Boy,
+    {
+      "Action": "Include",
+      "FromFile": "data/kid2.json",
+      "LocalTokens": {
+        "C@Kid": "Caspian",
+        "L@Gender": "Male",
+        "L@Growup": "npc",
+		"HomeTileX": 20,
+		"HomeTileY": 15,
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+	"Changes": [
+		//==== PIRATELAD =======================================================================
+		//Boy
+		
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler",
+			"FromFile": "assets/Images/Kids/VVC_Piratelad_boy.png",
+			
+			"When": {
+				"Relationship:{{ModID}}_PirateLadCaitrionaOFlannagain": "Married",
+				"HasMod |contains=mushymato.HaveMoreKids": false,
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_dark",
+			"FromFile": "assets/Images/Kids/VVC_Piratelad_boy.png",
+			"When": {
+				"Relationship:{{ModID}}_PirateLadCaitrionaOFlannagain": "Married",
+				"HasMod |contains=mushymato.HaveMoreKids": false,
+			}
+		},
+		
+		//Girl
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_girl",
+			"FromFile": "assets/Images/Kids/VVC_Piratelad_girl.png",
+			"When": {
+				"Relationship:{{ModID}}_PirateLadCaitrionaOFlannagain": "Married",
+				"HasMod |contains=mushymato.HaveMoreKids": false,
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_girl_dark",
+			"FromFile": "assets/Images/Kids/VVC_Piratelad_girl.png",
+			"When": {
+				"Relationship:{{ModID}}_PirateLadCaitrionaOFlannagain": "Married",
+				"HasMod |contains=mushymato.HaveMoreKids": false,
+			}
+		},	
+		
+		//==== SEADUDE =========================================================================
+		//Boy
+		
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler",
+			"FromFile": "assets/Images/Kids/VVC_SeaDude_boy.png",
+			
+			"When": {
+				"Relationship:{{ModID}}_SeaDudeBarnabas": "Married",
+				"HasMod |contains=mushymato.HaveMoreKids": false,
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_dark",
+			"FromFile": "assets/Images/Kids/VVC_SeaDude_boy.png",
+			"When": {
+				"Relationship:{{ModID}}_SeaDudeBarnabas": "Married",
+				"HasMod |contains=mushymato.HaveMoreKids": false,
+			}
+		},
+		
+		//Girl
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_girl",
+			"FromFile": "assets/Images/Kids/VVC_SeaDude_girl.png",
+			"When": {
+				"Relationship:{{ModID}}_SeaDudeBarnabas": "Married",
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_girl_dark",
+			"FromFile": "assets/Images/Kids/VVC_SeaDude_girl.png",
+			"When": {
+				"Relationship:{{ModID}}_SeaDudeBarnabas": "Married",
+			}
+		},
+		
+	]
+	
+}

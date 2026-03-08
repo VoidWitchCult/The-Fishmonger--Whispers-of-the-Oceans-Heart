@@ -1,0 +1,18 @@
+{
+  "Name": "Have More Kids - Caitriona and Barnabas Children",
+  "Author": "VoidWitchCult",
+  "Description": "Example pack for mushymato.HaveMoreKids, ",
+  "UniqueID": "VWC.HMK.TheFishmongerWotOH",
+  "MinimumApiVersion": "4.0.0",
+  "Version": "0.3.0", 
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.7.0"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "mushymato.HaveMoreKids",
+      "IsRequired": true
+    }
+  ]
+}

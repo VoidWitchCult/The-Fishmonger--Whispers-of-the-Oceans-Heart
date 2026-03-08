@@ -1,0 +1,49 @@
+{
+    "Changes": 
+	[
+		{
+            "LogGodwyn": "Godwyn Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_RoyalMermanGodwyn",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Godwyn.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:Godwyn.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:Godwyn.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:Godwyn.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:Godwyn.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:Godwyn.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:Godwyn.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:Godwyn.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:Godwyn.Dialogue.birthdayNeutralB}}",
+				"DumpsterDiveComment": "{{i18n:Godwyn.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Godwyn.Dialogue.HitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:Godwyn.Dialogue.RejectBouquetNotDatable}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:Godwyn.Dialogue.RejectMermaidPendantNotDatable}}",
+				"RejectItem_809": "{{i18n:Godwyn.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:Godwyn.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Godwyn.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Godwyn.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:Godwyn.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Godwyn.ITEM}}",
+				
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Godwyn.Dialogue.{{Random: 0, 20}}}}",
+				"Tue": "{{i18n:Godwyn.Dialogue.{{Random: 0, 20}}}}",
+				"Wed": "{{i18n:Godwyn.Dialogue.{{Random: 0, 20}}}}",
+				"Thu": "{{i18n:Godwyn.Dialogue.{{Random: 0, 20}}}}",
+				"Fri": "{{i18n:Godwyn.Dialogue.{{Random: 0, 20}}}}",
+				"Sat": "{{i18n:Godwyn.Dialogue.{{Random: 0, 20}}}}",
+				"Sun": "{{i18n:Godwyn.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
+				// Schedule dialogue
+				"{{ModID}}_Godwyn.lostisland.000": "{{i18n:Godwyn.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Godwyn.lostisland.001": "{{i18n:Godwyn.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Godwyn.lostisland.002": "{{i18n:Godwyn.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

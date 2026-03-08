@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        //==============================================================================================
+		//==== LOADS LETTER BACKGROUNDS ================================================================
+		//==============================================================================================
+		{
+            "LogName": "Load BGs",
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/FMLetterBG",
+            "FromFile": "Assets/Images/LetterBG/{{TargetWithoutPath}}.png"
+		},
+		//==============================================================================================
+		//==== ADDS MAIL ===============================================================================
+		//==============================================================================================
+        {
+            "LogName": "FM Letters",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                // Greetings
+                "{{ModID}}_WelcomeToFishHell": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.WelcomeToFishHell}}[letterbg Mods\\{{ModID}}\\FMLetterBG 0][#]{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.WelcomeToFishHell.Title}}",
+				
+                // Events
+                "{{ModID}}_MermaidsAreCoolOK": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.MermaidsAreCoolOK}}[letterbg Mods\\{{ModID}}\\FMLetterBG 0]%item id (O)162 1%%[#]{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.MermaidsAreCoolOK.Title}}",
+                "{{ModID}}_TroubledMind": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.TroubledMind}}[letterbg Mods\\{{ModID}}\\FMLetterBG 0][#]{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.TroubledMind.Title}}",
+				
+				//Achievements
+				"{{ModID}}_BirdieIsHappy": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.BirdieIsHappy}}[letterbg Mods\\{{ModID}}\\FMLetterBG 0]%item id (O)279 1%%[#]{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.BirdieIsHappy.Title}}",
+				"{{ModID}}_CongratsBud": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.CongratsBud}}[letterbg Mods\\{{ModID}}\\FMLetterBG 0]%item id (O)74 1%%[#]{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.CongratsBud.Title}}",
+				"{{ModID}}_RecipesAndSeeds": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.RecipesAndSeeds}}[letterbg Mods\\{{ModID}}\\FMLetterBG 0][#]{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.RecipesAndSeeds.Title}}",
+				
+				// Heart Levels
+				"{{ModID}}_FishmongerScarecrow": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.FishmongerScarecrow}}[letterbg Mods\\{{ModID}}\\FMLetterBG 0]%item craftingRecipe {{ModID}}_FishmongerScarecrow %%[#]{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.FishmongerScarecrow.Title}}",
+				"{{ModID}}_CoolerFishmongerScarecrow": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow}}[letterbg Mods\\{{ModID}}\\FMLetterBG 0]%item craftingRecipe {{ModID}}_CoolerFishmongerScarecrow %%[#]{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mail.CoolerFishmongerScarecrow.Title}}",
+				
+				// Warp Totem
+				"{{ModID}}_WarpTotem": "{{i18n:Mail.WarpTotem}}[letterbg Mods\\{{ModID}}\\FMLetterBG 1]%item craftingRecipe {{ModID}}_LostIslandTotem%% %item id (O){{ModID}}_LostIslandTotem 3 %%[#]{{i18n:Mail.WarpTotem.Title}}",
+				
+				// PassedOut Mail
+                "PassedOutBarnabas": "{{i18n:Mail.PassedOutBarnabas}}[letterbg Mods\\{{ModID}}\\FMLetterBG 1][#]{{i18n:Mail.PassedOutBarnabas.Title}}",
+				
+				// Prismatic Gem Seeds
+				"{{ModID}}_PrismaticGemSeeds": "{{i18n:Mail.PrismaticGemSeeds}}[letterbg Mods\\{{ModID}}\\FMLetterBG 1]%item craftingRecipe {{ModID}}_prismaticgemfruitseeds %%[#]{{i18n:Mail.PrismaticGemSeeds.Title}}",
+				
+				// Flower Bouquet Quest
+				"{{ModID}}_FlowerBouquetQuest": "{{i18n:Mail.FlowerBouquetQuest}}[letterbg Mods\\{{ModID}}\\FMLetterBG 1]%item craftingRecipe {{ModID}}_SpecialFlowerBouquet %% %item quest {{ModID}}_ConstanceFlowerBouquetQuest true %%[#]{{i18n:Mail.FlowerBouquetQuest.Title}}",
+			}
+		}
+	]
+}

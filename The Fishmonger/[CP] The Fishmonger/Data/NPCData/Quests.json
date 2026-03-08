@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "LogName": "Adds Quests",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "{{ModID}}_ConstanceFlowerBouquetQuest": "ItemDelivery/{{i18n:Quest.CFBQuestName}}/{{i18n:Quest.CFBQuestDescription}}/{{i18n:Quest.CFBQuestTask}}/{{ModID}}_TheFishmonger {{ModID}}_SpecialFlowerBouquet 1/-1/5000/-1/false/{{i18n:Quest.CFBQuestDialogue}}",
+				"{{ModID}}_BarnabasGemFeastQuest": "ItemDelivery/{{i18n:Quest.BGFQuestName}}/{{i18n:Quest.BGFQuestDescription}}/{{i18n:Quest.BGFQuestTask}}/{{ModID}}_SeaDudeBarnabas  {{ModId}}_DeepseaDiamond 10/-1/25000/-1/false/{{i18n:Quest.BGFQuestDialogue}}",
+                
+            }
+        }
+    ]
+}

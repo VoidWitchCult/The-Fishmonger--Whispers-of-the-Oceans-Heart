@@ -1,0 +1,48 @@
+{
+    "Changes": 
+	[
+		{
+            "LogEsme": "Esme Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_MermaidDancerEsme",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Esme.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:Esme.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:Esme.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:Esme.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:Esme.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:Esme.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:Esme.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:Esme.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:Esme.Dialogue.birthdayNeutralB}}",
+				"DumpsterDiveComment": "{{i18n:Esme.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Esme.Dialogue.HitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:Esme.Dialogue.RejectBouquetNotDatable}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:Esme.Dialogue.RejectMermaidPendantNotDatable}}",
+				"RejectItem_809": "{{i18n:Esme.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:Esme.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Esme.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Esme.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:Esme.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Esme.ITEM}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Esme.Dialogue.{{Random: 0, 20}}}}",
+				"Tue": "{{i18n:Esme.Dialogue.{{Random: 0, 20}}}}",
+				"Wed": "{{i18n:Esme.Dialogue.{{Random: 0, 20}}}}",
+				"Thu": "{{i18n:Esme.Dialogue.{{Random: 0, 20}}}}",
+				"Fri": "{{i18n:Esme.Dialogue.{{Random: 0, 20}}}}",
+				"Sat": "{{i18n:Esme.Dialogue.{{Random: 0, 20}}}}",
+				"Sun": "{{i18n:Esme.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
+				// Schedule dialogue
+				"{{ModID}}_Esme.lostisland.000": "{{i18n:Esme.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Esme.lostisland.001": "{{i18n:Esme.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Esme.lostisland.002": "{{i18n:Esme.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

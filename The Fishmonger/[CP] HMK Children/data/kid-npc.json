@@ -1,0 +1,99 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "mushymato.HaveMoreKids/Kids",
+      "Fields": {
+        "{{ModId}}_{{B@Kid}}": {
+          "IsNPCTodayCondition": "!IS_FESTIVAL_DAY,!DAY_OF_WEEK Sunday",
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.HaveMoreKids/ChildData",
+      "Fields": {
+        "{{ModId}}_{{B@Kid}}": {
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "BusStop",
+              "Tile": {
+                "X": {{HomeTileX}},
+                "Y": {{HomeTileY}}
+              },
+              "Direction": "down"
+            }
+          ],
+        },
+      }
+    },
+    {
+      // load blank.json
+      "Action": "Load",
+      "Target": "Characters/schedules/{{ModId}}_{{B@Kid}}",
+      "FromFile": "data/blank.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_Muirenn",
+      "Entries": {
+        // give the child a schedule
+        // "spring": "0700 Town 37 71 2/1200 Mountain 43 23 2/1800 Town 0 0 HMK_Home",
+        "spring": "0700 Town 23 52 2/1010 Town 0 0 HMK_Home",
+        "summer": "0000 Mountain 43 23 2/0700 Town 23 52 2/1010 Town 0 0 HMK_Home",
+        "DesertFestival": "0800 Desert 22 51/1200 Desert 24 31/1730 Town 0 0 HMK_Home"
+      }
+    },
+    // You also need the dialogue and gift taste data
+    // (the following 3 patches are same as data/kid-talk.json, reproduced here for clarity)
+    {
+      // load blank.json
+      "Action": "Load",
+      "Target": "Characters/Dialogue/{{ModId}}_{{B@Kid}}",
+      "FromFile": "data/blank.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{ModId}}_{{B@Kid}}",
+      "Entries": {
+        // these are a custom endearment terms, used when you have [HMK_Endearment] in this asset, or [HMK_Endearment mushymato.HMK.Example_girl1] anywhere else
+        // the no-suffix one has highest priority, followed by the gendered versions
+        "HMK_Endearment": "bwuhrent",
+        "HMK_Endearment_Male": "papa",
+        "HMK_Endearment_Female": "mama",
+        "HMK_Endearment_Undefined": "u",
+        "HMK_Endearment_NonParent": "bwuhde",
+        "HMK_Endearment_NonParent_Male": "uncle",
+        "HMK_Endearment_NonParent_Female": "auntie",
+        "HMK_Endearment_NonParent_Undefined": "bwuh",
+        // this is an ordinary vanilla dialogue asset, and accepts all the same keys
+        "Mon": "{{i18n:{{B@Kid}}.Toddler.Dialog.Mon}}",
+        "Tue": "{{i18n:{{B@Kid}}.Toddler.Dialog.Tue}}",
+        "Wed": "{{i18n:{{B@Kid}}.Toddler.Dialog.Wed}}",
+        "Thu": "{{i18n:{{B@Kid}}.Toddler.Dialog.Thu}}",
+        "Fri": "{{i18n:{{B@Kid}}.Toddler.Dialog.Fri}}",
+        "Sat": "{{i18n:{{B@Kid}}.Toddler.Dialog.Sat}}",
+        "Sun": "{{i18n:{{B@Kid}}.Toddler.Dialog.Sun}}",
+		"FarmHouse": "I'm sleepy."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        // You can give the child some gift tastes, they also follow normal format
+        "{{ModId}}_{{B@Kid}}": "{{i18n:{{B@Kid}}.Toddler.Gift.Loved}}/1/{{i18n:{{B@Kid}}.Toddler.Gift.Liked}}/1/{{i18n:{{B@Kid}}.Toddler.Gift.Dislike}}/1/{{i18n:{{B@Kid}}.Toddler.Gift.Hated}}/1/{{i18n:{{B@Kid}}.Toddler.Gift.Neutral}}/1/",
+      }
+    },
+    // Kids can have festival dialogue like everyone else
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+        "{{ModId}}_{{B@Kid}}_*": "[HMK_EndearmentCap] I love eggs very much",
+      }
+    }
+  ]
+}

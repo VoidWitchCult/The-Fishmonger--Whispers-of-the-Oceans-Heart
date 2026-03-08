@@ -1,0 +1,301 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add SO Emojis",
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/SOEmojis",
+            "FromFile": "Assets/Images/SOEmojis.png"
+        },
+        {
+            "LogName": "Add SO Emojis Data",
+            "Action": "EditData",
+            "Target": "Mods/{{ModID}}/SOEmojisData",
+            "Entries": {
+                "{{ModID}}_TheFishmonger": 0,
+                "{{ModID}}_MermaidCalliope": 1,
+                "{{ModID}}_SeaDudeBarnabas": 2,
+                "{{ModID}}_CoolGalBernadette": 3,
+                "{{ModID}}_PirateLadCaitrionaOFlannagain": 4,
+                "{{ModID}}_LibrarianGamayun": 5,
+            }
+        },
+		//==============================================================================================
+		//==== GAMAYUNS SPECIAL ORDER ==================================================================
+		//==============================================================================================
+        {
+            "LogName": "Add Special Orders",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "{{ModID}}_GamayunLibrarySpecialOrder": {
+                    "Name": "{{i18n:SpecialOrder.GamayunLibrary.Objective.Name}}",
+                    "Requester": "{{ModID}}_LibrarianGamayun",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": false,
+                    "RequiredTags": "island, !dropbox_library",
+                    "OrderType": "",
+                    "SpecialRule": "",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_GamayunSpecialOrderStartEvent",
+                    "Text": "{{i18n:SpecialOrder.Gamayun.Objective.Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective1}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_OldLootedCoins"							
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective2}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_ClottedIchor"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective3}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_SharkToothNecklace"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective4}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_BrokenArrowhead"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective5}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_PrismaticPearl"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective6}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_OceanStarFragment"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective7}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_ViscousMatter"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective8}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_GrotesqueMask"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective9}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_OvergrownChalice"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective10}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_MysticBracelet"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective11}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_RustyHook"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective12}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_PearlescentShield"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective13}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_FlowerSpecimen"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective14}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_ChewedScrapmetal"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective15}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_FrostApple"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective16}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_ChippedBroadsword"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective17}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_GildedBranch"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective18}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_TintedLens"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective19}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_Phlegm"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.Gamayun.Objective20}}",
+							"RequiredCount": "1",
+							"Data": {
+								"DropBox": "dropbox_library",
+								"DropBoxGameLocation": "{{ModId}}_LostIsland_Library",
+								"DropBoxIndicatorLocation": "47 24",
+								"MinimumCapacity": "24",
+								"AcceptedContextTags": "item_VoidWitchCult.CP.TheFishmongerNPC_AncientFrostWand"
+							}
+						},
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "50000"
+                            }
+                        }
+                    ]
+                },
+                
+            }
+        },
+		//==============================================================================================
+		//==== MISC ====================================================================================
+		//==============================================================================================
+    ]
+}

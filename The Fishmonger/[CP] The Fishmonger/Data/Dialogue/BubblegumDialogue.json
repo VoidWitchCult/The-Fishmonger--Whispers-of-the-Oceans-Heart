@@ -1,0 +1,36 @@
+{
+    "Changes": 
+	[
+		{
+            "LogBubblegum": "Bubblegum Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_SlimeBubblegum",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Bubblegum.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"DumpsterDiveComment": "{{i18n:Bubblegum.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Bubblegum.Dialogue.HitBySlingshot}}",
+				"GreenRain": "{{i18n:Bubblegum.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Bubblegum.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Bubblegum.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Bubblegum.Dialogue.{{Random: 0, 35}}}}",
+				"Tue": "{{i18n:Bubblegum.Dialogue.{{Random: 0, 35}}}}",
+				"Wed": "{{i18n:Bubblegum.Dialogue.{{Random: 0, 35}}}}",
+				"Thu": "{{i18n:Bubblegum.Dialogue.{{Random: 0, 35}}}}",
+				"Fri": "{{i18n:Bubblegum.Dialogue.{{Random: 0, 35}}}}",
+				"Sat": "{{i18n:Bubblegum.Dialogue.{{Random: 0, 35}}}}",
+				"Sun": "{{i18n:Bubblegum.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
+				// Schedule dialogue
+				"{{ModID}}_Bubblegum.lostisland.000": "{{i18n:Bubblegum.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Bubblegum.lostisland.001": "{{i18n:Bubblegum.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Bubblegum.lostisland.002": "{{i18n:Bubblegum.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

@@ -1,0 +1,65 @@
+{
+    "Changes": 
+	[
+		{
+            "LogAnette": "Anette Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_LolitaAnette",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Anette.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:Anette.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:Anette.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:Anette.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:Anette.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:Anette.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:Anette.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:Anette.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:Anette.Dialogue.birthdayNeutralB}}",
+				"DumpsterDiveComment": "{{i18n:Anette.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Anette.Dialogue.HitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:Anette.Dialogue.RejectBouquetNotDatable}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:Anette.Dialogue.RejectMermaidPendantNotDatable}}",
+				"RejectItem_809": "{{i18n:Anette.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:Anette.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Anette.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Anette.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:Anette.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_ITEMAnette": "{{i18n:Anette.ITEMAnette}}",
+				
+				// 1ST OF SEASON DIALOGUE
+				"spring_1": "{{i18n:Anette.Dialogue.spring_1}}",
+				"summer_1": "{{i18n:Anette.Dialogue.summer_1}}",
+				"fall_1": "{{i18n:Anette.Dialogue.fall_1}}",
+				"winter_1": "{{i18n:Anette.Dialogue.winter_1}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Anette.Dialogue.{{Random: 0, 34}}}}",
+				"Tue": "{{i18n:Anette.Dialogue.{{Random: 0, 34}}}}",
+				"Wed": "{{i18n:Anette.Dialogue.{{Random: 0, 34}}}}",
+				"Thu": "{{i18n:Anette.Dialogue.{{Random: 0, 34}}}}",
+				"Fri": "{{i18n:Anette.Dialogue.{{Random: 0, 34}}}}",
+				"Sat": "{{i18n:Anette.Dialogue.{{Random: 0, 34}}}}",
+				"Sun": "{{i18n:Anette.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
+				// SPECIFIC DAY DIALOGUE
+				//Note : Will work only on first year due to the way the game checks for the dayOfMonth line. Use format season_dayOfMonth_2 for dialogue in year 2 and later. Ex "summer_10_2". You can only check for 1 (first year) or 2 (all years after). If you want a dialogue to appears on a specific year, consider using CP conditions in addition of the "_2" suffix
+				"spring_12_2": "{{i18n:Anette.Dialogue.spring_12_2}}", // Day before the Egg Festival
+				"spring_23_2": "{{i18n:Anette.Dialogue.spring_23_2}}", // Day before the Flower Dance
+				"summer_10_2": "{{i18n:Anette.Dialogue.summer_10_2}}", // Day before the Luau
+				"summer_27_2": "{{i18n:Anette.Dialogue.summer_27_2}}", // Day before the Midnight Jellies
+				"fall_15_2": "{{i18n:Anette.Dialogue.fall_15_2}}", // Day before the Stardew Fair
+				"fall_26_2": "{{i18n:Anette.Dialogue.fall_26_2}}", // Day before Spirit's Eve
+				"winter_7_2": "{{i18n:Anette.Dialogue.winter_7_2}}", // Day before the Ice Festival
+				"winter_24_2": "{{i18n:Anette.Dialogue.winter_24_2}}", // Day before Winter Star
+				
+				// Schedule dialogue
+				"{{ModID}}_Anette.lostisland.000": "{{i18n:Anette.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Anette.lostisland.001": "{{i18n:Anette.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Anette.lostisland.002": "{{i18n:Anette.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

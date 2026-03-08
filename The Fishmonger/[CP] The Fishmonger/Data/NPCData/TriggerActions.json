@@ -1,0 +1,112 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}_WelcomeToFishHell": {
+                    "Id": "{{ModID}}_WelcomeToFishHell",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_Introduction",
+                    "Action": "AddMail Current {{ModID}}_WelcomeToFishHell"
+				},
+				"{{ModID}}_MermaidsAreCoolOK": {
+                    "Id": "{{ModID}}_MermaidsAreCoolOK",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_2Hearts",
+                    "Action": "AddMail Current {{ModID}}_MermaidsAreCoolOK"
+				},
+				"{{ModID}}_TroubledMind": {
+                    "Id": "{{ModID}}_TroubledMind",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_4Hearts",
+                    "Action": "AddMail Current {{ModID}}_TroubledMind"
+				},
+				"{{ModID}}_BirdieIsHappy": {
+                    "Id": "{{ModID}}_BirdieIsHappy",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_CRAFTING_RECIPE current Fairy Dust",
+                    "Action": "AddMail Current {{ModID}}_BirdieIsHappy"
+				},
+				"{{ModID}}_CongratsBud": {
+                    "Id": "{{ModID}}_CongratsBud",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_MAIL Any CF_Fish",
+                    "Action": "AddMail Current {{ModID}}_CongratsBud"
+				},
+				"{{ModID}}_RecipesAndSeeds": {
+                    "Id": "{{ModID}}_RecipesAndSeeds",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                    "Action": "AddMail Current {{ModID}}_RecipesAndSeeds"
+				},
+				"{{ModID}}_FishmongerScarecrow": {
+                    "Id": "{{ModID}}_FishmongerScarecrow",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_FARMING_LEVEL Current 4, PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                    "Action": "AddMail Current {{ModID}}_FishmongerScarecrow"
+				},
+				"{{ModID}}_CoolerFishmongerScarecrow": {
+                    "Id": "{{ModID}}_CoolerFishmongerScarecrow",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS Current {{ModID}}_TheFishmonger 4",
+                    "Action": "AddMail Current {{ModID}}_CoolerFishmongerScarecrow"
+				},
+				"{{ModID}}_WarpTotem": {
+                    "Id": "{{ModID}}_WarpTotem",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_SeaDudeBarnabasIntro",
+                    "Action": "AddMail Current {{ModID}}_WarpTotem"
+				},
+				"{{ModID}}_PrismaticGemSeeds": {
+                    "Id": "{{ModID}}_PrismaticGemSeeds",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_SeaDudeBarnabas6Hearts",
+                    "Action": "AddMail Current {{ModID}}_PrismaticGemSeeds"
+				},
+				"{{ModID}}_FerretFurballTalk": {
+                    "Id": "{{ModID}}_FerretFurballTalk",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 6",
+                    "Action": "AddConversationTopic Current {{ModID}}_VWCConstance6HeartsEvent2"
+				},
+				"{{ModID}}_Barnabas14HeartsEventCT": {
+                    "Id": "{{ModID}}_Barnabas14HeartsEventCT",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_SeaDudeBarnabas10Hearts",
+                    "Action": "AddConversationTopic Current {{ModID}}_Barnabas14HeartsEventMention 10"
+				},
+				"{{ModID}}_ConstanceFlowerBouquetQuestCT": {
+                    "Id": "{{ModID}}_ConstanceFlowerBouquetQuestCT",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_MermaidCalliope8Hearts",
+                    "Action": "AddMail Current {{ModID}}_FlowerBouquetQuest"
+				},
+				"{{ModID}}_CFBQuestCompleteCT": {
+                    "Id": "{{ModID}}_CFBQuestCompleteCT",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_CONVERSATION_TOPIC Current questComplete_{{ModID}}_ConstanceFlowerBouquetQuest",
+                    "Action": "AddMail Current {{ModID}}_CFBQuestMailFlag received"
+				},
+				"{{ModID}}_BarnabasGemFeastQuestCT": {
+                    "Id": "{{ModID}}_BarnabasGemFeastQuestCT",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_SeaDudeBarnabas4Hearts, PLAYER_HAS_ITEM Any {{ModId}}_DeepseaDiamond",
+                    "Action": "AddQuest {{ModID}}_BarnabasGemFeastQuest"
+				},
+				"{{ModID}}_LibrarySOStartFlat": {
+                    "Id": "{{ModID}}_LibrarySOStartFlag",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_GamayunSpecialOrderStartEvent",
+                    "Action": "AddSpecialOrder {{ModId}}_GamayunLibrarySpecialOrder"
+				},
+				"{{ModID}}_LibrarySOFinishedFlag": {
+                    "Id": "{{ModID}}_LibrarySOFinishedFlag",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_SPECIAL_ORDER_COMPLETE Any {{ModID}}_GamayunLibrarySpecialOrder",
+                    "Action": "AddMail Current {{ModId}}_LibrarySOFinishedFlag"
+				},
+			}
+		}
+	]
+}

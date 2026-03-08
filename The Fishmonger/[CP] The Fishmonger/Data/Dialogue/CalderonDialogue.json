@@ -1,0 +1,53 @@
+{
+    "Changes": 
+	[
+		{
+            "LogCalderon": "Calderon Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_SternMermanCalderon",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Calderon.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:Calderon.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:Calderon.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:Calderon.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:Calderon.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:Calderon.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:Calderon.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:Calderon.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:Calderon.Dialogue.birthdayNeutralB}}",
+				"DumpsterDiveComment": "{{i18n:Calderon.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Calderon.Dialogue.HitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:Calderon.Dialogue.RejectBouquetNotDatable}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:Calderon.Dialogue.RejectMermaidPendantNotDatable}}",
+				"RejectItem_809": "{{i18n:Calderon.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:Calderon.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Calderon.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Calderon.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:Calderon.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Calderon.ITEM}}",
+				
+				// 1ST OF SEASON DIALOGUE
+				"spring_1": "{{i18n:Calderon.Dialogue.spring_1}}",
+				"summer_1": "{{i18n:Calderon.Dialogue.summer_1}}",
+				"fall_1": "{{i18n:Calderon.Dialogue.fall_1}}",
+				"winter_1": "{{i18n:Calderon.Dialogue.winter_1}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Calderon.Dialogue.{{Random: 0, 35}}}}",
+				"Tue": "{{i18n:Calderon.Dialogue.{{Random: 0, 35}}}}",
+				"Wed": "{{i18n:Calderon.Dialogue.{{Random: 0, 35}}}}",
+				"Thu": "{{i18n:Calderon.Dialogue.{{Random: 0, 35}}}}",
+				"Fri": "{{i18n:Calderon.Dialogue.{{Random: 0, 35}}}}",
+				"Sat": "{{i18n:Calderon.Dialogue.{{Random: 0, 35}}}}",
+				"Sun": "{{i18n:Calderon.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				// Schedule dialogue
+				"{{ModID}}_Calderon.lostisland.000": "{{i18n:Calderon.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Calderon.lostisland.001": "{{i18n:Calderon.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Calderon.lostisland.002": "{{i18n:Calderon.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

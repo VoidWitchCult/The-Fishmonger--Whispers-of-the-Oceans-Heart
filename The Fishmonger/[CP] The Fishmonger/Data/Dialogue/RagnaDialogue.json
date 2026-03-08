@@ -1,0 +1,48 @@
+{
+    "Changes": 
+	[
+		{
+            "LogRagna": "Ragna Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_RedHeadMermanRagna",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Ragna.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:Ragna.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:Ragna.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:Ragna.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:Ragna.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:Ragna.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:Ragna.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:Ragna.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:Ragna.Dialogue.birthdayNeutralB}}",
+				"DumpsterDiveComment": "{{i18n:Ragna.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Ragna.Dialogue.HitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:Ragna.Dialogue.RejectBouquetNotDatable}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:Ragna.Dialogue.RejectMermaidPendantNotDatable}}",
+				"RejectItem_809": "{{i18n:Ragna.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:Ragna.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Ragna.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Ragna.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:Ragna.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Ragna.ITEM}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Ragna.Dialogue.{{Random: 0, 20}}}}",
+				"Tue": "{{i18n:Ragna.Dialogue.{{Random: 0, 20}}}}",
+				"Wed": "{{i18n:Ragna.Dialogue.{{Random: 0, 20}}}}",
+				"Thu": "{{i18n:Ragna.Dialogue.{{Random: 0, 20}}}}",
+				"Fri": "{{i18n:Ragna.Dialogue.{{Random: 0, 20}}}}",
+				"Sat": "{{i18n:Ragna.Dialogue.{{Random: 0, 20}}}}",
+				"Sun": "{{i18n:Ragna.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
+				// Schedule dialogue
+				"{{ModID}}_Ragna.lostisland.000": "{{i18n:Ragna.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Ragna.lostisland.001": "{{i18n:Ragna.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Ragna.lostisland.002": "{{i18n:Ragna.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

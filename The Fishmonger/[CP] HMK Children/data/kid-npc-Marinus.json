@@ -1,0 +1,59 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "mushymato.HaveMoreKids/Kids",
+      "Fields": {
+        "{{ModId}}_{{B@Kid}}": {
+          "IsNPCTodayCondition": "!IS_FESTIVAL_DAY,!DAY_OF_WEEK Tuesday,!DAY_OF_WEEK Thursday,!DAY_OF_WEEK Friday,!DAY_OF_WEEK Sunday",
+		  // guarentees that Marinus will be born after Muirenn
+          "Condition": "mushymato.HaveMoreKids_HAS_CHILD {{ModId}}_Muirenn"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.HaveMoreKids/ChildData",
+      "Fields": {
+        "{{ModId}}_{{B@Kid}}": {
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "BusStop",
+              "Tile": {
+                "X": "{{HomeTileX}}",
+                "Y": "{{HomeTileY}}"
+              },
+              "Direction": "down"
+            }
+          ],
+        },
+      }
+    },
+    {
+      // load blank.json
+      "Action": "Load",
+      "Target": "Characters/schedules/{{ModId}}_{{B@Kid}}",
+      "FromFile": "data/blank.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_Marinus",
+      "Entries": {
+        // give the child a schedule
+        "spring": "0700 Town 20 14 0/1010 Town 7 65 2/1730 Town 0 0 HMK_Home",
+        "summer": "0700 Beach 55 23 2/1010 Beach 10 39 2/1410 Beach 30 20 2/1600 Beach 39 16 2 square_4_4/1730 Beach 0 0 HMK_Home",
+        "DesertFestival": "0800 Desert 10 24 0/1200 Desert 40 16 1/1730 Desert 0 0 HMK_Home"
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        // You can give the child some gift tastes, they also follow normal format
+        "{{ModId}}_Marinus": "{{i18n:{{B@Kid}}.Toddler.Gift.Loved}}/444 -2 123 203 279 -15 397 848 852/{{i18n:{{B@Kid}}.Toddler.Gift.Liked}}/393 413 721 797/{{i18n:{{B@Kid}}.Toddler.Gift.Dislike}}//{{i18n:{{B@Kid}}.Toddler.Gift.Hated}}/alcohol_item/{{i18n:{{B@Kid}}.Toddler.Gift.Neutral}}//",
+      }
+    },
+  ]
+}

@@ -1,0 +1,48 @@
+{
+    "Changes": 
+	[
+		{
+            "LogMoss": "Moss Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_MermanKidMoss",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Moss.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:Moss.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:Moss.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:Moss.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:Moss.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:Moss.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:Moss.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:Moss.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:Moss.Dialogue.birthdayNeutralB}}",
+				"DumpsterDiveComment": "{{i18n:Moss.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Moss.Dialogue.HitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:Moss.Dialogue.RejectBouquetNotDatable}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:Moss.Dialogue.RejectMermaidPendantNotDatable}}",
+				"RejectItem_809": "{{i18n:Moss.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:Moss.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Moss.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Moss.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:Moss.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Moss.ITEM}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Moss.Dialogue.{{Random: 0, 35}}}}",
+				"Tue": "{{i18n:Moss.Dialogue.{{Random: 0, 35}}}}",
+				"Wed": "{{i18n:Moss.Dialogue.{{Random: 0, 35}}}}",
+				"Thu": "{{i18n:Moss.Dialogue.{{Random: 0, 35}}}}",
+				"Fri": "{{i18n:Moss.Dialogue.{{Random: 0, 35}}}}",
+				"Sat": "{{i18n:Moss.Dialogue.{{Random: 0, 35}}}}",
+				"Sun": "{{i18n:Moss.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
+				// Schedule dialogue
+				"{{ModID}}_Moss.lostisland.000": "{{i18n:Moss.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Moss.lostisland.001": "{{i18n:Moss.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Moss.lostisland.002": "{{i18n:Moss.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

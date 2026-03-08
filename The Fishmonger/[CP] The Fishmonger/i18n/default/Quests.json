@@ -1,0 +1,15 @@
+{
+	//==============================================================================================
+	//==== Q U E S T ===============================================================================
+	//==============================================================================================
+	
+	"Quest.CFBQuestName": "A bouquet for a special someone",
+	"Quest.CFBQuestDescription": "Constance wants you to collect flowers and craft a specific type of bouquet that she can give to her beloved.",
+	"Quest.CFBQuestTask": "Deliver a special flower bouquet to Constance.",
+	"Quest.CFBQuestDialogue": "Oh? You really made a flower bouquet?#$b#Thank you, @. You're helping me out a lot!$1",
+	
+	"Quest.BGFQuestName": "In need of gems!",
+	"Quest.BGFQuestDescription": "Seems like there was some sorta torn paper slipped in-between your notes...Barnabas would like some Deepsea Diamonds to satisfy his hun-...err, for a special project! :D",
+	"Quest.BGFQuestTask": "Deliver 10 Deepsea Diamonds from the island to Barnabas.",
+	"Quest.BGFQuestDialogue": "Gasp! You really got me these?$1#$b#Thank you so much, @, I really owe you one!",
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "mushymato.HaveMoreKids/Kids",
+      "Fields": {
+        "{{ModId}}_{{C@Kid}}": {
+          "IsNPCTodayCondition": "!IS_FESTIVAL_DAY,!DAY_OF_WEEK Tuesday,!DAY_OF_WEEK Thursday,!DAY_OF_WEEK Friday,!DAY_OF_WEEK Sunday",
+		  // guarentees that Marinus will be born after Muirenn
+          "Condition": "mushymato.HaveMoreKids_HAS_CHILD {{ModId}}_Guinevere"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.HaveMoreKids/ChildData",
+      "Fields": {
+        "{{ModId}}_{{C@Kid}}": {
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "BusStop",
+              "Tile": {
+                "X": "{{HomeTileX}}",
+                "Y": "{{HomeTileY}}"
+              },
+              "Direction": "down"
+            }
+          ],
+        },
+      }
+    },
+    {
+      // load blank.json
+      "Action": "Load",
+      "Target": "Characters/schedules/{{ModId}}_{{C@Kid}}",
+      "FromFile": "data/blank.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_Caspian",
+      "Entries": {
+        // give the child a schedule
+        "spring": "0700 Town 80 58 2/1100 Town 67 100 2/1300 Beach 23 15 0 square_4_4/1730 Beach 0 0 HMK_Home",
+        "summer": "0700 Beach 23 15 0 square_4_4/1200 Beach 56 16 1/1500 Town 32 78 1/1730 Town 0 0 HMK_Home",
+        "DesertFestival": "0800 Desert 11 25 0/1200 Desert 41 17 1/1730 Desert 0 0 HMK_Home"
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        // You can give the child some gift tastes, they also follow normal format
+        "{{ModId}}_Caspian": "{{i18n:{{C@Kid}}.Toddler.Gift.Loved}}/769 768 795/{{i18n:{{C@Kid}}.Toddler.Gift.Liked}}/808 814 851/{{i18n:{{C@Kid}}.Toddler.Gift.Dislike}}//{{i18n:{{C@Kid}}.Toddler.Gift.Hated}}/alcohol_item/{{i18n:{{C@Kid}}.Toddler.Gift.Neutral}}//",
+      }
+    },
+  ]
+}

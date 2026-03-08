@@ -1,0 +1,41 @@
+{
+    "Changes": 
+	[
+		{
+            "LogSirin": "Sirin Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_Sirin",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Sirin.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"DumpsterDiveComment": "{{i18n:Sirin.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Sirin.Dialogue.HitBySlingshot}}",
+				"GreenRain": "{{i18n:Sirin.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Sirin.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Sirin.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				
+				// 1ST OF SEASON DIALOGUE
+				"spring_1": "{{i18n:Sirin.Dialogue.spring_1}}",
+				"summer_1": "{{i18n:Sirin.Dialogue.summer_1}}",
+				"fall_1": "{{i18n:Sirin.Dialogue.fall_1}}",
+				"winter_1": "{{i18n:Sirin.Dialogue.winter_1}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Sirin.Dialogue.{{Random: 0, 35}}}}",
+				"Tue": "{{i18n:Sirin.Dialogue.{{Random: 0, 35}}}}",
+				"Wed": "{{i18n:Sirin.Dialogue.{{Random: 0, 35}}}}",
+				"Thu": "{{i18n:Sirin.Dialogue.{{Random: 0, 35}}}}",
+				"Fri": "{{i18n:Sirin.Dialogue.{{Random: 0, 35}}}}",
+				"Sat": "{{i18n:Sirin.Dialogue.{{Random: 0, 35}}}}",
+				"Sun": "{{i18n:Sirin.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
+				// Schedule dialogue
+				"{{ModID}}_Sirin.lostisland.000": "{{i18n:Sirin.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Sirin.lostisland.001": "{{i18n:Sirin.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Sirin.lostisland.002": "{{i18n:Sirin.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

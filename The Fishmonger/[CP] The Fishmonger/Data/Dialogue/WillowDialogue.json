@@ -1,0 +1,65 @@
+{
+    "Changes": 
+	[
+		{
+            "LogWillow": "Willow Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_ShopkeepWillow",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Willow.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:Willow.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:Willow.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:Willow.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:Willow.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:Willow.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:Willow.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:Willow.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:Willow.Dialogue.birthdayNeutralB}}",
+				"DumpsterDiveComment": "{{i18n:Willow.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Willow.Dialogue.HitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:Willow.Dialogue.RejectBouquetNotDatable}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:Willow.Dialogue.RejectMermaidPendantNotDatable}}",
+				"RejectItem_809": "{{i18n:Willow.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:Willow.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Willow.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Willow.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:Willow.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_ITEMWillow": "{{i18n:Willow.ITEMWillow}}",
+				
+				// 1ST OF SEASON DIALOGUE
+				"spring_1": "{{i18n:Willow.Dialogue.spring_1}}",
+				"summer_1": "{{i18n:Willow.Dialogue.summer_1}}",
+				"fall_1": "{{i18n:Willow.Dialogue.fall_1}}",
+				"winter_1": "{{i18n:Willow.Dialogue.winter_1}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Willow.Dialogue.{{Random: 0, 35}}}}",
+				"Tue": "{{i18n:Willow.Dialogue.{{Random: 0, 35}}}}",
+				"Wed": "{{i18n:Willow.Dialogue.{{Random: 0, 35}}}}",
+				"Thu": "{{i18n:Willow.Dialogue.{{Random: 0, 35}}}}",
+				"Fri": "{{i18n:Willow.Dialogue.{{Random: 0, 35}}}}",
+				"Sat": "{{i18n:Willow.Dialogue.{{Random: 0, 35}}}}",
+				"Sun": "{{i18n:Willow.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
+				// SPECIFIC DAY DIALOGUE
+				//Note : Will work only on first year due to the way the game checks for the dayOfMonth line. Use format season_dayOfMonth_2 for dialogue in year 2 and later. Ex "summer_10_2". You can only check for 1 (first year) or 2 (all years after). If you want a dialogue to appears on a specific year, consider using CP conditions in addition of the "_2" suffix
+				"spring_12_2": "{{i18n:Willow.Dialogue.spring_12_2}}", // Day before the Egg Festival
+				"spring_23_2": "{{i18n:Willow.Dialogue.spring_23_2}}", // Day before the Flower Dance
+				"summer_10_2": "{{i18n:Willow.Dialogue.summer_10_2}}", // Day before the Luau
+				"summer_27_2": "{{i18n:Willow.Dialogue.summer_27_2}}", // Day before the Midnight Jellies
+				"fall_15_2": "{{i18n:Willow.Dialogue.fall_15_2}}", // Day before the Stardew Fair
+				"fall_26_2": "{{i18n:Willow.Dialogue.fall_26_2}}", // Day before Spirit's Eve
+				"winter_7_2": "{{i18n:Willow.Dialogue.winter_7_2}}", // Day before the Ice Festival
+				"winter_24_2": "{{i18n:Willow.Dialogue.winter_24_2}}", // Day before Winter Star
+			
+				// Schedule dialogue
+				"{{ModID}}_Willow.lostisland.000": "{{i18n:Willow.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Willow.lostisland.001": "{{i18n:Willow.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Willow.lostisland.002": "{{i18n:Willow.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

@@ -1,0 +1,49 @@
+{
+    "Changes": 
+	[
+		{
+            "LogCecilia": "Cecilia Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_BraidedMermaidCecilia",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Cecilia.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:Cecilia.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:Cecilia.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:Cecilia.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:Cecilia.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:Cecilia.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:Cecilia.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:Cecilia.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:Cecilia.Dialogue.birthdayNeutralB}}",
+				"DumpsterDiveComment": "{{i18n:Cecilia.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Cecilia.Dialogue.HitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:Cecilia.Dialogue.RejectBouquetNotDatable}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:Cecilia.Dialogue.RejectMermaidPendantNotDatable}}",
+				"RejectItem_809": "{{i18n:Cecilia.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:Cecilia.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Cecilia.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Cecilia.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:Cecilia.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Cecilia.ITEM}}",
+				
+			
+				//HEARTS DIALOGUE
+				"Mon": "{{i18n:Cecilia.Dialogue.{{Random: 0, 20}}}}",
+				"Tue": "{{i18n:Cecilia.Dialogue.{{Random: 0, 20}}}}",
+				"Wed": "{{i18n:Cecilia.Dialogue.{{Random: 0, 20}}}}",
+				"Thu": "{{i18n:Cecilia.Dialogue.{{Random: 0, 20}}}}",
+				"Fri": "{{i18n:Cecilia.Dialogue.{{Random: 0,205}}}}",
+				"Sat": "{{i18n:Cecilia.Dialogue.{{Random: 0, 20}}}}",
+				"Sun": "{{i18n:Cecilia.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
+				// Schedule dialogue
+				"{{ModID}}_Cecilia.lostisland.000": "{{i18n:Cecilia.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Cecilia.lostisland.001": "{{i18n:Cecilia.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Cecilia.lostisland.002": "{{i18n:Cecilia.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

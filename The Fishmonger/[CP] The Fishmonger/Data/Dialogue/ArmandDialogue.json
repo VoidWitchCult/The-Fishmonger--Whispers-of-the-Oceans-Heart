@@ -1,0 +1,35 @@
+{
+    "Changes": 
+	[
+		{
+            "LogArmand": "Armand Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_CoolDadArmand",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Armand.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"DumpsterDiveComment": "{{i18n:Armand.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Armand.Dialogue.HitBySlingshot}}",
+				"GreenRain": "{{i18n:Armand.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Armand.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Armand.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				
+				// DIALOGUE
+				"Mon": "{{i18n:Armand.Dialogue.{{Random: 0, 17}}}}",
+				"Tue": "{{i18n:Armand.Dialogue.{{Random: 0, 17}}}}",
+				"Wed": "{{i18n:Armand.Dialogue.{{Random: 0, 17}}}}",
+				"Thu": "{{i18n:Armand.Dialogue.{{Random: 0, 17}}}}",
+				"Fri": "{{i18n:Armand.Dialogue.{{Random: 0, 17}}}}",
+				"Sat": "{{i18n:Armand.Dialogue.{{Random: 0, 17}}}}",
+				"Sun": "{{i18n:Armand.Dialogue.Sun.{{Random: 0, 2}}}}", 
+				
+				// Schedule dialogue
+				"{{ModID}}_Armand.lostisland.000": "{{i18n:Armand.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Armand.lostisland.001": "{{i18n:Armand.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Armand.lostisland.002": "{{i18n:Armand.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

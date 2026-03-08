@@ -1,0 +1,41 @@
+{
+    "Changes": 
+	[
+		{
+            "LogLadyMidday": "LadyMidday Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_LadyMidday",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:LadyMidday.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"DumpsterDiveComment": "{{i18n:LadyMidday.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:LadyMidday.Dialogue.HitBySlingshot}}",
+				"GreenRain": "{{i18n:LadyMidday.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:LadyMidday.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:LadyMidday.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				
+				// 1ST OF SEASON DIALOGUE
+				"spring_1": "{{i18n:LadyMidday.Dialogue.spring_1}}",
+				"summer_1": "{{i18n:LadyMidday.Dialogue.summer_1}}",
+				"fall_1": "{{i18n:LadyMidday.Dialogue.fall_1}}",
+				"winter_1": "{{i18n:LadyMidday.Dialogue.winter_1}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:LadyMidday.Dialogue.{{Random: 0, 20}}}}",
+				"Tue": "{{i18n:LadyMidday.Dialogue.{{Random: 0, 20}}}}",
+				"Wed": "{{i18n:LadyMidday.Dialogue.{{Random: 0, 20}}}}",
+				"Thu": "{{i18n:LadyMidday.Dialogue.{{Random: 0, 20}}}}",
+				"Fri": "{{i18n:LadyMidday.Dialogue.{{Random: 0, 20}}}}",
+				"Sat": "{{i18n:LadyMidday.Dialogue.{{Random: 0, 20}}}}",
+				"Sun": "{{i18n:LadyMidday.Dialogue.{{Random: 0, 20}}}}", 
+				
+				// Schedule dialogue
+				"{{ModID}}_LadyMidday.lostisland.000": "{{i18n:LadyMidday.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_LadyMidday.lostisland.001": "{{i18n:LadyMidday.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_LadyMidday.lostisland.002": "{{i18n:LadyMidday.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

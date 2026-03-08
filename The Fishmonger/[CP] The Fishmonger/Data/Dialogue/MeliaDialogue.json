@@ -1,0 +1,48 @@
+{
+    "Changes": 
+	[
+		{
+            "LogMelia": "Melia Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_GanguroMermaidMelia",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Melia.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:Melia.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:Melia.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:Melia.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:Melia.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:Melia.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:Melia.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:Melia.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:Melia.Dialogue.birthdayNeutralB}}",
+				"DumpsterDiveComment": "{{i18n:Melia.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Melia.Dialogue.HitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:Melia.Dialogue.RejectBouquetNotDatable}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:Melia.Dialogue.RejectMermaidPendantNotDatable}}",
+				"RejectItem_809": "{{i18n:Melia.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:Melia.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Melia.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Melia.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:Melia.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Melia.ITEM}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Melia.Dialogue.{{Random: 0, 20}}}}",
+				"Tue": "{{i18n:Melia.Dialogue.{{Random: 0, 20}}}}",
+				"Wed": "{{i18n:Melia.Dialogue.{{Random: 0, 20}}}}",
+				"Thu": "{{i18n:Melia.Dialogue.{{Random: 0, 20}}}}",
+				"Fri": "{{i18n:Melia.Dialogue.{{Random: 0, 20}}}}",
+				"Sat": "{{i18n:Melia.Dialogue.{{Random: 0, 20}}}}",
+				"Sun": "{{i18n:Melia.Dialogue.Sun.{{Random: 0, 5}}}}",
+				
+				// Schedule dialogue
+				"{{ModID}}_Melia.lostisland.000": "{{i18n:Melia.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Melia.lostisland.001": "{{i18n:Melia.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Melia.lostisland.002": "{{i18n:Melia.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

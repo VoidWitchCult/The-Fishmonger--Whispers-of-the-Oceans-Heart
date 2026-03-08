@@ -1,0 +1,28 @@
+{
+	//==============================================================================================
+	//==== S P E C I A L  O R D E R S ==============================================================
+	//==============================================================================================
+	
+	"SpecialOrder.GamayunLibrary.Objective.Name": "Peculiar artifacts",
+	"SpecialOrder.Gamayun.Objective.Text": "One has told the tales of the island before...one would kindly request for found artifacts to be brought to the library so the inhabitants can learn about the past. You shall be rewarded accordingly.",
+	"SpecialOrder.Gamayun.Objective1": "Donate Old Looted Coins to the library.",
+	"SpecialOrder.Gamayun.Objective2": "Donate Clotted Ichor to the library.",
+	"SpecialOrder.Gamayun.Objective3": "Donate Shark Tooth Necklace to the library.",
+	"SpecialOrder.Gamayun.Objective4": "Donate Broken Arrowhead to the library.",
+	"SpecialOrder.Gamayun.Objective5": "Donate Prismatic Pearl to the library.",
+	"SpecialOrder.Gamayun.Objective6": "Donate Ocean Star Fragment to the library.",
+	"SpecialOrder.Gamayun.Objective7": "Donate Viscous Matter to the library.",
+	"SpecialOrder.Gamayun.Objective8": "Donate Grotesque Mask to the library.",
+	"SpecialOrder.Gamayun.Objective9": "Donate Overgrown Chalice to the library.",
+	"SpecialOrder.Gamayun.Objective10": "Donate Mystic Bracelet to the library.",
+	"SpecialOrder.Gamayun.Objective11": "Donate Rusty Hook to the library.",
+	"SpecialOrder.Gamayun.Objective12": "Donate Pearlescent Shield to the library.",
+	"SpecialOrder.Gamayun.Objective13": "Donate Flower Specimen to the library.",
+	"SpecialOrder.Gamayun.Objective14": "Donate Chewed Scrapmetal to the library.",
+	"SpecialOrder.Gamayun.Objective15": "Donate Frost Apple to the library.",
+	"SpecialOrder.Gamayun.Objective16": "Donate Chipped Broadsword to the library.",
+	"SpecialOrder.Gamayun.Objective17": "Donate Gilded Branch to the library.",
+	"SpecialOrder.Gamayun.Objective18": "Donate Tinted Lens to the library.",
+	"SpecialOrder.Gamayun.Objective19": "Donate Phlegm to the library.",
+	"SpecialOrder.Gamayun.Objective20": "Donate Ancient Frost Wand to the library.",
+}

@@ -1,0 +1,54 @@
+{
+    "Changes": 
+	[
+		{
+            "LogLoaf": "Loaf Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_ShadowPersonLoaf",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Loaf.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"AcceptBirthdayGift_LoveA": "{{i18n:Loaf.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:Loaf.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:Loaf.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:Loaf.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:Loaf.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:Loaf.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:Loaf.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:Loaf.Dialogue.birthdayNeutralB}}",
+				"DumpsterDiveComment": "{{i18n:Loaf.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Loaf.Dialogue.HitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:Loaf.Dialogue.RejectBouquetNotDatable}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:Loaf.Dialogue.RejectMermaidPendantNotDatable}}",
+				"RejectItem_809": "{{i18n:Loaf.Dialogue.RejectMovieTicket}}",
+				"GreenRain": "{{i18n:Loaf.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Loaf.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Loaf.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptGift_(O)StardropTea": "{{i18n:Loaf.Dialogue.StardropTea}}",
+				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Loaf.ITEM}}",
+				
+				// 1ST OF SEASON DIALOGUE
+				"spring_1": "{{i18n:Loaf.Dialogue.spring_1}}",
+				"summer_1": "{{i18n:Loaf.Dialogue.summer_1}}",
+				"fall_1": "{{i18n:Loaf.Dialogue.fall_1}}",
+				"winter_1": "{{i18n:Loaf.Dialogue.winter_1}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Loaf.Dialogue.{{Random: 0, 35}}}}",
+				"Tue": "{{i18n:Loaf.Dialogue.{{Random: 0, 35}}}}",
+				"Wed": "{{i18n:Loaf.Dialogue.{{Random: 0, 35}}}}",
+				"Thu": "{{i18n:Loaf.Dialogue.{{Random: 0, 35}}}}",
+				"Fri": "{{i18n:Loaf.Dialogue.{{Random: 0, 35}}}}",
+				"Sat": "{{i18n:Loaf.Dialogue.{{Random: 0, 35}}}}",
+				"Sun": "{{i18n:Loaf.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
+				// Schedule dialogue
+				"{{ModID}}_Loaf.lostisland.000": "{{i18n:Loaf.Schedule.Dialogue.lostisland.000}}",
+				"{{ModID}}_Loaf.lostisland.001": "{{i18n:Loaf.Schedule.Dialogue.lostisland.001}}",
+				"{{ModID}}_Loaf.lostisland.002": "{{i18n:Loaf.Schedule.Dialogue.lostisland.002}}",
+			}
+		},
+	]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "mushymato.HaveMoreKids/Kids",
+      "Fields": {
+        "{{ModId}}_{{C@Kid}}": {
+          "IsNPCTodayCondition": "!IS_FESTIVAL_DAY,!DAY_OF_WEEK Monday,!DAY_OF_WEEK Wednesday,!DAY_OF_WEEK Saturday",
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.HaveMoreKids/ChildData",
+      "Fields": {
+        "{{ModId}}_{{C@Kid}}": {
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "BusStop",
+              "Tile": {
+                "X": "{{HomeTileX}}",
+                "Y": "{{HomeTileY}}"
+              },
+              "Direction": "down"
+            }
+          ],
+        },
+      }
+    },
+    {
+      // load blank.json
+      "Action": "Load",
+      "Target": "Characters/schedules/{{ModId}}_{{C@Kid}}",
+      "FromFile": "data/blank.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_Guinevere",
+      "Entries": {
+        // give the child a schedule
+        "spring": "0700 Town 26 29 3/900 Town 54 71 0/1100 Town 78 95 2/1400 Town 48 101 2/1600 Town 9 63 2/1730 Town 0 0 HMK_Home",
+        "summer": "0700 Town 28 15 2 square_4_4/1100 Town 69 33 2/1400 Mountain 35 9 1/1600 Mountain 27 24 2 square_5_3/1730 Mountain 0 0 HMK_Home",
+        "DesertFestival": "0800 Desert 12 24 0/1200 Desert 42 16 1/1730 Desert 0 0 HMK_Home"
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        // You can give the child some gift tastes, they also follow normal format
+        "{{ModId}}_Guinevere": "{{i18n:{{C@Kid}}.Toddler.Gift.Loved}}/444 103 126 127 106/{{i18n:{{C@Kid}}.Toddler.Gift.Liked}}/394 565 578 683/{{i18n:{{C@Kid}}.Toddler.Gift.Dislike}}//{{i18n:{{C@Kid}}.Toddler.Gift.Hated}}/alcohol_item/{{i18n:{{C@Kid}}.Toddler.Gift.Neutral}}//",
+      }
+    },
+  ]
+}
