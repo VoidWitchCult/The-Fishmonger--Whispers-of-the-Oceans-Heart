@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="18" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="38">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="18" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="38">
  <properties>
   <property name="Light" value="2 1 4 15 1 4 4 9 4 4 10 4 9 7 4 16 9 4"/>
   <property name="LocationContext" value="Island"/>
@@ -27,9 +27,34 @@
     <frame tileid="109" duration="110"/>
    </animation>
   </tile>
+  <tile id="1411">
+   <animation>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1443" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+    <frame tileid="1411" duration="300"/>
+   </animation>
+  </tile>
  </tileset>
- <tileset firstgid="1729" name="fishmonger_lostisland_outside" tilewidth="16" tileheight="16" tilecount="2528" columns="32">
-  <image source=".VWCF_LostIsland_Outside.png" width="512" height="1264"/>
+ <tileset firstgid="1729" name="fishmonger_lostisland_outside" tilewidth="16" tileheight="16" tilecount="2848" columns="32">
+  <image source=".VWCF_LostIsland_Outside.png" width="512" height="1424"/>
   <tile id="26">
    <animation>
     <frame tileid="26" duration="400"/>
