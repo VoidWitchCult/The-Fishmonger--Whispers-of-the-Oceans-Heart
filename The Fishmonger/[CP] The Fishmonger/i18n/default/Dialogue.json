@@ -1088,9 +1088,9 @@
 	"Anette.Dialogue.winter_24_2": "Already feeling the festive spirit?#$b#Willow, Esme and I decided on a big gift giving session this year! I even got Esme to show me some dance moves.",
 	
 	// SCHEDULE DIALOGUE
-	"Anette.Schedule.Dialogue.lostisland.000": "WORD",
-	"Anette.Schedule.Dialogue.lostisland.001": "WORD",
-	"Anette.Schedule.Dialogue.lostisland.002": "WORD",
+	"Anette.Schedule.Dialogue.lostisland.000": "Isn't the island nice? I enjoy sitting out here often because of the beautiful weather.#$b#Even the rain is soft and gentle, hehe.",
+	"Anette.Schedule.Dialogue.lostisland.001": "Looking for some reading spot? The library has a lot of seats, just pick any you like.",
+	"Anette.Schedule.Dialogue.lostisland.002": "What a nice day, hehe! I've been scribbling down a lot of new ideas, so I am taking the time to relax and chat with the others.",
 	
 	//==============================================================================================
 	//=== Willow ==================================================================================
@@ -1183,9 +1183,9 @@
 	"Willow.Dialogue.winter_24_2": "Ah, the time of gift giving...a very busy time for me to ship out things and make more money.#$b#Oh, and of course be ready to have gifts to give as well.",
 	
 	// SCHEDULE DIALOGUE
-	"Willow.Schedule.Dialogue.lostisland.000": "WORD",
-	"Willow.Schedule.Dialogue.lostisland.001": "WORD",
-	"Willow.Schedule.Dialogue.lostisland.002": "WORD",
+	"Willow.Schedule.Dialogue.lostisland.000": "Making sure the stock is in perfect condition is very important.#$b#Especially when you have fresh produce and generally anything that has a short shelf life.#$b#How can I pride myself in being a great merchant if I am sloppy with my work?",
+	"Willow.Schedule.Dialogue.lostisland.001": "Nice weather to take a stroll, eh?#$b#Oh, me? I am just checking in on everyone if things are going well or if they need something.#$b#It's important to not jsut keep customers happy but your employees and fellow merchants as well.",
+	"Willow.Schedule.Dialogue.lostisland.002": "Mhm, scrumptious! The others always know how to make the good stuff!",
 	
 	//==============================================================================================
 	//=== Ragna ====================================================================================
@@ -1249,9 +1249,9 @@
 	"Ragna.Dialogue.Sun.5": "I am confident of my progress for today so I have no bad concience about taking a break.",
 	
 	// SCHEDULE DIALOGUE
-	"Ragna.Schedule.Dialogue.lostisland.000": "WORD",
-	"Ragna.Schedule.Dialogue.lostisland.001": "WORD",
-	"Ragna.Schedule.Dialogue.lostisland.002": "WORD",
+	"Ragna.Schedule.Dialogue.lostisland.000": "Hmmm...what will I do today?#$b#There's so many things to study...hm, maybe today I will check how the plants are doing? Or maybe the fish? The minerals? Ohhh, I can't wait! $1",
+	"Ragna.Schedule.Dialogue.lostisland.001": "Hello there! Wanna study the ecosystem in this pond with me?#$b#It's always exciting to get to know more about your surroundings, don't you think?",
+	"Ragna.Schedule.Dialogue.lostisland.002": "The flora growing here in abundance is wonderful. At my home there's similiar plants and such and I am mapping out the differences and what is shared! $1",
 	
 	//==============================================================================================
 	//=== Godwyn ===================================================================================
@@ -1315,8 +1315,8 @@
 	"Godwyn.Dialogue.Sun.5": "Morvenna outdid herself again. All the food she makes for the hangout is such a delight.$4#$b#I just hope she is not overworking herself though.",
 	
 	// SCHEDULE DIALOGUE
-	"Godwyn.Schedule.Dialogue.lostisland.000": "WORD",
-	"Godwyn.Schedule.Dialogue.lostisland.001": "WORD",
+	"Godwyn.Schedule.Dialogue.lostisland.000": "Hm, where's Calderon?#$b#Oh, he is out and about again, isn't he? Oh, my boy...when will you learn it is fine to take your time?",
+	"Godwyn.Schedule.Dialogue.lostisland.001": "What a great time!#$b#I got to eat some quite nice food. Seems like things are going well for everyone too. $1",
 	"Godwyn.Schedule.Dialogue.lostisland.002": "WORD",
 	
 	//==============================================================================================
@@ -1381,8 +1381,8 @@
 	"Melia.Dialogue.Sun.5": "I slept in so hard today...oppsie. Well, good thing it's just a sunday.$3",
 	
 	// SCHEDULE DIALOGUE
-	"Melia.Schedule.Dialogue.lostisland.000": "WORD",
-	"Melia.Schedule.Dialogue.lostisland.001": "WORD",
+	"Melia.Schedule.Dialogue.lostisland.000": "My Mom's cooking is the best! $1#$b#She always knows what I want to eat which is amazing, don't you think?",
+	"Melia.Schedule.Dialogue.lostisland.001": "...sometimes I wonder if I should leave this island.#$b#There is so much to see in this world and I want to expereince something new. But...#$b#...I don't want Mom to feel lonely. $2",
 	"Melia.Schedule.Dialogue.lostisland.002": "WORD",
 	
 	//==============================================================================================
@@ -1452,8 +1452,8 @@
 	"Esme.Dialogue.Sun.5": "Oh, I already took a peek at what Morvenna is preparing for the hangout, hehe!#$b#It's looking scrumptious!$1",
 	
 	// SCHEDULE DIALOGUE
-	"Esme.Schedule.Dialogue.lostisland.000": "WORD",
-	"Esme.Schedule.Dialogue.lostisland.001": "WORD",
+	"Esme.Schedule.Dialogue.lostisland.000": "%Esme is busy practicing her dancing routine. Better not disturb her right now.",
+	"Esme.Schedule.Dialogue.lostisland.001": "You think there's any reason to this chaos in the world? $4#$b#Hm? Oh...nothing.$4",
 	"Esme.Schedule.Dialogue.lostisland.002": "WORD",
 	
 	//==============================================================================================
@@ -1518,9 +1518,9 @@
 	"Cecilia.Dialogue.Sun.5": "Barnabas' roast is really good! I love eating it with some deepsea fern salad.$1",
 	
 	// SCHEDULE DIALOGUE
-	"Cecilia.Schedule.Dialogue.lostisland.000": "WORD",
-	"Cecilia.Schedule.Dialogue.lostisland.001": "WORD",
-	"Cecilia.Schedule.Dialogue.lostisland.002": "WORD",
+	"Cecilia.Schedule.Dialogue.lostisland.000": "Hi there, @!#$b#I'm just making sure everything is going well here, can't let Barnabas do all the work alone afterall. $1",
+	"Cecilia.Schedule.Dialogue.lostisland.001": "Haha, today I heard something pretty funny. $1#$b#Oh, don't mind me. Hey, have you tried Barnabas' roast yet?",
+	"Cecilia.Schedule.Dialogue.lostisland.002": "...sigh.$1#$b#Sorry, @. I want to be alone right now...$1",
 	
 	//==============================================================================================
 	//=== Morvenna =================================================================================
@@ -1605,9 +1605,9 @@
 	"Morvenna.Dialogue.Sun.5": "Oh, I am looking forward to the hangout. Hemlock said he and Barnabas already prepared everything.#$b#I was a bit worried, yet I was able to sleep a few more hnhours than usual.$1",
 	
 	// SCHEDULE DIALOGUE
-	"Morvenna.Schedule.Dialogue.lostisland.000": "WORD",
-	"Morvenna.Schedule.Dialogue.lostisland.001": "WORD",
-	"Morvenna.Schedule.Dialogue.lostisland.002": "WORD",
+	"Morvenna.Schedule.Dialogue.lostisland.000": "%Morvenna seems pretty busy...maybe come back later.",
+	"Morvenna.Schedule.Dialogue.lostisland.001": "...hm? Oh, @.#$b#Sorry, we're just having something to eat right now, do you want something?",
+	"Morvenna.Schedule.Dialogue.lostisland.002": "Siiiiiigh...$2#$b#...well, despite Hemlock accidentally tripping while carrying the food over everything is fine.#$b#Luckily for us Barnabas was already there and caught it all...well...partly with his face but...still.$1",
 	
 	//==============================================================================================
 	//=== Hemlock ==================================================================================
@@ -1692,9 +1692,10 @@
 	"Hemlock.Dialogue.Sun.5": "The wind is catching up, I am sure it wants to tell us something...who knows.#$b#This kinda vague stuff is more up Gamayuns alley.",
 	
 	// SCHEDULE DIALOGUE
-	"Hemlock.Schedule.Dialogue.lostisland.000": "WORD",
-	"Hemlock.Schedule.Dialogue.lostisland.001": "WORD",
-	"Hemlock.Schedule.Dialogue.lostisland.002": "WORD",
+	"Hemlock.Schedule.Dialogue.lostisland.000": "WHAFf FWYu WFant? I'm EAtign, FOrry.$6",
+	"Hemlock.Schedule.Dialogue.lostisland.001": "I am-! Hrmpf-!$3#$b#No...it's not like I WANTED to help him or something...$2",
+	"Hemlock.Schedule.Dialogue.lostisland.002": "..I-I am sure he will notice me some time...right?$2",
+	"Hemlock.Schedule.Dialogue.lostisland.003": "...and then I fought a really huge squid, can you believe that?$1#$b#Oh! Hey, @! Well, anyway! Barnabas, I tell you!#$b#There's stuff going on down there, I say!",
 	
 	//==============================================================================================
 	//=== Moss =====================================================================================
@@ -1773,9 +1774,9 @@
 	"Moss.Dialogue.Sun.5": "%Moss sticks his tongue out at you.#$b#Bet you can't catch me, your big boots are foll of mud.",
 	
 	// SCHEDULE DIALOGUE
-	"Moss.Schedule.Dialogue.lostisland.000": "WORD",
-	"Moss.Schedule.Dialogue.lostisland.001": "WORD",
-	"Moss.Schedule.Dialogue.lostisland.002": "WORD",
+	"Moss.Schedule.Dialogue.lostisland.000": "....#$b#....#$b#........can't you see that I am reading?",
+	"Moss.Schedule.Dialogue.lostisland.001": "...hm. The grown-ups always talk about things they tell me I don't understand yet.#$b#...when will they understand that leaving me out on things makes me feel weird too?",
+	"Moss.Schedule.Dialogue.lostisland.002": "It's alright today. Everyone's busy chatting so I can do what I want, hehe!",
 	
 	//==============================================================================================
 	//=== Calderon =================================================================================
@@ -1860,8 +1861,8 @@
 	"Calderon.Dialogue.Sun.5": "If I could just....hm...%noturn#$b#%Calderon looks flustered in some way, notz noticing you.%noturn",
 	
 	// SCHEDULE DIALOGUE
-	"Calderon.Schedule.Dialogue.lostisland.000": "WORD",
-	"Calderon.Schedule.Dialogue.lostisland.001": "WORD",
+	"Calderon.Schedule.Dialogue.lostisland.000": "Hush!$2#$b#L-leave me alone...I uh...I...I-I can talk to them if I want to, okay?!$4",
+	"Calderon.Schedule.Dialogue.lostisland.001": "%Calderon isn't noticing you. He is too busy trying to not be too nervous while talking to Loaf.",
 	"Calderon.Schedule.Dialogue.lostisland.002": "WORD",
 	
 	//==============================================================================================
@@ -1947,8 +1948,8 @@
 	"Amalthea.Dialogue.Sun.5": "You think it would be a good time for a little nap?",
 	
 	// SCHEDULE DIALOGUE
-	"Amalthea.Schedule.Dialogue.lostisland.000": "WORD",
-	"Amalthea.Schedule.Dialogue.lostisland.001": "WORD",
+	"Amalthea.Schedule.Dialogue.lostisland.000": "Heh, look at her go.#$b#It fills my heart with joy when I see her happy like this.$1",
+	"Amalthea.Schedule.Dialogue.lostisland.001": "Cecilia came to me earlier and told me about something funny-..oh?#$b#Hey, @! What a nice day we have, right?",
 	"Amalthea.Schedule.Dialogue.lostisland.002": "WORD",
 	
 	//==============================================================================================
@@ -2034,8 +2035,8 @@
 	"Loaf.Dialogue.Sun.5": "I woke up several times during the night....man, I hope I don't sleep in too hard next time.#$b#It's enough to sleep bad one single night to jsut go and mess up your sleep schedule...",
 	
 	// SCHEDULE DIALOGUE
-	"Loaf.Schedule.Dialogue.lostisland.000": "WORD",
-	"Loaf.Schedule.Dialogue.lostisland.001": "WORD",
+	"Loaf.Schedule.Dialogue.lostisland.000": "%Loaf fidgets around as they try to talk about something cool with Calderon.",
+	"Loaf.Schedule.Dialogue.lostisland.001": "Hm...do you know of any pick-up lines?#$b#Oh! Um! ...$2#$b#Well...I heard from the others you need to say something cool to impress your crush, so...$2",
 	"Loaf.Schedule.Dialogue.lostisland.002": "WORD",
 	
 	//==============================================================================================

@@ -16,8 +16,8 @@
 			1200 {{ModID}}_LostIsland 83 31 0  \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.002\/
 			1300 {{ModID}}_LostIsland_PointMelodia 35 44 2 {{ModID}}_PirateLadCaitrionaOFlannagain_depressed/
 			1600 {{ModID}}_LostIsland_PointMelodia 32 29 2 {{ModID}}_PirateLadCaitrionaOFlannagain_sitting2/
-			1730 {{ModID}}_LostIsland_PointMelodia 22 4 2/
-			1830 {{ModID}}_LostIsland_EnchantedForest 39 52 2/
+			1830 {{ModID}}_LostIsland_PointMelodia 22 4 2/
+			1930 {{ModID}}_LostIsland_EnchantedForest 39 52 2/
 			2200 {{ModID}}_LostIsland_PirateLadHome 12 12 0/
 			2400 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_sleep/
 			",
@@ -32,7 +32,7 @@
 			1130 {{ModID}}_LostIsland_PointMelodia 35 44 2 {{ModID}}_PirateLadCaitrionaOFlannagain_depressed/
 			1400 {{ModID}}_LostIsland_PointMelodia 32 29 2/
 			1530 {{ModID}}_LostIsland_PointMelodia 22 4 2 {{ModID}}_PirateLadCaitrionaOFlannagain_sitting2/
-			1700 {{ModID}}_LostIsland_EnchantedForest 109 86 1/
+			1900 {{ModID}}_LostIsland_EnchantedForest 109 86 1/
 			2200 {{ModID}}_LostIsland_PirateLadHome 12 12 0/
 			2400 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_sleep/
 			",
@@ -80,7 +80,7 @@
 			1200 {{ModID}}_LostIsland_PirateLadHome 10 5 1 \"Characters\\Dialogue\\{{ModID}}_PirateLadCaitrionaOFlannagain:{{ModID}}_caitriona.lostisland.001\/
 			1430 {{ModID}}_LostIsland_PirateLadHome 13 12 0/
 			1600 {{ModID}}_LostIsland_PirateLadHome 9 16 0/
-			1800 {{ModID}}_LostIsland_PirateLadHome	7 11 2 {{ModID}}_PirateLadCaitrionaOFlannagain_drinking/
+			1800 {{ModID}}_LostIsland_PirateLadHome 7 11 2 {{ModID}}_PirateLadCaitrionaOFlannagain_drinking/
 			2200 {{ModID}}_LostIsland_PirateLadHome 12 12 0/
 			2400 {{ModID}}_LostIsland_PirateLadHome 2 5 1 {{ModID}}_PirateLadCaitrionaOFlannagain_sleep/
 			",
@@ -92,7 +92,7 @@
             "Target": "Characters/schedules/{{ModID}}_PirateLadCaitrionaOFlannagain",
             "Entries": {
                 "marriage": "800 Beach 48 24 2 {{ModID}}_PirateLadCaitrionaOFlannagain_drinking/1100 Beach 40 36 2 {{ModID}}_PirateLadCaitrionaOFlannagain_sitting2/1400 Beach 11 27 3/1600 Town 43 90 3/1800 Town 30 56 2/1900 bed",
-				"marriage_Mon": "900 SeedShop 13 27 1/1100 SeedShop 2 20 3/1200 Blacksmith 4 15 0/1400 Town 79 87 2/1630 41 24 2/1900 bed",
+				"marriage_Mon": "900 SeedShop 13 27 1/1100 SeedShop 2 20 3/1200 Blacksmith 4 15 0/1400 Town 79 87 2/1630 Town 41 24 2/1900 bed",
                 "marriage_Tue": "GOTO marriage",
 				"marriage_Wed": "1000 Mountain 58 35 1/1300 Mountain 61 12 2 {{ModID}}_PirateLadCaitrionaOFlannagain_sitting2/1630 Town 26 29 0/1800 Town 29 26 3/1900 bed",
                 "marriage_Thu": "GOTO marriage",

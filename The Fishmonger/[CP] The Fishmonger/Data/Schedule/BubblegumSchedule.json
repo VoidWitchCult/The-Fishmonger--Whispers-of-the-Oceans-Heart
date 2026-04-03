@@ -6,13 +6,23 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_SlimeBubblegum",
             "Entries": {
-			//???  
 			"spring": "
-			610 {{ModID}}_LostIsland 43 24 2/
+			610 {{ModID}}_LostIsland_RoyalMermanHome 14 8 2/
+			630 {{ModID}}_LostIsland_RoyalMermanHome 13 9 2 square_3_3_2/
+			1000 {{ModID}}_LostIsland_RoyalMermanHome 7 9 2 square_4_5_0/
+			1200 {{ModID}}_LostIsland_NorthernCliffs 42 42 2 square_8_8_2/
+			1400 {{ModID}}_LostIsland_RoyalMermanHome 21 9 2 square_4_5_0/
+			1800 {{ModID}}_LostIsland_RoyalMermanHome 19 22 2 square_5_6_2/
+			2000 {{ModID}}_LostIsland_RoyalMermanHome 13 8 2 square_3_3_0/
 			",
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
+			"Sun": "
+			610 {{ModID}}_LostIsland_RoyalMermanHome 14 8 2/
+			630 {{ModID}}_LostIsland_RoyalMermanHome 13 9 2 square_3_3_2/
+			900 {{ModID}}_LostIsland_NorthernCliffs 60 21 2 square_7_7_2/
+			1800 {{ModID}}_LostIsland_RoyalMermanHome 19 22 2 square_5_6_2/
+			2000 {{ModID}}_LostIsland_RoyalMermanHome 13 8 2 square_3_3_0/
+			",
 			"rain": "GOTO spring",
 			}
 		}

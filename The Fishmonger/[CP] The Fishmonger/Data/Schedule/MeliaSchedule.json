@@ -5,14 +5,35 @@
             "LogName": "Melia schedule",
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_GanguroMermaidMelia",
-            "Entries": {
-			//???  
+            "Entries": { 
 			"spring": "
-			610 {{ModID}}_LostIsland 40 22 2/
+			610 {{ModID}}_LostIsland_GanguroHome 3 15 2/
+			930 {{ModID}}_LostIsland_GanguroHome 3 23 2 {{ModID}}_GanguroMermaidMelia_sitting \"Characters\\Dialogue\\{{ModID}}_GanguroMermaidMelia:{{ModID}}_Melia.lostisland.000\"/
+			1130 {{ModID}}_LostIsland 18 35 2/
+			1600 {{ModID}}_LostIsland 78 40 0/
+			1800 {{ModID}}_LostIsland_Orchard 39 30 0/
+			2000 {{ModID}}_LostIsland_Orchard 29 44 3/
+			2200 {{ModID}}_LostIsland_GanguroHome 3 23 2/
+			2430 {{ModID}}_LostIsland_GanguroHome 3 15 2/
 			",
+			"Tue": "
+			610 {{ModID}}_LostIsland_GanguroHome 3 15 2/
+			930 {{ModID}}_LostIsland_GanguroHome 3 23 2 {{ModID}}_GanguroMermaidMelia_sitting \"Characters\\Dialogue\\{{ModID}}_GanguroMermaidMelia:{{ModID}}_Melia.lostisland.000\"/
+			1100 {{ModID}}_LostIsland_PointMelodia 32 29 1 \"Characters\\Dialogue\\{{ModID}}_GanguroMermaidMelia:{{ModID}}_Melia.lostisland.001\"/
+			1600 {{ModID}}_LostIsland_EnchantedForest 94 59 2/
+			2200 {{ModID}}_LostIsland_GanguroHome 3 23 2/
+			2430 {{ModID}}_LostIsland_GanguroHome 3 15 2/
+			",
+			"Fri": "GOTO Tue",
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
+			"Sun": "
+			610 {{ModID}}_LostIsland_GanguroHome 3 15 2/
+			930 {{ModID}}_LostIsland_GanguroHome 3 23 2 {{ModID}}_GanguroMermaidMelia_sitting \"Characters\\Dialogue\\{{ModID}}_GanguroMermaidMelia:{{ModID}}_Melia.lostisland.000\"/
+			1030 {{ModID}}_LostIsland_NorthernCliffs 43 18 3/
+			2000 {{ModID}}_LostIsland_Orchard 29 44 3/
+			2200 {{ModID}}_LostIsland_GanguroHome 3 23 2/
+			2430 {{ModID}}_LostIsland_GanguroHome 3 15 2/
+			",
 			"rain": "GOTO spring",
 			}
 		}

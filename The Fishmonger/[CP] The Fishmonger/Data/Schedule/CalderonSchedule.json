@@ -6,13 +6,43 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_SternMermanCalderon",
             "Entries": {
-			//???  
 			"spring": "
-			610 {{ModID}}_LostIsland 39 26 2/
+			610 {{ModID}}_LostIsland_RoyalMermanHome 4 7 2/
+			700 {{ModID}}_LostIsland_RoyalMermanHome 8 7 0/
+			900 {{ModID}}_LostIsland_RoyalMermanHome 11 16 0 square_4_1_0/
+			1100 {{ModID}}_LostIsland_RoyalMermanHome 14 24 3/
+			a1600 {{ModID}}_LostIsland_PointMelodia 10 19 2 {{ModID}}_SternMermanCalderon_pining \"Characters\\Dialogue\\{{ModID}}_SternMermanCalderon:Calderon.Schedule.Dialogue.lostisland.000\"/
+			1730 {{ModID}}_LostIsland_EnchantedForest 65 37 2 square_5_5_2/
+			2200 {{ModID}}_LostIsland_RoyalMermanHome 10 16 0 square_4_1_0/
+			2500 {{ModID}}_LostIsland_RoyalMermanHome 4 7 2 {{ModID}}_SternMermanCalderon_sleep/
 			",
+			"Mon": "
+			610 {{ModID}}_LostIsland_RoyalMermanHome 4 7 2/
+			700 {{ModID}}_LostIsland_RoyalMermanHome 8 7 0/
+			900 {{ModID}}_LostIsland_RoyalMermanHome 11 16 0 square_4_1_0/
+			1000 {{ModID}}_LostIsland_NorthernCliffs 15 17 2/
+			1600 {{ModID}}_LostIsland_NorthernCliffs 43 10 0/
+			2200 {{ModID}}_LostIsland_RoyalMermanHome 10 16 0 square_4_1_0/
+			2500 {{ModID}}_LostIsland_RoyalMermanHome 4 7 2 {{ModID}}_SternMermanCalderon_sleep/
+			",
+			"Fri": "
+			610 {{ModID}}_LostIsland_RoyalMermanHome 4 7 2/
+			700 {{ModID}}_LostIsland_RoyalMermanHome 8 7 0/
+			900 {{ModID}}_LostIsland_RoyalMermanHome 11 16 0 square_4_1_0/
+			1400 {{ModID}}_LostIsland_EnchantedForest 76 83 3/
+			1830 {{ModID}}_LostIsland_RoyalMermanHome 10 16 0 square_4_1_0/
+			2500 {{ModID}}_LostIsland_RoyalMermanHome 4 7 2 {{ModID}}_SternMermanCalderon_sleep/
+			",
+			
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
+			"Sun": "
+			610 {{ModID}}_LostIsland_RoyalMermanHome 4 7 2/
+			700 {{ModID}}_LostIsland_RoyalMermanHome 8 7 0/
+			900 {{ModID}}_LostIsland_RoyalMermanHome 11 16 0 square_4_1_0/
+			930 {{ModID}}_LostIsland_NorthernCliffs 43 10 0 \"Characters\\Dialogue\\{{ModID}}_SternMermanCalderon:Calderon.Schedule.Dialogue.lostisland.001\"/
+			2200 {{ModID}}_LostIsland_RoyalMermanHome 10 16 0 square_4_1_0/
+			2500 {{ModID}}_LostIsland_RoyalMermanHome 4 7 2 {{ModID}}_SternMermanCalderon_sleep/
+			",
 			"rain": "GOTO spring",
 			}
 		}

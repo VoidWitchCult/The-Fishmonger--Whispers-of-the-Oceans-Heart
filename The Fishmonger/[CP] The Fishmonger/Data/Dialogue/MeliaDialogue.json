@@ -39,9 +39,9 @@
 				"Sun": "{{i18n:Melia.Dialogue.Sun.{{Random: 0, 5}}}}",
 				
 				// Schedule dialogue
-				"{{ModID}}_Melia.lostisland.000": "{{i18n:Melia.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Melia.lostisland.001": "{{i18n:Melia.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Melia.lostisland.002": "{{i18n:Melia.Schedule.Dialogue.lostisland.002}}",
+				"Melia.Schedule.Dialogue.lostisland.000": "{{i18n:Melia.Schedule.Dialogue.lostisland.000}}",
+				"Melia.Schedule.Dialogue.lostisland.001": "{{i18n:Melia.Schedule.Dialogue.lostisland.001}}",
+				"Melia.Schedule.Dialogue.lostisland.002": "{{i18n:Melia.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

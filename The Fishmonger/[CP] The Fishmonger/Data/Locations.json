@@ -1075,7 +1075,7 @@
 						"X": 7,
 						"Y": 31
 					},
-					"ExcludeFromNpcPathfinding": false,
+					"ExcludeFromNpcPathfinding": true,
 					"CanHaveGreenRainSpawns": false,
 					"ArtifactSpots": [
 						{

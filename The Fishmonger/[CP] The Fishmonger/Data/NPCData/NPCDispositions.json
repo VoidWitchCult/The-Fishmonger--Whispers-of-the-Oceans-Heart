@@ -573,7 +573,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_LolitaHome",
 							"Tile": {
-								"X": 4,
+								"X": 3,
 								"Y": 17
 							},
 							"Direction": "down"
@@ -633,7 +633,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_LolitaHome",
 							"Tile": {
-								"X": 24,
+								"X": 23,
 								"Y": 5
 							},
 							"Direction": "down"
@@ -697,7 +697,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_LolitaHome",
 							"Tile": {
-								"X": 1,
+								"X": 2,
 								"Y": 5
 							},
 							"Direction": "down"
@@ -760,7 +760,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_GanguroHome",
 							"Tile": {
-								"X": 4,
+								"X": 3,
 								"Y": 15
 							},
 							"Direction": "down"
@@ -819,7 +819,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_GanguroHome",
 							"Tile": {
-								"X": 18,
+								"X": 19,
 								"Y": 10
 							},
 							"Direction": "down"
@@ -884,7 +884,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_AnglerGuyHome",
 							"Tile": {
-								"X": 18,
+								"X": 19,
 								"Y": 6
 							},
 							"Direction": "down"
@@ -944,7 +944,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_AnglerGuyHome",
 							"Tile": {
-								"X": 15,
+								"X": 14,
 								"Y": 6
 							},
 							"Direction": "down"
@@ -954,7 +954,7 @@
 						"X": 16,
 						"Y": 32
 					},
-					"Breather": true,
+					"Breather": false,
 					"KissSpriteFacingRight": false,
 					"Appearance": [
 						{
@@ -1004,7 +1004,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_AnglerGuyHome",
 							"Tile": {
-								"X": 17,
+								"X": 20,
 								"Y": 6
 							},
 							"Direction": "down"
@@ -1060,7 +1060,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_TentHome",
 							"Tile": {
-								"X": 3,
+								"X": 1,
 								"Y": 5
 							},
 							"Direction": "down"
@@ -1120,7 +1120,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_RoyalMermanHome",
 							"Tile": {
-								"X": 25,
+								"X": 26,
 								"Y": 5
 							},
 							"Direction": "down"
@@ -1185,7 +1185,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_RoyalMermanHome",
 							"Tile": {
-								"X": 29,
+								"X": 28,
 								"Y": 5
 							},
 							"Direction": "down"
@@ -1246,7 +1246,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_RoyalMermanHome",
 							"Tile": {
-								"X": 2,
+								"X": 4,
 								"Y": 7
 							},
 							"Direction": "down"
@@ -1306,7 +1306,7 @@
 							"Location": "{{ModId}}_LostIsland_ShadowHome",
 							"Tile": {
 								"X": 2,
-								"Y": 6
+								"Y": 7
 							},
 							"Direction": "down"
 						}
@@ -1315,7 +1315,7 @@
 						"X": 16,
 						"Y": 32
 					},
-					"Breather": true,
+					"Breather": false,
 					"KissSpriteFacingRight": false,
 					"Appearance": [
 						{
@@ -1363,10 +1363,10 @@
 					"Home": [
 						{
 							"Id": "Default",
-							"Location": "{{ModId}}_LostIsland_EnchantedForest",
+							"Location": "{{ModId}}_LostIsland_WarpRoom",
 							"Tile": {
-								"X": 35,
-								"Y": 35
+								"X": 6,
+								"Y": 5
 							},
 							"Direction": "down"
 						}
@@ -1425,7 +1425,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_BirdHome",
 							"Tile": {
-								"X": 17,
+								"X": 16,
 								"Y": 5
 							},
 							"Direction": "down"
@@ -1485,7 +1485,7 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_BirdHome",
 							"Tile": {
-								"X": 14,
+								"X": 12,
 								"Y": 5
 							},
 							"Direction": "down"
@@ -1556,7 +1556,7 @@
 						"X": 16,
 						"Y": 32
 					},
-					"Breather": true,
+					"Breather": false,
 					"KissSpriteFacingRight": false,
 					"Appearance": [
 						{
@@ -1609,8 +1609,8 @@
 							"Id": "Default",
 							"Location": "{{ModId}}_LostIsland_WarpRoom",
 							"Tile": {
-								"X": 4,
-								"Y": 6
+								"X": 2,
+								"Y": 5
 							},
 							"Direction": "down"
 						}
@@ -1701,7 +1701,53 @@
 				"{{ModID}}_SeaDudeBarnabas_laying": "21/21/21",
 				"{{ModID}}_LibrarianGamayun_magic": "16/16 17 17 18 18 19 19/16",
 				"{{ModID}}_LibrarianGamayun_sorting": "20/20 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 30 30 31 31/31//offset 22 0",
-				
+				"{{ModID}}_Alkonost_sleep": "16/16/16",
+				"{{ModID}}_Alkonost_cooking": "17/17 17 17 17 18 18 18 17/17//laying_down/offset 0 -36",
+				"{{ModID}}_Alkonost_sitting_side": "19/19/19",
+				"{{ModID}}_Alkonost_sitting_front": "20/20 20 20 20 20 21 21 21 20 20 20 20/20",
+				"{{ModID}}_Alkonost_dishes": "22 23/22 23/22 23//laying_down/offset 0 -36",
+				"{{ModID}}_Sirin_sleep": "20/20/20",
+				"{{ModID}}_Sirin_raise": "16/16 16 16 17 17 17 17 18/18",
+				"{{ModID}}_Sirin_sitting_back": "21/21/21",
+				"{{ModID}}_Sirin_sitting_side": "22/22/22",
+				"{{ModID}}_SternMermanCalderon_sleep": "18/18/18",
+				"{{ModID}}_SternMermanCalderon_sitting": "17/17/17",
+				"{{ModID}}_SternMermanCalderon_sitting2": "16/16/16",
+				"{{ModID}}_SternMermanCalderon_pining": "20/20 20 20 21 21 21 22 22 21 21 20 20 20 20/20",
+				"{{ModID}}_RoyalMermanGodwyn_sleep": "16/16/16",
+				"{{ModID}}_RoyalMermanGodwyn_sitting": "17/17/17",
+				"{{ModID}}_RoyalMermanGodwyn_drinking": "20 20 20 20 20/21 21 21 21 21 21 22 22 22 22 22 22 21 21 21 21 22/20",
+				"{{ModID}}_BraidedMermaidCecilia_sleep": "17/17/17",
+				"{{ModID}}_RedHeadMermanRagna_sleep": "16/16/16",
+				"{{ModID}}_RedHeadMermanRagna_sitting": "17/17/17",
+				"{{ModID}}_ShopkeepWillow_sleep": "16/16/16",
+				"{{ModID}}_LolitaAnette_sleep": "16/16/16",
+				"{{ModID}}_LolitaAnette_sitting": "21/21/21",
+				"{{ModID}}_LolitaAnette_sitting2": "22/22/22",
+				"{{ModID}}_LolitaAnette_sipping": "17/17 17 17 18 18 18 18 19 19 19 19 20 20 20 18 18 18 17 17/17",
+				"{{ModID}}_MermaidDancerEsme_sleep": "35/35/35",
+				"{{ModID}}_MermaidDancerEsme_kneeling": "16/16 16 16 16 16 17 17 17 18 18 18 17 17 16 16 16 16 16/16",
+				"{{ModID}}_MermaidDancerEsme_dancing": "24/24 24 24 24 24 24 25 25 25 26 26 26 25 25 25 26 26 26/25",
+				"{{ModID}}_MermaidDancerEsme_dancing2": "27/27 27 27 28 28 28 29 29 29 28 28 28 27 27 1 1 1 1 30 30 30 31 31 31 30 30 30 1 1 1/1",
+				"{{ModID}}_GanguroMermaidMelia_sleep": "19/19/19",
+				"{{ModID}}_GanguroMermaidMelia_sitting": "16/16/16",
+				"{{ModID}}_MermaidMomAmalthea_sleep": "19/19/19",
+				"{{ModID}}_MermaidMomAmalthea_sitting_side": "20/20/20",
+				"{{ModID}}_MermaidMomAmalthea_drinking": "16 16 16 16 16/17 17 17 17 17 17 18 18 18 18 18 18 17 17 17 17 18/16",
+				"{{ModID}}_AnglerfishGuyHemlock_sleep": "18/18/18",
+				"{{ModID}}_AnglerfishGuyHemlock_kneeling": "16/16 16 16 16 26 26 26 17 17 17 17 17 17 17 17 17 26 26 26 16 16 16 16/16",
+				"{{ModID}}_AnglerfishGuyHemlock_sitting": "19/19/19",
+				"{{ModID}}_AnglerfishGuyHemlock_sitting2": "23/23/23",
+				"{{ModID}}_AnglerfishGuyHemlock_sitting_back": "24/24/24",
+				"{{ModID}}_AnglerfishGuyHemlock_sitting_side": "25/25/25",
+				"{{ModID}}_AnglerfishGuyHemlock_drinking": "20 20 20 20 20/21 21 21 21 21 21 22 22 22 22 22 22 21 21 21 21 22/20",
+				"{{ModID}}_MermanKidMoss_sleep": "18/18/18",
+				"{{ModID}}_MermanKidMoss_reading": "16/16/16",
+				"{{ModID}}_MermanKidMoss_sitting": "16/16/16",
+				"{{ModID}}_SelkieMomMorvenna_sleep": "18/18/18",
+				"{{ModID}}_SelkieMomMorvenna_dishes": "24 25/24 25/24 25//laying_down/offset -5 -40",
+				"{{ModID}}_SelkieMomMorvenna_cooking": "26 26 26 27 27 27/26 26 26 27 27 27/26 26 26 27 27 27//laying_down/offset -5 -40",
+				"{{ModID}}_SelkieMomMorvenna_sitting_side": "23/23/23",
 			}
 		},
 		//==============================================================================================

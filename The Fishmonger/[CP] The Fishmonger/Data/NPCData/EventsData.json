@@ -2833,5 +2833,5 @@ Emotes:
 56- music note
 60- blush
 
-quickQuestion #{{i18n:Event.EVENTNAME.QQ1}}#{{i18n:Event.EVENTNAME.QQ2}}(break)speak {{ModID}}_QUESTIONASKERNPCANSWERS \"{{i18n:Event.EVENTNAME.QReply}}\"(break)speak {{ModID}}_QUESTIONASKERNPCANSWERS \"{{i18n:Event.EVENTNAME.QReply2}}\"/
+quickQuestion QUESTIONHEADER #{{i18n:Event.EVENTNAME.QQ1}}#{{i18n:Event.EVENTNAME.QQ2}}(break)speak {{ModID}}_NPCID \"{{i18n:Event.EVENTNAME.QReply}}\"(break)speak {{ModID}}_NPCID \"{{i18n:Event.EVENTNAME.QReply2}}\"/
 */

@@ -6,14 +6,68 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_Alkonost",
             "Entries": {
-			//???  
 			"spring": "
-			610 {{ModID}}_LostIsland 41 24 2/
+			610 {{ModID}}_LostIsland_BirdHome 7 13 0/
+			630 {{ModID}}_LostIsland_BirdHome 3 13 0/
+			710 {{ModID}}_LostIsland_BirdHome 5 13 0 {{ModID}}_Alkonost_cooking/
+			800 {{ModID}}_LostIsland_BirdHome 6 19 3 {{ModID}}_Alkonost_sitting_side/
+			1000 {{ModID}}_LostIsland_EnchantedForest 27 14 0/
+			1400 {{ModID}}_LostIsland_EnchantedForest 46 67 0/
+			1600 {{ModID}}_LostIsland 23 38 2 {{ModID}}_Alkonost_sitting_front/
+			2000 {{ModID}}_LostIsland 77 40 0/
+			2100 {{ModID}}_LostIsland_EnchantedForest 41 12 2/
+			2200 {{ModID}}_LostIsland_BirdHome 20 14 0/
+			2400 {{ModID}}_LostIsland_BirdHome 15 5 0 {{ModID}}_Alkonost_sleep/
+			",
+			"Tue": "
+			610 {{ModID}}_LostIsland_BirdHome 7 13 0/
+			630 {{ModID}}_LostIsland_BirdHome 3 13 0/
+			710 {{ModID}}_LostIsland_BirdHome 5 13 0 {{ModID}}_Alkonost_cooking/
+			800 {{ModID}}_LostIsland_BirdHome 6 19 3 {{ModID}}_Alkonost_sitting_side/
+			900 {{ModID}}_LostIsland_Library 38 22 0 square_6_1_0/
+			1200 {{ModID}}_LostIsland_Library 23 27 0 square_6_1_0/
+			1500 {{ModID}}_LostIsland_Library 12 47 0 {{ModID}}_Alkonost_sitting_side/
+			1800 {{ModID}}_LostIsland_BirdHome 7 13 0/
+			1830 {{ModID}}_LostIsland_BirdHome 5 13 0/
+			2000 {{ModID}}_LostIsland_BirdHome 6 13 0 {{ModID}}_Alkonost_dishes/
+			2100 {{ModID}}_LostIsland_EnchantedForest 41 12 2/
+			2200 {{ModID}}_LostIsland_BirdHome 20 14 0/ 
+			2400 {{ModID}}_LostIsland_BirdHome 15 5 0 {{ModID}}_Alkonost_sleep/
+			",	
+			"Thu": "
+			610 {{ModID}}_LostIsland_BirdHome 7 13 0/
+			630 {{ModID}}_LostIsland_BirdHome 3 13 0/
+			710 {{ModID}}_LostIsland_BirdHome 5 13 0 {{ModID}}_Alkonost_cooking/
+			800 {{ModID}}_LostIsland_BirdHome 6 19 3 {{ModID}}_Alkonost_sitting_side/
+			1000 {{ModID}}_LostIsland_Orchard 36 38 2/
+			1200 {{ModID}}_LostIsland_Orchard 23 30 0/
+			1530 {{ModID}}_LostIsland_Orchard 59 15 0 square_5_5_0/
+			1700 {{ModID}}_LostIsland 77 40 0/
+			1900 {{ModID}}_LostIsland 76 31 0 square_10_5_2/
+			2100 {{ModID}}_LostIsland_EnchantedForest 41 12 2/
+			2200 {{ModID}}_LostIsland_BirdHome 20 14 0/ 
+			2400 {{ModID}}_LostIsland_BirdHome 15 5 0 {{ModID}}_Alkonost_sleep/
 			",
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
-			"rain": "GOTO spring",
+			"Sun": "
+			610 {{ModID}}_LostIsland_BirdHome 7 13 0/
+			630 {{ModID}}_LostIsland_BirdHome 3 13 0/
+			710 {{ModID}}_LostIsland_BirdHome 5 13 0 {{ModID}}_Alkonost_cooking/
+			800 {{ModID}}_LostIsland_BirdHome 6 19 3 {{ModID}}_Alkonost_sitting_side/
+			900 {{ModID}}_LostIsland_NorthernCliffs 54 11 2/
+			2100 {{ModID}}_LostIsland_EnchantedForest 41 12 2/
+			2200 {{ModID}}_LostIsland_BirdHome 20 14 0/
+			2400 {{ModID}}_LostIsland_BirdHome 15 5 0 {{ModID}}_Alkonost_sleep/
+			",
+			"rain": "
+			610 {{ModID}}_LostIsland_BirdHome 7 13 0/
+			630 {{ModID}}_LostIsland_BirdHome 3 13 0/
+			710 {{ModID}}_LostIsland_BirdHome 5 13 0 {{ModID}}_Alkonost_cooking/
+			800 {{ModID}}_LostIsland_BirdHome 4 18 2/
+			1000 {{ModID}}_LostIsland_BirdHome 25 16 2 {{ModID}}_Alkonost_sitting_front/
+			2200 {{ModID}}_LostIsland_BirdHome 20 14 0/
+			2400 {{ModID}}_LostIsland_BirdHome 15 5 0 {{ModID}}_Alkonost_sleep/
+			",
 			}
 		}
 	]

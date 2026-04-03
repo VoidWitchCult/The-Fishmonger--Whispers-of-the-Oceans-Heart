@@ -5,15 +5,40 @@
             "LogName": "Godwyn schedule",
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_RoyalMermanGodwyn",
-            "Entries": {
-			//???  
+            "Entries": { 
 			"spring": "
-			610 {{ModID}}_LostIsland 37 24 2/
+			610 {{ModID}}_LostIsland_RoyalMermanHome 26 5 2/
+			800 {{ModID}}_LostIsland_RoyalMermanHome 34 5 0/
+			1000 {{ModID}}_LostIsland_RoyalMermanHome 34 16 2 {{ModID}}_RoyalMermanGodwyn_sitting \"Characters\\Dialogue\\{{ModID}}_RoyalMermanGodwyn:{{ModID}}_Godwyn.lostisland.000\"/
+			1400 {{ModID}}_LostIsland_NorthernCliffs 66 18 2 {{ModID}}_RoyalMermanGodwyn_sitting/
+			1800 {{ModID}}_LostIsland_NorthernCliffs 24 8 0 square_3_0_2/
+			2000 {{ModID}}_LostIsland_RoyalMermanHome 34 5 0/
+			2200 {{ModID}}_LostIsland_RoyalMermanHome 26 5 2 {{ModID}}_RoyalMermanGodwyn_sleep/ 
+			",
+			"Tue": "
+			610 {{ModID}}_LostIsland_RoyalMermanHome 26 5 2/
+			800 {{ModID}}_LostIsland_RoyalMermanHome 34 5 0/
+			1000 {{ModID}}_LostIsland_RoyalMermanHome 34 16 2 {{ModID}}_RoyalMermanGodwyn_sitting \"Characters\\Dialogue\\{{ModID}}_RoyalMermanGodwyn:{{ModID}}_Godwyn.lostisland.000\"/
+			1200 {{ModID}}_LostIsland_Library 43 32 0 square_8_0_0/
+			1600 {{ModID}}_LostIsland_Library 40 36 2 {{ModID}}_RoyalMermanGodwyn_sitting/
+			2000 {{ModID}}_LostIsland_RoyalMermanHome 34 5 0/
+			2200 {{ModID}}_LostIsland_RoyalMermanHome 26 5 2 {{ModID}}_RoyalMermanGodwyn_sleep/ 
 			",
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
-			"rain": "GOTO spring",
+			"Sun": "
+			610 {{ModID}}_LostIsland_RoyalMermanHome 26 5 2/
+			800 {{ModID}}_LostIsland_RoyalMermanHome 34 5 0/
+			830 {{ModID}}_LostIsland_NorthernCliffs 57 13 2 {{ModID}}_RoyalMermanGodwyn_drinking \"Characters\\Dialogue\\{{ModID}}_RoyalMermanGodwyn:{{ModID}}_Godwyn.lostisland.001\"/
+			2000 {{ModID}}_LostIsland_RoyalMermanHome 34 5 0/
+			2200 {{ModID}}_LostIsland_RoyalMermanHome 26 5 2 {{ModID}}_RoyalMermanGodwyn_sleep/ 
+			",
+			"rain": "
+			610 {{ModID}}_LostIsland_RoyalMermanHome 26 5 2/
+			800 {{ModID}}_LostIsland_RoyalMermanHome 34 5 0/
+			1000 {{ModID}}_LostIsland_RoyalMermanHome 34 16 2 {{ModID}}_RoyalMermanGodwyn_sitting \"Characters\\Dialogue\\{{ModID}}_RoyalMermanGodwyn:{{ModID}}_Godwyn.lostisland.000\"/
+			2000 {{ModID}}_LostIsland_RoyalMermanHome 34 5 0/
+			2200 {{ModID}}_LostIsland_RoyalMermanHome 26 5 2 {{ModID}}_RoyalMermanGodwyn_sleep/
+			",
 			}
 		}
 	]

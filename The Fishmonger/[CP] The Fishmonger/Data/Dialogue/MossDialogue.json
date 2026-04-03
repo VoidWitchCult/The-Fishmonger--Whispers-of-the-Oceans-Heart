@@ -39,9 +39,9 @@
 				"Sun": "{{i18n:Moss.Dialogue.Sun.{{Random: 0, 5}}}}", 
 				
 				// Schedule dialogue
-				"{{ModID}}_Moss.lostisland.000": "{{i18n:Moss.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Moss.lostisland.001": "{{i18n:Moss.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Moss.lostisland.002": "{{i18n:Moss.Schedule.Dialogue.lostisland.002}}",
+				"Moss.Schedule.Dialogue.lostisland.000": "{{i18n:Moss.Schedule.Dialogue.lostisland.000}}",
+				"Moss.Schedule.Dialogue.lostisland.001": "{{i18n:Moss.Schedule.Dialogue.lostisland.001}}",
+				"Moss.Schedule.Dialogue.lostisland.002": "{{i18n:Moss.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

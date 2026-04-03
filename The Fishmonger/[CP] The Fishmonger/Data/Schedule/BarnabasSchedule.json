@@ -22,7 +22,7 @@
 			1800 {{ModID}}_LostIsland_Orchard 19 19 3 {{ModID}}_SeaDudeBarnabas_writing/
 			2000 {{ModID}}_LostIsland_SeaDudeHome 5 16 0/
 			2100 {{ModID}}_LostIsland_SeaDudeHome 5 12 0/
-			2200 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 SeaDudeBarnabas_sleep/
+			2200 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 {{ModID}}_SeaDudeBarnabas_sleep/
 			",
 			"Mon": "GOTO spring",
 			"Tue": "
@@ -35,7 +35,7 @@
 			1230 {{ModID}}_LostIsland_EnchantedForest 46 66 0/
 			1800 {{ModID}}_LostIsland_EnchantedForest 99 92 2 {{ModID}}_SeaDudeBarnabas_raking/
 			2000 {{ModID}}_LostIsland_EnchantedForest 56 32 2 {{ModID}}_SeaDudeBarnabas_laying \"Characters\\Dialogue\\{{ModID}}_SeaDudeBarnabas:{{ModID}}_barnabas.lostisland.003\"/
-			2200 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 SeaDudeBarnabas_sleep/
+			2200 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 {{ModID}}_SeaDudeBarnabas_sleep/
 			",
 			"Wed": "
 			610 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 SeaDudeBarnabas_snooze \"Characters\\Dialogue\\{{ModID}}_SeaDudeBarnabas:{{ModID}}_barnabas.lostisland.000\"/
@@ -48,7 +48,7 @@
 			1800 {{ModID}}_LostIsland_NorthernCliffs 46 15 2 {{ModID}}_SeaDudeBarnabas_laying \"Characters\\Dialogue\\{{ModID}}_SeaDudeBarnabas:{{ModID}}_barnabas.lostisland.003\"/
 			2000 {{ModID}}_LostIsland_Orchard 82 42 3 {{ModID}}_SeaDudeBarnabas_writing/
 			2100 {{ModID}}_LostIsland_SeaDudeHome 5 12 0/
-			2200 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 SeaDudeBarnabas_sleep/
+			2200 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 {{ModID}}_SeaDudeBarnabas_sleep/
 			",
 			"Thu": "GOTO spring",
 			"Fri": "
@@ -64,7 +64,7 @@
 			1600 {{ModID}}_LostIsland_Library 9 41 2 {{ModID}}_SeaDudeBarnabas_sittingdown \"Characters\\Dialogue\\{{ModID}}_SeaDudeBarnabas:{{ModID}}_barnabas.lostisland.006\"/
 			2000 {{ModID}}_LostIsland_Orchard 82 42 3 {{ModID}}_SeaDudeBarnabas_writing/
 			2100 {{ModID}}_LostIsland_SeaDudeHome 5 12 0/
-			2200 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 SeaDudeBarnabas_sleep/ 
+			2200 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 {{ModID}}_SeaDudeBarnabas_sleep/ 
 			",
 			"Sat": "GOTO spring",
 			//SUNDAY HANGOUT DAY
@@ -73,7 +73,7 @@
 			700 {{ModID}}_LostIsland_SeaDudeHome 3 5 0/
 			900 {{ModID}}_LostIsland_NorthernCliffs 47 21 \"Characters\\Dialogue\\{{ModID}}_SeaDudeBarnabas:{{ModID}}_barnabas.lostisland.007\"/
 			2100 {{ModID}}_LostIsland_SeaDudeHome 5 12 0/
-			2200 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 SeaDudeBarnabas_sleep/
+			2200 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 {{ModID}}_SeaDudeBarnabas_sleep/
 			", 
 			//Just walks around in the rain because why not rains not gonna stop him from working
 			"rain": "
@@ -88,7 +88,8 @@
 			1800 {{ModID}}_LostIsland_NorthernCliffs 46 21 3 {{ModID}}_SeaDudeBarnabas_writing/
 			2000 {{ModID}}_LostIsland_Orchard 82 42 3 {{ModID}}_SeaDudeBarnabas_writing \"Characters\\Dialogue\\{{ModID}}_SeaDudeBarnabas:{{ModID}}_barnabas.lostisland.004\"/
 			2100 {{ModID}}_LostIsland_SeaDudeHome 5 12 0/
-			2200 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 SeaDudeBarnabas_sleep/
+			2200 {{ModID}}_LostIsland_SeaDudeHome 10 5 0 {{ModID}}_SeaDudeBarnabas_sleep,
+/
 			",
 			}
 		},

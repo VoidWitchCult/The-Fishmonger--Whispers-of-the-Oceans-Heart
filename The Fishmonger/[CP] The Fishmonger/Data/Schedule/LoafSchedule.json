@@ -6,13 +6,37 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_ShadowPersonLoaf",
             "Entries": {
-			//???  
 			"spring": "
-			610 {{ModID}}_LostIsland 39 24 2/
+			610 {{ModID}}_LostIsland_ShadowHome 2 7 2/
+			800 {{ModID}}_LostIsland_ShadowHome 11 16 0/
+			1200 {{ModID}}_LostIsland_PointMelodia 31 3 2/
+			1600 {{ModID}}_LostIsland_PointMelodia 10 26 2 \"Characters\\Dialogue\\{{ModID}}_ShadowPersonLoaf:Loaf.Schedule.Dialogue.lostisland.001\"/
+			1800 {{ModID}}_LostIsland_EnchantedForest 91 39 2/
+			2200 {{ModID}}_LostIsland_ShadowHome 2 7 2/
+			",
+			"Mon": "
+			610 {{ModID}}_LostIsland_ShadowHome 2 7 2/
+			800 {{ModID}}_LostIsland_ShadowHome 11 16 0/
+			1000 {{ModID}}_LostIsland_NorthernCliffs 15 21 3/
+			1600 {{ModID}}_LostIsland_NorthernCliffs 66 21 0/
+			1800 {{ModID}}_LostIsland_EnchantedForest 91 39 2/
+			2200 {{ModID}}_LostIsland_ShadowHome 2 7 2/
+			",
+			"Fri": "
+			610 {{ModID}}_LostIsland_ShadowHome 2 7 2/
+			800 {{ModID}}_LostIsland_EnchantedForest 15 31 2 square_5_5_2/
+			1200 {{ModID}}_LostIsland_EnchantedForest 14 87 2 square_5_5_2/
+			1600 {{ModID}}_LostIsland_EnchantedForest 76 83 3/
+			1900 {{ModID}}_LostIsland_EnchantedForest 91 39 2/
+			2400 {{ModID}}_LostIsland_ShadowHome 2 7 2/
 			",
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
+			"Sun": "
+			610 {{ModID}}_LostIsland_ShadowHome 2 7 2/
+			800 {{ModID}}_LostIsland_ShadowHome 11 16 0/
+			930 {{ModID}}_LostIsland_NorthernCliffs 44 10 0 \"Characters\\Dialogue\\{{ModID}}_ShadowPersonLoaf:Loaf.Schedule.Dialogue.lostisland.000\"/
+			2400 {{ModID}}_LostIsland_ShadowHome 2 7 2/
+			",
 			"rain": "GOTO spring",
 			}
 		}

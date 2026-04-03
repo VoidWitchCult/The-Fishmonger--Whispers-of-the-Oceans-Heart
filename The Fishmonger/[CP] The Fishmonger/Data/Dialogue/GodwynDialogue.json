@@ -40,9 +40,9 @@
 				"Sun": "{{i18n:Godwyn.Dialogue.Sun.{{Random: 0, 5}}}}", 
 				
 				// Schedule dialogue
-				"{{ModID}}_Godwyn.lostisland.000": "{{i18n:Godwyn.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Godwyn.lostisland.001": "{{i18n:Godwyn.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Godwyn.lostisland.002": "{{i18n:Godwyn.Schedule.Dialogue.lostisland.002}}",
+				"Godwyn.Schedule.Dialogue.lostisland.000": "{{i18n:Godwyn.Schedule.Dialogue.lostisland.000}}",
+				"Godwyn.Schedule.Dialogue.lostisland.001": "{{i18n:Godwyn.Schedule.Dialogue.lostisland.001}}",
+				"Godwyn.Schedule.Dialogue.lostisland.002": "{{i18n:Godwyn.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

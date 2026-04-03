@@ -5,14 +5,47 @@
             "LogName": "Amalthea schedule",
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_MermaidMomAmalthea",
-            "Entries": {
-			//???  
+            "Entries": { 
 			"spring": "
-			610 {{ModID}}_LostIsland 41 22 2/
+			610 {{ModID}}_LostIsland_GanguroHome 19 10 2/
+			a800 {{ModID}}_LostIsland_GanguroHome 4 16 3/
+			810 {{ModID}}_LostIsland_GanguroHome 17 22 0/
+			900 {{ModID}}_LostIsland_GanguroHome 21 22 0/
+			1000 {{ModID}}_LostIsland_GanguroHome 4 25 3 {{ModID}}_MermaidMomAmalthea_sitting_side \"Characters\\Dialogue\\{{ModID}}_MermaidMomAmalthea:Amalthea.Schedule.Dialogue.lostisland.000\"/
+			1100 {{ModID}}_LostIsland_GanguroHome 22 22 0/
+			1200 {{ModID}}_LostIsland_GanguroHome 13 5 0 square_6_0_0/
+			1600 {{ModID}}_LostIsland_EnchantedForest 37 36 3 square_0_6_3/
+			1900 {{ModID}}_LostIsland_EnchantedForest 16 38 0 square_6_6_2/
+			2100 {{ModID}}_LostIsland_EnchantedForest 60 37 2/
+			2200 {{ModID}}_LostIsland_GanguroHome 4 25 3/
+			2400 {{ModID}}_LostIsland_GanguroHome 19 10 2/
 			",
+			"Wed": "
+			610 {{ModID}}_LostIsland_GanguroHome 19 10 2/
+			a800 {{ModID}}_LostIsland_GanguroHome 4 16 3/
+			810 {{ModID}}_LostIsland_GanguroHome 17 22 0/
+			900 {{ModID}}_LostIsland_GanguroHome 21 22 0/
+			1000 {{ModID}}_LostIsland_GanguroHome 4 25 3  {{ModID}}_MermaidMomAmalthea_sitting_side \"Characters\\Dialogue\\{{ModID}}_MermaidMomAmalthea:Amalthea.Schedule.Dialogue.lostisland.000\"/
+			1100 {{ModID}}_LostIsland_GanguroHome 22 22 0/
+			1130 {{ModID}}_LostIsland 77 40 0/
+			1430 {{ModID}}_LostIsland 50 20 0/
+			1600 {{ModID}}_LostIsland 43 4 0/
+			1800 {{ModID}}_LostIsland_EnchantedForest 27 14 0/
+			2200 {{ModID}}_LostIsland_GanguroHome 4 25 3/
+			2400 {{ModID}}_LostIsland_GanguroHome 19 10 2/
+			",
+			"Fri": "GOTO Wed",
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
+			"Sun": "
+			610 {{ModID}}_LostIsland_GanguroHome 19 10 2/
+			a800 {{ModID}}_LostIsland_GanguroHome 4 16 3/
+			810 {{ModID}}_LostIsland_GanguroHome 17 22 0/
+			900 {{ModID}}_LostIsland_GanguroHome 21 22 0/
+			1000 {{ModID}}_LostIsland_GanguroHome 4 25 3  {{ModID}}_MermaidMomAmalthea_sitting_side \"Characters\\Dialogue\\{{ModID}}_MermaidMomAmalthea:Amalthea.Schedule.Dialogue.lostisland.000\"/
+			1030 {{ModID}}_LostIsland_NorthernCliffs 41 18 1 \"Characters\\Dialogue\\{{ModID}}_MermaidMomAmalthea:Amalthea.Schedule.Dialogue.lostisland.001\"/
+			1900 {{ModID}}_LostIsland_GanguroHome 4 25 3/
+			2400 {{ModID}}_LostIsland_GanguroHome 19 10 2/
+			",
 			"rain": "GOTO spring",
 			}
 		}

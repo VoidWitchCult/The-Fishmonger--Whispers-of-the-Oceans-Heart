@@ -5,14 +5,52 @@
             "LogName": "Hemlock schedule",
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_AnglerfishGuyHemlock",
-            "Entries": {
-			//???  
+            "Entries": { 
 			"spring": "
-			610 {{ModID}}_LostIsland 42 22 2/
+			610 {{ModID}}_LostIsland_AnglerGuyHome 19 6 2/
+			730 {{ModID}}_LostIsland_AnglerGuyHome 15 6 3/
+			800 {{ModID}}_LostIsland_AnglerGuyHome 21 20 0/
+			830 {{ModID}}_LostIsland_AnglerGuyHome 22 23 0/
+			900 {{ModID}}_LostIsland_AnglerGuyHome 16 24 0 {{ModID}}_AnglerfishGuyHemlock_sitting_back \"Characters\\Dialogue\\{{ModID}}_AnglerfishGuyHemlock:Hemlock.Schedule.Dialogue.lostisland.000\"/
+			1000 {{ModID}}_LostIsland_Orchard 13 15 0/
+			1230 {{ModID}}_LostIsland_Orchard 65 29 0 {{ModID}}_AnglerfishGuyHemlock_kneeling \"Characters\\Dialogue\\{{ModID}}_AnglerfishGuyHemlock:Hemlock.Schedule.Dialogue.lostisland.001\"/
+			1600 {{ModID}}_LostIsland_Orchard 35 19 3/
+			1800 {{ModID}}_LostIsland_SeaDudeHome 10 16 3 {{ModID}}_AnglerfishGuyHemlock_kneeling \"Characters\\Dialogue\\{{ModID}}_AnglerfishGuyHemlock:Hemlock.Schedule.Dialogue.lostisland.002\"/
+			2300 {{ModID}}_LostIsland_AnglerGuyHome 19 6 2 {{ModID}}_AnglerfishGuyHemlock_sleep/
+			",
+			"Tue": "
+			610 {{ModID}}_LostIsland_AnglerGuyHome 19 6 2/
+			730 {{ModID}}_LostIsland_AnglerGuyHome 15 6 3/
+			800 {{ModID}}_LostIsland_EnchantedForest 31 13 3/
+			900 {{ModID}}_LostIsland_EnchantedForest 37 37 3/
+			1100 {{ModID}}_LostIsland_EnchantedForest 46 67 2/
+			1230 {{ModID}}_LostIsland_EnchantedForest 48 66 0/
+			1800 {{ModID}}_LostIsland_EnchantedForest 106 87 2 2/
+			2300 {{ModID}}_LostIsland_AnglerGuyHome 19 6 2 {{ModID}}_AnglerfishGuyHemlock_sleep/
+			",
+			"Fri": "
+			610 {{ModID}}_LostIsland_AnglerGuyHome 19 6 2/
+			730 {{ModID}}_LostIsland_AnglerGuyHome 15 6 3/
+			800 {{ModID}}_LostIsland_AnglerGuyHome 21 20 0/
+			830 {{ModID}}_LostIsland_AnglerGuyHome 22 23 0/
+			900 {{ModID}}_LostIsland_AnglerGuyHome 16 24 0 {{ModID}}_AnglerfishGuyHemlock_sitting_back \"Characters\\Dialogue\\{{ModID}}_AnglerfishGuyHemlock:Hemlock.Schedule.Dialogue.lostisland.000\"/
+			1000 {{ModID}}_LostIsland_Library 33 36 0/
+			1200 {{ModID}}_LostIsland_Library 12 47 3 {{ModID}}_AnglerfishGuyHemlock_sitting_side/
+			1330 {{ModID}}_LostIsland_Library 12 42 0 {{ModID}}_AnglerfishGuyHemlock_sitting_side/
+			1800 {{ModID}}_LostIsland_SeaDudeHome 10 16 3 {{ModID}}_AnglerfishGuyHemlock_kneeling \"Characters\\Dialogue\\{{ModID}}_AnglerfishGuyHemlock:Hemlock.Schedule.Dialogue.lostisland.002\"/
+			2300 {{ModID}}_LostIsland_AnglerGuyHome 19 6 2 {{ModID}}_AnglerfishGuyHemlock_sleep/
 			",
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
+			"Sun": "
+			610 {{ModID}}_LostIsland_AnglerGuyHome 19 6 2/
+			730 {{ModID}}_LostIsland_AnglerGuyHome 15 6 3/
+			800 {{ModID}}_LostIsland_AnglerGuyHome 21 20 0/
+			830 {{ModID}}_LostIsland_AnglerGuyHome 22 23 0/
+			900 {{ModID}}_LostIsland_AnglerGuyHome 16 24 0 {{ModID}}_AnglerfishGuyHemlock_sitting_back \"Characters\\Dialogue\\{{ModID}}_AnglerfishGuyHemlock:Hemlock.Schedule.Dialogue.lostisland.000\"/
+			930 {{ModID}}_LostIsland_NorthernCliffs 48 23 0 \"Characters\\Dialogue\\{{ModID}}_AnglerfishGuyHemlock:Hemlock.Schedule.Dialogue.lostisland.003\"/
+			1800 {{ModID}}_LostIsland_SeaDudeHome 10 16 3 {{ModID}}_AnglerfishGuyHemlock_kneeling \"Characters\\Dialogue\\{{ModID}}_AnglerfishGuyHemlock:_Hemlock.Schedule.Dialogue.lostisland.002\"/
+			2300 {{ModID}}_LostIsland_AnglerGuyHome 19 6 2 {{ModID}}_AnglerfishGuyHemlock_sleep/
+			",
 			"rain": "GOTO spring",
 			}
 		}

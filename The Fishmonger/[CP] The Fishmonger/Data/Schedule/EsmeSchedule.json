@@ -5,14 +5,38 @@
             "LogName": "Esme schedule",
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_MermaidDancerEsme",
-            "Entries": {
-			//???  
+            "Entries": { 
 			"spring": "
-			610 {{ModID}}_LostIsland 39 22 2/
+			610 {{ModID}}_LostIsland_LolitaHome 2 5 2/
+			800 {{ModID}}_LostIsland_LolitaHome 3 9 2/
+			830 {{ModID}}_LostIsland_LolitaHome 17 7 0/
+			900 {{ModID}}_LostIsland_LolitaHome 13 7 0/
+			930 {{ModID}}_LostIsland_LolitaHome 6 8 2 {{ModID}}_MermaidDancerEsme_dancing \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:{{ModID}}_Esme.lostisland.000\"/
+			1400 {{ModID}}_LostIsland 60 11 2 {{ModID}}_MermaidDancerEsme_dancing2 \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:{{ModID}}_Esme.lostisland.000\"/
+			1800 {{ModID}}_LostIsland_LolitaHome 17 7 0/
+			2000 {{ModID}}_LostIsland_LolitaHome 2 5 2 {{ModID}}_MermaidDancerEsme_sleep/
 			",
+			"Wed": "
+			610 {{ModID}}_LostIsland_LolitaHome 2 5 2/
+			800 {{ModID}}_LostIsland_LolitaHome 3 9 2/
+			830 {{ModID}}_LostIsland_LolitaHome 17 7 0/
+			900 {{ModID}}_LostIsland_LolitaHome 13 7 0/
+			930 {{ModID}}_LostIsland_EnchantedForest 61 32 2 {{ModID}}_MermaidDancerEsme_dancing \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:{{ModID}}_Esme.lostisland.000\"/
+			1600 {{ModID}}_LostIsland_EnchantedForest 27 14 0 {{ModID}}_MermaidDancerEsme_kneeling \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:{{ModID}}_Esme.lostisland.001\"/
+			1800 {{ModID}}_LostIsland_LolitaHome 17 7 0/
+			2000 {{ModID}}_LostIsland_LolitaHome 2 5 2 {{ModID}}_MermaidDancerEsme_sleep/
+			",
+			"Fri": "GOTO Wed",
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
+			"Sun": "
+			610 {{ModID}}_LostIsland_LolitaHome 2 5 2/
+			800 {{ModID}}_LostIsland_LolitaHome 3 9 2/
+			830 {{ModID}}_LostIsland_LolitaHome 17 7 0/
+			900 {{ModID}}_LostIsland_LolitaHome 13 7 0/
+			930 {{ModID}}_LostIsland_NorthernCliffs 47 14 0 {{ModID}}_MermaidDancerEsme_dancing \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:{{ModID}}_Esme.lostisland.000\"/
+			1800 {{ModID}}_LostIsland_LolitaHome 17 7 0/
+			2000 {{ModID}}_LostIsland_LolitaHome 2 5 2 {{ModID}}_MermaidDancerEsme_sleep/
+			",
 			"rain": "GOTO spring",
 			}
 		}

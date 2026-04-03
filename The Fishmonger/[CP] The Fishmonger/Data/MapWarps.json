@@ -370,7 +370,9 @@
 			"Action": "EditMap",
 			"Target": "Maps/{{ModID}}_LostIsland_RoyalMermanHome",
 			"AddWarps": [
-				"18 27 {{ModID}}_LostIsland_NorthernCliffs 46 38"
+				"17 28 {{ModID}}_LostIsland_NorthernCliffs 46 38",
+				"18 28 {{ModID}}_LostIsland_NorthernCliffs 46 38",
+				"19 28 {{ModID}}_LostIsland_NorthernCliffs 46 38"
 			]
 		},
 		//==============================================================================================
@@ -422,7 +424,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/{{ModID}}_LostIsland_BirdHome",
 			"AddWarps": [
-				"13 23 {{ModID}}_LostIsland_EnchantedForest 104 25"
+				"13 24 {{ModID}}_LostIsland_EnchantedForest 104 25"
 			]
 		},
 		//==============================================================================================

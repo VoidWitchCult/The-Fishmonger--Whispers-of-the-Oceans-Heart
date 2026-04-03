@@ -8,7 +8,7 @@
             "Entries": {
 			//???  
 			"spring": "
-			610 {{ModID}}_LostIsland 44 24 2/
+			610 {{ModID}}_LostIsland_WarpRoom 2 5 2/
 			",
 			// HANGOUT DAY
 			"Sun": "GOTO spring",

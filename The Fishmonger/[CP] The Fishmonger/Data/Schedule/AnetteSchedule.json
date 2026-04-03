@@ -5,15 +5,45 @@
             "LogName": "Anette schedule",
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_LolitaAnette",
-            "Entries": {
-			//???  
+            "Entries": { 
 			"spring": "
-			610 {{ModID}}_LostIsland 37 22 2/
+			610 {{ModID}}_LostIsland_LolitaHome 3 17 2/
+			800 {{ModID}}_LostIsland_LolitaHome 7 22 2 square_3_0_2/
+			900 {{ModID}}_LostIsland_LolitaHome 26 18 0/
+			1000 {{ModID}}_LostIsland_LolitaHome 17 7 0/
+			1030 {{ModID}}_LostIsland 46 9 2 {{ModID}}_LolitaAnette_sitting \"Characters\\Dialogue\\{{ModID}}_LolitaAnette:{{ModID}}_Anette.lostisland.000\"/
+			1500 {{ModID}}_LostIsland 51 10 2/
+			1800 {{ModID}}_LostIsland_LolitaHome 7 18 0 square_4_0_0/
+			2000 {{ModID}}_LostIsland_LolitaHome 3 17 2 {{ModID}}_LolitaAnette_sleep/ 
+			",
+			"Tue": "
+			610 {{ModID}}_LostIsland_LolitaHome 3 17 2/
+			800 {{ModID}}_LostIsland_LolitaHome 7 22 2 square_3_0_2/
+			900 {{ModID}}_LostIsland_LolitaHome 26 18 0/
+			1000 {{ModID}}_LostIsland_LolitaHome 17 7 0/
+			1030 {{ModID}}_LostIsland_Library 48 37 0/
+			1200 {{ModID}}_LostIsland_Library 34 5 2 {{ModID}}_LolitaAnette_sitting2 \"Characters\\Dialogue\\{{ModID}}_LolitaAnette:{{ModID}}_Anette.lostisland.001\"/
+			1800 {{ModID}}_LostIsland_LolitaHome 7 18 0 square_4_0_0/
+			2000 {{ModID}}_LostIsland_LolitaHome 3 17 2 {{ModID}}_LolitaAnette_sleep/ 
 			",
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
-			"rain": "GOTO spring",
+			"Sun": "
+			610 {{ModID}}_LostIsland_LolitaHome 3 17 2/
+			800 {{ModID}}_LostIsland_LolitaHome 7 22 2 square_3_0_2/
+			900 {{ModID}}_LostIsland_LolitaHome 26 18 0/
+			1000 {{ModID}}_LostIsland_LolitaHome 17 7 0/
+			1030 {{ModID}}_LostIsland_NorthernCliffs 45 15 2 {{ModID}}_LolitaAnette_sipping \"Characters\\Dialogue\\{{ModID}}_LolitaAnette:{{ModID}}_Anette.lostisland.002\"/
+			1800 {{ModID}}_LostIsland_LolitaHome 7 18 0 square_4_0_0/
+			2000 {{ModID}}_LostIsland_LolitaHome 3 17 2 {{ModID}}_LolitaAnette_sleep/
+			",
+			"rain": "
+			610 {{ModID}}_LostIsland_LolitaHome 3 17 2/
+			800 {{ModID}}_LostIsland_LolitaHome 7 22 2 square_3_0_2/
+			900 {{ModID}}_LostIsland_LolitaHome 26 18 0/
+			1000 {{ModID}}_LostIsland_LolitaHome 17 7 0/
+			1800 {{ModID}}_LostIsland_LolitaHome 7 18 0 square_4_0_0/
+			2000 {{ModID}}_LostIsland_LolitaHome 3 17 2 {{ModID}}_LolitaAnette_sleep/
+			",
 			}
 		}
 	]

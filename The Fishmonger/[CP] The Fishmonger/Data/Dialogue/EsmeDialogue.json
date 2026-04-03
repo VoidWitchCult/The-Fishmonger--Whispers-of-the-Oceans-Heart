@@ -39,9 +39,9 @@
 				"Sun": "{{i18n:Esme.Dialogue.Sun.{{Random: 0, 5}}}}", 
 				
 				// Schedule dialogue
-				"{{ModID}}_Esme.lostisland.000": "{{i18n:Esme.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Esme.lostisland.001": "{{i18n:Esme.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Esme.lostisland.002": "{{i18n:Esme.Schedule.Dialogue.lostisland.002}}",
+				"Esme.Schedule.Dialogue.lostisland.000": "{{i18n:Esme.Schedule.Dialogue.lostisland.000}}",
+				"Esme.Schedule.Dialogue.lostisland.001": "{{i18n:Esme.Schedule.Dialogue.lostisland.001}}",
+				"Esme.Schedule.Dialogue.lostisland.002": "{{i18n:Esme.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

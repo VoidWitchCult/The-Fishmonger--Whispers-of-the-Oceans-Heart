@@ -6,14 +6,36 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_ShopkeepWillow",
             "Entries": {
-			//???  
 			"spring": "
-			610 {{ModID}}_LostIsland 38 22 2/
+			610 {{ModID}}_LostIsland_LolitaHome 23 5 2/
+			700 {{ModID}}_LostIsland_LolitaHome 23 18 0/
+			800 {{ModID}}_LostIsland_LolitaHome 27 21 1 square_0_4_1 \"Characters\\Dialogue\\{{ModID}}_ShopkeepWillow:{{ModID}}_Willow.lostisland.000\"/
+			1000 {{ModID}}_LostIsland_LolitaHome 21 19 3 square 3_3_3/
+			1200 {{ModID}}_LostIsland 50 20 0/
+			1400 {{ModID}}_LostIsland 83 31 0 \"Characters\\Dialogue\\{{ModID}}_ShopkeepWillow:{{ModID}}_Willow.lostisland.001\"/
+			1600 {{ModID}}_LostIsland 77 40 0/
+			2000 {{ModID}}_LostIsland 44 4 0/
+			2200 {{ModID}}_LostIsland_LolitaHome 23 18 0/
+			2400 {{ModID}}_LostIsland_LolitaHome 23 5 2 {{ModID}}_ShopkeepWillow_sleep/
 			",
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
-			"rain": "GOTO spring",
+			"Sun": "
+			610 {{ModID}}_LostIsland_LolitaHome 23 5 2/
+			700 {{ModID}}_LostIsland_LolitaHome 23 18 0/
+			800 {{ModID}}_LostIsland_LolitaHome 27 21 1 square_0_4_1 \"Characters\\Dialogue\\{{ModID}}_ShopkeepWillow:{{ModID}}_Willow.lostisland.000\"/
+			1000 {{ModID}}_LostIsland_LolitaHome 21 19 3 square 3_3_3/
+			1100 {{ModID}}_LostIsland_NorthernCliffs 45 23 0 \"Characters\\Dialogue\\{{ModID}}_ShopkeepWillow:{{ModID}}_Willow.lostisland.002\"/
+			2200 {{ModID}}_LostIsland_LolitaHome 23 18 0/
+			2400 {{ModID}}_LostIsland_LolitaHome 23 5 2 {{ModID}}_ShopkeepWillow_sleep/
+			",
+			"rain": "
+			610 {{ModID}}_LostIsland_LolitaHome 23 5 2/
+			700 {{ModID}}_LostIsland_LolitaHome 23 18 0/
+			800 {{ModID}}_LostIsland_LolitaHome 27 21 1 square_0_4_1 \"Characters\\Dialogue\\{{ModID}}_ShopkeepWillow:{{ModID}}_Willow.lostisland.000\"/
+			1000 {{ModID}}_LostIsland_LolitaHome 21 19 3 square 3_3_3/
+			2200 {{ModID}}_LostIsland_LolitaHome 23 18 0/
+			2400 {{ModID}}_LostIsland_LolitaHome 23 5 2 {{ModID}}_ShopkeepWillow_sleep/
+			",
 			}
 		}
 	]

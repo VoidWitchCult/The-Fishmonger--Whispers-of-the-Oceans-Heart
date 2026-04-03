@@ -6,13 +6,52 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_RedHeadMermanRagna",
             "Entries": {
-			//???  
 			"spring": "
-			610 {{ModID}}_LostIsland 45 22 2/
+			610 {{ModID}}_LostIsland_TentHome 1 5 2/
+			800 {{ModID}}_LostIsland_TentHome 6 5 0/
+			900 {{ModID}}_LostIsland_TentHome 5 5 0/
+			930 {{ModID}}_LostIsland_TentHome 7 7 2 {{ModID}}_RedHeadMermanRagna_sitting \"Characters\\Dialogue\\{{ModID}}_RedHeadMermanRagna:{{ModID}}_Ragna.lostisland.000\"/
+			1000 {{ModID}}_LostIsland_NorthernCliffs 9 16 2 \"Characters\\Dialogue\\{{ModID}}_RedHeadMermanRagna:{{ModID}}_Ragna.lostisland.001\"/
+			1600 {{ModID}}_LostIsland_NorthernCliffs 65 21 0/
+			2000 {{ModID}}_LostIsland_TentHome 3 9 3/
+			2200 {{ModID}}_LostIsland_TentHome 5 5 0/
+			2500 {{ModID}}_LostIsland_TentHome 1 5 2 {{ModID}}_RedHeadMermanRagna_sleep/
+			",
+			"Mon": "
+			610 {{ModID}}_LostIsland_TentHome 1 5 2/
+			800 {{ModID}}_LostIsland_TentHome 6 5 0/
+			900 {{ModID}}_LostIsland_TentHome 5 5 0/
+			930 {{ModID}}_LostIsland_TentHome 7 7 2 {{ModID}}_RedHeadMermanRagna_sitting \"Characters\\Dialogue\\{{ModID}}_RedHeadMermanRagna:{{ModID}}_Ragna.lostisland.000\"/
+			1000 {{ModID}}_LostIsland_EnchantedForest 35 39 0 \"Characters\\Dialogue\\{{ModID}}_RedHeadMermanRagna:{{ModID}}_Ragna.lostisland.002\"/
+			1300 {{ModID}}_LostIsland_EnchantedForest 109 73 1/
+			1600 {{ModID}}_LostIsland_EnchantedForest 74 63 0/
+			2000 {{ModID}}_LostIsland_TentHome 3 9 3/
+			2200 {{ModID}}_LostIsland_TentHome 5 5 0/
+			2500 {{ModID}}_LostIsland_TentHome 1 5 2 {{ModID}}_RedHeadMermanRagna_sleep/
+			",
+			"Wed": "
+			610 {{ModID}}_LostIsland_TentHome 1 5 2/
+			800 {{ModID}}_LostIsland_TentHome 6 5 0/
+			900 {{ModID}}_LostIsland_TentHome 5 5 0/
+			930 {{ModID}}_LostIsland_Library 26 27 0 square_9_0_0/
+			1100 {{ModID}}_LostIsland_Library 38 22 0 square_9_0_0/
+			1400 {{ModID}}_LostIsland_Library 38 27 0 square_9_0_0/
+			1630 {{ModID}}_LostIsland_Library 26 32 0 square_9_0_0/
+			2000 {{ModID}}_LostIsland_TentHome 3 9 3/
+			2200 {{ModID}}_LostIsland_TentHome 5 5 0/
+			2500 {{ModID}}_LostIsland_TentHome 1 5 2 {{ModID}}_RedHeadMermanRagna_sleep/
 			",
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
+			"Sun": "
+			610 {{ModID}}_LostIsland_TentHome 1 5 2/
+			800 {{ModID}}_LostIsland_TentHome 6 5 0/
+			900 {{ModID}}_LostIsland_TentHome 5 5 0/
+			930 {{ModID}}_LostIsland_TentHome 7 7 2 {{ModID}}_RedHeadMermanRagna_sitting \"Characters\\Dialogue\\{{ModID}}_RedHeadMermanRagna:{{ModID}}_Ragna.lostisland.000\"/
+			1000 {{ModID}}_LostIsland_NorthernCliffs 44 21 1/
+			2000 {{ModID}}_LostIsland_TentHome 3 9 3/
+			2200 {{ModID}}_LostIsland_TentHome 5 5 0/
+			2500 {{ModID}}_LostIsland_TentHome 1 5 2 {{ModID}}_RedHeadMermanRagna_sleep/
+			",
 			"rain": "GOTO spring",
 			}
 		}

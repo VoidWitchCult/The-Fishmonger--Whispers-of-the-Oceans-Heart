@@ -6,14 +6,41 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_Sirin",
             "Entries": {
-			//???  
 			"spring": "
-			610 {{ModID}}_LostIsland 42 24 2/
+			630 {{ModId}}_LostIsland_BirdHome 4 20 0/
+			830 {{ModID}}_LostIsland_BirdHome 6 13 0 {{ModID}}_Sirin_sitting_back/
+			1000 {{ModID}}_LostIsland_PointMelodia 29 36 2/
+			1600 {{ModID}}_LostIsland_EnchantedForest 46 10 0/
+			1900 {{ModID}}_LostIsland_EnchantedForest 93 22 2/
+			2200 {{ModID}}_LostIsland_BirdHome 27 18 3 {{ModID}}_Sirin_sitting_side/
+			2400 {{ModID}}_LostIsland_BirdHome 13 5 0 {{ModID}}_Sirin_sleep/
+			",
+			"Wed": "
+			630 {{ModID}}_LostIsland_BirdHome 4 20 0/
+			830 {{ModID}}_LostIsland_BirdHome 6 13 0 {{ModID}}_Sirin_sitting_back/
+			1000 {{ModID}}_LostIsland_PointMelodia 5 20 2/
+			1200 {{ModID}}_LostIsland_EnchantedForest 70 99 2/
+			1600 {{ModID}}_LostIsland_EnchantedForest 48 67 0/
+			1900 {{ModID}}_LostIsland_EnchantedForest 93 22 2/
+			2200 {{ModID}}_LostIsland_BirdHome 27 18 3 {{ModID}}_Sirin_sitting_side/
+			2400 {{ModID}}_LostIsland_BirdHome 13 5 0 {{ModID}}_Sirin_sleep/
 			",
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
-			"rain": "GOTO spring",
+			"Sun": "
+			630 {{ModID}}_LostIsland_BirdHome 4 20 0/
+			830 {{ModID}}_LostIsland_BirdHome 6 13 0 {{ModID}}_Sirin_sitting_back/
+			900 {{ModID}}_LostIsland_NorthernCliffs 53 12 1/
+			1900 {{ModID}}_LostIsland_EnchantedForest 93 22 2/
+			2200 {{ModID}}_LostIsland_BirdHome 27 18 3 {{ModID}}_Sirin_sitting_side/
+			2400 {{ModID}}_LostIsland_BirdHome 13 5 0 {{ModID}}_Sirin_sleep/
+			",
+			"rain": "
+			630 {{ModID}}_LostIsland_BirdHome 4 20 0/
+			830 {{ModID}}_LostIsland_BirdHome 6 13 0 {{ModID}}_Sirin_sitting_back/
+			1030 {{ModID}}_LostIsland_EnchantedForest 51 11 2/
+			2200 {{ModID}}_LostIsland_BirdHome 27 18 3 {{ModID}}_Sirin_sitting_side/
+			2400 {{ModID}}_LostIsland_BirdHome 13 5 0 {{ModID}}_Sirin_sleep/
+			",
 			}
 		}
 	]

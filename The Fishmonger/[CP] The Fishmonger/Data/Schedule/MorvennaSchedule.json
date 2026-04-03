@@ -6,13 +6,41 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_SelkieMomMorvenna",
             "Entries": {
-			//???  
 			"spring": "
-			610 {{ModID}}_LostIsland 44 22 2/
+			610 {{ModID}}_LostIsland_AnglerGuyHome 20 6 2/
+			800 {{ModID}}_LostIsland_AnglerGuyHome 8 13 0/
+			830 {{ModID}}_LostIsland_AnglerGuyHome 4 13 0 {{ModID}}_SelkieMomMorvenna_cooking \"Characters\\Dialogue\\{{ModID}}_SelkieMomMorvenna:{{ModID}}_Morvenna.lostisland.000\"/
+			900 {{ModID}}_LostIsland_AnglerGuyHome 14 23 1 {{ModID}}_SelkieMomMorvenna_sitting_side \"Characters\\Dialogue\\{{ModID}}_SelkieMomMorvenna:{{ModID}}_Morvenna.lostisland.001\"/
+			1030 {{ModID}}_LostIsland_AnglerGuyHome 5 13 0 {{ModID}}_SelkieMomMorvenna_dishes \"Characters\\Dialogue\\{{ModID}}_SelkieMomMorvenna:{{ModID}}_Morvenna.lostisland.000\"/
+			1300 {{ModID}}_LostIsland_AnglerGuyHome 14 11 2/
+			1400 {{ModID}}_LostIsland_NorthernCliffs 20 42 2/
+			1600 {{ModID}}_LostIsland_Orchard 76 39 2/
+			1800 {{ModID}}_LostIsland_AnglerGuyHome 11 21 1/
+			2200 {{ModID}}_LostIsland_AnglerGuyHome 20 6 2 {{ModID}}_SelkieMomMorvenna_sleep/
+			",
+			"Wed": "
+			610 {{ModID}}_LostIsland_AnglerGuyHome 20 6 2/
+			800 {{ModID}}_LostIsland_AnglerGuyHome 8 13 0/
+			830 {{ModID}}_LostIsland_AnglerGuyHome 4 13 0 {{ModID}}_SelkieMomMorvenna_cooking \"Characters\\Dialogue\\{{ModID}}_SelkieMomMorvenna:{{ModID}}_Morvenna.lostisland.000\"/
+			900 {{ModID}}_LostIsland_AnglerGuyHome 14 23 1 {{ModID}}_SelkieMomMorvenna_sitting_side \"Characters\\Dialogue\\{{ModID}}_SelkieMomMorvenna:{{ModID}}_Morvenna.lostisland.001\"/
+			1030 {{ModID}}_LostIsland_AnglerGuyHome 5 13 0 {{ModID}}_SelkieMomMorvenna_dishes \"Characters\\Dialogue\\{{ModID}}_SelkieMomMorvenna:{{ModID}}_Morvenna.lostisland.000\"/
+			1300 {{ModID}}_LostIsland_AnglerGuyHome 14 11 2/
+			1400 {{ModID}}_LostIsland 77 40 0/
+			1600 {{ModID}}_LostIsland 83 31 0/
+			1800 {{ModID}}_LostIsland_AnglerGuyHome 11 21 1/
+			2200 {{ModID}}_LostIsland_AnglerGuyHome 20 6 2 {{ModID}}_SelkieMomMorvenna_sleep/
 			",
 			// HANGOUT DAY
-			"Sun": "GOTO spring",
-			//???
+			"Sun": "
+			610 {{ModID}}_LostIsland_AnglerGuyHome 20 6 2/
+			800 {{ModID}}_LostIsland_AnglerGuyHome 8 13 0/
+			830 {{ModID}}_LostIsland_AnglerGuyHome 4 13 0 {{ModID}}_SelkieMomMorvenna_cooking \"Characters\\Dialogue\\{{ModID}}_SelkieMomMorvenna:{{ModID}}_Morvenna.lostisland.000\"/
+			900 {{ModID}}_LostIsland_AnglerGuyHome 14 23 1 {{ModID}}_SelkieMomMorvenna_sitting_side \"Characters\\Dialogue\\{{ModID}}_SelkieMomMorvenna:{{ModID}}_Morvenna.lostisland.001\"/
+			1030 {{ModID}}_LostIsland_AnglerGuyHome 5 13 0 {{ModID}}_SelkieMomMorvenna_dishes \"Characters\\Dialogue\\{{ModID}}_SelkieMomMorvenna:{{ModID}}_Morvenna.lostisland.000\"/
+			1100 {{ModID}}_LostIsland_NorthernCliffs 49 22 3 \"Characters\\Dialogue\\{{ModID}}_SelkieMomMorvenna:{{ModID}}_Morvenna.lostisland.002\"/
+			1800 {{ModID}}_LostIsland_AnglerGuyHome 11 21 1/
+			2200 {{ModID}}_LostIsland_AnglerGuyHome 20 6 2 {{ModID}}_SelkieMomMorvenna_sleep/
+			",
 			"rain": "GOTO spring",
 			}
 		}

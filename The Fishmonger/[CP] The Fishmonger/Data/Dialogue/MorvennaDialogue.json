@@ -45,9 +45,9 @@
 				"Sun": "{{i18n:Morvenna.Dialogue.Sun.{{Random: 0, 5}}}}", 
 				
 				// Schedule dialogue
-				"{{ModID}}_Morvenna.lostisland.000": "{{i18n:Morvenna.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Morvenna.lostisland.001": "{{i18n:Morvenna.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Morvenna.lostisland.002": "{{i18n:Morvenna.Schedule.Dialogue.lostisland.002}}",
+				"Morvenna.Schedule.Dialogue.lostisland.000": "{{i18n:Morvenna.Schedule.Dialogue.lostisland.000}}",
+				"Morvenna.Schedule.Dialogue.lostisland.001": "{{i18n:Morvenna.Schedule.Dialogue.lostisland.001}}",
+				"Morvenna.Schedule.Dialogue.lostisland.002": "{{i18n:Morvenna.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

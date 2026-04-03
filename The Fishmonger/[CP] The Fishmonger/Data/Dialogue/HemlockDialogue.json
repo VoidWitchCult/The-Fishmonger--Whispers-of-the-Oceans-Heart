@@ -45,9 +45,10 @@
 				"Sun": "{{i18n:Hemlock.Dialogue.Sun.{{Random: 0, 5}}}}", 
 				
 				// Schedule dialogue
-				"{{ModID}}_Hemlock.lostisland.000": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Hemlock.lostisland.001": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Hemlock.lostisland.002": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.002}}",
+				"Hemlock.Schedule.Dialogue.lostisland.000": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.000}}",
+				"Hemlock.Schedule.Dialogue.lostisland.001": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.001}}",
+				"Hemlock.Schedule.Dialogue.lostisland.002": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.002}}",
+				"Hemlock.Schedule.Dialogue.lostisland.003": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.003}}",
 			}
 		},
 	]

@@ -6,7 +6,8 @@
             "Target": "Mods/{{ModID}}/SOEmojis",
             "FromFile": "Assets/Images/SOEmojis.png"
         },
-        {
+        /*
+		{
             "LogName": "Add SO Emojis Data",
             "Action": "EditData",
             "Target": "Mods/{{ModID}}/SOEmojisData",
@@ -19,6 +20,7 @@
                 "{{ModID}}_LibrarianGamayun": 5,
             }
         },
+		*/
 		//==============================================================================================
 		//==== GAMAYUNS SPECIAL ORDER ==================================================================
 		//==============================================================================================
