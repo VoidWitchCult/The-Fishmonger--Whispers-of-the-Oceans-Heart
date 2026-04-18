@@ -1,4 +1,5 @@
 # The Fishmonger - Whispers of the Oceans Heart
+![TFWOTOH_00.png](image)
 An expansion focusing on the fishmonger Constance whose dream of meeting a mermaid from her past opens up a complete new storyline and island where the farmer gets to meet new NPCs, explore areas featuring new forage, fish and other things!
 
 ## General Information
@@ -8,6 +9,7 @@ An expansion focusing on the fishmonger Constance whose dream of meeting a merma
 - Spacecore
 - MEEP
 - Item Extensions
+- Grass Variety
 
 ### Soft Dependency
 - Have More Children
