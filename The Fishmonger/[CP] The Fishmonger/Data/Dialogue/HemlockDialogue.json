@@ -18,6 +18,7 @@
 				"AcceptBirthdayGift_DislikeB": "{{i18n:Hemlock.Dialogue.birthdayDislikeB}}",
 				"AcceptBirthdayGift_NeutralA": "{{i18n:Hemlock.Dialogue.birthdayNeutralA}}",
 				"AcceptBirthdayGift_NeutralB": "{{i18n:Hemlock.Dialogue.birthdayNeutralB}}",
+				
 				"DumpsterDiveComment": "{{i18n:Hemlock.Dialogue.DumpsterDiveComment}}",
 				"HitBySlingshot": "{{i18n:Hemlock.Dialogue.HitBySlingshot}}",
 				"RejectBouquet_NotDatable": "{{i18n:Hemlock.Dialogue.RejectBouquetNotDatable}}",
@@ -27,7 +28,10 @@
 				"GreenRainFinished": "{{i18n:Hemlock.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Hemlock.Dialogue.GreenRain2}}", //Year 2 Green Rain
 				"AcceptGift_(O)StardropTea": "{{i18n:Hemlock.Dialogue.StardropTea}}",
-				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Hemlock.ITEMHemlock}}",
+				"AcceptGift_(O){{ModID}}_MermaidsDelight": "{{i18n:Hemlock.MermaidsDelight}}",
+				"AcceptGift_(O)160": "{{i18n:Hemlock.Dialogue.Angler}}",
+				"AcceptGift_(O)899": "{{i18n:Hemlock.Dialogue.MsAngler}}",
+				"AcceptGift_(O)682": "{{i18n:Hemlock.Dialogue.MutantCarp}}",
 				
 				// 1ST OF SEASON DIALOGUE
 				"spring_1": "{{i18n:Hemlock.Dialogue.spring_1}}",

@@ -453,5 +453,31 @@
 				"12 28 {{ModID}}_LostIsland_EnchantedForest 91 18"
 			]
 		},
+		//==============================================================================================
+		//==== WARPROOM WARPS ==========================================================================
+		//==============================================================================================
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_WarpRoom",
+			"AddWarps": [
+				"2 8 {{ModID}}_LostIsland 83 3"
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 83,
+						"Y": 2
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Action": "NPCWarp 2 7 {{ModID}}_LostIsland_WarpRoom"
+					}
+				},
+			]
+		},
 	]
 }

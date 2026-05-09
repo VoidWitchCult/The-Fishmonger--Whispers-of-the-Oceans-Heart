@@ -145,21 +145,21 @@
 					"SectionId": "{{ModId}}_LostIslandWarp",
 					"DisplayName": "{{i18n:Locations.GanguroHome}}",
 					"Location": "{{ModId}}_LostIsland_GanguroHome",
-					"Tile": "12,27"
+					"Tile": "12,26"
 				},
 				"{{ModId}}_LostIsland_LolitaHomeWarp": {
 					"Id": "{{ModId}}_LostIsland_LolitaHomeWarp",
 					"SectionId": "{{ModId}}_LostIslandWarp",
 					"DisplayName": "{{i18n:Locations.LolitaHome}}",
 					"Location": "{{ModId}}_LostIsland_LolitaHome",
-					"Tile": "13,21"
+					"Tile": "13,20"
 				},
 				"{{ModId}}_LostIsland_RoyalMermanHomeWarp": {
 					"Id": "{{ModId}}_LostIsland_RoyalMermanHomeWarp",
 					"SectionId": "{{ModId}}_LostIslandWarp",
 					"DisplayName": "{{i18n:Locations.RoyalMermanHome}}",
 					"Location": "{{ModId}}_LostIsland_RoyalMermanHome",
-					"Tile": "18,27"
+					"Tile": "18,26"
 				},
 				"{{ModId}}_LostIsland_TentHomeWarp": {
 					"Id": "{{ModId}}_LostIsland_TentHomeWarp",
@@ -173,14 +173,21 @@
 					"SectionId": "{{ModId}}_LostIslandWarp",
 					"DisplayName": "{{i18n:Locations.BirdHome}}",
 					"Location": "{{ModId}}_LostIsland_BirdHome",
-					"Tile": "13,23"
+					"Tile": "13,22"
 				},
 				"{{ModId}}_LostIsland_AnglerGuyHomeWarp": {
 					"Id": "{{ModId}}_LostIsland_AnglerGuyHomeWarp",
 					"SectionId": "{{ModId}}_LostIslandWarp",
 					"DisplayName": "{{i18n:Locations.AnglerGuyHome}}",
 					"Location": "{{ModId}}_LostIsland_AnglerGuyHome",
-					"Tile": "13,23"
+					"Tile": "11,26"
+				},
+				"{{ModId}}_LostIsland_WarpRoomWarp": {
+					"Id": "{{ModId}}_LostIsland_WarpRoomWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:Locations.WarpRoom}}",
+					"Location": "{{ModId}}_LostIsland_WarpRoom",
+					"Tile": "4,6"
 				},
 			}
 		}

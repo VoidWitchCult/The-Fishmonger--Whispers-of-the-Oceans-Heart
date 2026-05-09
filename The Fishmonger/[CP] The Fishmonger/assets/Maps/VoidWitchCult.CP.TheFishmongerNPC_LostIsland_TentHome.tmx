@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="10" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="16">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="10" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="19">
  <properties>
   <property name="LocationContext" value="VoidWitchCult.CP.TheFishmongerNPC_LostIslandPassOut"/>
   <property name="SeasonOverride" value="summer"/>
@@ -1790,7 +1790,23 @@
  <objectgroup id="6" name="Back"/>
  <objectgroup id="17" name="Back2"/>
  <objectgroup id="18" name="Back3"/>
- <objectgroup id="7" name="Buildings"/>
+ <objectgroup id="7" name="Buildings">
+  <object id="16" name="TileData" x="48" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.TentHome.2&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="112" y="64" width="32" height="32">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.TentHome.3&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="16" y="96" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.TentHome.1&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="8" name="Buildings2"/>
  <objectgroup id="15" name="Paths"/>
  <objectgroup id="9" name="Front"/>

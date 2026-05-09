@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="16">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="25">
  <properties>
   <property name="LocationContext" value="VoidWitchCult.CP.TheFishmongerNPC_LostIslandPassOut"/>
   <property name="SeasonOverride" value="summer"/>
@@ -1888,7 +1888,53 @@
  <objectgroup id="6" name="Back"/>
  <objectgroup id="17" name="Back2"/>
  <objectgroup id="18" name="Back3"/>
- <objectgroup id="7" name="Buildings"/>
+ <objectgroup id="7" name="Buildings">
+  <object id="16" name="TileData" x="16" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.BirdHome.1&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="112" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.BirdHome.2&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="384" y="64" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.BirdHome.8&quot;"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="304" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.BirdHome.4&quot;"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="320" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.BirdHome.5&quot;"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="336" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.BirdHome.6&quot;"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="352" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.BirdHome.7&quot;"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="320" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.BirdHome.3&quot;"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="416" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.BirdHome.9&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="8" name="Buildings2"/>
  <objectgroup id="15" name="Paths"/>
  <objectgroup id="9" name="Front"/>

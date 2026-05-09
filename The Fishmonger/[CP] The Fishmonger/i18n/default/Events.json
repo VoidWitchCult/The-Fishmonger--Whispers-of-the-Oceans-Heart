@@ -26,7 +26,7 @@
 	"Event.4Hearts.HowAreYouQQ1Reply": "Don't worry too much.",
 	"Event.4Hearts.HowAreYouQQ2": "It's going alright.",
 	"Event.4Hearts.GoodToKnow": "Ah, that's good to know.",
-	"Event.4Hearts.ItsAlright": "Life has it's ups and downs afterall, right?#$b#People shouldn't worry too much when it seems like they're getting drowned, even when it's for a long while...",
+	"Event.4Hearts.ItsAlright": "Life has it's ups and downs after all, right?#$b#People shouldn't worry too much when it seems like they're getting drowned, even when it's for a long while...",
 	"Event.4Hearts.Troubles": "...sorry.$3#$b#It's just...I know I've sounded so positive in general but the actual truth is...#$b#...things haven't been going that well for me for a long time.$3#$b#You've probably noticed the times when you arrived here...how Willy and I kind of awkwardly ignore each other.",
 	"Event.4Hearts.Pathetic": "Big bro and I used to be much closer, you know? But after Pops death we kind of had a fight and...#$b#...before I knew it I ran off to my boat and stubbornly told him that I don't want to see him anymore.$3#$b#Yeah, I know...it's rather silly, I guess. Well, I don't want to sound too pathetic, better leave out the details.$3",
 	"Event.4Hearts.PatheticQQ1": "Sometimes it takes time for wounds to heal...",
@@ -95,7 +95,7 @@
 	"Event.Fishmonger8HeartEventPart2.Delicious": "Mhm, delicious!",
 	
 	//10 HEARTS EVENT FISHMONGER
-	"Event.Fishmonger10HeartEvent.Gathering": "What a beautiful day to come together for this occassion.#$b#I humbly greet everyone in attendance, today we come together for a special reason.",
+	"Event.Fishmonger10HeartEvent.Gathering": "What a beautiful day to come together for this occasion.#$b#I humbly greet everyone in attendance, today we come together for a special reason.",
 	"Event.Fishmonger10HeartEvent.Unite": "It is my great honor to unite Constance and Calliope in the bonds of marriage.",
 	"Event.Fishmonger10HeartEvent.Exciting": "Exciting!",
 	"Event.Fishmonger10HeartEvent.Marry": "Constance... Calliope... #$b#Mayor and Seal or not, with the power given to me by the magical world, I now pronounce you fishwife and merwife!$h",
@@ -222,7 +222,8 @@
 	"Event.MermaidCalliope10Hearts.Yeah": "Sounds good to me.",
 	"Event.MermaidCalliope10Hearts.Alright": "Alright, then I'll do..hm..",
 	"Event.MermaidCalliope10Hearts.OhHey": "Oh, hey, @! How's it going for ya?",
-	"Event.MermaidCalliope10Hearts.Hehe": "Hehehe~, it's nice you enjoy hanging out at the island, @.$1","Event.MermaidCalliope10Hearts.YouSee": "Constance and I were just walking around a bit ourselves. Thinking bout what dish we should make for todays lunch.",
+	"Event.MermaidCalliope10Hearts.Hehe": "Hehehe~, it's nice you enjoy hanging out at the island, @.$1",
+	"Event.MermaidCalliope10Hearts.YouSee": "Constance and I were just walking around a bit ourselves. Thinking bout what dish we should make for todays lunch.",
 	"Event.MermaidCalliope10Hearts.Yeah2": "Yeah, well...it goes, hm...still undecided to be honest. Would be easier if we stuck with the same ol routine.",
 	"Event.MermaidCalliope10Hearts.But": "We got so many ingredients tho, Constance.$1",
 	"Event.MermaidCalliope10Hearts.Well": "Well, that's true...hm.#$b#...#$b#...maybe we should first decide if it's gonna be something light or something heavy orrr....",
@@ -241,7 +242,7 @@
 	"Event.PirateLadCaitrionaOFlannagain2Hearts.QReply": "...$1#$b#...$2#$b#...alright, that was quite funny, I gotta admit.",
 	"Event.PirateLadCaitrionaOFlannagain2Hearts.Youknow": "...$1#$b#...$2#$b#...you know...#$b#...I've never been a fan of rainy days, especially when there's storm involved as well.#$b#...$1#$b#...it just reminds me of bad days in the past but I guess that's nothing too unusual.",
 	"Event.PirateLadCaitrionaOFlannagain2Hearts.QQ2": "It still doesn't invalidate your feelings just because many suffer the same.",
-	"Event.PirateLadCaitrionaOFlannagain2Hearts.QReply2": "Oh?#$b#...hm, I guess you're right. It's not a competition afterall.#$b#...though even if it was I'd prefer to lose that one.$3",
+	"Event.PirateLadCaitrionaOFlannagain2Hearts.QReply2": "Oh?#$b#...hm, I guess you're right. It's not a competition after all.#$b#...though even if it was I'd prefer to lose that one.$3",
 	"Event.PirateLadCaitrionaOFlannagain2Hearts.YoureRight": "...hm.#$b#...I'm a bit surprised to be honest. I really thought just being on my own is the best solution but...#$b#...I quite enjoyed our little talk.",
 	
 	// 4 HEARTS EVENT CAITRIONA
@@ -256,7 +257,7 @@
 	"Event.PirateLadCaitrionaOFlannagain6Hearts.LetMeTellYou": "...$7#$b#...@. Maybe it's time I tell you more about myself.$7...about my crew.$7",
 	"Event.PirateLadCaitrionaOFlannagain6Hearts.Backstory1": "...I've been sailing the seas since the moment I could walk. My parents were pirates just like their parents and so on.#$b#I fought for my place in the world and kept my own way of doing things. That included morals as well. Some may not have liked it but I never cared for the opinions of those without any remorse.$2#$b#Life can be cruel so you have to harden yourself at some point but the true challenge of living under these circumstances is to not lose your own integrity.$1#$b#...$1#$b#...I've had my fair share of ups and downs and I, too, did things I haven't been proud of but I pride myself in knowing that I never lost focus-...ah...well...#$b#..that was until...$1#$b#.................$7#$b#...the crew I surrounded myself with stood by the same ideals as I. We were like family.$1#$b#The life we've lived was far from normal for a lot of people but we had a bond most could not even dream of.#$b#...maybe that's why it hit me so hard when it happened.$2#$b#...$1#$b#...a day like most. An unruly sea we've seen many times before. There wasn't really any hints one could easily see to realize the catastrophe that was about to happen.#$b#...it pains me to say that I failed them. I tried so hard to turn the ship around and fight against the storm that was coming, get past the rocky area we drifted closer and closer to-...$1#$b#...no death in honour. No life long lived.$1#$b#No stories to tell to anyone. Just a blip...and then everything was gone.$7",
 	"Event.PirateLadCaitrionaOFlannagain6Hearts.Backstory2": "...I do not know what happened after our ship broke apart.$1#$b#...I only remember the helplessness that I felt and the oceans tight grip.$2",
-	"Event.PirateLadCaitrionaOFlannagain6Hearts.Backstory3": "...it was actually Barnabas who found me in the end and brought me to the island.#$b#I was the first human coming here in a long time, he said. Though all I could think of was what I've lost...there was no place in my heart to appreciate this beautiful place nor his help back then.$2#$b#It took me a long time to pick myself back up but...I admit, I still live in the past. I was never able to go out onto the sea again nor could I be among my kind. Seeing a fellow pirate always filled me with a deep emotional burden I could not shake off.#$b#Ah...I'm sorry. I really did not mean to sound so pitiful.#$b#...$1#$b#...it's just...when you came around it felt a bit like a fresh breeze. After all this time I could finally take a deep breath again. Without the overlooming guilt. It just felt like-...I don't know...heh.#$b#...#$b#...thanks, @. You're a really great ${male^female^non-binary}$.",
+	"Event.PirateLadCaitrionaOFlannagain6Hearts.Backstory3": "...it was actually Barnabas who found me in the end and brought me to the island.#$b#I was the first human coming here in a long time, he said. Though all I could think of was what I've lost...there was no place in my heart to appreciate this beautiful place nor his help back then.$2#$b#It took me a long time to pick myself back up but...I admit, I still live in the past. I was never able to go out onto the sea again nor could I be among my kind. Seeing a fellow pirate always filled me with a deep emotional burden I could not shake off.#$b#Ah...I'm sorry. I really did not mean to sound so pitiful.#$b#...$1#$b#...it's just...when you came around it felt a bit like a fresh breeze. After all this time I could finally take a deep breath again. Without the over-looming guilt. It just felt like-...I don't know...heh.#$b#...#$b#...thanks, @. You're a really great ${male^female^non-binary}$.",
 	
 	// 8 HEARTS EVENT CAITRIONA
 	"Event.PirateLadCaitrionaOFlannagain8Hearts.Ahoythere": "Ahoy there",
@@ -273,7 +274,7 @@
 	
 	// 10 HEARTS EVENT CAITRIONA
 	"Event.PirateLadCaitrionaOFlannagain10Hearts.ComeOn": "Come on...just a few more points...",
-	"Event.PirateLadCaitrionaOFlannagain10Hearts.Damnit": "Damnit...well, guess I can still try to-",
+	"Event.PirateLadCaitrionaOFlannagain10Hearts.Damnit": "Damn it...well, guess I can still try to-",
 	"Event.PirateLadCaitrionaOFlannagain10Hearts.Farmer": "Ah, @, it's you.#$b#Heh, didn't think I'd meet you here. Um, I was just hanging out and trying to win, uh...#$b#%Caitriona seems to be a bit flustered...",
 	"Event.PirateLadCaitrionaOFlannagain10Hearts.Caught": "You got me...",
 	"Event.PirateLadCaitrionaOFlannagain10Hearts.OK": "The thing is...",
@@ -323,8 +324,8 @@
 	"Event.CoolGalBernadette8Hearts.QQ3": "Something raw...like Neue Deutsche Härte, Trash or Industrial Metal.",
 	"Event.CoolGalBernadette8Hearts.QReply": "Sounds good! This'll make you headbang into the next dimension, heh.$1",
 	"Event.CoolGalBernadette8Hearts.QReply2": "Oh, great idea! We could even incorporate some harp play of yours, heh!",
-	"Event.CoolGalBernadette8Hearts.QReply3": "Interesting...I didn't take you for that kinda person, heh. That'll get my guitar glowing from all the fingerwork.",
-	"Event.CoolGalBernadette8Hearts.Excited": "Ohh, I am so excited already!$5#$b#I'll list down some subgenres that interest me and see what speaks to me, hehe!#$b#Thank you for helping me out with all of this, @!$1",
+	"Event.CoolGalBernadette8Hearts.QReply3": "Interesting...I didn't take you for that kinda person, heh. That'll get my guitar glowing from all the finger-work.",
+	"Event.CoolGalBernadette8Hearts.Excited": "Ohh, I am so excited already!$5#$b#I'll list down some sub-genres that interest me and see what speaks to me, hehe!#$b#Thank you for helping me out with all of this, @!$1",
 	"Event.CoolGalBernadette8Hearts.Giving": "Here, have this as a thank you!$1 [896]",
 	"Event.CoolGalBernadette8Hearts.SeeYa": "Enjoy the remainder of your day! I'll let ya know when I settle on things, hehe!$1",
 	
@@ -336,26 +337,38 @@
 	"Event.CoolGalBernadette8HeartsPart2.Photo1": "I'll go by order, alright?#$b#The first one is one I found when I rummaged around in the attic of our home and found a box with old memorabilia. When I asked Mom about it she said it was all the way back when he often took his motorcycle on long journeys.#$b#He was with a friend at that time and they met some guy in a business suit.#$b#Turns out said guy went away from a company party and by the time he sobered up in the cold air of the night he was in the middle of nowhere.#$b#So naturally they all hang out and took him with them on the motorcycle, haha!#$b#They're still friends to this day.",
 	"Event.CoolGalBernadette8HeartsPart2.Photo2": "Look.......#$b#...this photo shows him when he took me on my first trip. That lil lad there is me, hehe!#$b#I still remember it vividly...he took me to his favorite spots and we had Poutine in a greasy old gas station. As I sat on his bike and ate I watched the sun rise and just had this deep emotional feeling in my chest.#$b#In that moment I just felt free.#$b#Dad took me on many other trips after that and I loved every one of them.#$b#He showed me parts of the world I'd've never otherwise seen and gave me possibilities of having perspectives not everyone gets to experience.",
 	"Event.CoolGalBernadette8HeartsPart2.Photo3": "Oh! Here, the third ones just him, haha! I just really liked how clear this one was as he's the focal point.#$b#Heh, he really likes to ride his motorcycle during the night. When I asked him about it he explained to me that there's just something special about the night. Like it simply feels different and the things you do and see during those times are just not the same during the day.#$b#Back then I didn't really understand what he meant by that but as I grew older and went out during the night myself I began to understand.#$b#The silence of the night...the stars and the moon as your companions...it's just something magical about it.",
-	"Event.CoolGalBernadette8HeartsPart2.Photo4": "Look at this picture, @. It's Dad and his bandmates!#$b#I've met everyone of them so I can say with certaincy that they're great people, hehe!#$b#Mom is there too. They met back when he was out with his friends having a jam session and she joined in.#$b#I was told they had a pretty wild relationship. I guess that's just natural with their livestyle...well, they didn't stay together but remained friends. Mom settled down while Dad remained a free spirit and went around the world.#$b#While their band split he still remained doing solo work whenever he felt like it.",
+	"Event.CoolGalBernadette8HeartsPart2.Photo4": "Look at this picture, @. It's Dad and his band mates!#$b#I've met everyone of them so I can say with certainty that they're great people, hehe!#$b#Mom is there too. They met back when he was out with his friends having a jam session and she joined in.#$b#I was told they had a pretty wild relationship. I guess that's just natural with their lifestyle...well, they didn't stay together but remained friends. Mom settled down while Dad remained a free spirit and went around the world.#$b#While their band split he still remained doing solo work whenever he felt like it.",
 	"Event.CoolGalBernadette8HeartsPart2.Photo5": "The last picture is from one of Dads trips when he was in his band. I picked it because there's a good view of his guitar.#$b#Did I ever tell you that he can play several instruments?#$b#Like many he learned a classical instrument when he was young because of his parents but he ultimately stuck with his guitar.#$b#Not that he hated playing violin, he still does it now and again, but the guitar is his true calling he told me.#$b#I don't know who's that in the picture with him thought. It could be one of his fans.#$b#Mom said she really had to fight off quite a few gals and pals when she was together with him.",
 	"Event.CoolGalBernadette8HeartsPart2.SumUp": "There are more pictures but I haven't edited them enough after scanning so some are quite, uh, let's say I gotta work on them first before I can use them.#$b#I made a document typing everything down about them though so I can make a whole collection of his memories!#$b#Whenever he gets back I will show him and I want to have some songs ready to play for him as well!",
 	"Event.CoolGalBernadette8HeartsPart2.PrettyNeat": "Pretty neat, right?#$b#I think I will work a bit more on this and then go on a little trip myself. I want to take a little trip on memory lane, I guess, heh. Don't worry, I won't be gone for long.",
 	"Event.CoolGalBernadette8HeartsPart2.Silence": "%Bernadette wrings her hands a little. Seems like she wanted to say something more but refrains from doing so.",
 	"Event.CoolGalBernadette8HeartsPart2.ItsOK": "Oh, it's ok!",
-	"Event.CoolGalBernadette8HeartsPart2.IllLetYouKnow": "Here, I'll let you know when I am back, okay?#$b#I really want your input on my songs once I am back afterall!",
+	"Event.CoolGalBernadette8HeartsPart2.IllLetYouKnow": "Here, I'll let you know when I am back, okay?#$b#I really want your input on my songs once I am back after all!",
 	"Event.CoolGalBernadette8HeartsPart2.SeeYa": "See ya!",
 	
 	// 10 HEARTS EVENT BERNADETTE
 	"Event.CoolGalBernadette10Hearts.LooksLike": "%Looks like Bernadette has been jumping over her shadow and is performing here at the Saloon!",
 	"Event.CoolGalBernadette10Hearts.ThankYou": "Thanks everyone for the great time!#$b#It was really fun to play a few songs here at the Saloon! Thank you Gus for havin me.$1",
 	"Event.CoolGalBernadette10Hearts.GusThanks": "You're welcome, Bernadette! Your music brought some fresh air into this old and rustic Saloon.$1",
-	"Event.CoolGalBernadette10Hearts.SamRadical": "Dude, I loved your interpretion of our song!",
+	"Event.CoolGalBernadette10Hearts.SamRadical": "Dude, I loved your interpretation of our song!",
 	"Event.CoolGalBernadette10Hearts.EmilyAgree": "Oh yes, the strong bass had really nice vibrations. I can see myself meditating to it!",
 	"Event.CoolGalBernadette10Hearts.AbbyAgree": "Radical!",
 	"Event.CoolGalBernadette10Hearts.ElliottAgree": "Splendid words!",
 	"Event.CoolGalBernadette10Hearts.Shy": "Oh my, you all make me shy, hehe!$1#$b#You all are really nice, I'd love to have another session at the Saloon!#$b#%Bernadette raises her arms and does the devil's horn gesture with a big grin.",
 	"Event.CoolGalBernadette10Hearts.LetsJam": "Let's jam!",
 	"Event.CoolGalBernadette10Hearts.NiceEnd": "%Everyone looks like they had a great time. Hopefully this is Bernadette's first step towards her new life.",
+	
+	// 10 HEARTS EVENT BERNADETTE PART 2
+	"Event.CoolGalBernadette10HeartsPart2.Jamming": "...Heck yeah, these are some good tunes, heh.",
+	"Event.CoolGalBernadette10HeartsPart2.Thinking": "Hm, maybe I can add some long solo in the middle of the song...",
+	"Event.CoolGalBernadette10HeartsPart2.Dad": "Dad?!",
+	"Event.CoolGalBernadette10HeartsPart2.HeyBern": "Hey, Bern, long time no see!$1#$b#Thought I'd drop by...just talking on the phone and all felt kinda lame, hah.",
+	"Event.CoolGalBernadette10HeartsPart2.Happy": "Oh, that's rad.$1#$b#I always wanted to invite you but I didn't want to disturb your travels.",
+	"Event.CoolGalBernadette10HeartsPart2.Nonsense": "Nonsense. How can my little Bern ever disturb me?#$b#Ah, it would be so nice to be able to just teleport here whenever I want, hah!$1",
+	"Event.CoolGalBernadette10HeartsPart2.Tunes": "Now, come here, Bern. I've listened to your tunes from the outside, how about we celebrate this reunion with some good jam?$1",
+	"Event.CoolGalBernadette10HeartsPart2.Visiting": "Armand will now visit the island occasionally.",
+	"Event.CoolGalBernadette10HeartsPart2.WORD": "WORD",
+	"Event.CoolGalBernadette10HeartsPart2.WORD": "WORD",
 	
 	// INTRO EVENT BARNABAS
 	"Event.SeaDudeBarnabasIntro.HiThere": "Oh? Hello!#$b#You're new here, aren't'cha?$1",
@@ -366,12 +379,12 @@
 	// 2 HEARTS EVENT BARNABAS
 	"Event.SeaDudeBarnabas2Hearts.Greetings": "Oh! Hi there, @!$1#$b#I see you're craving the lushness of the forest today, eh?",
 	"Event.SeaDudeBarnabas2Hearts.FlowerCart": "Ah!#$b#That's a flower cart over there, you can take a flower if you want.$1",
-	"Event.SeaDudeBarnabas2Hearts.HaveThis": "Here, take one.$1#$b#Hehe, you know...I made this cart. I was asked to make it so passerbys can take a flower without needlessly disturbing the surrounding ones growing in the wild.#$b#I like it when people come to me and ask for help. I really enjoy helping.$3#$b#There's just...I don't know. It just really warms my heart knowing that I can help making others feel better.#$b#It doesnt matter if it's growing something, crafting or building...I do it all. I think it's important to make sure that your community is safe, happy and has everything they need.$3",
+	"Event.SeaDudeBarnabas2Hearts.HaveThis": "Here, take one.$1#$b#Hehe, you know...I made this cart. I was asked to make it so passersby can take a flower without needlessly disturbing the surrounding ones growing in the wild.#$b#I like it when people come to me and ask for help. I really enjoy helping.$3#$b#There's just...I don't know. It just really warms my heart knowing that I can help making others feel better.#$b#It doesnt matter if it's growing something, crafting or building...I do it all. I think it's important to make sure that your community is safe, happy and has everything they need.$3",
 	"Event.SeaDudeBarnabas2Hearts.GoVisit": "...$8#$b#...hm.$8",
 	"Event.SeaDudeBarnabas2Hearts.ImSerious": "...$8#$b#...ah! Um!$7#$b#...you know what? I think you'll really, um...up ahead there's a passageway to a cove. You might wanna take a look there.#$b#I'll go and collect some more forage now, see you around!$1",
 	
 	// 4 HEARTS EVENT BARNABAS
-	"Event.SeaDudeBarnabas4Hearts.BeeHouse": "...just a few more...#$b#...#$b#...there we go!$1#Now the beehouses are all fixed up and running again!$3#$b#Hm...let's see what else is on my list today...I think I gotta fix the fence over there a bit.",
+	"Event.SeaDudeBarnabas4Hearts.BeeHouse": "...just a few more...#$b#...#$b#...there we go!$1#Now the bee houses are all fixed up and running again!$3#$b#Hm...let's see what else is on my list today...I think I gotta fix the fence over there a bit.",
 	"Event.SeaDudeBarnabas4Hearts.LookingGoodFence": "Hehe, this is looking good!$1#$b#The damage is minimal so I don't have to do that much luckily.",
 	"Event.SeaDudeBarnabas4Hearts.ThankYou": "Thank you for coming by so fast, Barnabas. I tried fixing it myself but it somehow only made it worse, haha.",
 	"Event.SeaDudeBarnabas4Hearts.NoProblem": "No problem! I was in the general area anyway so I thought I'd just drop by.$1#$b#...#$b#...actually this isn't too bad. This piece over here just got lodged behind the other really weirdly, that's why it just looks so wack right now. Nothing I can't fix.#$b'...#$b#Aha! And there we go...the bed's as good as new!$3",
@@ -385,7 +398,7 @@
 	// 6 HEARTS EVENT BARNABAS
 	"Event.SeaDudeBarnabas6Hearts.AhHello": "Ah, hello, @...$7#$b#...$7#$b#...sorry, you caught me at a bad time.$8",
 	"Event.SeaDudeBarnabas6Hearts.Sigh": "...$8#$b#...sigh.$7#$b#...ah, I'm just-...$8",
-	"Event.SeaDudeBarnabas6Hearts.Statue": "...do you see this statue here, @?$7#$b#It is one I have carved myself. Maybe you guessed that already though.$8#$b#This statue-...$7#$b#...$8#$b#...$7#$b#...$1#$b#...$8#$b#...I always try to be a strong person. Someone people can look up to and depend on. Sometimes it's hard though...$8#$b#Strong, capable, talented...things a leader should be. Being charismatic enough so people want to follow you and put their trust into you.#$b#Being the pillar that holds everything up that nothing can destroy-$3#$b#...$8#$b#...until you're suddenly gone afterall.$8",
+	"Event.SeaDudeBarnabas6Hearts.Statue": "...do you see this statue here, @?$7#$b#It is one I have carved myself. Maybe you guessed that already though.$8#$b#This statue-...$7#$b#...$8#$b#...$7#$b#...$1#$b#...$8#$b#...I always try to be a strong person. Someone people can look up to and depend on. Sometimes it's hard though...$8#$b#Strong, capable, talented...things a leader should be. Being charismatic enough so people want to follow you and put their trust into you.#$b#Being the pillar that holds everything up that nothing can destroy-$3#$b#...$8#$b#...until you're suddenly gone after all.$8",
 	"Event.SeaDudeBarnabas6Hearts.MyFather": "...my father was a great man.$7#$b#A great king...and a great father.#$b#In the end he sacrificed himself for his people. And...I miss him a lot. I want to follow his footsteps and be a pillar for those who are weak and need shelter, those who ask for guidance, for help...#$b#...$8#$b#But sometimes...I do wonder if I am doing well. If I am good enough.$8",
 	"Event.SeaDudeBarnabas6Hearts.QQ1": "Don't worry too much about it. I think you're doing a great job.",
 	"Event.SeaDudeBarnabas6Hearts.QQ2": "You're a grown man crying over his dead father. I think you're making a fool of yourself.",
@@ -414,9 +427,9 @@
 	
 	// 10 HEARTS EVENT BARNABAS
 	"Event.SeaDudeBarnabas10Hearts.HowItsDone": "...and that's how I fixed the old petrified tree on the island.$1#$b#Enough of that though! Today we showed quite a few things, like how to easily repair your roof.",
-	"Event.SeaDudeBarnabas10Hearts.ThatsRight": "That's right! changing a few roof tiles is not so hard once you get the hang of it afterall!",
+	"Event.SeaDudeBarnabas10Hearts.ThatsRight": "That's right! changing a few roof tiles is not so hard once you get the hang of it after all!",
 	"Event.SeaDudeBarnabas10Hearts.RoofTile": "Yeah and the old tiles can easily be used for some cool art projects! $1",
-	"Event.SeaDudeBarnabas10Hearts.PaintRoofTile": "Oh! Can I paint on a rooftile when we get home, aunt Marnie?",
+	"Event.SeaDudeBarnabas10Hearts.PaintRoofTile": "Oh! Can I paint on a roof tile when we get home, aunt Marnie?",
 	"Event.SeaDudeBarnabas10Hearts.Maybe": "Hm, maybe...",
 	"Event.SeaDudeBarnabas10Hearts.YeahaNd": "Y-yeah, and, uh...sharpening your tools...yeah, we also talked about that, um.",
 	"Event.SeaDudeBarnabas10Hearts.ThatsRight2": "That's right!$1#$b#With taking proper care of your tools you'll give them a much longer life, hehe!",
@@ -448,4 +461,37 @@
 	"Event.GamayunSpecialOrderEnd.Artifact3": "Each artifact has a story to tell...#$b#Like this prismatic pearl for example. Pearls are created by mollusks as a defense mechanism, they coat an irritant like a foreign particle or a parasite, with layers of nacre. Nacre is a calcium carbonate substance.#$b#All of that is to soothe the irritation.#$b#Nowadays people tend to artificially insert some sort of irritant to start the pearl culturing...",
 	"Event.GamayunSpecialOrderEnd.Artifact4": "This one, however, stems from our oceans. Long, long ago when our former king sacrificed himself...#$b#...the irritant that let even the nacre take this specific prismatic color is a corruption we still suffer from even today.#$b#Well, that is a story for different times though.",
 	"Event.GamayunSpecialOrderEnd.Artifact5": "One cannot thank you enough for this, @. May luck and joy be on your side.",
+	
+	// EXTRA EVENT
+	"Event.HomeworkShenanigans.Hemlock1": "...so...#$b#...I'm sure we can figure out this problem together. I don't think Gamayun would give you a task that is too hard to solve, hm...",
+	"Event.HomeworkShenanigans.Hemlock2": "Oh!#$b#Hey there, @! Fancy seeing you here!$1",
+	"Event.HomeworkShenanigans.Moss1": ".................",
+	"Event.HomeworkShenanigans.Hemlock3": "Hm? Oh!#$b#Moss just got some homework to do and I am trying to help him!$1#$b#...you see, this task in particular is pretty complicated for someone his age so he asked me to help.#$b#......$2",
+	"Event.HomeworkShenanigans.Hemlock4": "Hey, Moss...why does this signature of Gamayun kinda look fa-...#$b#.......$5",
+	"Event.HomeworkShenanigans.Hemlock5": "That little-...$3",
+	
+	"Event.TeaTime.Caroline": "Oh! Hello there, @. It's nice to see you here.#$b#I was just having a little chat with Constance about tea.",
+	"Event.TeaTime.Constance": "Mhm, aye.#$b#We've been having meet-ups like this regularly and it's quite nice.#$b#There's things that are hard to convey with mere letters.",
+	"Event.TeaTime.Caroline1": "Agreed!$1#$b#Nothing beats chatting in person with a cup of tea after all.",
+	"Event.TeaTime.Constance1": "Well, since yer here already, how about a cuppa for ye too?",
+	"Event.TeaTime.Caroline2": "Yes, you're always welcome to join us.$1",
+	"Event.TeaTime.Constance2": "Look at ye, seems like ye were darn thirsty, aye?$1",
+	"Event.TeaTime.TeaTime": "You leave with the warm thoughts of knowing that things feel right in the valley.",
+	
+	"Event.MomTroubles.Morvenna": "If I just...",
+	"Event.MomTroubles.Morvenna1": "...ah, but then...",
+	"Event.MomTroubles.Morvenna2": "Who am I kidding...$3#$b#...I got Hemlock keeping Moss busy but the workload is too big for one person...$1#$b#...how am I supposed to finish this all for the meet-up?$7",
+	"Event.MomTroubles.Morvenna3": "Y-you-!",
+	"Event.MomTroubles.Cecilia": "Hoho, I see you're running around like a headless chicken again.$1#$b#Why not ask us for some help?",
+	"Event.MomTroubles.Amalthea": "Mhm, to be honest I was just out and about wondering what to do while Melia was busy...seems like this is a call for action.",
+	"Event.MomTroubles.Amalthea1": "Mom powers activate!",
+	"Event.MomTroubles.WORD": "WORD",
+	"Event.NAME.WORD": "WORD",
+	"Event.NAME.WORD": "WORD",
+	"Event.NAME.WORD": "WORD",
+	"Event.NAME.WORD": "WORD",
+	"Event.NAME.WORD": "WORD",
+	"Event.NAME.WORD": "WORD",
+	"Event.NAME.WORD": "WORD",
+	"Event.NAME.WORD": "WORD",
 }

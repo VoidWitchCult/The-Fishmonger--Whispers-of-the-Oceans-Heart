@@ -27,7 +27,10 @@
 				"GreenRainFinished": "{{i18n:Loaf.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Loaf.Dialogue.GreenRain2}}", //Year 2 Green Rain
 				"AcceptGift_(O)StardropTea": "{{i18n:Loaf.Dialogue.StardropTea}}",
-				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Loaf.ITEM}}",
+				"AcceptGift_(O)Moss": "{{i18n:Loaf.Dialogue.Moss}}",
+				"AcceptGift_(O)MossSoup": "{{i18n:Loaf.Dialogue.MossSoup}}",
+				"AcceptGift_(O)394": "{{i18n:Loaf.Dialogue.RainbowShell}}",
+				"AcceptGift_(O)766": "{{i18n:Loaf.Dialogue.Slime}}",
 				
 				// 1ST OF SEASON DIALOGUE
 				"spring_1": "{{i18n:Loaf.Dialogue.spring_1}}",

@@ -2033,6 +2033,70 @@
 				"
 			},
 		},
+		{
+			"LogName": "Fishmonger - Bernadette 10 Hearts event",
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_LostIsland_CoolGalHome",
+			"Entries": {
+				"{{ModID}}_CoolGalBernadette10HeartsPart2/f {{ModID}}_CoolGalBernadette 1000/e {{ModID}}_Constance6Hearts/e {{ModID}}_CoolGalBernadette10Hearts": "
+				sampractice/
+				-1000 -1000/
+				farmer -2000 -2000 0 {{ModID}}_CoolGalBernadette 18 5 2 {{ModID}}_CoolDadArmand -1000 -1000 0/
+				animate {{ModID}}_CoolGalBernadette false true 200 28 28 29 29/
+				skippable/
+				viewport 11 11 clamp true/
+				pause 500/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette10HeartsPart2.Jamming}}\"/
+				pause 800/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette10HeartsPart2.Thinking}}\"/
+				pause 1200/
+				emote {{ModID}}_CoolGalBernadette 32/
+				pause 1500/
+				playSound stoneStep/
+				pause 200/
+				playSound stoneStep/
+				pause 800/
+				emote {{ModID}}_CoolGalBernadette 8/
+				pause 1500/
+				stopAnimation {{ModID}}_CoolGalBernadette 28/
+				pause 600/
+				playSound doorClose/
+				warp {{ModID}}_CoolDadArmand 21 9/faceDirection {{ModID}}_CoolDadArmand 0/
+				pause 600/
+				emote {{ModID}}_CoolGalBernadette 16/
+				pause 1200/
+				jump {{ModID}}_CoolGalBernadette 2/
+				pause 600/
+				PlayMusic starshoot/
+				textAboveHead {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette10HeartsPart2.Dad}}\"/
+				pause 1200/
+				move {{ModID}}_CoolDadArmand 0 -3 0/move {{ModID}}_CoolDadArmand -1 0 3/
+				pause 300/
+				speak {{ModID}}_CoolDadArmand \"{{i18n:Event.CoolGalBernadette10HeartsPart2.HeyBern}}\"/
+				pause 600/
+				emote {{ModID}}_CoolGalBernadette 32/
+				pause 1200/
+				speak {{ModID}}_CoolGalBernadette \"{{i18n:Event.CoolGalBernadette10HeartsPart2.Happy}}\"/
+				pause 600/
+				speak {{ModID}}_CoolDadArmand \"{{i18n:Event.CoolGalBernadette10HeartsPart2.Nonsense}}\"/
+				pause 600/
+				move {{ModID}}_CoolDadArmand 0 -1 3/
+				pause 600/
+				speak {{ModID}}_CoolDadArmand \"{{i18n:Event.CoolGalBernadette10HeartsPart2.Tunes}}\"/
+				pause 400/
+				playMusic heavy/
+				showFrame {{ModID}}_CoolDadArmand 18/
+				pause 600/
+				emote {{ModID}}_CoolGalBernadette 32/
+				pause 1200/
+				animate {{ModID}}_CoolGalBernadette false true 200 28 28 29 29/
+				animate {{ModID}}_CoolDadArmand false true 190 18 18 19 19/
+				message \"{{i18n:Event.CoolGalBernadette10HeartsPart2.Visiting}}\"/
+				pause 800/
+				globalFade/viewport -1000 -1000/pause 600/end
+				"
+			},
+		},
 		//==============================================================================================
 		//==== BARNABAS ==============================================================================
 		//==============================================================================================
@@ -2719,7 +2783,7 @@
 				"
 			},
 		},
-		
+		// SPECIAL ORDERS
 		{
 			"LogName": "Fishmonger - Gamayun Special Order start event",
 			"Action": "EditData",
@@ -2803,6 +2867,198 @@
 				speak {{ModID}}_LibrarianGamayun \"{{i18n:Event.GamayunSpecialOrderEnd.Artifact5}}\"/
 				pause 200/
 				emote farmer 20/
+				pause 800/
+				globalFade/viewport -1000 -1000/pause 600/end
+				"
+			},
+		},
+		// EXTRA EVENTS
+		{
+			"LogName": "Fishmonger - Moss tricks Hemlock into doing his homework",
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_LostIsland_Library",
+			"Entries": {
+				"{{ModID}}_HomeworkShenanigans/e {{ModID}}_Constance6Hearts/Friendship {{ModID}}_MermanKidMoss 4": "
+				night_market/
+				-1000 -1000/
+				farmer 30 33 3 {{ModID}}_MermanKidMoss 10 48 0 {{ModID}}_AnglerfishGuyHemlock 12 47 3/
+				showFrame {{ModID}}_AnglerfishGuyHemlock 25/
+				skippable/
+				move farmer -18 0 2 true/
+				viewport 10 50 clamp true/
+				pause 400/
+				speak {{ModID}}_AnglerfishGuyHemlock \"{{i18n:Event.HomeworkShenanigans.Hemlock1}}\"/
+				pause 800/
+				emote farmer 8/
+				pause 1200/
+				move farmer 0 11 2/
+				pause 600/
+				emote {{ModID}}_AnglerfishGuyHemlock 32/
+				pause 1200/
+				speak {{ModID}}_AnglerfishGuyHemlock \"{{i18n:Event.HomeworkShenanigans.Hemlock2}}\"/
+				pause 600/
+				speak {{ModID}}_MermanKidMoss \"{{i18n:Event.HomeworkShenanigans.Moss1}}\"/
+				pause 600/
+				emote farmer 8/
+				pause 1200/
+				speak {{ModID}}_AnglerfishGuyHemlock \"{{i18n:Event.HomeworkShenanigans.Hemlock3}}\"/
+				pause 600/
+				move {{ModID}}_MermanKidMoss -1 0 0/
+				move {{ModID}}_MermanKidMoss 0 -10 1/
+				emote farmer 40/
+				pause 600/
+				move {{ModID}}_MermanKidMoss 1 0 1 true/
+				emote {{ModID}}_AnglerfishGuyHemlock 12/
+				pause 600/
+				move {{ModID}}_MermanKidMoss 0 -5 1/
+				faceDirection farmer 0/
+				pause 800/
+				move {{ModID}}_MermanKidMoss 30 0 1 true/
+				faceDirection farmer 2/
+				pause 400/
+				speak {{ModID}}_AnglerfishGuyHemlock \"{{i18n:Event.HomeworkShenanigans.Hemlock4}}\"/
+				pause 400/
+				faceDirection {{ModID}}_AnglerfishGuyHemlock 2/
+				pause 400/
+				faceDirection {{ModID}}_AnglerfishGuyHemlock 0/
+				pause 400/
+				startJittering/
+				pause 400/
+				stopJittering/
+				speak {{ModID}}_AnglerfishGuyHemlock \"{{i18n:Event.HomeworkShenanigans.Hemlock5}}\"/
+				pause 800/
+				globalFade/viewport -1000 -1000/pause 600/end
+				"
+			},
+		},
+		{
+			"LogName": "Fishmonger - Constance has teatime with Caroline",
+			"Action": "EditData",
+			"Target": "Data/Events/SunRoom",
+			"Entries": {
+				"{{ModID}}_TeaTime/e {{ModID}}_Constance6Hearts/Friendship {{ModID}}_TheFishmonger 8": "
+				SunRoom/
+				-1000 -1000/
+				farmer -500 -500 0 Caroline 5 7 1 {{ModID}}_TheFishmonger 3 8 1/
+				specificTemporarySprite sunroom/
+				skippable/
+				viewport 5 8 true/
+				pause 400/
+				pause 1000/
+				showFrame Caroline 22/
+				doAction 6 7/
+				pause 500/
+				doAction 6 7/
+				pause 1000/
+				showFrame Caroline 4/
+				pause 500/
+				warp farmer 5 13/
+				playSound doorClose/
+				move farmer 0 -4 0/
+				faceDirection Caroline 2/
+				speak Caroline \"{{i18n:Event.TeaTime.Caroline}}\"/
+				pause 400/
+				emote {{ModID}}_TheFishmonger 32/
+				pause 1200/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.TeaTime.Constance}}\"/
+				pause 600/
+				emote Caroline 20/
+				pause 1200/
+				speak Caroline \"{{i18n:Event.TeaTime.Caroline1}}\"/
+				pause 800/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.TeaTime.Constance1}}\"/
+				pause 600/
+				speak Caroline \"{{i18n:Event.TeaTime.Caroline2}}\"/
+				pause 400/
+				farmerEat 614/
+				pause 800/
+				faceDirection farmer 0 true/
+				speak {{ModID}}_TheFishmonger \"{{i18n:Event.TeaTime.Constance2}}\"/
+				playSound coin/
+				showFrame Caroline 20/
+				pause 1000/
+				playSound sipTea/
+				showFrame Caroline 21/
+				pause 500/
+				showFrame Caroline 20/
+				pause 500/
+				playSound sipTea/
+				showFrame Caroline 21/
+				animate {{ModID}}_TheFishmonger false true 300 24 25 26/
+				pause 500/
+				showFrame Caroline 20/
+				stopAnimation {{ModID}}_TheFishmonger/
+				showFrame {{ModID}}_TheFishmonger 24/
+				pause 500/
+				playSound gulp/
+				pause 1000/
+				message \"{{i18n:Event.TeaTime.TeaTime}}\"/
+				pause 800/
+				globalFade/viewport -1000 -1000/pause 600/end warpOut
+				"
+			},
+		},
+		{
+			"LogName": "Fishmonger - Morvenna tries to handle tasks alone, gets help from the other moms",
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModID}}_LostIsland_AnglerGuyHome",
+			"Entries": {
+				"{{ModID}}_MomTroubles/e {{ModID}}_Constance6Hearts/Friendship {{ModID}}_SelkieMomMorvenna 4": "
+				clubloop/
+				-1000 -1000/
+				farmer -500 -500 0 {{ModID}}_SelkieMomMorvenna 8 13 0 {{ModID}}_MermaidMomAmalthea -500 -500 0 {{ModID}}_BraidedMermaidCecilia -500 -500 0/
+				skippable/
+				viewport 4 19 true/
+				pause 400/
+				move {{ModID}}_SelkieMomMorvenna -1 0 0/
+				pause 400/
+				move {{ModID}}_SelkieMomMorvenna -4 0 0/
+				pause 400/
+				move {{ModID}}_SelkieMomMorvenna 1 0 0/
+				pause 400/
+				emote {{ModID}}_SelkieMomMorvenna 12/
+				pause 800/
+				playSound slime/
+				pause 200/
+				playSound slime/
+				pause 200/
+				textAboveHead {{ModID}}_SelkieMomMorvenna \"{{i18n:Event.MomTroubles.Morvenna}}\"/
+				pause 800/
+				move {{ModID}}_SelkieMomMorvenna 1 0 0/
+				pause 400/
+				textAboveHead {{ModID}}_SelkieMomMorvenna \"{{i18n:Event.MomTroubles.Morvenna1}}\"/
+				pause 1200/
+				speak {{ModID}}_SelkieMomMorvenna \"{{i18n:Event.MomTroubles.Morvenna2}}\"/
+				pause 800/
+				shake {{ModID}}_SelkieMomMorvenna 20/
+				pause 600/
+				playSound doorClose/
+				pause 200/
+				warp {{ModID}}_MermaidMomAmalthea 11 26/
+				advancedMove {{ModID}}_MermaidMomAmalthea false 0 -7 -5 0 0 -4 4 100/
+				warp {{ModID}}_BraidedMermaidCecilia 11 26/
+				advancedMove {{ModID}}_BraidedMermaidCecilia false 0 -7 -5 0 0 -3 -1 0 4 100/
+				waitForAllStationary/
+				pause 200/
+				faceDirection {{ModID}}_SelkieMomMorvenna 2/
+				pause 400/
+				jump {{ModID}}_SelkieMomMorvenna 2/
+				pause 600/
+				textAboveHead {{ModID}}_SelkieMomMorvenna \"{{i18n:Event.MomTroubles.Morvenna3}}\"/
+				pause 1200/
+				emote {{ModID}}_BraidedMermaidCecilia 32/
+				pause 1200/
+				speak {{ModID}}_BraidedMermaidCecilia \"{{i18n:Event.MomTroubles.Cecilia}}\"/
+				pause 400/
+				emote {{ModID}}_SelkieMomMorvenna 60/
+				pause 600/
+				speak {{ModID}}_MermaidMomAmalthea \"{{i18n:Event.MomTroubles.Amalthea}}\"/
+				move {{ModID}}_SelkieMomMorvenna 0 1 2/
+				pause 400/
+				textAboveHead {{ModID}}_MermaidMomAmalthea \"{{i18n:Event.MomTroubles.Amalthea1}}\"/
+				emote {{ModID}}_SelkieMomMorvenna 32/
+				pause 600/
+				emote {{ModID}}_BraidedMermaidCecilia 20/
 				pause 800/
 				globalFade/viewport -1000 -1000/pause 600/end
 				"

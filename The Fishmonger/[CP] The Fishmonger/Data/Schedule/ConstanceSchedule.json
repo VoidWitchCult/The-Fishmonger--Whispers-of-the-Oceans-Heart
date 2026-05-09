@@ -62,17 +62,22 @@
             "Target": "Characters/Schedules/{{ModID}}_TheFishmonger",
             "Entries": {
 				//Visits Willy and then goes to chill at the squidfest
+				"SquidFest": "
+				610 FishShop 8 6 2/
+				615 Beach 32 34 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.squidfest.000\"/
+				630 Beach 35 36 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.squidfest.001\"
+				",
 				"SquidFest_1": "
-				610 FishShop 8 6/
-				615 Beach 32 34 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.squidfest.000\"/
-				630 Beach 35 36 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.squidfest.001\"
+				610 FishShop 8 6 2/
+				615 Beach 32 34 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.squidfest.000\"/
+				630 Beach 35 36 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.squidfest.001\"
 				",
 				"SquidFest_2": "GOTO SquidFest_1",
 				//Visits Willy and chills at the troutderby
 				"TroutDerby_1": "
-				610 FishShop 8 6/
-				630 Beach 32 34 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.troutderby.000\"/
-				700 Forest 71 50 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.troutderby.001\"
+				610 FishShop 8 6 2/
+				630 Beach 32 34 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.troutderby.000\"/
+				700 Forest 71 50 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.troutderby.001\"
 				",
 				"TroutDerby_2": "GOTO TroutDerby_1",
             },

@@ -8,7 +8,27 @@
 				//==============================================================================================
 				//==== SEEDS ===================================================================================
 				//==============================================================================================
-                "{{ModID}}_bloodstainedroseseeds": {
+                "{{ModID}}_mixedseeds": {
+                    "Name": "{{ModID}}_mixedseeds",
+                    "Displayname": "{{i18n:mixedseeds.name}}",
+                    "Description": "{{i18n:mixedseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 300,
+					"CustomFields": {
+						"mistyspring.ItemExtensions/MixedSeeds": "{{ModID}}_bloodstainedroseseeds {{ModID}}_freshdillseeds {{ModID}}_fisheyebeansseeds {{ModID}}_halcyonflowerseeds {{ModID}}_spicymustardseeds {{ModID}}_oceanflaxseeds {{ModID}}_petrichorseeds {{ModID}}_saltemmerseeds {{ModID}}_scallureseeds {{ModID}}_sunsetroseseeds"
+					},
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 160,
+					"ContextTags": [
+                        "season_spring",
+						"season_summer",
+						"season_fall",
+						"season_winter",
+						"VWC_fishmonger_item"
+					]
+				},
+				"{{ModID}}_bloodstainedroseseeds": {
                     "Name": "{{ModID}}_bloodstainedroseseeds",
                     "Displayname": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.bloodstainedrose.name}}",
                     "Description": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.bloodstainedrose.description}}",
@@ -1160,13 +1180,15 @@
                     "Price": 350,
                     "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
                     "SpriteIndex": 69,
-                    "Buffs": [{
-                        "Duration": 300,
-                        "CustomAttributes": {
-							"MiningLevel": 2,
-							"LuckLevel": 2,
+                    "Buffs": [
+						{
+							"Duration": 300,
+							"CustomAttributes": {
+								"MiningLevel": 2,
+								"LuckLevel": 2,
+							}
 						}
-					}],
+					],
                     "IsDrink": false,
 					"ContextTags": [
 						"color_purple",
@@ -1194,6 +1216,295 @@
 					"ContextTags": [
 						"color_pink",
 						"food_sweet",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_SteamedFish": {
+                    "Name": "{{ModID}}_SteamedFish",
+                    "DisplayName": "{{i18n:SteamedFish.Name}}",
+                    "Description": "{{i18n:SteamedFish.Description}}",
+                    "Edibility": "35",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 161,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_purple",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_CodandPrawnpie": {
+                    "Name": "{{ModID}}_CodandPrawnpie",
+                    "DisplayName": "{{i18n:CodandPrawnpie.Name}}",
+                    "Description": "{{i18n:CodandPrawnpie.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 162,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_brown",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_Fishfingers": {
+                    "Name": "{{ModID}}_Fishfingers",
+                    "DisplayName": "{{i18n:Fishfingers.Name}}",
+                    "Description": "{{i18n:Fishfingers.Description}}",
+                    "Edibility": "25",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 163,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_orange",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_Coconutfishcurry": {
+                    "Name": "{{ModID}}_Coconutfishcurry",
+                    "DisplayName": "{{i18n:Coconutfishcurry.Name}}",
+                    "Description": "{{i18n:Coconutfishcurry.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 164,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_white",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_Kedgeree": {
+                    "Name": "{{ModID}}_Kedgeree",
+                    "DisplayName": "{{i18n:Kedgeree.Name}}",
+                    "Description": "{{i18n:Kedgeree.Description}}",
+                    "Edibility": "50",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 165,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_yellow",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_Tunasweetcornburger": {
+                    "Name": "{{ModID}}_Tunasweetcornburger",
+                    "DisplayName": "{{i18n:Tunasweetcornburger.Name}}",
+                    "Description": "{{i18n:Tunasweetcornburger.Description}}",
+                    "Edibility": "35",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 166,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_brown",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_Basswithsizzledginger": {
+                    "Name": "{{ModID}}_Basswithsizzledginger",
+                    "DisplayName": "{{i18n:Basswithsizzledginger.Name}}",
+                    "Description": "{{i18n:Basswithsizzledginger.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 167,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_red",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_Honeyandorangeroastbass": {
+                    "Name": "{{ModID}}_Honeyandorangeroastbass",
+                    "DisplayName": "{{i18n:Honeyandorangeroastbass.Name}}",
+                    "Description": "{{i18n:Honeyandorangeroastbass.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 168,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_orange",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_Winepoachedhalibut": {
+                    "Name": "{{ModID}}_Winepoachedhalibut",
+                    "DisplayName": "{{i18n:Winepoachedhalibut.Name}}",
+                    "Description": "{{i18n:Winepoachedhalibut.Description}}",
+                    "Edibility": "75",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 400,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 169,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_pink",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_SmokedfishHash": {
+                    "Name": "{{ModID}}_SmokedfishHash",
+                    "DisplayName": "{{i18n:SmokedfishHash.Name}}",
+                    "Description": "{{i18n:SmokedfishHash.Description}}",
+                    "Edibility": "35",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 170,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_brown",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_CuredSalmoncreamsalad": {
+                    "Name": "{{ModID}}_CuredSalmoncreamsalad",
+                    "DisplayName": "{{i18n:CuredSalmoncreamsalad.Name}}",
+                    "Description": "{{i18n:CuredSalmoncreamsalad.Description}}",
+                    "Edibility": "45",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 171,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_red",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_Panfriedfishbeetrootsalsa": {
+                    "Name": "{{ModID}}_Panfriedfishbeetrootsalsa",
+                    "DisplayName": "{{i18n:Panfriedfishbeetrootsalsa.Name}}",
+                    "Description": "{{i18n:Panfriedfishbeetrootsalsa.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 172,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_red",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_Salmonleekpastry": {
+                    "Name": "{{ModID}}_Salmonleekpastry",
+                    "DisplayName": "{{i18n:Salmonleekpastry.Name}}",
+                    "Description": "{{i18n:Salmonleekpastry.Description}}",
+                    "Edibility": "35",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 173,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_yellow",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_Codcarrotpilaf": {
+                    "Name": "{{ModID}}_Codcarrotpilaf",
+                    "DisplayName": "{{i18n:Codcarrotpilaf.Name}}",
+                    "Description": "{{i18n:Codcarrotpilaf.Description}}",
+                    "Edibility": "55",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 174,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_yellow",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_Smokedfishpate": {
+                    "Name": "{{ModID}}_Smokedfishpate",
+                    "DisplayName": "{{i18n:Smokedfishpate.Name}}",
+                    "Description": "{{i18n:Smokedfishpate.Description}}",
+                    "Edibility": "55",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 175,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_beige",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_Cioppino": {
+                    "Name": "{{ModID}}_Cioppino",
+                    "DisplayName": "{{i18n:Cioppino.Name}}",
+                    "Description": "{{i18n:Cioppino.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 176,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_red",
+						"food_seafood",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_MushroomDustedHalibut": {
+                    "Name": "{{ModID}}_MushroomDustedHalibut",
+                    "DisplayName": "{{i18n:MushroomDustedHalibut.Name}}",
+                    "Description": "{{i18n:MushroomDustedHalibut.Description}}",
+                    "Edibility": "45",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 270,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 177,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_brown",
+						"food_seafood",
 						"VWC_fishmonger_item"
 					],
 				},
@@ -1539,7 +1850,8 @@
 						"not_placeable",
 						"ancient_item",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_EnchantedForest": 0.01,
@@ -1561,7 +1873,8 @@
 						"not_placeable",
 						"marine_item",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthernCliffs": 0.01,
@@ -1584,7 +1897,8 @@
 						"ancient_item",
 						"marine_item",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_PortMelodia": 0.01,
@@ -1606,7 +1920,8 @@
 						"not_placeable",
 						"ancient_item",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthEastQuarry": 0.01,
@@ -1628,7 +1943,8 @@
 						"not_placeable",
 						"marine_item",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_Orchard": 0.01,
@@ -1650,7 +1966,8 @@
 						"not_placeable",
 						"marine_item",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland": 0.01,
@@ -1671,7 +1988,8 @@
 						"color_orange",
 						"not_placeable",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_EnchantedForest": 0.01,
@@ -1693,7 +2011,8 @@
 						"not_placeable",
 						"ancient_item",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_Orchard": 0.01,
@@ -1715,7 +2034,8 @@
 						"not_placeable",
 						"ancient_item",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthEastQuarry": 0.01,
@@ -1738,7 +2058,8 @@
 						"not_placeable",
 						"ancient_item",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthernCliffs": 0.01,
@@ -1759,7 +2080,8 @@
 						"color_silver",
 						"not_placeable",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland": 0.01,
@@ -1781,7 +2103,8 @@
 						"not_placeable",
 						"ancient_item",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_PortMelodia": 0.01,
@@ -1802,7 +2125,8 @@
 						"color_pink",
 						"not_placeable",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland": 0.01,
@@ -1823,7 +2147,8 @@
 						"color_silver",
 						"not_placeable",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_Orchard": 0.01,
@@ -1844,7 +2169,8 @@
 						"color_pink",
 						"not_placeable",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_ForsakenCove": 0.01,
@@ -1866,7 +2192,8 @@
 						"not_placeable",
 						"ancient_item",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_PortMelodia": 0.01,
@@ -1887,7 +2214,8 @@
 						"color_gold",
 						"not_placeable",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_ForsakenCove": 0.01,
@@ -1909,7 +2237,8 @@
 						"not_placeable",
 						"ancient_item",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_Orchard": 0.01,
@@ -1930,7 +2259,8 @@
 						"color_purple",
 						"not_placeable",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_ForsakenCove": 0.01,
@@ -1952,7 +2282,8 @@
 						"not_placeable",
 						"ancient_item",
 						"VWC_fishmonger_item",
-						"VWC_artifact_item"
+						"VWC_artifact_item",
+						"not_museum_donatable"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthEastQuarry": 0.01,
@@ -2125,6 +2456,9 @@
 					"Type": "Basic",
 					"Category": -16,
 					"Price": 30000,
+					"CustomFields": {
+						"mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_ConsumeTrinket"
+					},
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
 					"SpriteIndex": 121,
 					"Buffs": [

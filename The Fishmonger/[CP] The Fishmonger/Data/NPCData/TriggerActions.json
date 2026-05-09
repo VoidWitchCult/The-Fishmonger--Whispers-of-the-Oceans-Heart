@@ -68,7 +68,7 @@
                     "Id": "{{ModID}}_FerretFurballTalk",
                     "Trigger": "DayEnding",
 					"Condition": "PLAYER_HEARTS Current {{ModID}}_TheFishmonger 6",
-                    "Action": "AddConversationTopic Current {{ModID}}_VWCConstance6HeartsEvent2"
+                    "Action": "AddConversationTopic Current {{ModID}}_VWCConstance6HeartsEvent2 10"
 				},
 				"{{ModID}}_Barnabas14HeartsEventCT": {
                     "Id": "{{ModID}}_Barnabas14HeartsEventCT",

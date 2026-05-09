@@ -27,8 +27,8 @@
 				"GreenRainFinished": "{{i18n:Godwyn.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Godwyn.Dialogue.GreenRain2}}", //Year 2 Green Rain
 				"AcceptGift_(O)StardropTea": "{{i18n:Godwyn.Dialogue.StardropTea}}",
-				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Godwyn.ITEM}}",
-				
+				"AcceptGift_(O)109": "{{i18n:Godwyn.Dialogue.AncientSword}}",
+				"AcceptGift_(O)166": "{{i18n:Godwyn.Dialogue.TreasureChest}}",		
 				
 				// 0 HEARTS DIALOGUE
 				"Mon": "{{i18n:Godwyn.Dialogue.{{Random: 0, 20}}}}",

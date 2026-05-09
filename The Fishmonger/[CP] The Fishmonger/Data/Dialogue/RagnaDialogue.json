@@ -27,7 +27,10 @@
 				"GreenRainFinished": "{{i18n:Ragna.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Ragna.Dialogue.GreenRain2}}", //Year 2 Green Rain
 				"AcceptGift_(O)StardropTea": "{{i18n:Ragna.Dialogue.StardropTea}}",
-				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Ragna.ITEM}}",
+				"AcceptGift_(O)82": "{{i18n:Ragna.Dialogue.FireQuartz}}",
+				"AcceptGift_category_arch": "{{i18n:Ragna.Dialogue.Artifacts}}",
+				"AcceptGift_category_minerals": "{{i18n:Ragna.Dialogue.Minerals}}",
+				"AcceptGift_category_gem": "{{i18n:Ragna.Dialogue.Gems}}",
 				
 				// 0 HEARTS DIALOGUE
 				"Mon": "{{i18n:Ragna.Dialogue.{{Random: 0, 20}}}}",

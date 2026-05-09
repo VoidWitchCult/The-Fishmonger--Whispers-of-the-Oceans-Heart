@@ -27,8 +27,9 @@
 				"GreenRainFinished": "{{i18n:Cecilia.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Cecilia.Dialogue.GreenRain2}}", //Year 2 Green Rain
 				"AcceptGift_(O)StardropTea": "{{i18n:Cecilia.Dialogue.StardropTea}}",
-				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Cecilia.ITEM}}",
-				
+				"AcceptGift_(O)Book_QueenOfSauce": "{{i18n:Cecilia.Dialogue.BookQueenOfSauce}}",
+				"AcceptGift_(O)Powdermelon": "{{i18n:Cecilia.Dialogue.Powdermelon}}",
+				"AcceptGift_(O)917": "{{i18n:Cecilia.Dialogue.QiSeasoning}}",				
 			
 				//HEARTS DIALOGUE
 				"Mon": "{{i18n:Cecilia.Dialogue.{{Random: 0, 20}}}}",

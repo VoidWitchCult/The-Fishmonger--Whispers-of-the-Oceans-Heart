@@ -27,7 +27,9 @@
 				"GreenRainFinished": "{{i18n:Anette.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Anette.Dialogue.GreenRain2}}", //Year 2 Green Rain
 				"AcceptGift_(O)StardropTea": "{{i18n:Anette.Dialogue.StardropTea}}",
-				"AcceptGift_(O){{ModID}}_ITEMAnette": "{{i18n:Anette.ITEMAnette}}",
+				"AcceptGift_(O)221": "{{i18n:Anette.Dialogue.PinkCake}}",
+				"AcceptGift_(O)428": "{{i18n:Anette.Dialogue.Cloth}}",
+				"AcceptGift_(O)Broccoli": "{{i18n:Anette.Dialogue.Broccoli}}",
 				
 				// 1ST OF SEASON DIALOGUE
 				"spring_1": "{{i18n:Anette.Dialogue.spring_1}}",

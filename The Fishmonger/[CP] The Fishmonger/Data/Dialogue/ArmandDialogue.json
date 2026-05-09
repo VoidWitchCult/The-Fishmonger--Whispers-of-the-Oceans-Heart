@@ -26,9 +26,11 @@
 				"Sun": "{{i18n:Armand.Dialogue.Sun.{{Random: 0, 2}}}}", 
 				
 				// Schedule dialogue
-				"{{ModID}}_Armand.lostisland.000": "{{i18n:Armand.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Armand.lostisland.001": "{{i18n:Armand.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Armand.lostisland.002": "{{i18n:Armand.Schedule.Dialogue.lostisland.002}}",
+				"Armand.lostisland.000": "{{i18n:Armand.Schedule.Dialogue.lostisland.000}}",
+				"Armand.lostisland.001": "{{i18n:Armand.Schedule.Dialogue.lostisland.001}}",
+				"Armand.lostisland.002": "{{i18n:Armand.Schedule.Dialogue.lostisland.002}}",
+				"Armand.lostisland.003": "{{i18n:Armand.Schedule.Dialogue.lostisland.003}}",
+				"Armand.lostisland.004": "{{i18n:Armand.Schedule.Dialogue.lostisland.004}}",
 			}
 		},
 	]

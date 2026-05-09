@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="16">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="26">
  <properties>
   <property name="LocationContext" value="VoidWitchCult.CP.TheFishmongerNPC_LostIslandPassOut"/>
   <property name="SeasonOverride" value="summer"/>
@@ -1724,12 +1724,12 @@
   <data encoding="csv">
 3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,
 3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3137,3137,3137,
-3137,0,0,0,0,0,0,0,0,0,0,0,3137,3137,3137,3137,3137,3137,3137,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3137,3137,3137,
-3137,0,0,0,0,0,0,0,0,0,0,0,3137,3137,3137,3137,3137,3137,3137,0,4198,4199,4198,4199,4198,4199,4017,4018,4019,4199,4198,3338,0,0,0,0,0,3137,3137,3137,
-3137,0,0,0,0,0,0,0,0,0,0,0,3137,3137,3137,3137,3137,3137,3137,3941,0,0,0,0,0,0,4049,4050,4051,0,0,0,0,0,0,3535,3536,3137,3137,3137,
-3137,0,3338,4145,4146,4147,3338,3338,3338,3338,3338,0,0,0,0,0,0,3137,3137,3941,0,3983,3984,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3137,3137,3137,
-3137,0,0,4177,4178,4179,0,3638,3639,0,0,0,0,0,0,0,0,3137,3137,3941,0,0,0,0,0,0,4113,4114,4115,0,0,0,0,0,0,0,0,3137,3137,3137,
-3137,0,0,0,0,0,0,4087,0,0,0,0,0,3338,3338,3338,3338,3137,3137,3941,0,0,0,0,0,0,0,0,0,0,0,0,0,3072,3293,3294,3295,3137,3137,3137,
+3137,0,0,0,0,0,0,0,0,0,0,3137,3137,3137,3137,3137,3137,3137,3137,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3137,3137,3137,
+3137,0,0,0,0,0,0,0,0,0,0,3137,3137,3137,3137,3137,3137,3137,3137,0,4198,4199,4198,4199,4198,4199,4017,4018,4019,4199,4198,3338,0,0,0,0,0,3137,3137,3137,
+3137,0,0,0,0,0,0,0,0,0,0,3137,3137,3137,3137,3137,3137,3137,3137,3941,0,0,0,0,0,0,4049,4050,4051,0,0,0,0,0,0,3535,3536,3137,3137,3137,
+3137,0,3338,4145,4146,4147,3338,3338,3338,3338,3338,3137,0,0,0,0,0,3137,3137,3941,0,3983,3984,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3137,3137,3137,
+3137,0,0,4177,4178,4179,0,3638,3639,0,0,3137,0,0,0,0,0,3137,3137,3941,0,0,0,0,0,0,4113,4114,4115,0,0,0,0,0,0,0,0,3137,3137,3137,
+3137,0,0,0,0,0,0,4087,0,0,0,3137,0,3338,3338,3338,3338,3137,3137,3941,0,0,0,0,0,0,0,0,0,0,0,0,0,3072,3293,3294,3295,3137,3137,3137,
 3137,0,0,4241,4242,4243,0,0,0,0,0,0,0,0,0,4207,4208,3137,3137,3941,0,0,0,0,0,0,0,0,0,0,0,0,3137,3137,3137,3137,3137,3137,3137,3137,
 3137,0,0,0,0,0,0,0,0,0,0,0,0,0,4239,0,0,3137,3137,3973,0,0,0,0,0,0,0,0,0,0,0,0,3137,3137,3137,3137,3137,3137,3137,3137,
 3137,0,3455,0,0,0,0,0,0,2996,2997,0,0,0,0,0,0,3137,3137,3137,3137,0,0,0,2996,2997,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,3137,
@@ -1933,7 +1933,58 @@
  <objectgroup id="6" name="Back"/>
  <objectgroup id="17" name="Back2"/>
  <objectgroup id="18" name="Back3"/>
- <objectgroup id="7" name="Buildings"/>
+ <objectgroup id="7" name="Buildings">
+  <object id="16" name="TileData" x="96" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.RoyalMermanHome.2&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="240" y="128" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.RoyalMermanHome.3&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="144" y="240" width="64" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.RoyalMermanHome.4&quot;"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="224" y="240" width="64" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.RoyalMermanHome.5&quot;"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="208" y="368" width="16" height="48">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.RoyalMermanHome.9&quot;"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="336" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.RoyalMermanHome.6&quot;"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="544" y="112" width="48" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.RoyalMermanHome.7&quot;"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="416" y="240" width="48" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.RoyalMermanHome.8&quot;"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="48" y="128" width="48" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.RoyalMermanHome.1&quot;"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="352" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Tailoring"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="8" name="Buildings2"/>
  <objectgroup id="15" name="Paths"/>
  <objectgroup id="9" name="Front"/>

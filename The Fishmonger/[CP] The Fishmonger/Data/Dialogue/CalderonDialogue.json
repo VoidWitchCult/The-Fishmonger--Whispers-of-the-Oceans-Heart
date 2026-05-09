@@ -27,7 +27,12 @@
 				"GreenRainFinished": "{{i18n:Calderon.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Calderon.Dialogue.GreenRain2}}", //Year 2 Green Rain
 				"AcceptGift_(O)StardropTea": "{{i18n:Calderon.Dialogue.StardropTea}}",
-				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Calderon.ITEM}}",
+				"AcceptGift_(O)MysticSyrup": "{{i18n:Calderon.Dialogue.MysticSyrup}}",
+				"AcceptGift_(O)MossSoup": "{{i18n:Calderon.Dialogue.MossSoup}}",
+				"AcceptGift_(O)MossySeed": "{{i18n:Calderon.Dialogue.MossySeed}}",
+				"AcceptGift_(O)Raisins": "{{i18n:Calderon.Dialogue.Dried}}",
+				"AcceptGift_(O)DriedFruit": "{{i18n:Calderon.Dialogue.Dried}}",
+				"AcceptGift_(O)DriedMushrooms": "{{i18n:Calderon.Dialogue.Dried}}",
 				
 				// 1ST OF SEASON DIALOGUE
 				"spring_1": "{{i18n:Calderon.Dialogue.spring_1}}",

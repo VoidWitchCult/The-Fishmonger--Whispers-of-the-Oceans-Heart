@@ -42,6 +42,7 @@
 		//==============================================================================================
 		//==== FORAGEABLES =============================================================================
 		//==============================================================================================
+		//Trigger a spawn group.
 		{
 			"Action": "EditData",
 			"Target": "Data/TriggerActions",
@@ -59,20 +60,20 @@
 					"Trigger": "DayStarted",
 					"MarkActionApplied": false,
 					"Actions": [
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_PainiteGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_LushForestineGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_ChalcanthiteGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_DichromaticTaaffeiteGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_OpalizedAmmoniteGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_TaintedSeaShardsGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_DeepseaDiamondGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_CrystallizedIchorGeodeGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_RealgarGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_GrandidieriteGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_QuarryGroup {{ModId}}_LostIsland_NorthEastQuarry 12,43,26,25"
 					]
-				}
+				},
+				"{{ModId}}_SpawnDigSpotForage": {
+					"Id": "{{ModId}}_SpawnDigSpotForage",
+					"Trigger": "DayStarted",
+					"MarkActionApplied": false,
+					"Actions": [
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_DigSpotGroup {{ModId}}_LostIsland 29,48,28,46"
+					]
+				},
 			}
 		},
+		//The spawns themselves. It's a dictionary with the key being the ID (referred to in spawn groups), and the value consisting of a Type field, with more fields depending on the type.
 		{
 			"Action": "EditData",
 			"Target": "spacechase0.SpaceCore/SpawnableDefinitions",
@@ -88,7 +89,7 @@
 						}
 					]
 				},
-				"{{ModId}}_PainiteGroupSpawn": {
+				"{{ModId}}_PainiteSpawn": {
 					"Type": "Minable",
 					"MinableExperienceGranted": 100,
 					"MinableHealth": 18,
@@ -104,7 +105,7 @@
 						]
 					],
 				},
-				"{{ModId}}_LushForestineGroupSpawn": {
+				"{{ModId}}_LushForestineSpawn": {
 					"Type": "Minable",
 					"MinableHealth": 16,
 					"MinableObjectId": "{{ModID}}_LushForestine_Node",
@@ -119,7 +120,7 @@
 						]
 					],
 				},
-				"{{ModId}}_ChalcanthiteGroupSpawn": {
+				"{{ModId}}_ChalcanthiteSpawn": {
 					"Type": "Minable",
 					"MinableHealth": 16,
 					"MinableObjectId": "{{ModID}}_Chalcanthite_Node",
@@ -134,7 +135,7 @@
 						]
 					],
 				},
-				"{{ModId}}_DichromaticTaaffeiteGroupSpawn": {
+				"{{ModId}}_DichromaticTaaffeiteSpawn": {
 					"Type": "Minable",
 					"MinableHealth": 12,
 					"MinableObjectId": "{{ModID}}_DichromaticTaaffeite_Node",
@@ -149,7 +150,7 @@
 						]
 					],
 				},
-				"{{ModId}}_OpalizedAmmoniteGroupSpawn": {
+				"{{ModId}}_OpalizedAmmoniteSpawn": {
 					"Type": "Minable",
 					"MinableHealth": 8,
 					"MinableObjectId": "{{ModID}}_OpalizedAmmonite_Node",
@@ -164,7 +165,7 @@
 						]
 					],
 				},
-				"{{ModId}}_TaintedSeaShardsGroupSpawn": {
+				"{{ModId}}_TaintedSeaShardsSpawn": {
 					"Type": "Minable",
 					"MinableHealth": 6,
 					"MinableObjectId": "{{ModID}}_TaintedSeaShards_Node",
@@ -179,7 +180,7 @@
 						]
 					],
 				},
-				"{{ModId}}_DeepseaDiamondGroupSpawn": {
+				"{{ModId}}_DeepseaDiamondSpawn": {
 					"Type": "Minable",
 					"MinableHealth": 25,
 					"MinableObjectId": "{{ModID}}_DeepseaDiamond_Node",
@@ -194,7 +195,7 @@
 						]
 					],
 				},
-				"{{ModId}}_CrystallizedIchorGeodeGroupSpawn": {
+				"{{ModId}}_CrystallizedIchorGeodeSpawn": {
 					"Type": "Minable",
 					"MinableHealth": 12,
 					"MinableObjectId": "{{ModID}}_CrystallizedIchorGeode_Node",
@@ -209,7 +210,7 @@
 						]
 					],
 				},
-				"{{ModId}}_RealgarGroupSpawn": {
+				"{{ModId}}_RealgarSpawn": {
 					"Type": "Minable",
 					"MinableHealth": 14,
 					"MinableObjectId": "{{ModID}}_Realgar_Node",
@@ -224,7 +225,7 @@
 						]
 					],
 				},
-				"{{ModId}}_GrandidieriteGroupSpawn": {
+				"{{ModId}}_GrandidieriteSpawn": {
 					"Type": "Minable",
 					"MinableHealth": 16,
 					"MinableObjectId": "{{ModID}}_Grandidierite_Node",
@@ -239,8 +240,33 @@
 						]
 					],
 				},
+				"{{ModId}}_WarpTotemSpawn": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1,
+							"Value": {
+								"ItemId": "{{ModID}}_LostIslandTotem"
+							}
+						}
+					],
+					"ForageableIsTillSpot": true,
+				},
+				"{{ModId}}_MixedSeedsSpawn": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1,
+							"Value": {
+								"ItemId": "{{ModID}}_mixedseeds"
+							}
+						}
+					],
+					"ForageableIsTillSpot": true,
+				},
 			}
 		},
+		// A group of spawn definitions that are spawned together, specified with a trigger action. This is a dictionary with the key being the ID (referred to from trigger actions), and the value being an object.
 		{
 			"Action": "EditData",
 			"Target": "spacechase0.SpaceCore/SpawningGroups",
@@ -259,143 +285,67 @@
 						}
 					]
 				},
-				"{{ModId}}_PainiteGroup": {
+				"{{ModId}}_QuarryGroup": {
 					"SpawnablesToSpawn": [
 						{
 							"SpawnableIds": [
 								{
 									"Weight": 1,
-									"Value": "{{ModID}}_PainiteGroupSpawn"
+									"Value": "{{ModID}}_PainiteSpawn"
+								},
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_LushForestineSpawn"
+								},
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_ChalcanthiteSpawn"
+								},
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_DichromaticTaaffeiteSpawn"
+								},
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_OpalizedAmmoniteSpawn"
+								},
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_TaintedSeaShardsSpawn"
+								},
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_DeepseaDiamondSpawn"
+								},
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_CrystallizedIchorGeodeSpawn"
+								},
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_GrandidieriteSpawn"
 								}
 							],
 							"Minimum": 0,
-							"Maximum": 1
+							"Maximum": 3
 						}
 					]
 				},
-				"{{ModId}}_LushForestineGroup": {
+				"{{ModId}}_DigSpotGroup": {
 					"SpawnablesToSpawn": [
 						{
 							"SpawnableIds": [
 								{
-									"Weight": 1,
-									"Value": "{{ModID}}_LushForestineGroupSpawn"
-								}
-							],
-							"Minimum": 0,
-							"Maximum": 1
-						}
-					]
-				},
-				"{{ModId}}_ChalcanthiteGroup": {
-					"SpawnablesToSpawn": [
-						{
-							"SpawnableIds": [
+									"Weight": 0.3,
+									"Value": "{{ModId}}_WarpTotemSpawn"
+								},
 								{
 									"Weight": 1,
-									"Value": "{{ModID}}_ChalcanthiteGroupSpawn"
+									"Value": "{{ModId}}_MixedSeedsSpawn"
 								}
 							],
 							"Minimum": 0,
-							"Maximum": 1
-						}
-					]
-				},
-				"{{ModId}}_DichromaticTaaffeiteGroup": {
-					"SpawnablesToSpawn": [
-						{
-							"SpawnableIds": [
-								{
-									"Weight": 1,
-									"Value": "{{ModID}}_DichromaticTaaffeiteGroupSpawn"
-								}
-							],
-							"Minimum": 0,
-							"Maximum": 1
-						}
-					]
-				},
-				"{{ModId}}_OpalizedAmmoniteGroup": {
-					"SpawnablesToSpawn": [
-						{
-							"SpawnableIds": [
-								{
-									"Weight": 1,
-									"Value": "{{ModID}}_OpalizedAmmoniteGroupSpawn"
-								}
-							],
-							"Minimum": 0,
-							"Maximum": 1
-						}
-					]
-				},
-				"{{ModId}}_TaintedSeaShardsGroup": {
-					"SpawnablesToSpawn": [
-						{
-							"SpawnableIds": [
-								{
-									"Weight": 1,
-									"Value": "{{ModID}}_TaintedSeaShardsGroupSpawn"
-								}
-							],
-							"Minimum": 0,
-							"Maximum": 1
-						}
-					]
-				},
-				"{{ModId}}_DeepseaDiamondGroup": {
-					"SpawnablesToSpawn": [
-						{
-							"SpawnableIds": [
-								{
-									"Weight": 1,
-									"Value": "{{ModID}}_DeepseaDiamondGroupSpawn"
-								}
-							],
-							"Minimum": 0,
-							"Maximum": 1
-						}
-					]
-				},
-				"{{ModId}}_CrystallizedIchorGeodeGroup": {
-					"SpawnablesToSpawn": [
-						{
-							"SpawnableIds": [
-								{
-									"Weight": 1,
-									"Value": "{{ModID}}_CrystallizedIchorGeodeGroupSpawn"
-								}
-							],
-							"Minimum": 0,
-							"Maximum": 1
-						}
-					]
-				},
-				"{{ModId}}_RealgarGroup": {
-					"SpawnablesToSpawn": [
-						{
-							"SpawnableIds": [
-								{
-									"Weight": 1,
-									"Value": "{{ModID}}_RealgarGroupSpawn"
-								}
-							],
-							"Minimum": 0,
-							"Maximum": 1
-						}
-					]
-				},
-				"{{ModId}}_GrandidieriteGroup": {
-					"SpawnablesToSpawn": [
-						{
-							"SpawnableIds": [
-								{
-									"Weight": 1,
-									"Value": "{{ModID}}_GrandidieriteGroupSpawn"
-								}
-							],
-							"Minimum": 0,
-							"Maximum": 1
+							"Maximum": 3
 						}
 					]
 				},

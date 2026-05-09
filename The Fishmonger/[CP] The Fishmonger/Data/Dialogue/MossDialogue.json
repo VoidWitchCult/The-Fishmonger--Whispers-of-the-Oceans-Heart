@@ -27,7 +27,12 @@
 				"GreenRainFinished": "{{i18n:Moss.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Moss.Dialogue.GreenRain2}}", //Year 2 Green Rain
 				"AcceptGift_(O)StardropTea": "{{i18n:Moss.Dialogue.StardropTea}}",
-				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Moss.ITEM}}",
+				"AcceptGift_(O){{ModID}}_MermaidsDelight": "{{i18n:Moss.Dialogue.MermaidsDelight}}",
+				"AcceptGift_AcceptGift_category_milk": "{{i18n:Moss.CategoryMilk}}",
+				"AcceptGift_(O)103": "{{i18n:Moss.Dialogue.Dolls}}",
+				"AcceptGift_(O)126": "{{i18n:Moss.Dialogue.Dolls}}",
+				"AcceptGift_(O)127": "{{i18n:Moss.Dialogue.Dolls}}",
+				"AcceptGift_(O)287": "{{i18n:Moss.Dialogue.Bomb}}",
 				
 				// 0 HEARTS DIALOGUE
 				"Mon": "{{i18n:Moss.Dialogue.{{Random: 0, 35}}}}",

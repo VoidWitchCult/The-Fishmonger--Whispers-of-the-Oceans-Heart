@@ -61,13 +61,13 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/{{ModId}}_PlantPeople_{{L@Name}}",
       "Entries": {
-        "Mon": "%{{i18n:Plant.{{L@Name}}.Dialog.0}}",
-        "Tue": "%{{i18n:Plant.{{L@Name}}.Dialog.1}}",
-        "Wed": "%{{i18n:Plant.{{L@Name}}.Dialog.2}}",
-        "Thu": "%{{i18n:Plant.{{L@Name}}.Dialog.1}}",
-        "Fri": "%{{i18n:Plant.{{L@Name}}.Dialog.0}}",
-        "Sat": "%{{i18n:Plant.{{L@Name}}.Dialog.1}}",
-        "Sun": "%{{i18n:Plant.{{L@Name}}.Dialog.2}}",
+        "Mon": "{{i18n:Plant.{{L@Name}}.Dialog.{{Random: {{Range: 0,8}}}}}}",
+        "Tue": "{{i18n:Plant.{{L@Name}}.Dialog.{{Random: {{Range: 0,8}}}}}}",
+        "Wed": "{{i18n:Plant.{{L@Name}}.Dialog.{{Random: {{Range: 0,8}}}}}}",
+        "Thu": "{{i18n:Plant.{{L@Name}}.Dialog.{{Random: {{Range: 0,8}}}}}}",
+        "Fri": "{{i18n:Plant.{{L@Name}}.Dialog.{{Random: {{Range: 0,8}}}}}}",
+        "Sat": "{{i18n:Plant.{{L@Name}}.Dialog.{{Random: {{Range: 0,8}}}}}}",
+        "Sun": "{{i18n:Plant.{{L@Name}}.Dialog.{{Random: {{Range: 0,8}}}}}}",
       }
     },
   ]

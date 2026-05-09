@@ -1,0 +1,86 @@
+{
+	"$schema": "https://smapi.io/schemas/content-patcher.json",
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Mods/mistyspring.ItemExtensions/Treasure",
+			"Entries": {
+				"{{ModID}}_SeedLoot": {
+					"ItemId": "(O){{ModID}}_mixedseeds",
+					"Chance": 0.05,
+					"MinStack": 2,
+					"MaxStack": 8,
+					"Condition": "PLAYER_LOCATION_CONTEXT Here {{ModId}}_LostIslandPassOut",
+					"Rod": [ "FiberglassRod", "IridiumRod" ], //can spawn when using *any* of these rods
+					"Bobber": 0 //and the default bobber
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/mistyspring.ItemExtensions/EatingAnimations",
+			"Entries": {
+				"{{ModId}}_ConsumeTrinket": {
+					"Animation": [
+						{
+							"Frame":0,
+							"Duration": 300,
+							"SecondaryArm": false,
+							"Flip": false
+						},
+						{
+							"Frame":18,
+							"Duration": 250,
+							"SecondaryArm": false,
+							"Flip": false
+						},
+						{
+							"Frame":26,
+							"Duration": 300,
+							"SecondaryArm": false,
+							"Flip": false
+						},
+						{
+							"Frame":25,
+							"Duration": 400,
+							"SecondaryArm": false,
+							"Flip": false
+						},
+					],
+					"Food": {
+						//time - in milliseconds
+						"Duration": 500,
+						"Delay": 350,
+						
+						//sounds
+						"EndSound": "secret1",
+						"Crunch": false,
+						
+						//position
+						"Offset": "25, 40",
+						"Flip": true,
+						"Scale": 0.8,
+						
+						//movement
+						"Speed": "0, 0.02",
+						"Motion": "0.0, -0.9",
+						"StopX": 0,
+						"StopY": -5
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/mistyspring.ItemExtensions/Data",
+			"Entries": {
+				"(O){{ModID}}_OldRune": {
+					"FoodDialogue": {
+						"ConsumeQuestion":"Consume {0}?",
+						"CannotConsume":"You can't eat it",
+					}, 
+				},
+			}
+		}
+	]
+}

@@ -1595,7 +1595,18 @@
 			"ToArea": { "X": 18, "Y": 35, "Width": 32, "Height": 15 },
 			"When": {
 				"Day": "10"
-			}
+			},
+            "TextOperations": [
+                {
+                    "Operation": "Prepend",
+                    "Target": [
+                        "MapProperties",
+                        "Light"
+                    ],
+                    "Value": "31 40 4 33 40 4 34 39 4 36 40 4 38 39 4 40 39 4 19 36 4 21 44 4 26 47 4 40 45 4 45 46 4 46 35 4",
+                    "Delimiter": " "
+                },
+				]
 		},
 		//LIBRARY QUEST FINISHED MAP PATCH
 		{

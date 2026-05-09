@@ -27,7 +27,9 @@
 				"GreenRainFinished": "{{i18n:Morvenna.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Morvenna.Dialogue.GreenRain2}}", //Year 2 Green Rain
 				"AcceptGift_(O)StardropTea": "{{i18n:Morvenna.Dialogue.StardropTea}}",
-				"AcceptGift_(O){{ModID}}_ITEM": "{{i18n:Morvenna.ITEM}}",
+				"AcceptGift_(O){{ModID}}_MermaidsDelight": "{{i18n:Morvenna.Dialogue.MermaidsDelight}}",
+				"AcceptGift_(O)60": "{{i18n:Morvenna.Dialogue.Emerald}}",
+				"AcceptGift_(O)265": "{{i18n:Morvenna.Dialogue.SeafoamPudding}}",
 				
 				// 1ST OF SEASON DIALOGUE
 				"spring_1": "{{i18n:Morvenna.Dialogue.spring_1}}",

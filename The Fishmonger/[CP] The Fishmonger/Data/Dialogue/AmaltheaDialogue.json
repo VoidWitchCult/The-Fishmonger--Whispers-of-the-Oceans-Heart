@@ -27,7 +27,11 @@
 				"GreenRainFinished": "{{i18n:Amalthea.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Amalthea.Dialogue.GreenRain2}}", //Year 2 Green Rain
 				"AcceptGift_(O)StardropTea": "{{i18n:Amalthea.Dialogue.StardropTea}}",
-				"AcceptGift_(O){{ModID}}_ITEMAmalthea": "{{i18n:Amalthea.ITEMAmalthea}}",
+				"AcceptGift_category_cooking": "{{i18n:Amalthea.Dialogue.CookingCategory}}",
+				"AcceptGift_(O)558": "{{i18n:Amalthea.Dialogue.FaveMinerals}}",
+				"AcceptGift_(O)555": "{{i18n:Amalthea.Dialogue.FaveMinerals}}",
+				"AcceptGift_(O)545": "{{i18n:Amalthea.Dialogue.FaveMinerals}}",
+				"AcceptGift_(O)543": "{{i18n:Amalthea.Dialogue.FaveMinerals}}",
 				
 				// 1ST OF SEASON DIALOGUE
 				"spring_1": "{{i18n:Amalthea.Dialogue.spring_1}}",
