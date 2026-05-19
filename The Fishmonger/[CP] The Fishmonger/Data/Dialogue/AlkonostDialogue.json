@@ -32,9 +32,9 @@
 				"Sun": "{{i18n:Alkonost.Dialogue.Sun.{{Random: 0, 5}}}}", 
 				
 				// Schedule dialogue
-				"{{ModID}}_Alkonost.lostisland.000": "{{i18n:Alkonost.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Alkonost.lostisland.001": "{{i18n:Alkonost.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Alkonost.lostisland.002": "{{i18n:Alkonost.Schedule.Dialogue.lostisland.002}}",
+				"Alkonost.lostisland.000": "{{i18n:Alkonost.Schedule.Dialogue.lostisland.000}}",
+				"Alkonost.lostisland.001": "{{i18n:Alkonost.Schedule.Dialogue.lostisland.001}}",
+				"Alkonost.lostisland.002": "{{i18n:Alkonost.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

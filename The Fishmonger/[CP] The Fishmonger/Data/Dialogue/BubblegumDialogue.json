@@ -27,9 +27,9 @@
 				"Sun": "{{i18n:Bubblegum.Dialogue.Sun.{{Random: 0, 5}}}}", 
 				
 				// Schedule dialogue
-				"{{ModID}}_Bubblegum.lostisland.000": "{{i18n:Bubblegum.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Bubblegum.lostisland.001": "{{i18n:Bubblegum.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Bubblegum.lostisland.002": "{{i18n:Bubblegum.Schedule.Dialogue.lostisland.002}}",
+				"Bubblegum.lostisland.000": "{{i18n:Bubblegum.Schedule.Dialogue.lostisland.000}}",
+				"Bubblegum.lostisland.001": "{{i18n:Bubblegum.Schedule.Dialogue.lostisland.001}}",
+				"Bubblegum.lostisland.002": "{{i18n:Bubblegum.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

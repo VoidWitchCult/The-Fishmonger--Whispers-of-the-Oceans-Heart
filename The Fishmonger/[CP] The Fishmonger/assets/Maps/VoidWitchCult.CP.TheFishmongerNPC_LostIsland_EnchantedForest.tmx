@@ -4361,7 +4361,7 @@
   </object>
   <object id="154" name="TileData" x="1792" y="432" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.Strings.Forest.7&quot;"/>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.Strings.LostIsland.Forest.7&quot;"/>
    </properties>
   </object>
   <object id="155" name="TileData" x="1728" y="1360" width="16" height="16">
@@ -4386,7 +4386,7 @@
   </object>
   <object id="159" name="TileData" x="1280" y="144" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.Strings.Forest.1&quot;"/>
+    <property name="Action" value="Message &quot;VoidWitchCult.CP.TheFishmongerNPC.Strings.LostIsland.Forest.5&quot;"/>
    </properties>
   </object>
   <object id="160" name="TileData" x="624" y="496" width="16" height="16">

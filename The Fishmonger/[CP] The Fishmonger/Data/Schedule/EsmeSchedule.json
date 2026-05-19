@@ -11,8 +11,8 @@
 			800 {{ModID}}_LostIsland_LolitaHome 3 9 2/
 			830 {{ModID}}_LostIsland_LolitaHome 17 7 0/
 			900 {{ModID}}_LostIsland_LolitaHome 13 7 0/
-			930 {{ModID}}_LostIsland_LolitaHome 6 8 2 {{ModID}}_MermaidDancerEsme_dancing \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:{{ModID}}_Esme.lostisland.000\"/
-			1400 {{ModID}}_LostIsland 60 11 2 {{ModID}}_MermaidDancerEsme_dancing2 \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:{{ModID}}_Esme.lostisland.000\"/
+			930 {{ModID}}_LostIsland_LolitaHome 6 8 2 {{ModID}}_MermaidDancerEsme_dancing \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:Esme.lostisland.000\"/
+			1400 {{ModID}}_LostIsland 60 11 2 {{ModID}}_MermaidDancerEsme_dancing2 \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:Esme.lostisland.000\"/
 			1800 {{ModID}}_LostIsland_LolitaHome 17 7 0/
 			2000 {{ModID}}_LostIsland_LolitaHome 2 5 2 {{ModID}}_MermaidDancerEsme_sleep/
 			",
@@ -21,8 +21,8 @@
 			800 {{ModID}}_LostIsland_LolitaHome 3 9 2/
 			830 {{ModID}}_LostIsland_LolitaHome 17 7 0/
 			900 {{ModID}}_LostIsland_LolitaHome 13 7 0/
-			930 {{ModID}}_LostIsland_EnchantedForest 61 32 2 {{ModID}}_MermaidDancerEsme_dancing \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:{{ModID}}_Esme.lostisland.000\"/
-			1600 {{ModID}}_LostIsland_EnchantedForest 27 14 0 {{ModID}}_MermaidDancerEsme_kneeling \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:{{ModID}}_Esme.lostisland.001\"/
+			930 {{ModID}}_LostIsland_EnchantedForest 61 32 2 {{ModID}}_MermaidDancerEsme_dancing \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:Esme.lostisland.000\"/
+			1600 {{ModID}}_LostIsland_EnchantedForest 27 14 0 {{ModID}}_MermaidDancerEsme_kneeling \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:Esme.lostisland.001\"/
 			1800 {{ModID}}_LostIsland_LolitaHome 17 7 0/
 			2000 {{ModID}}_LostIsland_LolitaHome 2 5 2 {{ModID}}_MermaidDancerEsme_sleep/
 			",
@@ -33,7 +33,7 @@
 			800 {{ModID}}_LostIsland_LolitaHome 3 9 2/
 			830 {{ModID}}_LostIsland_LolitaHome 17 7 0/
 			900 {{ModID}}_LostIsland_LolitaHome 13 7 0/
-			930 {{ModID}}_LostIsland_NorthernCliffs 47 14 0 {{ModID}}_MermaidDancerEsme_dancing \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:{{ModID}}_Esme.lostisland.000\"/
+			930 {{ModID}}_LostIsland_NorthernCliffs 47 14 0 {{ModID}}_MermaidDancerEsme_dancing \"Characters\\Dialogue\\{{ModID}}_MermaidDancerEsme:Esme.lostisland.000\"/
 			1800 {{ModID}}_LostIsland_LolitaHome 17 7 0/
 			2000 {{ModID}}_LostIsland_LolitaHome 2 5 2 {{ModID}}_MermaidDancerEsme_sleep/
 			",

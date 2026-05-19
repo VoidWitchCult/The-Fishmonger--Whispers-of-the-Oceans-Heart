@@ -58,9 +58,9 @@
 				"winter_24_2": "{{i18n:Anette.Dialogue.winter_24_2}}", // Day before Winter Star
 				
 				// Schedule dialogue
-				"{{ModID}}_Anette.lostisland.000": "{{i18n:Anette.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Anette.lostisland.001": "{{i18n:Anette.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Anette.lostisland.002": "{{i18n:Anette.Schedule.Dialogue.lostisland.002}}",
+				"Anette.lostisland.000": "{{i18n:Anette.Schedule.Dialogue.lostisland.000}}",
+				"Anette.lostisland.001": "{{i18n:Anette.Schedule.Dialogue.lostisland.001}}",
+				"Anette.lostisland.002": "{{i18n:Anette.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

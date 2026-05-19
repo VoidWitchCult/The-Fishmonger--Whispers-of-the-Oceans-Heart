@@ -68,13 +68,13 @@
 				"Resort": "{{i18n:Gamayun.Dialogue.spring_Sat}}",
 				
 				// Schedule dialogue
-				"{{ModID}}_Gamayun.lostisland.000": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Gamayun.lostisland.001": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Gamayun.lostisland.002": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.002}}",
-				"{{ModID}}_Gamayun.lostisland.003": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.003}}",
-				"{{ModID}}_Gamayun.lostisland.004": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.004}}",
-				"{{ModID}}_Gamayun.lostisland.005": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.005}}",
-				"{{ModID}}_Gamayun.lostisland.006": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.006}}",
+				"Gamayun.lostisland.000": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.000}}",
+				"Gamayun.lostisland.001": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.001}}",
+				"Gamayun.lostisland.002": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.002}}",
+				"Gamayun.lostisland.003": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.003}}",
+				"Gamayun.lostisland.004": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.004}}",
+				"Gamayun.lostisland.005": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.005}}",
+				"Gamayun.lostisland.006": "{{i18n:Gamayun.Schedule.Dialogue.lostisland.006}}",
 			}
 		},
 	]

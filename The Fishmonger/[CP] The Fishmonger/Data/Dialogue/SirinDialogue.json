@@ -32,9 +32,9 @@
 				"Sun": "{{i18n:Sirin.Dialogue.Sun.{{Random: 0, 5}}}}", 
 				
 				// Schedule dialogue
-				"{{ModID}}_Sirin.lostisland.000": "{{i18n:Sirin.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Sirin.lostisland.001": "{{i18n:Sirin.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Sirin.lostisland.002": "{{i18n:Sirin.Schedule.Dialogue.lostisland.002}}",
+				"Sirin.lostisland.000": "{{i18n:Sirin.Schedule.Dialogue.lostisland.000}}",
+				"Sirin.lostisland.001": "{{i18n:Sirin.Schedule.Dialogue.lostisland.001}}",
+				"Sirin.lostisland.002": "{{i18n:Sirin.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

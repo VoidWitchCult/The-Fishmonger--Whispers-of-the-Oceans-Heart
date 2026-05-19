@@ -19,17 +19,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Spring0.Before}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Spring0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Spring0.During}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Spring0.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Spring0.After}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Spring0.After}}"
 								}
 							},
                             "ID": "reaction_0"
@@ -44,17 +44,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Spring1.Before}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Spring1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Spring1.During}}",
+                                    "Text": "{{i18n:Constance.MoviesReactions.Spring1.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Spring1.After}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Spring1.After}}"
 								}
 							},
                             "ID": "reaction_1"
@@ -68,17 +68,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Summer0.Before}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Summer0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Summer0.During}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Summer0.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Summer0.After}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Summer0.After}}"
 								} 
 							},
                             "ID": "reaction_2"
@@ -92,17 +92,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Summer1.Before}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Summer1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Summer1.During}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Summer1.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Summer1.After}}" 
+                                    "Text": "{{i18n:Constance.MoviesReactions.Summer1.After}}" 
 								}
 								
 							},
@@ -117,17 +117,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Fall0.Before}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Fall0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Fall0.During}}",
+                                    "Text": "{{i18n:Constance.MoviesReactions.Fall0.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Fall0.After}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Fall0.After}}"
 								}
 							},
                             "ID": "reaction_4"
@@ -141,17 +141,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Fall1.Before}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Fall1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "", 
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Fall1.During}}",
+                                    "Text": "{{i18n:Constance.MoviesReactions.Fall1.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Fall1.After}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Fall1.After}}"
 								}
 							},
                             "ID": "reaction_5"
@@ -165,17 +165,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Winter0.Before}}"
+                                    "Text": "{{i18n:Constance.MoviesReactions.Winter0.Before}}"
 								},
 								"DuringMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Winter0.During}}"
+									"Text": "{{i18n:Constance.MoviesReactions.Winter0.During}}"
 								},
 								"AfterMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Winter0.After}}"
+									"Text": "{{i18n:Constance.MoviesReactions.Winter0.After}}"
 								}
 							},
 							"ID": "reaction_6"
@@ -189,17 +189,17 @@
 								"BeforeMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Winter1.Before}}"
+									"Text": "{{i18n:Constance.MoviesReactions.Winter1.Before}}"
 								},
 								"DuringMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Winter1.During}}",
+									"Text": "{{i18n:Constance.MoviesReactions.Winter1.During}}",
 								},
 								"AfterMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MoviesReactions.Winter1.After}}"
+									"Text": "{{i18n:Constance.MoviesReactions.Winter1.After}}"
 								}
 							}
 						}
@@ -220,17 +220,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Spring0.Before}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Spring0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Spring0.During}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Spring0.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Spring0.After}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Spring0.After}}"
 								}
 							},
                             "ID": "reaction_0"
@@ -245,17 +245,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Spring1.Before}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Spring1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Spring1.During}}",
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Spring1.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Spring1.After}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Spring1.After}}"
 								}
 							},
                             "ID": "reaction_1"
@@ -269,17 +269,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Summer0.Before}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Summer0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Summer0.During}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Summer0.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Summer0.After}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Summer0.After}}"
 								} 
 							},
                             "ID": "reaction_2"
@@ -293,17 +293,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Summer1.Before}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Summer1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Summer1.During}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Summer1.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Summer1.After}}" 
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Summer1.After}}" 
 								}
 								
 							},
@@ -318,17 +318,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Fall0.Before}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Fall0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Fall0.During}}",
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Fall0.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Fall0.After}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Fall0.After}}"
 								}
 							},
                             "ID": "reaction_4"
@@ -342,17 +342,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Fall1.Before}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Fall1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "", 
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Fall1.During}}",
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Fall1.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Fall1.After}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Fall1.After}}"
 								}
 							},
                             "ID": "reaction_5"
@@ -366,17 +366,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Winter0.Before}}"
+                                    "Text": "{{i18n:Calliope.MoviesReactions.Winter0.Before}}"
 								},
 								"DuringMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Winter0.During}}"
+									"Text": "{{i18n:Calliope.MoviesReactions.Winter0.During}}"
 								},
 								"AfterMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Winter0.After}}"
+									"Text": "{{i18n:Calliope.MoviesReactions.Winter0.After}}"
 								}
 							},
 							"ID": "reaction_6"
@@ -390,17 +390,17 @@
 								"BeforeMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Winter1.Before}}"
+									"Text": "{{i18n:Calliope.MoviesReactions.Winter1.Before}}"
 								},
 								"DuringMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Winter1.During}}",
+									"Text": "{{i18n:Calliope.MoviesReactions.Winter1.During}}",
 								},
 								"AfterMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Mermaid.MoviesReactions.Winter1.After}}"
+									"Text": "{{i18n:Calliope.MoviesReactions.Winter1.After}}"
 								}
 							}
 						}
@@ -421,17 +421,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Spring0.Before}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Spring0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Spring0.During}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Spring0.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Spring0.After}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Spring0.After}}"
 								}
 							},
                             "ID": "reaction_0"
@@ -446,17 +446,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Spring1.Before}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Spring1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Spring1.During}}",
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Spring1.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Spring1.After}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Spring1.After}}"
 								}
 							},
                             "ID": "reaction_1"
@@ -470,17 +470,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Summer0.Before}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Summer0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Summer0.During}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Summer0.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Summer0.After}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Summer0.After}}"
 								} 
 							},
                             "ID": "reaction_2"
@@ -494,17 +494,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Summer1.Before}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Summer1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Summer1.During}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Summer1.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Summer1.After}}" 
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Summer1.After}}" 
 								}
 								
 							},
@@ -519,17 +519,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Fall0.Before}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Fall0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Fall0.During}}",
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Fall0.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Fall0.After}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Fall0.After}}"
 								}
 							},
                             "ID": "reaction_4"
@@ -543,17 +543,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Fall1.Before}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Fall1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "", 
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Fall1.During}}",
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Fall1.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Fall1.After}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Fall1.After}}"
 								}
 							},
                             "ID": "reaction_5"
@@ -567,17 +567,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Winter0.Before}}"
+                                    "Text": "{{i18n:Bernadette.MoviesReactions.Winter0.Before}}"
 								},
 								"DuringMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Winter0.During}}"
+									"Text": "{{i18n:Bernadette.MoviesReactions.Winter0.During}}"
 								},
 								"AfterMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Winter0.After}}"
+									"Text": "{{i18n:Bernadette.MoviesReactions.Winter0.After}}"
 								}
 							},
 							"ID": "reaction_6"
@@ -591,17 +591,17 @@
 								"BeforeMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Winter1.Before}}"
+									"Text": "{{i18n:Bernadette.MoviesReactions.Winter1.Before}}"
 								},
 								"DuringMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Winter1.During}}",
+									"Text": "{{i18n:Bernadette.MoviesReactions.Winter1.During}}",
 								},
 								"AfterMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.CoolGal.MoviesReactions.Winter1.After}}"
+									"Text": "{{i18n:Bernadette.MoviesReactions.Winter1.After}}"
 								}
 							}
 						}
@@ -622,17 +622,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Spring0.Before}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Spring0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Spring0.During}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Spring0.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Spring0.After}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Spring0.After}}"
 								}
 							},
                             "ID": "reaction_0"
@@ -647,17 +647,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Spring1.Before}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Spring1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Spring1.During}}",
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Spring1.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Spring1.After}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Spring1.After}}"
 								}
 							},
                             "ID": "reaction_1"
@@ -671,17 +671,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Summer0.Before}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Summer0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Summer0.During}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Summer0.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Summer0.After}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Summer0.After}}"
 								} 
 							},
                             "ID": "reaction_2"
@@ -695,17 +695,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Summer1.Before}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Summer1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Summer1.During}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Summer1.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Summer1.After}}" 
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Summer1.After}}" 
 								}
 								
 							},
@@ -720,17 +720,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Fall0.Before}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Fall0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Fall0.During}}",
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Fall0.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Fall0.After}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Fall0.After}}"
 								}
 							},
                             "ID": "reaction_4"
@@ -744,17 +744,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Fall1.Before}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Fall1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "", 
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Fall1.During}}",
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Fall1.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Fall1.After}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Fall1.After}}"
 								}
 							},
                             "ID": "reaction_5"
@@ -768,17 +768,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Winter0.Before}}"
+                                    "Text": "{{i18n:Caitriona.MoviesReactions.Winter0.Before}}"
 								},
 								"DuringMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Winter0.During}}"
+									"Text": "{{i18n:Caitriona.MoviesReactions.Winter0.During}}"
 								},
 								"AfterMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Winter0.After}}"
+									"Text": "{{i18n:Caitriona.MoviesReactions.Winter0.After}}"
 								}
 							},
 							"ID": "reaction_6"
@@ -792,17 +792,17 @@
 								"BeforeMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Winter1.Before}}"
+									"Text": "{{i18n:Caitriona.MoviesReactions.Winter1.Before}}"
 								},
 								"DuringMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Winter1.During}}",
+									"Text": "{{i18n:Caitriona.MoviesReactions.Winter1.During}}",
 								},
 								"AfterMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.PirateLad.MoviesReactions.Winter1.After}}"
+									"Text": "{{i18n:Caitriona.MoviesReactions.Winter1.After}}"
 								}
 							}
 						}
@@ -823,17 +823,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Spring0.Before}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Spring0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Spring0.During}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Spring0.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Spring0.After}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Spring0.After}}"
 								}
 							},
                             "ID": "reaction_0"
@@ -848,17 +848,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Spring1.Before}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Spring1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Spring1.During}}",
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Spring1.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Spring1.After}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Spring1.After}}"
 								}
 							},
                             "ID": "reaction_1"
@@ -872,17 +872,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Summer0.Before}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Summer0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Summer0.During}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Summer0.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Summer0.After}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Summer0.After}}"
 								} 
 							},
                             "ID": "reaction_2"
@@ -896,17 +896,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Summer1.Before}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Summer1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Summer1.During}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Summer1.During}}"
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Summer1.After}}" 
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Summer1.After}}" 
 								}
 								
 							},
@@ -921,17 +921,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Fall0.Before}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Fall0.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Fall0.During}}",
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Fall0.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Fall0.After}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Fall0.After}}"
 								}
 							},
                             "ID": "reaction_4"
@@ -945,17 +945,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Fall1.Before}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Fall1.Before}}"
 								},
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "", 
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Fall1.During}}",
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Fall1.During}}",
 								},
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Fall1.After}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Fall1.After}}"
 								}
 							},
                             "ID": "reaction_5"
@@ -969,17 +969,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Winter0.Before}}"
+                                    "Text": "{{i18n:Barnabas.MoviesReactions.Winter0.Before}}"
 								},
 								"DuringMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Winter0.During}}"
+									"Text": "{{i18n:Barnabas.MoviesReactions.Winter0.During}}"
 								},
 								"AfterMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Winter0.After}}"
+									"Text": "{{i18n:Barnabas.MoviesReactions.Winter0.After}}"
 								}
 							},
 							"ID": "reaction_6"
@@ -993,17 +993,17 @@
 								"BeforeMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Winter1.Before}}"
+									"Text": "{{i18n:Barnabas.MoviesReactions.Winter1.Before}}"
 								},
 								"DuringMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Winter1.During}}",
+									"Text": "{{i18n:Barnabas.MoviesReactions.Winter1.During}}",
 								},
 								"AfterMovie": {
 									"ResponsePoint": null,
 									"Script": "",
-									"Text": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Barnabas.MoviesReactions.Winter1.After}}"
+									"Text": "{{i18n:Barnabas.MoviesReactions.Winter1.After}}"
 								}
 							}
 						}

@@ -41,9 +41,9 @@
 				"Sun": "{{i18n:Cecilia.Dialogue.Sun.{{Random: 0, 5}}}}", 
 				
 				// Schedule dialogue
-				"{{ModID}}_Cecilia.lostisland.000": "{{i18n:Cecilia.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Cecilia.lostisland.001": "{{i18n:Cecilia.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Cecilia.lostisland.002": "{{i18n:Cecilia.Schedule.Dialogue.lostisland.002}}",
+				"Cecilia.lostisland.000": "{{i18n:Cecilia.Schedule.Dialogue.lostisland.000}}",
+				"Cecilia.lostisland.001": "{{i18n:Cecilia.Schedule.Dialogue.lostisland.001}}",
+				"Cecilia.lostisland.002": "{{i18n:Cecilia.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

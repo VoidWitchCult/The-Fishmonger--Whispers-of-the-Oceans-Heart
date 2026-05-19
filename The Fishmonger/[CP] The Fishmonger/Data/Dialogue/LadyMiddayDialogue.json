@@ -32,9 +32,9 @@
 				"Sun": "{{i18n:LadyMidday.Dialogue.{{Random: 0, 20}}}}", 
 				
 				// Schedule dialogue
-				"{{ModID}}_LadyMidday.lostisland.000": "{{i18n:LadyMidday.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_LadyMidday.lostisland.001": "{{i18n:LadyMidday.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_LadyMidday.lostisland.002": "{{i18n:LadyMidday.Schedule.Dialogue.lostisland.002}}",
+				"LadyMidday.lostisland.000": "{{i18n:LadyMidday.Schedule.Dialogue.lostisland.000}}",
+				"LadyMidday.lostisland.001": "{{i18n:LadyMidday.Schedule.Dialogue.lostisland.001}}",
+				"LadyMidday.lostisland.002": "{{i18n:LadyMidday.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

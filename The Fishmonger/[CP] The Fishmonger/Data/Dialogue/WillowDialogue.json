@@ -59,9 +59,9 @@
 				"winter_24_2": "{{i18n:Willow.Dialogue.winter_24_2}}", // Day before Winter Star
 			
 				// Schedule dialogue
-				"{{ModID}}_Willow.lostisland.000": "{{i18n:Willow.Schedule.Dialogue.lostisland.000}}",
-				"{{ModID}}_Willow.lostisland.001": "{{i18n:Willow.Schedule.Dialogue.lostisland.001}}",
-				"{{ModID}}_Willow.lostisland.002": "{{i18n:Willow.Schedule.Dialogue.lostisland.002}}",
+				"Willow.lostisland.000": "{{i18n:Willow.Schedule.Dialogue.lostisland.000}}",
+				"Willow.lostisland.001": "{{i18n:Willow.Schedule.Dialogue.lostisland.001}}",
+				"Willow.lostisland.002": "{{i18n:Willow.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

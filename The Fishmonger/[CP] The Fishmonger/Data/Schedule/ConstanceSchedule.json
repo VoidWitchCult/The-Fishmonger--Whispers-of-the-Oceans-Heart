@@ -12,46 +12,46 @@
             "Entries": {
 				//Goes fishing in the morning, works her shop till the evening, then goes to her kitchen to have a cup of tea
 				"spring": "
-				610 IslandSouth 21 44 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.fishing.000\"/
-				850 {{ModID}}_Fishmonger_GI_Inside 5 4 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.shop.000\"/
-				1610 {{ModID}}_Fishmonger_GI_Inside 10 5 2 {{ModID}}_TheFishmonger_drinking \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.tea.000\"
+				610 IslandSouth 21 44 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.fishing.000\"/
+				850 {{ModID}}_Fishmonger_GI_Inside 5 4 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.shop.000\"/
+				1610 {{ModID}}_Fishmonger_GI_Inside 10 5 2 {{ModID}}_TheFishmonger_drinking \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.tea.000\"
 						",
 				"spring_rain": "GOTO rain",
 				"summer": "
-				610 IslandSouth 21 44 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.fishing.001\"/
-				730 IslandSouth 21 44 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.pier.000\"/
-				850 {{ModID}}_Fishmonger_GI_Inside 5 4 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.shop.001\"/
-				1610 {{ModID}}_Fishmonger_GI_Inside 10 5 2 {{ModID}}_TheFishmonger_drinking \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.tea.001\"
+				610 IslandSouth 21 44 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.fishing.001\"/
+				730 IslandSouth 21 44 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.pier.000\"/
+				850 {{ModID}}_Fishmonger_GI_Inside 5 4 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.shop.001\"/
+				1610 {{ModID}}_Fishmonger_GI_Inside 10 5 2 {{ModID}}_TheFishmonger_drinking \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.tea.001\"
 				",
 				"summer_rain": "GOTO rain",
 				"fall": "
-				610 IslandSouth 21 44 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.fishing.002\"/
-				850 {{ModID}}_Fishmonger_GI_Inside 5 4 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.shop.001\"/
-				1610 {{ModID}}_Fishmonger_GI_Inside 10 5 2 {{ModID}}_TheFishmonger_drinking \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.tea.002\"
+				610 IslandSouth 21 44 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.fishing.002\"/
+				850 {{ModID}}_Fishmonger_GI_Inside 5 4 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.shop.001\"/
+				1610 {{ModID}}_Fishmonger_GI_Inside 10 5 2 {{ModID}}_TheFishmonger_drinking \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.tea.002\"
 				",
 				"fall_rain": "GOTO rain",
 				"winter": "
-				610 IslandSouth 21 44 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.fishing.003\"/
-				730 IslandSouth 21 44 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.pier.001\"/
-				850 {{ModID}}_Fishmonger_GI_Inside 5 4 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.shop.003\"/
-				1610 {{ModID}}_Fishmonger_GI_Inside 10 5 2 {{ModID}}_TheFishmonger_drinking \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.tea.003\"
+				610 IslandSouth 21 44 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.fishing.003\"/
+				730 IslandSouth 21 44 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.pier.001\"/
+				850 {{ModID}}_Fishmonger_GI_Inside 5 4 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.shop.003\"/
+				1610 {{ModID}}_Fishmonger_GI_Inside 10 5 2 {{ModID}}_TheFishmonger_drinking \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.tea.003\"
 				",
 				"winter_rain": "GOTO rain",
 				//Hangs out with Birdie
 				"Tue": "
-				610 IslandWest 18 60 3 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.birdie.000\"/
-				1000 IslandWest 21 24 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.birdie.001\"/
-				1300 IslandWest 33 89 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.fishing.002\"/
-				1600 IslandWest 18 60 3 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.birdie.003\"
+				610 IslandWest 18 60 3 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.birdie.000\"/
+				1000 IslandWest 21 24 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.birdie.001\"/
+				1300 IslandWest 33 89 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.fishing.002\"/
+				1600 IslandWest 18 60 3 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.birdie.003\"
 				",
 				//Walks to kitchen for morning tea, listens to the radio, checking her stock, then tends to her shop, later on drinks another tea
 				"rain": "
 				610 {{ModID}}_Fishmonger_GI_Inside 10 5 2/
-				630 9 9 2 {{ModID}}_TheFishmonger_drinking \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.tea.000\"/
-				700 {{ModID}}_Fishmonger_GI_Inside 5 6 1 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.stock.000\"/
-				730 {{ModID}}_Fishmonger_GI_Inside 2 6 3 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.stock.001\"/
+				630 9 9 2 {{ModID}}_TheFishmonger_drinking \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:_constance.tea.000\"/
+				700 {{ModID}}_Fishmonger_GI_Inside 5 6 1 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.stock.000\"/
+				730 {{ModID}}_Fishmonger_GI_Inside 2 6 3 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.stock.001\"/
 				850 {{ModID}}_Fishmonger_GI_Inside 5 4 2/
-				1610 {{ModID}}_Fishmonger_GI_Inside 10 5 2 {{ModID}}_TheFishmonger_drinking \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.tea.005\"
+				1610 {{ModID}}_Fishmonger_GI_Inside 10 5 2 {{ModID}}_TheFishmonger_drinking \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.tea.005\"
 				",
 			
 			}
@@ -64,20 +64,20 @@
 				//Visits Willy and then goes to chill at the squidfest
 				"SquidFest": "
 				610 FishShop 8 6 2/
-				615 Beach 32 34 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.squidfest.000\"/
-				630 Beach 35 36 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.squidfest.001\"
+				615 Beach 32 34 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.squidfest.000\"/
+				630 Beach 35 36 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.squidfest.001\"
 				",
 				"SquidFest_1": "
 				610 FishShop 8 6 2/
-				615 Beach 32 34 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.squidfest.000\"/
-				630 Beach 35 36 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.squidfest.001\"
+				615 Beach 32 34 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.squidfest.000\"/
+				630 Beach 35 36 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.squidfest.001\"
 				",
 				"SquidFest_2": "GOTO SquidFest_1",
 				//Visits Willy and chills at the troutderby
 				"TroutDerby_1": "
 				610 FishShop 8 6 2/
-				630 Beach 32 34 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.troutderby.000\"/
-				700 Forest 71 50 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.troutderby.001\"
+				630 Beach 32 34 2 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.troutderby.000\"/
+				700 Forest 71 50 2 {{ModID}}_TheFishmonger_fish \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.troutderby.001\"
 				",
 				"TroutDerby_2": "GOTO TroutDerby_1",
             },
@@ -117,7 +117,7 @@
 				",
 				"Sun": "
 				610 {{ModID}}_LostIsland_MermaidHome 22 5 2/
-				900 {{ModID}}_LostIsland_NorthernCliffs 52 23 3 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:{{ModID}}_constance.lostisland.001\/
+				900 {{ModID}}_LostIsland_NorthernCliffs 52 23 3 \"Characters\\Dialogue\\{{ModID}}_TheFishmonger:constance.lostisland.001\/
 				2000 {{ModID}}_LostIsland_MermaidHome 19 19 0/
 				"
             },
