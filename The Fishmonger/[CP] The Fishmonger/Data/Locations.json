@@ -9,7 +9,7 @@
 				//==== FISHMONGERS HOME ========================================================================
 				//==============================================================================================
 				"{{ModId}}_Fishmonger_GI_Inside": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.FishmongerBoat}}",
+					"DisplayName": "{{i18n:Locations.FishmongerBoat}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_Fishmonger_GI_Inside",
 					},
@@ -34,7 +34,7 @@
 					"FormerLocationNames": [ "VoidWitchCult.TheFishmonger_Fishmonger_GI_Inside" ] // Ensures save data from previous mod versions gets loaded into the new ID for the location instead of being deleted
 				},
 				"{{ModId}}_Fishmonger_GI_Inside_LowerDeck": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.FishmongerBoat.LowerDeck}}",
+					"DisplayName": "{{i18n:Locations.FishmongerBoat.LowerDeck}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_Fishmonger_GI_Inside_LowerDeck",
 					},
@@ -61,7 +61,7 @@
 				//==== LOST ISLAND =============================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.LostIsland}}",
+					"DisplayName": "{{i18n:Locations.LostIsland}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland",
 					},
@@ -314,7 +314,7 @@
 				//==== MERMAID HOME ============================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland_MermaidHome": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.MermaidHome}}",
+					"DisplayName": "{{i18n:Locations.MermaidHome}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland_MermaidHome",
 					},
@@ -341,7 +341,7 @@
 				//==== COOLGAL HOME ============================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland_CoolGalHome": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.CoolGalHome}}",
+					"DisplayName": "{{i18n:Locations.CoolGalHome}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland_CoolGalHome",
 					},
@@ -368,7 +368,7 @@
 				//==== PIRATELAD HOME ==========================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland_PirateLadHome": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.PirateLadHome}}",
+					"DisplayName": "{{i18n:Locations.PirateLadHome}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland_PirateLadHome",
 					},
@@ -395,7 +395,7 @@
 				//==== LIBRARY =================================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland_Library": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.Library}}",
+					"DisplayName": "{{i18n:Locations.Library}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland_Library",
 					},
@@ -422,7 +422,7 @@
 				//==== ORCHARD =================================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland_Orchard": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.Orchard}}",
+					"DisplayName": "{{i18n:Locations.Orchard}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland_Orchard",
 					},
@@ -597,7 +597,7 @@
 				//==== ENCHANTED FOREST ========================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland_EnchantedForest": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.EnchantedForest}}",
+					"DisplayName": "{{i18n:Locations.EnchantedForest}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland_EnchantedForest",
 					},
@@ -775,7 +775,7 @@
 				//==== FORSAKEN COVE ===========================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland_ForsakenCove": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.ForsakenCove}}",
+					"DisplayName": "{{i18n:Locations.ForsakenCove}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland_ForsakenCove",
 					},
@@ -875,7 +875,7 @@
 				//==== NORTHERN CLIFFS =========================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland_NorthernCliffs": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.NorthernCliffs}}",
+					"DisplayName": "{{i18n:Locations.NorthernCliffs}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland_NorthernCliffs",
 					},
@@ -1025,7 +1025,7 @@
 				//==== SEADUDE HOME ============================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland_SeaDudeHome": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.SeaDudeHome}}",
+					"DisplayName": "{{i18n:Locations.SeaDudeHome}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland_SeaDudeHome",
 					},
@@ -1040,7 +1040,7 @@
 					"Forage": []
 				},
 				"{{ModId}}_LostIsland_SeaDudeHome_Cave": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.SeaDudeHomeCave}}",
+					"DisplayName": "{{i18n:Locations.SeaDudeHomeCave}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland_SeaDudeHome_Cave",
 					},
@@ -1067,7 +1067,7 @@
 				//==== NORTH EAST QUARRY =======================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland_NorthEastQuarry": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.NorthEastQuarry}}",
+					"DisplayName": "{{i18n:Locations.NorthEastQuarry}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland_NorthEastQuarry",
 					},
@@ -1188,7 +1188,7 @@
 				//==== POINT MELODIA ===========================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland_PointMelodia": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.PointMelodia}}",
+					"DisplayName": "{{i18n:Locations.PointMelodia}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland_PointMelodia",
 					},
@@ -1343,7 +1343,7 @@
 				//==== HIDDEN SPOT =============================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland_HiddenSpot": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Locations.HiddenSpot}}",
+					"DisplayName": "{{i18n:Locations.HiddenSpot}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_LostIsland_HiddenSpot",
 					},

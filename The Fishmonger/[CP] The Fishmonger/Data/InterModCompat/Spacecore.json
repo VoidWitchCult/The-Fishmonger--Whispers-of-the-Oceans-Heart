@@ -359,85 +359,85 @@
     "Target": "spacechase0.SpaceCore/FurnitureExtensionData",
     "Entries": {
         "{{ModId}}_MermaidBed": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidBed}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidBed}}"
         },
         "{{ModId}}_MermaidChair": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidChair}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidChair}}"
         },
         "{{ModId}}_MermaidTeaTable": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidTeaTable}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidTeaTable}}"
         },
         "{{ModId}}_MermaidTeaTable2": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidTeaTable2}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidTeaTable2}}"
         },
         "{{ModId}}_PileOfMermaidWood": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.PileOfMermaidWood}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.PileOfMermaidWood}}"
         },
         "{{ModId}}_PileOfMermaidWood2": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.PileOfMermaidWood2}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.PileOfMermaidWood2}}"
         },
 		"{{ModId}}_MermaidEndTable": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidEndTable}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidEndTable}}"
         },
         "{{ModId}}_MermaidEndTable2": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidEndTable2}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidEndTable2}}"
         },
 		"{{ModId}}_PiratePlushie": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.PiratePlushie}}]"
+            "DescriptionOverride": "{{i18n:Furniture.Description.PiratePlushie}}]"
         },
         "{{ModId}}_SeaDudePlushie": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.SeaDudePlushie}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.SeaDudePlushie}}"
         },
 		"{{ModId}}_PottedMermaidBush": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.PottedMermaidBush}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.PottedMermaidBush}}"
         },
         "{{ModId}}_FishLamp": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.FishLamp}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.FishLamp}}"
         },
 		"{{ModId}}_MermaidCoffeeTable": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidCoffeeTable}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidCoffeeTable}}"
         },
         "{{ModId}}_MermaidCoffeeTable2": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidCoffeeTable2}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidCoffeeTable2}}"
         },
 		"{{ModId}}_MermaidFireplace": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidFireplace}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidFireplace}}"
         },
         "{{ModId}}_SharkFireplace": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.SharkFireplace}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.SharkFireplace}}"
         },
 		"{{ModId}}_DepictionOfHer": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.DepictionOfHer}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.DepictionOfHer}}"
         },
         "{{ModId}}_JellyfishRug": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.JellyfishRug}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.JellyfishRug}}"
         },
 		"{{ModId}}_MyHeartProfound": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MyHeartProfound}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.MyHeartProfound}}"
         },
         "{{ModId}}_JellyfishBanner": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.JellyfishBanner}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.JellyfishBanner}}"
         },
 		"{{ModId}}_PirateBanner": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.PirateBanner}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.PirateBanner}}"
         },
         "{{ModId}}_MermaidDoor": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.MermaidDoor}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidDoor}}"
         },
 		"{{ModId}}_FloralCart": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.FloralCart}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.FloralCart}}"
         },
 		"{{ModId}}_PirateGalSpousePortrait": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.PirateGalSpousePortrait}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.PirateGalSpousePortrait}}"
         },
 		"{{ModId}}_SeaDudeSpousePortrait": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.SeaDudeSpousePortrait}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.SeaDudeSpousePortrait}}"
         },
 		"{{ModId}}_FloralRug": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.FloralRug}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.FloralRug}}"
         },
 		"{{ModId}}_LibraryRug": {
-            "DescriptionOverride": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Furniture.Description.LibraryRug}}"
+            "DescriptionOverride": "{{i18n:Furniture.Description.LibraryRug}}"
         }
     }
 },

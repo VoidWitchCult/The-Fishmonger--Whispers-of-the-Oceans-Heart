@@ -46,7 +46,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring13",
 			"Entries": 
-			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.Eggfestival.Constance}}",
+			{ "{{ModID}}_TheFishmonger": "{{i18n:Festivals.Eggfestival.Constance}}",
 			},
 			
 		},
@@ -175,7 +175,7 @@
 			"Target": "Data/Festivals/spring24",
 			"Entries": 
 			{ 
-			"{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.FlowerDance.Constance}}",
+			"{{ModID}}_TheFishmonger": "{{i18n:Festivals.FlowerDance.Constance}}",
 			"{{ModID}}_PirateLadCaitrionaOFlannagain": "{{i18n:Festivals.FlowerDance.Caitriona}}",
 			"{{ModID}}_SeaDudeBarnabas": "{{i18n:Festivals.FlowerDance.Barnabas}}",
 			},
@@ -225,7 +225,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer11",
 			"Entries": 
-			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.Luau.Constance}}",
+			{ "{{ModID}}_TheFishmonger": "{{i18n:Festivals.Luau.Constance}}",
 			},
 		},
 		//==============================================================================================
@@ -238,7 +238,7 @@
 			
 			"When": { "HasMod: |contains=LenneDalben.PelicanTownPotluck": true},
 			"Entries": 
-			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.Luau.Constance}}",
+			{ "{{ModID}}_TheFishmonger": "{{i18n:Festivals.Luau.Constance}}",
 			},
 		},
 		//==============================================================================================
@@ -286,7 +286,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer28",
 			"Entries": 
-			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.MoonlightJellies.Constance}}",
+			{ "{{ModID}}_TheFishmonger": "{{i18n:Festivals.MoonlightJellies.Constance}}",
 			},
 		},
 		//==============================================================================================
@@ -341,7 +341,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
 			"Entries": 
-			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.Fair.Constance}}",
+			{ "{{ModID}}_TheFishmonger": "{{i18n:Festivals.Fair.Constance}}",
 			},
 		},
 		//==============================================================================================
@@ -396,7 +396,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall27",
 			"Entries": 
-			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.SpiritsEve.Constance}}",
+			{ "{{ModID}}_TheFishmonger": "{{i18n:Festivals.SpiritsEve.Constance}}",
 			},
 		},
 		//==============================================================================================
@@ -477,7 +477,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter8",
 			"Entries": 
-			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.IceFishing.Constance}}", 
+			{ "{{ModID}}_TheFishmonger": "{{i18n:Festivals.IceFishing.Constance}}", 
 			},
 		},
 		//==============================================================================================
@@ -512,7 +512,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter25",
 			"Entries": 
-			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.WinterStar.Constance}}",
+			{ "{{ModID}}_TheFishmonger": "{{i18n:Festivals.WinterStar.Constance}}",
 			},
 		},
 		//Solstice Winter Star changes the Feast of the Winter Star to a less Christmas-y version with food instead of gifts, so you may want a dialogue variant.
@@ -522,7 +522,7 @@
 			"Target": "Data/Festivals/winter25",
 			"When": { "HasMod: |contains=Airyn.CPSolsticeWinterStar": true},
 			"Entries": 
-			{ "{{ModID}}_TheFishmonger": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Festivals.WinterStar.Constance}}", 
+			{ "{{ModID}}_TheFishmonger": "{{i18n:Festivals.WinterStar.Constance}}", 
 			},
 		},
 		

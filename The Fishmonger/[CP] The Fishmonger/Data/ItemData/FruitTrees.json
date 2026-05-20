@@ -8,7 +8,7 @@
             "Target": "Data/FruitTrees",
             "Entries": {
                 "{{ModId}}_IridescentScaleSapling": {
-                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.IridescentScale.name}}",
+                    "DisplayName": "{{i18n:IridescentScale.name}}",
                     "Seasons": [ "spring", "summer" ],
                     "Fruit": [
                         {
@@ -19,7 +19,7 @@
                     "Texture": "Mods/{{ModId}}/FruitTrees",
                     "TextureSpriteRow": 0,
 					"CustomFields": {
-						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.IridescentScale}}"
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:IridescentScale}}"
 					}
 				}
 			}
@@ -29,7 +29,7 @@
             "Target": "Data/FruitTrees",
             "Entries": {
                 "{{ModID}}_TreeOfGinnungagapSapling": {
-                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TreeOfGinnungagap.name}}",
+                    "DisplayName": "{{i18n:TreeOfGinnungagap.name}}",
                     "Seasons": [ "fall", "winter" ],
                     "Fruit": [
                         {
@@ -40,7 +40,7 @@
                     "Texture": "Mods/{{ModId}}/FruitTrees",
                     "TextureSpriteRow": 1,
 					"CustomFields": {
-						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.TreeOfGinnungagap}}"
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:TreeOfGinnungagap}}"
 					}
 				}
 			}
@@ -50,7 +50,7 @@
             "Target": "Data/FruitTrees",
             "Entries": {
                 "{{ModID}}_LoversStarSapling": {
-                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LoversStar.name}}",
+                    "DisplayName": "{{i18n:LoversStar.name}}",
                     "Seasons": [ "fall" ],
                     "Fruit": [
                         {
@@ -61,7 +61,7 @@
                     "Texture": "Mods/{{ModId}}/FruitTrees",
                     "TextureSpriteRow": 2,
 					"CustomFields": {
-						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.LoversStar}}"
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:LoversStar}}"
 					}
 				}
 			}
@@ -71,7 +71,7 @@
             "Target": "Data/FruitTrees",
             "Entries": {
                 "{{ModID}}_PuffballSapling": {
-                    "DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Puffball.name}}",
+                    "DisplayName": "{{i18n:Puffball.name}}",
                     "Seasons": [ "spring", "summer", "fall" ],
                     "Fruit": [
                         {
@@ -82,7 +82,7 @@
                     "Texture": "Mods/{{ModId}}/FruitTrees",
                     "TextureSpriteRow": 3,
 					"CustomFields": {
-						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Puffball}}"
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:Puffball}}"
 					}
 				}
 			}

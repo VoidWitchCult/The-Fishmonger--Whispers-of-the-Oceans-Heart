@@ -74,7 +74,7 @@
 					],
 					"GrowsMoss": true,
 					"CustomFields": {
-						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidTree}}"
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:MermaidTree}}"
 					}
 				},
 				"{{ModId}}_mermaidtree2": {
@@ -144,7 +144,7 @@
 					],
 					"GrowsMoss": true,
 					"CustomFields": {
-						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.MermaidTree2}}"
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:MermaidTree2}}"
 					}
 				},
 			},  

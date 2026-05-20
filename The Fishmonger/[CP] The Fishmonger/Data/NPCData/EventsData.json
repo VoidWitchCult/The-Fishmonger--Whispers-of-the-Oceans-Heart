@@ -35,7 +35,7 @@
 			"Action": "EditData",
             "Target": "Data/Events/IslandSouth",
             "Entries": {
-				"{{ModID}}_2Hearts/Time 2200 2600/Friendship {{ModID}}_TheFishmonger 2": "
+				"{{ModID}}_2Hearts/Time 2200 2600/Friendship {{ModID}}_TheFishmonger 500": "
 				starshoot/
 				-1000 -1000/
 				farmer 20 30 2/
@@ -71,7 +71,7 @@
 			"Action": "EditData",
             "Target": "Data/Events/IslandSouth",
             "Entries": {
-				"{{ModID}}_4Hearts/Time 1400 1500/Weather sunny/Friendship {{ModID}}_TheFishmonger 4": "
+				"{{ModID}}_4Hearts/Time 1400 1500/Weather sunny/Friendship {{ModID}}_TheFishmonger 1000": "
 				EmilyDream/
 				-1000 -1000/
 				farmer 10 12 2 {{ModID}}_TheFishmonger 14 23 2/
@@ -121,7 +121,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Beach",
 			"Entries": {
-				"{{ModID}}_Willy4Hearts/Time 1800 2100/Weather sunny/Friendship Willy 4/SawEvent 9348571/SawEvent {{ModID}}_Introduction": "
+				"{{ModID}}_Willy4Hearts/Time 1800 2100/Weather sunny/Friendship Willy 1000/SawEvent 9348571/SawEvent {{ModID}}_Introduction": "
 				ocean/
 				-1000 -1000/
 				farmer 28 35 1 Willy 44 35 1/
@@ -194,7 +194,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/IslandSouth",
 			"Entries": {
-				"{{ModID}}_Constance6Hearts/Weather sunny/Friendship {{ModID}}_TheFishmonger 6/SawEvent {{ModID}}_Willy4Hearts": "
+				"{{ModID}}_Constance6Hearts/Weather sunny/Friendship {{ModID}}_TheFishmonger 1500/SawEvent {{ModID}}_Willy4Hearts": "
 				ocean/
 				-1000 -1000/
 				farmer 20 40 2 Willy 22 40 3 {{ModID}}_TheFishmonger -1000 -1000 2/
@@ -286,7 +286,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Beach",
 			"Entries": {
-				"{{ModID}}_Constance8HeartsPart1/Time 900 1900/Weather sunny/Friendship {{ModID}}_TheFishmonger 8/SawEvent {{ModID}}_Constance6Hearts": "
+				"{{ModID}}_Constance8HeartsPart1/Time 900 1900/Weather sunny/Friendship {{ModID}}_TheFishmonger 2000/SawEvent {{ModID}}_Constance6Hearts": "
 				ocean/
 				-1000 -1000/
 				farmer 25 26 2 Willy 24 35 3/
@@ -346,7 +346,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/FishShop",
 			"Entries": {
-				"{{ModID}}_Constance8HeartsPart2/Time 1600 2200/Friendship {{ModID}}_TheFishmonger 8/SawEvent {{ModID}}_Introduction/SawEvent {{ModID}}_Constance8HeartsPart1": "
+				"{{ModID}}_Constance8HeartsPart2/Time 1600 2200/Friendship {{ModID}}_TheFishmonger 2000/SawEvent {{ModID}}_Introduction/SawEvent {{ModID}}_Constance8HeartsPart1": "
 				ocean/
 				-1000 -1000/
 				farmer 5 8 0 Willy -2000 -2000 2 {{ModID}}_TheFishmonger -2000 -2000 2/
@@ -432,7 +432,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland",
 			"Entries": {
-				"{{ModID}}_Constance10Hearts/Time 600 2600/Friendship {{ModID}}_TheFishmonger 10/SawEvent {{ModID}}_MermaidCalliope8Hearts2": "
+				"{{ModID}}_Constance10Hearts/Time 600 2600/Friendship {{ModID}}_TheFishmonger 2500/SawEvent {{ModID}}_MermaidCalliope8Hearts2": "
 				starshoot/
 				-1000 -1000/
 				farmer -2000 -2000 0 Willy -2000 -2000 0 {{ModID}}_TheFishmonger -2000 -2000 0 {{ModID}}_MermaidCalliope -2000 -2000 0 {{ModID}}_SeaDudeBarnabas -2000 -2000 0 {{ModID}}_PirateLadCaitrionaOFlannagain -2000 -2000 0 {{ModID}}_CoolGalBernadette -2000 -2000 0 {{ModID}}_LibrarianGamayun -2000 -2000 0/
@@ -600,7 +600,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/IslandSouth",
 			"Entries": {
-				"{{ModID}}_MermaidCalliope4Hearts/Weather sunny/Friendship {{ModID}}_MermaidCalliope 4/SawEvent {{ModID}}_Constance6Hearts": "
+				"{{ModID}}_MermaidCalliope4Hearts/Weather sunny/Friendship {{ModID}}_MermaidCalliope 1000/SawEvent {{ModID}}_Constance6Hearts": "
 				ocean/
 				-1000 -1000/
 				farmer -2000 -2000 2 Willy 21 43 1 {{ModID}}_TheFishmonger 22 43 3 {{ModID}}_MermaidCalliope -1000 -1000 2/
@@ -664,7 +664,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/IslandSouth",
 			"Entries": {
-				"{{ModID}}_MermaidCalliope6Hearts/Weather sunny/Friendship {{ModID}}_MermaidCalliope 6/SawEvent {{ModID}}_Constance6Hearts": "
+				"{{ModID}}_MermaidCalliope6Hearts/Weather sunny/Friendship {{ModID}}_MermaidCalliope 1500/SawEvent {{ModID}}_Constance6Hearts": "
 				summer_day_ambient/
 				-1000 -1000/
 				farmer -2000 -2000 2 {{ModID}}_TheFishmonger 1 13 1 {{ModID}}_MermaidCalliope 15 23 2/
@@ -851,7 +851,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland",
 			"Entries": {
-				"{{ModID}}_MermaidCalliope8Hearts/Weather sunny/Friendship {{ModID}}_MermaidCalliope 8/SawEvent {{ModID}}_Constance8HeartsPart1/": "
+				"{{ModID}}_MermaidCalliope8Hearts/Weather sunny/Friendship {{ModID}}_MermaidCalliope 2000/SawEvent {{ModID}}_Constance8HeartsPart1/": "
 				submarine_song/
 				-1000 -1000/
 				farmer -2000 -2000 2 {{ModID}}_MermaidCalliope 77 40 2 {{ModID}}_TheFishmonger 78 41 0/
@@ -1058,7 +1058,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_EnchantedForest",
 			"Entries": {
-				"{{ModID}}_MermaidCalliope8Hearts2/Weather sunny/Friendship {{ModID}}_MermaidCalliope 8/GameStateQuery PLAYER_HAS_MAIL Any {{ModID}}_CFBQuestMailFlag": "
+				"{{ModID}}_MermaidCalliope8Hearts2/Weather sunny/Friendship {{ModID}}_MermaidCalliope 2000/GameStateQuery PLAYER_HAS_MAIL Any {{ModID}}_CFBQuestMailFlag": "
 				submarine_song/
 				-1000 -1000/
 				farmer -2000 -2000 2 {{ModID}}_MermaidCalliope 108 87 2 {{ModID}}_TheFishmonger 106 87 2/
@@ -1155,7 +1155,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_EnchantedForest",
 			"Entries": {
-				"{{ModID}}_MermaidCalliope10Hearts/Weather sunny/Friendship {{ModID}}_MermaidCalliope 10/SawEvent {{ModID}}_Constance10Hearts/SawEvent {{ModID}}_MermaidCalliope8Hearts": "
+				"{{ModID}}_MermaidCalliope10Hearts/Weather sunny/Friendship {{ModID}}_MermaidCalliope 2500/SawEvent {{ModID}}_Constance10Hearts/SawEvent {{ModID}}_MermaidCalliope8Hearts": "
 				submarine_song/
 				-1000 -1000/
 				farmer 14 46 1 {{ModID}}_MermaidCalliope 34 46 2 {{ModID}}_TheFishmonger 39 52 2/
@@ -1279,7 +1279,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/IslandSouth",
 			"Entries": {
-				"{{ModID}}_PirateLadCaitrionaOFlannagain2Hearts/Weather rain/Friendship {{ModID}}_PirateLadCaitrionaOFlannagain 2/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_PirateLadCaitrionaOFlannagainIntro": "
+				"{{ModID}}_PirateLadCaitrionaOFlannagain2Hearts/Weather rain/Friendship {{ModID}}_PirateLadCaitrionaOFlannagain 500/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_PirateLadCaitrionaOFlannagainIntro": "
 				summer_day_ambient/
 				-1000 -1000/
 				farmer 21 36 0 {{ModID}}_PirateLadCaitrionaOFlannagain 23 24 2/
@@ -1324,7 +1324,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_PirateLadHome",
 			"Entries": {
-				"{{ModID}}_PirateLadCaitrionaOFlannagain4Hearts/Weather sunny/Friendship {{ModID}}_PirateLadCaitrionaOFlannagain 4/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_PirateLadCaitrionaOFlannagain2Hearts": "
+				"{{ModID}}_PirateLadCaitrionaOFlannagain4Hearts/Weather sunny/Friendship {{ModID}}_PirateLadCaitrionaOFlannagain 1000/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_PirateLadCaitrionaOFlannagain2Hearts": "
 				moonlightJellies/
 				-1000 -1000/
 				farmer 2 13 1 {{ModID}}_PirateLadCaitrionaOFlannagain 2 12 0/
@@ -1384,7 +1384,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland",
 			"Entries": {
-				"{{ModID}}_PirateLadCaitrionaOFlannagain6Hearts/Weather sunny/Friendship {{ModID}}_PirateLadCaitrionaOFlannagain 6/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_PirateLadCaitrionaOFlannagain4Hearts": "
+				"{{ModID}}_PirateLadCaitrionaOFlannagain6Hearts/Weather sunny/Friendship {{ModID}}_PirateLadCaitrionaOFlannagain 1500/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_PirateLadCaitrionaOFlannagain4Hearts": "
 				ocean/
 				-1000 -1000/
 				farmer 89 45 2 {{ModID}}_PirateLadCaitrionaOFlannagain 88 53 2/
@@ -1461,7 +1461,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_PointMelodia",
 			"Entries": {
-				"{{ModID}}_PirateLadCaitrionaOFlannagain8Hearts/Weather sunny/Friendship {{ModID}}_PirateLadCaitrionaOFlannagain 8/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_PirateLadCaitrionaOFlannagain6Hearts": "
+				"{{ModID}}_PirateLadCaitrionaOFlannagain8Hearts/Weather sunny/Friendship {{ModID}}_PirateLadCaitrionaOFlannagain 2000/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_PirateLadCaitrionaOFlannagain6Hearts": "
 				sweet/
 				-1000 -1000/
 				farmer 12 9 2 {{ModID}}_PirateLadCaitrionaOFlannagain 5 20 2/
@@ -1521,7 +1521,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/IslandSouthEastCave",
 			"Entries": {
-				"{{ModID}}_PirateLadCaitrionaOFlannagain10Hearts/Weather sunny/Time 2000 2600/DayOfMonth 2 4 6 8 10 12 14 16 18 20 22 24 26 28/Friendship {{ModID}}_PirateLadCaitrionaOFlannagain 10/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_PirateLadCaitrionaOFlannagain8Hearts": "
+				"{{ModID}}_PirateLadCaitrionaOFlannagain10Hearts/Weather sunny/Time 2000 2600/DayOfMonth 2 4 6 8 10 12 14 16 18 20 22 24 26 28/Friendship {{ModID}}_PirateLadCaitrionaOFlannagain 2500/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_PirateLadCaitrionaOFlannagain8Hearts": "
 				PIRATE_THEME/
 				-1000 -1000/
 				farmer 20 22 0 {{ModID}}_PirateLadCaitrionaOFlannagain 31 7 0/
@@ -1575,7 +1575,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland",
 			"Entries": {
-				"{{ModID}}_PirateLadCaitrionaOFlannagain14Hearts/Weather sunny/Friendship {{ModID}}_PirateLadCaitrionaOFlannagain 14/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_PirateLadCaitrionaOFlannagain10Hearts": "
+				"{{ModID}}_PirateLadCaitrionaOFlannagain14Hearts/Weather sunny/Friendship {{ModID}}_PirateLadCaitrionaOFlannagain 3500/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_PirateLadCaitrionaOFlannagain10Hearts": "
 				musicboxsong/
 				-1000 -1000/
 				farmer -2000 -2000 0 {{ModID}}_PirateLadCaitrionaOFlannagain -2000 -2000 0/
@@ -1658,7 +1658,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland",
 			"Entries": {
-				"{{ModID}}_CoolGalBernadette2Hearts/Time 900 1400/Friendship {{ModID}}_CoolGalBernadette 2/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadetteIntro": "
+				"{{ModID}}_CoolGalBernadette2Hearts/Time 900 1400/Friendship {{ModID}}_CoolGalBernadette 500/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadetteIntro": "
 				submarine_song/
 				-1000 -1000/
 				farmer 88 41 2 {{ModID}}_CoolGalBernadette -1000 -1000 1/
@@ -1704,7 +1704,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_CoolGalHome",
 			"Entries": {
-				"{{ModID}}_CoolGalBernadette4Hearts/Friendship {{ModID}}_CoolGalBernadette 4/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadette2Hearts": "
+				"{{ModID}}_CoolGalBernadette4Hearts/Friendship {{ModID}}_CoolGalBernadette 1000/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadette2Hearts": "
 				playful/
 				-1000 -1000/
 				farmer -1000 -1000 0 {{ModID}}_CoolGalBernadette 18 8 2/
@@ -1752,7 +1752,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_EnchantedForest",
 			"Entries": {
-				"{{ModID}}_CoolGalBernadette6Hearts/Friendship {{ModID}}_CoolGalBernadette 6/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadette4Hearts": "
+				"{{ModID}}_CoolGalBernadette6Hearts/Friendship {{ModID}}_CoolGalBernadette 1500/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadette4Hearts": "
 				jaunty/
 				-1000 -1000/
 				farmer 23 92 1 {{ModID}}_CoolGalBernadette 33 95 2/
@@ -1805,7 +1805,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland",
 			"Entries": {
-				"{{ModID}}_CoolGalBernadette8Hearts/Friendship {{ModID}}_CoolGalBernadette 8/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadette6Hearts": "
+				"{{ModID}}_CoolGalBernadette8Hearts/Friendship {{ModID}}_CoolGalBernadette 2000/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadette6Hearts": "
 				SunRoom/
 				-1000 -1000/
 				farmer 89 30 2 {{ModID}}_CoolGalBernadette 87 42 2/
@@ -1862,7 +1862,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_CoolGalHome",
 			"Entries": {
-				"{{ModID}}_CoolGalBernadette8HeartsPart2/Friendship {{ModID}}_CoolGalBernadette 8/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadette8Hearts": "
+				"{{ModID}}_CoolGalBernadette8HeartsPart2/Friendship {{ModID}}_CoolGalBernadette 2000/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadette8Hearts": "
 				jaunty/
 				-1000 -1000/
 				farmer -2000 -2000 0 {{ModID}}_CoolGalBernadette 22 6 1/
@@ -1951,7 +1951,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Saloon",
 			"Entries": {
-				"{{ModID}}_CoolGalBernadette10Hearts/Friendship {{ModID}}_CoolGalBernadette 10/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadette8HeartsPart2": "
+				"{{ModID}}_CoolGalBernadette10Hearts/Friendship {{ModID}}_CoolGalBernadette 2500/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadette8HeartsPart2": "
 				heavy/
 				-1000 -1000/
 				farmer -2000 -2000 0 {{ModID}}_CoolGalBernadette -2000 -2000 2 Gus -2000 -2000 2 Emily -2000 -2000 1 Shane -2000 -2000 0 Elliott -2000 -2000 0 Abigail -2000 -2000 1 Leah -2000 -2000 3 Sam -2000 -2000 0/
@@ -2038,7 +2038,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_CoolGalHome",
 			"Entries": {
-				"{{ModID}}_CoolGalBernadette10HeartsPart2/Friendship {{ModID}}_CoolGalBernadette 10/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadette10Hearts": "
+				"{{ModID}}_CoolGalBernadette10HeartsPart2/Friendship {{ModID}}_CoolGalBernadette 2500/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_CoolGalBernadette10Hearts": "
 				sampractice/
 				-1000 -1000/
 				farmer -2000 -2000 0 {{ModID}}_CoolGalBernadette 18 5 2 {{ModID}}_CoolDadArmand -1000 -1000 0/
@@ -2167,7 +2167,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_EnchantedForest",
 			"Entries": {
-				"{{ModID}}_SeaDudeBarnabas2Hearts/Time 900 1800/Friendship {{ModID}}_SeaDudeBarnabas  2/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabasIntro": "
+				"{{ModID}}_SeaDudeBarnabas2Hearts/Time 900 1800/Friendship {{ModID}}_SeaDudeBarnabas 500/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabasIntro": "
 				movie_classic/
 				-1000 -1000/
 				farmer 1 12 1 {{ModID}}_SeaDudeBarnabas 15 22 0/
@@ -2232,7 +2232,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_Orchard",
 			"Entries": {
-				"{{ModID}}_SeaDudeBarnabas4Hearts/Time 900 1800/Friendship {{ModID}}_SeaDudeBarnabas 4/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabas2Hearts": "
+				"{{ModID}}_SeaDudeBarnabas4Hearts/Time 900 1800/Friendship {{ModID}}_SeaDudeBarnabas 1000/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabas2Hearts": "
 				movie_nature/
 				-1000 -1000/
 				farmer -2000 -2000 0 {{ModID}}_CoolGalBernadette -2000 -2000 0 {{ModID}}_PirateLadCaitrionaOFlannagain -2000 -2000 0 {{ModID}}_SeaDudeBarnabas 12 14 1/
@@ -2352,7 +2352,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_EnchantedForest",
 			"Entries": {
-				"{{ModID}}_SeaDudeBarnabas6Hearts/Time 1800 2200/Friendship {{ModID}}_SeaDudeBarnabas 6/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabas4Hearts": "
+				"{{ModID}}_SeaDudeBarnabas6Hearts/Time 1800 2200/Friendship {{ModID}}_SeaDudeBarnabas 1500/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabas4Hearts": "
 				night_market/
 				-1000 -1000/
 				farmer 36 56 2 {{ModID}}_SeaDudeBarnabas 47 67 0/
@@ -2418,7 +2418,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_Orchard",
 			"Entries": {
-				"{{ModID}}_SeaDudeBarnabas8Hearts/Time 0700 1200/Friendship {{ModID}}_SeaDudeBarnabas 8/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabas6Hearts": "
+				"{{ModID}}_SeaDudeBarnabas8Hearts/Time 0700 1200/Friendship {{ModID}}_SeaDudeBarnabas 2000/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabas6Hearts": "
 				night_market/
 				-1000 -1000/
 				farmer 46 31 1 {{ModID}}_SeaDudeBarnabas 62 29 0/
@@ -2568,7 +2568,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Town",
 			"Entries": {
-				"{{ModID}}_SeaDudeBarnabas10Hearts/Time 0700 1400/Friendship {{ModID}}_SeaDudeBarnabas 10/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabas8Hearts": "
+				"{{ModID}}_SeaDudeBarnabas10Hearts/Time 0700 1400/Friendship {{ModID}}_SeaDudeBarnabas 2500/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabas8Hearts": "
 				breezy/
 				-1000 -1000/
 				farmer -2000 -2000 0 {{ModID}}_SeaDudeBarnabas -2000 -2000 0 Robin -2000 -2000 0 Clint -2000 -2000 0 Leah -2000 -2000 0 Jodi -2000 -2000 0 Abigail -2000 -2000 0 Sam -2000 -2000 0 Penny -2000 -2000 0 Pam -2000 -2000 0 Jas -2000 -2000 0 Marnie -2000 -2000 0 Emily -2000 -2000 0/
@@ -2641,7 +2641,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_NorthEastQuarry",
 			"Entries": {
-				"{{ModID}}_SeaDudeBarnabas14Hearts/Time 2000 2600/Friendship {{ModID}}_SeaDudeBarnabas 14/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabas10Hearts": "
+				"{{ModID}}_SeaDudeBarnabas14Hearts/Time 2000 2600/Friendship {{ModID}}_SeaDudeBarnabas 3500/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabas10Hearts": "
 				night_market/
 				-1000 -1000/
 				farmer 35 27 1 {{ModID}}_SeaDudeBarnabas 59 27 2/
@@ -2700,7 +2700,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland",
 			"Entries": {
-				"{{ModID}}_SeaDudeBarnabasHatHearts/t 600 1800/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabasIntro/ActiveDialogueEvent  {{ModID}}_Barnabas14HeartsEventMention": "
+				"{{ModID}}_SeaDudeBarnabasHatHearts/t 600 1800/SawEvent {{ModID}}_Constance6Hearts/SawEvent {{ModID}}_SeaDudeBarnabasIntro/ActiveDialogueEvent {{ModID}}_Barnabas14HeartsEventMention": "
 				SunRoom/
 				-1000 -1000/
 				farmer 50 30 2 {{ModID}}_SeaDudeBarnabas 53 49 2/
@@ -2878,7 +2878,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_Library",
 			"Entries": {
-				"{{ModID}}_HomeworkShenanigans/SawEvent {{ModID}}_Constance6Hearts/Friendship {{ModID}}_MermanKidMoss 4": "
+				"{{ModID}}_HomeworkShenanigans/SawEvent {{ModID}}_Constance6Hearts/Friendship {{ModID}}_MermanKidMoss 1000": "
 				night_market/
 				-1000 -1000/
 				farmer 30 33 3 {{ModID}}_MermanKidMoss 10 48 0 {{ModID}}_AnglerfishGuyHemlock 12 47 3/
@@ -2936,7 +2936,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/SunRoom",
 			"Entries": {
-				"{{ModID}}_TeaTime/SawEvent {{ModID}}_Constance6Hearts/Friendship {{ModID}}_TheFishmonger 8": "
+				"{{ModID}}_TeaTime/SawEvent {{ModID}}_Constance6Hearts/Friendship {{ModID}}_TheFishmonger 2000": "
 				SunRoom/
 				-1000 -1000/
 				farmer -500 -500 0 Caroline 5 7 1 {{ModID}}_TheFishmonger 3 8 1/
@@ -3003,7 +3003,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModID}}_LostIsland_AnglerGuyHome",
 			"Entries": {
-				"{{ModID}}_MomTroubles/SawEvent {{ModID}}_Constance6Hearts/Friendship {{ModID}}_SelkieMomMorvenna 4": "
+				"{{ModID}}_MomTroubles/SawEvent {{ModID}}_Constance6Hearts/Friendship {{ModID}}_SelkieMomMorvenna 1000": "
 				clubloop/
 				-1000 -1000/
 				farmer -500 -500 0 {{ModID}}_SelkieMomMorvenna 8 13 0 {{ModID}}_MermaidMomAmalthea -500 -500 0 {{ModID}}_BraidedMermaidCecilia -500 -500 0/

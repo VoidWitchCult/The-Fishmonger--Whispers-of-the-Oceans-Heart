@@ -11,7 +11,7 @@
 				//==== The Fishmonger ==================================================================
 				"{{ModID}}_TheFishmonger": {
 					"FormerCharacterNames": [ "TheFishmonger" ],
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.Constance}}",
+					"DisplayName": "{{i18n:Name.Constance}}",
 					"BirthSeason": "summer",
 					"BirthDay": 26,
 					"HomeRegion": "Town",
@@ -68,8 +68,8 @@
 						
 					],
 					"FriendsAndFamily": {
-						"Willy": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.ConstanceWilly}}",
-						"Caroline": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.ConstanceCaroline}}"
+						"Willy": "{{i18n:RelationshipStatus.ConstanceWilly}}",
+						"Caroline": "{{i18n:RelationshipStatus.ConstanceCaroline}}"
 					},
 					"SpawnIfMissing": true,
 					"Home": [
@@ -172,7 +172,7 @@
 				},	
 				//==== Mermaid =========================================================================
 				"{{ModID}}_MermaidCalliope": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.Mermaid}}",
+					"DisplayName": "{{i18n:Name.Mermaid}}",
 					"BirthSeason": "spring",
 					"BirthDay": 14,
 					"HomeRegion": "Other",
@@ -199,7 +199,7 @@
 					"HiddenProfileEmoteFrameCount": 2,
 					"HiddenProfileEmoteFrameDuration": 200.0,
 					"FriendsAndFamily": {
-						"{{ModID}}_SeaDudeBarnabas": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.CalliopeBarnabas}}",
+						"{{ModID}}_SeaDudeBarnabas": "{{i18n:RelationshipStatus.CalliopeBarnabas}}",
 					},
 					"SpawnIfMissing": true,
 					"Home": [
@@ -238,7 +238,7 @@
 				},
 				//==== CoolGal =========================================================================
 				"{{ModID}}_CoolGalBernadette": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.CoolGal}}",
+					"DisplayName": "{{i18n:Name.CoolGal}}",
 					"BirthSeason": "winter",
 					"BirthDay": 6,
 					"HomeRegion": "Other",
@@ -294,7 +294,7 @@
 				},
 				//==== PIRATELAD =======================================================================
 				"{{ModID}}_PirateLadCaitrionaOFlannagain": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.PirateLad}}",
+					"DisplayName": "{{i18n:Name.PirateLad}}",
 					"BirthSeason": "fall",
 					"BirthDay": 30,
 					"HomeRegion": "Other",
@@ -379,7 +379,7 @@
 				},
 				//==== SEADUDE =========================================================================
 				"{{ModID}}_SeaDudeBarnabas": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.SeaDude}}",
+					"DisplayName": "{{i18n:Name.SeaDude}}",
 					"BirthSeason": "summer",
 					"BirthDay": 1,
 					"HomeRegion": "Other",
@@ -408,7 +408,7 @@
 					"HiddenProfileEmoteFrameDuration": 200.0,
 					"EndSlideShow": "MainGroup",
 					"FriendsAndFamily": {
-						"{{ModID}}_MermaidCalliope": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.BarnabasCalliope}}",
+						"{{ModID}}_MermaidCalliope": "{{i18n:RelationshipStatus.BarnabasCalliope}}",
 					},
 					"SpawnIfMissing": true,
 					"Home": [
@@ -469,7 +469,7 @@
 				},
 				//==== GAMAYUN =========================================================================
 				"{{ModID}}_LibrarianGamayun": {
-					"DisplayName": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.Name.Librarian}}",
+					"DisplayName": "{{i18n:Name.Librarian}}",
 					"BirthSeason": "winter",
 					"BirthDay": 28,
 					"HomeRegion": "Other",
@@ -500,7 +500,7 @@
 					"HiddenProfileEmoteFrameCount": 4,
 					"HiddenProfileEmoteFrameDuration": 200.0,
 					"FriendsAndFamily": {
-						"{{ModID}}_SeaDudeBarnabas": "{{i18n:VoidWitchCult.CP.TheFishmongerNPC.RelationshipStatus.GamayunBarnabas}}",
+						"{{ModID}}_SeaDudeBarnabas": "{{i18n:RelationshipStatus.GamayunBarnabas}}",
 					},
 					"SpawnIfMissing": true,
 					"Home": [
