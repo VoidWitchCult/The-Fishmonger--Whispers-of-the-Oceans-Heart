@@ -11,7 +11,7 @@
 			700 {{ModID}}_LostIsland_RoyalMermanHome 8 7 0/
 			900 {{ModID}}_LostIsland_RoyalMermanHome 11 16 0 square_4_1_0/
 			1100 {{ModID}}_LostIsland_RoyalMermanHome 14 24 3/
-			a1600 {{ModID}}_LostIsland_PointMelodia 10 19 2 {{ModID}}_SternMermanCalderon_pining \"Characters\\Dialogue\\{{ModID}}_SternMermanCalderon:Calderon.Schedule.Dialogue.lostisland.000\"/
+			a1600 {{ModID}}_LostIsland_PointMelodia 10 19 2 {{ModID}}_SternMermanCalderon_pining \"Characters\\Dialogue\\{{ModID}}_SternMermanCalderon:Calderon.lostisland.000\"/
 			1730 {{ModID}}_LostIsland_EnchantedForest 65 37 2 square_5_5_2/
 			2200 {{ModID}}_LostIsland_RoyalMermanHome 10 16 0 square_4_1_0/
 			2500 {{ModID}}_LostIsland_RoyalMermanHome 4 7 2 {{ModID}}_SternMermanCalderon_sleep/
@@ -39,7 +39,7 @@
 			610 {{ModID}}_LostIsland_RoyalMermanHome 4 7 2/
 			700 {{ModID}}_LostIsland_RoyalMermanHome 8 7 0/
 			900 {{ModID}}_LostIsland_RoyalMermanHome 11 16 0 square_4_1_0/
-			930 {{ModID}}_LostIsland_NorthernCliffs 43 10 0 \"Characters\\Dialogue\\{{ModID}}_SternMermanCalderon:Calderon.Schedule.Dialogue.lostisland.001\"/
+			930 {{ModID}}_LostIsland_NorthernCliffs 43 10 0 \"Characters\\Dialogue\\{{ModID}}_SternMermanCalderon:Calderon.lostisland.001\"/
 			2200 {{ModID}}_LostIsland_RoyalMermanHome 10 16 0 square_4_1_0/
 			2500 {{ModID}}_LostIsland_RoyalMermanHome 4 7 2 {{ModID}}_SternMermanCalderon_sleep/
 			",

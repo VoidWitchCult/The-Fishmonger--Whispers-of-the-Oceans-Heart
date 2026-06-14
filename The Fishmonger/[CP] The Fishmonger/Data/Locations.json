@@ -1075,7 +1075,7 @@
 						"X": 7,
 						"Y": 31
 					},
-					"ExcludeFromNpcPathfinding": true,
+					"ExcludeFromNpcPathfinding": false,
 					"CanHaveGreenRainSpawns": false,
 					"ArtifactSpots": [
 						{
@@ -1556,7 +1556,35 @@
 					"MusicIgnoredInRain": true,
 				},
 				//==============================================================================================
-				//==== WARP ROOM =============================================================================
+				//==== ANGLERGUY HOME ==========================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_Intermission": {
+					"DisplayName": "{{i18n:Locations.Intermission}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_Intermission",
+					},
+					"DefaultArrivalTile": {
+						"X": 22,
+						"Y": 28
+					},
+					"ExcludeFromNpcPathfinding": true,
+					"ArtifactSpots": [],
+					"FishAreas": {},
+					"Fish": [],
+					"Forage": [],
+					"Music": [
+						{
+                            "Id": "{{ModId}}_LostIslandMusic",
+                            "Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				
+				//==============================================================================================
+				//==== WARP ROOM ===============================================================================
 				//==============================================================================================
 				"{{ModId}}_LostIsland_WarpRoom": {
 					"DisplayName": "{{i18n:Locations.WarpRoom}}",

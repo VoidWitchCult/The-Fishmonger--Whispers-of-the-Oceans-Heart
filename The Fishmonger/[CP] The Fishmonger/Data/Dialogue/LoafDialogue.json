@@ -48,9 +48,9 @@
 				"Sun": "{{i18n:Loaf.Dialogue.Sun.{{Random: 0, 5}}}}", 
 				
 				// Schedule dialogue
-				"Loaf.Schedule.Dialogue.lostisland.000": "{{i18n:Loaf.Schedule.Dialogue.lostisland.000}}",
-				"Loaf.Schedule.Dialogue.lostisland.001": "{{i18n:Loaf.Schedule.Dialogue.lostisland.001}}",
-				"Loaf.Schedule.Dialogue.lostisland.002": "{{i18n:Loaf.Schedule.Dialogue.lostisland.002}}",
+				"Loaf.lostisland.000": "{{i18n:Loaf.Schedule.Dialogue.lostisland.000}}",
+				"Loaf.lostisland.001": "{{i18n:Loaf.Schedule.Dialogue.lostisland.001}}",
+				"Loaf.lostisland.002": "{{i18n:Loaf.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

@@ -10,7 +10,7 @@
 			610 {{ModID}}_LostIsland_ShadowHome 2 7 2/
 			800 {{ModID}}_LostIsland_ShadowHome 11 16 0/
 			1200 {{ModID}}_LostIsland_PointMelodia 31 3 2/
-			1600 {{ModID}}_LostIsland_PointMelodia 10 26 2 \"Characters\\Dialogue\\{{ModID}}_ShadowPersonLoaf:Loaf.Schedule.Dialogue.lostisland.001\"/
+			1600 {{ModID}}_LostIsland_PointMelodia 10 26 2 \"Characters\\Dialogue\\{{ModID}}_ShadowPersonLoaf:Loaf.lostisland.001\"/
 			1800 {{ModID}}_LostIsland_EnchantedForest 91 39 2/
 			2200 {{ModID}}_LostIsland_ShadowHome 2 7 2/
 			",
@@ -34,7 +34,7 @@
 			"Sun": "
 			610 {{ModID}}_LostIsland_ShadowHome 2 7 2/
 			800 {{ModID}}_LostIsland_ShadowHome 11 16 0/
-			930 {{ModID}}_LostIsland_NorthernCliffs 44 10 0 \"Characters\\Dialogue\\{{ModID}}_ShadowPersonLoaf:Loaf.Schedule.Dialogue.lostisland.000\"/
+			930 {{ModID}}_LostIsland_NorthernCliffs 44 10 0 \"Characters\\Dialogue\\{{ModID}}_ShadowPersonLoaf:Loaf.lostisland.000\"/
 			2400 {{ModID}}_LostIsland_ShadowHome 2 7 2/
 			",
 			"rain": "GOTO spring",

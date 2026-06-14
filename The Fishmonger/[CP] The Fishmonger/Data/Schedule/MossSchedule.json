@@ -9,7 +9,7 @@
 			"spring": "
 			610 {{ModID}}_LostIsland_AnglerGuyHome 14 6 2/
 			900 {{ModID}}_LostIsland_AnglerGuyHome 17 22 3/
-			a1200 {{ModID}}_LostIsland_Library 10 48 3 {{ModID}}_MermanKidMoss_reading \"Characters\\Dialogue\\{{ModID}}_MermanKidMoss:Moss.Schedule.Dialogue.lostisland.000\"/
+			a1200 {{ModID}}_LostIsland_Library 10 48 3 {{ModID}}_MermanKidMoss_reading \"Characters\\Dialogue\\{{ModID}}_MermanKidMoss:Moss.lostisland.000\"/
 			1400 {{ModID}}_LostIsland_Library 15 44 0/
 			1800 {{ModID}}_LostIsland_AnglerGuyHome 14 20 3/
 			2000 {{ModID}}_LostIsland_AnglerGuyHome 14 6 2 {{ModID}}_MermanKidMoss_sleep/
@@ -17,7 +17,7 @@
 			"Tue": "
 			610 {{ModID}}_LostIsland_AnglerGuyHome 14 6 2/
 			900 {{ModID}}_LostIsland_AnglerGuyHome 17 22 3/
-			1100 {{ModID}}_LostIsland_EnchantedForest 39 52 2 \"Characters\\Dialogue\\{{ModID}}_MermanKidMoss:Moss.Schedule.Dialogue.lostisland.001\"/
+			1100 {{ModID}}_LostIsland_EnchantedForest 39 52 2 \"Characters\\Dialogue\\{{ModID}}_MermanKidMoss:Moss.lostisland.001\"/
 			1600 {{ModID}}_LostIsland_EnchantedForest 94 90 2/
 			1900 {{ModID}}_LostIsland_AnglerGuyHome 14 20 3/
 			2000 {{ModID}}_LostIsland_AnglerGuyHome 14 6 2 {{ModID}}_MermanKidMoss_sleep/
@@ -27,7 +27,7 @@
 			"Sun": "
 			610 {{ModID}}_LostIsland_AnglerGuyHome 14 6 2/
 			900 {{ModID}}_LostIsland_AnglerGuyHome 17 22 3/
-			930 {{ModID}}_LostIsland_NorthernCliffs 51 17 3 {{ModID}}_MermanKidMoss_sitting \"Characters\\Dialogue\\{{ModID}}_MermanKidMoss:Moss.Schedule.Dialogue.lostisland.002\"/
+			930 {{ModID}}_LostIsland_NorthernCliffs 51 17 3 {{ModID}}_MermanKidMoss_sitting \"Characters\\Dialogue\\{{ModID}}_MermanKidMoss:Moss.lostisland.002\"/
 			1800 {{ModID}}_LostIsland_AnglerGuyHome 14 20 3/
 			2000 {{ModID}}_LostIsland_AnglerGuyHome 14 6 2 {{ModID}}_MermanKidMoss_sleep/
 			",

@@ -49,10 +49,10 @@
 				"Sun": "{{i18n:Hemlock.Dialogue.Sun.{{Random: 0, 5}}}}", 
 				
 				// Schedule dialogue
-				"Hemlock.Schedule.Dialogue.lostisland.000": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.000}}",
-				"Hemlock.Schedule.Dialogue.lostisland.001": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.001}}",
-				"Hemlock.Schedule.Dialogue.lostisland.002": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.002}}",
-				"Hemlock.Schedule.Dialogue.lostisland.003": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.003}}",
+				"Hemlock.lostisland.000": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.000}}",
+				"Hemlock.lostisland.001": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.001}}",
+				"Hemlock.lostisland.002": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.002}}",
+				"Hemlock.lostisland.003": "{{i18n:Hemlock.Schedule.Dialogue.lostisland.003}}",
 			}
 		},
 	]

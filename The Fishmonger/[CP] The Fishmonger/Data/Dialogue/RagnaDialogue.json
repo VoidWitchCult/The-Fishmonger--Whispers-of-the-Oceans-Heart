@@ -42,7 +42,7 @@
 				"Sun": "{{i18n:Ragna.Dialogue.Sun.{{Random: 0, 5}}}}", 
 				
 				// Schedule dialogue
-				"{Ragna.lostisland.000": "{{i18n:Ragna.Schedule.Dialogue.lostisland.000}}",
+				"Ragna.lostisland.000": "{{i18n:Ragna.Schedule.Dialogue.lostisland.000}}",
 				"Ragna.lostisland.001": "{{i18n:Ragna.Schedule.Dialogue.lostisland.001}}",
 				"Ragna.lostisland.002": "{{i18n:Ragna.Schedule.Dialogue.lostisland.002}}",
 			}

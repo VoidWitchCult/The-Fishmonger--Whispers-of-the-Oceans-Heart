@@ -49,9 +49,9 @@
 				"Sun": "{{i18n:Amalthea.Dialogue.Sun.{{Random: 0, 5}}}}", 
 				
 				// Schedule dialogue
-				"Amalthea.Schedule.Dialogue.lostisland.000": "{{i18n:Amalthea.Schedule.Dialogue.lostisland.000}}",
-				"Amalthea.Schedule.Dialogue.lostisland.001": "{{i18n:Amalthea.Schedule.Dialogue.lostisland.001}}",
-				"Amalthea.Schedule.Dialogue.lostisland.002": "{{i18n:Amalthea.Schedule.Dialogue.lostisland.002}}",
+				"Amalthea.lostisland.000": "{{i18n:Amalthea.Schedule.Dialogue.lostisland.000}}",
+				"Amalthea.lostisland.001": "{{i18n:Amalthea.Schedule.Dialogue.lostisland.001}}",
+				"Amalthea.lostisland.002": "{{i18n:Amalthea.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]

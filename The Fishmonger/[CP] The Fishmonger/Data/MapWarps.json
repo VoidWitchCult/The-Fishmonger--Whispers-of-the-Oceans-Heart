@@ -184,9 +184,9 @@
 				"0 31 {{ModID}}_LostIsland_NorthernCliffs 68 26",
 				"0 32 {{ModID}}_LostIsland_NorthernCliffs 68 26",
 				"0 33 {{ModID}}_LostIsland_NorthernCliffs 68 26",
-				"35 89 {{ModID}}_LostIsland_PointMelodia 19 2",
-				"36 89 {{ModID}}_LostIsland_PointMelodia 19 2",
-				"37 89 {{ModID}}_LostIsland_PointMelodia 19 2",
+				"35 89 {{ModID}}_LostIsland_Intermission 12 1",
+				"36 89 {{ModID}}_LostIsland_Intermission 12 1",
+				"37 89 {{ModID}}_LostIsland_Intermission 12 1",
 			]
 		},
 		{
@@ -245,9 +245,19 @@
 				"0 4 {{ModID}}_LostIsland_EnchantedForest 118 30",
 				"0 5 {{ModID}}_LostIsland_EnchantedForest 118 30",
 				"0 6 {{ModID}}_LostIsland_EnchantedForest 118 30",
-				"18 0 {{ModID}}_LostIsland_NorthEastQuarry 36 85",
-				"19 0 {{ModID}}_LostIsland_NorthEastQuarry 36 85",
+				"18 0 {{ModID}}_LostIsland_Intermission 22 28",
+				"19 0 {{ModID}}_LostIsland_Intermission 22 28",
 				"10 2 {{ModID}}_LostIsland_ShadowHome 6 23",
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_Intermission",
+			"AddWarps": [
+				"12 0 {{ModID}}_LostIsland_NorthEastQuarry 36 88",
+				"13 0 {{ModID}}_LostIsland_NorthEastQuarry 36 88",
+				"21 29 {{ModID}}_LostIsland_PointMelodia 18 1",
+				"22 29 {{ModID}}_LostIsland_PointMelodia 19 1",
 			]
 		},
 		// Tent and Cave warp outs

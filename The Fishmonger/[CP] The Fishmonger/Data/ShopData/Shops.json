@@ -1216,11 +1216,6 @@
 				],
 				"Items": [
 					{
-						"Id": "{{ModID}}_MermaidGrassStarter",
-						"ItemId": "{{ModID}}_MermaidGrassStarter",
-						"Price": 2000,
-					},
-					{
 						"Id": "{{ModID}}_PainiteLance",
 						"ItemId": "{{ModID}}_PainiteLance",
 						"TradeItemId": "(O){{ModID}}_Painite",
@@ -1390,6 +1385,11 @@
 						"ItemId": "{{ModID}}_moonlightberriesseeds",
 						"Price": 500,
 					},
+					{
+						"Id": "{{ModID}}_MermaidGrassStarter",
+						"ItemId": "{{ModID}}_MermaidGrassStarter",
+						"Price": 2000,
+					}
 				]
 			}
 		}

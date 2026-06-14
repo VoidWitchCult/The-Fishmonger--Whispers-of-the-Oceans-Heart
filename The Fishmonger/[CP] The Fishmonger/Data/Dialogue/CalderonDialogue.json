@@ -48,10 +48,11 @@
 				"Fri": "{{i18n:Calderon.Dialogue.{{Random: 0, 35}}}}",
 				"Sat": "{{i18n:Calderon.Dialogue.{{Random: 0, 35}}}}",
 				"Sun": "{{i18n:Calderon.Dialogue.Sun.{{Random: 0, 5}}}}", 
+				
 				// Schedule dialogue
-				"Calderon.Schedule.Dialogue.lostisland.000": "{{i18n:Calderon.Schedule.Dialogue.lostisland.000}}",
-				"Calderon.Schedule.Dialogue.lostisland.001": "{{i18n:Calderon.Schedule.Dialogue.lostisland.001}}",
-				"Calderon.Schedule.Dialogue.lostisland.002": "{{i18n:Calderon.Schedule.Dialogue.lostisland.002}}",
+				"Calderon.lostisland.000": "{{i18n:Calderon.Schedule.Dialogue.lostisland.000}}",
+				"Calderon.lostisland.001": "{{i18n:Calderon.Schedule.Dialogue.lostisland.001}}",
+				"Calderon.lostisland.002": "{{i18n:Calderon.Schedule.Dialogue.lostisland.002}}",
 			}
 		},
 	]
