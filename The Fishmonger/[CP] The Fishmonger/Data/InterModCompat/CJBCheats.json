@@ -13,7 +13,11 @@
 				"{{ModId}}_LostIslandWarp": {
 					"Id": "{{ModId}}_LostIslandWarp",
 					"DisplayName": "{{i18n:Locations.LostIsland}}"
-				}
+				},
+				"{{ModId}}_LostIslandDeepSeaWarp": {
+					"Id": "{{ModId}}_LostIslandDeepSeaWarp",
+					"DisplayName": "{{i18n:Locations.LostIsland.DeepSea}}"
+				},
 			}
 		},
 		{
@@ -62,14 +66,7 @@
 					"DisplayName": "{{i18n:Locations.PirateLadHome}}",
 					"Location": "{{ModId}}_LostIsland_PirateLadHome",
 					"Tile": "3,13"
-				}, /* ABA: This one looks the same as the one above it. Edit or remove it.
-				"{{ModId}}_LostIsland_PirateLadWarp": {
-					"Id": "{{ModId}}_LostIsland_PirateLadWarp",
-					"SectionId": "{{ModId}}_LostIslandWarp",
-					"DisplayName": "{{i18n:Locations.PirateLadHome}}",
-					"Location": "{{ModId}}_LostIsland_PirateLadHome",
-					"Tile": "3,13"
-				}, */
+				},
 				"{{ModId}}_LostIsland_OrchardWarp": {
 					"Id": "{{ModId}}_LostIsland_OrchardWarp",
 					"SectionId": "{{ModId}}_LostIslandWarp",
@@ -182,12 +179,68 @@
 					"Location": "{{ModId}}_LostIsland_AnglerGuyHome",
 					"Tile": "11,26"
 				},
+				"{{ModId}}_LostIsland_IntermissionWarp": {
+					"Id": "{{ModId}}_LostIsland_IntermissionWarp",
+					"SectionId": "{{ModId}}_LostIslandWarp",
+					"DisplayName": "{{i18n:Locations.Intermission}}",
+					"Location": "{{ModId}}_LostIsland_Intermission",
+					"Tile": "22,28"
+				},
 				"{{ModId}}_LostIsland_WarpRoomWarp": {
 					"Id": "{{ModId}}_LostIsland_WarpRoomWarp",
 					"SectionId": "{{ModId}}_LostIslandWarp",
 					"DisplayName": "{{i18n:Locations.WarpRoom}}",
 					"Location": "{{ModId}}_LostIsland_WarpRoom",
 					"Tile": "4,6"
+				},
+				"{{ModId}}_LostIsland_AortaWarp": {
+					"Id": "{{ModId}}_LostIsland_AortaWarp",
+					"SectionId": "{{ModId}}_LostIslandDeepSeaWarp",
+					"DisplayName": "{{i18n:Locations.Aorta}}",
+					"Location": "{{ModId}}_DeepSea_Aorta",
+					"Tile": "29,7"
+				},
+				"{{ModId}}_LostIsland_InferiorVenaCavaWarp": {
+					"Id": "{{ModId}}_LostIsland_InferiorVenaCavaWarp",
+					"SectionId": "{{ModId}}_LostIslandDeepSeaWarp",
+					"DisplayName": "{{i18n:Locations.InferiorVenaCava}}",
+					"Location": "{{ModId}}_DeepSea_InferiorVenaCava",
+					"Tile": "8,1"
+				},
+				"{{ModId}}_LostIsland_LeftVentricleWarp": {
+					"Id": "{{ModId}}_LostIsland_LeftVentricleWarp",
+					"SectionId": "{{ModId}}_LostIslandDeepSeaWarp",
+					"DisplayName": "{{i18n:Locations.LeftVentricle}}",
+					"Location": "{{ModId}}_DeepSea_LeftVentricle",
+					"Tile": "4,19"
+				},
+				"{{ModId}}_LostIsland_LumpWarp": {
+					"Id": "{{ModId}}_LostIsland_LumpWarp",
+					"SectionId": "{{ModId}}_LostIslandDeepSeaWarp",
+					"DisplayName": "{{i18n:Locations.Lump}}",
+					"Location": "{{ModId}}_DeepSea_Lump",
+					"Tile": "10,9"
+				},
+				"{{ModId}}_LostIsland_PulmonaryArteriesWarp": {
+					"Id": "{{ModId}}_LostIsland_PulmonaryArteriesWarp",
+					"SectionId": "{{ModId}}_LostIslandDeepSeaWarp",
+					"DisplayName": "{{i18n:Locations.PulmonaryArteries}}",
+					"Location": "{{ModId}}_DeepSea_PulmonaryArteries",
+					"Tile": "1,7"
+				},
+				"{{ModId}}_LostIsland_RightAtriumWarp": {
+					"Id": "{{ModId}}_LostIsland_RightAtriumWarp",
+					"SectionId": "{{ModId}}_LostIslandDeepSeaWarp",
+					"DisplayName": "{{i18n:Locations.RightAtrium}}",
+					"Location": "{{ModId}}_DeepSea_RightAtrium",
+					"Tile": "38,19"
+				},
+				"{{ModId}}_LostIsland_RightVentricleWarp": {
+					"Id": "{{ModId}}_LostIsland_RightVentricleWarp",
+					"SectionId": "{{ModId}}_LostIslandDeepSeaWarp",
+					"DisplayName": "{{i18n:Locations.RightVentricle}}",
+					"Location": "{{ModId}}_DeepSea_RightVentricle",
+					"Tile": "1,2"
 				},
 			}
 		}

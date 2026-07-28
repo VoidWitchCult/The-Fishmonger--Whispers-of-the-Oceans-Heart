@@ -1338,7 +1338,160 @@
 					"MusicContext": "Default",
 					"MusicIgnoredInRain": true,
 				},
-				
+				//==============================================================================================
+				//==== COVE ====================================================================================
+				//==============================================================================================
+				"{{ModId}}_LostIsland_Intermission": {
+					"DisplayName": "{{i18n:Locations.Intermission}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_LostIsland_Intermission",
+					},
+					"DefaultArrivalTile": { 
+						"X": 22,
+						"Y": 28
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [
+						{
+							"Chance": 0.10,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Id": "{{ModID}}_LostIslandTotem",
+							"ItemId": "{{ModID}}_LostIslandTotem",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.2,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"ContinueOnDrop": true,
+							"Id": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"MinStack": 1,
+							"MaxStack": 1
+						},
+						{
+							"Chance": 0.25,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": false,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Condition": "PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current DROP_QI_BEANS",
+							"Id": "(O)890",
+							"ItemId": "(O)890",
+							"MinStack": 2,
+							"MaxStack": 5,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.15,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)770", //Mixed Seeds
+							"ItemId": "(O)770",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.10,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)425", //Fairy Seeds
+							"ItemId": "(O)425",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+						},
+						{
+							"Chance": 0.05,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"Id": "(O)524", //Ring of Yoba
+							"ItemId": "(O)524",
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						},
+					],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean",
+								"{{ModId}}_ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_trumpetfish",
+							"ItemId": "{{ModID}}_trumpetfish",
+						},
+						{
+							"Id": "{{ModID}}_longnosehawkfish",
+							"ItemId": "{{ModID}}_longnosehawkfish",
+						},
+						{
+							"Id": "{{ModID}}_scarletvampiresquid",
+                            "ItemId": "{{ModID}}_scarletvampiresquid",
+						},
+						{
+							"Id": "{{ModID}}_viperfish",
+                            "ItemId": "{{ModID}}_viperfish",
+						},
+						{
+							"Id": "{{ModID}}_moray",
+                            "ItemId": "{{ModID}}_moray",
+						},
+						{
+							"Id": "{{ModID}}_bigfinsquid",
+                            "ItemId": "{{ModID}}_bigfinsquid",
+						},
+					],
+					"Forage": [
+						{
+                            "Id": "(O)397",
+                            "ItemId": "(O)397", //Sea  Urchin
+                            "Chance": 0.1
+						},
+						{
+                            "Id": "(O)397",
+                            "ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
+                            "Chance": 0.25
+						},
+						{
+                            "Id": "(O)397",
+                            "ItemId": "RANDOM_ITEMS (O) 922 924", //Randomized Supply Crates
+                            "Chance": 0.25
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 5,
+					"MaxDailyForageSpawn": 10,
+					"MaxSpawnedForageAtOnce": 6,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIslandMusic",
+							"Track": "submarine_song",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
 				//==============================================================================================
 				//==== HIDDEN SPOT =============================================================================
 				//==============================================================================================
@@ -1610,11 +1763,430 @@
 					"MusicContext": "Default",
 					"MusicIgnoredInRain": true,
 				},
-				
+				//==============================================================================================
+				//==== DEEPSEA AORTA ===========================================================================
+				//==============================================================================================
+				"{{ModId}}_DeepSea_Aorta": {
+					"DisplayName": "{{i18n:Locations.Aorta}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_DeepSea_Aorta",
+					},
+					"DefaultArrivalTile": { 
+						"X": 29,
+						"Y": 7
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean",
+								"{{ModId}}_ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							// "Id": "{{ModID}}_trumpetfish",
+							// "ItemId": "{{ModID}}_trumpetfish", 
+						},
+						
+					],
+					"Forage": [
+						{
+							"Id": "(O)397",
+							"ItemId": "(O)397", //Sea  Urchin
+							"Chance": 0.1
+						},
+						{
+							"Id": "(O)397",
+							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
+							"Chance": 0.25
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 5,
+					"MaxDailyForageSpawn": 10,
+					"MaxSpawnedForageAtOnce": 6,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIslandDeepSeaMusic",
+							"Track": "junimoKart_whaleMusic",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== INFERIOR VENA CAVA ======================================================================
+				//==============================================================================================
+				"{{ModId}}_DeepSea_InferiorVenaCava": {
+					"DisplayName": "{{i18n:Locations.InferiorVenaCava}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_DeepSea_InferiorVenaCava",
+					},
+					"DefaultArrivalTile": { 
+						"X": 8,
+						"Y": 1
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean",
+								"{{ModId}}_ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_trumpetfish",
+							"ItemId": "{{ModID}}_trumpetfish",
+						},
+						
+					],
+					"Forage": [
+						{
+							"Id": "(O)397",
+							"ItemId": "(O)397", //Sea  Urchin
+							"Chance": 0.1
+						},
+						{
+							"Id": "(O)397",
+							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
+							"Chance": 0.25
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 5,
+					"MaxDailyForageSpawn": 10,
+					"MaxSpawnedForageAtOnce": 6,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIslandDeepSeaMusic",
+							"Track": "junimoKart_whaleMusic",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== Left VENTRICLE ==========================================================================
+				//==============================================================================================
+				"{{ModId}}_DeepSea_LeftVentricle": {
+					"DisplayName": "{{i18n:Locations.LeftVentricle}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_DeepSea_LeftVentricle",
+					},
+					"DefaultArrivalTile": { 
+						"X": 4,
+						"Y": 19
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean",
+								"{{ModId}}_ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_trumpetfish",
+							"ItemId": "{{ModID}}_trumpetfish",
+						},
+						
+					],
+					"Forage": [
+						{
+							"Id": "(O)397",
+							"ItemId": "(O)397", //Sea  Urchin
+							"Chance": 0.1
+						},
+						{
+							"Id": "(O)397",
+							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
+							"Chance": 0.25
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 5,
+					"MaxDailyForageSpawn": 10,
+					"MaxSpawnedForageAtOnce": 6,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIslandDeepSeaMusic",
+							"Track": "junimoKart_whaleMusic",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== LUMP ====================================================================================
+				//==============================================================================================
+				"{{ModId}}_DeepSea_Lump": {
+					"DisplayName": "{{i18n:Locations.Lump}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_DeepSea_Lump",
+					},
+					"DefaultArrivalTile": { 
+						"X": 10,
+						"Y": 9
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean",
+								"{{ModId}}_ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_trumpetfish",
+							"ItemId": "{{ModID}}_trumpetfish",
+						},
+						
+					],
+					"Forage": [
+						{
+							"Id": "(O)397",
+							"ItemId": "(O)397", //Sea  Urchin
+							"Chance": 0.1
+						},
+						{
+							"Id": "(O)397",
+							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
+							"Chance": 0.25
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 5,
+					"MaxDailyForageSpawn": 10,
+					"MaxSpawnedForageAtOnce": 6,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIslandDeepSeaMusic",
+							"Track": "junimoKart_whaleMusic",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== PULMONARY ANTERIES ======================================================================
+				//==============================================================================================
+				"{{ModId}}_DeepSea_PulmonaryArteries": {
+					"DisplayName": "{{i18n:Locations.PulmonaryArteries}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_DeepSea_PulmonaryArteries",
+					},
+					"DefaultArrivalTile": { 
+						"X": 1,
+						"Y": 7
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean",
+								"{{ModId}}_ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_trumpetfish",
+							"ItemId": "{{ModID}}_trumpetfish",
+						},
+						
+					],
+					"Forage": [
+						{
+							"Id": "(O)397",
+							"ItemId": "(O)397", //Sea  Urchin
+							"Chance": 0.1
+						},
+						{
+							"Id": "(O)397",
+							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
+							"Chance": 0.25
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 5,
+					"MaxDailyForageSpawn": 10,
+					"MaxSpawnedForageAtOnce": 6,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIslandDeepSeaMusic",
+							"Track": "junimoKart_whaleMusic",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== RIGHT ATRIUM ============================================================================
+				//==============================================================================================
+				"{{ModId}}_DeepSea_RightAtrium": {
+					"DisplayName": "{{i18n:Locations.RightAtrium}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_DeepSea_RightAtrium",
+					},
+					"DefaultArrivalTile": { 
+						"X": 38,
+						"Y": 19
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean",
+								"{{ModId}}_ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_trumpetfish",
+							"ItemId": "{{ModID}}_trumpetfish",
+						},
+						
+					],
+					"Forage": [
+						{
+							"Id": "(O)397",
+							"ItemId": "(O)397", //Sea  Urchin
+							"Chance": 0.1
+						},
+						{
+							"Id": "(O)397",
+							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
+							"Chance": 0.25
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 5,
+					"MaxDailyForageSpawn": 10,
+					"MaxSpawnedForageAtOnce": 6,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIslandDeepSeaMusic",
+							"Track": "junimoKart_whaleMusic",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				//==============================================================================================
+				//==== RIGHT VENTRICLE =========================================================================
+				//==============================================================================================
+				"{{ModId}}_DeepSea_RightVentricle": {
+					"DisplayName": "{{i18n:Locations.RightVentricle}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_DeepSea_RightVentricle",
+					},
+					"DefaultArrivalTile": { 
+						"X": 1,
+						"Y": 2
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [],
+					"FishAreas": {
+						"{{ModId}}_LostIslandOcean": {
+							"CrabPotFishTypes": [
+								"ocean",
+								"{{ModId}}_ocean"
+							],
+							"CrabPotJunkChance": 0.2
+						},
+					},
+					"Fish":  [
+						{
+							"Id": "{{ModID}}_trumpetfish",
+							"ItemId": "{{ModID}}_trumpetfish",
+						},
+						
+					],
+					"Forage": [
+						{
+							"Id": "(O)397",
+							"ItemId": "(O)397", //Sea  Urchin
+							"Chance": 0.1
+						},
+						{
+							"Id": "(O)397",
+							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
+							"Chance": 0.25
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 5,
+					"MaxDailyForageSpawn": 10,
+					"MaxSpawnedForageAtOnce": 6,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+							"Id": "{{ModId}}_LostIslandDeepSeaMusic",
+							"Track": "junimoKart_whaleMusic",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},	
 			},
+			
 		},
 		//POINT MELODIA MERCHANT DAY MAP PATCH
-		
 		{
 			"Action": "EditMap",
 			"Target": "Maps/{{ModID}}_LostIsland_PointMelodia",
@@ -1630,11 +2202,11 @@
                     "Target": [
                         "MapProperties",
                         "Light"
-                    ],
+					],
                     "Value": "31 40 4 33 40 4 34 39 4 36 40 4 38 39 4 40 39 4 19 36 4 21 44 4 26 47 4 40 45 4 45 46 4 46 35 4",
                     "Delimiter": " "
-                },
-				]
+				},
+			]
 		},
 		//LIBRARY QUEST FINISHED MAP PATCH
 		{

@@ -8,7 +8,7 @@
 		{
 			"LogName": "Load custom maps",
 			"Action": "Load",
-			"Target": "Maps/{{ModID}}_Fishmonger_GI_Inside, Maps/{{ModID}}_Fishmonger_GI_Inside_LowerDeck, Maps/{{ModID}}_LostIsland, Maps/{{ModID}}_LostIsland_GanguroHome, Maps/{{ModID}}_LostIsland_LolitaHome, Maps/{{ModID}}_LostIsland_BirdHome, Maps/{{ModID}}_LostIsland_AnglerGuyHome, Maps/{{ModID}}_LostIsland_RoyalMermanHome, Maps/{{ModID}}_LostIsland_ShadowHome, Maps/{{ModID}}_LostIsland_TentHome, Maps/{{ModID}}_LostIsland_MermaidHome, Maps/{{ModID}}_LostIsland_CoolGalHome, Maps/{{ModID}}_LostIsland_PirateLadHome, Maps/{{ModID}}_LostIsland_SeaDudeHome, Maps/{{ModID}}_LostIsland_Library, Maps/{{ModID}}_LostIsland_Library2, Maps/{{ModID}}_LostIsland_SeaDudeHome_Cave, Maps/{{ModID}}_LostIsland_Orchard, Maps/{{ModID}}_LostIsland_EnchantedForest, Maps/{{ModID}}_LostIsland_ForsakenCove, Maps/{{ModID}}_LostIsland_NorthernCliffs, Maps/{{ModID}}_LostIsland_NorthEastQuarry, Maps/{{ModID}}_LostIsland_PointMelodia, Maps/{{ModID}}_LostIsland_PointMelodia_MerchantDay, Maps/{{ModID}}_TEMP_FishShop, Maps/{{ModID}}_TEMP_Pirate6Hearts, Maps/{{ModID}}_LostIsland_HiddenSpot, Maps/{{ModID}}_TEMP_Wedding, Maps/{{ModID}}_TEMP_CoolGal8Hearts, Maps/{{ModID}}_TEMP_Saloon, Maps/{{ModId}}_spouseRooms, Maps/{{ModId}}_spousePatios, Maps/{{ModID}}_TEMP_BoatTour, Maps/{{ModID}}_TEMP_Barnabas14Hearts, Maps/{{ModID}}_LostIsland_WarpRoom, Maps/{{ModID}}_LostIsland_Intermission",
+			"Target": "Maps/{{ModID}}_Fishmonger_GI_Inside, Maps/{{ModID}}_Fishmonger_GI_Inside_LowerDeck, Maps/{{ModID}}_LostIsland, Maps/{{ModID}}_LostIsland_GanguroHome, Maps/{{ModID}}_LostIsland_LolitaHome, Maps/{{ModID}}_LostIsland_BirdHome, Maps/{{ModID}}_LostIsland_AnglerGuyHome, Maps/{{ModID}}_LostIsland_RoyalMermanHome, Maps/{{ModID}}_LostIsland_ShadowHome, Maps/{{ModID}}_LostIsland_TentHome, Maps/{{ModID}}_LostIsland_MermaidHome, Maps/{{ModID}}_LostIsland_CoolGalHome, Maps/{{ModID}}_LostIsland_PirateLadHome, Maps/{{ModID}}_LostIsland_SeaDudeHome, Maps/{{ModID}}_LostIsland_Library, Maps/{{ModID}}_LostIsland_Library2, Maps/{{ModID}}_LostIsland_SeaDudeHome_Cave, Maps/{{ModID}}_LostIsland_Orchard, Maps/{{ModID}}_LostIsland_EnchantedForest, Maps/{{ModID}}_LostIsland_ForsakenCove, Maps/{{ModID}}_LostIsland_NorthernCliffs, Maps/{{ModID}}_LostIsland_NorthEastQuarry, Maps/{{ModID}}_LostIsland_PointMelodia, Maps/{{ModID}}_LostIsland_PointMelodia_MerchantDay, Maps/{{ModID}}_TEMP_FishShop, Maps/{{ModID}}_TEMP_Pirate6Hearts, Maps/{{ModID}}_LostIsland_HiddenSpot, Maps/{{ModID}}_TEMP_Wedding, Maps/{{ModID}}_TEMP_CoolGal8Hearts, Maps/{{ModID}}_TEMP_Saloon, Maps/{{ModId}}_spouseRooms, Maps/{{ModId}}_spousePatios, Maps/{{ModID}}_TEMP_BoatTour, Maps/{{ModID}}_TEMP_Barnabas14Hearts, Maps/{{ModID}}_LostIsland_WarpRoom, Maps/{{ModID}}_LostIsland_Intermission, Maps/{{ModID}}_DeepSea_Aorta, Maps/{{ModID}}_DeepSea_InferiorVenaCava, Maps/{{ModID}}_DeepSea_LeftVentricle, Maps/{{ModID}}_DeepSea_Lump, Maps/{{ModID}}_DeepSea_PulmonaryArteries, Maps/{{ModID}}_DeepSea_RightAtrium, Maps/{{ModID}}_DeepSea_RightVentricle",
 			"FromFile": "assets/Maps/{{TargetWithoutPath}}.tmx"
 		},
 		
@@ -46,9 +46,10 @@
 		{
 			"LogName": "VoidWitchCult's Custom Tilesheets",
 			"Action": "Load",
-			"Target": "Maps/VWCF_GingerIsland_Tilesheet, Maps/VWCF_LostIsland_Inside, Maps/VWCF_LostIsland_Outside, Maps/VWCF_LostIsland_Outside_PetrifiedTree, Maps/VWCF_LostIsland_Waterfalls, Maps/VWCF_LostIsland_PirateEvent, Maps/VWCF_LostIsland_ColGalEvent, Maps/water_forsaken_cove, Maps/VWCF_LostIsland_SeaDudeEvent, Maps/VWCF_LostIsland_Tent, Maps/VWCF_LostIsland_Underwater_tainted",
+			"Target": "Maps/VWCF_GingerIsland_Tilesheet, Maps/VWCF_LostIsland_Inside, Maps/VWCF_LostIsland_Outside, Maps/VWCF_LostIsland_Outside_PetrifiedTree, Maps/VWCF_LostIsland_Waterfalls, Maps/VWCF_LostIsland_PirateEvent, Maps/VWCF_LostIsland_ColGalEvent, Maps/water_forsaken_cove, Maps/VWCF_LostIsland_SeaDudeEvent, Maps/VWCF_LostIsland_Tent, Maps/VWCF_LostIsland_Underwater_tainted, Maps/VWCF_LostIsland_Underwater",
 			"FromFile": "assets/Maps/Tilesheets/{{TargetWithoutPath}}.png",
 		},
+		/* 
 		{
 			"LogName": "VoidWitchCult's EditImage Tilesheets",
 			"Action": "EditImage",
@@ -57,7 +58,8 @@
 			"When": {
 				"HasSeenEvent |contains=EVENTID": true // TODO: Replace this with a real event ID!
 			}
-		},
+		}, 
+		*/
 		{
 			"LogName": "Temp Fishing Sprite for Events",
 			"Action": "Load",
