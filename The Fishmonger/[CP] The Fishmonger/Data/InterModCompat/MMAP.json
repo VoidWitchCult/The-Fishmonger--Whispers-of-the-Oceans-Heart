@@ -26,9 +26,9 @@
 		},
 		{
 			"Action": "EditMap",
-			"Target": "Maps/VoidWitchCult.CP.TheFishmongerNPC_DeepSea_Aorta",
+			"Target": "Maps/VoidWitchCult.CP.TheFishmongerNPC_DeepSea_Aorta, Maps/VoidWitchCult.CP.TheFishmongerNPC_DeepSea_InferiorVenaCava, Maps/VoidWitchCult.CP.TheFishmongerNPC_DeepSea_LeftVentricle, Maps/VoidWitchCult.CP.TheFishmongerNPC_DeepSea_Lump, Maps/VoidWitchCult.CP.TheFishmongerNPC_DeepSea_PulmonaryArteries, Maps/VoidWitchCult.CP.TheFishmongerNPC_DeepSea_RightAtrium, Maps/VoidWitchCult.CP.TheFishmongerNPC_DeepSea_RightVentricle",
 			"MapProperties": {
-				"mushymato.MMAP_SteamOverlay": "T 1 0 DarkOrchid 0.4 4",
+				"mushymato.MMAP_SteamOverlay": "Maps/water_forsaken_cove 0 -0.05 DarkOrchid 1 4",
 			}
 		},
 		{

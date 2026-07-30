@@ -320,6 +320,22 @@
 					}
 				},
 			],
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_LostIsland_SeaDudeHome_Cave",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 9,
+						"Y": 17
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 29 7 {{ModID}}_DeepSea_Aorta 600 2600"
+					}
+				},
+			],
 			"When": {
 				"HasSeenEvent |contains=EVENTID": true // TODO: Replace this with a real event ID!
 			}
@@ -332,7 +348,7 @@
 			]
 		},
 		//==============================================================================================
-		//==== LOLITA INDOORS =======================================================================
+		//==== LOLITA INDOORS ==========================================================================
 		//==============================================================================================
 		{
 			"Action": "EditMap",
@@ -358,7 +374,7 @@
 			]
 		},
 		//==============================================================================================
-		//==== ROYAL MERMAN INDOORS =======================================================================
+		//==== ROYAL MERMAN INDOORS ====================================================================
 		//==============================================================================================
 		{
 			"Action": "EditMap",
@@ -386,7 +402,7 @@
 			]
 		},
 		//==============================================================================================
-		//==== ANGLER GUY INDOORS =======================================================================
+		//==== ANGLER GUY INDOORS ======================================================================
 		//==============================================================================================
 		{
 			"Action": "EditMap",
@@ -412,7 +428,7 @@
 			]
 		},
 		//==============================================================================================
-		//==== BIRD INDOORS =======================================================================
+		//==== BIRD INDOORS ============================================================================
 		//==============================================================================================
 		{
 			"Action": "EditMap",
@@ -438,7 +454,7 @@
 			]
 		},
 		//==============================================================================================
-		//==== GANGURO  INDOORS =======================================================================
+		//==== GANGURO  INDOORS ========================================================================
 		//==============================================================================================
 		{
 			"Action": "EditMap",
@@ -488,6 +504,132 @@
 					}
 				},
 			]
+		},
+		//==============================================================================================
+		//==== DEEPSEA =================================================================================
+		//==============================================================================================
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_DeepSea_Aorta",
+			"AddWarps": [
+				"29 6 {{ModID}}_LostIsland_SeaDudeHome_Cave 9 16",
+				"2 34 {{ModID}}_DeepSea_PulmonaryArteries 9 2",
+				"3 34 {{ModID}}_DeepSea_PulmonaryArteries 9 2",
+				"4 34 {{ModID}}_DeepSea_PulmonaryArteries 9 2",
+				"5 34 {{ModID}}_DeepSea_PulmonaryArteries 9 2",
+				"6 34 {{ModID}}_DeepSea_PulmonaryArteries 9 2",
+				"7 34 {{ModID}}_DeepSea_PulmonaryArteries 9 2",
+				"8 34 {{ModID}}_DeepSea_PulmonaryArteries 9 2",
+				"9 34 {{ModID}}_DeepSea_PulmonaryArteries 9 2",
+				"10 34 {{ModID}}_DeepSea_PulmonaryArteries 9 2",
+				"11 34 {{ModID}}_DeepSea_PulmonaryArteries 9 2",
+				"12 34 {{ModID}}_DeepSea_PulmonaryArteries 9 2",
+				"13 34 {{ModID}}_DeepSea_PulmonaryArteries 9 2",
+			],
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_DeepSea_InferiorVenaCava",
+			"AddWarps": [
+				"5 0 {{ModID}}_DeepSea_RightAtrium 20 48",
+				"6 0 {{ModID}}_DeepSea_RightAtrium 20 48",
+				"7 0 {{ModID}}_DeepSea_RightAtrium 20 48",
+				"8 0 {{ModID}}_DeepSea_RightAtrium 20 48",
+				"9 0 {{ModID}}_DeepSea_RightAtrium 20 48",
+				"10 0 {{ModID}}_DeepSea_RightAtrium 20 48",
+				"11 0 {{ModID}}_DeepSea_RightAtrium 20 48",
+				"12 0 {{ModID}}_DeepSea_RightAtrium 20 48",
+				"24 0 {{ModID}}_DeepSea_RightVentricle 1 2",
+				"25 0 {{ModID}}_DeepSea_RightVentricle 1 2",
+				"26 0 {{ModID}}_DeepSea_RightVentricle 1 2",
+				"27 0 {{ModID}}_DeepSea_RightVentricle 1 2",
+				"28 0 {{ModID}}_DeepSea_RightVentricle 1 2",
+			],
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_DeepSea_LeftVentricle",
+			"AddWarps": [
+				"4 18 {{ModID}}_DeepSea_RightVentricle 39 16",
+			],
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_DeepSea_Lump",
+			"AddWarps": [
+				"10 8 {{ModID}}_DeepSea_RightVentricle 49 56",
+			],
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_DeepSea_PulmonaryArteries",
+			"AddWarps": [
+				"8 0 {{ModID}}_DeepSea_Aorta 5 33",
+				"9 0 {{ModID}}_DeepSea_Aorta 5 33",
+				"10 0 {{ModID}}_DeepSea_Aorta 5 33",
+				"11 0 {{ModID}}_DeepSea_Aorta 5 33",
+				"12 0 {{ModID}}_DeepSea_Aorta 5 33",
+				"13 0 {{ModID}}_DeepSea_Aorta 5 33",
+				"14 0 {{ModID}}_DeepSea_Aorta 5 33",
+				"0 4 {{ModID}}_DeepSea_RightAtrium 38 19",
+				"0 5 {{ModID}}_DeepSea_RightAtrium 38 19",
+				"0 6 {{ModID}}_DeepSea_RightAtrium 38 19",
+				"0 7 {{ModID}}_DeepSea_RightAtrium 38 19",
+				"0 8 {{ModID}}_DeepSea_RightAtrium 38 19",
+				"0 9 {{ModID}}_DeepSea_RightAtrium 38 19",
+				"0 10 {{ModID}}_DeepSea_RightAtrium 38 19",
+				"0 11 {{ModID}}_DeepSea_RightAtrium 38 19",
+				"0 12 {{ModID}}_DeepSea_RightAtrium 38 19",
+				"0 13 {{ModID}}_DeepSea_RightAtrium 38 19",
+				"0 14 {{ModID}}_DeepSea_RightAtrium 38 19",
+			],
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_DeepSea_RightAtrium",
+			"AddWarps": [
+				"39 18 {{ModID}}_DeepSea_PulmonaryArteries 1 9",
+				"39 19 {{ModID}}_DeepSea_PulmonaryArteries 1 9",
+				"39 20 {{ModID}}_DeepSea_PulmonaryArteries 1 9",
+				"10 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"11 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"12 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"13 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"14 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"15 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"16 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"17 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"18 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"19 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"20 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"21 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"22 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"23 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"24 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"25 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"26 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"27 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"28 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"29 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"30 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"31 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"32 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+				"33 49 {{ModID}}_DeepSea_InferiorVenaCava 9 2",
+			],
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_DeepSea_RightVentricle",
+			"AddWarps": [
+				"0 0 {{ModID}}_DeepSea_InferiorVenaCava 25 1",
+				"0 1 {{ModID}}_DeepSea_InferiorVenaCava 25 1",
+				"0 2 {{ModID}}_DeepSea_InferiorVenaCava 25 1",
+				"0 3 {{ModID}}_DeepSea_InferiorVenaCava 25 1",
+				"0 4 {{ModID}}_DeepSea_InferiorVenaCava 25 1",
+				"0 5 {{ModID}}_DeepSea_InferiorVenaCava 25 1",
+				"49 57 {{ModID}}_DeepSea_Lump 10 10",
+				"39 15 {{ModID}}_DeepSea_LeftVentricle 4 19",
+			],
 		},
 	]
 }
