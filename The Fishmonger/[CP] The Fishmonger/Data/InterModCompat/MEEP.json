@@ -111,52 +111,53 @@
 				"L@HomeY": 7,
 			},
 		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/FerretMEEP.json",
+			"LocalTokens":
 			{
-				"Action": "Include",
-				"FromFile": "Data/AntisocialsData/FerretMEEP.json",
-				"LocalTokens":
-				{
-					"L@Name": "Schwarz",
-					"L@HomeLoc": "{{ModID}}_LostIsland_NorthernCliffs",
-					"L@HomeX": 13,
-					"L@HomeY": 46,
-				},
+				"L@Name": "Schwarz",
+				"L@HomeLoc": "{{ModID}}_LostIsland_NorthernCliffs",
+				"L@HomeX": 13,
+				"L@HomeY": 46,
 			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/FerretMEEP.json",
+			"LocalTokens":
 			{
-				"Action": "Include",
-				"FromFile": "Data/AntisocialsData/FerretMEEP.json",
-				"LocalTokens":
-				{
-					"L@Name": "Goldie",
-					"L@HomeLoc": "{{ModID}}_LostIsland_NorthernCliffs",
-					"L@HomeX": 23,
-					"L@HomeY": 45,
-				},
+				"L@Name": "Goldie",
+				"L@HomeLoc": "{{ModID}}_LostIsland_NorthernCliffs",
+				"L@HomeX": 23,
+				"L@HomeY": 45,
 			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/FerretMEEP.json",
+			"LocalTokens":
 			{
-				"Action": "Include",
-				"FromFile": "Data/AntisocialsData/FerretMEEP.json",
-				"LocalTokens":
-				{
-					"L@Name": "Geist",
-					"L@HomeLoc": "{{ModID}}_LostIsland_NorthernCliffs",
-					"L@HomeX": 39,
-					"L@HomeY": 43,
-				},
+				"L@Name": "Geist",
+				"L@HomeLoc": "{{ModID}}_LostIsland_NorthernCliffs",
+				"L@HomeX": 39,
+				"L@HomeY": 43,
 			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/AntisocialsData/FerretMEEP.json",
+			"LocalTokens":
 			{
-				"Action": "Include",
-				"FromFile": "Data/AntisocialsData/FerretMEEP.json",
-				"LocalTokens":
-				{
-					"L@Name": "Bloo",
-					"L@HomeLoc": "{{ModID}}_LostIsland_NorthernCliffs",
-					"L@HomeX": 46,
-					"L@HomeY": 53,
-				},
+				"L@Name": "Bloo",
+				"L@HomeLoc": "{{ModID}}_LostIsland_NorthernCliffs",
+				"L@HomeX": 46,
+				"L@HomeY": 53,
 			},
-			{
-            //--- Apply the tile property ----------------------------------------------------------------------//
+		},
+		
+		//--- Apply the tile property ----------------------------------------------------------------------//
+		{
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Fishmonger_GI_Inside_LowerDeck",
             "MapTiles": [
@@ -164,14 +165,31 @@
                     "Position": {
                         "X": 16,
                         "Y": 4
-                    },
+					},
                     "Layer": "Buildings",
                     "SetProperties": {
                         "Action": "MEEP_CloseupInteraction_Image Mods/VoidWitchCult.CP.TheFishmongerNPC/ConstanceWillyFishingTrip 0 0 160 160",
                         "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.InteractiveTile.0}}"
-                    }
-                }
-            ]
-        }
-		]
-	}			
+					}
+				}
+			]
+		},
+		{
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_DeepSea_Aorta",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 31,
+                        "Y": 6
+					},
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image Mods/VoidWitchCult.CP.TheFishmongerNPC/DeepSeaNote 0 0 150 180",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.InteractiveTile.1}}"
+					}
+				}
+			]
+		}
+	]
+}			

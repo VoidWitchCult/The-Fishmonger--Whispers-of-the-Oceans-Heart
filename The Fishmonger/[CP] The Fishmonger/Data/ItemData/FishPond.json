@@ -813,6 +813,156 @@
 					],
 					"PopulationGates" : {"2" : ["(O)684 5"], "6" : ["(O)774 3"]}
 				},
+				"{{ModID}}_Spiritfish": {
+					"Id" : "{{ModID}}_Spiritfish",
+					"RequiredTags" : ["item_Spiritfish"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.01,
+							"ItemID" : "(O)GoldenAnimalCracker",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)MysticSyrup",
+							"MinQuantity" : 2,
+							"MaxQuantity" : 8
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"3" : ["(O)127 5"], "7" : ["(O)103 3"]}
+				},
+				"{{ModID}}_Hatchetfish": {
+					"Id" : "{{ModID}}_Hatchetfish",
+					"RequiredTags" : ["item_Hatchetfish"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.01,
+							"ItemID" : "(O)839",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)879",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)101 5"], "6" : ["(O)120 3"]}
+				},
+				"{{ModID}}_DeepSeaAngler": {
+					"Id" : "{{ModID}}_DeepSeaAngler",
+					"RequiredTags" : ["item_DeepSeaAngler"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.01,
+							"ItemID" : "(O)896",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)910",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)879 5"], "6" : ["(O)852 3"], "9" : ["(O)848 3"]}
+				},
+				"{{ModID}}_RedPaperLanternJelly": {
+					"Id" : "{{ModID}}_RedPaperLanternJelly",
+					"RequiredTags" : ["item_RedPaperLanternJelly"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.01,
+							"ItemID" : "(O)Book_Friendship",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)Book_Mystery",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)851 5"], "7" : ["(O)437 3"]}
+				},
+				"{{ModID}}_ArbiterSnailfish": {
+					"Id" : "{{ModID}}_ArbiterSnailfish",
+					"RequiredTags" : ["item_ArbiterSnailfish"],
+					"Precedence" : 0,
+					"SpawnTime" : -1,
+					"ProducedItems" : [
+						{
+							"RequiredPopulation" : 9,
+							"Chance" : 0.01,
+							"ItemID" : "(O)TreasureTotem",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 6,
+							"Chance" : 0.01,
+							"ItemID" : "(O)PurpleBook",
+							"MinQuantity" : 1,
+							"MaxQuantity" : 5
+						},
+						{
+							"RequiredPopulation" : 1,
+							"Chance" : 0.7,
+							"ItemID" : "(O)812",  // 812 is roe
+							"MinQuantity" : 1,
+							"MaxQuantity" : 1
+						}
+					],
+					"PopulationGates" : {"2" : ["(O)446 5"], "5" : ["(O)909 3"]}
+				},
 			}
 		}	 
 	]

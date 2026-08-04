@@ -18,6 +18,18 @@
 		},
 		{
 			"Action": "EditData",
+			"Target": "Mods/mistyspring.ItemExtensions/Data",
+			"Entries": {
+				"(O){{ModID}}_OldRune": {
+					"FoodDialogue": {
+						"ConsumeQuestion":"Consume {0}?",
+						"CannotConsume":"You can't eat it",
+					}, 
+				},
+			}
+		},
+		{
+			"Action": "EditData",
 			"Target": "Mods/mistyspring.ItemExtensions/EatingAnimations",
 			"Entries": {
 				"{{ModId}}_ConsumeTrinket": {
@@ -28,12 +40,7 @@
 							"SecondaryArm": false,
 							"Flip": false
 						},
-						{
-							"Frame":18,
-							"Duration": 250,
-							"SecondaryArm": false,
-							"Flip": false
-						},
+						
 						{
 							"Frame":26,
 							"Duration": 300,
@@ -70,17 +77,6 @@
 				}
 			}
 		},
-		{
-			"Action": "EditData",
-			"Target": "Mods/mistyspring.ItemExtensions/Data",
-			"Entries": {
-				"(O){{ModID}}_OldRune": {
-					"FoodDialogue": {
-						"ConsumeQuestion":"Consume {0}?",
-						"CannotConsume":"You can't eat it",
-					}, 
-				},
-			}
-		}
+		
 	]
 }

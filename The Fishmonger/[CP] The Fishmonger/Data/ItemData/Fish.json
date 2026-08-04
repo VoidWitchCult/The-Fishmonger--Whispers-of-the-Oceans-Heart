@@ -737,6 +737,102 @@
 						"VWC_fishmonger_item"
 					]
 				},
+				"{{ModID}}_Spiritfish": {
+                    "Name": "Spiritfish",
+                    "DisplayName": "{{i18n:Spiritfish.Fish.Name}}",
+                    "Description": "{{i18n:Spiritfish.Fish.Description}}",
+                    "Edibility": "50",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 183,
+                    "ContextTags": [
+                        "color_white",
+                        "item_Spiritfish",
+						"fish_has_roe",
+						"{{ModId}}_fish",
+						"gambezi_item",
+						"VWC_fishmonger_item"
+					]
+				},
+				"{{ModID}}_Hatchetfish": {
+                    "Name": "Hatchetfish",
+                    "DisplayName": "{{i18n:Hatchetfish.Fish.Name}}",
+                    "Description": "{{i18n:Hatchetfish.Fish.Description}}",
+                    "Edibility": "20",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 184,
+                    "ContextTags": [
+                        "color_gray",
+                        "item_Hatchetfish",
+						"fish_has_roe",
+						"{{ModId}}_fish",
+						"gambezi_item",
+						"VWC_fishmonger_item"
+					]
+				},
+				"{{ModID}}_DeepSeaAngler": {
+                    "Name": "Deep Sea Angler",
+                    "DisplayName": "{{i18n:DeepSeaAngler.Fish.Name}}",
+                    "Description": "{{i18n:DeepSeaAngler.Fish.Description}}",
+                    "Edibility": "100",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 2000,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 185,
+                    "ContextTags": [
+                        "color_green",
+                        "item_DeepSeaAngler",
+						"fish_legendary",
+						"fish_has_roe",
+						"{{ModId}}_fish",
+						"gambezi_item",
+						"VWC_fishmonger_item"
+					]
+				},
+				"{{ModID}}_RedPaperLanternJelly": {
+                    "Name": "Red Paper Lantern Jelly",
+                    "DisplayName": "{{i18n:RedPaperLanternJelly.Fish.Name}}",
+                    "Description": "{{i18n:RedPaperLanternJelly.Fish.Description}}",
+                    "Edibility": "80",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 400,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 186,
+                    "ContextTags": [
+                        "color_red",
+                        "item_RedPaperLanternJelly",
+						"fish_has_roe",
+						"{{ModId}}_fish",
+						"gambezi_item",
+						"VWC_fishmonger_item"
+					]
+				},
+				"{{ModID}}_ArbiterSnailfish": {
+                    "Name": "Arbiter Snailfish",
+                    "DisplayName": "{{i18n:ArbiterSnailfish.Fish.Name}}",
+                    "Description": "{{i18n:ArbiterSnailfish.Fish.Description}}",
+                    "Edibility": "40",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 187,
+                    "ContextTags": [
+                        "color_pink",
+                        "item_ArbiterSnailfish",
+						"fish_has_roe",
+						"{{ModId}}_fish",
+						"gambezi_item",
+						"VWC_fishmonger_item"
+					]
+				},
 			}
 		},
 		//==============================================================================================
@@ -784,6 +880,11 @@
 				"{{ModID}}_bisquitseastar": "Bisquit Sea Star/trap/.35/0/{{ModID}}_ocean/0.2/1/false",
 				"{{ModID}}_seaslug": "Sea Slug/trap/.35/0/{{ModID}}_ocean/1/1/false",
 				"{{ModID}}_fanlobster": "Fan Lobster/trap/.35/0/{{ModID}}_ocean/2/4/false",
+				"{{ModID}}_Spiritfish": "Spiritfish/70/smooth/6/10/2000 2600/spring summer fall winter/both/-1/2/0/.05/0/false",
+				"{{ModID}}_Hatchetfish": "Hatchetfish/50/mixed/1/45/600 1000/spring summer fall winter/both/-1/1/0/.5/0/false",
+				"{{ModID}}_DeepSeaAngler": "Deep Sea Angler/100/dart/3/10/2100 2600/spring summer fall winter/both/-1/4/0/.01/0/false",
+				"{{ModID}}_RedPaperLanternJelly": "Red Paper Lantern Jelly/40/floater/3/8/600 2600/spring summer fall winter/both/-1/3/0/.6/0/false",
+				"{{ModID}}_ArbiterSnailfish": "Arbiter Snailfish/40/sinker/1/6/600 2600/spring summer fall winter/both/-1/3/0/.5/0/false",
 			},
 		},
 		//==============================================================================================
@@ -812,7 +913,7 @@
 				"{{ModID}}_stripedtoby": "14/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
 				"{{ModID}}_sunrisebetta": "22/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
 				"{{ModID}}_sunsetbetta": "23/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
-				"{{ModID}}_scarletvampiresquid": "15/cephalopod/715 716/716 716 717 717/717 718//Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_scarletvampiresquid": "15/cephalopod/15 15 15 15 15 16 16 16/16 16 16 16 17 17 17 17 17/17 18 18 18 18 18//Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
 				"{{ModID}}_viperfish": "24/crawl/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
 				"{{ModID}}_rasboras": "25/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
 				"{{ModID}}_rainbowkribs": "26/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
@@ -829,6 +930,11 @@
 				"{{ModID}}_bisquitseastar": "37/ground/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
 				"{{ModID}}_seaslug": "38/crawl/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
 				"{{ModID}}_fanlobster": "39/crawl/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_Spiritfish": "40/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_Hatchetfish": "41/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_DeepSeaAngler": "42/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_RedPaperLanternJelly": "43/cephalopod/44 44 44 44 44 45 45 45 45/45 45 45 45 45 46 46 46 46 46 46/46 47 47 47 47 47//Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
+				"{{ModID}}_ArbiterSnailfish": "48/fish/////Mods\\{{ModID}}\\vww_fishmonger_AquariumFish",
 			}
 		},
 	]

@@ -75,7 +75,7 @@
 		{
 			"LogName": "Load Images images",
 			"Action": "Load",
-			"Target": "Mods/{{ModID}}/UI, Mods/{{ModID}}/ConstanceWillyFishingTrip",
+			"Target": "Mods/{{ModID}}/UI, Mods/{{ModID}}/ConstanceWillyFishingTrip, Mods/{{ModID}}/DeepSeaNote",
 			"FromFile": "assets/Images/{{TargetWithoutPath}}.png"
 		},
 		{

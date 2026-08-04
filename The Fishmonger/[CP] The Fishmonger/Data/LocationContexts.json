@@ -36,6 +36,38 @@
 						"mushymato.GrassVariety_AllowedVarietyPrefix": "{{ModId}}_lostisland"
 					}
 				},
+			
+				"{{ModId}}_DeepSeaPassOut": {
+					"Name": "{{ModId}}_DeepSeaPassOut",
+					"DefaultValidPlantableLocations": [],
+					"AllowRainTotem": false,
+					"MaxPassOutCost": 0,
+					"PassOutLocations": [
+						{
+							"Id": "{{ModId}}_PassOutIsland",
+						}
+					],
+					"ReviveLocations": [
+						{
+							"Location": "{{ModId}}_LostIsland_SeaDudeHome",
+							"Position": {
+								"X": 10,
+								"Y": 5
+							}
+						}
+					],
+					"PassOutMail": [
+						{
+							"Mail": "PassedOutBarnabas",
+							"SkipRandomSelection": true
+						}
+					],
+					"CustomFields": {
+						"mushymato.MMAP_WaterColor": "#653fe680",
+						"mushymato.MMAP_WaterDraw": "T",
+						"mushymato.GrassVariety_AllowedVarietyPrefix": "{{ModId}}_lostisland"
+					}
+				},
 			}
 		}
 	]

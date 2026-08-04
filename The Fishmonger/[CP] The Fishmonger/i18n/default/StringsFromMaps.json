@@ -44,7 +44,10 @@
 	"Strings.FishmongerLowerDeck.11": "These drawers are filled with trinkets and the likes as well. Small cups, figurines and other little things one usually would find in random shops when traveling and thinking 'Oh, that would be a fun thing to take home.'.",
 	"Strings.FishmongerLowerDeck.12": "The boxes atop the drawers are sealed shut. The old dusty smell hints at them sitting there for quite a while. What hidden gems could be in there one wonders...",
 	"Strings.FishmongerLowerDeck.13": "Another set of drawers. Another bunch of trinke-....or not? This one is actually filled with clothes! Hats, sweaters...actually clothes one would usually find. It's probably not a good idea to continue rummaging it or else...",
+	
+	// MEEP
 	"MEEP.InteractiveTile.0": "It's a picture of Constance and Willy taking a fishing trip together...",
+	"MEEP.InteractiveTile.1": "A crudely drawn heart...the ink appears to be water-resistant and-...are those arrows pointing to a specific direction?",
 	
 	// LOST ISLAND
 	"Strings.LostIslandRadio.1": "An odd gurgling sound is audible through the radio albeit almost drowned out by the environmental noise of the surroundings. It speaks in a language long forgotten...lamenting about gone-by eras and their people...",

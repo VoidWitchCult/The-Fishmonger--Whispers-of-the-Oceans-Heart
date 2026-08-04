@@ -1787,31 +1787,41 @@
 							"CrabPotJunkChance": 0.2
 						},
 					},
-					"Fish":  [
-						{
-							// "Id": "{{ModID}}_trumpetfish",
-							// "ItemId": "{{ModID}}_trumpetfish", 
-						},
-						
-					],
+					"Fish":  [],
 					"Forage": [
 						{
-							"Id": "(O)397",
-							"ItemId": "(O)397", //Sea  Urchin
-							"Chance": 0.1
+							"Id": "(O)DeepSeaForage",
+							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
+							"Chance": 0.15
 						},
 						{
-							"Id": "(O)397",
-							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
-							"Chance": 0.25
+							"Id": "(O)DeepSeaForage2",
+							"ItemId": "(O){{ModID}}_DivineBoneFragment",
+							"Chance": 0.15
 						},
+						{
+							"Id": "(O)DeepSeaForage3",
+							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage4",
+							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage5",
+							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
+							"Chance": 0.15
+						},
+
 					],
 					"MinDailyWeeds": 0,
 					"MaxDailyWeeds": 0,
 					"FirstDayWeedMultiplier": 0,
-					"MinDailyForageSpawn": 5,
-					"MaxDailyForageSpawn": 10,
-					"MaxSpawnedForageAtOnce": 6,
+					"MinDailyForageSpawn": 50,
+					"MaxDailyForageSpawn": 100,
+					"MaxSpawnedForageAtOnce": 50,
 					"ChanceForClay": 0.05,
 					"Music": [
 						{
@@ -1847,31 +1857,40 @@
 							"CrabPotJunkChance": 0.2
 						},
 					},
-					"Fish":  [
-						{
-							"Id": "{{ModID}}_trumpetfish",
-							"ItemId": "{{ModID}}_trumpetfish",
-						},
-						
-					],
+					"Fish":  [],
 					"Forage": [
 						{
-							"Id": "(O)397",
-							"ItemId": "(O)397", //Sea  Urchin
-							"Chance": 0.1
+							"Id": "(O)DeepSeaForage",
+							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
+							"Chance": 0.15
 						},
 						{
-							"Id": "(O)397",
-							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
-							"Chance": 0.25
+							"Id": "(O)DeepSeaForage2",
+							"ItemId": "(O){{ModID}}_DivineBoneFragment",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage3",
+							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage4",
+							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage5",
+							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
+							"Chance": 0.15
 						},
 					],
 					"MinDailyWeeds": 0,
 					"MaxDailyWeeds": 0,
 					"FirstDayWeedMultiplier": 0,
-					"MinDailyForageSpawn": 5,
-					"MaxDailyForageSpawn": 10,
-					"MaxSpawnedForageAtOnce": 6,
+					"MinDailyForageSpawn": 20,
+					"MaxDailyForageSpawn": 50,
+					"MaxSpawnedForageAtOnce": 10,
 					"ChanceForClay": 0.05,
 					"Music": [
 						{
@@ -1907,31 +1926,40 @@
 							"CrabPotJunkChance": 0.2
 						},
 					},
-					"Fish":  [
-						{
-							"Id": "{{ModID}}_trumpetfish",
-							"ItemId": "{{ModID}}_trumpetfish",
-						},
-						
-					],
+					"Fish":  [],
 					"Forage": [
 						{
-							"Id": "(O)397",
-							"ItemId": "(O)397", //Sea  Urchin
-							"Chance": 0.1
+							"Id": "(O)DeepSeaForage",
+							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
+							"Chance": 0.15
 						},
 						{
-							"Id": "(O)397",
-							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
-							"Chance": 0.25
+							"Id": "(O)DeepSeaForage2",
+							"ItemId": "(O){{ModID}}_DivineBoneFragment",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage3",
+							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage4",
+							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage5",
+							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
+							"Chance": 0.15
 						},
 					],
 					"MinDailyWeeds": 0,
 					"MaxDailyWeeds": 0,
 					"FirstDayWeedMultiplier": 0,
-					"MinDailyForageSpawn": 5,
-					"MaxDailyForageSpawn": 10,
-					"MaxSpawnedForageAtOnce": 6,
+					"MinDailyForageSpawn": 20,
+					"MaxDailyForageSpawn": 50,
+					"MaxSpawnedForageAtOnce": 10,
 					"ChanceForClay": 0.05,
 					"Music": [
 						{
@@ -1969,21 +1997,60 @@
 					},
 					"Fish":  [
 						{
-							"Id": "{{ModID}}_trumpetfish",
-							"ItemId": "{{ModID}}_trumpetfish",
+							"Id": "{{ModID}}_Spiritfish",
+							"ItemId": "{{ModID}}_Spiritfish",
 						},
-						
+						{
+							"Id": "{{ModID}}_Hatchetfish",
+							"ItemId": "{{ModID}}_Hatchetfish",
+						},
+						{
+							"Id": "{{ModID}}_DeepSeaAngler",
+							"ItemId": "{{ModID}}_DeepSeaAngler",
+							"IsBossFish": true,
+						},
+						{
+							"Id": "{{ModID}}_RedPaperLanternJelly",
+							"ItemId": "{{ModID}}_RedPaperLanternJelly",
+						},
+						{
+							"Id": "{{ModID}}_ArbiterSnailfish",
+							"ItemId": "{{ModID}}_ArbiterSnailfish",
+						},
+						{
+							"Id": "{{ModID}}_scarletvampiresquid",
+							"ItemId": "{{ModID}}_scarletvampiresquid",
+						},
+						{
+							"Id": "{{ModID}}_bigfinsquid",
+							"ItemId": "{{ModID}}_bigfinsquid",
+						},
 					],
 					"Forage": [
 						{
-							"Id": "(O)397",
-							"ItemId": "(O)397", //Sea  Urchin
-							"Chance": 0.1
+							"Id": "(O)DeepSeaForage",
+							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
+							"Chance": 0.15
 						},
 						{
-							"Id": "(O)397",
-							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
-							"Chance": 0.25
+							"Id": "(O)DeepSeaForage2",
+							"ItemId": "(O){{ModID}}_DivineBoneFragment",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage3",
+							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage4",
+							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage5",
+							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
+							"Chance": 0.15
 						},
 					],
 					"MinDailyWeeds": 0,
@@ -2029,29 +2096,63 @@
 					},
 					"Fish":  [
 						{
-							"Id": "{{ModID}}_trumpetfish",
-							"ItemId": "{{ModID}}_trumpetfish",
+							"Id": "{{ModID}}_Spiritfish",
+							"ItemId": "{{ModID}}_Spiritfish",
 						},
-						
+						{
+							"Id": "{{ModID}}_Hatchetfish",
+							"ItemId": "{{ModID}}_Hatchetfish",
+						},
+						{
+							"Id": "{{ModID}}_RedPaperLanternJelly",
+							"ItemId": "{{ModID}}_RedPaperLanternJelly",
+						},
+						{
+							"Id": "{{ModID}}_ArbiterSnailfish",
+							"ItemId": "{{ModID}}_ArbiterSnailfish",
+						},
+						{
+							"Id": "{{ModID}}_scarletvampiresquid",
+							"ItemId": "{{ModID}}_scarletvampiresquid",
+						},
+						{
+							"Id": "{{ModID}}_bigfinsquid",
+							"ItemId": "{{ModID}}_bigfinsquid",
+						},
 					],
 					"Forage": [
 						{
-							"Id": "(O)397",
-							"ItemId": "(O)397", //Sea  Urchin
-							"Chance": 0.1
+							"Id": "(O)DeepSeaForage",
+							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
+							"Chance": 0.15
 						},
 						{
-							"Id": "(O)397",
-							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
-							"Chance": 0.25
+							"Id": "(O)DeepSeaForage2",
+							"ItemId": "(O){{ModID}}_DivineBoneFragment",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage3",
+							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage4",
+							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage5",
+							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
+							"Chance": 0.15
 						},
 					],
 					"MinDailyWeeds": 0,
 					"MaxDailyWeeds": 0,
 					"FirstDayWeedMultiplier": 0,
-					"MinDailyForageSpawn": 5,
-					"MaxDailyForageSpawn": 10,
-					"MaxSpawnedForageAtOnce": 6,
+					"MinDailyForageSpawn": 20,
+					"MaxDailyForageSpawn": 50,
+					"MaxSpawnedForageAtOnce": 10,
 					"ChanceForClay": 0.05,
 					"Music": [
 						{
@@ -2089,29 +2190,63 @@
 					},
 					"Fish":  [
 						{
-							"Id": "{{ModID}}_trumpetfish",
-							"ItemId": "{{ModID}}_trumpetfish",
+							"Id": "{{ModID}}_Spiritfish",
+							"ItemId": "{{ModID}}_Spiritfish",
 						},
-						
+						{
+							"Id": "{{ModID}}_Hatchetfish",
+							"ItemId": "{{ModID}}_Hatchetfish",
+						},
+						{
+							"Id": "{{ModID}}_RedPaperLanternJelly",
+							"ItemId": "{{ModID}}_RedPaperLanternJelly",
+						},
+						{
+							"Id": "{{ModID}}_ArbiterSnailfish",
+							"ItemId": "{{ModID}}_ArbiterSnailfish",
+						},
+						{
+							"Id": "{{ModID}}_scarletvampiresquid",
+							"ItemId": "{{ModID}}_scarletvampiresquid",
+						},
+						{
+							"Id": "{{ModID}}_bigfinsquid",
+							"ItemId": "{{ModID}}_bigfinsquid",
+						},
 					],
 					"Forage": [
 						{
-							"Id": "(O)397",
-							"ItemId": "(O)397", //Sea  Urchin
-							"Chance": 0.1
+							"Id": "(O)DeepSeaForage",
+							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
+							"Chance": 0.15
 						},
 						{
-							"Id": "(O)397",
-							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
-							"Chance": 0.25
+							"Id": "(O)DeepSeaForage2",
+							"ItemId": "(O){{ModID}}_DivineBoneFragment",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage3",
+							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage4",
+							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage5",
+							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
+							"Chance": 0.15
 						},
 					],
 					"MinDailyWeeds": 0,
 					"MaxDailyWeeds": 0,
 					"FirstDayWeedMultiplier": 0,
-					"MinDailyForageSpawn": 5,
-					"MaxDailyForageSpawn": 10,
-					"MaxSpawnedForageAtOnce": 6,
+					"MinDailyForageSpawn": 20,
+					"MaxDailyForageSpawn": 50,
+					"MaxSpawnedForageAtOnce": 10,
 					"ChanceForClay": 0.05,
 					"Music": [
 						{
@@ -2147,31 +2282,40 @@
 							"CrabPotJunkChance": 0.2
 						},
 					},
-					"Fish":  [
-						{
-							"Id": "{{ModID}}_trumpetfish",
-							"ItemId": "{{ModID}}_trumpetfish",
-						},
-						
-					],
+					"Fish":  [],
 					"Forage": [
 						{
-							"Id": "(O)397",
-							"ItemId": "(O)397", //Sea  Urchin
-							"Chance": 0.1
+							"Id": "(O)DeepSeaForage",
+							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
+							"Chance": 0.15
 						},
 						{
-							"Id": "(O)397",
-							"ItemId": "RANDOM_ITEMS (O) 718 723", //Randomized Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster
-							"Chance": 0.25
+							"Id": "(O)DeepSeaForage2",
+							"ItemId": "(O){{ModID}}_DivineBoneFragment",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage3",
+							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage4",
+							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
+							"Chance": 0.15
+						},
+						{
+							"Id": "(O)DeepSeaForage5",
+							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
+							"Chance": 0.15
 						},
 					],
 					"MinDailyWeeds": 0,
 					"MaxDailyWeeds": 0,
 					"FirstDayWeedMultiplier": 0,
-					"MinDailyForageSpawn": 5,
-					"MaxDailyForageSpawn": 10,
-					"MaxSpawnedForageAtOnce": 6,
+					"MinDailyForageSpawn": 20,
+					"MaxDailyForageSpawn": 50,
+					"MaxSpawnedForageAtOnce": 10,
 					"ChanceForClay": 0.05,
 					"Music": [
 						{

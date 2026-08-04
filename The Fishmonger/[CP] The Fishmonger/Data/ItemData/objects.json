@@ -1831,6 +1831,86 @@
 						"VWC_fishmonger_item"
 					],
 				},
+				"{{ModID}}_SymbioticSilverAlloyedNeedle": {
+                    "Name": "{{ModID}}_SymbioticSilverAlloyedNeedle",
+                    "DisplayName": "{{i18n:SymbioticSilverAlloyedNeedle.Name}}",
+                    "Description": "{{i18n:SymbioticSilverAlloyedNeedle.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 450,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 178,
+					"ContextTags": [
+						"color_grey",
+						"forage_item",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_DivineBoneFragment": {
+                    "Name": "{{ModID}}_DivineBoneFragment",
+                    "DisplayName": "{{i18n:DivineBoneFragment.Name}}",
+                    "Description": "{{i18n:DivineBoneFragment.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 500,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 179,
+					"ContextTags": [
+						"color_purple",
+						"forage_item",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_BiColoredSeaGrass": {
+                    "Name": "{{ModID}}_BiColoredSeaGrass",
+                    "DisplayName": "{{i18n:BiColoredSeaGrass.Name}}",
+                    "Description": "{{i18n:BiColoredSeaGrass.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 180,
+					"ContextTags": [
+						"color_green",
+						"forage_item",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_AmbrosialBiomass": {
+                    "Name": "{{ModID}}_AmbrosialBiomass",
+                    "DisplayName": "{{i18n:AmbrosialBiomass.Name}}",
+                    "Description": "{{i18n:AmbrosialBiomass.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 181,
+					"ContextTags": [
+						"color_green",
+						"forage_item",
+						"VWC_fishmonger_item"
+					],
+				},
+				"{{ModID}}_LeafShapedRazorscale": {
+                    "Name": "{{ModID}}_LeafShapedRazorscale",
+                    "DisplayName": "{{i18n:LeafShapedRazorscale.Name}}",
+                    "Description": "{{i18n:LeafShapedRazorscale.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 182,
+					"ContextTags": [
+						"color_grey",
+						"forage_item",
+						"VWC_fishmonger_item"
+					],
+				},
 				//==============================================================================================
 				//==== ARTIFACTS ===============================================================================
 				//==============================================================================================
@@ -2309,6 +2389,25 @@
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland": 0.25,
+					},
+				},
+				"{{ModID}}_DeepSeaTotem": {
+                    "Name": "{{ModID}}_DeepSeaTotem",
+                    "DisplayName": "{{i18n:DeepSeaTotem.Name}}",
+                    "Description": "{{i18n:DeepSeaTotem.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 188,
+					"ContextTags": [
+						"color_purple",
+						"not_placeable",
+						"totem_item",
+						"VWC_fishmonger_item"
+					],
+					"ArtifactSpotChances": {
+						"{{ModId}}_DeepSea_*": 0.25,
 					},
 				},
 				"{{ModID}}_SpecialFlowerBouquet": {

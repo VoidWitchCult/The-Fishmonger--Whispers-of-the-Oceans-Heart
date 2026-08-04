@@ -16,7 +16,7 @@
 				},
 				"{{ModId}}_LostIslandDeepSeaWarp": {
 					"Id": "{{ModId}}_LostIslandDeepSeaWarp",
-					"DisplayName": "{{i18n:Locations.LostIsland.DeepSea}}"
+					"DisplayName": "{{i18n:Locations.DeepSea}}"
 				},
 			}
 		},
