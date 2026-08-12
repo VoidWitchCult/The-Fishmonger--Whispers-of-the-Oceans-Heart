@@ -24,6 +24,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 0,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 				},
 				"{{ModId}}_Painiteneedle": {
 					"Name": "{{ModId}}_Painiteneedle",
@@ -44,6 +48,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 1,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 				},
 				"{{ModId}}_LushForestineBroadsword": {
 					"Name": "{{ModId}}_LushForestineBroadsword",
@@ -64,6 +72,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 2,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 					"Projectiles": [
 						{
 							"Id": "Default_LushForestineBroadsword",
@@ -102,6 +114,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 3,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 				},
 				"{{ModId}}_ChalcanthiteBroatsword": {
 					"Name": "{{ModId}}_ChalcanthiteBroatsword",
@@ -122,6 +138,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 4,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 				},
 				"{{ModId}}_ChalcanthiteWand": {
 					"Name": "{{ModId}}_ChalcanthiteWand",
@@ -142,6 +162,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 5,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 					"Projectiles": [
 						{
 							"Id": "Default_ChalcanthiteWand",
@@ -175,6 +199,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 6,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 				},
 				"{{ModId}}_OpalizedAmmoniteDagger": {
 					"Name": "{{ModId}}_OpalizedAmmoniteDagger",
@@ -195,6 +223,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 7,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 				},
 				"{{ModId}}_TaintedSeaShardsSword": {
 					"Name": "{{ModId}}_TaintedSeaShardsSword",
@@ -215,6 +247,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 8,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 				},
 				"{{ModId}}_TaintedSeaShardsDagger": {
 					"Name": "{{ModId}}_TaintedSeaShardsDagger",
@@ -235,6 +271,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 9,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 				},
 				"{{ModId}}_DeepseaDiamondSword": {
 					"Name": "{{ModId}}_DeepseaDiamondSword",
@@ -255,6 +295,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 10,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 				},
 				"{{ModId}}_DeepseaDiamondBroadsword": {
 					"Name": "{{ModId}}_DeepseaDiamondBroadsword",
@@ -275,6 +319,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 11,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 				},
 				"{{ModId}}_CrystallizedIchorSword": {
 					"Name": "{{ModId}}_CrystallizedIchorSword",
@@ -295,6 +343,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 12,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 				},
 				"{{ModId}}_RealgarRapier": {
 					"Name": "{{ModId}}_RealgarRapier",
@@ -315,6 +367,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 13,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 				},
 				"{{ModId}}_RealgarStaff": {
 					"Name": "{{ModId}}_RealgarStaff",
@@ -335,6 +391,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 14,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 					"Projectiles": [
 						{
 							"Id": "Default_RealgarStaff",
@@ -367,6 +427,10 @@
 					"CanBeLostOnDeath": true,
 					"Texture": "Mods/{{ModID}}/vww_fishmonger_weapons",
 					"SpriteIndex": 15,
+					"ContextTags": [
+						"VWC_fishmonger_item",
+						"legendary_swordsman_banned"
+					],
 				},
 
 			}

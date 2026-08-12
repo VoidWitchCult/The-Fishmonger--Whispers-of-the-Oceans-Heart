@@ -25,7 +25,9 @@
 						"season_summer",
 						"season_fall",
 						"season_winter",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"experimental_planter_banned",
+						"seed_ship_banned"
 					]
 				},
 				"{{ModID}}_bloodstainedroseseeds": {
@@ -42,7 +44,9 @@
                         "season_fall",
                         "flower_item",
                         "color_red",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"experimental_planter_banned",
+						"seed_ship_banned"
 					]
 				},
                 "{{ModID}}_freshdillseeds": {
@@ -59,7 +63,8 @@
                         "season_spring",
                         "vegetable_item",
                         "color_green",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"seed_ship_banned"
 					]
 				},
                 "{{ModID}}_fisheyebeansseeds": {
@@ -79,7 +84,8 @@
 						"season_winter",
                         "vegetable_item",
                         "color_pink",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"seed_ship_banned"
 					]
 				},
                 "{{ModID}}_halcyonflowerseeds": {
@@ -96,7 +102,9 @@
                         "season_fall",
                         "flower_item",
                         "color_pink",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"experimental_planter_banned",
+						"seed_ship_banned"
 					]
 				},
                 "{{ModID}}_spicymustardseeds": {
@@ -117,7 +125,8 @@
                         "spice_item",
 						"vegetable_item",
                         "color_yellow",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"seed_ship_banned"
 					]
 				},
                 "{{ModID}}_oceanflaxseeds": {
@@ -134,7 +143,8 @@
                         "season_fall",
                         "vegetable_item",
                         "color_blue",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"seed_ship_banned"
 					]
 				},
                 "{{ModID}}_petrichorseeds": {
@@ -151,7 +161,9 @@
                         "season_summer",
                         "flower_item",
                         "color_blue",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"experimental_planter_banned",
+						"seed_ship_banned"
 					]
 				},
                 "{{ModID}}_saltemmerseeds": {
@@ -168,7 +180,8 @@
                         "season_summer",
                         "vegetable_item",
                         "color_aquamarine",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"seed_ship_banned"
 					]
 				},
                 "{{ModID}}_scallureseeds": {
@@ -185,7 +198,9 @@
                         "season_summer",
                         "flower_item",
                         "color_pink",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"experimental_planter_banned",
+						"seed_ship_banned"
 					]
 				},
                 "{{ModID}}_sunsetroseseeds": {
@@ -203,7 +218,9 @@
                         "flower_item",
                         "color_red",
 						"color_yellow",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"experimental_planter_banned",
+						"seed_ship_banned"
 					]
 				},
 				"{{ModID}}_moonlightberriesseeds": {
@@ -220,7 +237,8 @@
                         "season_winter",
                         "berry_item",
 						"color_pink",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"seed_ship_banned"
 					]
 				},
 				"{{ModID}}_prismaticgemfruitseeds": {
@@ -240,7 +258,8 @@
                         "season_winter",
                         "fruit_item",
 						"color_prismatic",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"seed_ship_banned"
 					]
 				},
 				//==============================================================================================
@@ -259,7 +278,9 @@
 					"ContextTags": [
 						"color_blue",
 						"fruit_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"junimo_fruit_basket_banned",
+						"diet_gourmand_banned"
 					]
 				},
 				"{{ModID}}_FruitOfGinnungagap": {
@@ -275,7 +296,9 @@
 					"ContextTags": [
 						"color_poppyseed",
 						"fruit_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"junimo_fruit_basket_banned",
+						"diet_gourmand_banned"
 					]
 				},
 				"{{ModID}}_LoversStar": {
@@ -291,7 +314,9 @@
 					"ContextTags": [
 						"color_sand",
 						"fruit_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"junimo_fruit_basket_banned",
+						"diet_gourmand_banned"
 					]
 				},
 				"{{ModID}}_StarlightFruit": {
@@ -307,7 +332,9 @@
 					"ContextTags": [
 						"color_iridium",
 						"fruit_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"junimo_fruit_basket_banned",
+						"diet_gourmand_banned"
 					]
 				},
 				//==============================================================================================
@@ -325,7 +352,8 @@
 					"ContextTags": [
 						"color_light_cyan",
 						"tree_seed_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"seed_ship_banned"
 					]
 				},
 				"{{ModID}}_TreeOfGinnungagapSapling": {
@@ -340,7 +368,8 @@
 					"ContextTags": [
 						"color_darkblue",
 						"tree_seed_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"seed_ship_banned"
 					]
 				},
 				"{{ModID}}_LoversStarSapling": {
@@ -355,7 +384,8 @@
 					"ContextTags": [
 						"color_salmon",
 						"tree_seed_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"seed_ship_banned"
 					]
 				},
 				"{{ModID}}_PuffballSapling": {
@@ -370,7 +400,8 @@
 					"ContextTags": [
 						"color_white",
 						"tree_seed_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"seed_ship_banned"
 					]
 				},
 				"{{ModID}}_MermaidTreeSeeds": {
@@ -385,7 +416,8 @@
 					"ContextTags": [
 						"color_blue",
 						"tree_seed_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"seed_ship_banned"
 					]
 				},
 				"{{ModID}}_MermaidTree2Seeds": {
@@ -400,7 +432,8 @@
 					"ContextTags": [
 						"color_blue",
 						"tree_seed_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"seed_ship_banned"
 					]
 				},
 				
@@ -422,7 +455,8 @@
                         "season_fall",
                         "flower_item",
                         "color_red",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"experimental_planter_banned"
 					]
 				},
                 "{{ModID}}_freshdill": {
@@ -439,7 +473,8 @@
                         "season_spring",
                         "vegetable_item",
                         "color_green",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"junimo_greens_shop_banned"
 					]
 				},
                 "{{ModID}}_fisheyebeans": {
@@ -459,7 +494,8 @@
 						"season_winter",
                         "vegetable_item",
                         "color_pink",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"junimo_greens_shop_banned"
 					]
 				},
                 "{{ModID}}_halcyonflower": {
@@ -476,7 +512,8 @@
                         "season_fall",
                         "flower_item",
                         "color_pink",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"experimental_planter_banned"
 					]
 				},
                 "{{ModID}}_spicymustard": {
@@ -497,7 +534,8 @@
                         "spice_item",
 						"vegetable_item",
                         "color_yellow",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"junimo_greens_shop_banned"
 					]
 				},
                 "{{ModID}}_oceanflax": {
@@ -514,7 +552,8 @@
                         "season_fall",
                         "vegetable_item",
                         "color_blue",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"junimo_greens_shop_banned"
 					]
 				},
                 "{{ModID}}_petrichor": {
@@ -531,7 +570,8 @@
                         "season_summer",
                         "flower_item",
                         "color_blue",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"experimental_planter_banned"
 					]
 				},
                 "{{ModID}}_saltemmer": {
@@ -548,7 +588,8 @@
                         "season_summer",
                         "vegetable_item",
                         "color_aquamarine",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"junimo_greens_shop_banned"
 					]
 				},
                 "{{ModID}}_scallure": {
@@ -565,7 +606,8 @@
                         "season_summer",
                         "flower_item",
                         "color_pink",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"experimental_planter_banned"
 					]
 				},
                 "{{ModID}}_sunsetrose": {
@@ -583,7 +625,8 @@
                         "flower_item",
                         "color_red",
 						"color_yellow",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"experimental_planter_banned"
 					]
 				},
 				"{{ModID}}_moonlightberries": {
@@ -600,7 +643,9 @@
                         "season_summer",
                         "berry_item",
                         "color_pink",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"junimo_fruit_basket_banned",
+						"diet_gourmand_banned"
 					]
 				},
 				"{{ModID}}_prismaticgemfruit": {
@@ -620,7 +665,9 @@
                         "season_winter",
                         "fruit_item",
                         "color_prismatic",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"junimo_fruit_basket_banned",
+						"diet_gourmand_banned"
 					]
 				},
 				//==============================================================================================
@@ -646,7 +693,8 @@
 					"ContextTags": [
 						"color_brown",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_crispyfishandchips": {
@@ -669,7 +717,8 @@
 					"ContextTags": [
 						"color_brown",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_mouthwateringfishburger": {
@@ -692,7 +741,8 @@
 					"ContextTags": [
 						"color_orange",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_fishcroquettesaioli": {
@@ -715,7 +765,8 @@
 					"ContextTags": [
 						"color_brown",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_fishdillsauce": {
@@ -738,7 +789,8 @@
 					"ContextTags": [
 						"color_blue",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_savoryfishballs": {
@@ -761,7 +813,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_freshdillsauce": {
@@ -778,7 +831,8 @@
 					"ContextTags": [
 						"color_white",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_Plokkfiskur": {
@@ -801,7 +855,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_potatoesdillsauce": {
@@ -824,7 +879,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_crispysalmonschnitzel": {
@@ -847,7 +903,8 @@
 					"ContextTags": [
 						"color_brown",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_spicymustardsauce": {
@@ -864,7 +921,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_MermaidsTail": {
@@ -881,7 +939,8 @@
 					"ContextTags": [
 						"color_pink",
 						"food_bakery",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_SandDollarCookie": {
@@ -898,7 +957,8 @@
 					"ContextTags": [
 						"color_sand",
 						"food_bakery",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_ClamBisquit": {
@@ -915,7 +975,8 @@
 					"ContextTags": [
 						"color_pink",
 						"food_bakery",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_MermaidDonut": {
@@ -938,7 +999,8 @@
 					"ContextTags": [
 						"color_pink",
 						"food_bakery",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_TropicalPunch": {
@@ -962,7 +1024,8 @@
 						"color_yellow",
 						"drink_item",
 						"food_sweet",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_MermaidFreakshake": {
@@ -986,7 +1049,8 @@
 						"color_purple",
 						"drink_item",
 						"food_sweet",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_OceanJello": {
@@ -1003,7 +1067,8 @@
 					"ContextTags": [
 						"color_blue",
 						"food_sweet",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_OrangeFruitCrab": {
@@ -1026,7 +1091,8 @@
 					"ContextTags": [
 						"color_orange",
 						"food_fruit",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_OceanSmoothieBowl": {
@@ -1043,7 +1109,8 @@
 					"ContextTags": [
 						"color_blue",
 						"food_breakfast",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_MapRiceCrispy": {
@@ -1066,7 +1133,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"food_sweet",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_StuffedFishPocket": {
@@ -1089,7 +1157,8 @@
 					"ContextTags": [
 						"color_pink",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_SunsetRoseTea": {
@@ -1107,7 +1176,9 @@
 						"color_yellow",
 						"drink_item",
 						"food_sweet",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned",
+						"tea_table_banned"
 					],
 				},
 				"{{ModID}}_BloodstainedRoseTea": {
@@ -1125,7 +1196,9 @@
 						"color_red",
 						"drink_item",
 						"food_sweet",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned",
+						"tea_table_banned"
 					],
 				},
 				"{{ModID}}_SkeweredFish": {
@@ -1142,7 +1215,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_RoseCandy": {
@@ -1167,7 +1241,8 @@
 						"color_yellow",
 						"color_red",
 						"food_sweet",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_IridescentCake": {
@@ -1193,7 +1268,8 @@
 					"ContextTags": [
 						"color_purple",
 						"food_sweet",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_PastelCottonCandy": {
@@ -1216,7 +1292,8 @@
 					"ContextTags": [
 						"color_pink",
 						"food_sweet",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_SteamedFish": {
@@ -1233,7 +1310,8 @@
 					"ContextTags": [
 						"color_purple",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_CodandPrawnpie": {
@@ -1250,7 +1328,8 @@
 					"ContextTags": [
 						"color_brown",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_Fishfingers": {
@@ -1267,7 +1346,8 @@
 					"ContextTags": [
 						"color_orange",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_Coconutfishcurry": {
@@ -1284,7 +1364,8 @@
 					"ContextTags": [
 						"color_white",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_Kedgeree": {
@@ -1301,7 +1382,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_Tunasweetcornburger": {
@@ -1318,7 +1400,8 @@
 					"ContextTags": [
 						"color_brown",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_Basswithsizzledginger": {
@@ -1335,7 +1418,8 @@
 					"ContextTags": [
 						"color_red",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_Honeyandorangeroastbass": {
@@ -1352,7 +1436,8 @@
 					"ContextTags": [
 						"color_orange",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_Winepoachedhalibut": {
@@ -1369,7 +1454,8 @@
 					"ContextTags": [
 						"color_pink",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_SmokedfishHash": {
@@ -1386,7 +1472,8 @@
 					"ContextTags": [
 						"color_brown",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_CuredSalmoncreamsalad": {
@@ -1403,7 +1490,8 @@
 					"ContextTags": [
 						"color_red",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_Panfriedfishbeetrootsalsa": {
@@ -1420,7 +1508,8 @@
 					"ContextTags": [
 						"color_red",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_Salmonleekpastry": {
@@ -1437,7 +1526,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_Codcarrotpilaf": {
@@ -1454,7 +1544,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_Smokedfishpate": {
@@ -1471,7 +1562,8 @@
 					"ContextTags": [
 						"color_beige",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_Cioppino": {
@@ -1488,7 +1580,8 @@
 					"ContextTags": [
 						"color_red",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				"{{ModID}}_MushroomDustedHalibut": {
@@ -1505,7 +1598,8 @@
 					"ContextTags": [
 						"color_brown",
 						"food_seafood",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						" joja_eats_banned"
 					],
 				},
 				//==============================================================================================
@@ -1524,7 +1618,8 @@
 					"ContextTags": [
 						"color_pink",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_SunsetMermaidScale": {
@@ -1540,7 +1635,8 @@
 					"ContextTags": [
 						"color_red",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_MossyMermaidScale": {
@@ -1556,7 +1652,8 @@
 					"ContextTags": [
 						"color_light_green",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_SummerMermaidScale": {
@@ -1572,7 +1669,8 @@
 					"ContextTags": [
 						"color_orange",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_CharcoalMermaidScale": {
@@ -1588,7 +1686,8 @@
 					"ContextTags": [
 						"color_black",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_FrostMermaidScale": {
@@ -1604,7 +1703,8 @@
 					"ContextTags": [
 						"color_light_cyan",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_PowderPinkStarfish": {
@@ -1620,7 +1720,8 @@
 					"ContextTags": [
 						"color_pink",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_PowderGreenPearl": {
@@ -1636,7 +1737,8 @@
 					"ContextTags": [
 						"color_light_green",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_PowderBluePearl": {
@@ -1652,7 +1754,8 @@
 					"ContextTags": [
 						"color_light_cyan",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_PowderOrangePearl": {
@@ -1668,7 +1771,8 @@
 					"ContextTags": [
 						"color_orange",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_PowderPinkPearl": {
@@ -1684,7 +1788,8 @@
 					"ContextTags": [
 						"color_pink",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_FerretFurball": {
@@ -1700,7 +1805,8 @@
 					"ContextTags": [
 						"color_grey",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_BulbousPlantCore": {
@@ -1716,7 +1822,8 @@
 					"ContextTags": [
 						"color_red",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_MermaidWoodBark": {
@@ -1732,7 +1839,8 @@
 					"ContextTags": [
 						"color_iridium",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_WeirdVine": {
@@ -1748,7 +1856,8 @@
 					"ContextTags": [
 						"color_green",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_CrystallineBerries": {
@@ -1764,7 +1873,9 @@
 					"ContextTags": [
 						"color_blue",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned",
+						"diet_gourmand_banned"
 					],
 				},
 				"{{ModID}}_ObsidianPhoenixFeather": {
@@ -1780,7 +1891,8 @@
 					"ContextTags": [
 						"color_black",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_SolidIchor": {
@@ -1796,7 +1908,8 @@
 					"ContextTags": [
 						"color_orange",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_ObsidianShard": {
@@ -1812,7 +1925,8 @@
 					"ContextTags": [
 						"color_iridium",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_GrassBlade": {
@@ -1828,7 +1942,8 @@
 					"ContextTags": [
 						"color_green",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_SymbioticSilverAlloyedNeedle": {
@@ -1844,7 +1959,8 @@
 					"ContextTags": [
 						"color_grey",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_DivineBoneFragment": {
@@ -1860,7 +1976,8 @@
 					"ContextTags": [
 						"color_purple",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_BiColoredSeaGrass": {
@@ -1876,7 +1993,8 @@
 					"ContextTags": [
 						"color_green",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_AmbrosialBiomass": {
@@ -1892,7 +2010,8 @@
 					"ContextTags": [
 						"color_green",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				"{{ModID}}_LeafShapedRazorscale": {
@@ -1908,7 +2027,8 @@
 					"ContextTags": [
 						"color_grey",
 						"forage_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"forage_box_banned"
 					],
 				},
 				//==============================================================================================
@@ -1931,7 +2051,8 @@
 						"ancient_item",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_EnchantedForest": 0.01,
@@ -1954,7 +2075,8 @@
 						"marine_item",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthernCliffs": 0.01,
@@ -1978,7 +2100,8 @@
 						"marine_item",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_PortMelodia": 0.01,
@@ -2001,7 +2124,8 @@
 						"ancient_item",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthEastQuarry": 0.01,
@@ -2024,7 +2148,8 @@
 						"marine_item",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_Orchard": 0.01,
@@ -2047,7 +2172,8 @@
 						"marine_item",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland": 0.01,
@@ -2069,7 +2195,8 @@
 						"not_placeable",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_EnchantedForest": 0.01,
@@ -2092,7 +2219,8 @@
 						"ancient_item",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_Orchard": 0.01,
@@ -2115,7 +2243,8 @@
 						"ancient_item",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthEastQuarry": 0.01,
@@ -2139,7 +2268,8 @@
 						"ancient_item",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthernCliffs": 0.01,
@@ -2161,7 +2291,8 @@
 						"not_placeable",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland": 0.01,
@@ -2184,7 +2315,8 @@
 						"ancient_item",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_PortMelodia": 0.01,
@@ -2206,7 +2338,8 @@
 						"not_placeable",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland": 0.01,
@@ -2228,7 +2361,8 @@
 						"not_placeable",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_Orchard": 0.01,
@@ -2250,7 +2384,8 @@
 						"not_placeable",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_ForsakenCove": 0.01,
@@ -2273,7 +2408,8 @@
 						"ancient_item",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_PortMelodia": 0.01,
@@ -2295,7 +2431,8 @@
 						"not_placeable",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_ForsakenCove": 0.01,
@@ -2318,7 +2455,8 @@
 						"ancient_item",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_Orchard": 0.01,
@@ -2340,7 +2478,8 @@
 						"not_placeable",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_ForsakenCove": 0.01,
@@ -2363,7 +2502,8 @@
 						"ancient_item",
 						"VWC_fishmonger_item",
 						"VWC_artifact_item",
-						"not_museum_donatable"
+						"not_museum_donatable",
+						"volcanic_forge_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland_NorthEastQuarry": 0.01,
@@ -2385,7 +2525,8 @@
 						"color_pink",
 						"not_placeable",
 						"totem_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"weather_totem_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_LostIsland": 0.25,
@@ -2404,7 +2545,8 @@
 						"color_purple",
 						"not_placeable",
 						"totem_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"weather_totem_banned"
 					],
 					"ArtifactSpotChances": {
 						"{{ModId}}_DeepSea_*": 0.25,

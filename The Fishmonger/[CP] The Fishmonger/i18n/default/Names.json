@@ -118,7 +118,6 @@
 	"Locations.DeepSea": "Deep Sea",
 	"Locations.NAME": "NAME",
 	
-	
 	//==============================================================================================
 	//==== W O R L D M A P  N A M E S ==============================================================
 	//==============================================================================================
@@ -146,5 +145,11 @@
 	"WorldMap.AnglerGuyHome": "Hemlocks, Morvennas and Moss Home",
 	"WorldMap.RoyalMermanHome": "Cecilias, Godwyns and Calderons Home",
 	"WorldMap.TentHome": "Ragnas Tent",
-	"WorldMap.GanguroHome": "Amalthes and Melias Home"
+	"WorldMap.GanguroHome": "Amalthes and Melias Home",
+	
+	//==============================================================================================
+	//==== P O W E R S =============================================================================
+	//==============================================================================================
+	"Powers.DeepSea.Name": "Deep Sea Blessing",
+	"Powers.DeepSea.Desc": "You were blessed by the merfolk...",
 }

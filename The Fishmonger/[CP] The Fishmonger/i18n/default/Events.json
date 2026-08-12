@@ -449,6 +449,17 @@
 	"Event.SeaDudeBarnabasPlayerKilled.YouOk": "...Are you alright?",
 	"Event.SeaDudeBarnabasPlayerKilled.FoundYou": "Hey...I smelled the faint scent of blood and when I looked around I found you passed out and hurt on the ground.$7#$b#...I brought you to my home since I thought bringing you all the way back to your home would be too risky.$8#$b#Please take more care of yourself next time, okay?$2",
 	
+	// UNDERWATER START
+	"Event.UnderwaterStart.Hm": "Hm...I think it's time...",
+	"Event.UnderwaterStart.Greetings": "@, nice for you to come visit me!$1#$b#.....#$b#...say, we've been pretty close, right? It wouldn't be weird if I, uh, would ask you for a favor maybe?#$b#...$10#$b#Haha! What am I thinking! We are really close!$1#$b#AHEM! Anyway...$10",
+	"Event.UnderwaterStart.Anyway": "...you know...you probably have asked yourself before why we live on land.#$b#The thing is, I don't really recommend any mortal to go too deep in the waters.$7#$b#...since, uh, a very long time (longerthanhumansusuallytendtolive) the waters in the deep sea are pretty tainted.$8#$b#Sigh...so far I wasn't really able to deal with it, but...$8",
+	"Event.UnderwaterStart.Help": "...I trust you, @.$1#$b#I'll let you see it for yourself...$7#$b#...I've sealed the way towards the highest contamination so you shouldn't worry about getting tainted.#$b#...hm. Maybe with you by my side I can finally finish this chapter...$8",
+	"Event.UnderwaterStart.Blessing": "You've been blessed to breath underwater. You can visit the Deep Sea from the next day on via Barnabas' cave entry.",
+	
+	// DEEPSEA UNLOCK TOTEMS
+	"Event.DeepSeaUnlockTotems.Whatsthis": "...what is this?",
+	"Event.DeepSeaUnlockTotems.Investigate": "Maybe this should be investigated...I will ask Barnabas about this tomorrow.",
+	
 	// GAMAYUN SPECIAL ORDER EVENT START 
 	"Event.GamayunSpecialOrderStart.HeyThere": "Greetings, @. One sees you are curious about this room.#$b#However, one has nothing to show.",
 	"Event.GamayunSpecialOrderStart.History": "This room was originally meant to house any artifacts found on this island but as you can see there are none.#$b#One is sadly too busy collecting and sorting the current amount of information...there is no time to go hunt for them oneself.#$b#This island is quite rich in history, you see.#$b#Starting with it's creation that involved magic and the blood, sweat and tears of our former king...",

@@ -215,8 +215,8 @@
 	"BiColoredSeaGrass.Description": "Funky grass that can be found everywhere in the deep sea.",
 	"AmbrosialBiomass.Name": "Ambrosial Biomass",
 	"AmbrosialBiomass.Description": "The scent attracts certain kinds of critters...",
-	"LeafShapedSazorscale.Name": "Leaf-Shaped Razor Scale",
-	"LeafShapedSazorscale.Description": "It looks like a leaf, yet feels like a fish scale...",
+	"LeafShapedRazorscale.Name": "Leaf-Shaped Razor Scale",
+	"LeafShapedRazorscale.Description": "It looks like a leaf, yet feels like a fish scale...",
 	
 	//==============================================================================================
 	//==== MINABLES ================================================================================
@@ -307,7 +307,7 @@
 	"RoseTintedEncyclopedia.Description": "What use is it to only read about the good things? Stay in your little bubble then...",
 	
 	//==============================================================================================
-	//==== A R T I F A C T S =============================================================================
+	//==== A R T I F A C T S =======================================================================
 	//==============================================================================================
 	"OldLootedCoins.Name": "Old Looted Coins",
 	"OldLootedCoins.Description": "A bunch of old coins leftover from old pirate loot. The symbol on the coins make them appear a bit like banana chips...",
@@ -470,7 +470,16 @@
 	"seaslug.Fish.description": "Partially translucent, the color can warn other animals of the sea slug's toxic stinging cells.",
 	"fanlobster.Fish.name": "Fan Lobster",
 	"fanlobster.Fish.description": "Ibacus ciliatus is a species of slipper lobster. It's body is remarkably flattened.",
-	
+	"Spiritfish.Fish.name": "Spiritfish",
+	"Spiritfish.Fish.description": "Almun Spiritus. An odd fish found in vigor rich areas. Some say they were the familiars of the late merfolk king Llyr.",
+	"Hatchetfish.Fish.name": "Hatchetfish",
+	"Hatchetfish.Fish.description": "Sternoptyx obscura are well camouflaged. Like many deep sea fishes, they have light-producing organs in rows along their bellies.",
+	"DeepSeaAngler.Fish.name": "Deep-Sea Angler",
+	"DeepSeaAngler.Fish.description": "Order Lophiiformes. Instead of expending energy to hunt their prey, deep-sea anglerfish have developed a fishing pole-like rod that projects from their head.",
+	"RedPaperLanternJelly.Fish.name": "Red Paper Lantern Jelly",
+	"RedPaperLanternJelly.Fish.description": "Pandea rubra. With each pulse, its tall bell folds in on itself like origami paper and reveals a network of muscles.",
+	"ArbiterSnailfish.Fish.name": "Arbiter Snailfish",
+	"ArbiterSnailfish.Fish.description": "Careproctus kamikawai. Swift currents sweep along the seafloor so it swims against these currents and hovers above the seafloor while searching for snacks.",
 	
 	//==============================================================================================
 	//==== F U R N I T U R E  ======================================================================

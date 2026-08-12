@@ -792,7 +792,8 @@
 						"fish_has_roe",
 						"{{ModId}}_fish",
 						"gambezi_item",
-						"VWC_fishmonger_item"
+						"VWC_fishmonger_item",
+						"fish_chamber_banned"
 					]
 				},
 				"{{ModID}}_RedPaperLanternJelly": {

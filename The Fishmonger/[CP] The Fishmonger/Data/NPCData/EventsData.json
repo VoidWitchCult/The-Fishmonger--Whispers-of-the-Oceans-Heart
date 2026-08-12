@@ -2637,7 +2637,7 @@
 		},
 		
 		{
-			"LogName": "Fishmonger - Barnabas 10 Hearts event",
+			"LogName": "Fishmonger - Barnabas 14 Hearts event",
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_NorthEastQuarry",
 			"Entries": {
@@ -2757,6 +2757,93 @@
 			},
 		},
 		{
+			"LogName": "Fishmonger - Barnabas Underwater start event",
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_LostIsland_SeaDudeHome_Cave",
+			"Entries": {
+				"{{ModID}}_SeaDudeBarnabasUnderwaterStart/t 600 1800/SawEvent {{ModID}}_SeaDudeBarnabasIntro/Friendship {{ModID}}_SeaDudeBarnabas 2000": "
+				SunRoom/
+				-1000 -1000/
+				farmer 10 5 2 {{ModID}}_SeaDudeBarnabas 9 15 2/
+				pause 300/
+				playSound stairsdown/
+				skippable/
+				viewport 9 18 clamp true/
+				pause 600/
+				move farmer 0 9 2/
+				pause 300/
+				textAboveHead {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.UnderwaterStart.Hm}}\"/ 
+				pause 1200/
+				emote farmer 8/
+				pause 400/
+				emote {{ModID}}_SeaDudeBarnabas 16/
+				pause 1000/
+				faceDirection {{ModID}}_SeaDudeBarnabas 0/
+				pause 200/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.UnderwaterStart.Greetings}}\"/ 
+				pause 400/
+				faceDirection {{ModID}}_SeaDudeBarnabas 2/
+				pause 500/
+				emote farmer 32/
+				pause 1000/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.UnderwaterStart.Anyway}}\"/ 
+				pause 500/
+				faceDirection {{ModID}}_SeaDudeBarnabas 3/
+				pause 200/
+				faceDirection {{ModID}}_SeaDudeBarnabas 2/
+				pause 200/
+				faceDirection {{ModID}}_SeaDudeBarnabas 1/
+				pause 200/
+				faceDirection {{ModID}}_SeaDudeBarnabas 2/
+				pause 300/
+				emote {{ModID}}_SeaDudeBarnabas 40/
+				pause 1200/
+				emote farmer 16/
+				pause 1200/
+				speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.UnderwaterStart.Help}}\"/ 
+				pause 600/
+				emote farmer 8/
+				pause 1000/
+				globalFade/viewport -1000 -1000/
+				message \"{{i18n:Event.UnderwaterStart.Blessing}}\"/ 
+				pause 600/end
+				"
+			},
+		},
+		{
+			"LogName": "Fishmonger - Barnabas Underwater start event",
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_DeepSea_RightVentricle",
+			"Entries": {
+				"{{ModID}}_DeepSeaUnlockTotems/t 600 2600/SawEvent {{ModID}}_SeaDudeBarnabasUnderwaterStart": "
+				junimoKart_whaleMusic/
+				-1000 -1000/
+				farmer 18 15 1/
+				pause 300/
+				skippable/
+				
+				viewport 38 11 clamp true/
+				move farmer 16 0 1/
+				pause 300/
+				emote farmer 8/
+				pause 1200/
+				faceDirection farmer 0/
+				pause 300/
+				faceDirection farmer 1/
+				pause 300/
+				faceDirection farmer 0/
+				pause 300/
+				message \"{{i18n:Event.DeepSeaUnlockTotems.Whatsthis}}\"/ 
+				pause 300/
+				message \"{{i18n:Event.DeepSeaUnlockTotems.Investigate}}\"/ 
+				addConversationTopic {{ModID}}_DeepSeaUnlockTotemCT/
+				pause 1000/
+				globalFade/viewport -1000 -1000/
+				pause 600/end
+				"
+			},
+		},
+		{
 			"LogName": "Fishmonger - Barnabas PlayerKilled event",
 			"Action": "EditData",
 			"Target": "Data/Events/{{ModId}}_LostIsland_SeaDudeHome",
@@ -2783,6 +2870,7 @@
 				"
 			},
 		},
+		
 		// SPECIAL ORDERS
 		{
 			"LogName": "Fishmonger - Gamayun Special Order start event",

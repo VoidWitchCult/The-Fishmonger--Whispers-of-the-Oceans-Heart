@@ -1,0 +1,28 @@
+{
+    "Changes": [
+        // load the icon for the powers tab
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/DeepSeaBlessingIcon",
+            "FromFile": "assets/Items/DeepSeaBlessingIcon.png"
+        },
+
+        // add the power
+        {
+            "Action": "EditData",
+            "Target": "Data/Powers",
+            "Entries": {
+                "{{ModId}}_DeepSeaBlessing": {
+                    "DisplayName": "{{i18n:Powers.DeepSea.Name}}",
+                    "Description": "{{i18n:Powers.DeepSea.Desc}}",
+                    "TexturePath": "Mods/{{ModId}}/DeepSeaBlessingIcon",
+                    "TexturePosition": {
+                        "X": 0,  // top-left corner of the canvas, assuming that this is the only sprite in the icon image
+                        "Y": 0
+                    },
+                    "UnlockedCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_SeaDudeBarnabasUnderwaterStart",
+                }
+            }
+        }
+    ]
+}

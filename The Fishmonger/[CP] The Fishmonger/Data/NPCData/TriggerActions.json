@@ -106,6 +106,42 @@
 					"Condition": "PLAYER_SPECIAL_ORDER_COMPLETE Any {{ModID}}_GamayunLibrarySpecialOrder",
                     "Action": "AddMail Current {{ModId}}_LibrarySOFinishedFlag"
 				},
+				"{{ModID}}_DeepSeaUnlockTotemsStart1": {
+                    "Id": "{{ModID}}_DeepSeaUnlockTotemsStart1",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_DeepSeaUnlockTotems",
+                    "Action": "AddSpecialOrder {{ModId}}_DeepSeaSpecialOrder1"
+				},
+				"{{ModID}}_DeepSeaUnlockTotemsStart2": {
+                    "Id": "{{ModID}}_DeepSeaUnlockTotemsStart2",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_SPECIAL_ORDER_COMPLETE Any {{ModID}}_DeepSeaSpecialOrder1",
+                    "Action": "AddSpecialOrder {{ModId}}_DeepSeaSpecialOrder2"
+				},
+				"{{ModID}}_DeepSeaUnlockTotemsStart3": {
+                    "Id": "{{ModID}}_DeepSeaUnlockTotemsStart3",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_SPECIAL_ORDER_COMPLETE Any {{ModID}}_DeepSeaSpecialOrder2",
+                    "Action": "AddSpecialOrder {{ModId}}_DeepSeaSpecialOrder3"
+				},
+				"{{ModID}}_DeepSeaUnlockTotemsStart4": {
+                    "Id": "{{ModID}}_DeepSeaUnlockTotemsStart4",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_SPECIAL_ORDER_COMPLETE Any {{ModID}}_DeepSeaSpecialOrder3",
+                    "Action": "AddSpecialOrder {{ModId}}_DeepSeaSpecialOrder4"
+				},
+				"{{ModID}}_DeepSeaUnlockTotemsStart5": {
+                    "Id": "{{ModID}}_DeepSeaUnlockTotemsStart5",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_SPECIAL_ORDER_COMPLETE Any {{ModID}}_DeepSeaSpecialOrder4",
+                    "Action": "AddSpecialOrder {{ModId}}_DeepSeaSpecialOrder5"
+				},
+				"{{ModID}}_DeepSeaUnlockTotemFinishedFlag": {
+                    "Id": "{{ModID}}_DeepSeaUnlockTotemFinishedFlag",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_SPECIAL_ORDER_COMPLETE Any {{ModID}}_DeepSeaSpecialOrder5",
+                    "Action": "AddMail Current {{ModId}}_DeepSeaUnlockTotemFinishedFlag"
+				},
 			}
 		}
 	]

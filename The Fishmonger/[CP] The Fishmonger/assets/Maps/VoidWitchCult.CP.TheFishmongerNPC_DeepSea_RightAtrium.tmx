@@ -4,7 +4,7 @@
   <property name="AllowGrassSurviveInWinter" value="T"/>
   <property name="BrookSounds" value="2 23 0 33 3 0 20 35 0"/>
   <property name="Light" value="37 23 4 35 21 4 36 20 4 19 9 4 18 10 4 8 10 4 13 25 4 14 28 4 13 29 4 10 31 4 13 40 4 14 42 4 26 27 4 25 28 4 27 30 4 24 37 4 23 38 4 31 47 4 29 49 4"/>
-  <property name="LocationContext" value="VoidWitchCult.CP.TheFishmongerNPC_LostIslandPassOut"/>
+  <property name="LocationContext" value="VoidWitchCult.CP.TheFishmongerNPC_DeepSeaPassOut"/>
   <property name="Outdoors" value="T"/>
   <property name="SeasonOverride" value="summer"/>
  </properties>

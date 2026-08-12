@@ -1792,27 +1792,27 @@
 						{
 							"Id": "(O)DeepSeaForage",
 							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage2",
 							"ItemId": "(O){{ModID}}_DivineBoneFragment",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage3",
 							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage4",
 							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage5",
 							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 
 					],
@@ -1862,27 +1862,27 @@
 						{
 							"Id": "(O)DeepSeaForage",
 							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage2",
 							"ItemId": "(O){{ModID}}_DivineBoneFragment",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage3",
 							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage4",
 							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage5",
 							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 					],
 					"MinDailyWeeds": 0,
@@ -1903,7 +1903,7 @@
 					"MusicIgnoredInRain": true,
 				},
 				//==============================================================================================
-				//==== Left VENTRICLE ==========================================================================
+				//==== LEFT VENTRICLE ==========================================================================
 				//==============================================================================================
 				"{{ModId}}_DeepSea_LeftVentricle": {
 					"DisplayName": "{{i18n:Locations.LeftVentricle}}",
@@ -1931,27 +1931,27 @@
 						{
 							"Id": "(O)DeepSeaForage",
 							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage2",
 							"ItemId": "(O){{ModID}}_DivineBoneFragment",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage3",
 							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage4",
 							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage5",
 							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 					],
 					"MinDailyWeeds": 0,
@@ -2030,27 +2030,27 @@
 						{
 							"Id": "(O)DeepSeaForage",
 							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage2",
 							"ItemId": "(O){{ModID}}_DivineBoneFragment",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage3",
 							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage4",
 							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage5",
 							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 					],
 					"MinDailyWeeds": 0,
@@ -2124,27 +2124,27 @@
 						{
 							"Id": "(O)DeepSeaForage",
 							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage2",
 							"ItemId": "(O){{ModID}}_DivineBoneFragment",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage3",
 							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage4",
 							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage5",
 							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 					],
 					"MinDailyWeeds": 0,
@@ -2218,27 +2218,27 @@
 						{
 							"Id": "(O)DeepSeaForage",
 							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage2",
 							"ItemId": "(O){{ModID}}_DivineBoneFragment",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage3",
 							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage4",
 							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage5",
 							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 					],
 					"MinDailyWeeds": 0,
@@ -2287,27 +2287,27 @@
 						{
 							"Id": "(O)DeepSeaForage",
 							"ItemId": "(O){{ModID}}_SymbioticSilverAlloyedNeedle",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage2",
 							"ItemId": "(O){{ModID}}_DivineBoneFragment",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage3",
 							"ItemId": "(O){{ModID}}_BiColoredSeaGrass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage4",
 							"ItemId": "(O){{ModID}}_AmbrosialBiomass",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 						{
 							"Id": "(O)DeepSeaForage5",
 							"ItemId": "(O){{ModID}}_LeafShapedRazorscale",
-							"Chance": 0.15
+							"Chance": 0.05
 						},
 					],
 					"MinDailyWeeds": 0,

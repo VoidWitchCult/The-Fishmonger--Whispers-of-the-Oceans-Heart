@@ -138,4 +138,7 @@
 	
 	// BARNABAS 14 HEARTS EVENT SETUP
 	"Barnabas14HeartsEventMention.Barnabas": "Hello, @!$1#$b#Say, I'd like to show you something...how about we meet up at the North-East Quarry around 8pm whenever you got time?$1",
+	
+	// DEEPSEA UNLOCK TOTEMS
+	"DeepSeaUnlockTotemCT.Barnabas": "Ah, hey there!$1#$b#Hm? Oh, you uh, went all the way down there, huh?#$b#......$7#$b#Well, alright...if you're really up to the task...those pillars are the seal I've mentioned.#$b#It's really dangerous what lies beyond, so...only undo it if you're really sure that you want to do this with me, okay?$7#$b#The seals are set up so that one one pillar can be freed one at a time.",
 }

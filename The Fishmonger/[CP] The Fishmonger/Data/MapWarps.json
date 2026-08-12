@@ -337,7 +337,7 @@
 				},
 			],
 			"When": {
-				"HasSeenEvent |contains=EVENTID": true // TODO: Replace this with a real event ID!
+				"HasSeenEvent |contains={{ModID}}_SeaDudeBarnabasUnderwaterStart": true 
 			}
 		},
 		{
@@ -628,8 +628,26 @@
 				"0 4 {{ModID}}_DeepSea_InferiorVenaCava 25 1",
 				"0 5 {{ModID}}_DeepSea_InferiorVenaCava 25 1",
 				"49 57 {{ModID}}_DeepSea_Lump 10 10",
-				"39 15 {{ModID}}_DeepSea_LeftVentricle 4 19",
 			],
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_DeepSea_RightVentricle",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 39,
+						"Y": 15
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 4 19 {{ModID}}_DeepSea_LeftVentricle 600 2600"
+					}
+				},
+			],
+			"When": {
+				"HasFlag|contains={{ModId}}_DeepSeaUnlockTotemFinishedFlag": "true",
+			}
 		},
 	]
 }

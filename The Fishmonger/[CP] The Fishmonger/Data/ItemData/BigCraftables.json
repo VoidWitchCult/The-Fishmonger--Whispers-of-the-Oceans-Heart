@@ -33,7 +33,8 @@
 						"color_blue",
 						"light_source",
 						"crow_scare",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"joja_prime_banned"
 					]
 				},
 				"{{ModID}}_CoolerFishmongerScarecrow": {
@@ -52,7 +53,8 @@
 						"color_blue",
 						"light_source",
 						"crow_scare",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"joja_prime_banned"
 					]
 				},
 				"{{ModID}}_TubOTropicalFlowers": {
@@ -68,7 +70,8 @@
                     "SpriteIndex": 2,
 					"ContextTags": [
                         "color_purple",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"joja_prime_banned"
 					]
 				},
 				"{{ModID}}_FlowerCrate": {
@@ -84,7 +87,8 @@
                     "SpriteIndex": 3,
 					"ContextTags": [
                         "color_purple",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"joja_prime_banned"
 					]
 				},
 				"{{ModID}}_IridescentCakeStand": {
@@ -102,7 +106,8 @@
                         "color_pink",
 						"color_blue",
 						"color_purple",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"joja_prime_banned"
 					]
 				},
 				"{{ModID}}_CrateOfPetrichor": {
@@ -119,7 +124,8 @@
 					"ContextTags": [
                         "color_purple",
 						"color_blue",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"joja_prime_banned"
 					]
 				},
 				"{{ModID}}_FloralArrangement": {
@@ -135,7 +141,8 @@
                     "SpriteIndex": 6,
 					"ContextTags": [
                         "color_green",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"joja_prime_banned"
 					]
 				},
 				"{{ModID}}_TropicalTikkiTorch": {
@@ -152,7 +159,8 @@
 					"ContextTags": [
                         "color_red",
 						"light_source",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"joja_prime_banned"
 					]
 				},
 				"{{ModID}}_TropicalBearPlanter": {
@@ -168,7 +176,8 @@
                     "SpriteIndex": 8,
 					"ContextTags": [
                         "color_brown",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"joja_prime_banned"
 					]
 				},
 				"{{ModID}}_HandcraftedFishCrate": {
@@ -184,7 +193,8 @@
                     "SpriteIndex": 9,
 					"ContextTags": [
                         "color_purple",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"joja_prime_banned"
 					]
 				},
 			}

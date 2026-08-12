@@ -297,7 +297,227 @@
             }
         },
 		//==============================================================================================
-		//==== MISC ====================================================================================
+		//==== DEEP SEA ================================================================================
 		//==============================================================================================
+		{
+            "LogName": "Add Special Orders",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "{{ModID}}_DeepSeaSpecialOrder1": {
+                    "Name": "{{i18n:SpecialOrder.DeepSea.Objective1.Name}}",
+                    "Requester": "{{ModID}}_Barnabas",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "island, !dropbox_deepsea1",
+                    "OrderType": "",
+                    "SpecialRule": "",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_DeepSeaUnlockTotems",
+                    "Text": "{{i18n:SpecialOrder.DeepSea.Objective1.Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.DeepSea.Objective1}}",
+							"RequiredCount": "100",
+							"Data": {
+								"DropBox": "dropbox_deepsea1",
+								"DropBoxGameLocation": "{{ModId}}_DeepSea_RightVentricle",
+								"DropBoxIndicatorLocation": "33 6",
+								"MinimumCapacity": "3",
+								"AcceptedContextTags": "item_{{ModID}}_SolidIchor/item_{{ModID}}_ClottedIchor/item_{{ModID}}_CrystallizedIchorGeode"							
+							}
+						},
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "1000000"
+                            }
+                        }
+                    ]
+                },
+                
+            }
+        },
+		{
+            "LogName": "Add Special Orders",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "{{ModID}}_DeepSeaSpecialOrder2": {
+                    "Name": "{{i18n:SpecialOrder.DeepSea.Objective2.Name}}",
+                    "Requester": "{{ModID}}_Barnabas",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "island, !dropbox_deepsea2",
+                    "OrderType": "",
+                    "SpecialRule": "",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_DeepSeaUnlockTotems",
+                    "Text": "{{i18n:SpecialOrder.DeepSea.Objective2.Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.DeepSea.Objective2}}",
+							"RequiredCount": "100",
+							"Data": {
+								"DropBox": "dropbox_deepsea2",
+								"DropBoxGameLocation": "{{ModId}}_DeepSea_RightVentricle",
+								"DropBoxIndicatorLocation": "36 6",
+								"MinimumCapacity": "1",
+								"AcceptedContextTags": "item_{{ModID}}_DivineBoneFragment"							
+							}
+						},
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "1000000"
+                            }
+                        }
+                    ]
+                },
+                
+            }
+        },
+		{
+            "LogName": "Add Special Orders",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "{{ModID}}_DeepSeaSpecialOrder3": {
+                    "Name": "{{i18n:SpecialOrder.DeepSea.Objective3.Name}}",
+                    "Requester": "{{ModID}}_Barnabas",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "island, !dropbox_deepsea3",
+                    "OrderType": "",
+                    "SpecialRule": "",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_DeepSeaUnlockTotems",
+                    "Text": "{{i18n:SpecialOrder.DeepSea.Objective3.Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.DeepSea.Objective3}}",
+							"RequiredCount": "100",
+							"Data": {
+								"DropBox": "dropbox_deepsea3",
+								"DropBoxGameLocation": "{{ModId}}_DeepSea_RightVentricle",
+								"DropBoxIndicatorLocation": "39 6",
+								"MinimumCapacity": "1",
+								"AcceptedContextTags": "item_{{ModID}}_SymbioticSilverAlloyedNeedle"							
+							}
+						},
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "1000000"
+                            }
+                        }
+                    ]
+                },
+                
+            }
+        },
+		{
+            "LogName": "Add Special Orders",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "{{ModID}}_DeepSeaSpecialOrder4": {
+                    "Name": "{{i18n:SpecialOrder.DeepSea.Objective4.Name}}",
+                    "Requester": "{{ModID}}_Barnabas",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "island, !dropbox_deepsea4",
+                    "OrderType": "",
+                    "SpecialRule": "",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_DeepSeaUnlockTotems",
+                    "Text": "{{i18n:SpecialOrder.DeepSea.Objective4.Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.DeepSea.Objective4}}",
+							"RequiredCount": "100",
+							"Data": {
+								"DropBox": "dropbox_deepsea4",
+								"DropBoxGameLocation": "{{ModId}}_DeepSea_RightVentricle",
+								"DropBoxIndicatorLocation": "42 6",
+								"MinimumCapacity": "1",
+								"AcceptedContextTags": "item_{{ModID}}_DeepseaDiamond"							
+							}
+						},
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "1000000"
+                            }
+                        }
+                    ]
+                },
+                
+            }
+        },
+		{
+            "LogName": "Add Special Orders",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "{{ModID}}_DeepSeaSpecialOrder5": {
+                    "Name": "{{i18n:SpecialOrder.DeepSea.Objective5.Name}}",
+                    "Requester": "{{ModID}}_Barnabas",
+                    "Duration": "Month ",
+                    "Repeatable": false,
+                    "RequiredTags": "island, !dropbox_deepsea5",
+                    "OrderType": "",
+                    "SpecialRule": "",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_DeepSeaUnlockTotems",
+                    "Text": "{{i18n:SpecialOrder.DeepSea.Objective5.Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:SpecialOrder.DeepSea.Objective5}}",
+							"RequiredCount": "100",
+							"Data": {
+								"DropBox": "dropbox_deepsea5",
+								"DropBoxGameLocation": "{{ModId}}_DeepSea_RightVentricle",
+								"DropBoxIndicatorLocation": "45 6",
+								"MinimumCapacity": "2",
+								"AcceptedContextTags": "item_{{ModID}}_FrostApple/item_{{ModID}}_GildedBranch"							
+							}
+						},
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "1000000"
+                            }
+                        }
+                    ]
+                },
+                
+            }
+        },
     ]
 }
