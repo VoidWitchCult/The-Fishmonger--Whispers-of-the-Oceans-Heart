@@ -254,7 +254,8 @@
                     "ContextTags": [
                         "color_red",
 						"mineral_item",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"not_museum_donatable"
 					]
 				},
 				"{{ModId}}_LushForestine": { 
@@ -273,7 +274,8 @@
                     "ContextTags": [
                         "color_green",
 						"mineral_item",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"not_museum_donatable"
 					]
 				},
 				"{{ModId}}_Chalcanthite": { 
@@ -292,7 +294,8 @@
                     "ContextTags": [
                         "color_blue",
 						"mineral_item",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"not_museum_donatable"
 					]
 				},
 				"{{ModId}}_DichromaticTaaffeite": { 
@@ -312,7 +315,8 @@
                         "color_blue",
 						"color_pink",
 						"mineral_item",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"not_museum_donatable"
 					]
 				},
 				"{{ModId}}_OpalizedAmmonite": { 
@@ -331,7 +335,8 @@
                     "ContextTags": [
                         "color_prismatic",
 						"mineral_item",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"not_museum_donatable"
 					]
 				},
 				"{{ModId}}_TaintedSeaShards": { 
@@ -350,7 +355,8 @@
                     "ContextTags": [
                         "color_pink",
 						"mineral_item",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"not_museum_donatable"
 					]
 				},
 				"{{ModId}}_DeepseaDiamond": { 
@@ -369,7 +375,8 @@
                     "ContextTags": [
                         "color_purple",
 						"mineral_item",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"not_museum_donatable"
 					]
 				},
 				"{{ModId}}_CrystallizedIchorGeode": { 
@@ -388,7 +395,8 @@
                     "ContextTags": [
                         "color_orange",
 						"mineral_item",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"not_museum_donatable"
 					]
 				},
 				"{{ModId}}_Realgar": { 
@@ -407,7 +415,8 @@
                     "ContextTags": [
                         "color_red",
 						"mineral_item",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"not_museum_donatable"
 					]
 				},
 				"{{ModId}}_Grandidierite": { 
@@ -426,7 +435,8 @@
                     "ContextTags": [
                         "color_purple",
 						"mineral_item",
-						"VWC_fishonger_item"
+						"VWC_fishonger_item",
+						"not_museum_donatable"
 					]
 				}
 			},

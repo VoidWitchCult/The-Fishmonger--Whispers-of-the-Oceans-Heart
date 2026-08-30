@@ -78,6 +78,21 @@
 						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_DigSpotGroup {{ModId}}_LostIsland 29,48,28,46"
 					]
 				},
+				//MONSTERS
+				"{{ModId}}_SpawnMonsters1": {
+					"Id": "{{ModId}}_SpawnMonsters_DeepSea",
+					"Trigger": "DayStarted",
+					"MarkActionApplied": false,
+					"Actions": [
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_MonsterSpawnGroup1 {{ModId}}_DeepSea_Aorta 5,19,12,7/13,26,8,8/27,14,6,13/47,15,6,9",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_MonsterSpawnGroup1 {{ModId}}_DeepSea_InferiorVenaCava 5,4,20,5/4,9,9,20",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_MonsterSpawnGroup1 {{ModId}}_DeepSea_LeftVentricle 3,20,16,8/12,27,7,7/36,44,10,8/34,6,10,5",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_MonsterSpawnGroup1 {{ModId}}_DeepSea_Lump 6,11,4,5/15,12,4,4/12,29,8,2",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_MonsterSpawnGroup1 {{ModId}}_DeepSea_PulmonaryArteries 26,12,20,9/14,27,10,10/42,11,8,8",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_MonsterSpawnGroup1 {{ModId}}_DeepSea_RightAtrium 12,17,8,9/13,44,16,5",
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_MonsterSpawnGroup1 {{ModId}}_DeepSea_RightVentricle 13,15,18,14/35,25,12,15",
+					]
+				},
 			}
 		},
 		//The spawns themselves. It's a dictionary with the key being the ID (referred to in spawn groups), and the value consisting of a Type field, with more fields depending on the type.
@@ -271,6 +286,56 @@
 					],
 					"ForageableIsTillSpot": true,
 				},
+				// Monsters
+                "{{ModID}}_Monster_DuggyKidneyStone": {
+                    "Type": "Monster",
+                    "MonsterType": "Duggy",
+                    "MonsterName": "{{ModID}}_Monster_DuggyKidneyStone",
+                    "MonsterTextureOverride": "Monsters/{{ModID}}/DuggyKidneyStone",
+                    "MonsterAdditionalData": {}
+				},
+				"{{ModID}}_Monster_DustSpiritEye": {
+                    "Type": "Monster",
+                    "MonsterType": "DustSpirit",
+                    "MonsterName": "{{ModID}}_Monster_DustSpiritEye",
+                    "MonsterTextureOverride": "Monsters/{{ModID}}/DustSpiritEye",
+                    "MonsterAdditionalData": {}
+				},
+				"{{ModID}}_Monster_GolemOvergrown": {
+                    "Type": "Monster",
+                    "MonsterType": "RockGolem",
+                    "MonsterName": "{{ModID}}_Monster_GolemOvergrown",
+                    "MonsterTextureOverride": "Monsters/{{ModID}}/GolemOvergrown",
+                    "MonsterAdditionalData": {}
+				},
+				"{{ModID}}_Monster_RockCrabDeepSea": {
+                    "Type": "Monster",
+                    "MonsterType": "RockCrab",
+                    "MonsterName": "{{ModID}}_Monster_RockCrabDeepSea",
+                    "MonsterTextureOverride": "Monsters/{{ModID}}/RockCrabDeepSea",
+                    "MonsterAdditionalData": {}
+				},
+				"{{ModID}}_Monster_RoyalSerpentEel": {
+                    "Type": "Monster",
+                    "MonsterType": "Serpent",
+                    "MonsterName": "{{ModID}}_Monster_RoyalSerpentEel",
+                    "MonsterTextureOverride": "Monsters/{{ModID}}/RoyalSerpentEel",
+                    "MonsterAdditionalData": { "SegmentCount": 5 }
+				},
+				"{{ModID}}_Monster_SkeletonMageMerfolk": {
+                    "Type": "Monster",
+                    "MonsterType": "Skeleton",
+                    "MonsterName": "{{ModID}}_Monster_SkeletonMageMerfolk",
+                    "MonsterTextureOverride": "Monsters/{{ModID}}/SkeletonMageMerfolk",
+                    "MonsterAdditionalData": { "IsMage": true }
+				},
+				"{{ModID}}_Monster_SkeletonMerfolk": {
+                    "Type": "Monster",
+                    "MonsterType": "Skeleton",
+                    "MonsterName": "{{ModID}}_Monster_SkeletonMerfolk",
+                    "MonsterTextureOverride": "Monsters/{{ModID}}/SkeletonMerfolk",
+                    "MonsterAdditionalData": {}
+				},
 			}
 		},
 		// A group of spawn definitions that are spawned together, specified with a trigger action. This is a dictionary with the key being the ID (referred to from trigger actions), and the value being an object.
@@ -356,97 +421,142 @@
 						}
 					]
 				},
+				//MONSTER SPAWN GROUPS
+				"{{ModId}}_MonsterSpawnGroup1": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 0.3,
+									"Value": "{{ModID}}_Monster_DuggyKidneyStone"
+								},
+								{
+									"Weight": 0.3,
+									"Value": "{{ModId}}_Monster_DustSpiritEye"
+								},
+								{
+									"Weight": 0.3,
+									"Value": "{{ModId}}_Monster_GolemOvergrown"
+								},
+								{
+									"Weight": 0.3,
+									"Value": "{{ModId}}_Monster_RockCrabDeepSea"
+								},
+								{
+									"Weight": 0.3,
+									"Value": "{{ModId}}_Monster_SkeletonMageMerfolk"
+								},
+								{
+									"Weight": 0.3,
+									"Value": "{{ModId}}_Monster_SkeletonMerfolk"
+								},
+							],
+							"Minimum": 10,
+							"Maximum": 30
+						},
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1,
+									"Value": "{{ModID}}_Monster_RoyalSerpentEel"
+								},
+							],
+							"Minimum": 0,
+							"Maximum": 1
+						}
+					]
+				},
 			}
 		},
 		//==============================================================================================
 		//==== FURNITURE DESCRIPTIONS ==================================================================
 		//==============================================================================================
 		{
-    "Action": "EditData",
-    "Target": "spacechase0.SpaceCore/FurnitureExtensionData",
-    "Entries": {
-        "{{ModId}}_MermaidBed": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidBed}}"
-        },
-        "{{ModId}}_MermaidChair": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidChair}}"
-        },
-        "{{ModId}}_MermaidTeaTable": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidTeaTable}}"
-        },
-        "{{ModId}}_MermaidTeaTable2": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidTeaTable2}}"
-        },
-        "{{ModId}}_PileOfMermaidWood": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.PileOfMermaidWood}}"
-        },
-        "{{ModId}}_PileOfMermaidWood2": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.PileOfMermaidWood2}}"
-        },
-		"{{ModId}}_MermaidEndTable": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidEndTable}}"
-        },
-        "{{ModId}}_MermaidEndTable2": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidEndTable2}}"
-        },
-		"{{ModId}}_PiratePlushie": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.PiratePlushie}}]"
-        },
-        "{{ModId}}_SeaDudePlushie": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.SeaDudePlushie}}"
-        },
-		"{{ModId}}_PottedMermaidBush": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.PottedMermaidBush}}"
-        },
-        "{{ModId}}_FishLamp": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.FishLamp}}"
-        },
-		"{{ModId}}_MermaidCoffeeTable": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidCoffeeTable}}"
-        },
-        "{{ModId}}_MermaidCoffeeTable2": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidCoffeeTable2}}"
-        },
-		"{{ModId}}_MermaidFireplace": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidFireplace}}"
-        },
-        "{{ModId}}_SharkFireplace": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.SharkFireplace}}"
-        },
-		"{{ModId}}_DepictionOfHer": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.DepictionOfHer}}"
-        },
-        "{{ModId}}_JellyfishRug": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.JellyfishRug}}"
-        },
-		"{{ModId}}_MyHeartProfound": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.MyHeartProfound}}"
-        },
-        "{{ModId}}_JellyfishBanner": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.JellyfishBanner}}"
-        },
-		"{{ModId}}_PirateBanner": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.PirateBanner}}"
-        },
-        "{{ModId}}_MermaidDoor": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.MermaidDoor}}"
-        },
-		"{{ModId}}_FloralCart": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.FloralCart}}"
-        },
-		"{{ModId}}_PirateGalSpousePortrait": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.PirateGalSpousePortrait}}"
-        },
-		"{{ModId}}_SeaDudeSpousePortrait": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.SeaDudeSpousePortrait}}"
-        },
-		"{{ModId}}_FloralRug": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.FloralRug}}"
-        },
-		"{{ModId}}_LibraryRug": {
-            "DescriptionOverride": "{{i18n:Furniture.Description.LibraryRug}}"
-        }
-    }
-},
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/FurnitureExtensionData",
+			"Entries": {
+				"{{ModId}}_MermaidBed": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.MermaidBed}}"
+				},
+				"{{ModId}}_MermaidChair": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.MermaidChair}}"
+				},
+				"{{ModId}}_MermaidTeaTable": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.MermaidTeaTable}}"
+				},
+				"{{ModId}}_MermaidTeaTable2": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.MermaidTeaTable2}}"
+				},
+				"{{ModId}}_PileOfMermaidWood": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.PileOfMermaidWood}}"
+				},
+				"{{ModId}}_PileOfMermaidWood2": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.PileOfMermaidWood2}}"
+				},
+				"{{ModId}}_MermaidEndTable": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.MermaidEndTable}}"
+				},
+				"{{ModId}}_MermaidEndTable2": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.MermaidEndTable2}}"
+				},
+				"{{ModId}}_PiratePlushie": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.PiratePlushie}}]"
+				},
+				"{{ModId}}_SeaDudePlushie": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.SeaDudePlushie}}"
+				},
+				"{{ModId}}_PottedMermaidBush": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.PottedMermaidBush}}"
+				},
+				"{{ModId}}_FishLamp": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.FishLamp}}"
+				},
+				"{{ModId}}_MermaidCoffeeTable": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.MermaidCoffeeTable}}"
+				},
+				"{{ModId}}_MermaidCoffeeTable2": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.MermaidCoffeeTable2}}"
+				},
+				"{{ModId}}_MermaidFireplace": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.MermaidFireplace}}"
+				},
+				"{{ModId}}_SharkFireplace": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.SharkFireplace}}"
+				},
+				"{{ModId}}_DepictionOfHer": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.DepictionOfHer}}"
+				},
+				"{{ModId}}_JellyfishRug": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.JellyfishRug}}"
+				},
+				"{{ModId}}_MyHeartProfound": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.MyHeartProfound}}"
+				},
+				"{{ModId}}_JellyfishBanner": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.JellyfishBanner}}"
+				},
+				"{{ModId}}_PirateBanner": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.PirateBanner}}"
+				},
+				"{{ModId}}_MermaidDoor": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.MermaidDoor}}"
+				},
+				"{{ModId}}_FloralCart": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.FloralCart}}"
+				},
+				"{{ModId}}_PirateGalSpousePortrait": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.PirateGalSpousePortrait}}"
+				},
+				"{{ModId}}_SeaDudeSpousePortrait": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.SeaDudeSpousePortrait}}"
+				},
+				"{{ModId}}_FloralRug": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.FloralRug}}"
+				},
+				"{{ModId}}_LibraryRug": {
+					"DescriptionOverride": "{{i18n:Furniture.Description.LibraryRug}}"
+				}
+			}
+		},
 	]
 }

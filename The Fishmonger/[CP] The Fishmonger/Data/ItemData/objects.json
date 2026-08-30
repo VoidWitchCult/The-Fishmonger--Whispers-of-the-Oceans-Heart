@@ -2031,6 +2031,40 @@
 						"forage_box_banned"
 					],
 				},
+				"{{ModID}}_KidneyStone": {
+                    "Name": "{{ModID}}_KidneyStone",
+                    "DisplayName": "{{i18n:KidneyStone.Name}}",
+                    "Description": "{{i18n:KidneyStone.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 192,
+					"ContextTags": [
+						"color_yellow",
+						"monster_item",
+						"VWC_fishmonger_item",
+						"forage_box_banned"
+					],
+				},
+				"{{ModID}}_CrystallizedCarapace": {
+                    "Name": "{{ModID}}_CrystallizedCarapace",
+                    "DisplayName": "{{i18n:CrystallizedCarapace.Name}}",
+                    "Description": "{{i18n:CrystallizedCarapace.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_fishmonger_objects",
+                    "SpriteIndex": 193,
+					"ContextTags": [
+						"color_purple",
+						"monster_item",
+						"VWC_fishmonger_item",
+						"forage_box_banned"
+					],
+				},
 				//==============================================================================================
 				//==== ARTIFACTS ===============================================================================
 				//==============================================================================================

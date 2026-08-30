@@ -2821,7 +2821,6 @@
 				farmer 18 15 1/
 				pause 300/
 				skippable/
-				
 				viewport 38 11 clamp true/
 				move farmer 16 0 1/
 				pause 300/
@@ -2837,6 +2836,26 @@
 				pause 300/
 				message \"{{i18n:Event.DeepSeaUnlockTotems.Investigate}}\"/ 
 				addConversationTopic {{ModID}}_DeepSeaUnlockTotemCT/
+				pause 1000/
+				globalFade/viewport -1000 -1000/
+				pause 600/end
+				"
+			},
+		},
+		{
+			"LogName": "Fishmonger - Barnabas Underwater fight event",
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_DeepSea_LeftVentricle",
+			"Entries": {
+				"{{ModID}}_DeepSeaUnderwaterFight/t 600 2600/SawEvent {{ModID}}_DeepSeaUnlockTotems/GameStateQuery X": "
+				junimoKart_whaleMusic/
+				-1000 -1000/
+				farmer 18 15 1/
+				pause 300/
+				skippable/
+				viewport 38 11 clamp true/
+				
+				
 				pause 1000/
 				globalFade/viewport -1000 -1000/
 				pause 600/end
