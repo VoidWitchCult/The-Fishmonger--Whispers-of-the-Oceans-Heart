@@ -2843,25 +2843,61 @@
 			},
 		},
 		{
-			"LogName": "Fishmonger - Barnabas Underwater fight event",
-			"Action": "EditData",
-			"Target": "Data/Events/{{ModId}}_DeepSea_LeftVentricle",
-			"Entries": {
-				"{{ModID}}_DeepSeaUnderwaterFight/t 600 2600/SawEvent {{ModID}}_DeepSeaUnlockTotems/GameStateQuery X": "
-				junimoKart_whaleMusic/
-				-1000 -1000/
-				farmer 18 15 1/
-				pause 300/
-				skippable/
-				viewport 38 11 clamp true/
-				
-				
-				pause 1000/
-				globalFade/viewport -1000 -1000/
-				pause 600/end
-				"
-			},
-		},
+	"LogName": "Fishmonger - Barnabas Underwater fight event",
+	"Action": "EditData",
+	"Target": "Data/Events/{{ModId}}_DeepSea_LeftVentricle",
+	"Entries": {
+		"{{ModID}}_DeepSeaUnderwaterFight/t 600 2600/SawEvent {{ModID}}_DeepSeaUnlockTotems/GameStateQuery X": "
+		junimoKart_whaleMusic/
+		-1000 -1000/
+		farmer 4 20 1 {{ModID}}_SeaDudeBarnabas 6 20 3/
+		pause 300/
+		
+		temporaryAnimatedSprite Maps\\VWCF_LostIsland_Underwater_TAS 0 0 7 8 500 4 1000 30 30 false false 25 0 0 0 0 0/
+		
+		skippable/
+		viewport 10 20 clamp true/
+		pause 400/
+		speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.DeepSeaFight.AreYouSure}}\"/
+		/question fork0 \"#{{i18n:Event.DeepSeaFight.ForkAnswerNo}}#{{i18n:Event.DeepSeaFight.ForkAnswerYes}}\"/fork NoFight/
+		pause 600/
+		
+		speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.DeepSeaFight.YouReady}}\"/
+		pause 800/
+		faceDirection {{ModID}}_SeaDudeBarnabas 1/
+		pause 400/
+		emote farmer 40/
+		pause 600/
+		speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.DeepSeaFight.OverThere}}\"/
+		viewport move 10 -3 2000/
+		pause 200/
+		playSound thunder/
+		screenFlash 5/
+		viewport 15 30 clamp true/
+		screenshake 20 4/
+		pause 600/
+		speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.DeepSeaFight.Ugh}}\"/
+		pause 400/
+		playSound flameSpellHit/
+		pause 800/
+		jump farmer 4/
+		emote {{ModID}}_SeaDudeBarnabas 12/
+		pause 1200/
+		
+		temporaryAnimatedSprite LooseSprites\\Cursors 359 1437 14 14 999999 1 999999 29 29 false false 28 0.01667 1 0 0 0.3 motion -0.7 0.6/
+		
+		pause 10000/
+		globalFade/viewport -1000 -1000/
+		pause 600/end warpOut
+		",
+		"NoFight": "
+		speak {{ModID}}_SeaDudeBarnabas \"{{i18n:Event.DeepSeaFight.ItsFine}}\"/
+		pause 1000/
+		globalFade/viewport -1000 -1000/eventSeen {{ModID}}_DeepSeaUnderwaterFight false/
+		pause 600/end warpOut
+		",
+	},
+},
 		{
 			"LogName": "Fishmonger - Barnabas PlayerKilled event",
 			"Action": "EditData",

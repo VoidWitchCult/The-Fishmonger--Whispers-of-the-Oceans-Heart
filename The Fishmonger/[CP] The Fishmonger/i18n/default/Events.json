@@ -104,9 +104,6 @@
 	"Event.Fishmonger10HeartEvent.Kiss": "You may now kiss the bride.",
 	"Event.Fishmonger10HeartEvent.Grown": "Aw, they grow up so fast....I'm so happy for my sister! $2",
 	"Event.Fishmonger10HeartEvent.Go": "You go, girl!",
-	"Event.Fishmonger10HeartEvent.WORD": "WORD",
-	"Event.Fishmonger10HeartEvent.WORD": "WORD",
-	"Event.Fishmonger10HeartEvent.WORD": "WORD",
 	
 	// INTRODUCTION CALLIOPE
 	"Event.MermaidCalliopeIntro.Hello": "Hello there!",
@@ -367,8 +364,6 @@
 	"Event.CoolGalBernadette10HeartsPart2.Nonsense": "Nonsense. How can my little Bern ever disturb me?#$b#Ah, it would be so nice to be able to just teleport here whenever I want, hah!$1",
 	"Event.CoolGalBernadette10HeartsPart2.Tunes": "Now, come here, Bern. I've listened to your tunes from the outside, how about we celebrate this reunion with some good jam?$1",
 	"Event.CoolGalBernadette10HeartsPart2.Visiting": "Armand will now visit the island occasionally.",
-	"Event.CoolGalBernadette10HeartsPart2.WORD": "WORD",
-	"Event.CoolGalBernadette10HeartsPart2.WORD": "WORD",
 	
 	// INTRO EVENT BARNABAS
 	"Event.SeaDudeBarnabasIntro.HiThere": "Oh? Hello!#$b#You're new here, aren't'cha?$1",
@@ -459,6 +454,23 @@
 	// DEEPSEA UNLOCK TOTEMS
 	"Event.DeepSeaUnlockTotems.Whatsthis": "...what is this?",
 	"Event.DeepSeaUnlockTotems.Investigate": "Maybe this should be investigated...I will ask Barnabas about this tomorrow.",
+	
+	//DEEPSEA FIGHT
+	"Event.DeepSeaFight.AreYouSure": "Are you sure you want to do this right now?",
+	"Event.DeepSeaFight.ForkAnswerNo": "No...actually, I need more time to prepare.",
+	"Event.DeepSeaFight.ForkAnswerYes": "Yes, let's do this!",
+	"Event.DeepSeaFight.ItsFine": "Yeah, I understand. Let me know when you're ready to take this on.$1",
+	"Event.DeepSeaFight.YouReady": "Alright, got it!#$b#Don't worry about anything, I won't let harm fall upon you.$1",
+	"Event.DeepSeaFight.OverThere": "Look...over there.$7#$b#...that is...the root of the problems here.$7#$b#That massive, heart-shaped growth pumps it's taint into the deepsea contamination everything in it's reach.$7",
+	"Event.DeepSeaFight.Ugh": "Ugh...$5#$b#...so much for a surprise attack..$7",
+	"Event.DeepSeaFight.WORD": "WORD",
+	"Event.DeepSeaFight.WORD": "WORD",
+	"Event.DeepSeaFight.WORD": "WORD",
+	"Event.DeepSeaFight.WORD": "WORD",
+	"Event.DeepSeaFight.WORD": "WORD",
+	"Event.DeepSeaFight.WORD": "WORD",
+	"Event.DeepSeaFight.WORD": "WORD",
+	"Event.DeepSeaFight.WORD": "WORD",
 	
 	// GAMAYUN SPECIAL ORDER EVENT START 
 	"Event.GamayunSpecialOrderStart.HeyThere": "Greetings, @. One sees you are curious about this room.#$b#However, one has nothing to show.",
